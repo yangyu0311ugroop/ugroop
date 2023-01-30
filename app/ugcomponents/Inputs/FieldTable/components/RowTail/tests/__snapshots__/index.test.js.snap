@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldTableRowTail /> #render() still matches snapshot 1`] = `
+<WithStyles(IconButton)
+  onClick={null}
+  tooltip="Remove"
+>
+  <WithStyles(Icon)
+    icon="lnr-trash2"
+  />
+</WithStyles(IconButton)>
+`;

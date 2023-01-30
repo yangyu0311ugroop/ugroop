@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRatingDialog /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    loading={false}
+    onValidSubmit={[Function]}
+    renderHeader={[Function]}
+    size="xs"
+    submitButtonContent="Post"
+  >
+    renderDialogContent
+  </WithStyles(GenericForm)>
+</div>
+`;
+
+exports[`<AddRatingDialog /> renderDialogContent should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RatingForm)))
+    error={false}
+  />
+</div>
+`;
+
+exports[`<AddRatingDialog /> renderDialogHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="Rate and Review"
+  />
+</div>
+`;

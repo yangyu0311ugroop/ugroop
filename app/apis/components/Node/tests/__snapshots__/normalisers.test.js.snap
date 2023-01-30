@@ -1,0 +1,1212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 1 1`] = `
+Object {
+  "nodes": [Function],
+  "organisationTours": [Function],
+  "raw": Object {
+    "1": Object {
+      "id": 1,
+    },
+  },
+  "recentActivityIds": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 1 2`] = `
+Object {
+  "1": "removeItemsArray ",
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 1 3`] = `
+Array [
+  Array [
+    "1.children",
+    1,
+    2,
+  ],
+  Array [
+    "1.sortedChildren",
+    1,
+    2,
+  ],
+]
+`;
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 2 1`] = `
+Object {
+  "nodes": [Function],
+  "organisationTours": [Function],
+  "raw": Object {
+    "1": Object {
+      "id": 1,
+    },
+  },
+  "recentActivityIds": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 2 2`] = `
+Object {
+  "1": "removeItemsArray ",
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNode should call removeItemsArray 2 3`] = `
+Array [
+  Array [
+    "1.children",
+    1,
+    2,
+  ],
+]
+`;
+
+exports[`NodeNormaliser batchDeleteNode should return the store if items is not an array 1`] = `
+Object {
+  "nodes": [Function],
+  "organisationTours": [Function],
+  "raw": Object {
+    "1": Object {
+      "id": 1,
+    },
+  },
+  "recentActivityIds": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNode should return the store if items is not an array 2`] = `undefined`;
+
+exports[`NodeNormaliser batchDeleteNodeChildren should call removeItemsArray 1`] = `
+Object {
+  "nodes": [Function],
+  "raw": Object {
+    "1": Object {
+      "id": 1,
+    },
+  },
+  "recentActivityIds": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNodeChildren should call removeItemsArray 2`] = `
+Object {
+  "1": "removeItemsArray ",
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNodeChildren should call removeItemsArray 3`] = `
+Array [
+  Array [
+    "1.children",
+    1,
+    2,
+  ],
+]
+`;
+
+exports[`NodeNormaliser batchDeleteNodeChildren should return the store if items is not an array 1`] = `
+Object {
+  "nodes": [Function],
+  "raw": Object {
+    "1": Object {
+      "id": 1,
+    },
+  },
+  "recentActivityIds": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchDeleteNodeChildren should return the store if items is not an array 2`] = `undefined`;
+
+exports[`NodeNormaliser batchMove should updateAttribute and upsertArray 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser batchMove should updateAttribute and upsertArray 2`] = `
+Object {
+  "1": "upsertArray",
+}
+`;
+
+exports[`NodeNormaliser batchMove should updateAttribute and upsertArray 3`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser copyNode should call upsertObject and upsertArray 1`] = `
+Object {
+  "node": Object {
+    "children": Array [],
+    "cloneId": 1,
+    "content": undefined,
+    "customData": Object {
+      "duration": 0,
+      "shortDescription": "",
+    },
+    "id": 1,
+    "people": Array [
+      undefined,
+    ],
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser copyNode should call upsertObject and upsertArray 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser copyNode should call upsertObject and upsertArray 3`] = `
+Array [
+  Array [
+    "1.children",
+    1,
+  ],
+  Array [
+    undefined,
+    1,
+  ],
+]
+`;
+
+exports[`NodeNormaliser copyNode should call upsertObject and upsertArray 4`] = `
+Array [
+  Array [
+    1,
+    Object {
+      "children": Array [],
+      "cloneId": 1,
+      "content": undefined,
+      "customData": Object {
+        "duration": 0,
+        "shortDescription": "",
+      },
+      "id": 1,
+      "people": Array [
+        undefined,
+      ],
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createAttachment should upsertObject and updateAttribute 1`] = `
+Object {
+  "fileResult": Object {
+    "nodeId": 1,
+    "url": "url",
+  },
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createAttachment should upsertObject and updateAttribute 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser createAttachment should upsertObject and updateAttribute 3`] = `
+Object {
+  "1": "updateAttribute",
+}
+`;
+
+exports[`NodeNormaliser createLink should add nextNodeId to the node.id.childKey and node.id to node.nextNodeId.childKey 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createLink should do a different operation if action exist in the payload 1`] = `
+Object {
+  "linkIds": [Function],
+  "links": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createNextNode should call upsert object 1`] = `
+Object {
+  "node": Object {
+    "id": 1,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createNextNode should call upsert object 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser createNextNode should call upsert object 3`] = `
+Array [
+  Array [
+    Object {
+      "1": Object {
+        "customData": Object {
+          "description": "test",
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNextNode should call upsert object 4`] = `
+Array [
+  Array [
+    "1.nextNodes",
+    1,
+  ],
+  Array [
+    "2.children",
+    1,
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNextNode should call upsertObject if there is no templateId 1`] = `
+Object {
+  "node": Object {
+    "id": 1,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createNextNode should call upsertObject if there is no templateId 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser createNextNode should call upsertObject if there is no templateId 3`] = `
+Array [
+  Array [
+    Object {
+      "1": Object {
+        "customData": Object {
+          "description": "test",
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNextNode should call upsertObject if there is no templateId 4`] = `
+Array [
+  Array [
+    "1.nextNodes",
+    1,
+  ],
+  Array [
+    undefined,
+    1,
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNode shall get right result if result is array 1`] = `
+Object {
+  "node": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "nodeIds": [Function],
+  "nodes": [Function],
+  "result": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NodeNormaliser createNode shall get right result if result is array 2`] = `
+Object {
+  "1": Object {
+    "customData": Object {
+      "node": 1,
+    },
+    "id": 1,
+  },
+  "2": Object {
+    "customData": Object {
+      "node": 2,
+    },
+    "id": 2,
+  },
+  "nodes": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array 1`] = `
+Object {
+  "node": Object {
+    "content": "some node",
+    "id": 123,
+  },
+  "nodeIds": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array 2`] = `
+Object {
+  "1": "upsertObject",
+  "2": "upsertArray",
+}
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array 3`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "children": Array [],
+        "content": "some node",
+        "customData": Object {
+          "content": undefined,
+          "description": "description",
+          "editing": true,
+          "location": "Manila",
+        },
+        "id": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array 4`] = `
+Array [
+  Array [
+    Array [
+      "key",
+      "path",
+    ],
+    123,
+    Object {
+      "isAppendedFirst": false,
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array if there is customData 1`] = `
+Object {
+  "node": Object {
+    "children": Array [
+      1,
+    ],
+    "content": "some node",
+    "customData": Array [
+      1,
+    ],
+    "id": 123,
+  },
+  "nodeIds": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array if there is customData 2`] = `
+Object {
+  "1": "upsertObject",
+  "2": "upsertArray",
+}
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array if there is customData 3`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "children": Array [
+          1,
+        ],
+        "content": "some node",
+        "customData": Array [
+          1,
+        ],
+        "id": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createNode should call upsert object/array if there is customData 4`] = `
+Array [
+  Array [
+    Array [
+      "key",
+      "path",
+    ],
+    123,
+    Object {
+      "isAppendedFirst": false,
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser createPhoto should upsertObject/Array 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createPhoto should upsertObject/Array 2`] = `
+Object {
+  "1": "upsertArray",
+}
+`;
+
+exports[`NodeNormaliser createPhoto should upsertObject/Array 3`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser createPhoto should upsertObject/Array 4`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser createTemplateSettings should return a particular object shape 1`] = `
+Object {
+  "0": undefined,
+}
+`;
+
+exports[`NodeNormaliser deleteNode should call upsert object 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser deleteNode should call upsert object 2`] = `
+Object {
+  "key": Object {
+    "path": Array [],
+  },
+}
+`;
+
+exports[`NodeNormaliser deleteNode should delete dependent participants of group on the node if participants exist 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser deleteNode should delete dependent participants of group on the node if participants exist 2`] = `
+Object {
+  "2": Object {
+    "groups": Array [],
+  },
+  "3": Object {
+    "groups": Array [],
+  },
+  "key": Object {
+    "path": Array [],
+  },
+}
+`;
+
+exports[`NodeNormaliser deleteNode should delete dependent seat on the node if a seat exist 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser deleteNode should delete dependent seat on the node if a seat exist 2`] = `
+Object {
+  "124": Object {
+    "participants": Array [],
+  },
+  "key": Object {
+    "path": Array [],
+  },
+}
+`;
+
+exports[`NodeNormaliser deleteNode should not crash if seat does not exist 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser deleteNode should not crash if seat does not exist 2`] = `
+Object {
+  "124": Object {
+    "participants": Array [
+      123,
+    ],
+  },
+  "key": Object {
+    "path": Array [],
+  },
+}
+`;
+
+exports[`NodeNormaliser deletePhoto should be called onSuccess 1`] = `Object {}`;
+
+exports[`NodeNormaliser deletePhoto should be called onSuccess 2`] = `Object {}`;
+
+exports[`NodeNormaliser getAttachment should upsertObject and updateAttribute 1`] = `
+Object {
+  "attachments": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser getAttachment should upsertObject and updateAttribute 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser getAttachment should upsertObject and updateAttribute 3`] = `
+Object {
+  "1": "updateAttribute",
+}
+`;
+
+exports[`NodeNormaliser getChildren should return a particular object shape for setValue in resaga 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "content": "child",
+      "id": 2,
+      "parentNodeId": 1,
+    },
+  ],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser getNode shall get right result 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser getNode shall get right result 2`] = `
+Object {
+  "undefined": Object {
+    "some node": Array [
+      undefined,
+    ],
+  },
+}
+`;
+
+exports[`NodeNormaliser getNode shall return if !childKey 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser getTree should normalize 1`] = `
+Object {
+  "eventNodes": Object {
+    "2": Object {
+      "id": 2,
+      "type": "eventaccommodation",
+    },
+  },
+  "node": Object {
+    "1": Object {
+      "id": 1,
+    },
+    "3": Object {
+      "id": 3,
+    },
+  },
+}
+`;
+
+exports[`NodeNormaliser initTemplateSettings should not fail if empty 1`] = `
+Object {
+  "nodeSettings": [Function],
+}
+`;
+
+exports[`NodeNormaliser initTemplateSettings should return a particular object shape 1`] = `
+Object {
+  "nodeSettings": [Function],
+}
+`;
+
+exports[`NodeNormaliser insertNode inserts node after 1`] = `
+Object {
+  "1": Object {
+    "children": Array [],
+    "id": 1,
+    "x": 1,
+  },
+  "2": Object {},
+  "3": Object {
+    "children": Array [
+      2,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`NodeNormaliser insertNode inserts node before 1`] = `
+Object {
+  "1": Object {
+    "calculated": Object {
+      "editing": true,
+    },
+    "children": "children",
+    "customData": "customData",
+    "id": 1,
+    "x": 1,
+  },
+  "2": Object {},
+  "3": Object {
+    "children": Array [
+      1,
+      2,
+    ],
+  },
+}
+`;
+
+exports[`NodeNormaliser insertNode should upsertObject if insertLocation is after 1`] = `
+Object {
+  "node": Object {
+    "children": Array [],
+    "content": "some node",
+    "id": 123,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser insertNode should upsertObject if insertLocation is after 2`] = `
+Object {
+  "node": Object {
+    "children": Array [],
+    "content": "some node",
+    "id": 123,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser insertNode should upsertObject if insertLocation is after 3`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser insertNode should upsertObject if insertLocation is after 4`] = `
+Object {
+  "node": Object {
+    "children": Array [],
+    "content": "some node",
+    "id": 123,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is not template or folder 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is not template or folder 2`] = `
+Object {
+  "1": "upsertArray ",
+}
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is not template or folder 3`] = `
+Array [
+  Array [
+    "1.children",
+    undefined,
+  ],
+]
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is not template or folder 4`] = `
+Array [
+  Array [
+    "1.children",
+    1,
+  ],
+]
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is template 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is template 2`] = `
+Object {
+  "1": "upsertArray ",
+}
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is template 3`] = `
+Array [
+  Array [
+    "1.children",
+    undefined,
+  ],
+]
+`;
+
+exports[`NodeNormaliser moveNode should call upsertArray and removeItemsArray util if type is template 4`] = `
+Array [
+  Array [
+    undefined,
+    1,
+  ],
+  Array [
+    "1.children",
+    1,
+  ],
+]
+`;
+
+exports[`NodeNormaliser removeAttachment should remove attachment 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser removeAttachment should remove attachment 2`] = `
+Object {
+  "1": "updateAttribute ",
+}
+`;
+
+exports[`NodeNormaliser removeAttachment should remove attachment 3`] = `
+Object {
+  "1": "removeObjectById ",
+}
+`;
+
+exports[`NodeNormaliser shareNode should normalize 1`] = `
+Object {
+  "nodeShare": Object {
+    "token": Object {
+      "id": 1,
+      "notificationToken": "token",
+    },
+  },
+  "raw": Array [
+    Object {
+      "id": 1,
+      "notificationToken": "token",
+    },
+  ],
+}
+`;
+
+exports[`NodeNormaliser updateAttachment updateAttribute if description is empty and url is null 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateAttachment updateAttribute if description is empty and url is null 2`] = `
+Object {
+  "1": "updateAttribute",
+}
+`;
+
+exports[`NodeNormaliser updateAttachment updateAttribute if description is empty and url is null 3`] = `Object {}`;
+
+exports[`NodeNormaliser updateAttachment upsertObject if url is not null and description is not an empty string 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateAttachment upsertObject if url is not null and description is not an empty string 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser updateAttachment upsertObject if url is null 1`] = `
+Object {
+  "files": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateAttachment upsertObject if url is null 2`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser updateChild should return a particular object shape for setValue in resaga 1`] = `
+Object {
+  "nodes": [Function],
+  "payload": Object {
+    "content": "child",
+    "id": 1,
+  },
+}
+`;
+
+exports[`NodeNormaliser updateLink should remove item and add the new link to the new connection 1`] = `
+Object {
+  "links": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should call upsert object 1`] = `
+Object {
+  "attachments": [Function],
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should call upsert object 2`] = `
+Array [
+  Array [
+    Object {
+      "photo": Object {
+        "content": "photo",
+        "metaInfo": undefined,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "photo": "photo",
+        },
+        "id": 123,
+        "type": "activity",
+      },
+    },
+  ],
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "photo": "photo",
+        },
+        "id": 123,
+        "type": "activity",
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser updateNode should call upsert object if there is an attachment and photo 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should call upsert object if there is an attachment and photo 2`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "attachment": Object {
+            "description": "description",
+          },
+          "photo": "photo",
+        },
+        "id": 123,
+        "lastModifiedBy": Object {
+          "id": 123,
+        },
+        "type": "folder",
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser updateNode should handle array 1`] = `
+Object {
+  "nodes": "utils.upsertObject",
+}
+`;
+
+exports[`NodeNormaliser updateNode should upsert object if participant 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should upsert object if participant 2`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "photo": null,
+        },
+        "id": 123,
+        "lastModifiedBy": Object {
+          "id": 123,
+        },
+        "moveNode": true,
+        "type": "participant",
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser updateNode should upsert object if there is no payload 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should upsert object if there is no payload 2`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "photo": null,
+        },
+        "id": 123,
+        "lastModifiedBy": Object {
+          "id": 123,
+        },
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser updateNode should upsertObject if there is only a photo 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updateNode should upsertObject if there is only a photo 2`] = `
+Array [
+  Array [
+    Object {
+      "123": Object {
+        "content": "some node",
+        "customData": Object {
+          "attachment": Object {
+            "description": "description",
+          },
+        },
+        "id": 123,
+        "lastModifiedBy": Object {
+          "id": 123,
+        },
+        "type": "template",
+      },
+    },
+  ],
+]
+`;
+
+exports[`NodeNormaliser updatePhoto should return if content and oldPhoto are equal 1`] = `Object {}`;
+
+exports[`NodeNormaliser updatePhoto should return if content and oldPhoto are equal 2`] = `Object {}`;
+
+exports[`NodeNormaliser updatePhoto should update if metaInfo is not equal 1`] = `
+Object {
+  "files": [Function],
+}
+`;
+
+exports[`NodeNormaliser updatePhoto should update if metaInfo is not equal 2`] = `
+Object {
+  "files": [Function],
+}
+`;
+
+exports[`NodeNormaliser updatePhoto should upsertObject/Array 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`NodeNormaliser updatePhoto should upsertObject/Array 2`] = `
+Object {
+  "1": Object {
+    "0": "u",
+    "1": "p",
+    "10": "y",
+    "2": "s",
+    "3": "e",
+    "4": "r",
+    "5": "t",
+    "6": "A",
+    "7": "r",
+    "8": "r",
+    "9": "a",
+    "photos": Array [],
+  },
+}
+`;
+
+exports[`NodeNormaliser updatePhoto should upsertObject/Array 3`] = `
+Object {
+  "1": "upsertObject",
+}
+`;
+
+exports[`NodeNormaliser updatePhoto should upsertObject/Array 4`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`getNodes should return the store if items 1`] = `
+Object {
+  "nodes": Object {
+    "1": Object {
+      "checklists": Array [
+        2,
+      ],
+      "id": 1,
+      "type": "checkgroup",
+    },
+    "2": Object {
+      "checklists": Array [],
+      "id": 2,
+      "name": "checklist",
+      "type": "checklist",
+    },
+    "3": Object {
+      "children": Array [
+        4,
+      ],
+      "id": 3,
+      "type": "template",
+    },
+    "4": Object {
+      "id": 4,
+      "name": "checklist",
+      "type": "checklist",
+    },
+  },
+}
+`;
+
+exports[`getTransferNode Shoul return empty object 1`] = `
+Object {
+  "nodeTransfers": [Function],
+  "nodes": [Function],
+  "transferToMe": [Function],
+}
+`;
+
+exports[`getTransferNode should return the store if items 1`] = `
+Object {
+  "nodeTransfers": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`getTransferNode should return the store if items 2`] = `
+Object {
+  "nodeTransfers": [Function],
+  "nodes": [Function],
+  "transferFromMe": [Function],
+}
+`;
+
+exports[`getTransferNode should return the store if items if status is pending 1`] = `
+Object {
+  "nodeTransfers": [Function],
+  "nodes": [Function],
+  "transferToMe": [Function],
+}
+`;
+
+exports[`handleNode should return the store if items 1`] = `
+Object {
+  "1": Object {
+    "calculated": Object {
+      "transfer": Object {},
+    },
+  },
+}
+`;
+
+exports[`removeStoreChildren should not break if the store is empty 1`] = `Object {}`;
+
+exports[`removeStoreChildren should return the items left 1`] = `
+Object {
+  "1": "removeItemsArray ",
+}
+`;
+
+exports[`removeStoreChildren should return the store if items is is null 1`] = `
+Object {
+  "1": Object {
+    "children": Array [
+      1,
+      2,
+    ],
+  },
+}
+`;
+
+exports[`transferNode should return the store if items 1`] = `
+Object {
+  "nodes": [Function],
+  "notifications": [Function],
+}
+`;

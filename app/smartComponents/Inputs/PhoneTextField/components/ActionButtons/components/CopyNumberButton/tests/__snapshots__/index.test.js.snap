@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CopyNumberButton /> render matches snapshot 1`] = `
+<WithStyles(MarginWrapper)>
+  <CopyToClipboard
+    onCopy={[Function]}
+    text="value"
+  >
+    <WithStyles(Button)
+      color="gray"
+      dense={true}
+      icon="copy"
+      iconButton={true}
+      onClick={[Function]}
+      size="extraSmall"
+      title="Copy"
+      variant="outline"
+    />
+  </CopyToClipboard>
+</WithStyles(MarginWrapper)>
+`;

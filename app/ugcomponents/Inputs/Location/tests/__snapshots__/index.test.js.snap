@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Location /> handleLocationChange() should reset cache 1`] = `
+Array [
+  Array [
+    "editLocation",
+  ],
+  Array [
+    "name",
+  ],
+  Array [
+    "url",
+  ],
+  Array [
+    "icon",
+  ],
+  Array [
+    "placeId",
+  ],
+  Array [
+    "timeZoneId",
+  ],
+  Array [
+    "countryShort",
+  ],
+  Array [
+    "countryLong",
+  ],
+  Array [
+    "longtitude",
+  ],
+  Array [
+    "latitude",
+  ],
+]
+`;
+
+exports[`<Location /> handleLocationChange() should reset cache 2`] = `
+Array [
+  Array [
+    "abc",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    "",
+  ],
+  Array [
+    0,
+  ],
+  Array [
+    0,
+  ],
+]
+`;
+
+exports[`<Location /> render() should render location edit mode 1`] = `
+<div>
+  renderEditMode
+</div>
+`;
+
+exports[`<Location /> render() should render location edit mode with view link 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      renderInputsWithView
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Location /> render() should render location view mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      renderViewMode
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Location /> renderEditMode() should render correctly 1`] = `
+<div>
+  <WithStyles(o)
+    absolute={false}
+    key="location"
+    onChange={[Function]}
+    onSelectSuggest={[Function]}
+    openSuggest={false}
+  >
+    <FormsyInterceptor
+      className=""
+      inputProps={
+        Object {
+          "autoFocus": true,
+          "className": "",
+          "onBlur": [Function],
+          "onFocus": [Function],
+          "placeholder": "",
+        }
+      }
+      label="Location"
+      name="editLocation"
+      onInterceptValue={[Function]}
+      type="text"
+      value="location"
+    />
+  </WithStyles(o)>
+  <PlaceDetail
+    handleChange={[Function]}
+    onClose={[Function]}
+    placeId="999"
+  />
+</div>
+`;
+
+exports[`<Location /> renderInputs() should render correctly 1`] = `
+<div>
+  <WithStyles(o)
+    absolute={false}
+    key="location"
+    onChange={[Function]}
+    onSelectSuggest={[Function]}
+    openSuggest={false}
+  >
+    <FormsyInterceptor
+      className=""
+      inputProps={
+        Object {
+          "autoFocus": true,
+          "className": "",
+          "onBlur": [Function],
+          "onFocus": [Function],
+          "placeholder": "",
+        }
+      }
+      label="Location"
+      name="editLocation"
+      onInterceptValue={[Function]}
+      type="text"
+      value="location"
+    />
+  </WithStyles(o)>
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="icon"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="placeId"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="timeZoneId"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Location /> renderInputsWithView() should render correctly 1`] = `
+<div>
+  renderInputs
+  renderViewMode
+</div>
+`;
+
+exports[`<Location /> renderLocationTooltip() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(o)))
+    handleChange={[Function]}
+    onClose={[Function]}
+    onMouseEnter={[Function]}
+    placeId="999"
+  />
+</div>
+`;
+
+exports[`<Location /> renderViewMode() should render !editable 1`] = `
+<div>
+  <div
+    className=""
+    key=""
+  >
+    <WithStyles(ForwardRef(Tooltip))
+      classes={
+        Object {
+          "popper": undefined,
+          "tooltip": undefined,
+        }
+      }
+      enterDelay={700}
+      interactive={true}
+      key="location"
+      leaveDelay={100}
+      onClose={[Function]}
+      onOpen={[Function]}
+      open={false}
+      placement="bottom-start"
+      title={
+        <WithStyles(Connect(WithSimplifyResaga(o)))
+          handleChange={[Function]}
+          onClose={[Function]}
+          onMouseEnter={[Function]}
+          placeId=""
+        />
+      }
+    >
+      <div
+        className=""
+      >
+         
+        <a
+          className=""
+          href="https://www.google.com/maps/search/?api=1&query=location"
+          target="_blank"
+        >
+          <span
+            key="location"
+          >
+            location
+          </span>
+        </a>
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(o)))
+            handleChange={[Function]}
+            placeId=""
+          />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+</div>
+`;
+
+exports[`<Location /> renderViewModeLink() should not return link if canEdit 1`] = `
+<div>
+  <div
+    className=""
+  >
+     
+    <span
+      key="https://www.url.com"
+    >
+      someName
+    </span>
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(o)))
+        handleChange={[Function]}
+        placeId=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Location /> renderViewModeLink() should not return link if canEdit and not link 1`] = `
+<div>
+  <div
+    className=""
+  >
+     
+    <span
+      key="https://www.url.com"
+    >
+      someName
+    </span>
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(o)))
+        handleChange={[Function]}
+        placeId=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Location /> renderViewModeLink() still matches snapshot if not url 1`] = `
+<div>
+  <div
+    className=""
+  >
+     
+    <a
+      className=""
+      href="https://www.google.com/maps/search/?api=1&query=someName"
+      target="_blank"
+    >
+      <span
+        key="fake-url.com"
+      >
+        someName
+      </span>
+    </a>
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(o)))
+        handleChange={[Function]}
+        placeId=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Location /> renderViewModeLink() still matches snapshot if url 1`] = `
+<div>
+  <div
+    className=""
+  >
+     
+    <a
+      className=""
+      href="https://www.google.com/maps/search/?api=1&query=someName"
+      target="_blank"
+    >
+      <span
+        key="https://www.url.com"
+      >
+        someName
+      </span>
+    </a>
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(o)))
+        handleChange={[Function]}
+        placeId=""
+      />
+    </div>
+  </div>
+</div>
+`;

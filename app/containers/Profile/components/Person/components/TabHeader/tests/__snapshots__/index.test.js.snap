@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileTabHeader /> handleTabChange should call history push function 1`] = `
+Array [
+  Array [
+    "http://sample?",
+  ],
+]
+`;
+
+exports[`<ProfileTabHeader /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    Personal Settings
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="0"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Profile
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="1"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Change Password
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Organisations
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="3"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Preferences
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="4"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Passports
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="6"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Billing
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    Organisation Settings
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))
+      canCreate={false}
+      excludeOrg={
+        Array [
+          -1,
+        ]
+      }
+      overlay={true}
+      redirectToUrl={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ProfileTabHeader /> render() should render correctly if query param tab is undefined 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    Personal Settings
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="0"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Profile
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="1"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Change Password
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Organisations
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="3"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Preferences
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="4"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Passports
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="6"
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Button)
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      Billing
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    Organisation Settings
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={12}
+    sm={6}
+    xs={6}
+  >
+    <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))
+      canCreate={false}
+      excludeOrg={
+        Array [
+          -1,
+        ]
+      }
+      overlay={true}
+      redirectToUrl={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

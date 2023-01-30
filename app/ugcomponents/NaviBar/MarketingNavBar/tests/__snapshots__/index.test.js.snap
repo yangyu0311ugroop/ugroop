@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketingNavBar should render what it should render 1`] = `
+<WithStyles(Container)>
+  <NaviBar
+    justify="space-between"
+  >
+    <WithStyles(MarketingControls) />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="Logo"
+    >
+      <WithStyles(NavLogo)
+        link="/"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(AuthControls) />
+  </NaviBar>
+</WithStyles(Container)>
+`;

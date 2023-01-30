@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTab /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Add Tab"
+        subheading={
+          <FormattedMessage
+            defaultMessage="Create a new Tab and start adding Sections to organise your content"
+            id="app.containers.Portal.components.AddTab.titleAddTab"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddTab /> renderContent() should renderContent 1`] = `
+<div>
+  <Formsy
+    disabled={false}
+    getErrorMessage={[Function]}
+    getErrorMessages={[Function]}
+    getValue={[Function]}
+    hasValue={[Function]}
+    isFormDisabled={[Function]}
+    isFormSubmitted={[Function]}
+    isPristine={[Function]}
+    isRequired={[Function]}
+    isValid={[Function]}
+    isValidValue={[Function]}
+    mapping={null}
+    onChange={[Function]}
+    onError={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    preventExternalInvalidation={false}
+    resetValue={[Function]}
+    setValidations={[Function]}
+    setValue={[Function]}
+    showError={[Function]}
+    showRequired={[Function]}
+    validationErrors={null}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={3}
+    >
+      <WithStyles(Hr)
+        halfMarginBottom={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Formsy(FText))
+                  autoFocus={true}
+                  label="Name"
+                  name="content"
+                  placeholder="Enter tab name"
+                  required={true}
+                  type="text"
+                  validationErrors={
+                    Object {
+                      "maxLength": "too long (between 2-50 characters)",
+                      "minLength": "a bit longer (between 2-50 characters)",
+                    }
+                  }
+                  validations="minLength:2,maxLength:50"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <Formsy(withRouter(WithStyles(SimpleRTE)))
+                  filled={true}
+                  innerRef={[Function]}
+                  name="customData.description"
+                  placeholder="Add a tab description"
+                  required={false}
+                  validationError=""
+                  validationErrors={Object {}}
+                  validations={null}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <Formsy(SelectField)
+                  SelectProps={
+                    Object {
+                      "native": true,
+                    }
+                  }
+                  component={[Function]}
+                  helperText="You can change this setting later in Manage Tabs."
+                  innerRef={[Function]}
+                  label="Tab Privacy"
+                  name="sharedWith"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      Object {
+                        "children": "[Select who can see this tab]",
+                        "value": "",
+                      },
+                      Object {
+                        "children": "Public: Everyone in this tour",
+                        "value": "public",
+                      },
+                      Object {
+                        "children": "Organisers: Tour owner and organisers",
+                        "value": "organisers",
+                      },
+                      Object {
+                        "children": "Private: Only me",
+                        "value": "onlyMe",
+                      },
+                    ]
+                  }
+                  required={true}
+                  validationError=""
+                  validationErrors={Object {}}
+                  validations={null}
+                  value=""
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      renderFormButtons
+    </WithStyles(GridContainer)>
+  </Formsy>
+</div>
+`;
+
+exports[`<AddTab /> renderFormButtons() should renderFormButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bg="gray"
+          block={true}
+          bold={true}
+          onClick={[Function]}
+          padding="lg"
+        >
+          Cancel
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JButton)
+          bg="green"
+          block={true}
+          bold={true}
+          disabled={false}
+          padding="lg"
+          type="submit"
+        >
+          Add
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

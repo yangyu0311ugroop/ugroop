@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateListItem renderActions should match snapshot if there is shortDescription 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(HasTemplateViewActions)))
+    canMove={true}
+  />
+</div>
+`;
+
+exports[`TemplateListItem renderDescription should match snapshot if there is no shortDescription 1`] = `
+<div>
+  <TextTruncate
+    element="div"
+    line={1}
+    lines={1}
+    maxCalculateTimes={1}
+    text=""
+    textElement="span"
+    truncateText="…"
+  />
+</div>
+`;
+
+exports[`TemplateListItem renderDescription should match snapshot if there is shortDescription 1`] = `
+<div>
+  <TextTruncate
+    element="div"
+    line={1}
+    lines={1}
+    maxCalculateTimes={1}
+    text="ding dong"
+    textElement="span"
+    truncateText="…"
+  />
+</div>
+`;

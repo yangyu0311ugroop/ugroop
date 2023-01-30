@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateShowMore /> should render loading if isFetching is true 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className="TemplateShowMore-root"
+  justify="center"
+  spacing={0}
+>
+  <Loading
+    className=""
+    color="#fff"
+    delay={1000}
+    height={24}
+    type="spin"
+    width={24}
+  />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<TemplateShowMore /> should render nothing to fetch if fetchLength and fetchLimit are not equal anymore 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className="TemplateShowMore-root"
+  justify="center"
+  spacing={0}
+>
+  <div />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<TemplateShowMore /> should render something 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className="TemplateShowMore-root"
+  justify="center"
+  spacing={0}
+>
+  <Online>
+    <Waypoint
+      bottomOffset="0px"
+      fireOnRapidScroll={true}
+      horizontal={false}
+      onEnter={[Function]}
+      onLeave={[Function]}
+      onPositionChange={[Function]}
+      topOffset="0px"
+    >
+      <div>
+        <FormattedMessage
+          defaultMessage="Show more"
+          id="app.containers.Templates.Components.TemplateShowMore.btnText"
+        />
+      </div>
+    </Waypoint>
+  </Online>
+  <Offline>
+    <FormattedMessage
+      defaultMessage="You are offline at the moment"
+      id="app.containers.Templates.Components.TemplateShowMore.offlineText"
+    />
+  </Offline>
+</WithStyles(GridContainer)>
+`;

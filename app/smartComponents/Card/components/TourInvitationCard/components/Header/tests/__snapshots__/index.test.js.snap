@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="blue"
+            icon="lnr-users-plus"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          className=""
+        >
+          renderTitle
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          renderHeaderButtons
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderHeaderButtons() should renderHeaderButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        bold={true}
+        onClick={[Function]}
+      >
+        0
+         Received
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        bold={false}
+        onClick={[Function]}
+      >
+        0
+         Sent
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        disabled={false}
+        icon="lnr-chevron-down"
+        iconButton={true}
+        noMargin={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="small"
+        tabIndex={-1}
+        variant="borderless"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-cross2"
+          size="xxs"
+        />
+      </WithStyles(CloseButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderTitle() handle close click 1`] = `undefined`;
+
+exports[`<Header /> renderTitle() should render completed 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Completed Invitations"
+    id="ugcomponents.Card.InvitationCard.components.completedTitle"
+  />
+</div>
+`;
+
+exports[`<Header /> renderTitle() should render pending 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Invitations"
+    id="ugcomponents.Card.InvitationCard.components.outstandingTitle"
+  />
+</div>
+`;

@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Details /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Details /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Name)))
+    classes={Object {}}
+    hasType={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtype=""
+    variant=""
+  />
+  <ConnectFunction
+    classes={Object {}}
+    hasType={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtype=""
+    variant="editableForm"
+  />
+</div>
+`;
+
+exports[`<Details /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    title={
+      <FormattedMessage
+        defaultMessage="General"
+        id="app/smartComponents/Event/components/Event/layouts/Transportation/Details/title"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Name)))
+        classes={Object {}}
+        hasType={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        subtype=""
+        variant=""
+      />
+      <ConnectFunction
+        classes={Object {}}
+        hasType={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        subtype=""
+        variant=""
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;
+
+exports[`<Details /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    classes={Object {}}
+    hasType={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtype=""
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Details /> renderSubType should match snapshot if hasType is false 1`] = `<div />`;
+
+exports[`<Details /> renderSubType should match snapshot if hasType is true 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasType={true}
+    key=""
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtype=""
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Details /> renderTitle should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="General"
+    id="app/smartComponents/Event/components/Event/layouts/Transportation/Details/title"
+  />
+</div>
+`;

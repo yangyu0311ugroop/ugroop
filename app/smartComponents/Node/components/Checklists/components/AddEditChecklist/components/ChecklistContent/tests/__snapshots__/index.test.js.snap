@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistContent /> render() should render correctly 1`] = `<div />`;
+
+exports[`<ChecklistContent /> render() should render correctly 2`] = `
+<div>
+  <ConnectFunction
+    parentNodeId={1}
+    variant="textOnly"
+  />
+</div>
+`;

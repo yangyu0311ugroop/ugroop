@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RenderActivity /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={1}
+      >
+         
+        <div />
+         
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={10}
+      >
+        <WithStyles(GridContainer)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Activity)))
+              activityId={0}
+              attachmentId=""
+              parentId={0}
+              photoId={0}
+              print={false}
+              readOnly={false}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RenderActivity /> render() should render correctly if content is empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={1}
+      >
+         
+        <div />
+         
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={10}
+      >
+        <WithStyles(GridContainer)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Activity)))
+              activityId={0}
+              attachmentId=""
+              parentId={0}
+              photoId={0}
+              print={false}
+              readOnly={false}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RenderActivity /> render() should render correctly if photo is empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={1}
+      >
+         
+        <WithStyles(GridContainer)
+          alignItems="flex-end"
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+                isLazyLoad={false}
+                photoId={1}
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+         
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={10}
+      >
+        <WithStyles(GridContainer)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Activity)))
+              activityId={0}
+              attachmentId=""
+              parentId={0}
+              photoId={0}
+              print={false}
+              readOnly={false}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

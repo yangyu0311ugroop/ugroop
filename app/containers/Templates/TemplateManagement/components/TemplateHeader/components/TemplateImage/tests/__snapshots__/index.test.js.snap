@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateImageContainer should render what it should render 1`] = `
+<ConnectFunction
+  imgSrc=""
+/>
+`;
+
+exports[`TemplateImageContainer should render what it should render with Data 1`] = `
+<ConnectFunction
+  imgSrc="queryImageURL"
+/>
+`;

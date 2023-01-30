@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderCardFooter /> should render different stuff when tourCount and subfolderCount total is 0 1`] = `
+<WithStyles(UGCardFooter)>
+  <div>
+    <p>
+      Folder is empty
+    </p>
+  </div>
+</WithStyles(UGCardFooter)>
+`;
+
+exports[`<FolderCardFooter /> should render different stuff when tourCount is > 1 and subfolderCount total is 0 1`] = `
+<WithStyles(UGCardFooter)>
+  <div>
+    <p>
+      2
+       
+      Tours
+    </p>
+  </div>
+</WithStyles(UGCardFooter)>
+`;
+
+exports[`<FolderCardFooter /> should render different stuff when tourCount is 0 and subfolderCount total is 2 1`] = `
+<WithStyles(UGCardFooter)>
+  <div>
+    <p>
+      2
+       
+      Folders
+    </p>
+  </div>
+</WithStyles(UGCardFooter)>
+`;
+
+exports[`<FolderCardFooter /> should render different stuff when tourCount is 1 and subfolderCount total is 1 1`] = `
+<WithStyles(UGCardFooter)>
+  <div>
+    <p>
+      1
+       
+      Folder
+    </p>
+    <p
+      className=""
+    />
+    <p>
+      1
+       
+      Tour
+    </p>
+  </div>
+</WithStyles(UGCardFooter)>
+`;
+
+exports[`<FolderCardFooter /> should render something 1`] = `
+<WithStyles(UGCardFooter)>
+  <div>
+    <p>
+      2
+       
+      Folders
+    </p>
+    <p
+      className=""
+    />
+    <p>
+      3
+       
+      Tours
+    </p>
+  </div>
+</WithStyles(UGCardFooter)>
+`;

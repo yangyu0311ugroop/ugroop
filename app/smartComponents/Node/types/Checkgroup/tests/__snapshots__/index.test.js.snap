@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkgroup /> renderBody() should renderBody correctly 1`] = `
+Array [
+  Array [
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "checklists": Array [],
+            "classes": Object {},
+            "id": 44999,
+            "minimise": false,
+            "renderBody": [MockFunction] {
+              "calls": [Circular],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            },
+            "resaga": Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            },
+            "selectedChecklists": Array [],
+            "variant": "",
+          },
+          Object {},
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    Array [
+      Object {
+        "checklists": Array [],
+        "classes": Object {},
+        "id": 44999,
+        "minimise": false,
+        "renderBody": [MockFunction] {
+          "calls": Array [
+            Array [
+              [Circular],
+              Object {},
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "resaga": Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "selectedChecklists": Array [],
+        "variant": "",
+      },
+      Object {},
+    ],
+  ],
+]
+`;
+
+exports[`<Checkgroup /> renderCheckOption should render table row correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="right"
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="top"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(ForwardRef(Checkbox))
+            checked={false}
+            checkedIcon={
+              <WithStyles(Icon)
+                icon="lnr-check-square"
+                size="small"
+              />
+            }
+            color="default"
+            disabled={true}
+            icon={
+              <WithStyles(Icon)
+                icon="lnr-square"
+                size="small"
+              />
+            }
+            name={44999}
+            noMargin={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      ifFunction
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checkgroup /> renderOption() should renderOption correctly 1`] = `
+<div>
+  <option
+    disabled={true}
+    value={44999}
+  >
+    some content
+  </option>
+  renderBody
+</div>
+`;
+
+exports[`<Checkgroup /> renderTableRow should render table row correctly 1`] = `<div />`;

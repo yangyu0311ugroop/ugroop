@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DaySelectInput /> #handleChange() calls props.onChange 1`] = `
+Object {
+  "setValue": Object {
+    "calculatedTimeMode": "unanchored",
+    "calculatedTimeValue": "0001-01-01",
+  },
+}
+`;
+
+exports[`<DaySelectInput /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="unanchored"
+  />
+  <Formsy(WithStyles(SelectField))
+    innerRef={[Function]}
+    name="tempDay"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "children": "No day",
+          "value": null,
+        },
+      ]
+    }
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={null}
+  />
+</Fragment>
+`;
+
+exports[`<DaySelectInput /> #unsetCalculatedValues() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "calculatedTimeMode": undefined,
+    "calculatedTimeValue": undefined,
+  },
+}
+`;

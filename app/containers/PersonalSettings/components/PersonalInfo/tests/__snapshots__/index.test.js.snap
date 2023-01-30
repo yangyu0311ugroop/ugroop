@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalInfo /> render() should render 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      renderBreadcrumbs
+      <WithStyles(GridItem)>
+        <Switch>
+          <Route
+            path="undefined/name"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/birthday"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/gender"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/password"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/email"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/phones"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/insurance-policy"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/medical-conditions"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/dietary-requirements"
+            render={[Function]}
+          />
+          <Route
+            path="*"
+            render={[Function]}
+          />
+        </Switch>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderBreadcrumbs() should renderBreadcrumbs 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={1}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-arrow-left"
+            size="normal"
+          />
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          xl={true}
+        >
+          Photo
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderContact() should renderContact 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          lg={true}
+        >
+          Contact info
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(ForwardRef(List))
+          component="nav"
+        >
+          renderListItem
+          renderListItem
+        </WithStyles(ForwardRef(List))>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderEmailContent() should renderEmailContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderEmailContent() should renderEmailContent secondaryEmail 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        dark={true}
+      >
+        secondaryEmail
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderInsuranceContent() should renderInsuranceContent 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    bold={true}
+    capitalize={true}
+    dark={true}
+  >
+    insurancePolicy
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderListItem() should renderListItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={false}
+    divider={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-right"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderListItem() should renderListItem with data 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    divider={false}
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            >
+              <WithStyles(GridItem)
+                className=""
+              >
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  sm={true}
+                  uppercase={true}
+                >
+                  heading
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                content
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            extras
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        body
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderNameContent() should renderNameContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        capitalize={true}
+        dark={true}
+        nowrap={false}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        capitalize={true}
+        dark={true}
+        nowrap={false}
+      >
+         
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderNameContent() should renderNameContent knownAs 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        capitalize={true}
+        dark={true}
+        nowrap={false}
+      >
+        knownAs
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        capitalize={true}
+        dark={true}
+        nowrap={false}
+      >
+        firstName
+         
+        lastName
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderOthers() should renderOthers 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          lg={true}
+        >
+          Health records
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(ForwardRef(List))
+          component="nav"
+        >
+          renderListItem
+          renderListItem
+          renderListItem
+        </WithStyles(ForwardRef(List))>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderPersonalInfo() should renderPersonalInfo 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={4}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              xl={true}
+            >
+              Personal Info
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Basic info, like your name and photo, that you use on uGroop
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      renderProfile
+      renderContact
+      renderOthers
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderPhotoBody() should renderPhotoBody 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        editable={true}
+        resizeSide="width"
+        resizeSize={240}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonalInfo /> renderPhotoExtras() should renderPhotoExtras 1`] = `
+<div>
+  <ConnectFunction
+    editable={true}
+    resizeSide="width"
+    resizeSize={240}
+  />
+</div>
+`;
+
+exports[`<PersonalInfo /> renderProfile() should renderProfile 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              lg={true}
+            >
+              Profile
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Some info may be visible to other people using uGroop.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(ForwardRef(List))
+          component="nav"
+        >
+          renderListItem
+          renderListItem
+          renderListItem
+          renderListItem
+          renderListItem
+        </WithStyles(ForwardRef(List))>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

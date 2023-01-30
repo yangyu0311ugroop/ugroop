@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withFindTimeZone #render() still matches snapshot 1`] = `
+<Component
+  findTimeZone={[Function]}
+  resaga={Object {}}
+/>
+`;

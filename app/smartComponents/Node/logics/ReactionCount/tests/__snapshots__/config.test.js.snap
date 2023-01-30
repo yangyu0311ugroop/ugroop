@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_LINKS_USERNODE value links keyPath should return array of selectors 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "links",
+    Object {
+      "id": 1,
+    },
+    "userNode",
+  ],
+  Array [
+    "nodeStore",
+    "links",
+    Object {
+      "id": 2,
+    },
+    "userNode",
+  ],
+]
+`;

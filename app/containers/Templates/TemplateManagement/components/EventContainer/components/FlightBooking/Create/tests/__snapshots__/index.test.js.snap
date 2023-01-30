@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingCreate /> #handleFormValidSubmit() calls TEMPLATE_API_HELPERS.createFlightBooking 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+      "onError": [Function],
+      "onSuccess": [Function],
+      "templateId": 0,
+    },
+    Object {
+      "classes": Object {
+        "paperRoot": "paperRoot",
+      },
+      "dayId": 0,
+      "dialogProps": Object {},
+      "formSubtype": "",
+      "formType": "",
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {},
+      "templateId": 0,
+    },
+  ],
+]
+`;
+
+exports[`<FlightBookingCreate /> #render() still matches snapshot 1`] = `
+<WithStyles(GenericForm)
+  PaperProps={
+    Object {
+      "classes": Object {
+        "root": "paperRoot",
+      },
+    }
+  }
+  canSubmitForm={true}
+  dialogProps={Object {}}
+  onCancel={[Function]}
+  onClose={[Function]}
+  onFormValidSubmit={[Function]}
+  open={false}
+  renderHeader={[Function]}
+  submitButtonContent={
+    <FormattedMessage
+      defaultMessage="Create Flight Itinerary"
+      id="app.EventContainer.FlightBooking.Create.submitButtonLabel"
+    />
+  }
+>
+  <ConnectFunction
+    templateId={0}
+    variant="field"
+  />
+</WithStyles(GenericForm)>
+`;
+
+exports[`<FlightBookingCreate /> #renderHeader() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading={
+      <FormattedMessage
+        defaultMessage="Flight Itinerary"
+        id="app.EventContainer.FlightBooking.Create.heading"
+      />
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="CREATE"
+        id="app.EventContainer.FlightBooking.Create.headingBackground"
+      />
+    }
+  />
+  closeButton
+</div>
+`;

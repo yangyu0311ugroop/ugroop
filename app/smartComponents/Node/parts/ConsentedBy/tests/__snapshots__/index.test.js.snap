@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConsentedBy /> renderIcon should match snapshot if requiresConsent 1`] = `
+<div>
+  <WithStyles(Icon)
+    color="darkGray"
+    icon="lnr-question"
+    size="extraSmall"
+    title="yawza"
+  />
+</div>
+`;
+
+exports[`<ConsentedBy /> renderIcon should match snapshot if requiresConsent and value is true 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Name)))
+    id={true}
+    variant="renderProp"
+  >
+    <Component />
+  </WithStyles(Connect(WithSimplifyResaga(Name)))>
+</div>
+`;
+
+exports[`<ConsentedBy /> renderIcon should match snapshot if requiresConsent is false 1`] = `
+<div>
+  <AttachmentIcon
+    iconSize="extraSmall"
+  />
+</div>
+`;
+
+exports[`<ConsentedBy /> renderIconConsentedTitle should return something if getConsentedOnBehalf 1`] = `
+<div>
+  msg
+</div>
+`;
+
+exports[`<ConsentedBy /> renderIconConsentedTitle should return something if getConsentedOnBehalf is false 1`] = `
+<div>
+  msg
+</div>
+`;
+
+exports[`<ConsentedBy /> renderIconNotConsentedTitle should match snapshot 1`] = `
+<div>
+  msg
+</div>
+`;
+
+exports[`<ConsentedBy /> renderLink should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Name)))
+    bold={false}
+    id={null}
+    variant="link"
+  />
+</div>
+`;
+
+exports[`<ConsentedBy /> renderProp should match snapshot 1`] = `
+<div>
+  bang
+</div>
+`;

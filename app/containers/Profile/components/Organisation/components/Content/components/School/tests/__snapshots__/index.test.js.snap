@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<School /> render() should render 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      renderBreadcrumbs
+      <WithStyles(GridItem)>
+        <Switch>
+          <Route
+            path="undefined/type"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/gender"
+            render={[Function]}
+          />
+          <Route
+            path="*"
+            render={[Function]}
+          />
+        </Switch>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<School /> renderBreadcrumbs() should renderBreadcrumbs 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={1}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-arrow-left"
+            size="normal"
+          />
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          xl={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<School /> renderGender() should renderGender 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Gender)))
+    id={1}
+    readOnly={true}
+  />
+</div>
+`;
+
+exports[`<School /> renderGenderContent() should renderGenderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        nowrap={false}
+      >
+        <Component
+          simple={true}
+          variant="stringOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<School /> renderListItem() should renderListItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={false}
+    divider={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-lock"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<School /> renderListItem() should renderListItem with data 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={false}
+    divider={false}
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            >
+              <WithStyles(GridItem)
+                className=""
+              >
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  sm={true}
+                  uppercase={true}
+                >
+                  heading
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                content
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            extras
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        body
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<School /> renderSchoolInfo() should renderSchoolInfo 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={4}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              xl={true}
+            >
+              School
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Basic info to know more about your school
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          card={true}
+          direction="column"
+          highlight={true}
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  dark={true}
+                  lg={true}
+                >
+                  School
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  nowrap={false}
+                >
+                  Some info may be visible to other people using uGroop.
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(ForwardRef(List))
+              component="nav"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={false}
+                divider={true}
+                onClick={[Function]}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={1}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="row"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)
+                            className=""
+                          >
+                            <WithStyles(JTextClass)
+                              bold={true}
+                              gray={true}
+                              sm={true}
+                              uppercase={true}
+                            >
+                              School Type
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                          <WithStyles(GridItem)
+                            xs={true}
+                          >
+                            renderProfile
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(Icon)
+                          icon="lnr-lock"
+                          size="normal"
+                        />
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(ForwardRef(ListItem))>
+              <WithStyles(ForwardRef(ListItem))
+                button={false}
+                divider={true}
+                onClick={[Function]}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={1}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="row"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)
+                            className=""
+                          >
+                            <WithStyles(JTextClass)
+                              bold={true}
+                              gray={true}
+                              sm={true}
+                              uppercase={true}
+                            >
+                              School Gender
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                          <WithStyles(GridItem)
+                            xs={true}
+                          >
+                            renderContact
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(Icon)
+                          icon="lnr-lock"
+                          size="normal"
+                        />
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(ForwardRef(ListItem))>
+            </WithStyles(ForwardRef(List))>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<School /> renderType() should renderType 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Type)))
+    id={1}
+    readOnly={true}
+  />
+</div>
+`;
+
+exports[`<School /> renderTypeContent() should renderTypeContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        nowrap={false}
+      >
+        <Component
+          variant="stringOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

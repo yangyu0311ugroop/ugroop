@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventAttendance /> #render() still matches snapshot 1`] = `""`;
+
+exports[`<EventAttendance /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+    >
+      <WithStyles(GridItem)>
+        <EventHeading
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Record Attendance:"
+            id="app.Event.layouts.Event.Attendance.editableHeadingLabel"
+          />
+        </EventHeading>
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+      <WithStyles(GridItem)>
+        ·
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+      <WithStyles(GridItem)>
+        ·
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventAttendance /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    ExpansionPanelProps={
+      Object {
+        "defaultExpanded": false,
+      }
+    }
+    title={
+      <FormattedMessage
+        defaultMessage="Record Attendance"
+        id="app.Event.layouts.Event.Attendance.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)>
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+      <ConnectFunction
+        dailyAttendance={true}
+        readOnly={false}
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;

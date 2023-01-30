@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyChecklists/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "addChecklistParentId": Array [
+      "templateManagementView",
+      "addChecklistParentId",
+    ],
+  },
+  "value": Object {
+    "expandedParentChecklistId": Array [
+      "templateManagementView",
+      "expandedParentChecklistId",
+    ],
+    "parentChecklists": [Function],
+  },
+}
+`;

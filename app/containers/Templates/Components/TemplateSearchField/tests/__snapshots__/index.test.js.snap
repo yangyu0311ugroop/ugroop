@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateSearchField /> should render something 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <FormsyInterceptor
+    InputProps={
+      Object {
+        "classes": Object {
+          "input": "TemplateSearchField-input",
+        },
+        "disableUnderline": true,
+        "onPressEnter": [MockFunction],
+      }
+    }
+    endAdornment=""
+    name="searchFolders"
+    onChange={[MockFunction]}
+    onInterceptValue={[Function]}
+    placeholder="Search by name..."
+    startAdornment={
+      <WithStyles(ForwardRef(InputAdornment))
+        className="TemplateSearchField-adornment"
+        position="start"
+      >
+        <WithStyles(Icon)
+          icon="magnifier"
+          size="small"
+        />
+      </WithStyles(ForwardRef(InputAdornment))>
+    }
+    value=""
+    wrapperClassName="TemplateSearchField-wrapperClass"
+  />
+</GenericForm>
+`;

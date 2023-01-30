@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Authentication/withLogout #mapDispatchToProps logout still matches snapshot 1`] = `
+Array [
+  Object {
+    "type": "USER_LOGOUT",
+  },
+]
+`;
+
+exports[`smartComponents/Authentication/withLogout #render() still matches snapshot 1`] = `
+<Component
+  logout={[Function]}
+/>
+`;

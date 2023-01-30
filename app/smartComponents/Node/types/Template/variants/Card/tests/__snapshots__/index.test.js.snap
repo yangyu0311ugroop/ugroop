@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(NavLink)
+      to="/tours"
+    >
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          renderTitle
+          renderSubtitle
+          renderPhoto
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(NavLink)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+      <Component />
+    </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+  </div>
+</div>
+`;
+
+exports[`<Card /> renderLastViewed() should renderLastViewed 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      title="Last viewed by you: yesterday"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-eye"
+            paddingRight={true}
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          1d
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderPhoto() should renderPhoto 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(WithUploadFile)))))))
+      classNames={
+        Object {
+          "containerClassName": undefined,
+          "imageClassName": undefined,
+        }
+      }
+      editable={false}
+      resizeSize={500}
+      showPreview={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`<Card /> renderShared() should render featured 1`] = `
+<div>
+  <WithStyles(GridItem)
+    title="Featured"
+  >
+    <div>
+      <WithStyles(Icon)
+        bold={true}
+        color="gray"
+        icon="lnr-earth"
+        size="xsmall"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderShared() should renderShared 1`] = `
+<div>
+  <WithStyles(GridItem)
+    title="Shared"
+  >
+    <div>
+      <WithStyles(Icon)
+        bold={true}
+        color="gray"
+        icon="lnr-users"
+        size="xsmall"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderStarButton() should renderStarButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    dense={true}
+    size="extraSmall"
+  >
+    <WithStyles(Icon)
+      bold={true}
+      icon="lnr-star"
+      size="normal"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Card /> renderStartDate() should renderStartDate 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      title="Starts tomorrow"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-calendar-full"
+            paddingRight={true}
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          tomorrow
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderSubtitle() should renderSubtitle 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(LastUpdateAt)))>
+          <Component />
+        </WithStyles(Connect(WithSimplifyResaga(LastUpdateAt)))>
+      </Hidden>
+      <WithStyles(withRouter(Connect(WithSimplifyResaga(StartDate))))
+        shorten={true}
+      >
+        <Component />
+      </WithStyles(withRouter(Connect(WithSimplifyResaga(StartDate))))>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderTitle() should renderTitle 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+      editable={false}
+      ellipsis={true}
+      showEmpty={true}
+      valueKey="content"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

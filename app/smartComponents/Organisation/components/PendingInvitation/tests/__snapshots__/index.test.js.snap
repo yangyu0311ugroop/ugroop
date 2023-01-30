@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PendingInvitaion /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    fullWidth={true}
+    onClose={[Function]}
+    open={false}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <div>
+        <WithStyles(InlineButton)
+          color="default"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+          />
+        </WithStyles(InlineButton)>
+      </div>
+      <div>
+        <H1
+          noMargin={true}
+        >
+          renderHeading
+        </H1>
+        <div>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            renderContent
+          </WithStyles(GridContainer)>
+        </div>
+        <div>
+          <div />
+          <H1
+            noMargin={true}
+          >
+            <FormattedMessage
+              defaultMessage="All invitations are sent via email."
+              id="app.smarComponents.Organisation.PendingInvitation.footer"
+            />
+          </H1>
+        </div>
+      </div>
+    </GenericForm>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<PendingInvitaion /> render() should render correctly showPendingOnly is true 1`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    fullWidth={true}
+    onClose={[Function]}
+    open={false}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <div>
+        <WithStyles(InlineButton)
+          color="default"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+          />
+        </WithStyles(InlineButton)>
+      </div>
+      <div>
+        <H1
+          noMargin={true}
+        >
+          <FormattedMessage
+            defaultMessage="PENDING INVITATIONS"
+            id="app.smarComponents.Organisation.PendingInvitation.header"
+          />
+        </H1>
+        <div>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="row"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  There is no pending invitations.
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </div>
+        <div>
+          <div />
+          <H1
+            noMargin={true}
+          >
+            <FormattedMessage
+              defaultMessage="All invitations are sent via email."
+              id="app.smarComponents.Organisation.PendingInvitation.footer"
+            />
+          </H1>
+        </div>
+      </div>
+    </GenericForm>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<PendingInvitaion /> renderContent() should render list 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="this@guy"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Invitee)))
+      id={999}
+      index={0}
+      pending={true}
+      token="this@guy"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="that@guy"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Invitee)))
+      id={999}
+      index={1}
+      pending={true}
+      token="that@guy"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PendingInvitaion /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="row"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        There is no pending invitations.
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PendingInvitaion /> renderHeading() should renderHeading 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="PENDING INVITATIONS"
+    id="app.smarComponents.Organisation.PendingInvitation.header"
+  />
+</div>
+`;

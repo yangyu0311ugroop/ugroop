@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "checklists": [Function],
+    "children": [Function],
+  },
+  "value": Object {
+    "type": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+  },
+}
+`;

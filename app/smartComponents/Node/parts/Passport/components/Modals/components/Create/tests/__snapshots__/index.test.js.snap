@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePassport renderHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading={
+      <FormattedMessage
+        defaultMessage="Passport"
+        id="app.Containers.Modals.Passport.Create.heading"
+      />
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="Add"
+        id="app.Containers.Modals.Passport.Create.headingBackground"
+      />
+    }
+    headingUnderline={false}
+    renderSubheading={[Function]}
+  />
+  btn
+</div>
+`;
+
+exports[`CreatePassport renderHeading should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Passport"
+    id="app.Containers.Modals.Passport.Create.heading"
+  />
+</div>
+`;
+
+exports[`CreatePassport renderHeadingBackground should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Add"
+    id="app.Containers.Modals.Passport.Create.headingBackground"
+  />
+</div>
+`;
+
+exports[`CreatePassport renderPart should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    variant="variant"
+  />
+</div>
+`;
+
+exports[`CreatePassport renderSubheading should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    futureTense={true}
+    personId={null}
+  />
+</div>
+`;

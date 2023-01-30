@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewParticipant /> #handleDeleteConfirm() calls NODE_API_HELPERS.getTimes 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "participants",
+      "nodeId": 1,
+      "onError": [Function],
+      "onSuccess": [Function],
+      "parent": null,
+      "type": "participant",
+    },
+    Object {
+      "classes": Object {},
+      "dateOfBirth": null,
+      "email": null,
+      "firstName": null,
+      "id": 1,
+      "invitationPending": false,
+      "lastName": null,
+      "loading": false,
+      "onClose": [MockFunction],
+      "open": false,
+      "parentNodeId": null,
+      "participantLinkIds": Array [],
+      "personId": null,
+      "personType": null,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "shareToken": null,
+      "templateId": null,
+      "userConnected": false,
+      "userId": null,
+      "userNodeId": null,
+    },
+  ],
+]
+`;
+
+exports[`<ViewParticipant /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <LoadingDialog
+    open={false}
+  >
+    <H4
+      dense={true}
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Initialising {paxLabel}"
+        id="app.Containers.Templates.Modals.Participant.View.initialiseHeading"
+        values={
+          Object {
+            "paxLabel": undefined,
+          }
+        }
+      />
+    </H4>
+  </LoadingDialog>
+  <WithStyles(Component)
+    disableBackdropClick={true}
+    fullWidth={true}
+    maxWidth="md"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="{paxLabel}"
+            id="app.Containers.Templates.Modals.Participant.View.heading"
+            values={
+              Object {
+                "paxLabel": undefined,
+              }
+            }
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="Detail"
+            id="app.Containers.Templates.Modals.Participant.View.headingBackground"
+            values={
+              Object {
+                "paxLabel": undefined,
+              }
+            }
+          />
+        }
+        headingUnderline={false}
+        renderHeading={[Function]}
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <ConnectFunction
+        id={1}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(Hr)
+      noMarginTop={true}
+    />
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+      noPaddingTop={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(EditableLabel)>
+            <FormattedMessage
+              defaultMessage="Organiser Note"
+              id="app.Containers.Templates.Modals.Participant.View.noteLabel"
+            />
+          </WithStyles(EditableLabel)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditableRTE)))))
+            dateOfBirth={null}
+            dense={true}
+            email={null}
+            emptyPlaceholder="Click to add note"
+            firstName={null}
+            id={1}
+            invitationPending={false}
+            lastName={null}
+            loading={false}
+            nodePath={
+              Array [
+                "customData",
+                "note",
+              ]
+            }
+            onClose={[MockFunction]}
+            open={false}
+            parentNodeId={null}
+            participantLinkIds={Array []}
+            patch={true}
+            personId={null}
+            personType={null}
+            resaga={
+              Object {
+                "setValue": [MockFunction],
+              }
+            }
+            shareToken={null}
+            showHeader={false}
+            templateId={null}
+            userConnected={false}
+            userId={null}
+            userNodeId={null}
+            variant="editable"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="flex-end"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)
+              key="delete"
+            >
+              <WithStyles(Button)
+                color="alert"
+                dense={true}
+                icon="lnr-trash2"
+                iconButton={true}
+                onClick={[Function]}
+                size="small"
+                title={
+                  <FormattedMessage
+                    defaultMessage="Remove {paxLabel}"
+                    id="app.Containers.Templates.Modals.Participant.View.deleteButtonLabel"
+                    values={
+                      Object {
+                        "paxLabel": undefined,
+                      }
+                    }
+                  />
+                }
+                variant="outline"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+  <ParticipantDeleteConfirmation
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    personId={null}
+    personType={null}
+  />
+</Fragment>
+`;
+
+exports[`<ViewParticipant /> #renderNonLinkUser() should match snapshots 1`] = `undefined`;
+
+exports[`<ViewParticipant /> #renderNonLinkUser() should match snapshots and return null 1`] = `undefined`;
+
+exports[`<ViewParticipant /> renderContentWithAccessLevel() should renderContentWithAccessLevel 1`] = `<div />`;
+
+exports[`<ViewParticipant /> renderHeading() should renderHeading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+    justify="flex-start"
+    noWrap={true}
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Chip))
+        label={
+          <P
+            dense={true}
+            weight="bold"
+          >
+            <div
+              className="j-text-ellipsis"
+            />
+          </P>
+        }
+        placement="bottom-start"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewParticipant /> renderHeading() should renderHeading if smDown 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+    justify="flex-start"
+    noWrap={true}
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Chip))
+        label={
+          <P
+            dense={true}
+            weight="bold"
+          >
+            <div
+              className="j-text-ellipsis"
+            />
+          </P>
+        }
+        placement="bottom-start"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewParticipant /> renderLinkedUser() should renderLinkedUser 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(ParticipantViewLinkedUser)))
+      id={1}
+      invitationPending={false}
+      isCustomMaxWidth={true}
+      linkeeRole="participant_linkee"
+      onLink={[Function]}
+      personId={null}
+      role="tour_participant"
+      shareToken={null}
+      templateId={null}
+      userConnected={false}
+      userId={null}
+      userNodeId={null}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewParticipant /> renderPart() should renderPart 1`] = `
+<div>
+  <Component
+    dateOfBirth={null}
+    email={null}
+    firstName={null}
+    id={1}
+    invitationPending={false}
+    lastName={null}
+    loading={false}
+    onClose={[MockFunction]}
+    open={false}
+    parentNodeId={null}
+    participantLinkIds={Array []}
+    personId={null}
+    personType={null}
+    resaga={
+      Object {
+        "setValue": [MockFunction],
+      }
+    }
+    shareToken={null}
+    templateId={null}
+    userConnected={false}
+    userId={null}
+    userNodeId={null}
+  />
+</div>
+`;
+
+exports[`<ViewParticipant /> showLinkedUser should return invitationPending 1`] = `<div />`;
+
+exports[`<ViewParticipant /> showLinkedUser should return this.isContributor 1`] = `<div />`;

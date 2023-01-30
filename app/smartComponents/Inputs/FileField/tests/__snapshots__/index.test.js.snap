@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileField /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(FileDropzone)
+    containerHasNoStyle={true}
+    multiple={false}
+    onClear={[Function]}
+    onDrop={[Function]}
+    showClear={true}
+  />
+</div>
+`;

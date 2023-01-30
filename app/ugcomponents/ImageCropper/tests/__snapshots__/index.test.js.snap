@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGImageCropper /> render should match snapshot 1`] = `
+<div
+  className=""
+  data-testid="-container"
+>
+  <WithStyles(Component)
+    className=""
+    open={true}
+  >
+    <WithStyles(CropperBody)
+      0="L"
+      1="O"
+      10="E"
+      11="R"
+      12="S"
+      13="."
+      14="s"
+      15="w"
+      16="i"
+      17="t"
+      18="c"
+      19="h"
+      2="G"
+      20="C"
+      21="a"
+      22="s"
+      23="e"
+      3="I"
+      4="C"
+      5="_"
+      6="H"
+      7="E"
+      8="L"
+      9="P"
+      fileImage="fileImageData"
+      loadFromUrl="loadFromUrl"
+      orientation="orientation"
+      originalImageBlob="originalImageBlob"
+      scale="scale"
+      setRef={[Function]}
+    />
+    <WithStyles(CropperFooter)
+      defaultValue={100}
+      max={500}
+      min={32}
+      onClose={[Function]}
+      onRotate={[Function]}
+      onSave={[Function]}
+      onSliderChange={[Function]}
+    />
+  </WithStyles(Component)>
+  <div
+    className=""
+  >
+    LOGIC_HELPERS.switchCase
+    <WithStyles(UGImageInput)
+      fileId=""
+      inputStyle="hidden"
+      setValueOnChange={[Function]}
+      shouldReset={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`<UGImageCropper /> render should showDialog 1`] = `
+<div>
+  <WithStyles(Component)
+    className=""
+    open={true}
+  >
+    <WithStyles(CropperBody)
+      0="L"
+      1="O"
+      10="E"
+      11="R"
+      12="S"
+      13="."
+      14="s"
+      15="w"
+      16="i"
+      17="t"
+      18="c"
+      19="h"
+      2="G"
+      20="C"
+      21="a"
+      22="s"
+      23="e"
+      3="I"
+      4="C"
+      5="_"
+      6="H"
+      7="E"
+      8="L"
+      9="P"
+      fileImage={null}
+      orientation={0}
+      originalImageBlob={null}
+      scale={1}
+      setRef={[Function]}
+    />
+    <WithStyles(CropperFooter)
+      defaultValue={100}
+      max={500}
+      min={32}
+      onClose={[Function]}
+      onRotate={[Function]}
+      onSave={[Function]}
+      onSliderChange={[Function]}
+    />
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<UGImageCropper /> renderPhotoPlaceHolder() should render PhotoPlaceHolder 1`] = `
+<div>
+  LOGIC_HELPERS.switchCase
+</div>
+`;
+
+exports[`<UGImageCropper /> renderPhotoPlaceHolder() should render coverPhotoPlaceholder 1`] = `
+<div>
+  LOGIC_HELPERS.switchCase
+</div>
+`;

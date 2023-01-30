@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Time /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(DaySeparator)
+    createdAt="monday"
+    isTextAlignLeft={true}
+    last={false}
+    previousCreatedAt=""
+  />
+  <WithStyles(Connect(WithSimplifyResaga(ItemSeparator)))
+    createdAt="monday"
+    index={0}
+    previousCreatedAt=""
+  />
+  <ConnectFunction
+    id={1}
+  >
+    <Component />
+  </ConnectFunction>
+  <ConnectFunction
+    id={1}
+    variant="logic"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(ItemSeparator)))
+    createdAt="monday"
+    index={1}
+    previousCreatedAt=""
+  />
+  <ConnectFunction
+    id={2}
+  >
+    <Component />
+  </ConnectFunction>
+  <ConnectFunction
+    id={2}
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<Time /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(Progress)
+    id={2233}
+    selected={false}
+    showCompleted={true}
+    showOutstanding={true}
+  />
+  <Checkitems
+    anchorDate="monday"
+    checklists={
+      Array [
+        1,
+      ]
+    }
+    parentNodeId={2233}
+    showCompleted={true}
+    showCompletedList={true}
+    showDelete={true}
+    showOutstanding={true}
+    showPlaceholder={true}
+    showSecondary={false}
+    variant="null"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(AddCheckitem)))
+    lastNodeId={1}
+    parentNodeId={2233}
+  />
+</div>
+`;
+
+exports[`<Time /> renderButtons() should not renderButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(Button)
+          color="black"
+          dense={true}
+          onClick={[Function]}
+          size="small"
+          tooltipProps={
+            Object {
+              "title": "Consider this checklist closed and view or reopen at any time.",
+            }
+          }
+          variant="outline"
+        >
+          Mark as Completed
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Time /> renderButtons() should renderButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(Button)
+          color="black"
+          dense={true}
+          onClick={[Function]}
+          size="small"
+          tooltipProps={
+            Object {
+              "title": "Consider this checklist closed and view or reopen at any time.",
+            }
+          }
+          variant="outline"
+        >
+          Mark as Completed
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Time /> renderNode() should render correctly and pass the day id as the parent id 1`] = `
+<div>
+  <ConnectFunction
+    nodeId={1}
+  />
+  <ConnectFunction
+    expanded={true}
+    id={999}
+    index={1}
+    isLast={1}
+    key="999"
+    onClick={[Function]}
+    parentNodeId={2}
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    showClosed={true}
+    time={998}
+    variant="card"
+  />
+</div>
+`;
+
+exports[`<Time /> renderNode() should render correctly and pass the templateid as the parent id  1`] = `
+<div>
+  <ConnectFunction
+    nodeId={1}
+  />
+  <ConnectFunction
+    expanded={true}
+    id={999}
+    index={1}
+    isLast={1}
+    key="999"
+    onClick={[Function]}
+    parentNodeId={1}
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    showClosed={true}
+    time={998}
+    variant="card"
+  />
+</div>
+`;
+
+exports[`<Time /> setAbilityResolver() currentAbilityResolver is id is null then do nothing   1`] = `<div />`;
+
+exports[`<Time /> setAbilityResolver() currentAbilityResolver is not null then should do no thing  1`] = `<div />`;
+
+exports[`<Time /> toggleNode() should toggleNode 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "payload": Object {
+        "node": "toggleStatus",
+        "nodeId": "2233",
+      },
+    },
+  ],
+]
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TokenResolver/config.js value should exists 1`] = `
+Object {
+  "token": Object {
+    "getter": [Function],
+  },
+}
+`;

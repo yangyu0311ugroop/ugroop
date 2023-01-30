@@ -1,0 +1,12 @@
+.toast-root {
+  width: 440px;
+  margin-bottom: 60px;
+}
+
+.toast {
+  padding: 0;
+  border-radius: 4px;
+  cursor: default;
+  width: 440px;
+}
+

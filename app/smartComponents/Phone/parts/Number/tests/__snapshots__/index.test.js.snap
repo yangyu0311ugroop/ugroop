@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Number /> render() should render correctly 1`] = `
+<div>
+  <P
+    clickable={true}
+    noMargin={true}
+    onClick={[Function]}
+    weight="bold"
+  />
+</div>
+`;
+
+exports[`<Number /> render() should render correctly if variant is editable 1`] = `
+<div>
+  <PhoneField
+    component="span"
+    fontWeight="bold"
+    inputProps={Object {}}
+    name="number"
+    required={true}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Number /> render() should render correctly if variant is inline text 1`] = `
+<div>
+  <span>
+    <WithStyles(JTextClass)
+      dark={true}
+      ellipsis={true}
+      title=""
+    />
+  </span>
+</div>
+`;
+
+exports[`<Number /> renderEditable should render correctly if country string has length greater than 2 1`] = `
+<P
+  clickable={true}
+  noMargin={true}
+  onClick={[Function]}
+  weight="bold"
+>
+  1
+</P>
+`;

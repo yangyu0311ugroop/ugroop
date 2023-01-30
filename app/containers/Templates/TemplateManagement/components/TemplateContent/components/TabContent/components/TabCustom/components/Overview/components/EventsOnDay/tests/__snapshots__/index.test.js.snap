@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsOnDay /> newAccommodation() should newAccommodation() 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "onOpen": [Function],
+      "subtype": "Hotel",
+      "type": "Accommodation",
+    },
+  ],
+]
+`;
+
+exports[`<EventsOnDay /> newEvent() should newEvent() 1`] = `
+Array [
+  Array [
+    Object {
+      "eventCreate": "EVENT_STORE_HELPERS.setEventCreate",
+      "selectedId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<EventsOnDay /> openCreateEventDialog() should openCreateEventDialog() 1`] = `
+Array [
+  Array [
+    Object {
+      "formSubtype": "MEETING",
+      "formType": "ACTIVITIES",
+      "iconOverride": "",
+    },
+  ],
+]
+`;
+
+exports[`<EventsOnDay /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <BoundCan
+        do="create"
+        on="event"
+      >
+        <WithStyles(GridItem) />
+      </BoundCan>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddAccommodation() should renderAddAccommodation() 1`] = `
+Array [
+  Array [
+    Object {
+      "buttonTitle": "Add accommodation",
+      "color": "#eb9a2d",
+      "colors": Object {
+        "icon": Object {
+          "background": Object {
+            "default": "#eb9a2d",
+            "hover": "#eb9a2d",
+          },
+        },
+      },
+      "icon": "bed",
+      "name": "Hotel",
+      "onClick": [Function],
+      "type": "Hotel",
+    },
+  ],
+]
+`;
+
+exports[`<EventsOnDay /> renderAddActivity() should renderAddActivity 1`] = `
+<div>
+  <ConnectFunction
+    buttonTitle="Add an activity"
+    renderButton={[Function]}
+    stopPropagation={true}
+    subtype="OTHER"
+    type="ACTIVITIES"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddActivityMenu() should renderAddActivityMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+      renderEventMenuItem
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddEvent() should renderAddEvent 1`] = `<div />`;
+
+exports[`<EventsOnDay /> renderAddEventButton() should renderAddEventButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="inline"
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+      <div>
+        <WithStyles(Icon)
+          bold={true}
+          icon="lnr-plus"
+        />
+      </div>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddEventPopperButton() should renderAddEventPopperButton() 1`] = `
+Array [
+  Array [
+    Object {
+      "buttonTitle": undefined,
+      "color": "#4CAF50",
+      "colors": Object {
+        "icon": Object {
+          "background": Object {
+            "default": "#4CAF50",
+            "hover": "#4CAF50",
+          },
+        },
+      },
+      "icon": "users2",
+      "name": "Meeting",
+      "onClick": undefined,
+      "type": "Meeting",
+    },
+  ],
+]
+`;
+
+exports[`<EventsOnDay /> renderAddFood() should renderAddFood 1`] = `
+<div>
+  <ConnectFunction
+    buttonTitle="Add a food event"
+    renderButton={[Function]}
+    stopPropagation={true}
+    subtype="FOOD"
+    type="ACTIVITIES"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddFoodMenu() should renderAddFoodMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          renderEventMenuItem
+          renderEventMenuItem
+          renderEventMenuItem
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          renderEventMenuItem
+          renderEventMenuItem
+          renderEventMenuItem
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddTransportation() should renderAddTransportation 1`] = `
+<div>
+  <ConnectFunction
+    buttonTitle="Add a transportation event"
+    renderButton={[Function]}
+    stopPropagation={true}
+    subtype="CAR"
+    type="TRANSPORTATIONS"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderAddTransportationMenu() should renderAddTransportationMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                Air
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderEventMenuItem
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                Sea
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            Road
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+              renderEventMenuItem
+              <div>
+                Rail
+              </div>
+              renderEventMenuItem
+              renderEventMenuItem
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderEventIcon() should renderEventIcon 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="undefined.undefined"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+      showSubIcon={false}
+      showSublabel={false}
+      size="xs"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventsOnDay /> renderEventMenuItem() should renderEventMenuItem 1`] = `
+<div>
+  <ConnectFunction
+    iconOverride={Object {}}
+    key="undefinedundefined"
+  />
+</div>
+`;

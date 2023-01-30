@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DaySeparator/config.js Smoke Test should match snapshot 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "createdAt": [Function],
+    "previousCreatedAt": [Function],
+  },
+}
+`;

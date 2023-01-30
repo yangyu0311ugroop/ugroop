@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditPhoneForm /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(IsDefault)))
+        id={0}
+        variant="checkboxField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        innerRef={[Function]}
+        name="type"
+        options={
+          Array [
+            Object {
+              "children": "Mobile",
+              "value": "mobile",
+            },
+            Object {
+              "children": "Landline",
+              "value": "landline",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="mobile"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Number)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={1}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            icon="cross"
+            iconButton={true}
+            noMargin={true}
+            onClick={[Function]}
+            size="extraSmall"
+            tooltipProps={
+              Object {
+                "placement": "top",
+                "title": "Cancel",
+              }
+            }
+            variant="inline"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            icon="check"
+            iconButton={true}
+            noMargin={true}
+            size="extraSmall"
+            tooltipProps={
+              Object {
+                "placement": "top",
+                "title": "Save",
+              }
+            }
+            type="submit"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditPhoneForm /> render() should render correctly if variant is inlineCardForm 1`] = `
+<div>
+  renderInlineCardForm
+</div>
+`;
+
+exports[`<EditPhoneForm /> render() should render correctly if variant is inlineCardForm and isCreateForm 1`] = `
+<div>
+  renderInlineCardForm
+</div>
+`;

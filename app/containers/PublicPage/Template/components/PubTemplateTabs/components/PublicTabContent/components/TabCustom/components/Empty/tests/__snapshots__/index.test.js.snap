@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Empty /> render() should render properly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <div>
+        No Sections To Be Displayed
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContributorsList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <div>
+      <div />
+      <div />
+    </div>
+    <div />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ContributorsList /> renderAvatarList should render avatarById if items are less than 3 1`] = `
+<div>
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="e@g.com"
+    rootClass=""
+    userId="e@g.com"
+    width={100}
+  />
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="f@g.com"
+    rootClass=""
+    userId="f@g.com"
+    width={100}
+  />
+</div>
+`;
+
+exports[`<ContributorsList /> renderAvatarList should render avatarById with only the first name if item is just 1 1`] = `
+<div>
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="e@g.com"
+    rootClass=""
+    userId="e@g.com"
+    width={100}
+  />
+</div>
+`;
+
+exports[`<ContributorsList /> renderAvatarList should render blank span if greater than 3 (since we will be hiding the other contributors) 1`] = `
+<div>
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="e@g.com"
+    rootClass=""
+    userId="e@g.com"
+    width={100}
+  />
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="f@g.com"
+    rootClass=""
+    userId="f@g.com"
+    width={100}
+  />
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="h@g.com"
+    rootClass=""
+    userId="h@g.com"
+    width={100}
+  />
+  <span
+    key="j@g.com"
+  />
+  <span
+    key="l@g.com"
+  />
+</div>
+`;
+
+exports[`<ContributorsList /> renderAvatarList should render div if persons prop is empty 1`] = `<div />`;
+
+exports[`<ContributorsList /> should only render empty div if persons is not array 1`] = `<div />`;

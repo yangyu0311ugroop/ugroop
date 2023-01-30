@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableRTE /> changeEditableRTE() should call dispatchTo Hashkey 1`] = `
+Array [
+  Array [
+    "Templates",
+    "updateHashKey",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "description": "content",
+        "id": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditableRTE /> changeEditableRTE() should call dispatchTo Node 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "customData": Object {
+            "someProp": "content",
+          },
+          "type": "",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditableRTE /> clearContent() should call changeEditableRTE 1`] = `
+Array [
+  Array [
+    Object {
+      "content": null,
+    },
+  ],
+]
+`;
+
+exports[`<EditableRTE /> render() should render 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "badge": [Function],
+      "compressed": [Function],
+      "default": [Function],
+      "readOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<EditableRTE /> renderAdvancedButton() should renderAdvancedButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="blue"
+    first={true}
+    inline={true}
+    onClick={[Function]}
+    size="xsmall"
+  >
+    Advanced
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<EditableRTE /> renderBadge() should renderView 1`] = `
+<div>
+  <span>
+    <WithStyles(Icon)
+      icon=""
+      size="xsmall"
+    />
+  </span>
+</div>
+`;
+
+exports[`<EditableRTE /> renderButtons() should renderButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      renderAdvancedButton
+    </WithStyles(GridItem)>
+    renderClearButton
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="green"
+        inline={true}
+        size="xsmall"
+        type="submit"
+      >
+        Save
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        inline={true}
+        onClick={[Function]}
+        size="xsmall"
+      >
+        Cancel
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableRTE /> renderButtons() should return loading 1`] = `
+<div>
+  <WithStyles(LoadingText)
+    text="Saving"
+  />
+</div>
+`;
+
+exports[`<EditableRTE /> renderClearButton() should renderClearButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="pink"
+      inline={true}
+      onClick={[Function]}
+      size="xsmall"
+    >
+      Clear
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditableRTE /> renderEdit() should renderEdit 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          renderHeader
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(withRouter(WithStyles(SimpleRTE)))
+            autoFocus={true}
+            className=""
+            id={0}
+            innerRef={[Function]}
+            mode="viewMode"
+            name="content"
+            placeholder=""
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+            value=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          renderButtons
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </GenericForm>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<EditableRTE /> renderEmptyCompressed() should renderEmptyCompressed 1`] = `
+<div>
+  <div>
+    <WithStyles(InlineButton)
+      color="secondary"
+      italic={true}
+      offsetLeft={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon=""
+        paddingRight={true}
+        size="xsmall"
+      />
+       Click to add
+       
+      content
+    </WithStyles(InlineButton)>
+  </div>
+</div>
+`;
+
+exports[`<EditableRTE /> renderEmptyView() should renderEmptyView 1`] = `
+<div>
+  <div>
+    renderHeader
+    <WithStyles(InlineButton)
+      className=""
+      color="secondary"
+      italic={true}
+      onClick={[Function]}
+    >
+      Click to add content
+    </WithStyles(InlineButton)>
+  </div>
+</div>
+`;
+
+exports[`<EditableRTE /> renderHeader() should renderHeader 1`] = `
+<div>
+  <div>
+     
+    <b>
+      headingLabel
+    </b>
+    <ForwardRef(Fade)>
+      <WithStyles(InlineButton)
+        color="secondary"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-pencil3"
+          size="xsmall"
+        />
+         Edit
+      </WithStyles(InlineButton)>
+    </ForwardRef(Fade)>
+  </div>
+</div>
+`;
+
+exports[`<EditableRTE /> renderReadOnly() should renderView 1`] = `
+<div>
+  <div>
+    <WithStyles(GridItem)>
+      <div>
+         
+        <b />
+        <ForwardRef(Fade)>
+          <WithStyles(InlineButton)
+            color="secondary"
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              icon="lnr-pencil3"
+              size="xsmall"
+            />
+             Edit
+          </WithStyles(InlineButton)>
+        </ForwardRef(Fade)>
+      </div>
+    </WithStyles(GridItem)>
+    <withRouter(WithStyles(SimpleRTE))
+      autoSaveOnBlur={true}
+      className=""
+      component="span"
+      componentProps={Object {}}
+      emptyPlaceholder=""
+      hashKeyDesc={false}
+      headingIcon=""
+      headingLabel=""
+      id={0}
+      mode="viewMode"
+      mouseEvent="onMouseDown"
+      nodePath={
+        Array [
+          "customData",
+          "someProp",
+        ]
+      }
+      patch={false}
+      placeholder=""
+      readOnly={true}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      showEmpty={true}
+      showHeader={true}
+      type=""
+      typeLabel="content"
+      value=""
+      variant=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<EditableRTE /> renderView() should render empty 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "compressed": [Function],
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<EditableRTE /> renderView() should renderView 1`] = `
+<div>
+  <div>
+    renderHeader
+    <WithStyles(InlineButton)
+      className=""
+      color="secondary"
+      italic={true}
+      onClick={[Function]}
+    >
+      Click to add content
+    </WithStyles(InlineButton)>
+  </div>
+</div>
+`;
+
+exports[`<EditableRTE /> submitForm() should submitForm() 1`] = `
+Array [
+  Array [],
+]
+`;

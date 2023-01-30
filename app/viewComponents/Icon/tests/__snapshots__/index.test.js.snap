@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon/tests/index.test.js Smoke tests should render an icon 1`] = `
+<i
+  className="lnr-folder Icon-small Icon-root"
+/>
+`;
+
+exports[`Icon/tests/index.test.js Smoke tests should render properly 1`] = `
+<i
+  className="lnr- Icon-small Icon-root"
+/>
+`;
+
+exports[`Icon/tests/index.test.js UGroop Fonts Icons UGroop Font 1`] = `
+<span
+  className="ugFont"
+>
+  ugroop
+</span>
+`;
+
+exports[`Icon/tests/index.test.js UGroop Fonts Icons UGroop Font without children 1`] = `
+<span
+  className="ugFont"
+>
+  ugroop
+</span>
+`;
+
+exports[`Icon/tests/index.test.js UGroop Fonts Icons UGroop Icon 1`] = `
+<i
+  className="ug-ugroop"
+/>
+`;
+
+exports[`Icon/tests/index.test.js UGroop Fonts Icons UGroop Logo 1`] = `
+<a
+  className="ug-logo"
+  title="Ugroop"
+>
+  <span />
+</a>
+`;
+
+exports[`Icon/tests/index.test.js bold icon should render bold 1`] = `
+<i
+  className="lnr- Icon-small Icon-bold Icon-root"
+/>
+`;
+
+exports[`Icon/tests/index.test.js linear icon auto-detects linearicon variant 1`] = `
+<i
+  className="lnr-icon"
+/>
+`;

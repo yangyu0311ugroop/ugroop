@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PERSON_DETAIL_HELPER addDietary should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "addDietary",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER addInsurancePolicy should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "addInsurancePolicy",
+    Object {
+      "id": 2,
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER addMedical should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "addMedical",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER addPersonPassport should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "addPassport",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER addStudentDetail should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "addStudentDetail",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER createPerson should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "createPersonFacade",
+    Object {
+      "payload": Object {
+        "data": Object {},
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER patchDietary should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchDietary",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "dietaryId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER patchInsurancePolicy should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchInsurancePolicy",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "id": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER patchMedical should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchMedical",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "medicalId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER patchStudentDetail should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchStudentDetail",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "personId": 1,
+        "studentDetailId": 2,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER removeDietary should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "removeDietary",
+    Object {
+      "payload": Object {
+        "dietaryId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER removeInsurancePolicy should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "removeInsurancePolicy",
+    Object {
+      "payload": Object {
+        "id": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER removeMedical should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "removeMedical",
+    Object {
+      "payload": Object {
+        "medicalId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER removePersonPassport should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "removePassport",
+    Object {
+      "payload": Object {
+        "passportId": 2,
+        "personId": 1,
+        "userId": 3,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER removeStudentDetail should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "removeStudentDetail",
+    Object {
+      "payload": Object {
+        "personId": 1,
+        "studentDetailId": 2,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePassport should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassportFacade",
+    Object {
+      "onError": [MockFunction],
+      "onSuccess": [MockFunction],
+      "payload": Object {
+        "data": Object {},
+        "passportId": 1,
+        "rawData": Object {},
+        "userId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePassportPhoto should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassportFacade",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "data": Object {
+          "photo": Object {
+            "url": "/image-url",
+            "x": 1,
+            "y": 1,
+          },
+        },
+        "passportId": 1,
+        "userId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePassportPhoto should call dispatchTo with particular params if url param is null 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassportFacade",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "data": Object {
+          "photo": null,
+        },
+        "passportId": 1,
+        "userId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePerson should call dispatchTo of resaga with no ids 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "updatePerson",
+    Object {
+      "payload": Object {
+        "data": Object {},
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePerson should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "updatePerson",
+    Object {
+      "payload": Object {
+        "data": Object {
+          "id": 1,
+          "nodeId": 3,
+          "userId": 2,
+        },
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePersonPassport should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassport",
+    Object {
+      "payload": Object {
+        "data": Object {},
+        "passportId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePersonPassportPhoto should call dispatchTo of resaga with no url 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassport",
+    Object {
+      "payload": Object {
+        "data": Object {
+          "photo": null,
+        },
+        "passportId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;
+
+exports[`PERSON_DETAIL_HELPER updatePersonPassportPhoto should call dispatchTo of resaga with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPassport",
+    Object {
+      "payload": Object {
+        "data": Object {
+          "photo": Object {
+            "url": "url",
+            "y": 2,
+          },
+        },
+        "passportId": 2,
+        "personId": 1,
+      },
+      "x": 1,
+    },
+  ],
+]
+`;

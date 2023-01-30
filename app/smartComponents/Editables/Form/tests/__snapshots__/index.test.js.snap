@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableForm /> Smoke tests should render properly 1`] = `
+<Fragment>
+  <WithStyles(PopoverForm)
+    disabled={false}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+    popoverProps={
+      Object {
+        "anchorEl": null,
+        "classes": Object {
+          "paper": undefined,
+        },
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(EditableFormActions)
+        loading={false}
+        onCancel={[Function]}
+        renderSecondaryActions={[Function]}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(PopoverForm)>
+  <WithStyles(EditableLabel) />
+  <WithStyles(Editable)
+    buttonRef={[Function]}
+    className=""
+    onClick={[Function]}
+    readOnly={false}
+  >
+    <WithStyles(EditablePlaceholder)
+      className=""
+    >
+      Click to specify
+    </WithStyles(EditablePlaceholder)>
+  </WithStyles(Editable)>
+</Fragment>
+`;
+
+exports[`<EditableForm /> instance renderFormActions() should renderFormActions 1`] = `
+Array [
+  Array [
+    Object {
+      "onCancel": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "onCancel": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<EditableForm /> instance renderLabel should render editable label 1`] = `
+<div>
+  <WithStyles(EditableLabel) />
+</div>
+`;
+
+exports[`<EditableForm /> instance renderPlaceholder renders props.readOnlyPlaceholder if props.readOnly 1`] = `
+<WithStyles(EditablePlaceholder)
+  className=""
+>
+  None
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableForm /> instance renderValue has value & action and is not row 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className="j-text-ellipsis"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div
+        className="j-text-ellipsis"
+      >
+        renderValue
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="j-text-ellipsis"
+      >
+        <div />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableForm /> instance renderValue has value & action and isRow 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className="j-text-ellipsis"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div
+        className="j-text-ellipsis"
+      >
+        renderValue
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="j-text-ellipsis"
+      >
+        <div />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableForm /> instance renderValue has value with no action 1`] = `
+<div>
+  <div
+    className="j-text-ellipsis"
+  >
+    renderValue
+  </div>
+</div>
+`;
+
+exports[`<EditableForm /> setStates handleCancel 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": false,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handleEditableButtonRef 1`] = `
+Object {
+  "anchorEl": "test",
+  "editing": false,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handleEditableClick 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": true,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handlePopoverClose 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": false,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handleSubmitError 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": true,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handleSubmitSuccess 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": false,
+  "loading": false,
+}
+`;
+
+exports[`<EditableForm /> setStates handleValidSubmit 1`] = `
+Object {
+  "anchorEl": null,
+  "editing": false,
+  "loading": true,
+}
+`;

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PassportEditableMenu renderIsDefault should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(IsDefault)))
+    id={1}
+    variant="badge"
+  />
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenu should match snapshot 1`] = `
+<div>
+  renderMenuItemHeading
+  renderMenuItemUserValues
+  renderMenuItemNodeValues
+  renderMenuItemNodeValueCreate
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItem should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    renderMenuItemValue
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItemHeading should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemInput)>
+      <H6
+        dense={true}
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Select or view passport"
+          id="app.Node.parts.Passport.heading"
+        />
+      </H6>
+    </WithStyles(EditableMenuItemInput)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItemNodeValueCreate should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemValue)
+      hideIcon={true}
+      onClick={[Function]}
+      selected={false}
+    >
+      <FormattedMessage
+        defaultMessage="Add new passport?"
+        id="app.Node.parts.Passport.createLabel"
+      />
+    </WithStyles(EditableMenuItemValue)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItemNodeValues should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    item
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItemUserValues should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    ids={Array []}
+  >
+    oof
+  </ConnectFunction>
+</div>
+`;
+
+exports[`PassportEditableMenu renderMenuItemValue should match snapshot 1`] = `
+<div>
+  <WithStyles(EditableMenuItemValue)
+    onClick={[Function]}
+    onSelect={[Function]}
+    selected={false}
+  >
+    renderNonInputValue
+  </WithStyles(EditableMenuItemValue)>
+</div>
+`;
+
+exports[`PassportEditableMenu renderSortedMenuItemUserValues should match snapshot 1`] = `
+<div>
+  boop
+</div>
+`;

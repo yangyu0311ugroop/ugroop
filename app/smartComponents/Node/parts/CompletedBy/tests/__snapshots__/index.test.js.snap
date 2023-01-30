@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompletedBy /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<CompletedBy /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "avatar": [Function],
+      "compressed": [Function],
+      "default": [Function],
+      "text": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<CompletedBy /> renderAvatar() should renderAvatar 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(Icon)
+          color="success"
+          icon="lnr-checkmark-circle"
+          size="normal"
+        />
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        imageSize="imageExtraExtraExtraSmall"
+        tooltipText=""
+        userId={12}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<CompletedBy /> renderCompressed() should renderCompressed 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    Completed by 
+    <WithStyles(Connect(WithSimplifyResaga(Name)))
+      id={12}
+      variant="text"
+    />
+  </span>
+</div>
+`;
+
+exports[`<CompletedBy /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    Completed by 
+    <WithStyles(Connect(WithSimplifyResaga(Name)))
+      id={12}
+    />
+     
+    <WithStyles(Connect(WithSimplifyResaga(CompletedAt)))
+      id={0}
+    />
+  </span>
+</div>
+`;
+
+exports[`<CompletedBy /> renderText() should renderText 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Name)))
+      id={12}
+      variant=""
+    />
+  </span>
+</div>
+`;

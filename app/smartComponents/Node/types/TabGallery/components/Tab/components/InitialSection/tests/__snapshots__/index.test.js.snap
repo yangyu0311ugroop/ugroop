@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryInitial/tests/index.test.js renderContent Empty() should render EMPTY if !sectionIds.length 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="gray"
+          icon="lnr-picture2"
+          size="xl"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        There are no images here
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Upload more images along with a description
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UploadPhotos)))))))
+          blankslate={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteCard /> goToMapView() should goToMapView() 1`] = `
+Array [
+  Array [
+    Object {
+      "layout": "map",
+    },
+  ],
+]
+`;
+
+exports[`<RouteCard /> handleClick() should goToMapView() 1`] = `
+Array [
+  Array [
+    22,
+  ],
+]
+`;
+
+exports[`<RouteCard /> handleClick() should goToMapView() 2`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<RouteCard /> handleClick() should handleClick() 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedId": 33,
+    },
+  ],
+]
+`;
+
+exports[`<RouteCard /> handleShowDetail() should handleShowDetail() 1`] = `
+Array [
+  Array [
+    Object {
+      "showDetail": 2233,
+    },
+  ],
+]
+`;
+
+exports[`<RouteCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      className=""
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          renderHeader
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              renderRoute
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RouteCard /> render() should render empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      className=""
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          renderHeader
+          <WithStyles(GridItem)>
+            <div>
+              Plan your journey with uGroop route planner.
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RouteCard /> renderDetail() should renderDetail 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Element
+      name="RouteDetails"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Route)))))
+            variant="ROUTE_CARD"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Route)))))
+          variant="ROUTE_DETAILS"
+        />
+      </WithStyles(GridContainer)>
+    </Element>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RouteCard /> renderHeader() should renderHeader 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <div>
+          #
+        </div>
+      </WithStyles(GridItem)>
+      <BoundCan
+        do="create"
+        on="route"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            size="xs"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  icon="lnr-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </BoundCan>
+      <WithStyles(GridItem)
+        className=""
+        onClick={[Function]}
+      >
+        <withRouter(UGLink)
+          title="Go to Routes view"
+          to="/tours?dayView=map"
+        >
+          <div>
+            Routes
+          </div>
+        </withRouter(UGLink)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RouteCard /> renderNewRouteButton() should renderNewRouteButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    onClick={[Function]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          icon="lnr-plus"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<RouteCard /> renderRoute() should renderRoute 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Route)))))
+      active={true}
+      className=""
+      history={
+        Object {
+          "replace": [MockFunction],
+        }
+      }
+      location={Object {}}
+      onClick={[Function]}
+      onShowDetail={[Function]}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      simple={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

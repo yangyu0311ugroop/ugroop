@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGPlacesSuggest /> <UGPlacesSuggest /> renderSuggest() should render correctly 1`] = `
+<SuggestItem
+  classes={
+    Object {
+      "root": "SuggestItem-root-1",
+      "text": "SuggestItem-text-2",
+    }
+  }
+  mainText="test main text"
+  secondaryText="test secondary text"
+/>
+`;

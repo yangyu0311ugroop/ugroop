@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventHomeTimeLabel /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        darkgreen={true}
+        halfPaddingRight={true}
+        sm={true}
+      >
+        @home
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        darkgreen={true}
+        halfPaddingRight={true}
+        sm={true}
+      >
+        13:00 CET
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;

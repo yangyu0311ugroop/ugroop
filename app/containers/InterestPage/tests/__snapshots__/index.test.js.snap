@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestPage /> fetchData should render properly w/o hashkey 1`] = `<div />`;
+
+exports[`<InterestPage /> fetchError redirects to 404 1`] = `
+Array [
+  Array [
+    "/notFound",
+  ],
+]
+`;
+
+exports[`<InterestPage /> fetchSuccess should call redirect if disable ryi 1`] = `
+Array [
+  Array [
+    "/notFound",
+  ],
+]
+`;
+
+exports[`<InterestPage /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      md={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TourHeader)))
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Container)
+        padding={false}
+        reading={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(TourDetail)))
+              tabId={0}
+              templateId={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+            id={0}
+            isCollapeSeeMore={false}
+            renderSeeMore={false}
+            showEmpty={false}
+            showHeader={false}
+          >
+            <Component />
+          </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))>
+          <WithStyles(GridItem)>
+            <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourForm))))))
+              hashkey="abcd"
+              templateId={0}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Container)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(PublicFooter) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestPage /> render() should render loading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-sync"
+      />
+       Loading...
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestPage /> renderDescription should render renderDescription 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        abcd
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

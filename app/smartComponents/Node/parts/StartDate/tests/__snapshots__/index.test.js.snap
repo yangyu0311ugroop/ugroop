@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartDate /> changeStartDate() should changeStartDate() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": undefined,
+        "nodeId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> contentClassName() should return contentClassName 1`] = `"customClassName"`;
+
+exports[`<StartDate /> goToDayView() should call history.push 1`] = `
+Array [
+  Array [
+    "undefined?tab=0&dayView=day",
+  ],
+]
+`;
+
+exports[`<StartDate /> goToDayView() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "layout": "day",
+      "selectedId": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "layout": "day",
+      "selectedId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> handlePickDate() should handlePickDate() 1`] = `
+Array [
+  Array [
+    Object {
+      "customData": Object {
+        "displayDate": "startDate",
+        "startDate": "2018-05-29T00:00:00.000Z",
+        "weekDay": null,
+      },
+      "type": "template",
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> handlePickWeekDay() should handlePickWeekDay() 1`] = `
+Array [
+  Array [
+    Object {
+      "customData": Object {
+        "displayDate": "weekDay",
+        "startDate": null,
+        "weekDay": 3,
+      },
+      "type": "template",
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> handleRemoveDate() should handleRemoveDate() 1`] = `
+Array [
+  Array [
+    Object {
+      "customData": Object {
+        "displayDate": "none",
+        "startDate": null,
+        "weekDay": null,
+      },
+      "type": "template",
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> render() should renderProp 1`] = `
+<div>
+  renderProp
+</div>
+`;
+
+exports[`<StartDate /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "SMALL_BADGE": [Function],
+      "calendarBadge": [Function],
+      "default": [Function],
+      "subtitle": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<StartDate /> renderButtonContent() should renderButtonContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div
+            className="LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse"
+          >
+            renderFirstRow
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div
+            className="LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse"
+          >
+            renderSecondRow
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<StartDate /> renderCalendarButton() should renderCalendar readonly 1`] = `
+<div>
+  <div
+    className="LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse"
+  >
+    renderButtonContent
+  </div>
+</div>
+`;
+
+exports[`<StartDate /> renderCalendarButton() should renderCalendar readonly 2`] = `
+<div>
+  <WithStyles(Button)
+    className="LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse LOGIC_HELPERS.ifElse"
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+    variant="borderless"
+  >
+    renderButtonContent
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<StartDate /> renderCalendarMenu() should renderCalendarMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)>
+        Tour commencement date
+      </WithStyles(MenuItem)>
+      <WithStyles(MenuItem)
+        button={true}
+        onClick={[Function]}
+      >
+        Pick a date
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)>
+        Or select a day of week
+      </WithStyles(MenuItem)>
+      <div>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              className=""
+              onClick={[Function]}
+            >
+              Sun
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              onClick={[Function]}
+            >
+              Mon
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              onClick={[Function]}
+            >
+              Tue
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              onClick={[Function]}
+            >
+              Wed
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              onClick={[Function]}
+            >
+              Thu
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              onClick={[Function]}
+            >
+              Fri
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(MenuItem)
+              button={true}
+              className=""
+              onClick={[Function]}
+            >
+              Sat
+            </WithStyles(MenuItem)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        button={true}
+        onClick={[Function]}
+      >
+        Unset date
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<StartDate /> renderDayAgo() should return 0 1`] = `"today"`;
+
+exports[`<StartDate /> renderDayAgo() should return 1 1`] = `"yesterday"`;
+
+exports[`<StartDate /> renderDayAgo() should return 5 1`] = `"5 days ago"`;
+
+exports[`<StartDate /> renderDefault() should renderDefault 1`] = `<div />`;
+
+exports[`<StartDate /> renderEvent() should renderEvent 1`] = `
+<div>
+  <div
+    className=""
+    title="See event information"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        icon
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        one day
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<StartDate /> renderFirstRow() should renderFirstRow none 1`] = `
+<div>
+  Start
+</div>
+`;
+
+exports[`<StartDate /> renderFirstRow() should renderFirstRow startDate 1`] = `
+<div>
+  May
+</div>
+`;
+
+exports[`<StartDate /> renderFirstRow() should renderFirstRow weekDay 1`] = `
+<div>
+  Start
+</div>
+`;
+
+exports[`<StartDate /> renderPickerTextField() should renderPickerTextField 1`] = `<div />`;
+
+exports[`<StartDate /> renderProp() should renderDefault 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<StartDate /> renderProp() should renderProp 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<StartDate /> renderSecondRow() should renderSecondRow none 1`] = `
+<div>
+  ?
+</div>
+`;
+
+exports[`<StartDate /> renderSecondRow() should renderSecondRow startDate 1`] = `
+<div>
+  28
+</div>
+`;
+
+exports[`<StartDate /> renderSecondRow() should renderSecondRow weekDay 1`] = `
+<div>
+  Wednesday
+</div>
+`;
+
+exports[`<StartDate /> startPickDate() should startPickDate() 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<StartDate /> updateTimes() should updateTimes() 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;

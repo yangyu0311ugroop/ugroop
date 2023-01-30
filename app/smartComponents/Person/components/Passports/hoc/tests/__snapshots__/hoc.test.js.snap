@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PassportCUD /> createSuccess() should call SnackbarHelper open success snackbar 1`] = `
+Array [
+  Array [
+    "Successfully added a passport",
+    Object {
+      "dispatchTo": [MockFunction] {
+        "calls": Array [
+          Array [
+            "PersonDetails",
+            "createPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "removePassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "passportId": 0,
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "patchPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "passportId": 0,
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> destroy() should call dispatchTo with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "createPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "removePassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "passportId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> destroySuccess() should call SnackbarHelper open success snackbar 1`] = `
+Array [
+  Array [
+    "Successfully deleted a passport",
+    Object {
+      "dispatchTo": [MockFunction] {
+        "calls": Array [
+          Array [
+            "PersonDetails",
+            "createPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "removePassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "passportId": 0,
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "patchPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "passportId": 0,
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> genericError should call openErrorSnackbar 1`] = `
+Array [
+  Array [
+    "Something went wrong. Please try again or contact us if still persist.",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    headlineTitle=""
+    open={false}
+    template="delete"
+    type="passport"
+  />
+</div>
+`;
+
+exports[`<PassportCUD /> setIsPrimary() should call update function and pass a particular data shape together with the options passed to it 1`] = `
+Array [
+  Array [
+    Object {},
+  ],
+]
+`;
+
+exports[`<PassportCUD /> store() should call dispatch to with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "createPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> update() should call dispatch to with particular params 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "createPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "removePassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "passportId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "patchPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "passportId": 0,
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> update() should not call dispatch to if isChanged param is false 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "createPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "removePassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "passportId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "patchPassportFacade",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "passportId": 0,
+        "rawData": Object {},
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PassportCUD /> updateSuccess() should call SnackbarHelper open success snackbar and call closeEditMode 1`] = `
+Array [
+  Array [
+    "Successfully updated a passport",
+    Object {
+      "dispatchTo": [MockFunction] {
+        "calls": Array [
+          Array [
+            "PersonDetails",
+            "createPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "removePassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "passportId": 0,
+                "userId": 0,
+              },
+            },
+          ],
+          Array [
+            "PersonDetails",
+            "patchPassportFacade",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "data": Object {},
+                "passportId": 0,
+                "rawData": Object {},
+                "userId": 0,
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;

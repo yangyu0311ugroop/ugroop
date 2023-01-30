@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalMessage /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <Formsy(withRouter(WithStyles(SimpleRTE)))
+        innerRef={[Function]}
+        name="pm"
+        readOnly={true}
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="some content"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

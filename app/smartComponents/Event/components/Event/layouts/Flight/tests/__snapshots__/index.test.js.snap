@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Flight /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Flight /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <EventDetails
+      defaultExpanded={true}
+      descriptionOnly={true}
+      showEventLocation={true}
+      variant={null}
+    />
+    <ConnectFunction
+      variant={null}
+    />
+    <WithStyles(FlightStartEnd)
+      variant={null}
+    />
+    <FlightDetails
+      variant={null}
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Seats)))
+      variant={null}
+    />
+    <ConnectFunction
+      variant={null}
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Attachments)))
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Flight /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <ConnectFunction
+      variant={null}
+    />
+    <WithStyles(FlightStartEnd)
+      variant={null}
+    />
+    <EventDetails
+      defaultExpanded={false}
+      descriptionOnly={true}
+      showEventLocation={true}
+      variant={null}
+    />
+    <FlightDetails
+      variant={null}
+    />
+    <ConnectFunction
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

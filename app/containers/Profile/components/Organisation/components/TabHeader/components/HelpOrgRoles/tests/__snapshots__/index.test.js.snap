@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelpOrgRoles /> render() should render correctly 1`] = `
+<HelpDialog
+  className=""
+  dialogTitle="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.orgRoleHelp"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <H4>
+    <FormattedMessage
+      defaultMessage="To increase the granularity and control of user account security, uGroop uses a concept of Roles within an organisation. There are 4 roles to choose from."
+      id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.description"
+    />
+  </H4>
+  <H4>
+    <FormattedMessage
+      defaultMessage="Organisation Roles"
+      id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.orgRoles"
+    />
+  </H4>
+  <WithStyles(Table)>
+    <WithStyles(TableBody)>
+      <WithStyles(TableRow)>
+        <WithStyles(TableCell)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Owner"
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.ownerHeader"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Person whom initially creates an organisation and manages subscription details. This person has full control over the uGroop experience, can add, delete and edit user roles and can access all the tours in the organisation with the exception of Personal workspaces that each user is allocated."
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.owner"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(TableCell)>
+      </WithStyles(TableRow)>
+      <WithStyles(TableRow)>
+        <WithStyles(TableCell)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Administrator"
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.adminHeader"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                <FormattedMessage
+                  defaultMessage="Someone who is assigned the role of management of the organisation except for subscription information. This person can view all users, add roles and manage permissions. An administrator cannot demote another admin but can deactivate any role. All administrators can access all the tours in the organisation."
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.admin"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(TableCell)>
+      </WithStyles(TableRow)>
+      <WithStyles(TableRow)>
+        <WithStyles(TableCell)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Member"
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.memberHeader"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                <FormattedMessage
+                  defaultMessage="This person has the capability to create, change and delete their own tours and/or the organisation tours."
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.member"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(TableCell)>
+      </WithStyles(TableRow)>
+      <WithStyles(TableRow)>
+        <WithStyles(TableCell)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Guest"
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.guestHeader"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                <FormattedMessage
+                  defaultMessage="The only permission available to guests is VIEW function. They cannot create a tour but can only view a tour through a tour invitation."
+                  id="app.containers.Profile.components.Organisation.components.TabHeader.components.HelpOrgRoles.guest"
+                />
+              </H4>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(TableCell)>
+      </WithStyles(TableRow)>
+    </WithStyles(TableBody)>
+  </WithStyles(Table)>
+</HelpDialog>
+`;

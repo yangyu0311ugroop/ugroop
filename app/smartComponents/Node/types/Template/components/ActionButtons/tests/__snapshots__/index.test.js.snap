@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButtons /> handleCloseMenu should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    anchorEl={null}
+    onClose={[Function]}
+    placement="bottom-start"
+    renderButton={[Function]}
+  >
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="copy"
+      />
+      <FormattedMessage
+        defaultMessage="Clone"
+        id="app.containers.Templates.Components.GridView.TemplateItem.cloneLabel"
+      />
+    </WithStyles(MenuItem)>
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ActionButtons /> onDelete should match snapshot 1`] = `<div />`;
+
+exports[`<ActionButtons /> renderMenuButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Button)
+    color="gray"
+    icon="ellipsis"
+    iconButton={true}
+    onClick={[Function]}
+    size="small"
+    variant="borderless"
+  />
+</div>
+`;
+
+exports[`<ActionButtons /> renderMoveIcon should match snapshot 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    button={true}
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="compare"
+    />
+    <FormattedMessage
+      defaultMessage="Move"
+      id="app.containers.Templates.Components.GridView.TemplateItem.moveLabel"
+    />
+  </WithStyles(MenuItem)>
+</div>
+`;

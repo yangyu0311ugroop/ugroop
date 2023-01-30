@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRisk /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Risk Activity"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddRisk /> renderContent() should renderContent 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          autoFocus={true}
+          id="content"
+          label="What is the risk?"
+          name="content"
+          onInterceptValue={[Function]}
+          placeholder="i.e. Travel by Coach"
+          required={true}
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <div>
+              Description
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Formsy(withRouter(WithStyles(SimpleRTE)))
+              innerRef={[Function]}
+              lines={2}
+              name="description"
+              placeholder="Short description (optional)"
+              required={false}
+              validationError=""
+              validationErrors={Object {}}
+              validations={null}
+              value=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        renderSaveCancelButton
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<AddRisk /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        size="xs"
+        type="submit"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            Continue
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-right"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

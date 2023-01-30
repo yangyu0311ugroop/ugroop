@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NaviBar /> still matches snapshot 1`] = `
+<WithStyles(Nav)>
+  <NavWrapper
+    classes={Object {}}
+  >
+    <h1>
+      Test
+    </h1>
+  </NavWrapper>
+</WithStyles(Nav)>
+`;

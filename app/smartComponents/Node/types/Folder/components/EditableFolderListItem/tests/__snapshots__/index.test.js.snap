@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditableFolderCard render should match snapshot 1`] = `
+<div>
+  <Component
+    onClose={[MockFunction]}
+    onSave={[MockFunction]}
+  />
+</div>
+`;

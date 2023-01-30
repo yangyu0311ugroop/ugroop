@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeftSideBar /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={4}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <b>
+            Workspaces
+          </b>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <div>
+        renderCommonWorkingSpace
+      </div>
+      <div>
+        <withRouter(UGLink)
+          to="/orgs/2233/shared_tours"
+        >
+          Shared Tours
+        </withRouter(UGLink)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<LeftSideBar /> renderCommonWorkingSpace() should render active #1 1`] = `
+<div>
+  <div>
+    Organisation Folders
+  </div>
+</div>
+`;
+
+exports[`<LeftSideBar /> renderCommonWorkingSpace() should render active #2 1`] = `
+<div>
+  <div>
+    Organisation Folders
+  </div>
+</div>
+`;
+
+exports[`<LeftSideBar /> renderCommonWorkingSpace() should render link 1`] = `
+<div>
+  <withRouter(UGLink)
+    to="/orgs/2233/tours"
+  >
+    Organisation Folders
+  </withRouter(UGLink)>
+</div>
+`;
+
+exports[`<LeftSideBar /> renderMemberLinks() should renderMemberLinks 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    key="1"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        imageSize="imageExtraExtraExtraSmall"
+        userId={1}
+        xxs={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <withRouter()
+            current={2323}
+            id={1}
+            orgId={2233}
+            url="/orgs/2233/tours?current="
+          >
+            <Component
+              id={1}
+              organisationId={2233}
+              variant="stringOnly"
+            />
+          </withRouter()>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

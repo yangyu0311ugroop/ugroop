@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantMenuButton /> buyMoreView should render correctly 1`] = `
+<div>
+  <BuymoreTourSeats
+    templateId={0}
+  />
+</div>
+`;
+
+exports[`<ParticipantMenuButton /> handleClick should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "peopleFilterSelected": "participantsFilter",
+      "peopleTabOptionSelected": "allParticipants",
+    },
+  ],
+]
+`;
+
+exports[`<ParticipantMenuButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+    variant="logic"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Filters)))
+    templateId={0}
+  >
+    <Component />
+  </WithStyles(Connect(WithSimplifyResaga(Filters)))>
+</div>
+`;
+
+exports[`<ParticipantMenuButton /> renderContent should render correctly and return null 1`] = `
+Array [
+  Array [
+    Object {
+      "peopleFilterSelected": "participantsFilter",
+      "peopleTabOptionSelected": "allParticipants",
+    },
+  ],
+]
+`;
+
+exports[`<ParticipantMenuButton /> renderContent should return content 1`] = `
+Array [
+  Array [
+    Object {
+      "peopleFilterSelected": "participantsFilter",
+      "peopleTabOptionSelected": "allParticipants",
+    },
+  ],
+]
+`;

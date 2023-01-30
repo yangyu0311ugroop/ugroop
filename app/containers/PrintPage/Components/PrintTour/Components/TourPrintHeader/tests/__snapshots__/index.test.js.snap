@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourPrintHeader /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Print Tour",
+            "name": "description",
+          },
+        ]
+      }
+      title=""
+    />
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        md={9}
+        xs={12}
+      >
+        <withRouter(Connect(WithSimplifyResaga(WithStyles(TemplateHeader))))
+          printView={true}
+          publicView={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={1}
+        />
+        <WithStyles(GridItem)
+          xs={9}
+        >
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              className=""
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+                renderSeeMore={false}
+                showEmpty={false}
+                showHeader={false}
+                variant="readOnly"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TourPrintHeader /> render() should render orgPhoto 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Print Tour",
+            "name": "description",
+          },
+        ]
+      }
+      title=""
+    />
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        md={9}
+        xs={12}
+      >
+        <withRouter(Connect(WithSimplifyResaga(WithStyles(TemplateHeader))))
+          printView={true}
+          publicView={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={1}
+        />
+        <WithStyles(GridItem)
+          xs={9}
+        >
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              className=""
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+                renderSeeMore={false}
+                showEmpty={false}
+                showHeader={false}
+                variant="readOnly"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TourPrintHeader /> render() should render without templateHeader 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Print Tour",
+            "name": "description",
+          },
+        ]
+      }
+      title=""
+    />
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        md={9}
+        xs={12}
+      >
+        <withRouter(Connect(WithSimplifyResaga(WithStyles(TemplateHeader))))
+          printView={true}
+          publicView={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={1}
+        />
+        <WithStyles(GridItem)
+          xs={9}
+        >
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              className=""
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+                renderSeeMore={false}
+                showEmpty={false}
+                showHeader={false}
+                variant="readOnly"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

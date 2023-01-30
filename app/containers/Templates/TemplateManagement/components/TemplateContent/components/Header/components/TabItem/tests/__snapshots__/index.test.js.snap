@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabItem /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuButton)
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            renderTab
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> render() should renderTabItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tab))
+    className=""
+    label={
+      <WithStyles(MenuButton)
+        className=""
+      >
+        <WithStyles(JTextClass)
+          className=""
+          ellipsis={false}
+        />
+      </WithStyles(MenuButton)>
+    }
+  />
+</div>
+`;
+
+exports[`<TabItem /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        title="Only Me"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="danger"
+          icon="lnr-lock"
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        className=""
+        ellipsis={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderContent() should renderContent 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        title="Only Me"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="danger"
+          icon="lnr-lock"
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        className=""
+        ellipsis={false}
+      >
+        this is a example of l...
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderContent() should renderContent menu item 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        className=""
+        ellipsis={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        title="Only Me"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="danger"
+          icon="lnr-lock"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderContent() should renderContent mobile 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        className=""
+        ellipsis={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        title="Only Me"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="danger"
+          icon="lnr-lock"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderContent() should renderContent mobile and not menu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        title="Organisers Only"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="blue"
+          icon="lnr-lock"
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        className=""
+        ellipsis={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderGallery() should renderGallery 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="space-between"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        1
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderLayout() should renderLayout 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))))
+        simple={true}
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TabItem /> renderPeople should match snapshot() 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      renderContent
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabItem /> renderTab() should renderTab 1`] = `
+<div>
+  renderContent
+</div>
+`;
+
+exports[`<TabItem /> renderTabTimeLine() should renderTabTimeLine 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridItem)>
+    renderLayout
+  </WithStyles(GridContainer)>
+</div>
+`;

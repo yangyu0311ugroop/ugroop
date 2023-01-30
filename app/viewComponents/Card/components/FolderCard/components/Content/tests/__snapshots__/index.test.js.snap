@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderContent /> render should render empty content if there are no folderIds and templateIds 1`] = `
+<WithStyles(UGCardContent)
+  className="undefined"
+>
+  renderEmptyContent
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<FolderContent /> renderContent should match snapshot 1`] = `
+<div>
+  <div
+    className="FolderCardContent-templateFolderContentContainer"
+  >
+    <ul
+      className="FolderCardContent-templateItemListContainer"
+    >
+      <WithStyles(FolderListView)
+        key="folders"
+        noULWrap={true}
+        viewDelegate={
+          Object {
+            "itemCellView": [Function],
+            "numberOfRow": [Function],
+          }
+        }
+      />
+      <WithStyles(FolderListView)
+        key="tours"
+        noULWrap={true}
+        viewDelegate={
+          Object {
+            "itemCellView": [Function],
+            "numberOfRow": [Function],
+          }
+        }
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<FolderContent /> renderEmptyContent should match snapshot 1`] = `
+<div>
+  <div
+    className="FolderCardContent-templateFolderContentContainer FolderCardContent-emptyFolder"
+  >
+    <p>
+      No items included
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FolderContent /> subFolderViewDef should return a component given the passed parameter 1`] = `
+<FolderListItem
+  classes={
+    Object {
+      "listItemIcon": "FolderListItem-listItemIcon-2",
+      "listItemLink": "FolderListItem-listItemLink-3",
+      "listItemRoot": "FolderListItem-listItemRoot-1",
+    }
+  }
+  content={
+    Object {
+      "content": "God is holy, holy, holy",
+    }
+  }
+  index={4}
+  type="folder"
+  url="/sample?current=3"
+/>
+`;
+
+exports[`<FolderContent /> tourViewDef should return a component given the passed parameter 1`] = `
+<FolderListItem
+  classes={
+    Object {
+      "listItemIcon": "FolderListItem-listItemIcon-2",
+      "listItemLink": "FolderListItem-listItemLink-3",
+      "listItemRoot": "FolderListItem-listItemRoot-1",
+    }
+  }
+  content={
+    Object {
+      "content": "Jesus is the King of kings!",
+    }
+  }
+  index={3}
+  type="tour"
+  url="/tours/2?queryParam"
+/>
+`;

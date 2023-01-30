@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentDetails /> renderEditable should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    readOnly={false}
+  />
+</div>
+`;

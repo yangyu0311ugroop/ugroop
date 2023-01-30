@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpdatedAt /> render() should render correctly 1`] = `
+<div>
+  <span
+    className=""
+    title="Invalid date at Invalid date"
+  >
+    Invalid date
+  </span>
+</div>
+`;
+
+exports[`<UpdatedAt /> renderSimpleTooltip() should still match snapshot 1`] = `
+<div>
+  <div
+    title="Invalid date at Invalid date"
+  />
+</div>
+`;

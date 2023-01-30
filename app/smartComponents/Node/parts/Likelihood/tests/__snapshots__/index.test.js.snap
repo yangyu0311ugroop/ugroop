@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Likelihood /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Head)>
+        Likelihood
+      </WithStyles(Head)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Likelihood /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(MenuButton)
+    dense={false}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(RatingButton)))
+          active={true}
+          text="Rare"
+          title={
+            <React.Fragment>
+              <i>
+                Potential
+              </i>
+              , exceptional time
+            </React.Fragment>
+          }
+          value={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuButton)>
+</div>
+`;
+
+exports[`<Likelihood /> renderContent() should renderContent 1`] = `
+<div>
+  <ConnectFunction
+    menuHeader="Likelihood"
+    noPadding={true}
+    renderButton={[Function]}
+    stopPropagation={true}
+    value={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Likelihood /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Rare
+        </b>
+        : Potential, exceptional time
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Unlikely
+        </b>
+        : Potential, some time
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Possible
+        </b>
+        : occasionally
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Very Likely
+        </b>
+        : Probable, most circumstances
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Almost certain
+        </b>
+        : Expected, most circumstances
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

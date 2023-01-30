@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Google/PlacesSuggest/SuggestItem #render() still matches snapshot 1`] = `
+<div
+  className="root"
+>
+  <WithStyles(H5)
+    className="text"
+  >
+     
+    <small />
+  </WithStyles(H5)>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateContent/tests/index.test.js render() should render tab content if isStillCalculating is false 1`] = `
+<div>
+  <ConnectFunction
+    onSuccess={[Function]}
+    templateId={1}
+  />
+  <ConnectFunction
+    id={1}
+  />
+  <WithStyles(withRouter())
+    activeTab={1}
+    loading={false}
+    pathname="http://sample"
+    templateId={1}
+  />
+</div>
+`;

@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReservationCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              black={true}
+              bold={true}
+            >
+              Booking
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={2}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="column"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      Booking number
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      Booked by
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      Supplier name
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      Booking date
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      Paid by
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                >
+                  renderBookingNumber
+                  renderBookedBy
+                  renderSupplierName
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      black={true}
+                      ellipsis={true}
+                      gray={false}
+                      italic={false}
+                    >
+                      01/01/1990
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      black={true}
+                      ellipsis={true}
+                      gray={false}
+                      italic={false}
+                    >
+                      123
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              renderPersonCount
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookedBy() should renderBookedBy 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookedBy() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookingDate() should renderBookingDate 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookingDate() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookingNumber() should renderBookingNumber 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderBookingNumber() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Empty)))
+      title="Reservation"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderPaidBy() should renderPaidBy 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderPaidBy() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderPersonCount() should renderPersonCount 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          xxl={true}
+        >
+          2
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          sm={true}
+          uppercase={true}
+        >
+          People
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderSupplierName() should renderSupplierName 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ReservationCard /> renderSupplierName() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

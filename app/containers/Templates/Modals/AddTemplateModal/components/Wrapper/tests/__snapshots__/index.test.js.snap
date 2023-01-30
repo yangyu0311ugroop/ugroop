@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTemplateDialogFlow should render what it should render 1`] = `
+<DialogFlowContainer
+  actionBtnSize="small"
+  checkAllInput={true}
+  customValidator={null}
+  dialogClassName="AddTemplateDialogFlow-root"
+  inputToBeValidated={Object {}}
+  isBeingDiscarded={false}
+  isDiscardBtnHidden={true}
+  isFullWidth={false}
+  isManuallyControlled={false}
+  isOpen={false}
+  isSaveDisabled={false}
+  isXBtnHidden={false}
+  onClose={[Function]}
+  onHookSingleValidation={null}
+  onValidated={null}
+>
+  qweqwe
+</DialogFlowContainer>
+`;

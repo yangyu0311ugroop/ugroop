@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabMapView /> render() should render correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "height": "480px",
+        "width": "100%",
+      }
+    }
+  >
+    <withScriptjs(withGoogleMap(WithStyles(Connect(WithSimplifyResaga(Map)))))
+      containerElement={<div />}
+      googleMapURL="getMapURL"
+      loadingElement={<div />}
+      mapElement={<div />}
+      placeIds={
+        Array [
+          Array [
+            Object {
+              "location": undefined,
+              "placeId": "1",
+            },
+          ],
+        ]
+      }
+    />
+  </div>
+</div>
+`;

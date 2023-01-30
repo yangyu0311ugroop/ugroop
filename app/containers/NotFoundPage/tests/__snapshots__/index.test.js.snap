@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should render authenticated 404 1`] = `
+<div>
+  <withRouter(Header)
+    showLeftMenu={false}
+  />
+  <withRouter(WithStyles(ErrorPages))
+    error="404"
+    type="page"
+  />
+</div>
+`;
+
+exports[`<NotFound /> should render unauthenticated 404 1`] = `
+<div>
+  <withRouter(WithStyles(ErrorPages))
+    error="404"
+    type="page"
+  />
+</div>
+`;

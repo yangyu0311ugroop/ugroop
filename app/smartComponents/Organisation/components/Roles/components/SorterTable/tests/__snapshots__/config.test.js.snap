@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SorterTable/config.js CONFIG sortedIds should base its cacheKey to the option passed to it + field key and sort function key 1`] = `"SortTable.2,1,4,3.knownAs.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of createdAt contains required properties 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "people",
+    1,
+    "createdAt",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    2,
+    "createdAt",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    3,
+    "createdAt",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    4,
+    "createdAt",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of createdAt should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.createdAt.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of email contains required properties 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "people",
+    1,
+    "email",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    2,
+    "email",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    3,
+    "email",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    4,
+    "email",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of email should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.email.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of firstName contains required properties 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "people",
+    1,
+    "firstName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    2,
+    "firstName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    3,
+    "firstName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    4,
+    "firstName",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of firstName should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.firstName.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of knownAs contains required properties 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "people",
+    1,
+    "knownAs",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    2,
+    "knownAs",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    3,
+    "knownAs",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    4,
+    "knownAs",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of knownAs should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.knownAs.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of lastName contains required properties 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "people",
+    1,
+    "lastName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    2,
+    "lastName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    3,
+    "lastName",
+  ],
+  Array [
+    "userDataStore",
+    "people",
+    4,
+    "lastName",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of lastName should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.lastName.sort"`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of lastSeenDate contains required properties 1`] = `
+Array [
+  Array [
+    "organisationDataStore",
+    "members",
+    1,
+    "lastSeen",
+  ],
+  Array [
+    "organisationDataStore",
+    "members",
+    2,
+    "lastSeen",
+  ],
+  Array [
+    "organisationDataStore",
+    "members",
+    3,
+    "lastSeen",
+  ],
+  Array [
+    "organisationDataStore",
+    "members",
+    4,
+    "lastSeen",
+  ],
+]
+`;
+
+exports[`SorterTable/config.js CONFIG_0 get array of lastSeenDate should base its cacheKey to the option passed to it with field key and sort function key 1`] = `"SortTable.1,2,3,4.lastSeenDate.sort"`;
+
+exports[`SorterTable/config.js filterName filterName mapped 1`] = `
+Array [
+  Array [
+    1,
+    "john",
+  ],
+  Array [
+    2,
+    "paul",
+  ],
+  Array [
+    3,
+    "dan",
+  ],
+  Array [
+    4,
+    "elijah",
+  ],
+]
+`;

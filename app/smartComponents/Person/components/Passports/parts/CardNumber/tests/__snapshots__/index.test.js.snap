@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardNumber /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    TextProps={
+      Object {
+        "helperText": "If applicable on your passport",
+      }
+    }
+    label="ID Card Number"
+    name="cardNumber"
+    onSubmit={[Function]}
+    placeholder="Click to specify ID card number"
+    readOnly={false}
+    readOnlyPlaceholder="No ID card number"
+    value=""
+  />
+</div>
+`;
+
+exports[`<CardNumber /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    helperText="If applicable on your passport"
+    label="ID Card Number"
+    name="cardNumber"
+    onInterceptValue={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`<CardNumber /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <span />
+</div>
+`;

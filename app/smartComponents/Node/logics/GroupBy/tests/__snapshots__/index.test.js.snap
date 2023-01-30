@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupBy /> render() should render correctly 1`] = `<div />`;
+
+exports[`<GroupBy /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Object {
+      "groupData": undefined,
+      "groupIds": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "groupData": undefined,
+      "groupIds": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "groupData": undefined,
+      "groupIds": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "groupData": undefined,
+      "groupIds": undefined,
+    },
+  ],
+]
+`;

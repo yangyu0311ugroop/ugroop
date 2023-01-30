@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/hoc/formsy/withFormContext #render() still matches snapshot 1`] = `
+<Context.Consumer>
+  [Function]
+</Context.Consumer>
+`;
+
+exports[`utils/hoc/formsy/withFormContext #renderWrappedComponent() still matches snapshot 1`] = `
+<UNDEFINED
+  x={1}
+  y={2}
+/>
+`;
+
+exports[`utils/hoc/formsy/withFormContext still matches snapshot 1`] = `
+Object {
+  "$$typeof": Symbol(react.forward_ref),
+  "render": [Function],
+}
+`;

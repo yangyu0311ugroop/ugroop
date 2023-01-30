@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactionItem /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        editable={false}
+        id={0}
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <P
+            dense={true}
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Name)))
+              bold={false}
+              id={0}
+            />
+          </P>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TermsOfService /> should render when authenticated 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Terms of Service",
+          "name": "description",
+        },
+      ]
+    }
+    title="Terms of Service"
+  />
+  <withRouter(Header) />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          "uGroop@1.0.0.2323",
+          "",
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<TermsOfService /> should render when unauthenticated 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Terms of Service",
+          "name": "description",
+        },
+      ]
+    }
+    title="Terms of Service"
+  />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          "uGroop@1.0.0.2323",
+          "",
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;

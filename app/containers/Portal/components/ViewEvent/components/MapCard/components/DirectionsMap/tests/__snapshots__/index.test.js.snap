@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DirectionsMap /> render() should render 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(GoogleMap)))
+    className=""
+    key="mapKey"
+    onGoogleApiLoaded={[Function]}
+  />
+</div>
+`;

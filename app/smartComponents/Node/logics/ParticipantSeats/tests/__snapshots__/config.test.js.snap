@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FILTER_PARTICIPANTS_WITH_NO_SEATS value availParticipantIds keyPath should not crash if filteredIds is undefined 1`] = `Array []`;
+
+exports[`FILTER_PARTICIPANTS_WITH_NO_SEATS value availParticipantIds keyPath should return array of keyPaths based on participantIds 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "seats",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "seats",
+  ],
+]
+`;
+
+exports[`FILTER_PARTICIPANTS_WITH_SEATS value availParticipantIds keyPath should not crash if filteredIds is undefined 1`] = `Array []`;
+
+exports[`FILTER_PARTICIPANTS_WITH_SEATS value availParticipantIds keyPath should return array of keyPaths based on filteredIds 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "seats",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "seats",
+  ],
+]
+`;

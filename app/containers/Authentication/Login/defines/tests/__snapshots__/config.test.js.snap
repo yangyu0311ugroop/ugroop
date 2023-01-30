@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/containers/Authentication/Login/defines/config value should match snapshot 1`] = `
+Object {
+  "decline": Array [
+    "invitationSwitchAccountStore",
+    "decline",
+  ],
+  "isRegisterByInvitation": Object {
+    "getter": [Function],
+  },
+  "notifications": Object {
+    "keyPath": [Function],
+    "spreadObject": true,
+  },
+  "switchToken": Array [
+    "invitationSwitchAccountStore",
+    "token",
+  ],
+  "token": Object {
+    "getter": [Function],
+  },
+}
+`;

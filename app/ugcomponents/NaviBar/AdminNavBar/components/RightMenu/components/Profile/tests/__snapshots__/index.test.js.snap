@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> render() should render 1`] = `
+<div>
+  <WithStyles(NavItem)
+    popper={true}
+    renderButton={[Function]}
+    renderMenu={[Function]}
+    title="Profile"
+  />
+</div>
+`;
+
+exports[`<Profile /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    noWrap={true}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          noWrap={true}
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+            >
+              <Component
+                variant="valueOnly"
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </Hidden>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Profile /> renderMenu() should renderMenu 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      lists={
+        Array [
+          Object {
+            "icon": "lnr-earth",
+            "key": "5",
+            "link": "mailto:hello@ugroop.com",
+            "menuName": "Contact Us",
+          },
+          Object {
+            "icon": "lnr-phone-outgoing",
+            "key": "6",
+            "link": "https://intercom.help/ugroop/en/",
+            "menuName": "Help Center",
+          },
+        ]
+      }
+    />
+  </ClickAwayListener>
+</div>
+`;

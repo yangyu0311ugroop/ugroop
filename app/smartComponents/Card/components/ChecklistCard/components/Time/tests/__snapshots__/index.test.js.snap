@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Time /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(DaySeparator)
+      createdAt="monday"
+      previousCreatedAt=""
+    />
+    <ConnectFunction
+      id={1}
+    >
+      <Component />
+    </ConnectFunction>
+    <ConnectFunction
+      className=""
+      expanded={true}
+      id={1}
+      index={0}
+      key="1"
+      renderBody={[Function]}
+      renderFooter={[Function]}
+      showClosed={true}
+      variant="card"
+    />
+    <ConnectFunction
+      id={2}
+    >
+      <Component />
+    </ConnectFunction>
+    <ConnectFunction
+      className=""
+      expanded={true}
+      id={2}
+      index={1}
+      key="2"
+      renderBody={[Function]}
+      renderFooter={[Function]}
+      showClosed={true}
+      variant="card"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Time /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(Progress)
+    id={2233}
+    selected={false}
+    showCompleted={true}
+    showOutstanding={true}
+  />
+  <Checkitems
+    anchorDate="monday"
+    checklists={
+      Array [
+        1,
+      ]
+    }
+    parentNodeId={2233}
+    showCompleted={true}
+    showCompletedList={true}
+    showDelete={false}
+    showOutstanding={true}
+    showPlaceholder={true}
+    showSecondary={false}
+    variant="null"
+  />
+</div>
+`;
+
+exports[`<Time /> renderButtons() should renderButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="black"
+          dense={true}
+          onClick={[Function]}
+          size="small"
+          variant="outline"
+        >
+          Close
+           Checklist
+        </WithStyles(Button)>
+        <br />
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Time /> renderTrailData() renderTrailData 1`] = `
+<div>
+  <ConnectFunction
+    nodeId={1}
+  />
+</div>
+`;
+
+exports[`<Time /> setTrail() settrail when currentAbilityResolver has value 1`] = `<div />`;
+
+exports[`<Time /> setTrail() settrail when currentAbilityResolver is null  1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Time /> toggleNode() should toggleNode 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "payload": Object {
+        "node": "toggleStatus",
+        "nodeId": "2233",
+      },
+    },
+  ],
+]
+`;

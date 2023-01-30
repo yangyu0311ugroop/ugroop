@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateRoundButtonWrapper /> should render something 1`] = `
+<WithStyles(GridItem)
+  className="TemplateRoundButtonWrapper-root"
+>
+  Jesus is Lord of all
+</WithStyles(GridItem)>
+`;

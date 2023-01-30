@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventBooking /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EventBooking /> #renderDefault() still matches snapshot 1`] = `<div />`;
+
+exports[`<EventBooking /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    ExpansionPanelProps={
+      Object {
+        "defaultExpanded": false,
+      }
+    }
+    title={
+      <FormattedMessage
+        defaultMessage="Booking"
+        id="app.Event.layouts.Event.Booking.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            personCountLabel={null}
+            personCountPlaceholder={null}
+            variant={null}
+          />
+          <ConnectFunction
+            personCountLabel={null}
+            personCountPlaceholder={null}
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            personCountLabel={null}
+            personCountPlaceholder={null}
+            variant={null}
+          />
+          <ConnectFunction
+            personCountLabel={null}
+            personCountPlaceholder={null}
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            label={null}
+            personCountLabel={null}
+            personCountPlaceholder={null}
+            placeholder={null}
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;

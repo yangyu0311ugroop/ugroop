@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstName /> render() should render correctly 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<FirstName /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    capitalize={true}
+    id="firstName"
+    label={
+      <FormattedMessage
+        defaultMessage="First Name"
+        id="app.containers.Form.Register.firstLabel"
+      />
+    }
+    name="firstName"
+    onInterceptValue={[Function]}
+    readOnly={false}
+    required={true}
+    type="text"
+    validationErrors={
+      Object {
+        "isWords": <FormattedMessage
+          defaultMessage="does not look like a name"
+          id="app.containers.Form.Register.nameIsWords"
+        />,
+        "maxLength": <FormattedMessage
+          defaultMessage="too long (maximum 50 chars)"
+          id="app.containers.Form.Register.nameMaxLength"
+        />,
+        "minLength": <FormattedMessage
+          defaultMessage="try a bit longer (minimum 2 chars)"
+          id="app.containers.Form.Register.nameMinLength"
+        />,
+      }
+    }
+    validations="isWords,minLength:2,maxLength:50"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferTourOwner /> handleCancelSuccess() should render correctly 1`] = `<div />`;
+
+exports[`<TransferTourOwner /> handleReset() should render correctly 1`] = `<div />`;
+
+exports[`<TransferTourOwner /> handleTransfer() should render correctly 1`] = `<div />`;
+
+exports[`<TransferTourOwner /> handleTransferError() should render correctly 1`] = `<div />`;
+
+exports[`<TransferTourOwner /> handleTransferSuccess() should render correctly 1`] = `<div />`;
+
+exports[`<TransferTourOwner /> handleValid() should render correctly 1`] = `
+<div>
+  For testing purpose, to indicate a function is doing nothing
+</div>
+`;
+
+exports[`<TransferTourOwner /> handleValid() should render correctly 2`] = `
+<div>
+  For testing purpose, to indicate a function is doing nothing
+</div>
+`;
+
+exports[`<TransferTourOwner /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="Transfer Tour Ownership"
+            id="app.containers.Templates.Modals.TransferTourOwner.header"
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="Transfer"
+            id="app.containers.Templates.Modals.TransferTourOwner.headerBackground"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="You are about to transfer the ownership of the tour "
+              id="app.containers.Templates.Modals.TransferTourOwner.transferText"
+            />
+             
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              bold={true}
+              id={999}
+              isCustomData={false}
+              required={true}
+              showEmpty={true}
+              valueKey="content"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="Transferring may be delayed until the new owner approves the transfer."
+              id="app.containers.Templates.Modals.TransferTourOwner.subTitle"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <ConnectFunction
+        placement="top"
+        renderButton={[Function]}
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(TransferContent)))
+          emailSent={false}
+          id={999}
+          isAwaiting={false}
+          isPending={true}
+          transferByType="tourConnection"
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <GenericForm
+              canSubmitForm={true}
+              cancelButtonContent="Discard"
+              disabled={false}
+              discardDialogProps={Object {}}
+              loading={false}
+              onInvalid={[Function]}
+              onInvalidSubmit={[Function]}
+              onValid={[Function]}
+              onValidSubmit={[Function]}
+              showChangeRoutePrompt={false}
+              submitButtonContent="Submit"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="row"
+                />
+              </WithStyles(GridItem)>
+            </GenericForm>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="Transfer Tour Ownership"
+            id="app.containers.Templates.Modals.TransferTourOwner.header"
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="Transfer"
+            id="app.containers.Templates.Modals.TransferTourOwner.headerBackground"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="You are about to transfer the ownership of the tour "
+              id="app.containers.Templates.Modals.TransferTourOwner.transferText"
+            />
+             
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              bold={true}
+              id={999}
+              isCustomData={false}
+              required={true}
+              showEmpty={true}
+              valueKey="content"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="Transferring may be delayed until the new owner approves the transfer."
+              id="app.containers.Templates.Modals.TransferTourOwner.subTitle"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(TransferContent)))
+          emailSent={false}
+          id={999}
+          isAwaiting={false}
+          isPending={false}
+          transferByType="tourConnection"
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <GenericForm
+              canSubmitForm={true}
+              cancelButtonContent="Discard"
+              disabled={false}
+              discardDialogProps={Object {}}
+              loading={false}
+              onInvalid={[Function]}
+              onInvalidSubmit={[Function]}
+              onValid={[Function]}
+              onValidSubmit={[Function]}
+              showChangeRoutePrompt={false}
+              submitButtonContent="Submit"
+            >
+              <WithStyles(GridItem)>
+                <Formsy(withRouter(WithStyles(SimpleRTE)))
+                  innerRef={[Function]}
+                  name="pm"
+                  required={false}
+                  validationError=""
+                  validationErrors={Object {}}
+                  validations={null}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="row"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Button)
+                      color="gray"
+                      dense={true}
+                      loading={false}
+                      size="small"
+                      type="submit"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Continue"
+                        id="app.containers.Templates.Modals.TransferTourOwner.btnLabelContinue"
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Button)
+                      dense={true}
+                      onClick={[Function]}
+                      size="small"
+                      variant="outline"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Cancel"
+                        id="app.containers.Templates.Modals.TransferTourOwner.btnLabelCancel"
+                      />
+                    </WithStyles(Button)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </GenericForm>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> render() should render correctly 3`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="Transfer Tour Ownership"
+            id="app.containers.Templates.Modals.TransferTourOwner.header"
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="Transfer"
+            id="app.containers.Templates.Modals.TransferTourOwner.headerBackground"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="You are about to transfer the ownership of the tour "
+              id="app.containers.Templates.Modals.TransferTourOwner.transferText"
+            />
+             
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              bold={true}
+              id={999}
+              isCustomData={false}
+              required={true}
+              showEmpty={true}
+              valueKey="content"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5>
+            <FormattedMessage
+              defaultMessage="Transferring may be delayed until the new owner approves the transfer."
+              id="app.containers.Templates.Modals.TransferTourOwner.subTitle"
+            />
+          </H5>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <ConnectFunction
+        placement="top"
+        renderButton={[Function]}
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TransferByEmail)))))
+                id={999}
+              />
+            </WithStyles(GridItem)>
+            <GenericForm
+              canSubmitForm={true}
+              cancelButtonContent="Discard"
+              disabled={false}
+              discardDialogProps={Object {}}
+              loading={false}
+              onInvalid={[Function]}
+              onInvalidSubmit={[Function]}
+              onValid={[Function]}
+              onValidSubmit={[Function]}
+              showChangeRoutePrompt={false}
+              submitButtonContent="Submit"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="row"
+                />
+              </WithStyles(GridItem)>
+            </GenericForm>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> renderCancelButton() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TransferStatus)))))
+    id={999}
+    onError={[Function]}
+    onSuccess={[Function]}
+    variant="ShowButton"
+  />
+</div>
+`;
+
+exports[`<TransferTourOwner /> renderMenu() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)
+      closeMenu={[MockFunction]}
+      onClick={[Function]}
+      selected={false}
+    >
+      test
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> renderMenu() should render correctly 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)>
+      <b>
+        test
+      </b>
+      <WithStyles(Hr)
+        halfMarginBottom={true}
+        halfMarginTop={true}
+      />
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> renderPopperOptions() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)>
+        <b>
+          <FormattedMessage
+            defaultMessage="Tranfer By"
+            id="app.containers.Templates.Modals.TransferTourOwner.optionLabel"
+          />
+        </b>
+        <WithStyles(Hr)
+          halfMarginBottom={true}
+          halfMarginTop={true}
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        <FormattedMessage
+          defaultMessage="Transfer to someone connected to the tour"
+          id="app.containers.Templates.Modals.TransferTourOwner.option1"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Transfer to a member of organisation"
+          id="app.containers.Templates.Modals.TransferTourOwner.option2"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Tranfer by email"
+          id="app.containers.Templates.Modals.TransferTourOwner.option3"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TransferTourOwner /> renderSubmitButton() should render correctly 1`] = `<div />`;

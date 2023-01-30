@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadPhotos /> handleValidSubmit() should handleValidSubmit 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createChild",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "keyPath": "1.children",
+        "node": 1,
+        "nodeId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<UploadPhotos /> renderDialog() should renderDialog 1`] = `
+<div>
+  <WithStyles(Component)
+    PaperProps={
+      Object {
+        "component": [Function],
+      }
+    }
+    fullWidth={true}
+    maxWidth="sm"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)>
+      <WithStyles(Title)
+        heading="Gallery: Upload"
+        headingBackground="GALLERY"
+        subheading="Upload more photos and images along with a description"
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      className=""
+    >
+      <WithStyles(FileDropzone)
+        accept="image/*"
+        disableClick={true}
+        droppedFiles={Object {}}
+        droppedIds={Array []}
+        onDrop={[Function]}
+      >
+        <Component />
+      </WithStyles(FileDropzone)>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="flex-end"
+        nowrap={true}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            onClick={[Function]}
+            size="xs"
+          >
+            Discard
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            disabled={true}
+            size="xs"
+            type="submit"
+          >
+            Add to 
+            Gallery
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderDropZone() should renderDropZone 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={2}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          Drag and drop images here or 
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(FileDropzone)
+            accept="image/*"
+            onDrop={[Function]}
+          >
+            <Component />
+          </WithStyles(FileDropzone)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderDropZoneCard() should renderDropZoneCard 1`] = `
+<div>
+  <WithStyles(UGDialogContent)
+    className=""
+  >
+    <WithStyles(FileDropzone)
+      accept="image/*"
+      disableClick={true}
+      droppedFiles={Object {}}
+      droppedIds={Array []}
+      onDrop={[Function]}
+    >
+      <Component />
+    </WithStyles(FileDropzone)>
+  </WithStyles(UGDialogContent)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderDropZoneCard() should renderDropZoneCard 2`] = `
+<div>
+  <WithStyles(UGDialogContent)
+    className=""
+  >
+    <WithStyles(FileDropzone)
+      accept="image/*"
+      disableClick={true}
+      droppedFiles={Object {}}
+      droppedIds={Array []}
+      onDrop={[Function]}
+    >
+      <Component />
+    </WithStyles(FileDropzone)>
+  </WithStyles(UGDialogContent)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderForm() should renderForm 1`] = `
+<div>
+  <Formsy
+    disabled={false}
+    getErrorMessage={[Function]}
+    getErrorMessages={[Function]}
+    getValue={[Function]}
+    hasValue={[Function]}
+    isFormDisabled={[Function]}
+    isFormSubmitted={[Function]}
+    isPristine={[Function]}
+    isRequired={[Function]}
+    isValid={[Function]}
+    isValidValue={[Function]}
+    mapping={null}
+    onChange={[Function]}
+    onError={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    preventExternalInvalidation={false}
+    resetValue={[Function]}
+    setValidations={[Function]}
+    setValue={[Function]}
+    showError={[Function]}
+    showRequired={[Function]}
+    validationErrors={null}
+  />
+</div>
+`;
+
+exports[`<UploadPhotos /> renderMinimiseUploadPhotos() should renderMinimiseUploadPhotos 1`] = `
+<div>
+  <WithStyles(ForwardRef(Drawer))
+    anchor="bottom"
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    open={true}
+    variant="permanent"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="flex-end"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div
+          className=""
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            onClick={[Function]}
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="success"
+                icon="lnr-cloud-check"
+                paddingRight={true}
+                size="normal"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <span>
+                Uploaded 
+                0
+                 of 
+                0
+              </span>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="inline"
+                onClick={[Function]}
+                size="xs"
+              >
+                <WithStyles(Icon)
+                  icon="lnr-cross"
+                  size="xsmall"
+                />
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(Drawer))>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderPhoto() should renderPhoto 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+    xs={12}
+  >
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Activity)))))
+        id={1}
+        removePhoto={[Function]}
+        rotate={0}
+        rotateLeft={[Function]}
+        rotateRight={[Function]}
+        singlePhoto={true}
+        uploadedURL={null}
+        variant="DROPPED_PHOTO"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+    nowrap={true}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        disabled={true}
+        size="xs"
+        type="submit"
+      >
+        Add to 
+        Gallery
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderUploadButton() should renderUploadButton 1`] = `
+<div>
+  <div>
+    click to select
+  </div>
+</div>
+`;
+
+exports[`<UploadPhotos /> uploadNext() should call enqueuePhoto 1`] = `
+Array [
+  Array [
+    Object {
+      "size": 1,
+    },
+  ],
+]
+`;

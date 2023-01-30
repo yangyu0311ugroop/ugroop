@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabRoomList /> handleSortSelect() should handleSortSelect 1`] = `<div />`;
+
+exports[`<TabRoomList /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))))
+          row={true}
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        justify="space-between"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          className=""
+        >
+          renderContent
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabRoomList /> renderCard() should renderCard 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+        cardView={true}
+        variant="card"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabRoomList /> renderContent() should render placeholder 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+      rooms={Array []}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabRoomList /> renderContent() should render placeholder 1 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                variant="summary"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="left"
+          direction="column"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              className=""
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(MenuItem)
+                  icon="lnr-list4"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  Card
+                </WithStyles(MenuItem)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(MenuItem)
+                  icon="lnr-grid"
+                  onClick={[Function]}
+                  selected={false}
+                >
+                  List
+                </WithStyles(MenuItem)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              spacing={2}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                cardView={true}
+                rooms={
+                  Array [
+                    11,
+                  ]
+                }
+                showFiltered={true}
+              />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+        variant="view"
+      />
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<TabRoomList /> renderContent() should renderContent 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                variant="summary"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="left"
+          direction="column"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              className=""
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(MenuItem)
+                  icon="lnr-list4"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  Card
+                </WithStyles(MenuItem)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(MenuItem)
+                  icon="lnr-grid"
+                  onClick={[Function]}
+                  selected={false}
+                >
+                  List
+                </WithStyles(MenuItem)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              spacing={2}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                cardView={true}
+                rooms={
+                  Array [
+                    99,
+                  ]
+                }
+                showFiltered={true}
+              />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+        variant="view"
+      />
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<TabRoomList /> renderLeft() should renderLeft 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+        variant="summary"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

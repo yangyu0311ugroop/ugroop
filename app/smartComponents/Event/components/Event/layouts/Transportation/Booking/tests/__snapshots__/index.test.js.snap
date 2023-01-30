@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Booking /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Booking /> renderDefault should match snapshot 1`] = `<div />`;
+
+exports[`<Booking /> renderDefault should match snapshot if ability.can 1`] = `<div />`;
+
+exports[`<Booking /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    ExpansionPanelProps={
+      Object {
+        "defaultExpanded": false,
+      }
+    }
+    title={
+      <FormattedMessage
+        defaultMessage="Booking"
+        id="app/smartComponents/Event/components/Event/layouts/Coach/components/Booking/sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            classes={Object {}}
+            resaga={
+              Object {
+                "dispatchTo": [MockFunction],
+                "setValue": [MockFunction],
+              }
+            }
+            variant={null}
+          />
+          <ConnectFunction
+            classes={Object {}}
+            resaga={
+              Object {
+                "dispatchTo": [MockFunction],
+                "setValue": [MockFunction],
+              }
+            }
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            classes={Object {}}
+            resaga={
+              Object {
+                "dispatchTo": [MockFunction],
+                "setValue": [MockFunction],
+              }
+            }
+            variant={null}
+          />
+          <ConnectFunction
+            classes={Object {}}
+            resaga={
+              Object {
+                "dispatchTo": [MockFunction],
+                "setValue": [MockFunction],
+              }
+            }
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          classes={Object {}}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant={null}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;
+
+exports[`<Booking /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Booking /> renderTitle should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Booking"
+    id="app/smartComponents/Event/components/Event/layouts/Coach/components/Booking/sectionLabel"
+  />
+</div>
+`;

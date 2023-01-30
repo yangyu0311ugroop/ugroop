@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_STORE_HELPERS removeChildId() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "children": [Function],
+    },
+  ],
+]
+`;

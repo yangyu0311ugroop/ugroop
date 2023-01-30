@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FolderCard component should not render actions if showActions is false 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={Array []}
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={Array []}
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={0}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should not show card if it is not editable 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={Array []}
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={Array []}
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={0}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should not use ugFolderLinkEmpty if folderItems props is not empty 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={
+          Array [
+            Object {
+              "type": "template",
+            },
+          ]
+        }
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={
+          Array [
+            Object {
+              "type": "template",
+            },
+          ]
+        }
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={1}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should render actions if showActions is true 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={Array []}
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={Array []}
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={0}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should render something 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={Array []}
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={Array []}
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={0}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should render what it should render when isLoading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <div
+    className="TemplateFolder-ugTemplateFolder"
+  >
+    <div
+      className="TemplateFolder-ugTemplateFolderOverride"
+    />
+    <WithStyles(ForwardRef(CircularProgress))
+      className="TemplateFolder-ugTemplateFolderLoading"
+    />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        content=""
+        folders={Array []}
+        id={3}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tours={Array []}
+      />
+      <WithStyles(FolderCardContent)
+        folders={Array []}
+        templateQueryParam=""
+        tours={Array []}
+      />
+      <WithStyles(FolderCardFooter)
+        actions=""
+        subfolderCount={0}
+        tourCount={0}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`FolderCard component should show card if it is editable 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  xs={12}
+>
+  <Component
+    currFolderId={3}
+    initContent=""
+    onSubmit={[MockFunction]}
+  />
+</WithStyles(ForwardRef(Grid))>
+`;

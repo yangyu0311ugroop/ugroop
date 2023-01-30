@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartMode /> render() should render 1`] = `
+<div>
+  <Formsy(DataField)
+    currentValue="123"
+    innerRef={[Function]}
+    name="node.customData.start.mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;

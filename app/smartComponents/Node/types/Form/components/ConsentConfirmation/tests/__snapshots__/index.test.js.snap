@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConsentConfirmation /> renderCheckboxConsentedLabel should match snapshot if getConsentedOnBehalf is false 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="{by} gave their consent {at}"
+    id="app.Node.parts.ConsentConfirmation.labelConsented"
+    values={
+      Object {
+        "at": "renderSomething",
+        "by": "renderSomething",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ConsentConfirmation /> renderCheckboxConsentedLabel should match snapshot if getConsentedOnBehalf is true 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="{by} gave consent on their behalf {at}"
+    id="app.Node.parts.ConsentConfirmation.labelConsentedOnBehalf"
+    values={
+      Object {
+        "at": "renderSomething",
+        "by": "renderSomething",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ConsentConfirmation /> renderConsentPart should match snapshot 1`] = `
+<div>
+  <Component
+    id={null}
+    variant="variant"
+  />
+</div>
+`;

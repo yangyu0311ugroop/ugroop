@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingHeader /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={3}
+  >
+    renderDetail
+    renderFlightsDetail
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderActions() should renderActions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(JButton)
+              bg="dark"
+              onClick={[Function]}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-plus"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Flight
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(JButton)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JButton)
+              bg="dark"
+              onClick={[Function]}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-pencil2"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Edit
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(JButton)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            renderMorePopper
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderAddFlightsButton() should renderAddFlightsButton 1`] = `
+<div>
+  <WithStyles(JButton)
+    bg="dark"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-plus"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Flight
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderDetail() should renderDetail 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <div
+            className=""
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="column"
+              spacing={2}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      lightGray={true}
+                      sm={true}
+                      uppercase={true}
+                    >
+                      Flight Itinerary
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      bold={true}
+                      nowrap={false}
+                      textCenter={true}
+                      white={true}
+                      xl={true}
+                    >
+                      renderEmpty
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      italic={true}
+      white={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderFlight() should renderFlight 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightButton)))))
+    active={false}
+    id={123}
+    key="123"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderFlights() should renderFlights 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div
+          className=""
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={3}
+          >
+            renderFlight
+            renderFlight
+          </WithStyles(GridContainer)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderFlights() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div
+          className=""
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Empty)))
+            description="No flights"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderFlightsDetail() should renderFlightsDetail 1`] = `
+<div>
+  <ConnectFunction>
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderFlightsDetail() should renderFlightsDetail opened 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                icon="lnr-chevron-left"
+                paddingRight={true}
+                size="small"
+              />
+               
+              Back
+            </WithStyles(JButton)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div
+              className=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderMoreButton() should renderMoreButton 1`] = `
+<div>
+  <WithStyles(JButton)
+    bg="dark"
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="small"
+    />
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderMoreMenu() should renderMoreMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        onClick={[Function]}
+      >
+        <WithStyles(JTextClass)
+          danger={true}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="lnr-trash2"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Delete
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(JTextClass)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FlightBookingHeader /> renderMorePopper() should renderMorePopper 1`] = `
+<div>
+  <ConnectFunction
+    dark={true}
+    noPadding={true}
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;

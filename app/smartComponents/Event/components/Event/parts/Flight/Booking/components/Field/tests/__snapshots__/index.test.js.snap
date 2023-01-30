@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldBooking /> #handleFlightBookingCreate() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `Array []`;
+
+exports[`<FieldBooking /> #openFlightBookingCreate() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingCreate": Object {
+      "flightBookingCreateHandler": [Function],
+      "flightBookingCreateOpen": true,
+      "flightBookingCreateTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FieldBooking /> #openFlightBookingEdit() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingEdit": Object {
+      "flightBookingEditId": 1,
+      "flightBookingEditOpen": true,
+      "flightBookingEditTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FieldBooking /> #render() still matches snapshot 1`] = `
+<WithStyles(Section)
+  title={
+    <FormattedMessage
+      defaultMessage="Itinerary"
+      id="app.Event.parts.Flight.Booking.bookingLabel"
+    />
+  }
+>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(GridContainer)
+      alignItems="flex-end"
+    >
+      <WithStyles(GridItem)
+        sm={true}
+        xs={12}
+      >
+        <Formsy(SelectField)
+          SelectProps={
+            Object {
+              "native": false,
+            }
+          }
+          innerRef={[Function]}
+          name="data.detail.detail.flightBookingId"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "children": <P
+                  noMargin={true}
+                >
+                  No flight itinerary
+                </P>,
+                "value": "0",
+              },
+              Object {
+                "children": <Memo(Connect(WithSimplifyResaga(FlightBooking)))
+                  dataId={1}
+                  variant="option"
+                />,
+                "value": "1",
+              },
+              Object {
+                "children": <P
+                  noMargin={true}
+                  weight="bold"
+                >
+                  Add new itinerary
+                </P>,
+                "value": "new",
+              },
+            ]
+          }
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value="1"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          dense={true}
+          onClick={[Function]}
+          size="extraSmall"
+          variant="outline"
+        >
+          <FormattedMessage
+            defaultMessage="Edit Flight Itinerary"
+            id="app.Event.parts.Flight.Booking.fieldEditBookingButtonLabel"
+          />
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</WithStyles(Section)>
+`;

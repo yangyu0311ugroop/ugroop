@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_STORE_CACHE_KEYS addEventDataIds() returns correct key 1`] = `"node.ids:,.addEventDataIds"`;
+
+exports[`NODE_STORE_CACHE_KEYS addEventDataIds() returns correct key with no props 1`] = `"node.undefined:null.addEventDataIds"`;
+
+exports[`NODE_STORE_CACHE_KEYS allChecklists() should return allChecklists cacheKey 1`] = `"nodes.222.checklists"`;
+
+exports[`NODE_STORE_CACHE_KEYS allChecklists() should return allChecklists cacheKey 2`] = `"nodes.1,2.checklists"`;
+
+exports[`NODE_STORE_CACHE_KEYS allStatuses() should return allStatuses cacheKey 1`] = `"nodes.222.statuses"`;
+
+exports[`NODE_STORE_CACHE_KEYS allStatuses() should return allStatuses cacheKey 2`] = `"nodes.1,2.statuses"`;
+
+exports[`NODE_STORE_CACHE_KEYS cachedCalculatedEvents should return the correct cache key 1`] = `"node.1.cachedCalculatedEvents"`;
+
+exports[`NODE_STORE_CACHE_KEYS cachedCalculatedEvents() returns correct key 1`] = `"node.1.cachedCalculatedEvents"`;
+
+exports[`NODE_STORE_CACHE_KEYS cachedCalculatedNodeEvents should return the correct cache key 1`] = `"node.1.cachedCalculatedNodeEvents"`;
+
+exports[`NODE_STORE_CACHE_KEYS cachedChildren() returns correct key 1`] = `"node.1.cachedChildren"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedEndTimeMoment should return the correct cache key 1`] = `"node.1.calculatedEndTimeMoment"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedEndTimeMoment() returns correct key 1`] = `"node.1.calculatedEndTimeMoment"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartEndTimes should return the correct cache key 1`] = `"node.id:1,2.calculatedStartEndTimes"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartEndTimes() returns correct key 1`] = `"node.ids:1,2.calculatedStartEndTimes"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartEndTimes() returns correct key with no props 1`] = `"node.undefined:null.calculatedStartEndTimes"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartTimeMoment should return the correct cache key 1`] = `"node.1.calculatedStartTimeMoment"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartTimeMoment() returns correct key 1`] = `"node.1.calculatedStartTimeMoment"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartTimeValues should return the correct cache key 1`] = `"node.1,2.undefined.calculatedStartTimeValues"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartTimeValues() returns correct key 1`] = `"node.1,2.sort.calculatedStartTimeValues"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedStartTimeValues() returns correct key with no props 1`] = `"node.null.undefined.calculatedStartTimeValues"`;
+
+exports[`NODE_STORE_CACHE_KEYS calculatedTrailParent() returns correct key 1`] = `"node.1.calculatedTrailParent"`;
+
+exports[`NODE_STORE_CACHE_KEYS checklists() should return checklists cacheKey 1`] = `"node.222.checklists"`;
+
+exports[`NODE_STORE_CACHE_KEYS confirmedParticipants should return the correct cache key 1`] = `"node.1,2.confirmedParticipants"`;
+
+exports[`NODE_STORE_CACHE_KEYS confirmedParticipants should return the correct cache key even if idsProp is null 1`] = `"node.null.confirmedParticipants"`;
+
+exports[`NODE_STORE_CACHE_KEYS eventDataIds() returns correct key 1`] = `"node.ids:1,2.eventDataIds"`;
+
+exports[`NODE_STORE_CACHE_KEYS eventDataIds() returns correct key with no props 1`] = `"node.undefined:null.eventDataIds"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterAndSortByTime() returns correct key 1`] = `"node.idProp.dateProp..filterAndSortByTime"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterAndSortByTime() returns null 1`] = `"node.idProp.dateProp.null.filterAndSortByTime"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterByNotMatchingTime() returns correct key 1`] = `"node.idsProp:1.nodesProp:0.filterByNotMatchingTime"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterByNotMatchingTime() returns null 1`] = `"node.idsProp:null.nodesProp:null.filterByNotMatchingTime"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterByStatuses() returns correct key 1`] = `"node.ids:1,2.statuses:a,b.filterByStatuses"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterByTypes() returns correct key 1`] = `"node.ids:1,2.types:a,b.filterByTypes"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterCalculatedEvents() returns correct key 1`] = `"node.333.1.true.filterCalculatedEvents"`;
+
+exports[`NODE_STORE_CACHE_KEYS filterCalculatedEvents() returns null 1`] = `"node.333..true.filterCalculatedEvents"`;
+
+exports[`NODE_STORE_CACHE_KEYS index() returns correct key 1`] = `"node.parentNodeIdProp:2.id:1.index"`;
+
+exports[`NODE_STORE_CACHE_KEYS openClosedCount() should return openClosedCount cacheKey 1`] = `"nodes.222.statuses.open_closed"`;
+
+exports[`NODE_STORE_CACHE_KEYS parentNodeIdViaTrail should return the correct cache key 1`] = `"node.1.parentNodeIdViaTrail"`;
+
+exports[`NODE_STORE_CACHE_KEYS participantWithSeats should return the correct cache key 1`] = `"node.1,2.2.participantsWithSeats"`;
+
+exports[`NODE_STORE_CACHE_KEYS participantWithSeats should return the correct cache key even if idsProp is null 1`] = `"node.null.2.participantsWithSeats"`;
+
+exports[`NODE_STORE_CACHE_KEYS participantsWithoutSeats should return the correct cache key 1`] = `"node.1,2.2.participantsWithoutSeats"`;
+
+exports[`NODE_STORE_CACHE_KEYS participantsWithoutSeats should return the correct cache key event if idsProp is null 1`] = `"node.null.2.participantsWithoutSeats"`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 1`] = `undefined`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 2`] = `undefined`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 3`] = `undefined`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 4`] = `undefined`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 5`] = `"nodes.222.123.checklist.outstanding_completed.count"`;
+
+exports[`NODE_STORE_CACHE_KEYS remainingCheckitemsCount() should return remainingCheckitemsCount cacheKey 6`] = `"nodes.222.123..outstanding_completed.count"`;
+
+exports[`NODE_STORE_CACHE_KEYS sortByProp() returns correct key 1`] = `"node.ids:1,2.path:a,b.true.filterByTypes"`;
+
+exports[`NODE_STORE_CACHE_KEYS templateIdByTrail should return the correct cache key 1`] = `"node.1.trails.templateId"`;

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransportationMap /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      dense={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          padding={true}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              sm={true}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem) />
+                <WithStyles(GridItem)>
+                  12
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  •
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  ETA 
+                  1 hour
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransportationMap /> render() should render has location 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      dense={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          padding={true}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  A
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      black={true}
+                      lg={true}
+                      nowrap={false}
+                    >
+                      start
+                        
+                      <WithStyles(JTextClass)
+                        component="a"
+                        href="https://www.google.com/maps/search/?api=1&query=start"
+                        noUnderlined={true}
+                        target="_blank"
+                        title="View on Google Maps"
+                      >
+                        <WithStyles(Icon)
+                          icon="lnr-map2"
+                          paddingLeft={true}
+                          size="small"
+                        />
+                      </WithStyles(JTextClass)>
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              sm={true}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem) />
+                <WithStyles(GridItem)>
+                  12
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  •
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  ETA 
+                  1 hour
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  B
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      black={true}
+                      lg={true}
+                      nowrap={false}
+                    >
+                      end
+                       
+                      <WithStyles(JTextClass)
+                        component="a"
+                        href="https://www.google.com/maps/search/?api=1&query=end"
+                        noUnderlined={true}
+                        target="_blank"
+                        title="View on Google Maps"
+                      >
+                        <WithStyles(Icon)
+                          icon="lnr-map2"
+                          paddingLeft={true}
+                          size="small"
+                        />
+                      </WithStyles(JTextClass)>
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransportationMap /> render() should render mapOnly 1`] = `<div />`;

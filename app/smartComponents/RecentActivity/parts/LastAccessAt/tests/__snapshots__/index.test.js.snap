@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastAccessAt /> contentClassName() 1`] = `<div />`;
+
+exports[`<LastAccessAt /> render() 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<LastAccessAt /> renderTextWithlabel() 1`] = `<div />`;
+
+exports[`<LastAccessAt /> renderTextWithlabel() 2`] = `
+<div>
+  <H6
+    noMargin={true}
+  >
+    Not active yet
+  </H6>
+</div>
+`;
+
+exports[`<LastAccessAt /> renderTextWithlabel() lastAccess 1`] = `
+<div>
+  <div>
+    <H6
+      noMargin={true}
+    >
+      Last active
+    </H6>
+    <H6
+      noMargin={true}
+    >
+      2001-01-01
+    </H6>
+  </div>
+</div>
+`;
+
+exports[`<LastAccessAt /> renderTextWithlabel() lastAccess if user is me and not renderActualTime 1`] = `
+<div>
+  <div>
+    <H6
+      noMargin={true}
+    >
+      Last active
+    </H6>
+    <H6
+      noMargin={true}
+    >
+      2001-01-01
+    </H6>
+  </div>
+</div>
+`;

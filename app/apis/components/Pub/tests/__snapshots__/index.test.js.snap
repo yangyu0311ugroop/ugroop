@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pub /> #componentWillReceiveProps() still matches snapshot 1`] = `
+Object {
+  "analyse": Object {
+    "nextProps": null,
+    "requests": Object {
+      "batchGetTemplateTab": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getDetails": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPubTemplateEvents": Object {
+        "onSuccess": [Function],
+      },
+      "getPubTemplatePeople": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPubTemplateTimes": Object {
+        "onSuccess": [Function],
+      },
+      "getTemplateHeader": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTemplateTab": Object {
+        "onSuccess": [MockFunction],
+      },
+      "pubCreateInterest": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+    },
+  },
+}
+`;

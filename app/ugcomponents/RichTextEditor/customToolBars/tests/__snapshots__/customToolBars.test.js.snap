@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomToolBar CustomToolBar Render Test edit snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    id="abcd"
+  >
+    fontStyle
+    list
+    align
+    indent
+    emoij
+    hyperLink
+    video
+    header
+    textHighLight
+    bgHighLight
+    clearStyle
+    history
+    <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+      accept="image/*"
+      onUpload={[Function]}
+      simple={true}
+      uploadLabel="Uploading..."
+      valueRef={[Function]}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(ForwardRef(Tooltip))
+          placement="top"
+          title="Image"
+        >
+          <button
+            type="button"
+          >
+            <WithStyles(Icon)
+              icon="lnr-file-image"
+              size="normal"
+            />
+          </button>
+        </WithStyles(ForwardRef(Tooltip))>
+      </WithStyles(GridItem)>
+    </WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`CustomToolBar CustomToolBar Render Test emojiOnly snapshot 1`] = `
+<div>
+  <div
+    id="abcd"
+  >
+    emoij
+  </div>
+</div>
+`;
+
+exports[`CustomToolBar CustomToolBar Render Test fontSize() should fontSize 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title="Size"
+  >
+    <div
+      className="ql-formats"
+    >
+      <select
+        className="ql-size"
+      >
+        <option
+          value="small"
+        />
+        <option
+          value=""
+        />
+        <option
+          value="large"
+        />
+        <option
+          value="huge"
+        />
+      </select>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`CustomToolBar CustomToolBar Render Test readonly snapshot 1`] = `
+<div>
+  <div
+    id="abcd"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`CustomToolBar CustomToolBar Render Test renderPopperContent() should renderPopperContent if discussion is false 1`] = `
+<div>
+  <ClickAwayListener
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        emoijItems
+      </WithStyles(GridContainer)>
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`CustomToolBar CustomToolBar Render Test renderPopperContent() should renderPopperContent if discussion is true 1`] = `
+<div>
+  <ClickAwayListener
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        emoijItems
+      </WithStyles(GridContainer)>
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;

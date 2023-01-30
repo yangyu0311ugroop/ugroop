@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableToggleForm /> Smoke tests should render editing properly 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onChange={[Function]}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  onValidSubmit={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="TextForm"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+  <WithStyles(Editable)
+    fullWidth={true}
+    onClick={[Function]}
+    readOnly={false}
+  />
+</GenericForm>
+`;
+
+exports[`<EditableToggleForm /> Smoke tests should render properly 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onChange={[Function]}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  onValidSubmit={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="TextForm"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+  <WithStyles(Editable)
+    fullWidth={false}
+    onClick={[Function]}
+    readOnly={false}
+  />
+</GenericForm>
+`;
+
+exports[`<EditableToggleForm /> setStates handleEditableClick 1`] = `
+Object {
+  "loading": false,
+  "value": true,
+}
+`;
+
+exports[`<EditableToggleForm /> setStates handleSubmitError 1`] = `
+Object {
+  "loading": false,
+  "value": "",
+}
+`;
+
+exports[`<EditableToggleForm /> setStates handleSubmitSuccess 1`] = `
+Object {
+  "loading": false,
+  "value": "",
+}
+`;
+
+exports[`<EditableToggleForm /> setStates handleValidSubmit 1`] = `
+Object {
+  "loading": true,
+  "value": "",
+}
+`;

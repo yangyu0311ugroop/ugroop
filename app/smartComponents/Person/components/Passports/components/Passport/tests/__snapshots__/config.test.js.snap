@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Passport/config.js value passports should return a particular array shape given the userId 1`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "passports",
+]
+`;

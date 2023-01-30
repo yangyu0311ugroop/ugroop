@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PassportModals renderPassportCreateModal should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    onClose={[Function]}
+    open={false}
+    personId={null}
+  />
+</div>
+`;
+
+exports[`PassportModals renderPassportViewModal should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    id={null}
+    onClose={[Function]}
+    open={false}
+    readOnly={false}
+  />
+</div>
+`;

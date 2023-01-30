@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-left"
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Routes
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="update"
+      on={
+        Object {
+          "createdBy": undefined,
+          "type": "route",
+        }
+      }
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(Icon)
+                icon="lnr-register"
+                size="xsmall"
+              />
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(Icon)
+                icon="lnr-trash2"
+                size="xsmall"
+              />
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;

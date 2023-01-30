@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditTab /> addSuccess() should setValue 1`] = `
+<WithStyles(GenericForm)
+  onCancel={[Function]}
+  onClose={[Function]}
+  onValidSubmit={[Function]}
+  submitButtonContent="Save Changes"
+  ugDialogProps={
+    Object {
+      "customClassnames": Object {
+        "content": undefined,
+      },
+      "dialogTitle": "Edit Tab",
+      "disableConfirmButton": false,
+      "headlineIcon": "lnr-pencil5",
+      "headlineText": "Please enter a new name for this tab",
+      "headlineTitle": "Edit Tab",
+      "loading": false,
+      "template": "custom",
+    }
+  }
+>
+  <FormsyInterceptor
+    autoFocus={true}
+    label="Name"
+    name="content"
+    onInterceptValue={[Function]}
+    placeholder="Enter tab name"
+    required={true}
+    type="text"
+    validationErrors={
+      Object {
+        "maxLength": "too long (between 2-50 characters)",
+        "minLength": "a bit longer (between 2-50 characters)",
+      }
+    }
+    validations="minLength:2,maxLength:50"
+    value=""
+  />
+  <div>
+    <b>
+      Note:
+    </b>
+     
+    Only a tab's owner can change its access level
+  </div>
+</WithStyles(GenericForm)>
+`;
+
+exports[`<EditTab /> addTab() should call resaga.dispatch 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createNextNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "content": "some content",
+          "customData": Object {
+            "private": "so private",
+          },
+          "type": "tabother",
+        },
+        "nodeId": 123,
+        "templateId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditTab /> editSuccess() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "tabs": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<EditTab /> editTab() should call resaga.dispatch 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createNextNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "content": "some content",
+          "customData": Object {
+            "private": "so private",
+          },
+          "type": "tabother",
+        },
+        "nodeId": 123,
+        "templateId": 0,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "content": "some content",
+          "customData": Object {
+            "private": "so private",
+          },
+          "type": "tabother",
+        },
+        "nodeId": 999,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditTab /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    onCancel={[Function]}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    submitButtonContent="Save Changes"
+    ugDialogProps={
+      Object {
+        "customClassnames": Object {
+          "content": undefined,
+        },
+        "dialogTitle": "Edit Tab",
+        "disableConfirmButton": false,
+        "headlineIcon": "lnr-pencil5",
+        "headlineText": "Please enter a new name for this tab",
+        "headlineTitle": "Edit Tab",
+        "loading": false,
+        "template": "custom",
+      }
+    }
+  >
+    <FormsyInterceptor
+      autoFocus={true}
+      label="Name"
+      name="content"
+      onInterceptValue={[Function]}
+      placeholder="Enter tab name"
+      required={true}
+      type="text"
+      validationErrors={
+        Object {
+          "maxLength": "too long (between 2-50 characters)",
+          "minLength": "a bit longer (between 2-50 characters)",
+        }
+      }
+      validations="minLength:2,maxLength:50"
+      value=""
+    />
+    <div>
+      <b>
+        Note:
+      </b>
+       
+      Only a tab's owner can change its access level
+    </div>
+  </WithStyles(GenericForm)>
+</div>
+`;
+
+exports[`<EditTab /> render() should render correctly if role is not owner or admin 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    onCancel={[Function]}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    submitButtonContent="Save Changes"
+    ugDialogProps={
+      Object {
+        "customClassnames": Object {
+          "content": undefined,
+        },
+        "dialogTitle": "Edit Tab",
+        "disableConfirmButton": false,
+        "headlineIcon": "lnr-pencil5",
+        "headlineText": "Please enter a new name for this tab",
+        "headlineTitle": "Edit Tab",
+        "loading": false,
+        "template": "custom",
+      }
+    }
+  >
+    <FormsyInterceptor
+      autoFocus={true}
+      label="Name"
+      name="content"
+      onInterceptValue={[Function]}
+      placeholder="Enter tab name"
+      required={true}
+      type="text"
+      validationErrors={
+        Object {
+          "maxLength": "too long (between 2-50 characters)",
+          "minLength": "a bit longer (between 2-50 characters)",
+        }
+      }
+      validations="minLength:2,maxLength:50"
+      value=""
+    />
+    <div>
+      <b>
+        Note:
+      </b>
+       
+      Only a tab's owner can change its access level
+    </div>
+  </WithStyles(GenericForm)>
+</div>
+`;
+
+exports[`<EditTab /> render() should render correctly if role is owner or admin 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    onCancel={[Function]}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    submitButtonContent="Save Changes"
+    ugDialogProps={
+      Object {
+        "customClassnames": Object {
+          "content": undefined,
+        },
+        "dialogTitle": "Edit Tab",
+        "disableConfirmButton": false,
+        "headlineIcon": "lnr-pencil5",
+        "headlineText": "Please enter a new name for this tab",
+        "headlineTitle": "Edit Tab",
+        "loading": false,
+        "template": "custom",
+      }
+    }
+  >
+    <FormsyInterceptor
+      autoFocus={true}
+      label="Name"
+      name="content"
+      onInterceptValue={[Function]}
+      placeholder="Enter tab name"
+      required={true}
+      type="text"
+      validationErrors={
+        Object {
+          "maxLength": "too long (between 2-50 characters)",
+          "minLength": "a bit longer (between 2-50 characters)",
+        }
+      }
+      validations="minLength:2,maxLength:50"
+      value=""
+    />
+    <div>
+      <b>
+        Note:
+      </b>
+       
+      Only a tab's owner can change its access level
+    </div>
+  </WithStyles(GenericForm)>
+</div>
+`;

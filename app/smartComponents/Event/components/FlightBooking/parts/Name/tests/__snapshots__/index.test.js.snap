@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Name /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchFlightBooking 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "component": "span",
+      "editablePlaceholder": "Click to name this booking",
+      "readOnly": false,
+      "value": "Some value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Name /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderEditableHeadingForm={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Name /> #renderEditableHeadingForm() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    Typography="H2"
+    autoFocus={true}
+    name="name"
+    onSubmit={[Function]}
+    placeholder="Click to name this booking"
+    readOnly={false}
+    renderValue={[Function]}
+    required={true}
+    value="Some value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Name /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <TextField
+    autoFocus={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Name *"
+        id="app.Event.parts.FlightBooking.Name.nameLabel"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="name"
+    required={true}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="Some value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Name /> #renderHeadingValue() still matches snapshot 1`] = `
+<EventHeading
+  Typography={[Function]}
+>
+  value
+</EventHeading>
+`;
+
+exports[`<Name /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  Some value
+</WithStyles(GridItem)>
+`;
+
+exports[`<Name /> renderLabelValue() should renderLabelValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    value
+  </WithStyles(GridItem)>
+</div>
+`;

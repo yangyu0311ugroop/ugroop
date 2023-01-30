@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Description /> render() should render correctly 1`] = `
+<div>
+  <span />
+</div>
+`;

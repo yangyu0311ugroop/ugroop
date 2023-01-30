@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JTextClass /> render() should render 1`] = `
+<div>
+  <span
+    className=""
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

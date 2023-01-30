@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Received /> excludeToken() should excludeToken() 1`] = `
+Array [
+  Array [
+    Object {
+      "exclusion": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Received /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          sm={true}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+           
+           invited you to connect with a tour named
+           
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            disabled={true}
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Received /> renderConfirmedButtons() should renderConfirmedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          dense={true}
+          disabled={true}
+          outline="outLineGreen"
+          size="small"
+        >
+          Invitation accepted
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <withRouter(UGLink)
+          target=""
+          to="/tours"
+        >
+          <WithStyles(Button)
+            color="primary"
+            noMargin={true}
+            size="extraSmall"
+          >
+            View
+          </WithStyles(Button)>
+        </withRouter(UGLink)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderOrg() Should return nothing if orgId is null 1`] = `<div />`;
+
+exports[`<Received /> renderOrg() should match snapshot if there is orgId or nodeOrgId 1`] = `
+<div>
+  from  
+</div>
+`;
+
+exports[`<Received /> renderOrg() should render organisation component if no organisation name is blank 1`] = `<div />`;
+
+exports[`<Received /> renderOrg() should render organisation organisation name 1`] = `<div />`;
+
+exports[`<Received /> renderPendingButtons() should renderPendingButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(Button)
+        color="primary"
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+      >
+        <FormattedMessage
+          defaultMessage="Accept the invitation"
+          id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.confirmInvite"
+        />
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="black"
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        variant="outline"
+      >
+        <FormattedMessage
+          defaultMessage="Decline the invitation"
+          id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.declineInvite"
+        />
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderPersonalMessage() should render when has message 1`] = `
+<div>
+   with a personal message:
+</div>
+`;
+
+exports[`<Received /> renderPersonalMessage() should render when no message 1`] = `
+<div>
+  .
+</div>
+`;
+
+exports[`<Received /> renderRedButtons() should renderRedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      disabled={true}
+      outline="outLineRed"
+      size="small"
+    >
+      Some label
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

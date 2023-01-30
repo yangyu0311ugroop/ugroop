@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H5 /> should have dense 1`] = `
+<h5
+  className="dense"
+>
+  Test
+</h5>
+`;
+
+exports[`<H5 /> should have error 1`] = `
+<h5
+  className="error"
+>
+  Test
+</h5>
+`;
+
+exports[`<H5 /> should have success 1`] = `
+<h5
+  className="success"
+>
+  Test
+</h5>
+`;
+
+exports[`<H5 /> should have textCenter 1`] = `
+<h5
+  className="textCenter"
+>
+  Test
+</h5>
+`;

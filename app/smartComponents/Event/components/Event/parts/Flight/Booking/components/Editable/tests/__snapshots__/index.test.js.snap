@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableBooking /> #handleFlightBookingCreate() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": Object {
+        "data": Object {
+          "detail": Object {
+            "detail": Object {
+              "flightBookingId": 1,
+            },
+          },
+        },
+      },
+    },
+    Object {
+      "dataId": 0,
+      "flightBookingIds": Array [
+        1,
+      ],
+      "readOnly": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "templateId": 0,
+      "value": 1,
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<EditableBooking /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": 0,
+      "flightBookingIds": Array [
+        1,
+      ],
+      "readOnly": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "templateId": 0,
+      "value": 1,
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<EditableBooking /> #openFlightBookingCreate() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingCreate": Object {
+      "flightBookingCreateHandler": [Function],
+      "flightBookingCreateOpen": true,
+      "flightBookingCreateTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EditableBooking /> #openFlightBookingView() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingView": Object {
+      "flightBookingViewId": 1,
+      "flightBookingViewOpen": true,
+      "flightBookingViewTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EditableBooking /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(GridContainer)
+    alignItems="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(EditableLabel)>
+        <FormattedMessage
+          defaultMessage="Itinerary"
+          id="app.Event.parts.Flight.Booking.bookingLabel"
+        />
+      </WithStyles(EditableLabel)>
+      <WithStyles(EditableSelectForm)
+        SelectProps={
+          Object {
+            "displayEmpty": true,
+          }
+        }
+        name="data.detail.detail.flightBookingId"
+        onSubmit={[Function]}
+        options={
+          Array [
+            Object {
+              "children": <P
+                noMargin={true}
+              >
+                No flight itinerary
+              </P>,
+              "value": "0",
+            },
+            Object {
+              "children": <Memo(Connect(WithSimplifyResaga(FlightBooking)))
+                dataId={1}
+                variant="option"
+              />,
+              "value": "1",
+            },
+            Object {
+              "children": <P
+                noMargin={true}
+                weight="bold"
+              >
+                Add new itinerary
+              </P>,
+              "value": "new",
+            },
+          ]
+        }
+        readOnly={false}
+        renderValue={[Function]}
+        value="1"
+      >
+        <EventPatchData
+          dataId={0}
+          id={0}
+          subtype={true}
+        />
+      </WithStyles(EditableSelectForm)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          ·
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="primary"
+                noMargin={true}
+                noPadding={true}
+                onClick={[Function]}
+                size="small"
+                variant="inline"
+              >
+                <FormattedMessage
+                  defaultMessage="View Itinerary"
+                  id="app.Event.parts.Flight.Booking.editableViewBookingButtonLabel"
+                />
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EditableBooking /> #render() still matches snapshot if props.readOnly and not hasCurrentValue 1`] = `""`;
+
+exports[`<EditableBooking /> #renderValue() still matches snapshot 1`] = `
+<WithStyles(EditablePlaceholder)>
+  <FormattedMessage
+    defaultMessage="Click to attach flight to itinerary"
+    id="app.Event.parts.Flight.Booking.bookingPlaceholder"
+  />
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableBooking /> #renderValue() still matches snapshot with found id 1`] = `
+<Memo(Connect(WithSimplifyResaga(FlightBooking)))
+  dataId={1}
+  variant="option"
+/>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> render should match snapshot 1`] = `
+<WithStyles(UGCardFooter)>
+  <WithStyles(Duration)
+    duration={1}
+  />
+  actions
+</WithStyles(UGCardFooter)>
+`;

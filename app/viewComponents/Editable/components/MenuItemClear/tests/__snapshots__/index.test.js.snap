@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableMenuItemClear /> Smoke tests should render properly 1`] = `
+<WithStyles(MenuItem)
+  classes={
+    Object {
+      "root": "root",
+    }
+  }
+  icon="lnr-broom"
+>
+  <P
+    dense={true}
+    fontStyle="italic"
+  >
+    Children
+  </P>
+</WithStyles(MenuItem)>
+`;

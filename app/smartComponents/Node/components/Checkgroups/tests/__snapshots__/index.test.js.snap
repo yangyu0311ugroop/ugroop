@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkgroups /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Checklists)))))))
+    content="some node"
+    editing={true}
+    index={22}
+    parentNodeId={123}
+    renderBlankSlate={false}
+    showCheckitems={false}
+    showChecklists={true}
+    variant="option"
+  />
+</div>
+`;
+
+exports[`<Checkgroups /> renderBody() should renderBody if personal 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Checklists)))))))
+    content="some node"
+    editing={true}
+    index={22}
+    parentNodeId={123}
+    renderBlankSlate={false}
+    showCheckitems={false}
+    showChecklists={true}
+    variant="option"
+  />
+</div>
+`;
+
+exports[`<Checkgroups /> renderBody() should renderBody if personal 2`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Checklists)))))))
+    content={Array []}
+    editing={true}
+    index={22}
+    parentNodeId={123}
+    renderBlankSlate={false}
+    showCheckitems={false}
+    showChecklists={true}
+    variant="option"
+  />
+</div>
+`;
+
+exports[`<Checkgroups /> renderContent() should renderContent 1`] = `
+<div>
+  <ConnectFunction
+    childKey="checklists"
+    id={1}
+    ignore={
+      Array [
+        "folder",
+      ]
+    }
+    index={0}
+    key="1"
+    parentNodeId={9922}
+    renderBody={[Function]}
+    variant="option"
+  />
+</div>
+`;
+
+exports[`<Checkgroups /> renderContent() should renderContent blank 1`] = `<div />`;
+
+exports[`<Checkgroups /> renderContent() should renderContent blank 2`] = `
+<div>
+  <div
+    className={true}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="ug-post-it-blank-1"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+      lg={true}
+    >
+      There are no Checklist to copy yet
+    </WithStyles(JTextClass)>
+  </div>
+</div>
+`;
+
+exports[`<Checkgroups /> renderContent() should return no data 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="ug-post-it-blank-1"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <H3>
+      There are no Checklist Groups here
+    </H3>
+    <BoundCan
+      do="create"
+      on={
+        Object {
+          "type": "checklist",
+        }
+      }
+    >
+      <H5>
+        Add a new Checklist Group
+      </H5>
+      <WithStyles(Connect(WithSimplifyResaga(Component)))
+        parentNodeId={0}
+      />
+    </BoundCan>
+  </div>
+</div>
+`;
+
+exports[`<Checkgroups /> renderHeaderOption() should render correctly 1`] = `<div />`;
+
+exports[`<Checkgroups /> renderHeaderOption() should render correctly 2`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary="#LayoutContent"
+    enableTransforms={false}
+    enabled={true}
+    id="checklistOptionGroup"
+    innerZ={99}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={60}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      spacing={0}
+    >
+      <WithStyles(GridItem) />
+      <WithStyles(GridItem)
+        wrap="nowrap"
+      >
+        <WithStyles(MenuItem)
+          icon="lnr-files"
+          onClick={[Function]}
+          selected={true}
+        >
+          <span>
+            Show All
+          </span>
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        wrap="nowrap"
+      >
+        <WithStyles(MenuItem)
+          icon="lnr-file-check"
+          onClick={[Function]}
+          selected={false}
+        >
+          <span>
+            Single View
+          </span>
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </Sticky>
+</div>
+`;

@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGAdminHeader /> <UGAdminHeader /> render() should render 1`] = `
+<div>
+  <Element
+    name="navbarScroll"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="blue"
+            icon="lnr-cloud-sync"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+          >
+            A new version of uGroop is available.
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            blue={true}
+            bold={true}
+            onClick={[Function]}
+          >
+            Refresh
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        />
+      </WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <div
+          className=""
+        >
+          <WithStyles(Container)
+            maxSize={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              justify="space-between"
+              key="Top Left Menu"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridItem)>
+                      <withRouter(UGLink)
+                        to="/my-tours"
+                      >
+                        <WithStyles(GridContainer)
+                          alignItems="center"
+                          wrap="nowrap"
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(GridContainer)
+                              alignItems="center"
+                              direction="row"
+                              justify="flex-start"
+                            >
+                              <WithStyles(GridItem)>
+                                <WithStyles(PageLogo)
+                                  customText="Home"
+                                  sm={true}
+                                />
+                              </WithStyles(GridItem)>
+                            </WithStyles(GridContainer)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </withRouter(UGLink)>
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(withRouter(Connect(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LeftMenu)))))))))
+                      location={
+                        Object {
+                          "pathname": "name",
+                        }
+                      }
+                      match={Object {}}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <ConnectFunction
+                  userId={null}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Container)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </Element>
+</div>
+`;
+
+exports[`<UGAdminHeader /> <UGAdminHeader /> renderLeftMenu() should renderLeftMenu correctly 1`] = `
+<div>
+  <WithStyles(withRouter(Connect(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LeftMenu)))))))))
+    location={
+      Object {
+        "pathname": "name",
+      }
+    }
+    match={Object {}}
+  />
+</div>
+`;
+
+exports[`<UGAdminHeader /> <UGAdminHeader /> renderLogo() should renderLogo 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGLink)
+      to="/my-tours"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="row"
+            justify="flex-start"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(PageLogo)
+                customText="Home"
+                sm={true}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </withRouter(UGLink)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<UGAdminHeader /> <UGAdminHeader /> renderShowUpdate() should renderShowUpdate 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="blue"
+        icon="lnr-cloud-sync"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        black={true}
+      >
+        A new version of uGroop is available.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        blue={true}
+        bold={true}
+        onClick={[Function]}
+      >
+        Refresh
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

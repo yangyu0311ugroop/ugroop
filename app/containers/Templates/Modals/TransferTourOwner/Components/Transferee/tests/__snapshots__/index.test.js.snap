@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Transferee /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> render() should render correctly 3`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> render() should render correctly 4`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> renderContent() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> renderContent() should render correctly if accepted 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              sm={true}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+          />
+          <div>
+            <FormattedMessage
+              defaultMessage="NEW USER"
+              id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transferee /> renderPersonalMessage() should render correctly 1`] = `<div />`;
+
+exports[`<Transferee /> renderPersonalMessage() should render correctly if content 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Hidden
+      smDown={true}
+    >
+      <div />
+    </Hidden>
+    <H5>
+      Message: 
+    </H5>
+    <Formsy(withRouter(WithStyles(SimpleRTE)))
+      innerRef={[Function]}
+      name="pm"
+      readOnly={true}
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+      value="hello"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Transferee /> renderStatus() should render correctly 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="REGISTERED USER"
+    id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.registeredText"
+  />
+</div>
+`;
+
+exports[`<Transferee /> renderStatus() should render correctly if creating 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="NEW USER"
+    id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+  />
+</div>
+`;
+
+exports[`<Transferee /> renderUserStatus() should render correctly 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="REGISTERED USER"
+    id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.registeredText"
+  />
+</div>
+`;
+
+exports[`<Transferee /> renderUserStatus() should render correctly if false 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <span>
+      <FormattedMessage
+        defaultMessage="NEW USER"
+        id="app.containers.Templates.Modals.TransferTourOwner.Components.Transferee.unRegisteredText"
+      />
+    </span>
+  </WithStyles(GridItem)>
+</div>
+`;

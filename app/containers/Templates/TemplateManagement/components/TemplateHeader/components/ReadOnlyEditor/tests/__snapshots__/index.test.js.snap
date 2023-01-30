@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadOnlyEditor should render a read only RichTextEditor 1`] = `
+<WithStyles(UGRichEditor)
+  editorClassName="ReadOnlyEditor-readOnlyEditor"
+  initContent="Sample"
+  readOnly={true}
+  toolBarId="toolbarid"
+/>
+`;

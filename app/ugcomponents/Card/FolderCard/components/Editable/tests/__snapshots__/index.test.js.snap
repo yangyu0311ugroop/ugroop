@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableFolder /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGCard)
+    className="EditableFolder-root EditableFolder-border"
+  >
+    <div
+      className="EditableFolder-overshadow1"
+    />
+    <div
+      className="EditableFolder-overshadow2"
+    />
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(UGCardContent)
+        className="EditableFolder-content"
+      >
+        <FormsyInterceptor
+          InputLabelProps={
+            Object {
+              "FormLabelClasses": Object {
+                "focused": "EditableFolder-textLabelColor",
+                "root": "EditableFolder-textLabel EditableFolder-textLabelColor",
+              },
+            }
+          }
+          InputProps={
+            Object {
+              "className": "EditableFolder-input",
+              "endAdornment": "",
+            }
+          }
+          autoFocus={true}
+          disabled={false}
+          fullWidth={true}
+          name="folderName"
+          onChange={[Function]}
+          onInterceptValue={[Function]}
+          required={true}
+          validations="minLength:1"
+          value=""
+        />
+      </WithStyles(UGCardContent)>
+      <WithStyles(UGCardFooter)
+        className="EditableFolder-footer"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          className="EditableFolder-btn"
+          disableRipple={true}
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="cross"
+          />
+        </WithStyles(ForwardRef(IconButton))>
+      </WithStyles(UGCardFooter)>
+    </GenericForm>
+  </WithStyles(UGCard)>
+</div>
+`;
+
+exports[`<EditableFolder /> render() should render with submit button 1`] = `
+<div>
+  <WithStyles(UGCard)
+    className="EditableFolder-root EditableFolder-border"
+  >
+    <div
+      className="EditableFolder-overshadow1"
+    />
+    <div
+      className="EditableFolder-overshadow2"
+    />
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(UGCardContent)
+        className="EditableFolder-content"
+      >
+        <FormsyInterceptor
+          InputLabelProps={
+            Object {
+              "FormLabelClasses": Object {
+                "focused": "EditableFolder-textLabelColor",
+                "root": "EditableFolder-textLabel EditableFolder-textLabelColor",
+              },
+            }
+          }
+          InputProps={
+            Object {
+              "className": "EditableFolder-input",
+              "endAdornment": "",
+            }
+          }
+          autoFocus={true}
+          disabled={false}
+          fullWidth={true}
+          name="folderName"
+          onChange={[Function]}
+          onInterceptValue={[Function]}
+          required={true}
+          validations="minLength:1"
+          value="QQQ"
+        />
+      </WithStyles(UGCardContent)>
+      <WithStyles(UGCardFooter)
+        className="EditableFolder-footer"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          className="EditableFolder-btn EditableFolder-btnPrimary"
+          disableRipple={true}
+          disabled={false}
+          type="submit"
+        >
+          <WithStyles(Icon)
+            icon="check"
+          />
+        </WithStyles(ForwardRef(IconButton))>
+        <WithStyles(ForwardRef(IconButton))
+          className="EditableFolder-btn"
+          disableRipple={true}
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="cross"
+          />
+        </WithStyles(ForwardRef(IconButton))>
+      </WithStyles(UGCardFooter)>
+    </GenericForm>
+  </WithStyles(UGCard)>
+</div>
+`;

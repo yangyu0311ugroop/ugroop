@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedListItem render() should render 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    variant="renderProp"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<InterestedListItem renderItem() should renderItem 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <ConnectFunction
+        id={1}
+        userId={1}
+        variant="row"
+      />
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<InterestedListItem renderItem() should renderItem by nodeUserId 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <ConnectFunction
+        id={1}
+        variant="row"
+      />
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;

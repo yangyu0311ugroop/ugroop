@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowMore /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(TemplateShowMore)
+    fetchLength={0}
+    fetchLimit={9}
+    isFetching={false}
+    onClick={[Function]}
+  />
+</div>
+`;

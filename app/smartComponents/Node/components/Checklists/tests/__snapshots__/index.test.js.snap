@@ -1,0 +1,770 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checklists /> renderAddButton() should renderAddButton 1`] = `
+<div>
+  <BoundCan
+    do="create"
+    on="checklist"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        size="xs"
+      >
+        <Hidden
+          xsDown={true}
+        >
+          Add Checklist
+        </Hidden>
+        <Hidden
+          smUp={true}
+        >
+          Add
+        </Hidden>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </BoundCan>
+</div>
+`;
+
+exports[`<Checklists /> renderAddButton() should renderAddButton simple 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(InlineButton)
+      onClick={[Function]}
+      title="Add Checklist"
+    >
+      <WithStyles(Icon)
+        icon="lnr-plus"
+        size="xsmall"
+      />
+    </WithStyles(InlineButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderAddCheckItem should return something if editingCheckItem is false 1`] = `ShallowWrapper {}`;
+
+exports[`<Checklists /> renderAddIconButton() should call setValue and stop propogation 1`] = `
+<div>
+   
+  <BoundCan
+    do="create"
+    on="checklist"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        buttonTitle="Add Checklist"
+        color="inline"
+        onClick={[Function]}
+        size="xs"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="ug-post-it-blank-1"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <div>
+            <WithStyles(Icon)
+              bold={true}
+              icon="lnr-plus"
+            />
+          </div>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </BoundCan>
+</div>
+`;
+
+exports[`<Checklists /> renderAsIconButton should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <BadgeProgress
+      icon="ug-pin-3"
+      iconLabel="test"
+      id={1}
+      isSelected={false}
+      onClick={[Function]}
+      variant="iconButton"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderBlankslate should match snapshot 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="ug-post-it-blank-1"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <H3>
+      There are no Checklists here
+    </H3>
+    <H5>
+      Add a new Checklist
+    </H5>
+    <WithStyles(GridItem)>
+      <BoundCan
+        do="create"
+        on="checklist"
+      >
+        <WithStyles(Button)
+          color="primary"
+          dense={true}
+          onClick={[Function]}
+          size="xs"
+        >
+          <Hidden
+            xsDown={true}
+          >
+            Add Checklist
+          </Hidden>
+          <Hidden
+            smUp={true}
+          >
+            Add
+          </Hidden>
+        </WithStyles(Button)>
+      </BoundCan>
+    </WithStyles(GridItem)>
+  </div>
+</div>
+`;
+
+exports[`<Checklists /> renderBlankslate should match snapshot 2`] = `
+<div>
+  <div>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+        lg={true}
+      >
+        ifElse
+        <BoundCan
+          do="create"
+          on="checklist"
+        >
+          , 
+          <WithStyles(JTextClass)
+            link={true}
+            onClick={[Function]}
+          >
+            click to add
+          </WithStyles(JTextClass)>
+        </BoundCan>
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </div>
+</div>
+`;
+
+exports[`<Checklists /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(Progress)
+    id={123}
+    showCompleted={true}
+    toggleShowCompleted={[MockFunction]}
+    toggleShowOutstanding={[MockFunction]}
+    variant="total"
+  />
+  <DragDropContext
+    onDragEnd={[Function]}
+  >
+    <Connect(Droppable)
+      direction="vertical"
+      droppableId="checklist-droppable"
+      ignoreContainerClipping={false}
+      isCombineEnabled={false}
+      isDropDisabled={false}
+      type="CHECKLIST"
+    >
+      renderBodyContent
+    </Connect(Droppable)>
+  </DragDropContext>
+  renderAddCheckItem
+</div>
+`;
+
+exports[`<Checklists /> renderBodyContent should be called 1`] = `
+<div>
+  <div
+    props="droppableProps"
+  >
+    <Checkitems
+      anchorDate="anchorDate"
+      checklists={
+        Array [
+          7416,
+          7415,
+          7414,
+        ]
+      }
+      parentNodeId={7413}
+      showCompleted={false}
+      showOutstanding={true}
+      showPlaceholder={false}
+      variant="VARIANT"
+    />
+    placeholder
+  </div>
+</div>
+`;
+
+exports[`<Checklists /> renderButtons should match snapshots 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(Button)
+          color="black"
+          dense={true}
+          onClick={[Function]}
+          size="small"
+          variant="outline"
+        >
+          ifElse
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderChecklists() should renderChecklists 1`] = `
+<div>
+  <Element
+    name={0}
+  >
+    <WithStyles(GridContainer)
+      className=""
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        renderHeader
+      </WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridContainer)>
+  </Element>
+</div>
+`;
+
+exports[`<Checklists /> renderClosedButton() should renderClosedButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      id={0}
+      showClosed={false}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderContent() should renderContent correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <ConnectFunction
+      ids={
+        Array [
+          1,
+        ]
+      }
+      parentNodeId={0}
+    >
+      renderSortedChecklists
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderContent() should return blank slate 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    renderBlankslate
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderContentOverview should match snapshots 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          ellipsis={true}
+          gray={true}
+          link={true}
+          onClick={[Function]}
+          sm={true}
+        >
+          2. 
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            id={1}
+            showTooltip={true}
+            variant="textOnly"
+          />
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderDeleteButton() should renderDeleteButton 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className="ifElse"
+  >
+    <WithStyles(InlineButton)
+      onClick={[Function]}
+      title="delete checklist group"
+    >
+      <WithStyles(Icon)
+        icon="lnr-trash2"
+        size="xsmall"
+      />
+    </WithStyles(InlineButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderEditButton should match snapshot 1`] = `<div />`;
+
+exports[`<Checklists /> renderEditButton should match snapshot 2`] = `<div />`;
+
+exports[`<Checklists /> renderEditButton should match snapshot 3`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(InlineButton)
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="lnr-pencil"
+        size="xsmall"
+      />
+    </WithStyles(InlineButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> renderEditGroupButton() should renderEditGroupButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Component)))
+    id={0}
+    parentNodeId={0}
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderHeader() should renderHeader 1`] = `<div />`;
+
+exports[`<Checklists /> renderHeader() should renderHeader 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className="ifElse"
+    onClick={[Function]}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <BadgeProgress
+        id={Array []}
+        variant="remaining"
+      />
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          dense={true}
+          onClick={[Function]}
+          size="xs"
+        >
+          <Hidden
+            xsDown={true}
+          >
+            Add Checklist
+          </Hidden>
+          <Hidden
+            smUp={true}
+          >
+            Add
+          </Hidden>
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderIconButtons should match snapshot 1`] = `<div />`;
+
+exports[`<Checklists /> renderMultiOption remove value 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="top"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="small"
+          />
+        }
+        color="default"
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="small"
+          />
+        }
+        inputProps={
+          Object {
+            "checked": true,
+            "id": 1,
+          }
+        }
+        label={
+          <div>
+            <Memo(Connect(WithSimplifyResaga(Node)))
+              id={1}
+              index={0}
+              parentNodeId={0}
+              variant="textOnly"
+            />
+          </div>
+        }
+        name={1}
+        noMargin={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        key="1"
+      >
+        <ConnectFunction
+          id={1}
+          index={0}
+          key="1"
+          parentNodeId={0}
+          variant="textOnly"
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderOption() should renderOption 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    index={0}
+    key="1"
+    parentNodeId={22999}
+    variant="option"
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderOption() should renderOption 2`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    index={0}
+    key="1"
+    parentNodeId={22999}
+    variant="iconButton"
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderSortedChecklists() should renderSortedChecklists correctly 1`] = `
+<div>
+  <ConnectFunction
+    expanded={false}
+    id={2}
+    index={1}
+    key="2"
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    toggleNode={[Function]}
+    type="checklist"
+  />
+  <ConnectFunction
+    expanded={false}
+    id={1}
+    index={0}
+    key="1"
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    toggleNode={[Function]}
+    type="checklist"
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderSortedChecklists() should renderSortedChecklists correctly if show open 1`] = `
+<div>
+  <ConnectFunction
+    expanded={false}
+    id={2}
+    index={1}
+    key="2"
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    showClosed={true}
+    toggleNode={[Function]}
+    type="checklist"
+  />
+  <ConnectFunction
+    expanded={false}
+    id={1}
+    index={0}
+    key="1"
+    renderBody={[Function]}
+    renderFooter={[Function]}
+    showClosed={true}
+    toggleNode={[Function]}
+    type="checklist"
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderSortedIcons should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="ifElse"
+  >
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          buttonTitle="Add Checklist"
+          color="inline"
+          onClick={[Function]}
+          size="xs"
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="ug-post-it-blank-1"
+                size="extraSmall"
+              />
+            </WithStyles(GridItem)>
+            <div>
+              <WithStyles(Icon)
+                bold={true}
+                icon="lnr-plus"
+              />
+            </div>
+          </WithStyles(GridContainer)>
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderSortedIcons should match snapshot 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="ifElse"
+  />
+</div>
+`;
+
+exports[`<Checklists /> renderSortedIcons should match snapshot 3`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="ifElse"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            className={false}
+            ellipsis={true}
+            gray={true}
+            link={true}
+            onClick={[Function]}
+            sm={true}
+          >
+            1. 
+            <WithStyles(Connect(WithSimplifyResaga(Content)))
+              id={1}
+              showTooltip={true}
+              variant="textOnly"
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            className={false}
+            ellipsis={true}
+            gray={true}
+            link={true}
+            onClick={[Function]}
+            sm={true}
+          >
+            2. 
+            <WithStyles(Connect(WithSimplifyResaga(Content)))
+              id={2}
+              showTooltip={true}
+              variant="textOnly"
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderSortedIcons should match snapshot show as icon 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="ifElse"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Content)))
+      id={1}
+      variant="renderProp"
+    >
+      <Component />
+    </WithStyles(Connect(WithSimplifyResaga(Content)))>
+    <WithStyles(Connect(WithSimplifyResaga(Content)))
+      id={2}
+      variant="renderProp"
+    >
+      <Component />
+    </WithStyles(Connect(WithSimplifyResaga(Content)))>
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          buttonTitle="Add Checklist"
+          color="inline"
+          onClick={[Function]}
+          size="xs"
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="ug-post-it-blank-1"
+                size="extraSmall"
+              />
+            </WithStyles(GridItem)>
+            <div>
+              <WithStyles(Icon)
+                bold={true}
+                icon="lnr-plus"
+              />
+            </div>
+          </WithStyles(GridContainer)>
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Checklists /> renderToggleClosedButton() should renderToggleClosedButton 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    color="secondary"
+    onClick={[Function]}
+  >
+    <Hidden
+      xsDown={true}
+    >
+      <span
+        className=""
+      >
+        Show completed (true)
+      </span>
+    </Hidden>
+    <Hidden
+      smUp={true}
+    >
+      <span>
+        Show completed
+      </span>
+    </Hidden>
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<Checklists /> renderToggleSortBy() should renderToggleSortBy 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(SortByMenu)))
+      isTemplate={false}
+      parentNodeId={0}
+      showList={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> toggleCurrentChecklist() should renderSortedChecklists correctly 1`] = `<div />`;

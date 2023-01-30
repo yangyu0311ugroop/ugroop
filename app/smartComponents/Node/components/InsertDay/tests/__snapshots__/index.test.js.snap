@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsertDay /> insertAfter() should insertAfter() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "insertAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 22,
+        "insertLocation": "before",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": "day",
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "insertAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 33,
+        "insertLocation": "after",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": "day",
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InsertDay /> insertBefore() should insertBefore() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "insertAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 22,
+        "insertLocation": "before",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": "day",
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InsertDay /> render() should render 1`] = `
+<div>
+  <WithStyles(IconButton)
+    color="inherit"
+    disabled={false}
+    isLoading={false}
+    onClick={[Function]}
+    tooltip="Add"
+    variant="flatButton"
+  >
+    <WithStyles(Icon)
+      icon="lnr-plus-square"
+      paddingRight={true}
+      size="xsmall"
+    />
+     Insert Day
+  </WithStyles(IconButton)>
+</div>
+`;
+
+exports[`<InsertDay /> render() should render children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<InsertDay /> updateTimes() should updateTimes() 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 2233,
+    },
+    Object {
+      "classes": Object {},
+      "insertAfter": 33,
+      "insertBefore": 22,
+      "isInsertAfterLoading": false,
+      "parentId": 2233,
+      "resaga": Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Nodes",
+              "insertAfter",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "id": 22,
+                  "insertLocation": "before",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": "day",
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "insertAfter",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "id": 33,
+                  "insertLocation": "after",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": "day",
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;

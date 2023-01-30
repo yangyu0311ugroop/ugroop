@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checklists/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "expandedChecklistId": Array [
+      "templateManagementView",
+      "expandedChecklistId",
+    ],
+    "showClosed": [Function],
+  },
+}
+`;
+
+exports[`Checklists/config.js Smoke Test should exists 2`] = `
+Object {
+  "value": Object {
+    "checklists": [Function],
+    "createdBy": [Function],
+    "editingCheckItem": Array [
+      "templateManagementView",
+      "editingCheckItem",
+    ],
+    "expandedParentChecklistId": Array [
+      "templateManagementView",
+      "expandedParentChecklistId",
+    ],
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "parentParentNodeId": [Function],
+    "selectedChecklists": Object {
+      "getter": [Function],
+      "keyPath": Array [
+        "templateManagementView",
+        "selectedChecklists",
+      ],
+    },
+    "type": [Function],
+  },
+}
+`;

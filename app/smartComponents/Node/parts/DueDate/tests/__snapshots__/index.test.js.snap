@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DueDate /> changeDueDate() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "customData": Object {
+            "dueDate": Object {
+              "dueDate": "dueDate",
+            },
+          },
+          "type": "",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<DueDate /> contentClassName() should return contentClassName 1`] = `"customClassName"`;
+
+exports[`<DueDate /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "readOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<DueDate /> renderChangeDueDate() should renderChangeDueDate 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ChangeDueDate)))
+    anchorDate=""
+    anchorEl="exist"
+    id={0}
+    onClose={[Function]}
+    onUpdateSuccess={[Function]}
+    parentNodeId={0}
+  />
+</div>
+`;
+
+exports[`<DueDate /> renderDefault() should renderDefault 1`] = `
+<div>
+  <div>
+    <span
+      className="default"
+    >
+      renderDueDate
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DueDate /> renderDueDate() should render placeholder 1`] = `
+<div>
+  <span>
+    <WithStyles(InlineButton)
+      offsetRight={true}
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <span>
+            <WithStyles(Connect(WithSimplifyResaga(BadgeDueDate)))
+              anchorDate=""
+              id={0}
+              parentNodeId={0}
+              showTime={false}
+            />
+          </span>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-pencil3"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(InlineButton)>
+  </span>
+</div>
+`;
+
+exports[`<DueDate /> renderDueDate() should renderDueDate 1`] = `
+<div>
+  <span>
+    <WithStyles(InlineButton)
+      offsetRight={true}
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          renderReadOnly
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-pencil3"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(InlineButton)>
+  </span>
+</div>
+`;
+
+exports[`<DueDate /> renderReadOnly() should renderReadOnly 1`] = `
+<div>
+  <span>
+    <WithStyles(Connect(WithSimplifyResaga(BadgeDueDate)))
+      anchorDate=""
+      id={0}
+      parentNodeId={0}
+      showTime={false}
+    />
+  </span>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowMore /> #render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <WithStyles(GridItem)>
+    more
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<ShowMore /> #render() still matches snapshot if props.initialMore=false 1`] = `undefined`;

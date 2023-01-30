@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Config 1`] = `
+Array [
+  "streamChatStoreImmer",
+  "tours",
+  1,
+  "archivedChannel",
+]
+`;

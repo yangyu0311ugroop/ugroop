@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> render() should render 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      renderBreadcrumbs
+      <WithStyles(GridItem)>
+        <Switch>
+          <Route
+            path="undefined/name"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/address"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/org-type"
+            render={[Function]}
+          />
+          <Route
+            path="undefined/webSite"
+            render={[Function]}
+          />
+          <Route
+            path="*"
+            render={[Function]}
+          />
+        </Switch>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Profile /> renderAddress() should return null 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Address)))
+    id={1}
+    readOnly={true}
+  />
+</div>
+`;
+
+exports[`<Profile /> renderBreadcrumbs() should renderBreadcrumbs 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={1}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-arrow-left"
+            size="normal"
+          />
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          xl={true}
+        >
+          Photo
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Profile /> renderContact() should renderContact 1`] = `<div />`;
+
+exports[`<Profile /> renderEmailContent() should renderEmailContent 1`] = `<div />`;
+
+exports[`<Profile /> renderEmailContent() should renderEmailContent secondaryEmail 1`] = `<div />`;
+
+exports[`<Profile /> renderListItem() should renderListItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={false}
+    divider={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-lock"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<Profile /> renderListItem() should renderListItem with data 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={false}
+    divider={false}
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+              spacing={0}
+            >
+              <WithStyles(GridItem)
+                className=""
+              >
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  sm={true}
+                  uppercase={true}
+                >
+                  heading
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                content
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            extras
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        body
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;
+
+exports[`<Profile /> renderNameContent() should renderNameContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        nowrap={false}
+      >
+        <Component
+          id={1}
+          variant="stringOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Profile /> renderNameContent() should renderNameContent knownAs 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        nowrap={false}
+      >
+        <Component
+          id={1}
+          variant="stringOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Profile /> renderOthers() should renderOthers 1`] = `<div />`;
+
+exports[`<Profile /> renderPersonalInfo() should renderPersonalInfo 1`] = `<div />`;
+
+exports[`<Profile /> renderPhotoBody() should renderPhotoBody 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        editable={false}
+        id={1}
+        resizeSide="width"
+        resizeSize={240}
+        shape="imageRound"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Profile /> renderPhotoExtras() should renderPhotoExtras 1`] = `
+<div>
+  <ConnectFunction
+    editable={false}
+    id={1}
+    resizeSide="width"
+    resizeSize={240}
+    shape="imageRound"
+  />
+</div>
+`;
+
+exports[`<Profile /> renderType() should renderType 1`] = `
+<div>
+  <Component
+    id={1}
+    readOnly={true}
+    variant="textOnly"
+  />
+</div>
+`;
+
+exports[`<Profile /> renderWebsite() should renderWebsite 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Website)))
+    id={1}
+    readOnly={true}
+  />
+</div>
+`;

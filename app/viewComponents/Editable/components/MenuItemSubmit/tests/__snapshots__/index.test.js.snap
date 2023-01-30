@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableMenuItemSubmit /> #getMenuItemIconProps() still matches snapshot if not props.disabled 1`] = `
+Object {
+  "bold": true,
+  "color": "blue",
+}
+`;
+
+exports[`<EditableMenuItemSubmit /> Smoke tests should render properly 1`] = `
+<WithStyles(MenuItem)
+  IconProps={
+    Object {
+      "bold": true,
+      "color": "clear",
+    }
+  }
+  button={true}
+  className="root disabled"
+  disabled={true}
+  hover={true}
+  icon="lnr-plus"
+  type="submit"
+>
+  <P
+    dense={true}
+  >
+    Children
+  </P>
+</WithStyles(MenuItem)>
+`;

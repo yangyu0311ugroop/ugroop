@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Forms /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      justify="space-between"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(EditableLabel)
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Forms & Attachments"
+            id="app.Node.parts.Forms.label"
+          />
+           
+           (2)
+        </WithStyles(EditableLabel)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={false}
+      iconPadding={false}
+      id={1}
+      key="1"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={false}
+      iconPadding={false}
+      id={2}
+      key="2"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        formIds={
+          Array [
+            1,
+            2,
+          ]
+        }
+        id={null}
+        label="Attach any documentation explicitly relating to the person travelling like medical management plan, doctors certificates, copies of any travel-related authorisations, tickets, coupons, passes, insurance forms, high-resolution facial image, or forms to be completed."
+        onCancel={[Function]}
+        simple={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Forms /> #render() still matches snapshot if compact is true 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={true}
+      iconPadding={false}
+      id={1}
+      key="1"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={true}
+      iconPadding={false}
+      id={2}
+      key="2"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Forms /> #render() still matches snapshot if iconPadding is true 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      justify="space-between"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(EditableLabel)
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Forms & Attachments"
+            id="app.Node.parts.Forms.label"
+          />
+           
+           (2)
+        </WithStyles(EditableLabel)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={false}
+      iconPadding={true}
+      id={1}
+      key="1"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Form)))
+      compact={false}
+      iconPadding={true}
+      id={2}
+      key="2"
+      loading={false}
+      readOnly={false}
+      renderProp={false}
+      simple={true}
+      variant="row"
+    />
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        formIds={
+          Array [
+            1,
+            2,
+          ]
+        }
+        id={null}
+        label="Attach any documentation explicitly relating to the person travelling like medical management plan, doctors certificates, copies of any travel-related authorisations, tickets, coupons, passes, insurance forms, high-resolution facial image, or forms to be completed."
+        onCancel={[Function]}
+        simple={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Forms /> #render() still matches snapshot if loading is true 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      justify="space-between"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(EditableLabel)
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Forms & Attachments"
+            id="app.Node.parts.Forms.label"
+          />
+           
+           (2)
+        </WithStyles(EditableLabel)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      style={
+        Object {
+          "height": 56,
+        }
+      }
+    >
+      <ContentLoader
+        height={40}
+        width={480}
+      >
+        <rect
+          height="16"
+          rx="2"
+          ry="2"
+          width="16"
+          x={0}
+          y="0"
+        />
+        <rect
+          height="10"
+          rx="2"
+          ry="2"
+          width="360"
+          x={24}
+          y="3"
+        />
+        <rect
+          height="16"
+          rx="2"
+          ry="2"
+          width="16"
+          x={0}
+          y="20"
+        />
+        <rect
+          height="10"
+          rx="2"
+          ry="2"
+          width="360"
+          x={24}
+          y="23"
+        />
+      </ContentLoader>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        formIds={
+          Array [
+            1,
+            2,
+          ]
+        }
+        id={null}
+        label="Attach any documentation explicitly relating to the person travelling like medical management plan, doctors certificates, copies of any travel-related authorisations, tickets, coupons, passes, insurance forms, high-resolution facial image, or forms to be completed."
+        onCancel={[Function]}
+        simple={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Forms /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)
+            Typography={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Forms & Attachments"
+              id="app.Node.parts.Forms.label"
+            />
+             
+          </WithStyles(EditableLabel)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JButton)
+            bg="gray"
+            onClick={[Function]}
+            title="Attach any documentation explicitly relating to the person travelling like medical management plan, doctors certificates, copies of any travel-related authorisations, tickets, coupons, passes, insurance forms, high-resolution facial image, or forms to be completed."
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  icon="lnr-paperclip"
+                  size="small"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Attach
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(JButton)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Empty)))
+          description="No forms & attachments"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Forms /> render() should render 2`] = `<div />`;
+
+exports[`<Forms /> render() should return loading 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)
+            Typography={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Forms & Attachments"
+              id="app.Node.parts.Forms.label"
+            />
+             
+             (3)
+          </WithStyles(EditableLabel)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        style={
+          Object {
+            "height": 56,
+          }
+        }
+      >
+        <ContentLoader
+          height={40}
+          width={480}
+        >
+          <rect
+            height="16"
+            rx="2"
+            ry="2"
+            width="16"
+            x={4}
+            y="0"
+          />
+          <rect
+            height="10"
+            rx="2"
+            ry="2"
+            width="360"
+            x={28}
+            y="3"
+          />
+          <rect
+            height="16"
+            rx="2"
+            ry="2"
+            width="16"
+            x={4}
+            y="20"
+          />
+          <rect
+            height="10"
+            rx="2"
+            ry="2"
+            width="360"
+            x={28}
+            y="23"
+          />
+        </ContentLoader>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Forms /> render() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)
+            Typography={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="Forms & Attachments"
+              id="app.Node.parts.Forms.label"
+            />
+             
+             (3)
+          </WithStyles(EditableLabel)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(Connect(WithSimplifyResaga(Form)))
+        compact={false}
+        iconPadding={false}
+        id={1}
+        key="1"
+        loading={false}
+        readOnly={true}
+        renderProp={false}
+        simple={true}
+        variant="row"
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Form)))
+        compact={false}
+        iconPadding={false}
+        id={2}
+        key="2"
+        loading={false}
+        readOnly={true}
+        renderProp={false}
+        simple={true}
+        variant="row"
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          link={true}
+          onClick={[Function]}
+          sm={true}
+          underline={true}
+        >
+          See all (3)
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Forms /> renderMoreLess should match snapshot when show less 1`] = `<div />`;
+
+exports[`<Forms /> renderMoreLess should match snapshot when show more 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      link={true}
+      onClick={[Function]}
+      sm={true}
+      underline={true}
+    >
+      See all (3)
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Forms /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    compact={false}
+    iconPadding={false}
+    id={null}
+    loading={false}
+    readOnly={false}
+    renderProp={false}
+    simple={true}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Forms /> toggleShowAll should match snapshot 1`] = `<div />`;

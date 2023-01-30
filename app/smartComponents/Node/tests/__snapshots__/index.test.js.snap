@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Node /> render() should render ACTIVITY 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Activity)))))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render DAY 1`] = `
+<WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Day))))))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render FOLDER 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Folder)))))))))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render FORM 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Form)))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render RATING 1`] = `
+<ConnectFunction
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render SEAT 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Seat)))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render TAB_GALLERY 1`] = `
+<ConnectFunction
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render TAB_OTHER 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabOther)))))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should render TEMPLATE 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Template)))))
+  classes={Object {}}
+  id={999}
+  ignore={Array []}
+  variant=""
+/>
+`;
+
+exports[`<Node /> render() should return null if ignore 1`] = `
+Array [
+  Array [
+    999,
+    Object {
+      "classes": Object {},
+      "id": 999,
+      "ignore": Array [
+        "thistype",
+      ],
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "type": "thistype",
+      "variant": "",
+    },
+  ],
+]
+`;

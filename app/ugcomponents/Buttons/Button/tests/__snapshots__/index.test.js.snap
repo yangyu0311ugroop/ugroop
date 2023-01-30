@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button/tests/index.test.js props should have noMargin + first + inline 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="first inline"
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;

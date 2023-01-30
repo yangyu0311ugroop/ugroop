@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightDetailsCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          bold={true}
+        >
+          Flight details
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="row"
+          spacing={2}
+        >
+          <WithStyles(GridItem)
+            xs={6}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  Travel class
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  Airline
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  Flight number
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  Departure terminal
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  Departure gate
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={6}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              renderTravelClass
+              renderAirline
+              renderFlightNumber
+              renderTerminal
+              renderGate
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderAirline() should renderAirline 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderAirline() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderFlightNumber() should renderFlightNumber 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderFlightNumber() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderGate() should renderGate 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderGate() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderTerminal() should renderTerminal 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      123
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderTerminal() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderTravelClass() should renderTravelClass 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={false}
+      ellipsis={true}
+      gray={true}
+      italic={true}
+    >
+      n/a
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetailsCard /> renderTravelClass() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      Economy
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

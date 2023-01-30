@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PORTAL_HELPERS PORTAL_DATA_ID_SELECTOR should return PORTAL_DATA_ID_SELECTOR 1`] = `
+<div>
+  userDataStore
+  portal
+  portalData
+  2233
+</div>
+`;

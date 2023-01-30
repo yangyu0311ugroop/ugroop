@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ugcomponents/Inputs/FieldTable/hoc/withFieldTable #render() still matches snapshot when empty 1`] = `
+<div>
+  <MockComponent
+    addRow={[Function]}
+    removeRow={[Function]}
+    values={null}
+  />
+  <Formsy(DataField)
+    currentValue={0}
+    innerRef={[Function]}
+    name="someTableNameLength"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={0}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="someTableNameReset"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={false}
+  />
+</div>
+`;
+
+exports[`ugcomponents/Inputs/FieldTable/hoc/withFieldTable #render() still matches snapshot when not empty 1`] = `
+<div>
+  <MockComponent
+    addRow={[Function]}
+    removeRow={[Function]}
+    values={
+      Array [
+        Object {
+          "id": 123,
+        },
+        Object {
+          "id": 456,
+        },
+      ]
+    }
+  />
+  <Formsy(DataField)
+    currentValue={2}
+    innerRef={[Function]}
+    name="someTableNameLength"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={2}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="someTableNameReset"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={false}
+  />
+</div>
+`;

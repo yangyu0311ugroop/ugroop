@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should have dense 1`] = `
+<p
+  className="dense"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have error 1`] = `
+<p
+  className="error"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have fontStyle 1`] = `
+<p
+  className="fontStyle.italic"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have lavender 1`] = `
+<p
+  className="lavender"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have letterSpace 1`] = `
+<p
+  className=""
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have light 1`] = `
+<p
+  className="light"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have noMargin 1`] = `
+<p
+  className="noMargin"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have primary 1`] = `
+<p
+  className="primary"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have subtitle 1`] = `
+<p
+  className="subtitle"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have success 1`] = `
+<p
+  className="success"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have textAlign 1`] = `
+<p
+  className="textAlign.center"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have transform 1`] = `
+<p
+  className="transform.capitalize"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should have warm color 1`] = `
+Object {
+  "black": "-black",
+  "bold": "-bold",
+  "bolder": "-bolder",
+  "clickable": "-clickable",
+  "colorgray": "-colorgray",
+  "colorshuttlegrey": "-colorshuttlegrey",
+  "error": "-error",
+  "fontStyle.italic": "-fontStyle.italic",
+  "fontStyle.normal": "-fontStyle.normal",
+  "h1FontSize": "-h1FontSize",
+  "h2FontSize": "-h2FontSize",
+  "h3FontSize": "-h3FontSize",
+  "h4FontSize": "-h4FontSize",
+  "h5FontSize": "-h5FontSize",
+  "h6FontSize": "-h6FontSize",
+  "headerCommon": "-headerCommon",
+  "lavender": "-lavender",
+  "letterSpacing": "-letterSpacing",
+  "light": "-light",
+  "lineHeight1": "-lineHeight1",
+  "noMargin": "-noMargin",
+  "primary": "-primary",
+  "spanFontSize": "-spanFontSize",
+  "subtitle": "-subtitle",
+  "success": "-success",
+  "textAlign.center": "-textAlign.center",
+  "textAlign.justify": "-textAlign.justify",
+  "textAlign.left": "-textAlign.left",
+  "textAlign.right": "-textAlign.right",
+  "titleFontSize": "-titleFontSize",
+  "transform.capitalize": "-transform.capitalize",
+  "transform.lowercase": "-transform.lowercase",
+  "transform.uppercase": "-transform.uppercase",
+  "white": "-white",
+  "whiteSpace.nowrap": "-whiteSpace.nowrap",
+}
+`;
+
+exports[`<Typography /> should have white 1`] = `
+<p
+  className="white"
+  clickable={false}
+  color=""
+>
+  Test
+</p>
+`;
+
+exports[`<Typography /> should match snapshot 1`] = `
+<h1
+  className="Typography-h1FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 2`] = `
+<h2
+  className="Typography-h2FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 3`] = `
+<h3
+  className="Typography-h3FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 4`] = `
+<h4
+  className="Typography-h4FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 5`] = `
+<h5
+  className="Typography-h5FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 6`] = `
+<h6
+  className="Typography-h6FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 7`] = `
+<p
+  className="Typography-h5FontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 8`] = `
+<h3
+  className="Typography-titleFontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;
+
+exports[`<Typography /> should match snapshot 9`] = `
+<span
+  className="Typography-spanFontSize Typography-headerCommon"
+  clickable={false}
+  color=""
+/>
+`;

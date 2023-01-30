@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/discussionStore/utils #handleVideo() handleVideo matches snapshot 1`] = `" <iframe class=\\"ql-video\\" frameborder=\\"0\\" allowfullscreen=\\"true\\" src=\\"  https://www.youtube.com/embed/cuL7hC0SeaY?showinfo=0\\"> </iframe> Video: <p>  https://www.youtube.com/embed/cuL7hC0SeaY?showinfo=0</p><p><br></p>"`;
+
+exports[`datastore/discussionStore/utils #handleVideo() handleVideo matches the snapshot if no description 1`] = `""`;
+
+exports[`datastore/discussionStore/utils #handleVideo() handleVideo matches the snapshot w/o video 1`] = `"some data"`;

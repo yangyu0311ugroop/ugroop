@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivacyPolicy /> should render when authenticated 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Privacy Policy",
+          "name": "description",
+        },
+      ]
+    }
+    title="Privacy Policy"
+  />
+  <withRouter(Header) />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          <span>
+            Version 
+            appVersion
+             -
+             
+            <a
+              href="buildUrl"
+              target="_blank"
+            >
+              Build 
+              buildNum
+               (
+              Latest
+              )
+            </a>
+          </span>,
+          <a
+            href="compareUrl"
+            target="_blank"
+          >
+            GitHub Commits
+          </a>,
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<PrivacyPolicy /> should render when unauthenticated 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Privacy Policy",
+          "name": "description",
+        },
+      ]
+    }
+    title="Privacy Policy"
+  />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          <span>
+            Version 
+            appVersion
+             -
+             
+            <a
+              href="buildUrl"
+              target="_blank"
+            >
+              Build 
+              buildNum
+               (
+              Latest
+              )
+            </a>
+          </span>,
+          <a
+            href="compareUrl"
+            target="_blank"
+          >
+            GitHub Commits
+          </a>,
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<PrivacyPolicy /> still matches snapshot if BRANCH=stage 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Privacy Policy",
+          "name": "description",
+        },
+      ]
+    }
+    title="Privacy Policy"
+  />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          <span>
+            Version 
+            appVersion
+             -
+             
+            <a
+              href="buildUrl"
+              target="_blank"
+            >
+              Build 
+              buildNum
+               (
+              Stable
+              )
+            </a>
+          </span>,
+          <a
+            href="compareUrl"
+            target="_blank"
+          >
+            GitHub Commits
+          </a>,
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<PrivacyPolicy /> still matches snapshot if not CI and PRODUCTION 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of Privacy Policy",
+          "name": "description",
+        },
+      ]
+    }
+    title="Privacy Policy"
+  />
+  <WithStyles(Content) />
+  <WithStyles(Container)>
+    <UGFooter
+      items={
+        Array [
+          <withRouter(UGLink)
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>,
+          "Contact Us",
+          <withRouter(UGLink)
+            to="/terms-of-service"
+          >
+            Terms of Service
+          </withRouter(UGLink)>,
+          "uGroop@appVersion.buildNum",
+          "",
+        ]
+      }
+    />
+  </WithStyles(Container)>
+</div>
+`;

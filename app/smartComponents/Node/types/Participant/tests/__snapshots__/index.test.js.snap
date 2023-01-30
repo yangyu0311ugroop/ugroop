@@ -1,0 +1,4072 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participant /> #handleEditableClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "participantViewId": null,
+  "participantViewMode": null,
+  "participantViewOpen": true,
+}
+`;
+
+exports[`<Participant /> #handleEditableClick() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "participantViewId": null,
+  "participantViewMode": "me",
+  "participantViewOpen": true,
+}
+`;
+
+exports[`<Participant /> #render() still matches snapshot 1`] = `
+<ForwardRef(Grow)
+  in={false}
+  timeout={150}
+>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(ListRow)>
+      <WithStyles(GridContainer)
+        card={true}
+        cardPadding={1}
+        direction="column"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={2}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(ConditionsBorderStyle)))
+                id={null}
+              >
+                <Component />
+              </WithStyles(Connect(WithSimplifyResaga(ConditionsBorderStyle)))>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(Editable)
+                onClick={[Function]}
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)
+                    xs={true}
+                  >
+                    <WithStyles(GridContainer)
+                      direction="column"
+                      spacing={0}
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          alignItems="baseline"
+                          wrap="nowrap"
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(GridContainer)
+                              alignItems="center"
+                              direction="row"
+                              nowrap={true}
+                              spacing={0}
+                              wrap="nowrap"
+                            >
+                              <WithStyles(GridItem)>
+                                <ConnectFunction
+                                  RoomComponent={null}
+                                  TravelGroupComponent={null}
+                                  accessLevel="full"
+                                  boldFromNode={false}
+                                  canMove={false}
+                                  complexView={true}
+                                  currentEmailValue={null}
+                                  followers={Array []}
+                                  groups={Array []}
+                                  hasNoLink={false}
+                                  heading={false}
+                                  hideInviteButton={false}
+                                  hideRenderRowTail={false}
+                                  id={null}
+                                  index={0}
+                                  isEmptyInterestLevel={false}
+                                  isEmptyParticipantStatus={false}
+                                  isEmptySelfTravel={false}
+                                  isPublic={false}
+                                  isRYI={false}
+                                  isRequired={false}
+                                  mode="personType"
+                                  noName={false}
+                                  onRenderRowSubtitle={null}
+                                  onRenderRowTail={null}
+                                  parentParticipants={Array []}
+                                  personId={null}
+                                  personType={null}
+                                  readOnly={false}
+                                  readOnlyStatus={false}
+                                  renderValue={[Function]}
+                                  resaga={
+                                    Object {
+                                      "dispatchTo": [MockFunction],
+                                      "setValue": [MockFunction],
+                                    }
+                                  }
+                                  roomOccupants={Array []}
+                                  rooms={Array []}
+                                  rowClassName=""
+                                  selectedFollowerId={0}
+                                  showAvatar={true}
+                                  showSubDetail={true}
+                                  showUpload={true}
+                                  travelWith={Array []}
+                                  value="value"
+                                  variant="default"
+                                  withRelationshipField={false}
+                                />
+                              </WithStyles(GridItem)>
+                              <WithStyles(GridItem)>
+                                <Component
+                                  RoomComponent={null}
+                                  TravelGroupComponent={null}
+                                  accessLevel="full"
+                                  canMove={false}
+                                  complexView={true}
+                                  currentEmailValue={null}
+                                  dataStore="personDataStore"
+                                  followers={Array []}
+                                  groups={Array []}
+                                  hasNoLink={false}
+                                  heading={false}
+                                  hideInviteButton={false}
+                                  hideRenderRowTail={false}
+                                  id={null}
+                                  index={0}
+                                  isEmptyInterestLevel={false}
+                                  isEmptyParticipantStatus={false}
+                                  isEmptySelfTravel={false}
+                                  isMatchToName={true}
+                                  isPublic={false}
+                                  isRYI={false}
+                                  isRequired={false}
+                                  mode="personType"
+                                  noName={false}
+                                  onRenderRowSubtitle={null}
+                                  onRenderRowTail={null}
+                                  parentParticipants={Array []}
+                                  personId={null}
+                                  personType={null}
+                                  readOnly={false}
+                                  readOnlyStatus={false}
+                                  resaga={
+                                    Object {
+                                      "dispatchTo": [MockFunction],
+                                      "setValue": [MockFunction],
+                                    }
+                                  }
+                                  roomOccupants={Array []}
+                                  rooms={Array []}
+                                  rowClassName=""
+                                  selectedFollowerId={0}
+                                  showAvatar={true}
+                                  showSubDetail={true}
+                                  showUpload={true}
+                                  travelWith={Array []}
+                                  value="value"
+                                  variant="textOnly"
+                                  withRelationshipField={false}
+                                />
+                              </WithStyles(GridItem)>
+                            </WithStyles(GridContainer)>
+                          </WithStyles(GridItem)>
+                          <ConnectFunction
+                            RoomComponent={null}
+                            TravelGroupComponent={null}
+                            accessLevel="full"
+                            canMove={false}
+                            complexView={true}
+                            currentEmailValue={null}
+                            followers={Array []}
+                            groups={Array []}
+                            hasNoLink={false}
+                            heading={false}
+                            hideInviteButton={false}
+                            hideRenderRowTail={false}
+                            id={null}
+                            index={0}
+                            isEmptyInterestLevel={false}
+                            isEmptyParticipantStatus={false}
+                            isEmptySelfTravel={false}
+                            isPublic={false}
+                            isRYI={false}
+                            isRequired={false}
+                            mode="personType"
+                            noName={false}
+                            onRenderRowSubtitle={null}
+                            onRenderRowTail={null}
+                            parentParticipants={Array []}
+                            personId={null}
+                            personType={null}
+                            readOnly={false}
+                            readOnlyStatus={false}
+                            resaga={
+                              Object {
+                                "dispatchTo": [MockFunction],
+                                "setValue": [MockFunction],
+                              }
+                            }
+                            roomOccupants={Array []}
+                            rooms={Array []}
+                            rowClassName=""
+                            selectedFollowerId={0}
+                            showAvatar={true}
+                            showSubDetail={true}
+                            showUpload={true}
+                            travelWith={Array []}
+                            value="value"
+                            variant="icon"
+                            withRelationshipField={false}
+                          />
+                          <ConnectFunction
+                            RoomComponent={null}
+                            TravelGroupComponent={null}
+                            accessLevel="full"
+                            canMove={false}
+                            complexView={true}
+                            currentEmailValue={null}
+                            followers={Array []}
+                            groups={Array []}
+                            hasNoLink={false}
+                            heading={false}
+                            hideInviteButton={false}
+                            hideRenderRowTail={false}
+                            id={null}
+                            index={0}
+                            isEmptyInterestLevel={false}
+                            isEmptyParticipantStatus={false}
+                            isEmptySelfTravel={false}
+                            isPublic={false}
+                            isRYI={false}
+                            isRequired={false}
+                            mode="personType"
+                            noName={false}
+                            onRenderRowSubtitle={null}
+                            onRenderRowTail={null}
+                            parentParticipants={Array []}
+                            personId={null}
+                            personType={null}
+                            readOnly={false}
+                            readOnlyStatus={false}
+                            resaga={
+                              Object {
+                                "dispatchTo": [MockFunction],
+                                "setValue": [MockFunction],
+                              }
+                            }
+                            roomOccupants={Array []}
+                            rooms={Array []}
+                            rowClassName=""
+                            selectedFollowerId={0}
+                            showAvatar={true}
+                            showSubDetail={true}
+                            showUpload={true}
+                            travelWith={Array []}
+                            value="value"
+                            variant="icon"
+                            withRelationshipField={false}
+                          />
+                          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Passport)))))))
+                            RoomComponent={null}
+                            TravelGroupComponent={null}
+                            accessLevel="full"
+                            canMove={false}
+                            complexView={true}
+                            currentEmailValue={null}
+                            followers={Array []}
+                            groups={Array []}
+                            hasNoLink={false}
+                            heading={false}
+                            hideInviteButton={false}
+                            hideRenderRowTail={false}
+                            id={null}
+                            index={0}
+                            isEmptyInterestLevel={false}
+                            isEmptyParticipantStatus={false}
+                            isEmptySelfTravel={false}
+                            isPublic={false}
+                            isRYI={false}
+                            isRequired={false}
+                            mode="personType"
+                            noName={false}
+                            onRenderRowSubtitle={null}
+                            onRenderRowTail={null}
+                            parentParticipants={Array []}
+                            personId={null}
+                            personType={null}
+                            readOnly={false}
+                            readOnlyStatus={false}
+                            resaga={
+                              Object {
+                                "dispatchTo": [MockFunction],
+                                "setValue": [MockFunction],
+                              }
+                            }
+                            roomOccupants={Array []}
+                            rooms={Array []}
+                            rowClassName=""
+                            selectedFollowerId={0}
+                            showAvatar={true}
+                            showSubDetail={true}
+                            showUpload={true}
+                            travelWith={Array []}
+                            value="value"
+                            variant="icon"
+                            withRelationshipField={false}
+                          />
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <Hidden
+                          smUp={true}
+                        >
+                          <WithStyles(GridContainer)
+                            direction="column"
+                            spacing={0}
+                          >
+                            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="renderProp"
+                              withRelationshipField={false}
+                            >
+                              <Component />
+                            </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                            <WithStyles(GridItem)>
+                              <H6
+                                dense={true}
+                              >
+                                <FormattedMessage
+                                  defaultMessage="Received {date}"
+                                  id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                                  values={
+                                    Object {
+                                      "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                                        RoomComponent={null}
+                                        TravelGroupComponent={null}
+                                        accessLevel="full"
+                                        canMove={false}
+                                        complexView={true}
+                                        currentEmailValue={null}
+                                        followers={Array []}
+                                        groups={Array []}
+                                        hasNoLink={false}
+                                        heading={false}
+                                        hideInviteButton={false}
+                                        hideRenderRowTail={false}
+                                        id={null}
+                                        index={0}
+                                        isEmptyInterestLevel={false}
+                                        isEmptyParticipantStatus={false}
+                                        isEmptySelfTravel={false}
+                                        isPublic={false}
+                                        isRYI={false}
+                                        isRequired={false}
+                                        mode="personType"
+                                        noName={false}
+                                        onRenderRowSubtitle={null}
+                                        onRenderRowTail={null}
+                                        parentParticipants={Array []}
+                                        personId={null}
+                                        personType={null}
+                                        readOnly={false}
+                                        readOnlyStatus={false}
+                                        resaga={
+                                          Object {
+                                            "dispatchTo": [MockFunction],
+                                            "setValue": [MockFunction],
+                                          }
+                                        }
+                                        roomOccupants={Array []}
+                                        rooms={Array []}
+                                        rowClassName=""
+                                        selectedFollowerId={0}
+                                        showAvatar={true}
+                                        showFromNow={true}
+                                        showSubDetail={true}
+                                        showUpload={true}
+                                        travelWith={Array []}
+                                        value="value"
+                                        variant="default"
+                                        withRelationshipField={false}
+                                      />,
+                                    }
+                                  }
+                                />
+                              </H6>
+                            </WithStyles(GridItem)>
+                            <ConnectFunction
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="renderProp"
+                              withRelationshipField={false}
+                            >
+                              <Component />
+                            </ConnectFunction>
+                          </WithStyles(GridContainer)>
+                        </Hidden>
+                        <Hidden
+                          xsDown={true}
+                        >
+                          <WithStyles(GridContainer)
+                            alignItems="center"
+                            spacing={0}
+                          >
+                            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="renderProp"
+                              withRelationshipField={false}
+                            >
+                              <Component />
+                            </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                            <WithStyles(GridItem)>
+                              <H6
+                                dense={true}
+                              >
+                                <FormattedMessage
+                                  defaultMessage="Received {date}"
+                                  id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                                  values={
+                                    Object {
+                                      "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                                        RoomComponent={null}
+                                        TravelGroupComponent={null}
+                                        accessLevel="full"
+                                        canMove={false}
+                                        complexView={true}
+                                        currentEmailValue={null}
+                                        followers={Array []}
+                                        groups={Array []}
+                                        hasNoLink={false}
+                                        heading={false}
+                                        hideInviteButton={false}
+                                        hideRenderRowTail={false}
+                                        id={null}
+                                        index={0}
+                                        isEmptyInterestLevel={false}
+                                        isEmptyParticipantStatus={false}
+                                        isEmptySelfTravel={false}
+                                        isPublic={false}
+                                        isRYI={false}
+                                        isRequired={false}
+                                        mode="personType"
+                                        noName={false}
+                                        onRenderRowSubtitle={null}
+                                        onRenderRowTail={null}
+                                        parentParticipants={Array []}
+                                        personId={null}
+                                        personType={null}
+                                        readOnly={false}
+                                        readOnlyStatus={false}
+                                        resaga={
+                                          Object {
+                                            "dispatchTo": [MockFunction],
+                                            "setValue": [MockFunction],
+                                          }
+                                        }
+                                        roomOccupants={Array []}
+                                        rooms={Array []}
+                                        rowClassName=""
+                                        selectedFollowerId={0}
+                                        showAvatar={true}
+                                        showFromNow={true}
+                                        showSubDetail={true}
+                                        showUpload={true}
+                                        travelWith={Array []}
+                                        value="value"
+                                        variant="default"
+                                        withRelationshipField={false}
+                                      />,
+                                    }
+                                  }
+                                />
+                              </H6>
+                            </WithStyles(GridItem)>
+                            <ConnectFunction
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="renderProp"
+                              withRelationshipField={false}
+                            >
+                              <Component />
+                            </ConnectFunction>
+                          </WithStyles(GridContainer)>
+                        </Hidden>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Editable)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(Connect(WithSimplifyResaga(Status)))
+                  RoomComponent={null}
+                  TravelGroupComponent={null}
+                  accessLevel="full"
+                  canMove={false}
+                  complexView={true}
+                  currentEmailValue={null}
+                  followers={Array []}
+                  groups={Array []}
+                  hasNoLink={false}
+                  heading={false}
+                  hideInviteButton={false}
+                  hideRenderRowTail={false}
+                  id={null}
+                  index={0}
+                  isEmptyInterestLevel={false}
+                  isEmptyParticipantStatus={false}
+                  isEmptySelfTravel={false}
+                  isPublic={false}
+                  isRYI={false}
+                  isRequired={false}
+                  mode="personType"
+                  noName={false}
+                  onRenderRowSubtitle={null}
+                  onRenderRowTail={null}
+                  parentParticipants={Array []}
+                  personId={null}
+                  personType={null}
+                  readOnly={false}
+                  readOnlyStatus={false}
+                  resaga={
+                    Object {
+                      "dispatchTo": [MockFunction],
+                      "setValue": [MockFunction],
+                    }
+                  }
+                  roomOccupants={Array []}
+                  rooms={Array []}
+                  rowClassName=""
+                  selectedFollowerId={0}
+                  showAvatar={true}
+                  showLabel={false}
+                  showSubDetail={true}
+                  showUpload={true}
+                  travelWith={Array []}
+                  value="value"
+                  variant="editable"
+                  withRelationshipField={false}
+                />
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+                size="small"
+                tooltipProps={
+                  Object {
+                    "title": <div>
+                      Add people that you would like to follow your
+ journey, and for the organisers, your emergency contacts just in case
+                    </div>,
+                  }
+                }
+                variant="inline"
+              >
+                <H5
+                  dense={true}
+                  primary={true}
+                  weight="bold"
+                >
+                  <FormattedMessage
+                    defaultMessage="Add Follower"
+                    id="app.smartComponents.Node.types.participant.addFollower"
+                  />
+                </H5>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+            <Hidden
+              xsDown={true}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  RoomComponent={null}
+                  TravelGroupComponent={null}
+                  accessLevel="full"
+                  canMove={false}
+                  complexView={true}
+                  currentEmailValue={null}
+                  followers={Array []}
+                  groups={Array []}
+                  hasNoLink={false}
+                  heading={false}
+                  hideInviteButton={false}
+                  hideRenderRowTail={false}
+                  id={null}
+                  index={0}
+                  isEmptyInterestLevel={false}
+                  isEmptyParticipantStatus={false}
+                  isEmptySelfTravel={false}
+                  isPublic={false}
+                  isRYI={false}
+                  isRequired={false}
+                  mode="personType"
+                  noName={false}
+                  onRenderRowSubtitle={null}
+                  onRenderRowTail={null}
+                  parentParticipants={Array []}
+                  personId={null}
+                  personType={null}
+                  readOnly={false}
+                  readOnlyStatus={false}
+                  resaga={
+                    Object {
+                      "dispatchTo": [MockFunction],
+                      "setValue": [MockFunction],
+                    }
+                  }
+                  roomOccupants={Array []}
+                  rooms={Array []}
+                  rowClassName=""
+                  selectedFollowerId={0}
+                  showAvatar={true}
+                  showSubDetail={true}
+                  showUpload={true}
+                  travelWith={Array []}
+                  value="value"
+                  withRelationshipField={false}
+                />
+              </WithStyles(GridItem)>
+            </Hidden>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</ForwardRef(Grow)>
+`;
+
+exports[`<Participant /> #renderAddFollower() renderAddFollower to be called  1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      onClick={[Function]}
+      size="small"
+      tooltipProps={
+        Object {
+          "title": <div>
+            Add people that you would like to follow your
+ journey, and for the organisers, your emergency contacts just in case
+          </div>,
+        }
+      }
+      variant="inline"
+    >
+      <H5
+        dense={true}
+        primary={true}
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Add Follower"
+          id="app.smartComponents.Node.types.participant.addFollower"
+        />
+      </H5>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> #renderCreatedAt() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Received {date}"
+        id="app.smartComponents.Node.types.participant.subheadingPrefix"
+        values={
+          Object {
+            "date": "renderPart",
+          }
+        }
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      md={6}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            renderPart
+            renderPart
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            renderPart
+            renderPart
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+            renderPart
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={6}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderEditable() still matches snapshot when readonly 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      md={6}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            renderPart
+            renderPart
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+            renderPart
+            renderPart
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+            renderPart
+            renderPart
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={6}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+            <WithStyles(GridItem)>
+              renderPart
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+          >
+            renderPart
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderForm() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        renderPart
+        renderPart
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    renderPart
+    renderPart
+    renderPart
+    renderPart
+    renderPart
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderForm() still matches snapshot isPublic 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        renderPart
+        renderPart
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    renderPart
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderForm() still matches snapshot withRelationshipField true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    renderPart
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        renderPart
+        renderPart
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    renderPart
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderLastAccess() matches snapshot 1`] = `<div />`;
+
+exports[`<Participant /> #renderLastAccess() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridItem)>
+          <H6
+            dense={true}
+          >
+            •
+          </H6>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <H6
+          dense={true}
+        >
+          renderPart
+        </H6>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> #renderLogic() still matches snapshot 1`] = `
+<div>
+  <ConnectFunction
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    value="value"
+    variant="logic"
+    withRelationshipField={false}
+  />
+  <ConnectFunction
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    value="value"
+    variant="logic"
+    withRelationshipField={false}
+  />
+</div>
+`;
+
+exports[`<Participant /> #renderRowAvatar() still matches snapshot 1`] = `
+<div>
+  <ConnectFunction
+    PersonAvatarProps={
+      Object {
+        "emailSubjectLink": undefined,
+        "personEmail": undefined,
+        "showAvatarDetails": true,
+      }
+    }
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel=""
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    personId={null}
+    personType={null}
+    readOnly={true}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    tooltipText={[Function]}
+    travelWith={Array []}
+    value="value"
+    variant="avatar"
+    withRelationshipField={false}
+  />
+</div>
+`;
+
+exports[`<Participant /> #renderRowAvatarWithClassName() still matches snapshot 1`] = `
+<div>
+  <ConnectFunction
+    PersonAvatarProps={
+      Object {
+        "emailSubjectLink": undefined,
+        "personEmail": undefined,
+        "showAvatarDetails": true,
+      }
+    }
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    className={Object {}}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={[Function]}
+    parentParticipants={Array []}
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    tooltipText={[Function]}
+    travelWith={Array []}
+    value="value"
+    variant="avatar"
+    withRelationshipField={false}
+  />
+</div>
+`;
+
+exports[`<Participant /> #renderRowSubtitle() still matches snapshot 1`] = `
+<div>
+  <H6
+    dense={true}
+  >
+    value
+  </H6>
+</div>
+`;
+
+exports[`<Participant /> #renderRowSubtitle() still matches snapshot if props.heading 1`] = `
+<div>
+  <H6
+    dense={true}
+  >
+    value
+  </H6>
+</div>
+`;
+
+exports[`<Participant /> #renderRowTail() still matches snapshot 1`] = `
+<div>
+  test
+</div>
+`;
+
+exports[`<Participant /> #renderRowTail() still matches snapshot 2`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Status)))
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={true}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="forms"
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showLabel={false}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    value="value"
+    variant="editable"
+    withRelationshipField={false}
+  />
+</div>
+`;
+
+exports[`<Participant /> #renderRowTitle() still matches snapshot 1`] = `
+<div>
+  <P
+    color="primary"
+    dense={true}
+    title="This participant is not yet connected to someone registered on uGroop."
+    weight="bold"
+  >
+    value
+  </P>
+</div>
+`;
+
+exports[`<Participant /> #renderRowTitle() still matches snapshot if props.heading 1`] = `
+<div>
+  <H4
+    color="primary"
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</div>
+`;
+
+exports[`<Participant /> #renderSubtitle() still matches snapshot 1`] = `
+<div>
+  test
+</div>
+`;
+
+exports[`<Participant /> #renderSubtitle() still matches snapshot 2`] = `
+<div>
+  renderPart
+</div>
+`;
+
+exports[`<Participant /> #renderTextOnly() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        RoomComponent={null}
+        TravelGroupComponent={null}
+        accessLevel="full"
+        canMove={false}
+        complexView={true}
+        currentEmailValue={null}
+        followers={Array []}
+        groups={Array []}
+        hasNoLink={false}
+        heading={false}
+        hideInviteButton={false}
+        hideRenderRowTail={false}
+        id={null}
+        index={0}
+        isEmptyInterestLevel={false}
+        isEmptyParticipantStatus={false}
+        isEmptySelfTravel={false}
+        isPublic={false}
+        isRYI={false}
+        isRequired={false}
+        mode="personType"
+        noName={false}
+        onRenderRowSubtitle={null}
+        onRenderRowTail={null}
+        parentParticipants={Array []}
+        personId={null}
+        personType={null}
+        readOnly={false}
+        readOnlyStatus={false}
+        renderValue={[Function]}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        roomOccupants={Array []}
+        rooms={Array []}
+        rowClassName=""
+        selectedFollowerId={0}
+        showAvatar={true}
+        showSubDetail={true}
+        showUpload={true}
+        travelWith={Array []}
+        value="value"
+        variant="textOnly"
+        withRelationshipField={false}
+      />
+    </WithStyles(GridItem)>
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      value="value"
+      variant="textOnly"
+      withRelationshipField={false}
+    />
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      value="value"
+      variant="textOnly"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Participant /> #renderTextOnlyNameValue() still matches snapshot 1`] = `
+<div>
+  <H5
+    dense={true}
+    weight="bold"
+  />
+</div>
+`;
+
+exports[`<Participant /> #renderToolTipTitleFollower() should match snapshot 1`] = `
+<div>
+  <div>
+    Add people that you would like to follow your
+ journey, and for the organisers, your emergency contacts just in case
+  </div>
+</div>
+`;
+
+exports[`<Participant /> closePopper() should closePopper 1`] = `<div />`;
+
+exports[`<Participant /> closePopper() should closePopper 2`] = `<div />`;
+
+exports[`<Participant /> componentDidMount() should call setTimeout when index < ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    750,
+  ],
+]
+`;
+
+exports[`<Participant /> componentDidMount() should call setTimeout when index >= ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    1000,
+  ],
+]
+`;
+
+exports[`<Participant /> componentWillUnmount() should call setTimeout when index < 5 1`] = `
+Array [
+  Array [
+    ShallowWrapper {},
+  ],
+]
+`;
+
+exports[`<Participant /> getFirstToken() should getFirstToken 1`] = `<div />`;
+
+exports[`<Participant /> handleClick should call createPerson if personId do not exist 1`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "birthDate": undefined,
+        "email": undefined,
+        "firstName": undefined,
+        "knownAs": "",
+        "lastName": undefined,
+        "nodeId": null,
+      },
+      "onSuccess": [Function],
+    },
+    Object {
+      "RoomComponent": null,
+      "TravelGroupComponent": null,
+      "accessLevel": "full",
+      "canMove": false,
+      "children": null,
+      "classes": Object {},
+      "complexView": true,
+      "currentEmailValue": null,
+      "followers": Array [],
+      "groups": Array [],
+      "hasNoLink": false,
+      "heading": false,
+      "hideInviteButton": false,
+      "hideRenderRowTail": false,
+      "id": null,
+      "index": 0,
+      "isEmptyInterestLevel": false,
+      "isEmptyParticipantStatus": false,
+      "isEmptySelfTravel": false,
+      "isPublic": false,
+      "isRYI": false,
+      "isRequired": false,
+      "mode": "personType",
+      "noName": false,
+      "onRenderRowSubtitle": null,
+      "onRenderRowTail": null,
+      "parentParticipants": Array [],
+      "personId": null,
+      "personType": null,
+      "readOnlyStatus": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "roomOccupants": Array [],
+      "rooms": Array [],
+      "rowClassName": "",
+      "selectedFollowerId": 0,
+      "showAvatar": true,
+      "showSubDetail": true,
+      "showUpload": true,
+      "travelWith": Array [],
+      "value": "value",
+      "variant": null,
+      "withRelationshipField": false,
+    },
+  ],
+]
+`;
+
+exports[`<Participant /> handleConfirmMove should be called 1`] = `<div />`;
+
+exports[`<Participant /> handleOpenFollowerDialog handleOpenFollowerDialog should return null 1`] = `<div />`;
+
+exports[`<Participant /> handleSetupPersonSuccess should call setValue and openPopper 1`] = `
+Object {
+  "calculatedPeople": Array [],
+}
+`;
+
+exports[`<Participant /> openSeeDetail() should openSeeDetail 1`] = `<div />`;
+
+exports[`<Participant /> renderFormCount() should render values length 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      onClick={[Function]}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          sm={true}
+          spacing2={true}
+          uppercase={true}
+        >
+          Forms (
+          1
+          )
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="chevron-down"
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderFormCount() should render values length if not showForms 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      onClick={[Function]}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          sm={true}
+          spacing2={true}
+          uppercase={true}
+        >
+          Forms (
+          1
+          )
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="chevron-up"
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderFormCount() should renderFormCount 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      onClick={[Function]}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          sm={true}
+          spacing2={true}
+          uppercase={true}
+        >
+          Forms (
+          0
+          )
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="chevron-down"
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderInviteButton should match snapshot 1`] = `<div />`;
+
+exports[`<Participant /> renderInviteButton should match snapshot if user is not connected and not invitation pending 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+        RoomComponent={null}
+        TravelGroupComponent={null}
+        accessLevel="full"
+        canMove={false}
+        complexView={true}
+        currentEmailValue={null}
+        followers={Array []}
+        groups={Array []}
+        hasNoLink={false}
+        heading={false}
+        hideInviteButton={false}
+        hideRenderRowTail={false}
+        id={null}
+        index={0}
+        isEmptyInterestLevel={false}
+        isEmptyParticipantStatus={false}
+        isEmptySelfTravel={false}
+        isPublic={false}
+        isRYI={false}
+        isRequired={false}
+        mode="personType"
+        noName={false}
+        onRenderRowSubtitle={null}
+        onRenderRowTail={null}
+        parentParticipants={Array []}
+        personId={null}
+        personType={null}
+        readOnly={false}
+        readOnlyStatus={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        roomOccupants={Array []}
+        rooms={Array []}
+        rowClassName=""
+        selectedFollowerId={0}
+        showAvatar={true}
+        showSubDetail={true}
+        showUpload={true}
+        travelWith={Array []}
+        value="value"
+        withRelationshipField={false}
+      />
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Participant /> renderLink should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <MoveButton
+      openDialog={[Function]}
+      variant="link"
+    />
+    <WithStyles(MoveDialog)
+      closeMoveDialog={[Function]}
+      confirmMove={[Function]}
+      open={false}
+      participantId={null}
+      toId={0}
+      variant="link"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderLink should match snapshot if parentType is interested person 1`] = `<div />`;
+
+exports[`<Participant /> renderMoveButton() should renderMoveButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <MoveButton
+      openDialog={[Function]}
+    />
+    <WithStyles(MoveDialog)
+      closeMoveDialog={[Function]}
+      confirmMove={[Function]}
+      open={false}
+      participantId={null}
+      toId={0}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderPersonNameEditables() should renderPersonNameEditables 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Component
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      dataStore="personDataStore"
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isMatchToName={true}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    invitationPending={false}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    nodeType="participant"
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    participantEmail="email"
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    userConnected={false}
+    value="value"
+    withRelationshipField={false}
+  />
+  <ConnectFunction
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    invitationPending={false}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    nodeType="participant"
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    participantEmail="email"
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    userConnected={false}
+    value="value"
+    withRelationshipField={false}
+  />
+  <WithStyles(GridItem)>
+    <Component
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      dataStore="personDataStore"
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isMatchToName={true}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      linkeeRole="participant_linkee"
+      mode="personType"
+      noName={false}
+      nodeId={null}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      role="participant"
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <H6
+          fontStyle="italic"
+        >
+          This person isn't connected to this tour yet. Want to
+        </H6>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem) />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderPersonNameEditables() should renderPersonNameEditables 1 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Component
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      dataStore="personDataStore"
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isMatchToName={true}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    invitationPending={false}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    nodeType="participant"
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    participantEmail="email"
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    userConnected={false}
+    value="value"
+    withRelationshipField={false}
+  />
+  <ConnectFunction
+    RoomComponent={null}
+    TravelGroupComponent={null}
+    accessLevel="full"
+    canMove={false}
+    complexView={true}
+    currentEmailValue={null}
+    followers={Array []}
+    groups={Array []}
+    hasNoLink={false}
+    heading={false}
+    hideInviteButton={false}
+    hideRenderRowTail={false}
+    id={null}
+    index={0}
+    invitationPending={false}
+    isEmptyInterestLevel={false}
+    isEmptyParticipantStatus={false}
+    isEmptySelfTravel={false}
+    isPublic={false}
+    isRYI={false}
+    isRequired={false}
+    mode="personType"
+    noName={false}
+    nodeType="participant"
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    parentParticipants={Array []}
+    participantEmail="email"
+    personId={null}
+    personType={null}
+    readOnly={false}
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    roomOccupants={Array []}
+    rooms={Array []}
+    rowClassName=""
+    selectedFollowerId={0}
+    showAvatar={true}
+    showSubDetail={true}
+    showUpload={true}
+    travelWith={Array []}
+    userConnected={false}
+    value="value"
+    withRelationshipField={false}
+  />
+  <WithStyles(GridItem)>
+    <Component
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      dataStore="personDataStore"
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      invitationPending={false}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isMatchToName={true}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      linkeeRole="participant_linkee"
+      mode="personType"
+      noName={false}
+      nodeId={null}
+      nodeType="participant"
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      participantEmail="email"
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      role="participant"
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      userConnected={false}
+      value="value"
+      withRelationshipField={false}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <H6
+          fontStyle="italic"
+        >
+          This person isn't connected to this tour yet. Want to
+        </H6>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem) />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderPersonType should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <WithStyles(GridContainer)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+          RoomComponent={null}
+          TravelGroupComponent={null}
+          accessLevel="full"
+          canMove={false}
+          complexView={true}
+          currentEmailValue={null}
+          followers={Array []}
+          groups={Array []}
+          hasNoLink={false}
+          heading={false}
+          hideInviteButton={false}
+          hideRenderRowTail={false}
+          id={null}
+          index={0}
+          isEmptyInterestLevel={false}
+          isEmptyParticipantStatus={false}
+          isEmptySelfTravel={false}
+          isPublic={false}
+          isRYI={false}
+          isRequired={false}
+          mode="personType"
+          noName={false}
+          onRenderRowSubtitle={null}
+          onRenderRowTail={null}
+          parentParticipants={Array []}
+          personId={null}
+          personType={null}
+          readOnly={false}
+          readOnlyStatus={false}
+          renderDot={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          roomOccupants={Array []}
+          rooms={Array []}
+          rowClassName=""
+          selectedFollowerId={0}
+          showAvatar={true}
+          showSubDetail={true}
+          showUpload={true}
+          travelWith={Array []}
+          value="value"
+          variant="textOnly"
+          withRelationshipField={false}
+        />
+      </WithStyles(GridContainer)>
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderPersonType should match snapshot if value is null 1`] = `<div />`;
+
+exports[`<Participant /> renderPopperPaper() should renderPopperPaper 1`] = `
+<div>
+  <WithStyles(Button)
+    onClick={[Function]}
+    size="extraSmall"
+    variant="inline"
+  >
+    invite them?
+  </WithStyles(Button)>
+  <ForwardRef(Popper)
+    anchorEl={null}
+    disablePortal={true}
+    open={false}
+    placement="bottom-start"
+  />
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should renderPopperPaperContent 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        id={null}
+        linkedUserId={true}
+        linkeeRole="participant_linkee"
+        onBack={[Function]}
+        role="tour_participant"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should renderPopperPaperContent 2`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        id={null}
+        linkedUserId={true}
+        linkeeRole="participant_linkee"
+        onBack={[Function]}
+        role="tour_participant"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should renderPopperPaperContent if no linkedUserId 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        id={null}
+        linkedUserId={false}
+        linkeeRole="participant_linkee"
+        onBack={[Function]}
+        role="tour_participant"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should renderPopperPaperContent if no linkedUserId 2`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        id={null}
+        linkedUserId={false}
+        linkeeRole="participant_linkee"
+        onBack={[Function]}
+        role="tour_participant"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should return something else if loading 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <div>
+        Searching...
+      </div>
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderPopperPaperContent() should return something else if loading 2`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <div>
+        Searching...
+      </div>
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<Participant /> renderRow() should renderRow 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<Participant /> renderRow() should renderRow 2`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<Participant /> renderRowContent() should renderRowContent 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(Editable)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                    direction="row"
+                    nowrap={true}
+                    spacing={0}
+                    wrap="nowrap"
+                  >
+                    <WithStyles(GridItem) />
+                    <WithStyles(GridItem) />
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Hidden
+                smUp={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                />
+              </Hidden>
+              <Hidden
+                xsDown={true}
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                />
+              </Hidden>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Editable)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderRowSimple should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(ConditionsBorderStyle)))
+            id={null}
+          >
+            <Component />
+          </WithStyles(Connect(WithSimplifyResaga(ConditionsBorderStyle)))>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderRowSimple should match snapshot if showAvatar is false 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={2}
+      >
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderRowSimpleContent should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(Editable)
+      onClick={[Function]}
+      readOnly={false}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    boldFromNode={false}
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    renderValue={[Function]}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="default"
+                    withRelationshipField={false}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Hidden
+                smUp={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                  <WithStyles(GridItem)>
+                    <H6
+                      dense={true}
+                    >
+                      <FormattedMessage
+                        defaultMessage="Received {date}"
+                        id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                        values={
+                          Object {
+                            "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showFromNow={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="default"
+                              withRelationshipField={false}
+                            />,
+                          }
+                        }
+                      />
+                    </H6>
+                  </WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridContainer)>
+              </Hidden>
+              <Hidden
+                xsDown={true}
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                  <WithStyles(GridItem)>
+                    <H6
+                      dense={true}
+                    >
+                      <FormattedMessage
+                        defaultMessage="Received {date}"
+                        id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                        values={
+                          Object {
+                            "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showFromNow={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="default"
+                              withRelationshipField={false}
+                            />,
+                          }
+                        }
+                      />
+                    </H6>
+                  </WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridContainer)>
+              </Hidden>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Editable)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderRowSimpleContent should match snapshot 2`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(Editable)
+      onClick={[MockFunction]}
+      readOnly={false}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    boldFromNode={false}
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    handleEditableClick={[MockFunction]}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    renderValue={[Function]}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="default"
+                    withRelationshipField={false}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Hidden
+                smUp={true}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    handleEditableClick={[MockFunction]}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                  <WithStyles(GridItem)>
+                    <H6
+                      dense={true}
+                    >
+                      <FormattedMessage
+                        defaultMessage="Received {date}"
+                        id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                        values={
+                          Object {
+                            "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              handleEditableClick={[MockFunction]}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showFromNow={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="default"
+                              withRelationshipField={false}
+                            />,
+                          }
+                        }
+                      />
+                    </H6>
+                  </WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    handleEditableClick={[MockFunction]}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridContainer)>
+              </Hidden>
+              <Hidden
+                xsDown={true}
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    handleEditableClick={[MockFunction]}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PersonType)))))>
+                  <WithStyles(GridItem)>
+                    <H6
+                      dense={true}
+                    >
+                      <FormattedMessage
+                        defaultMessage="Received {date}"
+                        id="app.smartComponents.Node.types.participant.subheadingPrefix"
+                        values={
+                          Object {
+                            "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                              RoomComponent={null}
+                              TravelGroupComponent={null}
+                              accessLevel="full"
+                              canMove={false}
+                              complexView={true}
+                              currentEmailValue={null}
+                              followers={Array []}
+                              groups={Array []}
+                              handleEditableClick={[MockFunction]}
+                              hasNoLink={false}
+                              heading={false}
+                              hideInviteButton={false}
+                              hideRenderRowTail={false}
+                              id={null}
+                              index={0}
+                              isEmptyInterestLevel={false}
+                              isEmptyParticipantStatus={false}
+                              isEmptySelfTravel={false}
+                              isPublic={false}
+                              isRYI={false}
+                              isRequired={false}
+                              mode="personType"
+                              noName={false}
+                              onRenderRowSubtitle={null}
+                              onRenderRowTail={null}
+                              parentParticipants={Array []}
+                              personId={null}
+                              personType={null}
+                              readOnly={false}
+                              readOnlyStatus={false}
+                              resaga={
+                                Object {
+                                  "dispatchTo": [MockFunction],
+                                  "setValue": [MockFunction],
+                                }
+                              }
+                              roomOccupants={Array []}
+                              rooms={Array []}
+                              rowClassName=""
+                              selectedFollowerId={0}
+                              showAvatar={true}
+                              showFromNow={true}
+                              showSubDetail={true}
+                              showUpload={true}
+                              travelWith={Array []}
+                              value="value"
+                              variant="default"
+                              withRelationshipField={false}
+                            />,
+                          }
+                        }
+                      />
+                    </H6>
+                  </WithStyles(GridItem)>
+                  <ConnectFunction
+                    RoomComponent={null}
+                    TravelGroupComponent={null}
+                    accessLevel="full"
+                    canMove={false}
+                    complexView={true}
+                    currentEmailValue={null}
+                    followers={Array []}
+                    groups={Array []}
+                    handleEditableClick={[MockFunction]}
+                    hasNoLink={false}
+                    heading={false}
+                    hideInviteButton={false}
+                    hideRenderRowTail={false}
+                    id={null}
+                    index={0}
+                    isEmptyInterestLevel={false}
+                    isEmptyParticipantStatus={false}
+                    isEmptySelfTravel={false}
+                    isPublic={false}
+                    isRYI={false}
+                    isRequired={false}
+                    mode="personType"
+                    noName={false}
+                    onRenderRowSubtitle={null}
+                    onRenderRowTail={null}
+                    parentParticipants={Array []}
+                    personId={null}
+                    personType={null}
+                    readOnly={false}
+                    readOnlyStatus={false}
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    roomOccupants={Array []}
+                    rooms={Array []}
+                    rowClassName=""
+                    selectedFollowerId={0}
+                    showAvatar={true}
+                    showSubDetail={true}
+                    showUpload={true}
+                    travelWith={Array []}
+                    value="value"
+                    variant="renderProp"
+                    withRelationshipField={false}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridContainer)>
+              </Hidden>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Editable)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderStatus should match snapshot 1`] = `
+<div>
+  <h5>
+    Not Yet Connected
+  </h5>
+</div>
+`;
+
+exports[`<Participant /> renderStatus should match snapshot if invitationPending is true 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="base"
+      onClick={[Function]}
+      size="extraSmall"
+      variant="outline"
+      verySquare={true}
+    >
+      Pending
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> renderStatus should match snapshot if userConnected is true 1`] = `<div />`;
+
+exports[`<Participant /> renderTableRow should match snapshot 1`] = `
+<div>
+  <WithStyles(TableCell)
+    className=""
+  >
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      value="value"
+      variant="textOnly"
+      withRelationshipField={false}
+    />
+  </WithStyles(TableCell)>
+  <WithStyles(TableCell)
+    className=""
+  >
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      boldFromNode={false}
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      value="value"
+      variant="default"
+      withRelationshipField={false}
+    />
+  </WithStyles(TableCell)>
+  <WithStyles(TableCell)
+    className=""
+  >
+    <ConnectFunction
+      RoomComponent={null}
+      TravelGroupComponent={null}
+      accessLevel="full"
+      canMove={false}
+      complexView={true}
+      currentEmailValue={null}
+      followers={Array []}
+      groups={Array []}
+      hasNoLink={false}
+      heading={false}
+      hideInviteButton={false}
+      hideRenderRowTail={false}
+      id={null}
+      index={0}
+      isEmptyInterestLevel={false}
+      isEmptyParticipantStatus={false}
+      isEmptySelfTravel={false}
+      isPublic={false}
+      isRYI={false}
+      isRequired={false}
+      mode="personType"
+      noName={false}
+      onRenderRowSubtitle={null}
+      onRenderRowTail={null}
+      parentParticipants={Array []}
+      personId={null}
+      personType={null}
+      readOnly={false}
+      readOnlyStatus={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      roomOccupants={Array []}
+      rooms={Array []}
+      rowClassName=""
+      selectedFollowerId={0}
+      showAvatar={true}
+      showSubDetail={true}
+      showUpload={true}
+      travelWith={Array []}
+      value="value"
+      variant="textOnly"
+      withRelationshipField={false}
+    />
+  </WithStyles(TableCell)>
+</div>
+`;
+
+exports[`<Participant /> renderTableRow should match snapshot 2`] = `
+<div>
+  <WithStyles(TableCell)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          RoomComponent={null}
+          TravelGroupComponent={null}
+          accessLevel="full"
+          canMove={false}
+          complexView={true}
+          currentEmailValue={null}
+          followers={Array []}
+          groups={Array []}
+          hasNoLink={false}
+          heading={false}
+          hideInviteButton={false}
+          hideRenderRowTail={false}
+          id={null}
+          index={0}
+          isEmptyInterestLevel={false}
+          isEmptyParticipantStatus={false}
+          isEmptySelfTravel={false}
+          isPublic={false}
+          isRYI={false}
+          isRequired={false}
+          mode="personType"
+          noName={false}
+          onRenderRowSubtitle={null}
+          onRenderRowTail={null}
+          parentParticipants={Array []}
+          personId={null}
+          personType={null}
+          readOnly={false}
+          readOnlyStatus={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          roomOccupants={Array []}
+          rooms={Array []}
+          rowClassName=""
+          selectedFollowerId={0}
+          showAvatar={true}
+          showSubDetail={true}
+          showUpload={true}
+          smDown={true}
+          travelWith={Array []}
+          value="value"
+          variant="textOnly"
+          withRelationshipField={false}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          RoomComponent={null}
+          TravelGroupComponent={null}
+          accessLevel="full"
+          boldFromNode={false}
+          canMove={false}
+          complexView={true}
+          currentEmailValue={null}
+          followers={Array []}
+          groups={Array []}
+          hasNoLink={false}
+          heading={false}
+          hideInviteButton={false}
+          hideRenderRowTail={false}
+          id={null}
+          index={0}
+          isEmptyInterestLevel={false}
+          isEmptyParticipantStatus={false}
+          isEmptySelfTravel={false}
+          isPublic={false}
+          isRYI={false}
+          isRequired={false}
+          mode="personType"
+          noName={false}
+          onRenderRowSubtitle={null}
+          onRenderRowTail={null}
+          parentParticipants={Array []}
+          personId={null}
+          personType={null}
+          readOnly={false}
+          readOnlyStatus={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          roomOccupants={Array []}
+          rooms={Array []}
+          rowClassName=""
+          selectedFollowerId={0}
+          showAvatar={true}
+          showSubDetail={true}
+          showUpload={true}
+          smDown={true}
+          travelWith={Array []}
+          value="value"
+          variant="default"
+          withRelationshipField={false}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          RoomComponent={null}
+          TravelGroupComponent={null}
+          accessLevel="full"
+          canMove={false}
+          complexView={true}
+          currentEmailValue={null}
+          followers={Array []}
+          groups={Array []}
+          hasNoLink={false}
+          heading={false}
+          hideInviteButton={false}
+          hideRenderRowTail={false}
+          id={null}
+          index={0}
+          isEmptyInterestLevel={false}
+          isEmptyParticipantStatus={false}
+          isEmptySelfTravel={false}
+          isPublic={false}
+          isRYI={false}
+          isRequired={false}
+          mode="personType"
+          noName={false}
+          onRenderRowSubtitle={null}
+          onRenderRowTail={null}
+          parentParticipants={Array []}
+          personId={null}
+          personType={null}
+          readOnly={false}
+          readOnlyStatus={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          roomOccupants={Array []}
+          rooms={Array []}
+          rowClassName=""
+          selectedFollowerId={0}
+          showAvatar={true}
+          showSubDetail={true}
+          showUpload={true}
+          smDown={true}
+          travelWith={Array []}
+          value="value"
+          variant="textOnly"
+          withRelationshipField={false}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(TableCell)>
+</div>
+`;

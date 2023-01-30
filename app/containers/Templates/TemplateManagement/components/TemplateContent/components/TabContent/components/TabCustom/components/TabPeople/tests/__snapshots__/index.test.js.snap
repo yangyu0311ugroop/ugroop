@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabPeople /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+      variant="view"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+      variant="create"
+    />
+    <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TemplateInterestedList))))))
+      templateId={0}
+      variant="modals"
+    />
+    <WithStyles(GridItem)
+      md={3}
+      xs={12}
+    >
+      <Sticky
+        activeClass="active"
+        bottomBoundary={0}
+        enableTransforms={true}
+        enabled={true}
+        innerZ={1000}
+        onStateChange={null}
+        releasedClass="released"
+        shouldFreeze={[Function]}
+        top={98}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Sidebar))))) />
+      </Sticky>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={9}
+      xs={12}
+    >
+      <ContributorList
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabPeople /> render() should render public correctly 1`] = `
+<div>
+  <ContributorPublicList
+    templateId={0}
+  />
+</div>
+`;

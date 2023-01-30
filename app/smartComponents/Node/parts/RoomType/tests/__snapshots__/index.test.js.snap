@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomType /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<RoomType /> handleSubmit() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handleValidSubmit() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handleValidSubmit() should still match snapshot if props handleOnSubmit is pass 1`] = `
+<div>
+  test
+</div>
+`;
+
+exports[`<RoomType /> rederEditablePopper() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+        component={[Function]}
+        editable={true}
+        isCustomData={true}
+        onSave={[Function]}
+        placeholder="Room type"
+        required={true}
+        showEmpty={true}
+        valueKey="roomType"
+        variant="heading"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        placement="bottom-start"
+        renderButton={[Function]}
+        selectedType={true}
+        value=""
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomType /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "NodeProp": [Function],
+      "default": [Function],
+      "editable": [Function],
+      "popper": [Function],
+      "textOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<RoomType /> renderDefault() should renderDefault 1`] = `<div />`;
+
+exports[`<RoomType /> renderDefault() should renderDefault 2`] = `<div />`;
+
+exports[`<RoomType /> renderDefault() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> renderDefault() should still match snapshot 2`] = `
+<div>
+  <span
+    className="default"
+    title="test"
+  >
+    test
+  </span>
+</div>
+`;
+
+exports[`<RoomType /> renderEditable() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableSelectForm)
+      inline={true}
+      label={
+        <FormattedMessage
+          defaultMessage="Room Type"
+          id="app.Node.parts.RoomType.editableLabel"
+        />
+      }
+      name="node.customData.roomType"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": "Single",
+            "key": "Single",
+            "value": "Single",
+          },
+          Object {
+            "children": "Double",
+            "key": "Double",
+            "value": "Double",
+          },
+          Object {
+            "children": "Twin",
+            "key": "Twin",
+            "value": "Twin",
+          },
+          Object {
+            "children": "Triple",
+            "key": "Triple",
+            "value": "Triple",
+          },
+          Object {
+            "children": "Others",
+            "key": "Others",
+            "value": "Others",
+          },
+        ]
+      }
+      placeholder="Click to specity Title"
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomType /> renderEditableOptions() should still match snapshot 1`] = `
+<div>
+  <Component
+    key="Single"
+  />
+  <Component
+    key="Double"
+  />
+  <Component
+    key="Twin"
+  />
+  <Component
+    key="Triple"
+  />
+  <Component
+    key="Others"
+  />
+</div>
+`;
+
+exports[`<RoomType /> renderNodeProp() should still match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+    component={[Function]}
+    isCustomData={true}
+    onSave={[Function]}
+    placeholder="Room type"
+    required={true}
+    showEmpty={true}
+    valueKey="roomType"
+    variant="heading"
+  />
+</div>
+`;
+
+exports[`<RoomType /> renderRoomTypeButton() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+        variant="borderless"
+      >
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomType /> renderRoomTypeButton() should still match snapshot if render lable 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+        variant="borderless"
+      >
+        test
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomType /> renderRoomTypeOptions() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        disabled={false}
+        onClick={[Function]}
+        selected={false}
+      >
+        Single
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        disabled={false}
+        onClick={[Function]}
+        selected={false}
+      >
+        Double
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        disabled={false}
+        onClick={[Function]}
+        selected={false}
+      >
+        Twin
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        disabled={false}
+        onClick={[Function]}
+        selected={false}
+      >
+        Triple
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomType /> renderTextOnly() should still match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+    ellipsis={true}
+    isCustomData={true}
+    showEmpty={true}
+    valueKey="roomType"
+    variant="textOnly"
+  />
+</div>
+`;
+
+exports[`<RoomType /> renderTitle() should return renderTitle 1`] = `""`;

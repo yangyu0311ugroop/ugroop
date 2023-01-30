@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast ToastContainer should render ToastContainer 1`] = `
+<ToastContainer
+  autoClose={5000}
+  bodyClassName="toast-body"
+  className="toast-root"
+  closeButton={false}
+  closeOnClick={false}
+  draggable={true}
+  draggableDirection="x"
+  draggablePercent={80}
+  hideProgressBar={true}
+  newestOnTop={true}
+  pauseOnFocusLoss={true}
+  pauseOnHover={true}
+  position="bottom-right"
+  progressClassName="toast-progress"
+  role="alert"
+  rtl={false}
+  toastClassName="toast"
+  transition={[Function]}
+/>
+`;
+
+exports[`Toast ToastContent should render ToastContent 1`] = `
+<WithStyles(Messaging)
+  content="Test text"
+  icon={
+    <WithStyles(Icon)
+      icon="lnr-notification-circle"
+    />
+  }
+  iconClassName=""
+  textClassName=""
+/>
+`;
+
+exports[`Toast fn loadIcon should return nothing for other types 1`] = `null`;
+
+exports[`Toast fn loadIcon should return nothing if icon is null 1`] = `null`;
+
+exports[`Toast fn loadIcon should return the correct default icon for messageType.CRITICAL 1`] = `
+<WithStyles(Icon)
+  icon="lnr-cross-circle"
+/>
+`;
+
+exports[`Toast fn loadIcon should return the correct default icon for messageType.INFO 1`] = `
+<WithStyles(Icon)
+  icon="lnr-notification-circle"
+/>
+`;
+
+exports[`Toast fn loadIcon should return the correct default icon for messageType.SUCCESS 1`] = `
+<WithStyles(Icon)
+  icon="lnr-checkmark-circle"
+/>
+`;
+
+exports[`Toast fn loadIcon should return the correct default icon if no type is given 1`] = `
+<WithStyles(Icon)
+  icon="lnr-notification-circle"
+/>
+`;
+
+exports[`Toast fn loadIcon should return the icon itself if it exists 1`] = `
+<img
+  alt="Test"
+  src="/some/icon.png"
+/>
+`;

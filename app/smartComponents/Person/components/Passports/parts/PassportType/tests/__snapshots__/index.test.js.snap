@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PassportType /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableForm)
+    label="Passport Type"
+    name="passportType"
+    onClose={[Function]}
+    onSubmit={[Function]}
+    placeholder="Click to specify passport type"
+    readOnly={false}
+    readOnlyPlaceholder="No passport type"
+    value="Regular Passport"
+  >
+    <WithStyles(GridContainer)
+      alignItems="flex-end"
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <Formsy(SelectField)
+          innerRef={[Function]}
+          label="Passport Type"
+          name="passportType"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "children": "Regular Passport",
+                "value": "regular_passport",
+              },
+              Object {
+                "children": "Official/Service Passport",
+                "value": "official_passport",
+              },
+              Object {
+                "children": "Diplomatic Passport",
+                "value": "diplomatic_passport",
+              },
+              Object {
+                "children": "Emergency/Temporary Passport",
+                "value": "emergency_passport",
+              },
+              Object {
+                "children": "Collective Passport",
+                "value": "collective_passport",
+              },
+              Object {
+                "children": "Family Passport",
+                "value": "family_passport",
+              },
+              Object {
+                "children": "Other",
+                "value": "other",
+              },
+            ]
+          }
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value="regular_passport"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(EditableForm)>
+</div>
+`;
+
+exports[`<PassportType /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-end"
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <Formsy(SelectField)
+        innerRef={[Function]}
+        label="Passport Type"
+        name="passportType"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "children": "Regular Passport",
+              "value": "regular_passport",
+            },
+            Object {
+              "children": "Official/Service Passport",
+              "value": "official_passport",
+            },
+            Object {
+              "children": "Diplomatic Passport",
+              "value": "diplomatic_passport",
+            },
+            Object {
+              "children": "Emergency/Temporary Passport",
+              "value": "emergency_passport",
+            },
+            Object {
+              "children": "Collective Passport",
+              "value": "collective_passport",
+            },
+            Object {
+              "children": "Family Passport",
+              "value": "family_passport",
+            },
+            Object {
+              "children": "Other",
+              "value": "other",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="regular_passport"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PassportType /> render() should render correctly if variant is text field and showTextField state is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-end"
+  >
+    <WithStyles(GridItem)
+      xs={6}
+    >
+      <Formsy(SelectField)
+        innerRef={[Function]}
+        label="Passport Type"
+        name="passportType"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "children": "Regular Passport",
+              "value": "regular_passport",
+            },
+            Object {
+              "children": "Official/Service Passport",
+              "value": "official_passport",
+            },
+            Object {
+              "children": "Diplomatic Passport",
+              "value": "diplomatic_passport",
+            },
+            Object {
+              "children": "Emergency/Temporary Passport",
+              "value": "emergency_passport",
+            },
+            Object {
+              "children": "Collective Passport",
+              "value": "collective_passport",
+            },
+            Object {
+              "children": "Family Passport",
+              "value": "family_passport",
+            },
+            Object {
+              "children": "Other",
+              "value": "other",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="regular_passport"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={6}
+    >
+      <FormsyInterceptor
+        name="passportOtherType"
+        onInterceptValue={[Function]}
+        placeholder="Specify type"
+        value=""
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PassportType /> render() should render correctly if variant is text field and showTextField state is true 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-end"
+  >
+    <WithStyles(GridItem)
+      xs={6}
+    >
+      <Formsy(SelectField)
+        innerRef={[Function]}
+        label="Passport Type"
+        name="passportType"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "children": "Regular Passport",
+              "value": "regular_passport",
+            },
+            Object {
+              "children": "Official/Service Passport",
+              "value": "official_passport",
+            },
+            Object {
+              "children": "Diplomatic Passport",
+              "value": "diplomatic_passport",
+            },
+            Object {
+              "children": "Emergency/Temporary Passport",
+              "value": "emergency_passport",
+            },
+            Object {
+              "children": "Collective Passport",
+              "value": "collective_passport",
+            },
+            Object {
+              "children": "Family Passport",
+              "value": "family_passport",
+            },
+            Object {
+              "children": "Other",
+              "value": "other",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="other"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={6}
+    >
+      <FormsyInterceptor
+        name="passportOtherType"
+        onInterceptValue={[Function]}
+        placeholder="Specify type"
+        value="eternal"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PassportType /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <span>
+    Official/Service Passport
+  </span>
+</div>
+`;
+
+exports[`<PassportType /> render() should render correctly if variant is text only and variant is other 1`] = `
+<div>
+  <span>
+    other
+  </span>
+</div>
+`;

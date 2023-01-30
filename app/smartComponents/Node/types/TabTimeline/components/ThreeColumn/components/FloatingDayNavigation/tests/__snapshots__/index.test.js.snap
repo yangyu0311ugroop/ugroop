@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FloatingDayNavigation /> render() should render sticky  1`] = `
+<div>
+  <Scrollspy
+    componentTag="ul"
+    currentClassName=""
+    items={
+      Array [
+        "day1",
+      ]
+    }
+    offset={-94}
+    onUpdate={[Function]}
+    style={Object {}}
+  />
+  <Sticky
+    activeClass="active"
+    bottomBoundary="#LayoutContent"
+    enableTransforms={true}
+    enabled={true}
+    innerZ={1000}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={106}
+  >
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            activeId={1}
+            dayIds={Array []}
+            noPadding={true}
+            renderButton={[Function]}
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </Sticky>
+</div>
+`;
+
+exports[`<FloatingDayNavigation /> render() should return null !sticky 1`] = `
+<div>
+  <Scrollspy
+    componentTag="ul"
+    currentClassName=""
+    items={
+      Array [
+        "day1",
+      ]
+    }
+    offset={-94}
+    onUpdate={[Function]}
+    style={Object {}}
+  />
+  <Sticky
+    activeClass="active"
+    bottomBoundary="#LayoutContent"
+    enableTransforms={true}
+    enabled={true}
+    innerZ={1000}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={106}
+  >
+    <div />
+  </Sticky>
+</div>
+`;
+
+exports[`<FloatingDayNavigation /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(JButton)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+            showDayIndex={true}
+          />
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<FloatingDayNavigation /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            dark={true}
+          >
+            Go to..
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(Hr)
+      half={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          key="1"
+        >
+          <WithStyles(JButton)
+            block={true}
+            onClick={[Function]}
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+              id={1}
+              showDayIndex={true}
+            />
+          </WithStyles(JButton)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

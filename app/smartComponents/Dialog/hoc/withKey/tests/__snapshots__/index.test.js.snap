@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/hoc/withKey #render() still matches snapshot 1`] = `
+<Component
+  key="null"
+  open={false}
+/>
+`;

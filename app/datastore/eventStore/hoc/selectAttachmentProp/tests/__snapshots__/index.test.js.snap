@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/hoc/selectEventProp #value still matches snapshot with resaga 1`] = `
+Object {
+  "$$typeof": Symbol(react.memo),
+  "WrappedComponent": [Function],
+  "compare": null,
+  "displayName": "Connect(WithSimplifyResaga(Component))",
+  "type": [Function],
+}
+`;

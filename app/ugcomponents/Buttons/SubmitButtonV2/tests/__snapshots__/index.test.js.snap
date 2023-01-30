@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> render() should render loading 1`] = `
+<div>
+  renderLoading
+</div>
+`;
+
+exports[`<Button /> render() should render valid 1`] = `
+<div>
+  renderValid
+</div>
+`;
+
+exports[`<Button /> renderLoading() should renderLoading correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="blue"
+    dense={true}
+    size="small"
+  >
+    <WithStyles(Icon)
+      className=""
+      icon="lnr-refresh2"
+    />
+    <span>
+      <FormattedMessage
+        defaultMessage="Loading.."
+        id="ShareList.components.InviteByEmail.loading"
+      />
+    </span>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Button /> renderValid() should renderValid correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="green"
+    dense={true}
+    disabled={false}
+    onClick={[Function]}
+    size="small"
+    type="submit"
+  >
+    <WithStyles(Icon)
+      icon="lnr-magnifier"
+    />
+    <span>
+      Submit
+    </span>
+  </WithStyles(Button)>
+</div>
+`;

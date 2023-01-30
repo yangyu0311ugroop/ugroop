@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabItem /> should render something 1`] = `
+<WithStyles(ForwardRef(Tab))
+  className=""
+  classes={
+    Object {
+      "root": undefined,
+      "selected": undefined,
+      "textColorPrimary": undefined,
+    }
+  }
+  label=""
+/>
+`;

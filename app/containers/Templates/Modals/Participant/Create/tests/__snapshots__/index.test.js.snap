@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateParticipant /> #handleCreateSuccess() calls handleCreateLink 1`] = `
+Array [
+  Array [
+    Object {
+      "participantId": "1",
+    },
+  ],
+]
+`;
+
+exports[`<CreateParticipant /> #handleFormValidSubmit() calls NODE_API_HELPERS.getTimes 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "participants",
+      "fetchCalculated": true,
+      "node": Object {
+        "customData": Object {
+          "orgId": undefined,
+          "personType": null,
+        },
+        "status": "",
+      },
+      "onError": [Function],
+      "onSuccess": [Function],
+      "parentNodeId": 1,
+      "x": 1,
+    },
+    Object {
+      "firstName": "First",
+      "followerId": 0,
+      "mode": null,
+      "onClose": [MockFunction],
+      "open": false,
+      "parentNodeId": 2,
+      "participantWithRelationship": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "templateId": 1,
+    },
+  ],
+]
+`;
+
+exports[`<CreateParticipant /> #handleFormValidSubmit() calls make filterParticipantStatus to blank if status is pending 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "participants",
+      "fetchCalculated": true,
+      "node": Object {
+        "customData": Object {
+          "orgId": undefined,
+          "personType": null,
+        },
+        "status": "",
+      },
+      "onError": [Function],
+      "onSuccess": [Function],
+      "parentNodeId": 1,
+      "x": 1,
+    },
+    Object {
+      "firstName": "First",
+      "followerId": 0,
+      "mode": null,
+      "onClose": [MockFunction],
+      "open": false,
+      "parentNodeId": 2,
+      "participantWithRelationship": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "templateId": 1,
+    },
+  ],
+]
+`;
+
+exports[`<CreateParticipant /> #handleInvalidSubmit() should call handleInvalidSubmit 1`] = `true`;
+
+exports[`<CreateParticipant /> #render() still matches snapshot 1`] = `
+<WithStyles(GenericForm)
+  canSubmitForm={true}
+  fullWidth={false}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onFormValidSubmit={[Function]}
+  onInvalidSubmit={[Function]}
+  open={false}
+  renderHeader={[Function]}
+  size="sm"
+  submitButtonContent={
+    <FormattedMessage
+      defaultMessage="Add {paxLabel}"
+      id="app.Containers.Templates.Modals.Participant.Create.submitButtonLabel"
+      values={
+        Object {
+          "paxLabel": undefined,
+        }
+      }
+    />
+  }
+>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    isEmptyParticipantStatus={false}
+    isRequired={true}
+    readOnlyStatus={false}
+    variant="form"
+    withRelationshipField={false}
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Type)))
+    defaultType="participant"
+    variant="data"
+  />
+</WithStyles(GenericForm)>
+`;
+
+exports[`<CreateParticipant /> #renderHeader() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(Title)
+    heading={
+      <FormattedMessage
+        defaultMessage="{paxLabel}"
+        id="app.Containers.Templates.Modals.Participant.Create.heading"
+        values={
+          Object {
+            "paxLabel": undefined,
+          }
+        }
+      />
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="Add"
+        id="app.Containers.Templates.Modals.Participant.Create.headingBackground"
+      />
+    }
+    headingUnderline={false}
+    renderSubheading={[Function]}
+  />
+  closeButton
+</React.Fragment>
+`;
+
+exports[`<CreateParticipant /> #renderSubheading() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  spacing={0}
+>
+  <WithStyles(GridItem)
+    style={
+      Object {
+        "paddingRight": 4,
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="Adding to interested person:"
+      id="app.Containers.Templates.Modals.Participant.Create.interestedPersonWithName"
+    />
+  </WithStyles(GridItem)>
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    id={2}
+    variant="textOnly"
+  />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<CreateParticipant /> #renderSubheading() still matches snapshot if no props.firstName 1`] = `
+<FormattedMessage
+  defaultMessage="Adding to an interested person."
+  id="app.Containers.Templates.Modals.Participant.Create.interestedPersonWithoutName"
+/>
+`;
+
+exports[`<CreateParticipant /> #renderSubheading() still matches snapshot if parentNodeId and templateId are just the same 1`] = `null`;
+
+exports[`<CreateParticipant /> handleCreateLink should call dispatchTo create link 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "guardian",
+          "actionContent": Object {
+            "relationship": "Sample",
+          },
+          "nextNodeId": 0,
+        },
+        "id": 1,
+        "nextNodeChildKey": "participantLinks",
+        "prevNodeChildKey": "followers",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;

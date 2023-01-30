@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingForm /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)>
+            Rating
+          </WithStyles(EditableLabel)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Rating)))
+            id={0}
+            variant="textField"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)>
+            Review
+          </WithStyles(EditableLabel)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            id={0}
+            reactQuillProps={
+              Object {
+                "className": undefined,
+                "placeholder": "Share details of your own experience on this event ",
+              }
+            }
+            row={5}
+            variant="textField"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

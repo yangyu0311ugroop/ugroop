@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Description /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "id": null,
+      "value": "<p><br></p>",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Description /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderEditableForm={[Function]}
+  renderLabel={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Description /> #renderDefault() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <Formsy(RichTextField)
+    editing={true}
+    id="EventDescriptionRichTextnull"
+    innerRef={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Description"
+        id="app.smartComponents.Event.components.Event.parts.Event.Description.input"
+      />
+    }
+    name="data.description"
+    placeholder="Click to add description"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="<p><br></p>"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Description /> #renderLabel() still matches snapshot 1`] = `null`;
+
+exports[`<Description /> #renderLabel() still matches snapshot with a value 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(UGRichEditor)
+    initContent="Some value"
+    readOnly={true}
+    toolBarId="EventDescriptionRichTextnull"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Description /> renderEditable should match snapshot 1`] = `<div />`;
+
+exports[`<Description /> renderEditable should match snapshot if not participant 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      TextComponent={[Function]}
+      TextProps={
+        Object {
+          "editing": true,
+          "id": "EventDescriptionRichTextnull",
+        }
+      }
+      hideClearButton={true}
+      label={
+        <FormattedMessage
+          defaultMessage="Description"
+          id="app.smartComponents.Event.components.Event.parts.Event.Description.input"
+        />
+      }
+      name="data.description"
+      onSubmit={[Function]}
+      placeholder="Click to add description"
+      renderValue={[Function]}
+      value="<p><br></p>"
+    >
+      <EventPatchData
+        dataId={0}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Description /> renderValue should match snapshot 1`] = `
+<div>
+  <WithStyles(UGRichEditor)
+    initContent="qqqq"
+    readOnly={true}
+    toolBarId="EventDescriptionRichTextnull"
+  />
+</div>
+`;

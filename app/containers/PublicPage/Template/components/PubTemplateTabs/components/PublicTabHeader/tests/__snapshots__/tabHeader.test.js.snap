@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabHeader should render loading 1`] = `
+<div>
+  loading..
+</div>
+`;
+
+exports[`TabHeader should render what it should render 1`] = `
+<Sticky
+  activeClass="active"
+  bottomBoundary={0}
+  enableTransforms={true}
+  enabled={true}
+  id="tabHeader"
+  innerZ={99}
+  onStateChange={[MockFunction]}
+  releasedClass="released"
+  shouldFreeze={[Function]}
+  top={0}
+>
+  <WithStyles(ForwardRef(AppBar))
+    className="TabHeader-appBar"
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)>
+      <WithStyles(ForwardRef(Toolbar))
+        className="TabHeader-toolbar undefined"
+      >
+        <WithStyles(UGTabs)
+          className="TabHeader-tabs"
+          onChange={[MockFunction]}
+          scrollButtons="auto"
+          scrollable={true}
+          textColor="primary"
+          value={0}
+        >
+          <ConnectFunction
+            className="TabHeader-tabItem TabHeader-firstTabItem"
+            key="[object Object]"
+            tabId={
+              Object {
+                "id": 1,
+              }
+            }
+          />
+          <ConnectFunction
+            className="TabHeader-tabItem"
+            key="[object Object]"
+            tabId={
+              Object {
+                "id": 2,
+              }
+            }
+          />
+          <WithStyles(PublicTab)
+            className="TabHeader-tabItem"
+            label="Maps"
+          />
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+</Sticky>
+`;

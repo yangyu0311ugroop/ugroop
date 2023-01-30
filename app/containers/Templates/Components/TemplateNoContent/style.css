@@ -1,0 +1,18 @@
+.no-content {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.no-content button {
+  margin-top: 30px;
+}
+
+.no-content i {
+  color: #9b97db;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+

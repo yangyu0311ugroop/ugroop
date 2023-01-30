@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Events /> handleClick should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "eventCreate": "setEventCreate",
+    },
+  ],
+]
+`;
+
+exports[`<Events /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    className=""
+    spacing={0}
+  >
+    <EventsOnDay
+      eventIds={Array []}
+      events={Array []}
+      hasEvents={[Function]}
+      id={1}
+      renderEventIcon={[Function]}
+    />
+    <EventsOnDay
+      eventIds={Array []}
+      events={Array []}
+      hasEvents={[Function]}
+      id={1}
+      renderEventIcon={[Function]}
+    />
+    <EventsOnDay
+      eventIds={Array []}
+      events={Array []}
+      hasEvents={[Function]}
+      id={1}
+      renderEventIcon={[Function]}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Events /> renderEventIcon() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+    dayId={1}
+    id="id"
+    position="pos"
+    showSubIcon={false}
+    showSublabel={true}
+    size="xs"
+  />
+</div>
+`;
+
+exports[`<Events /> renderNonSingleDayEventsSeparator should match snapshot if hasAllEvents returns true 1`] = `ShallowWrapper {}`;
+
+exports[`<Events /> renderNonSingleDayEventsSeparator should snapshot if hasAllEvents returns false 1`] = `ShallowWrapper {}`;

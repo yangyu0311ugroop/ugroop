@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkgroup/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "checklists": [Function],
+    "content": [Function],
+    "selectedChecklists": Object {
+      "getter": [Function],
+      "keyPath": Array [
+        "templateManagementView",
+        "selectedChecklists",
+      ],
+    },
+  },
+}
+`;

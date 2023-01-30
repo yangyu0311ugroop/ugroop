@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventView /> render() should render correctly 1`] = `
+<Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+    dayId={1}
+    id={1}
+    key="1"
+    showButton={true}
+    showTick={false}
+    size="small"
+  />
+</Fragment>
+`;
+
+exports[`<EventView /> renderDuration() still matches snapshot if event=flight and position=start 1`] = `
+<Memo(Connect(WithSimplifyResaga(Duration)))
+  background={true}
+  position="start"
+  variant="labelValueFlag"
+/>
+`;

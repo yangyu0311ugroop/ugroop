@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    renderLevel
+    renderLevel
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingForm /> renderLevel() should renderLevel 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="value"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(RatingButton)))
+      active={false}
+      onClick={[Function]}
+      value="value"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

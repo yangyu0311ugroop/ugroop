@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingFlight /> #handleEditableClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "eventView": Object {
+      "viewId": 0,
+      "viewOpen": true,
+      "viewTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FlightBookingFlight /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  key="0"
+>
+  <WithStyles(Editable)
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(EventIcon)
+          iconOverride="flying"
+          size="base"
+          subtype="Flight"
+          type="Transportation"
+        />
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        id={0}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridContainer)>
+  </WithStyles(Editable)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookingFlight /> #render() still matches snapshot labelHeading 1`] = `
+<WithStyles(GridItem)
+  key="0"
+>
+  <ConnectFunction
+    id={0}
+  >
+    <Component />
+  </ConnectFunction>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookingFlight /> #renderParts() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+    >
+      <ConnectFunction
+        dataId={1}
+        id={0}
+        resaga={
+          Object {
+            "setValue": [MockFunction],
+          }
+        }
+        variant="labelValue"
+      />
+      <Component
+        dataId={1}
+        id={0}
+        resaga={
+          Object {
+            "setValue": [MockFunction],
+          }
+        }
+        variant="renderProp"
+      >
+        <Component />
+      </Component>
+      <ConnectFunction
+        dataId={1}
+        id={0}
+        resaga={
+          Object {
+            "setValue": [MockFunction],
+          }
+        }
+        variant="labelValue"
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingFlight /> renderAirports() should renderAirports 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      MEL
+      <WithStyles(GridItem)>
+         to 
+      </WithStyles(GridItem)>
+      HAN
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingFlight /> renderHeadingParts() should renderHeadingParts 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    dark={true}
+  >
+    renderPart
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<FlightBookingFlight /> renderStartAirport() should renderStartAirport 1`] = `
+<div>
+  <Component
+    dataId={12}
+    id={0}
+    resaga={
+      Object {
+        "setValue": [MockFunction],
+      }
+    }
+    variant="renderProp"
+  >
+    renderAirports
+  </Component>
+</div>
+`;

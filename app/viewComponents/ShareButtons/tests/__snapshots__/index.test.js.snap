@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShareButton /> Facebook should render something 1`] = `
+<WithStyles(ShareButton)
+  classes={Object {}}
+  link="abcd.com"
+  message="shared"
+  type="Facebook"
+/>
+`;
+
+exports[`<ShareButton /> Mail should render something 1`] = `
+<WithStyles(ShareButton)
+  classes={Object {}}
+  link="abcd.com"
+  message="shared"
+  type="Mail"
+/>
+`;
+
+exports[`<ShareButton /> Twitter should render something 1`] = `
+<WithStyles(ShareButton)
+  classes={Object {}}
+  link="abcd.com"
+  message="shared"
+  type="Twitter"
+/>
+`;
+
+exports[`<ShareButton /> WhatsApp should render something 1`] = `
+<WithStyles(ShareButton)
+  classes={Object {}}
+  link="abcd.com"
+  message="shared"
+  type="WhatsApp"
+/>
+`;

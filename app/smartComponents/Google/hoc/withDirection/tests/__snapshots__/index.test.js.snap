@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withDirection #render() still matches snapshot 1`] = `
+<Component
+  findRoute={[Function]}
+  googleMaps={
+    Object {
+      "DirectionsService": [Function],
+    }
+  }
+  resaga={Object {}}
+/>
+`;
+
+exports[`withDirection findRouteCallback() should findRouteCallback() onError 1`] = `
+Array [
+  Array [
+    "NOT_FOUND",
+    Object {
+      "index": 1122,
+    },
+    123,
+  ],
+]
+`;
+
+exports[`withDirection findRouteCallback() should findRouteCallback() onSuccess 1`] = `
+Array [
+  Array [
+    1122,
+    123,
+    Object {
+      "index": 1122,
+    },
+  ],
+]
+`;

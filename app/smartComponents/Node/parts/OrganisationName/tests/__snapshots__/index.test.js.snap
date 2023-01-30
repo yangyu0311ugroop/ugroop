@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrganisationName /> render() should render featuredTour tours 1`] = `
+<div>
+  <Component
+    id={2233}
+    name="Featured"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="subtitle"
+  />
+</div>
+`;
+
+exports[`<OrganisationName /> render() should render org name 1`] = `
+<div>
+  <Component
+    id={2233}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="subtitle"
+  />
+</div>
+`;
+
+exports[`<OrganisationName /> render() should render shared tours 1`] = `
+<div>
+  <Component
+    id={2233}
+    name="Shared"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="subtitle"
+  />
+</div>
+`;
+
+exports[`<OrganisationName /> render() should return null 1`] = `
+<div>
+  <Component
+    id={-1}
+    name="Personal"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="subtitle"
+  />
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethodAPI /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "updatePaymentMethod": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;

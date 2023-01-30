@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGDialog /> should custom dialog 1`] = `
+<WithStyles(Component)
+  classes={
+    Object {
+      "paper": "",
+    }
+  }
+>
+  <div />
+</WithStyles(Component)>
+`;
+
+exports[`<UGDialog /> should render custom dialog children 1`] = `
+<WithStyles(Component)
+  classes={
+    Object {
+      "paper": "",
+    }
+  }
+>
+  <WithStyles(UGDialogTitle)
+    className=""
+  >
+    <div />
+  </WithStyles(UGDialogTitle)>
+  <WithStyles(UGDialogContent)
+    className=""
+  >
+    <WithStyles(HeadlineContent)
+      template="custom"
+    />
+  </WithStyles(UGDialogContent)>
+  <WithStyles(UGDialogAction)
+    className=""
+  >
+    <div />
+  </WithStyles(UGDialogAction)>
+</WithStyles(Component)>
+`;
+
+exports[`<UGDialog /> should render dialog with no headline if hideHeadline prop is true 1`] = `
+<WithStyles(Component)
+  classes={
+    Object {
+      "paper": "",
+    }
+  }
+>
+  <WithStyles(UGDialogTitle)
+    className=""
+  >
+    <div />
+  </WithStyles(UGDialogTitle)>
+  <WithStyles(UGDialogContent)
+    className=""
+  />
+  <WithStyles(UGDialogAction)
+    className=""
+  >
+    <div />
+  </WithStyles(UGDialogAction)>
+</WithStyles(Component)>
+`;

@@ -1,0 +1,1002 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COUNTRY_LIST_HELPER getCountryList should return all country list 1`] = `
+Array [
+  Object {
+    "children": "Afghanistan - AF",
+    "value": "AF",
+  },
+  Object {
+    "children": "Åland Islands - AX",
+    "value": "AX",
+  },
+  Object {
+    "children": "Albania - AL",
+    "value": "AL",
+  },
+  Object {
+    "children": "Algeria - DZ",
+    "value": "DZ",
+  },
+  Object {
+    "children": "American Samoa - AS",
+    "value": "AS",
+  },
+  Object {
+    "children": "Andorra - AD",
+    "value": "AD",
+  },
+  Object {
+    "children": "Angola - AO",
+    "value": "AO",
+  },
+  Object {
+    "children": "Anguilla - AI",
+    "value": "AI",
+  },
+  Object {
+    "children": "Antarctica - AQ",
+    "value": "AQ",
+  },
+  Object {
+    "children": "Antigua and Barbuda - AG",
+    "value": "AG",
+  },
+  Object {
+    "children": "Argentina - AR",
+    "value": "AR",
+  },
+  Object {
+    "children": "Armenia - AM",
+    "value": "AM",
+  },
+  Object {
+    "children": "Aruba - AW",
+    "value": "AW",
+  },
+  Object {
+    "children": "Australia - AU",
+    "value": "AU",
+  },
+  Object {
+    "children": "Austria - AT",
+    "value": "AT",
+  },
+  Object {
+    "children": "Azerbaijan - AZ",
+    "value": "AZ",
+  },
+  Object {
+    "children": "Bahamas - BS",
+    "value": "BS",
+  },
+  Object {
+    "children": "Bahrain - BH",
+    "value": "BH",
+  },
+  Object {
+    "children": "Bangladesh - BD",
+    "value": "BD",
+  },
+  Object {
+    "children": "Barbados - BB",
+    "value": "BB",
+  },
+  Object {
+    "children": "Belarus - BY",
+    "value": "BY",
+  },
+  Object {
+    "children": "Belgium - BE",
+    "value": "BE",
+  },
+  Object {
+    "children": "Belize - BZ",
+    "value": "BZ",
+  },
+  Object {
+    "children": "Benin - BJ",
+    "value": "BJ",
+  },
+  Object {
+    "children": "Bermuda - BM",
+    "value": "BM",
+  },
+  Object {
+    "children": "Bhutan - BT",
+    "value": "BT",
+  },
+  Object {
+    "children": "Bolivia, Plurinational State of - BO",
+    "value": "BO",
+  },
+  Object {
+    "children": "Bonaire, Sint Eustatius and Saba - BQ",
+    "value": "BQ",
+  },
+  Object {
+    "children": "Bosnia and Herzegovina - BA",
+    "value": "BA",
+  },
+  Object {
+    "children": "Botswana - BW",
+    "value": "BW",
+  },
+  Object {
+    "children": "Bouvet Island - BV",
+    "value": "BV",
+  },
+  Object {
+    "children": "Brazil - BR",
+    "value": "BR",
+  },
+  Object {
+    "children": "British Indian Ocean Territory - IO",
+    "value": "IO",
+  },
+  Object {
+    "children": "Brunei Darussalam - BN",
+    "value": "BN",
+  },
+  Object {
+    "children": "Bulgaria - BG",
+    "value": "BG",
+  },
+  Object {
+    "children": "Burkina Faso - BF",
+    "value": "BF",
+  },
+  Object {
+    "children": "Burundi - BI",
+    "value": "BI",
+  },
+  Object {
+    "children": "Cambodia - KH",
+    "value": "KH",
+  },
+  Object {
+    "children": "Cameroon - CM",
+    "value": "CM",
+  },
+  Object {
+    "children": "Canada - CA",
+    "value": "CA",
+  },
+  Object {
+    "children": "Cape Verde - CV",
+    "value": "CV",
+  },
+  Object {
+    "children": "Cayman Islands - KY",
+    "value": "KY",
+  },
+  Object {
+    "children": "Central African Republic - CF",
+    "value": "CF",
+  },
+  Object {
+    "children": "Chad - TD",
+    "value": "TD",
+  },
+  Object {
+    "children": "Chile - CL",
+    "value": "CL",
+  },
+  Object {
+    "children": "China - CN",
+    "value": "CN",
+  },
+  Object {
+    "children": "Christmas Island - CX",
+    "value": "CX",
+  },
+  Object {
+    "children": "Cocos (Keeling) Islands - CC",
+    "value": "CC",
+  },
+  Object {
+    "children": "Colombia - CO",
+    "value": "CO",
+  },
+  Object {
+    "children": "Comoros - KM",
+    "value": "KM",
+  },
+  Object {
+    "children": "Congo - CG",
+    "value": "CG",
+  },
+  Object {
+    "children": "Congo, the Democratic Republic of the - CD",
+    "value": "CD",
+  },
+  Object {
+    "children": "Cook Islands - CK",
+    "value": "CK",
+  },
+  Object {
+    "children": "Costa Rica - CR",
+    "value": "CR",
+  },
+  Object {
+    "children": "Côte d'Ivoire - CI",
+    "value": "CI",
+  },
+  Object {
+    "children": "Croatia - HR",
+    "value": "HR",
+  },
+  Object {
+    "children": "Cuba - CU",
+    "value": "CU",
+  },
+  Object {
+    "children": "Curaçao - CW",
+    "value": "CW",
+  },
+  Object {
+    "children": "Cyprus - CY",
+    "value": "CY",
+  },
+  Object {
+    "children": "Czech Republic - CZ",
+    "value": "CZ",
+  },
+  Object {
+    "children": "Denmark - DK",
+    "value": "DK",
+  },
+  Object {
+    "children": "Djibouti - DJ",
+    "value": "DJ",
+  },
+  Object {
+    "children": "Dominica - DM",
+    "value": "DM",
+  },
+  Object {
+    "children": "Dominican Republic - DO",
+    "value": "DO",
+  },
+  Object {
+    "children": "Ecuador - EC",
+    "value": "EC",
+  },
+  Object {
+    "children": "Egypt - EG",
+    "value": "EG",
+  },
+  Object {
+    "children": "El Salvador - SV",
+    "value": "SV",
+  },
+  Object {
+    "children": "Equatorial Guinea - GQ",
+    "value": "GQ",
+  },
+  Object {
+    "children": "Eritrea - ER",
+    "value": "ER",
+  },
+  Object {
+    "children": "Estonia - EE",
+    "value": "EE",
+  },
+  Object {
+    "children": "Ethiopia - ET",
+    "value": "ET",
+  },
+  Object {
+    "children": "Falkland Islands (Malvinas) - FK",
+    "value": "FK",
+  },
+  Object {
+    "children": "Faroe Islands - FO",
+    "value": "FO",
+  },
+  Object {
+    "children": "Fiji - FJ",
+    "value": "FJ",
+  },
+  Object {
+    "children": "Finland - FI",
+    "value": "FI",
+  },
+  Object {
+    "children": "France - FR",
+    "value": "FR",
+  },
+  Object {
+    "children": "French Guiana - GF",
+    "value": "GF",
+  },
+  Object {
+    "children": "French Polynesia - PF",
+    "value": "PF",
+  },
+  Object {
+    "children": "French Southern Territories - TF",
+    "value": "TF",
+  },
+  Object {
+    "children": "Gabon - GA",
+    "value": "GA",
+  },
+  Object {
+    "children": "Gambia - GM",
+    "value": "GM",
+  },
+  Object {
+    "children": "Georgia - GE",
+    "value": "GE",
+  },
+  Object {
+    "children": "Germany - DE",
+    "value": "DE",
+  },
+  Object {
+    "children": "Ghana - GH",
+    "value": "GH",
+  },
+  Object {
+    "children": "Gibraltar - GI",
+    "value": "GI",
+  },
+  Object {
+    "children": "Greece - GR",
+    "value": "GR",
+  },
+  Object {
+    "children": "Greenland - GL",
+    "value": "GL",
+  },
+  Object {
+    "children": "Grenada - GD",
+    "value": "GD",
+  },
+  Object {
+    "children": "Guadeloupe - GP",
+    "value": "GP",
+  },
+  Object {
+    "children": "Guam - GU",
+    "value": "GU",
+  },
+  Object {
+    "children": "Guatemala - GT",
+    "value": "GT",
+  },
+  Object {
+    "children": "Guernsey - GG",
+    "value": "GG",
+  },
+  Object {
+    "children": "Guinea - GN",
+    "value": "GN",
+  },
+  Object {
+    "children": "Guinea-Bissau - GW",
+    "value": "GW",
+  },
+  Object {
+    "children": "Guyana - GY",
+    "value": "GY",
+  },
+  Object {
+    "children": "Haiti - HT",
+    "value": "HT",
+  },
+  Object {
+    "children": "Heard Island and McDonald Islands - HM",
+    "value": "HM",
+  },
+  Object {
+    "children": "Holy See (Vatican City State) - VA",
+    "value": "VA",
+  },
+  Object {
+    "children": "Honduras - HN",
+    "value": "HN",
+  },
+  Object {
+    "children": "Hong Kong - HK",
+    "value": "HK",
+  },
+  Object {
+    "children": "Hungary - HU",
+    "value": "HU",
+  },
+  Object {
+    "children": "Iceland - IS",
+    "value": "IS",
+  },
+  Object {
+    "children": "India - IN",
+    "value": "IN",
+  },
+  Object {
+    "children": "Indonesia - ID",
+    "value": "ID",
+  },
+  Object {
+    "children": "Iran, Islamic Republic of - IR",
+    "value": "IR",
+  },
+  Object {
+    "children": "Iraq - IQ",
+    "value": "IQ",
+  },
+  Object {
+    "children": "Ireland - IE",
+    "value": "IE",
+  },
+  Object {
+    "children": "Isle of Man - IM",
+    "value": "IM",
+  },
+  Object {
+    "children": "Israel - IL",
+    "value": "IL",
+  },
+  Object {
+    "children": "Italy - IT",
+    "value": "IT",
+  },
+  Object {
+    "children": "Jamaica - JM",
+    "value": "JM",
+  },
+  Object {
+    "children": "Japan - JP",
+    "value": "JP",
+  },
+  Object {
+    "children": "Jersey - JE",
+    "value": "JE",
+  },
+  Object {
+    "children": "Jordan - JO",
+    "value": "JO",
+  },
+  Object {
+    "children": "Kazakhstan - KZ",
+    "value": "KZ",
+  },
+  Object {
+    "children": "Kenya - KE",
+    "value": "KE",
+  },
+  Object {
+    "children": "Kiribati - KI",
+    "value": "KI",
+  },
+  Object {
+    "children": "Korea, Democratic People's Republic of - KP",
+    "value": "KP",
+  },
+  Object {
+    "children": "Korea, Republic of - KR",
+    "value": "KR",
+  },
+  Object {
+    "children": "Kuwait - KW",
+    "value": "KW",
+  },
+  Object {
+    "children": "Kyrgyzstan - KG",
+    "value": "KG",
+  },
+  Object {
+    "children": "Lao People's Democratic Republic - LA",
+    "value": "LA",
+  },
+  Object {
+    "children": "Latvia - LV",
+    "value": "LV",
+  },
+  Object {
+    "children": "Lebanon - LB",
+    "value": "LB",
+  },
+  Object {
+    "children": "Lesotho - LS",
+    "value": "LS",
+  },
+  Object {
+    "children": "Liberia - LR",
+    "value": "LR",
+  },
+  Object {
+    "children": "Libya - LY",
+    "value": "LY",
+  },
+  Object {
+    "children": "Liechtenstein - LI",
+    "value": "LI",
+  },
+  Object {
+    "children": "Lithuania - LT",
+    "value": "LT",
+  },
+  Object {
+    "children": "Luxembourg - LU",
+    "value": "LU",
+  },
+  Object {
+    "children": "Macao - MO",
+    "value": "MO",
+  },
+  Object {
+    "children": "Macedonia, the Former Yugoslav Republic of - MK",
+    "value": "MK",
+  },
+  Object {
+    "children": "Madagascar - MG",
+    "value": "MG",
+  },
+  Object {
+    "children": "Malawi - MW",
+    "value": "MW",
+  },
+  Object {
+    "children": "Malaysia - MY",
+    "value": "MY",
+  },
+  Object {
+    "children": "Maldives - MV",
+    "value": "MV",
+  },
+  Object {
+    "children": "Mali - ML",
+    "value": "ML",
+  },
+  Object {
+    "children": "Malta - MT",
+    "value": "MT",
+  },
+  Object {
+    "children": "Marshall Islands - MH",
+    "value": "MH",
+  },
+  Object {
+    "children": "Martinique - MQ",
+    "value": "MQ",
+  },
+  Object {
+    "children": "Mauritania - MR",
+    "value": "MR",
+  },
+  Object {
+    "children": "Mauritius - MU",
+    "value": "MU",
+  },
+  Object {
+    "children": "Mayotte - YT",
+    "value": "YT",
+  },
+  Object {
+    "children": "Mexico - MX",
+    "value": "MX",
+  },
+  Object {
+    "children": "Micronesia, Federated States of - FM",
+    "value": "FM",
+  },
+  Object {
+    "children": "Moldova, Republic of - MD",
+    "value": "MD",
+  },
+  Object {
+    "children": "Monaco - MC",
+    "value": "MC",
+  },
+  Object {
+    "children": "Mongolia - MN",
+    "value": "MN",
+  },
+  Object {
+    "children": "Montenegro - ME",
+    "value": "ME",
+  },
+  Object {
+    "children": "Montserrat - MS",
+    "value": "MS",
+  },
+  Object {
+    "children": "Morocco - MA",
+    "value": "MA",
+  },
+  Object {
+    "children": "Mozambique - MZ",
+    "value": "MZ",
+  },
+  Object {
+    "children": "Myanmar - MM",
+    "value": "MM",
+  },
+  Object {
+    "children": "Namibia - NA",
+    "value": "NA",
+  },
+  Object {
+    "children": "Nauru - NR",
+    "value": "NR",
+  },
+  Object {
+    "children": "Nepal - NP",
+    "value": "NP",
+  },
+  Object {
+    "children": "Netherlands - NL",
+    "value": "NL",
+  },
+  Object {
+    "children": "New Caledonia - NC",
+    "value": "NC",
+  },
+  Object {
+    "children": "New Zealand - NZ",
+    "value": "NZ",
+  },
+  Object {
+    "children": "Nicaragua - NI",
+    "value": "NI",
+  },
+  Object {
+    "children": "Niger - NE",
+    "value": "NE",
+  },
+  Object {
+    "children": "Nigeria - NG",
+    "value": "NG",
+  },
+  Object {
+    "children": "Niue - NU",
+    "value": "NU",
+  },
+  Object {
+    "children": "Norfolk Island - NF",
+    "value": "NF",
+  },
+  Object {
+    "children": "Northern Mariana Islands - MP",
+    "value": "MP",
+  },
+  Object {
+    "children": "Norway - NO",
+    "value": "NO",
+  },
+  Object {
+    "children": "Oman - OM",
+    "value": "OM",
+  },
+  Object {
+    "children": "Pakistan - PK",
+    "value": "PK",
+  },
+  Object {
+    "children": "Palau - PW",
+    "value": "PW",
+  },
+  Object {
+    "children": "Palestine, State of - PS",
+    "value": "PS",
+  },
+  Object {
+    "children": "Panama - PA",
+    "value": "PA",
+  },
+  Object {
+    "children": "Papua New Guinea - PG",
+    "value": "PG",
+  },
+  Object {
+    "children": "Paraguay - PY",
+    "value": "PY",
+  },
+  Object {
+    "children": "Peru - PE",
+    "value": "PE",
+  },
+  Object {
+    "children": "Philippines - PH",
+    "value": "PH",
+  },
+  Object {
+    "children": "Pitcairn - PN",
+    "value": "PN",
+  },
+  Object {
+    "children": "Poland - PL",
+    "value": "PL",
+  },
+  Object {
+    "children": "Portugal - PT",
+    "value": "PT",
+  },
+  Object {
+    "children": "Puerto Rico - PR",
+    "value": "PR",
+  },
+  Object {
+    "children": "Qatar - QA",
+    "value": "QA",
+  },
+  Object {
+    "children": "Réunion - RE",
+    "value": "RE",
+  },
+  Object {
+    "children": "Romania - RO",
+    "value": "RO",
+  },
+  Object {
+    "children": "Russian Federation - RU",
+    "value": "RU",
+  },
+  Object {
+    "children": "Rwanda - RW",
+    "value": "RW",
+  },
+  Object {
+    "children": "Saint Barthélemy - BL",
+    "value": "BL",
+  },
+  Object {
+    "children": "Saint Helena, Ascension and Tristan da Cunha - SH",
+    "value": "SH",
+  },
+  Object {
+    "children": "Saint Kitts and Nevis - KN",
+    "value": "KN",
+  },
+  Object {
+    "children": "Saint Lucia - LC",
+    "value": "LC",
+  },
+  Object {
+    "children": "Saint Martin (French part) - MF",
+    "value": "MF",
+  },
+  Object {
+    "children": "Saint Pierre and Miquelon - PM",
+    "value": "PM",
+  },
+  Object {
+    "children": "Saint Vincent and the Grenadines - VC",
+    "value": "VC",
+  },
+  Object {
+    "children": "Samoa - WS",
+    "value": "WS",
+  },
+  Object {
+    "children": "San Marino - SM",
+    "value": "SM",
+  },
+  Object {
+    "children": "Sao Tome and Principe - ST",
+    "value": "ST",
+  },
+  Object {
+    "children": "Saudi Arabia - SA",
+    "value": "SA",
+  },
+  Object {
+    "children": "Senegal - SN",
+    "value": "SN",
+  },
+  Object {
+    "children": "Serbia - RS",
+    "value": "RS",
+  },
+  Object {
+    "children": "Seychelles - SC",
+    "value": "SC",
+  },
+  Object {
+    "children": "Sierra Leone - SL",
+    "value": "SL",
+  },
+  Object {
+    "children": "Singapore - SG",
+    "value": "SG",
+  },
+  Object {
+    "children": "Sint Maarten (Dutch part) - SX",
+    "value": "SX",
+  },
+  Object {
+    "children": "Slovakia - SK",
+    "value": "SK",
+  },
+  Object {
+    "children": "Slovenia - SI",
+    "value": "SI",
+  },
+  Object {
+    "children": "Solomon Islands - SB",
+    "value": "SB",
+  },
+  Object {
+    "children": "Somalia - SO",
+    "value": "SO",
+  },
+  Object {
+    "children": "South Africa - ZA",
+    "value": "ZA",
+  },
+  Object {
+    "children": "South Georgia and the South Sandwich Islands - GS",
+    "value": "GS",
+  },
+  Object {
+    "children": "South Sudan - SS",
+    "value": "SS",
+  },
+  Object {
+    "children": "Spain - ES",
+    "value": "ES",
+  },
+  Object {
+    "children": "Sri Lanka - LK",
+    "value": "LK",
+  },
+  Object {
+    "children": "Sudan - SD",
+    "value": "SD",
+  },
+  Object {
+    "children": "Suriname - SR",
+    "value": "SR",
+  },
+  Object {
+    "children": "Svalbard and Jan Mayen - SJ",
+    "value": "SJ",
+  },
+  Object {
+    "children": "Swaziland - SZ",
+    "value": "SZ",
+  },
+  Object {
+    "children": "Sweden - SE",
+    "value": "SE",
+  },
+  Object {
+    "children": "Switzerland - CH",
+    "value": "CH",
+  },
+  Object {
+    "children": "Syrian Arab Republic - SY",
+    "value": "SY",
+  },
+  Object {
+    "children": "Taiwan, Province of China - TW",
+    "value": "TW",
+  },
+  Object {
+    "children": "Tajikistan - TJ",
+    "value": "TJ",
+  },
+  Object {
+    "children": "Tanzania, United Republic of - TZ",
+    "value": "TZ",
+  },
+  Object {
+    "children": "Thailand - TH",
+    "value": "TH",
+  },
+  Object {
+    "children": "Timor-Leste - TL",
+    "value": "TL",
+  },
+  Object {
+    "children": "Togo - TG",
+    "value": "TG",
+  },
+  Object {
+    "children": "Tokelau - TK",
+    "value": "TK",
+  },
+  Object {
+    "children": "Tonga - TO",
+    "value": "TO",
+  },
+  Object {
+    "children": "Trinidad and Tobago - TT",
+    "value": "TT",
+  },
+  Object {
+    "children": "Tunisia - TN",
+    "value": "TN",
+  },
+  Object {
+    "children": "Turkey - TR",
+    "value": "TR",
+  },
+  Object {
+    "children": "Turkmenistan - TM",
+    "value": "TM",
+  },
+  Object {
+    "children": "Turks and Caicos Islands - TC",
+    "value": "TC",
+  },
+  Object {
+    "children": "Tuvalu - TV",
+    "value": "TV",
+  },
+  Object {
+    "children": "Uganda - UG",
+    "value": "UG",
+  },
+  Object {
+    "children": "Ukraine - UA",
+    "value": "UA",
+  },
+  Object {
+    "children": "United Arab Emirates - AE",
+    "value": "AE",
+  },
+  Object {
+    "children": "United Kingdom - GB",
+    "value": "GB",
+  },
+  Object {
+    "children": "United States - US",
+    "value": "US",
+  },
+  Object {
+    "children": "United States Minor Outlying Islands - UM",
+    "value": "UM",
+  },
+  Object {
+    "children": "Uruguay - UY",
+    "value": "UY",
+  },
+  Object {
+    "children": "Uzbekistan - UZ",
+    "value": "UZ",
+  },
+  Object {
+    "children": "Vanuatu - VU",
+    "value": "VU",
+  },
+  Object {
+    "children": "Venezuela, Bolivarian Republic of - VE",
+    "value": "VE",
+  },
+  Object {
+    "children": "Viet Nam - VN",
+    "value": "VN",
+  },
+  Object {
+    "children": "Virgin Islands, British - VG",
+    "value": "VG",
+  },
+  Object {
+    "children": "Virgin Islands, U.S. - VI",
+    "value": "VI",
+  },
+  Object {
+    "children": "Wallis and Futuna - WF",
+    "value": "WF",
+  },
+  Object {
+    "children": "Western Sahara - EH",
+    "value": "EH",
+  },
+  Object {
+    "children": "Yemen - YE",
+    "value": "YE",
+  },
+  Object {
+    "children": "Zambia - ZM",
+    "value": "ZM",
+  },
+  Object {
+    "children": "Zimbabwe - ZW",
+    "value": "ZW",
+  },
+]
+`;

@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabAccess /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    menuHeader="Who can see this tab?"
+    noPadding={true}
+    renderButton={[Function]}
+    sharedWith="public"
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TabAccess /> renderButton() should renderButton !simple !editable 1`] = `
+<div>
+  <span>
+    <WithStyles(Tooltip)
+      isLight={true}
+      title="Shared with: Everyone"
+    >
+      <WithStyles(Icon)
+        icon="lnr-earth"
+        size="small"
+      />
+    </WithStyles(Tooltip)>
+  </span>
+</div>
+`;
+
+exports[`<TabAccess /> renderButton() should renderButton !simple editable 1`] = `
+<div>
+  <span>
+    <WithStyles(MenuButton)
+      disabled="everyOne"
+    >
+      <WithStyles(Tooltip)
+        enterDelay={700}
+        isLight={true}
+        placement="top"
+        title="Print mode: Show"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          justify="space-between"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-layers-crossed"
+              size="small"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              paddingLeft={true}
+              size="xxsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Tooltip)>
+    </WithStyles(MenuButton)>
+  </span>
+</div>
+`;
+
+exports[`<TabAccess /> renderButton() should renderPrivateButton simple !editable showPublic 1`] = `
+<div>
+  <span>
+    <WithStyles(Tooltip)
+      enterDelay={700}
+      isLight={true}
+      placement="top"
+      title="Shared with: Organisers"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+        justify="space-between"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-users"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Tooltip)>
+  </span>
+</div>
+`;
+
+exports[`<TabAccess /> renderButton() should renderPrivateButton simple editable showPublic 1`] = `
+<div>
+  <span>
+    <WithStyles(MenuButton)
+      disabled={false}
+    >
+      <WithStyles(Tooltip)
+        enterDelay={700}
+        isLight={true}
+        placement="top"
+        title="Shared with: Organisers"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          justify="space-between"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-users"
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              paddingLeft={true}
+              size="xxsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Tooltip)>
+    </WithStyles(MenuButton)>
+  </span>
+</div>
+`;
+
+exports[`<TabAccess /> renderDefault should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    menuHeader="Who can see this tab?"
+    noPadding={true}
+    renderButton={[Function]}
+    sharedWith="public"
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TabAccess /> renderPrintMode() should renderPrintModeMenu 1`] = `
+<div>
+  <ConnectFunction
+    menuHeader="Print view option"
+    noPadding={true}
+    printMode="show"
+    renderButton={[Function]}
+    sharedWith="public"
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TabAccess /> renderPrintModeMenu() should renderPrintModeMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-printer"
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <span>
+              Show
+            </span>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Will show on print view
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-layers-crossed"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <span>
+              Hide
+            </span>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Hidden on print view
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabAccess /> renderPrivateMenu() should renderPrivateMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-earth"
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <span>
+              Everyone
+            </span>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Everyone in this tour
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-users2"
+        iconClassName=""
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              Organisers
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              Tour owner and organisers
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-lock"
+        iconClassName=""
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <span>
+              Private
+            </span>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Only me
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

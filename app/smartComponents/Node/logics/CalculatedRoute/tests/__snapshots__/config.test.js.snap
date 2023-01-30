@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatedPlaceIds/config.js CONFIG_HELPERS.selectRouteIds should cacheKey 1`] = `"routes..placeIds"`;
+
+exports[`CalculatedPlaceIds/config.js CONFIG_HELPERS.selectRouteIds should cacheKey 2`] = `"routes.1,2.placeIds"`;
+
+exports[`CalculatedPlaceIds/config.js CONFIG_HELPERS.selectRouteIds should keyPath 1`] = `Array []`;
+
+exports[`CalculatedPlaceIds/config.js CONFIG_HELPERS.selectRouteIds should keyPath 2`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "customData",
+    "placeId",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "customData",
+    "placeId",
+  ],
+]
+`;
+
+exports[`CalculatedPlaceIds/config.js routeProps should cacheKey 1`] = `"112_223.route"`;
+
+exports[`CalculatedPlaceIds/config.js routeProps should getter prop 1`] = `
+Object {
+  "destination": 5,
+  "origin": 4,
+  "routeIds": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`CalculatedPlaceIds/config.js routeProps should getter state 1`] = `
+Object {
+  "destination": 3,
+  "origin": 2,
+  "routeIds": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`CalculatedPlaceIds/config.js trim should exists 1`] = `
+Object {
+  "placeIds": Array [
+    "111",
+    "333",
+  ],
+  "routeIds": Array [
+    1,
+    3,
+  ],
+  "trimmedIds": Array [
+    2,
+  ],
+}
+`;

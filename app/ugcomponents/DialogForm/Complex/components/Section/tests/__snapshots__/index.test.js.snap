@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogForm/Complex/<Section /> #render() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(ExpansionPanel))
+  classes={
+    Object {
+      "expanded": "panelExpanded",
+    }
+  }
+  defaultExpanded={true}
+>
+  <WithStyles(ForwardRef(ExpansionPanelSummary))
+    classes={
+      Object {
+        "content": "summaryContent",
+        "root": "summaryRoot",
+      }
+    }
+    expandIcon={<Memo(ExpandMoreIcon) />}
+  >
+    <H3
+      dense={true}
+      weight="bold"
+    >
+      Title
+    </H3>
+  </WithStyles(ForwardRef(ExpansionPanelSummary))>
+  <WithStyles(ForwardRef(ExpansionPanelDetails))
+    classes={
+      Object {
+        "root": "detailsRoot",
+      }
+    }
+  >
+    Children
+  </WithStyles(ForwardRef(ExpansionPanelDetails))>
+</WithStyles(ForwardRef(ExpansionPanel))>
+`;

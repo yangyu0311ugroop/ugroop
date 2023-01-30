@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedPersons /> render() should render correctly 1`] = `<div />`;
+
+exports[`<InterestedPersons /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Array [],
+  ],
+  Array [
+    Array [],
+  ],
+]
+`;
+
+exports[`<InterestedPersons /> render() should render correctly if move 1`] = `<div />`;
+
+exports[`<InterestedPersons /> render() should render correctly if move 2`] = `
+Array [
+  Array [
+    Array [],
+  ],
+  Array [
+    Array [],
+  ],
+  Array [
+    Array [],
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;

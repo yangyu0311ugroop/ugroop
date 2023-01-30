@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailListItem render should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(Editable)
+        onClick={[Function]}
+      >
+        <ConnectFunction
+          id={1}
+          variant="withEmail"
+        />
+      </WithStyles(Editable)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;

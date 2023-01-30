@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_TRAIL_STORE_SELECTORS breadcrumb should return a particular keypath shape 1`] = `
+Array [
+  "nodeTrailsDataStore",
+  "breadcrumb",
+  1,
+  "trail",
+]
+`;
+
+exports[`NODE_TRAIL_STORE_SELECTORS trails should return a particular keypath shape 1`] = `
+Array [
+  "nodeTrailsDataStore",
+  "trail",
+  1,
+  "content",
+]
+`;
+
+exports[`NODE_TRAIL_STORE_SELECTORS trails should return a particular keypath shape 2`] = `
+Array [
+  "nodeTrailsDataStore",
+  "trail",
+  1,
+  "status",
+]
+`;

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiInput /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<MultiInput /> #renderDefault() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(MultiModeInput)
+      inputs={
+        Object {
+          "mode": Object {
+            "name": "mode",
+          },
+        }
+      }
+      mode={null}
+      onChange={[Function]}
+      singleColumn={false}
+      value={false}
+      variant={null}
+    />
+    <Formsy(DataField)
+      innerRef={[Function]}
+      name="mode"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+      value="relative"
+    />
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        inputs={
+          Object {
+            "mode": Object {
+              "name": "mode",
+            },
+          }
+        }
+        mode={null}
+        renderModeData={false}
+        singleColumn={false}
+        value={false}
+        variant={null}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MultiInput /> #renderInput() relativeStart still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={8}
+  xs={12}
+>
+  <DurationInput
+    inputs={
+      Object {
+        "mode": Object {
+          "name": "mode",
+        },
+      }
+    }
+    mode="relativeStart"
+    singleColumn={false}
+    value={false}
+    variant={null}
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<MultiInput /> #renderInput() relativeStart still matches snapshot if props.singleColumn 1`] = `
+<WithStyles(GridItem)
+  sm={12}
+  xs={12}
+>
+  <DurationInput
+    inputs={
+      Object {
+        "mode": Object {
+          "name": "mode",
+        },
+      }
+    }
+    mode="relativeStart"
+    singleColumn={true}
+    value={false}
+    variant={null}
+  />
+</WithStyles(GridItem)>
+`;

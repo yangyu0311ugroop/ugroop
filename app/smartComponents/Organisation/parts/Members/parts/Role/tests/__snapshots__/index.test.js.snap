@@ -1,0 +1,926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Role /> render() should render correctly 1`] = `
+<div>
+  <div
+    className="DateFormat-textOnly"
+  >
+    <P
+      disableEditing={false}
+      intl={
+        Object {
+          "formatMessage": [MockFunction],
+        }
+      }
+      token=""
+      variant="textOnly"
+    >
+      Admin
+    </P>
+  </div>
+</div>
+`;
+
+exports[`<Role /> render() should render correctly when role is General 1`] = `
+<div>
+  <div
+    className="DateFormat-textOnly"
+  >
+    <P
+      disableEditing={false}
+      intl={
+        Object {
+          "formatMessage": [MockFunction],
+        }
+      }
+      token=""
+      variant="textField"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Role /> render() should render owner text if variant is for owner 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-textOnly"
+        >
+          <P
+            disableEditing={false}
+            intl={
+              Object {
+                "formatMessage": [MockFunction],
+              }
+            }
+            token=""
+            variant="showAdmin"
+          >
+            Owner
+          </P>
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is editing 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(Formsy(InlineRadioGroup))
+          className="DateFormat-newTourRole"
+          disabled={false}
+          excludeOptions={
+            Array [
+              "guest",
+            ]
+          }
+          label="Select role"
+          name="role"
+          options={
+            Object {
+              "admin": "Admin",
+              "guest": "Guest",
+              "member": "Member",
+            }
+          }
+          required={true}
+          value="admin"
+          valueLabel="Their role in this org will be"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is editing and role is general 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(Formsy(InlineRadioGroup))
+          className="DateFormat-newTourRole"
+          disabled={false}
+          excludeOptions={
+            Array [
+              "guest",
+            ]
+          }
+          label="Select role"
+          name="role"
+          options={
+            Object {
+              "admin": "Admin",
+              "guest": "Guest",
+              "member": "Member",
+            }
+          }
+          required={true}
+          value="general"
+          valueLabel="Their role in this org will be"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-readOnly"
+        >
+          <span
+            className="DateFormat-existOrgRole"
+          >
+            Admin
+          </span>
+          <Hidden
+            smDown={true}
+          />
+          <Hidden
+            smDown={true}
+          />
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly and inviteStatus is cancelled 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-readOnly"
+        >
+          <span
+            className="DateFormat-existOrgRole"
+          >
+            Admin
+          </span>
+          <Hidden
+            smDown={true}
+          />
+          <Hidden
+            smDown={true}
+          >
+            <span>
+              <WithStyles(Button)
+                className="DateFormat-disabledBtn"
+                color="alert"
+                dense={true}
+                size="small"
+                variant="outline"
+              >
+                Invitation cancelled
+              </WithStyles(Button)>
+            </span>
+          </Hidden>
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly and inviteStatus is cancelled 2`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-withLabel"
+        >
+          <H5
+            className="DateFormat-roleLabel"
+            noMargin={true}
+          >
+             
+            Organisation Role:
+             
+          </H5>
+          <H5
+            className="DateFormat-textLabel"
+            data-testId="orgRole0"
+            noMargin={true}
+          >
+             
+            Admin
+             
+          </H5>
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly and inviteStatus is pending 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-readOnly"
+        >
+          <span
+            className="DateFormat-existOrgRole"
+          />
+          <Hidden
+            smDown={true}
+          >
+            <span>
+              <WithStyles(Button)
+                className="DateFormat-button"
+                color="primary"
+                dense={true}
+                onClick={[Function]}
+                size="extraSmall"
+                variant="outline"
+              >
+                Resend invitation
+              </WithStyles(Button)>
+            </span>
+          </Hidden>
+          <Hidden
+            smDown={true}
+          />
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly and inviteStatus is pending 2`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-readOnly"
+        >
+          <span
+            className="DateFormat-existOrgRole"
+          >
+            Admin
+          </span>
+          <Hidden
+            smDown={true}
+          >
+            <span>
+              <WithStyles(Button)
+                className="DateFormat-failedDisabledBtn"
+                color="gray"
+                dense={true}
+                size="extraSmall"
+                variant="outline"
+              >
+                Resend invitation failed!
+              </WithStyles(Button)>
+            </span>
+          </Hidden>
+          <Hidden
+            smDown={true}
+          />
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is readonly and role is null 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="DateFormat-readOnly"
+        >
+          <span
+            className="DateFormat-existOrgRole"
+          />
+          <Hidden
+            smDown={true}
+          >
+            <span>
+              <WithStyles(Button)
+                className="DateFormat-button"
+                color="primary"
+                dense={true}
+                onClick={[Function]}
+                size="extraSmall"
+                variant="outline"
+              >
+                Resend invitation
+              </WithStyles(Button)>
+            </span>
+          </Hidden>
+          <Hidden
+            smDown={true}
+          />
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(Formsy(InlineRadioGroup))
+          autoClose={true}
+          className="DateFormat-newTourRole"
+          color="primary"
+          excludeOptions={
+            Array [
+              "guest",
+            ]
+          }
+          highlightSelected={true}
+          label="Change role"
+          loading={false}
+          name="role"
+          options={
+            Object {
+              "admin": "Admin",
+              "guest": "Guest",
+              "member": "Member",
+            }
+          }
+          required={true}
+          showSaved={true}
+          tooltip="Click button to change role"
+          value="admin"
+          valueLabel=""
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Role /> render() should render text only variant 1`] = `
+<div>
+  <div
+    className="DateFormat-textOnly"
+  >
+    <P
+      disableEditing={false}
+      intl={
+        Object {
+          "formatMessage": [MockFunction],
+        }
+      }
+      token=""
+      variant="textOnly"
+    >
+      Guest
+    </P>
+  </div>
+</div>
+`;
+
+exports[`<Role /> resendInvitation should render invitation send failed 1`] = `<div />`;
+
+exports[`<Role /> resendInvitation should render invitation sent 1`] = `
+<div>
+  <span>
+    <WithStyles(Button)
+      className="DateFormat-disabledBtn"
+      color="gray"
+      dense={true}
+      size="extraSmall"
+      variant="outline"
+    >
+      Invitation sent!
+    </WithStyles(Button)>
+  </span>
+</div>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Location /> #render() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Location)))))
+  editableInputs={
+    Object {
+      "editingWithViewLink": true,
+      "label": <FormattedMessage
+        defaultMessage="Location"
+        id="app.Event.parts.Event.Location.locationLabel"
+      />,
+      "placeholder": "Add a location",
+      "textFieldProps": Object {
+        "autoComplete": "off",
+        "autoFocus": true,
+      },
+    }
+  }
+  editablePlaceholder={
+    Array [
+      Object {
+        "defaultMessage": "Click to search for location",
+        "id": "app.Event.parts.Event.Location.editableLocationPlaceholder",
+      },
+    ]
+  }
+  fieldInputs={
+    Object {
+      "editingWithViewLink": true,
+    }
+  }
+  iconPath={
+    Array [
+      "location",
+      "icon",
+    ]
+  }
+  inputs={
+    Object {
+      "iconInputs": Object {
+        "name": "data.location.icon",
+      },
+      "locationKey": "data.location.name",
+      "name": "data.location.name",
+      "placeIdInputs": Object {
+        "name": "data.location.placeId",
+      },
+      "textFieldProps": Object {
+        "autoComplete": "off",
+      },
+      "timeZoneIdInputs": Object {
+        "name": "node.customData.start.timeZoneId",
+      },
+    }
+  }
+  placeIdPath={
+    Array [
+      "location",
+      "placeId",
+    ]
+  }
+  placeholder={
+    Array [
+      Object {
+        "defaultMessage": "Search for location",
+        "id": "app.Event.parts.Event.Location.locationPlaceholder",
+      },
+    ]
+  }
+  timeZoneIdPath={
+    Array [
+      "customData",
+      "start",
+      "timeZoneId",
+    ]
+  }
+  valuePath={
+    Array [
+      "location",
+      "name",
+    ]
+  }
+  variant={null}
+/>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileContainer /> #componentWillReceiveProps() calls resaga.analyse() 1`] = `
+Array [
+  Array [
+    Object {
+      "x": 1,
+    },
+    Object {
+      "uploadFile": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<FileContainer /> componentDidMount() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "files": Object {},
+    },
+  ],
+]
+`;
+
+exports[`<FileContainer /> handleUploadFileSuccess should be called if payload.setValueToStore exists 1`] = `""`;

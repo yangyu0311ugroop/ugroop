@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={3}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        ids={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        bg="green"
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-plus"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Phone
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render correctly if showCreateForm is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={3}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        ids={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        bg="green"
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-plus"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Phone
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render correctly if variant is fieldsOnly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <H5
+        dense={true}
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Phones"
+          id="app.smartComponents.Person.Phones"
+        />
+      </H5>
+    </WithStyles(GridItem)>
+    <ConnectFunction
+      ids={
+        Array [
+          1,
+          2,
+          3,
+        ]
+      }
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render correctly if variant is phoneCardListOnly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={3}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        ids={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        bg="green"
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-plus"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Phone
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render renderPlaceholder 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    <FormattedMessage
+      defaultMessage="No phone"
+      id="app.smartComponents.Person.Phones"
+    />
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render renderSortedPhoneFields 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <hoc
+      id={1}
+      userId={0}
+      variant="fieldsOnly"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <hoc
+      id={2}
+      userId={0}
+      variant="fieldsOnly"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneList /> render() should render renderSortedPhoneFields 2`] = `
+<div>
+  <WithStyles(GridItem)>
+     
+    <WithStyles(EditablePlaceholder)>
+      <FormattedMessage
+        defaultMessage="No phone"
+        id="app.smartComponents.Person.Phones"
+      />
+    </WithStyles(EditablePlaceholder)>
+     
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneList /> renderSortedPhones should render phones based on the sortedIds that were passed on 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <hoc
+        id={1}
+        userId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="2"
+    >
+      <hoc
+        id={2}
+        userId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="3"
+    >
+      <hoc
+        id={3}
+        userId={0}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhoneList /> renderSortedPhones should return default only phones with margins 1`] = `
+<div>
+  <WithStyles(MarginWrapper)
+    bottom="md"
+    key="1"
+  >
+    <hoc
+      id={1}
+      userId={0}
+    />
+  </WithStyles(MarginWrapper)>
+</div>
+`;
+
+exports[`<PhoneList /> renderSortedPhones should return default only phones without margins 1`] = `
+<div>
+  <hoc
+    id={1}
+    userId={0}
+  />
+</div>
+`;

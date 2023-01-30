@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvitationCard /> fetchInvitation() should call dispatchTo with status = COMPLETED 1`] = `
+Array [
+  Array [
+    "Users",
+    "getInvitations",
+    Object {
+      "payload": Object {
+        "myUserId": 999,
+        "status": "pending",
+      },
+    },
+  ],
+  Array [
+    "Users",
+    "getInvitations",
+    Object {
+      "payload": Object {
+        "myUserId": 999,
+        "status": "completed",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InvitationCard /> fetchInvitation() should call dispatchTo with status = PENDING 1`] = `
+Array [
+  Array [
+    "Users",
+    "getInvitations",
+    Object {
+      "payload": Object {
+        "myUserId": 999,
+        "status": "pending",
+      },
+    },
+  ],
+  Array [
+    "Users",
+    "getInvitations",
+    Object {
+      "payload": Object {
+        "myUserId": 999,
+        "status": "pending",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InvitationCard /> render() should render children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<InvitationCard /> render() should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+        isLoading={false}
+        onClose={[Function]}
+        viewStore="someStore"
+      />
+      <WithStyles(ForwardRef(Collapse))
+        in={true}
+        transitionduration="auto"
+        unmountOnExit={true}
+      >
+        <WithStyles(GridItem)
+          className=""
+        >
+          <div
+            className=""
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Content)))
+              viewStore="someStore"
+            />
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Footer)))
+          viewStore="someStore"
+        />
+      </WithStyles(ForwardRef(Collapse))>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<InvitationCard /> renderProp() should renderProp 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    renderProp
+  </WithStyles(GridItem)>
+</div>
+`;

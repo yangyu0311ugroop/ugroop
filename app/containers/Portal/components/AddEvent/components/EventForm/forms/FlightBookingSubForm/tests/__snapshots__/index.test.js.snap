@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingSubForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <Formsy(DataField)
+      innerRef={[Function]}
+      name="flightBookingDataId"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+    <Formsy(DataField)
+      innerRef={[Function]}
+      name="data.detail.detail.flightBookingId"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(FText))
+        label="Itinerary name"
+        name="name"
+        placeholder="Enter itinerary name"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(FText))
+        label="Booking number"
+        name="bookingNumber"
+        placeholder="Enter booking number"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(FText))
+        label="Passenger count"
+        name="passengerCount"
+        placeholder="Enter passenger count"
+        type="number"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(FText))
+        label="Booking with"
+        name="supplier"
+        placeholder="Enter booking with"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <AmountsForm
+        data={Object {}}
+        flightBooking={true}
+        popper={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserNodeListByOwner /> handleRenderContributor should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem) />
+</div>
+`;
+
+exports[`<UserNodeListByOwner /> render() should render 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(WrappedComponent)))))))))))
+    nodeId={null}
+    onRenderContributor={[Function]}
+    userId={null}
+  />
+</div>
+`;

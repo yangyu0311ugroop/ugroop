@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon) />
+        </WithStyles(GridItem)>
+        renderTitle
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            disabled={false}
+            icon="lnr-chevron-down"
+            iconButton={true}
+            noMargin={true}
+            noPadding={true}
+            size="small"
+            tabIndex={-1}
+            variant="borderless"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderTitle() should render completed 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  />
+</div>
+`;
+
+exports[`<Header /> renderTitle() should render pending 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  />
+</div>
+`;

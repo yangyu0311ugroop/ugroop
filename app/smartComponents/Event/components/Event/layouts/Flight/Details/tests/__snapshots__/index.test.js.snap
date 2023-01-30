@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightDetails /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<FlightDetails /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TravelClass)))
+        variant={null}
+      />
+      <ConnectFunction
+        variant={null}
+      />
+      <ConnectFunction
+        variant={null}
+      />
+      <ConnectFunction
+        variant={null}
+      />
+      <ConnectFunction
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetails /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    ExpansionPanelProps={
+      Object {
+        "defaultExpanded": false,
+      }
+    }
+    title={
+      <FormattedMessage
+        defaultMessage="Details"
+        id="app.Event.layouts.Flight.Details.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <WithStyles(Connect(WithSimplifyResaga(TravelClass)))
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            variant={null}
+          />
+          <ConnectFunction
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            variant={null}
+          />
+          <ConnectFunction
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;

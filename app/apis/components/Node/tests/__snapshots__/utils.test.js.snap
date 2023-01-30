@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node/utils createNodeData should construct a node data for template 1`] = `
+Object {
+  "children": Array [],
+  "cloneId": 1,
+  "content": "aaa",
+  "createdBy": 2,
+  "customData": Object {
+    "duration": 0,
+    "shortDescription": "",
+  },
+  "id": 1,
+  "lastModifiedBy": 2,
+  "people": Array [
+    2,
+  ],
+}
+`;
+
+exports[`Node/utils createNodeData should return empty object if node type is not supported 1`] = `
+Object {
+  "cloneId": 1,
+  "content": "aaa",
+  "createdBy": 2,
+  "customData": Object {
+    "duration": 2,
+    "shortDescription": "qqq",
+  },
+  "lastModifiedBy": 2,
+}
+`;
+
+exports[`Node/utils createNodeData should return something if type is folder 1`] = `
+Object {
+  "cloneId": 1,
+  "id": 1,
+  "other": "other",
+}
+`;
+
+exports[`Node/utils upsertActivityData should return something if there is a photo and an attachment 1`] = `
+Object {
+  "attachments": [Function],
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`Node/utils upsertActivityData should return something if there is no attachment and photo 1`] = `
+Object {
+  "attachments": [Function],
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`Node/utils upsertActivityData should return something if there is only a photo 1`] = `
+Object {
+  "attachments": [Function],
+  "files": [Function],
+  "nodes": [Function],
+}
+`;
+
+exports[`Node/utils upsertActivityData should return something if there is only an attachment 1`] = `
+Object {
+  "attachments": [Function],
+  "files": [Function],
+  "nodes": [Function],
+}
+`;

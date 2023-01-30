@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeeDetailCheckitem/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "seeCheckItemDetail": Array [
+      "templateManagementView",
+      "seeCheckItemDetail",
+    ],
+  },
+  "value": Object {
+    "createdBy": [Function],
+    "parentType": [Function],
+  },
+}
+`;
+
+exports[`SeeDetailCheckitem/config.js Smoke Test should exists 2`] = `
+Object {
+  "value": Object {
+    "createdBy": [Function],
+    "parentParentNodeId": [Function],
+  },
+}
+`;

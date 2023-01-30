@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVITATION_STORE_CACHE_KEYS filterShareSubNodesByNodeId() returns correct key 1`] = `"invitation.ids:1,2.nodeIds:3,4.filterShareSubNodesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterShareSubNodesByNodeId() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterShareSubNodesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterShareSubNodesByRole() returns correct key 1`] = `"invitation.ids:1,2.roles:3,4.filterShareSubNodesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterShareSubNodesByRole() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterShareSubNodesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByNodeId() returns correct key 1`] = `"invitation.ids:1,2.nodeIds:3,4.filterSharesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByNodeId() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterSharesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByRole() returns correct key 1`] = `"invitation.ids:1,2.roles:3,4.filterSharesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByRole() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterSharesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByShareToUserId() returns correct key 1`] = `"invitation.ids:1,2.shareToUserIds:3,4.filterSharesByShareToUserId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByShareToUserId() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterSharesByShareToUserId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByStatus() returns correct key 1`] = `"invitation.ids:1,2.statuses:pendingStatus.filterSharesByStatus"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterSharesByStatus() returns correct key with no props 1`] = `"invitation.undefined:.statuses:pendingStatus.filterSharesByStatus"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByNodeId() returns correct key 1`] = `"invitation.ids:1,2.nodeIds:3,4.filterUserNodesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByNodeId() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterUserNodesByNodeId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByRole() returns correct key 1`] = `"invitation.ids:1,2:3,4.filterUserNodesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByRole() returns correct key with no props 1`] = `"invitation.undefined::null.filterUserNodesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByRole() should use static roles than roles 1`] = `"invitation.ids:1,2:null.filterUserNodesByRole"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByUserId() returns correct key 1`] = `"invitation.ids:1,2.userIds:3,4.filterUserNodesByUserId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS filterUserNodesByUserId() returns correct key with no props 1`] = `"invitation.undefined:.undefined:.filterUserNodesByUserId"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS shareSubNodeShareTokens() returns correct key 1`] = `"invitation.ids:1,2.shareSubNodeShareTokens"`;
+
+exports[`INVITATION_STORE_CACHE_KEYS userNodeUserIds() returns correct key 1`] = `"invitation.undefined:.userNodeUserIds"`;

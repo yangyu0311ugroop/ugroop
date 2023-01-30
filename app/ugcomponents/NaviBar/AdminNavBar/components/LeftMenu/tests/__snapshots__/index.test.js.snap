@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeftMenu /> goTo() should goTo 1`] = `
+Array [
+  Array [
+    "/tours/123",
+  ],
+]
+`;
+
+exports[`<LeftMenu /> handleCloseMoreMenu() should call closeMoreMenu 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<LeftMenu /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="Top Left Menu"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      noWrap={true}
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Stars)))))
+          openDrawer={[Function]}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderCurrentOrganisation() isTourPage = false, isPersonalPage = false, isOrganisationPage = true 1`] = `
+Array [
+  Array [
+    2345,
+  ],
+]
+`;
+
+exports[`<LeftMenu /> renderCurrentOrganisation() isTourPage = false, isPersonalPage = true 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<LeftMenu /> renderCurrentOrganisation() isTourPage = true, organisationIdFromNode === -1 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<LeftMenu /> renderCurrentOrganisation() isTourPage = true, organisationIdFromNode > 0 1`] = `
+Array [
+  Array [
+    3344,
+  ],
+]
+`;
+
+exports[`<LeftMenu /> renderHome() should renderHome 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        onClick={[Function]}
+        size="small"
+        variant="inline"
+      >
+        <WithStyles(Icon)
+          icon="lnr-home3"
+          size="normal"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<LeftMenu /> renderNewTourButton() should renderNewTourButton 1`] = `
+<div>
+  <WithStyles(Button)
+    block={true}
+    noMargin={true}
+    noPadding={true}
+    textAlign="left"
+    variant="inline"
+  >
+    Create new..
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderOrganisation() should renderOrganisation 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ForwardRef(ButtonGroup))
+      color="primary"
+      variant="outlined"
+    >
+      <WithStyles(Button)
+        className=""
+        displayBlock={true}
+        noMargin={true}
+        noPadding={true}
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          hiddenSm={true}
+          id={1}
+        />
+      </WithStyles(Button)>
+    </WithStyles(ForwardRef(ButtonGroup))>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderPersonal() should renderPersonal correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      className=""
+      displayBlock={true}
+      noMargin={true}
+      noPadding={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Person)))
+        hiddenSm={true}
+        id={2233}
+      />
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderTour() should renderTour() 1`] = `
+<div>
+  <ConnectFunction
+    ellipsisClassName=""
+    id={1}
+    key="1"
+    minimise={true}
+    onClick={[Function]}
+    shouldFilter={true}
+    variant="compressed"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<LeftMenu /> renderTourNode() should renderTourNode 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1122"
+    xs={12}
+  >
+    content
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderTours() should renderTours 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Stars)))))
+      openDrawer={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> renderTours() should return loading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Stars)))))
+      openDrawer={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LeftMenu /> toggleDrawerKeepOpen() chatdrawerKeepOpen should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "chatDrawerKeepOpen": false,
+    },
+  ],
+  Array [
+    Object {
+      "drawerKeepOpen": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<LeftMenu /> toggleDrawerKeepOpen() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "drawerKeepOpen": [Function],
+    },
+  ],
+]
+`;

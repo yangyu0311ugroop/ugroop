@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Thumbnail /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        renderImage
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              component="a"
+              ellipsis={true}
+              href="padUrlQuery"
+              link={true}
+              target="_blank"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Thumbnail /> render() should render isDeleted 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      gray={true}
+    >
+      Attachment deleted
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Thumbnail /> render() should render sub 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        renderImage
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              component="a"
+              ellipsis={true}
+              href="padUrlQuery"
+              link={true}
+              target="_blank"
+            >
+              hello
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={1}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  ellipsis={true}
+                  gray={true}
+                  sm={true}
+                >
+                  name.jpg
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Thumbnail /> renderImage() should render default 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+           
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              ellipsis={true}
+              gray={true}
+              lg={true}
+              uppercase={true}
+            >
+              exte
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

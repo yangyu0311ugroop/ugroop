@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedPersonDeleteConfirmation /> #render() still matches snapshot 1`] = `
+<DeleteConfirmationDialog
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Go ahead and remove"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.confirmButton"
+    />
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Remove follower"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.title"
+    />
+  }
+  firstName={null}
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Related participants will not be removed, are you sure?"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.text"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="You are about to remove a follower"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.headlineWithoutName"
+    />
+  }
+  lastName={null}
+/>
+`;
+
+exports[`<InterestedPersonDeleteConfirmation /> #render() still matches snapshot if props.lastName 1`] = `
+<DeleteConfirmationDialog
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Go ahead and remove"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.confirmButton"
+    />
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Remove follower"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.title"
+    />
+  }
+  firstName={null}
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Related participants will not be removed, are you sure?"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.text"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="You are about to remove {firstName} {lastName}"
+      id="app.viewComponents.People.InterestedPersonDeleteConfirmation.headlineWithName"
+      values={
+        Object {
+          "firstName": null,
+          "lastName": "lastName",
+        }
+      }
+    />
+  }
+  lastName="lastName"
+/>
+`;

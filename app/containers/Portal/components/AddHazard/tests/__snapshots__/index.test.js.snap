@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddHazard /> handleClose() should handleClose() 1`] = `
+Array [
+  Array [
+    Object {
+      "classes": Object {},
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddHazard /> handleCreateSuccess() should handleCreateSuccess() 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<AddHazard /> handleValidSubmit() should handleValidSubmit() 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "content": "content",
+        "customData": Object {},
+        "parentNodeId": undefined,
+        "type": "hazard",
+      },
+      "onSuccess": [Function],
+      "parentNodeId": undefined,
+    },
+    Object {
+      "classes": Object {},
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddHazard /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Risks and Hazards"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddHazard /> renderContent() should renderContent 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          autoFocus={true}
+          id="content"
+          label="Types and Causes"
+          name="content"
+          onInterceptValue={[Function]}
+          placeholder="i.e. Travel sickness"
+          required={true}
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <div>
+              Control Measures
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Formsy(withRouter(WithStyles(SimpleRTE)))
+              innerRef={[Function]}
+              lines={2}
+              name="control"
+              placeholder="i.e. Instruct individuals to report any signs of illness to staff when travelling."
+              required={false}
+              validationError=""
+              validationErrors={Object {}}
+              validations={null}
+              value=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            What is the likelihood of this occurring?
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Formsy(RatingForm))
+              levels={
+                Array [
+                  Object {
+                    "text": "Rare",
+                    "title": <React.Fragment>
+                      <i>
+                        Potential
+                      </i>
+                      , exceptional time
+                    </React.Fragment>,
+                    "value": 0,
+                  },
+                  Object {
+                    "text": "Unlikely",
+                    "title": <React.Fragment>
+                      <i>
+                        Potential
+                      </i>
+                      , some time
+                    </React.Fragment>,
+                    "value": 1,
+                  },
+                  Object {
+                    "text": "Possible",
+                    "title": <React.Fragment>
+                      <i>
+                        Possible
+                      </i>
+                      , occasionally
+                    </React.Fragment>,
+                    "value": 2,
+                  },
+                  Object {
+                    "text": "Very likely",
+                    "title": <React.Fragment>
+                      <i>
+                        Probable
+                      </i>
+                      , most circumstances
+                    </React.Fragment>,
+                    "value": 3,
+                  },
+                  Object {
+                    "text": "Almost certain",
+                    "title": <React.Fragment>
+                      <i>
+                        Expected
+                      </i>
+                      , most circumstances
+                    </React.Fragment>,
+                    "value": 4,
+                  },
+                ]
+              }
+              name="likelihood"
+              onChange={[Function]}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            How severe could the impact be?
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Formsy(RatingForm))
+              levels={
+                Array [
+                  Object {
+                    "text": "Insignificant",
+                    "title": "Minimal impact",
+                    "value": 0,
+                  },
+                  Object {
+                    "text": "Minor",
+                    "title": "Short-term impact",
+                    "value": 1,
+                  },
+                  Object {
+                    "text": "Moderate",
+                    "title": "Significant impact",
+                    "value": 2,
+                  },
+                  Object {
+                    "text": "Major",
+                    "title": "Major short-term impact",
+                    "value": 3,
+                  },
+                  Object {
+                    "text": "Catastrophic",
+                    "title": "Major long-term impact",
+                    "value": 4,
+                  },
+                ]
+              }
+              name="impact"
+              onChange={[Function]}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          id="responsibility"
+          label="Responsibility"
+          name="responsibility"
+          onInterceptValue={[Function]}
+          placeholder="Who is responsible?"
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          id="when"
+          label="When"
+          name="when"
+          onInterceptValue={[Function]}
+          placeholder="When does this apply?"
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          id="done"
+          label="Done"
+          name="done"
+          onInterceptValue={[Function]}
+          placeholder="Any notes about completion?"
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        renderSaveCancelButton
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<AddHazard /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                Risk Rating
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(RiskRating)))
+                help={true}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RiskRating)))
+            impact={0}
+            likelihood={0}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        size="xs"
+        type="submit"
+      >
+        Save
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

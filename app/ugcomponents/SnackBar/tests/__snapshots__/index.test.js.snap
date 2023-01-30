@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGSnackbarContainer render() should render correctly 1`] = `
+<UGSnackbar
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  isRevealed={false}
+  messagingProps={Object {}}
+  onClose={[Function]}
+  rootClassName=""
+  text=""
+  textClassName=""
+  time={10000}
+  type="info"
+/>
+`;

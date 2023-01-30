@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartAttendance /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  dataId={null}
+  renderAccommodation={[Function]}
+  renderActivity={[Function]}
+  renderFlight={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<StartAttendance /> #renderPart() still matches snapshot 1`] = `
+<Component
+  dataId={null}
+  formSubtype={null}
+  formType={null}
+  valuePath={
+    Array [
+      "attendance",
+      "recordEventStart",
+    ]
+  }
+/>
+`;

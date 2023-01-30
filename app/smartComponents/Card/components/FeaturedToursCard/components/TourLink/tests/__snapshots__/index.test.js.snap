@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourLink /> render should render correctly 1`] = `
+<ConnectFunction
+  id={3}
+/>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Url /> handleSubmit should call patchEvent of template api helpers 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "classes": Object {},
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<Url /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    renderLabelValueStacked={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Url /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="URL"
+          id="app.smartComponents.Event.components.Event.parts.Event.Url.input"
+        />
+      }
+      name="data.url"
+      onSubmit={[Function]}
+      placeholder="Click to specify url"
+    >
+      <EventPatchData
+        dataId={0}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Url /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <FormsyInterceptor
+      label={
+        <FormattedMessage
+          defaultMessage="URL"
+          id="app.smartComponents.Event.components.Event.parts.Event.Url.input"
+        />
+      }
+      name="data.url"
+      onInterceptValue={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Url /> renderLabelValueStacked should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <P
+          dense={true}
+          weight="bold"
+        >
+          <FormattedMessage
+            defaultMessage="URL"
+            id="app.smartComponents.Event.components.Event.parts.Event.Url.input"
+          />
+        </P>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <P
+          dense={true}
+        >
+          <a
+            href="//google.com"
+            onClick={[Function]}
+            target="_blank"
+          >
+            https://google.com
+          </a>
+        </P>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Url /> renderLabelValueStacked should match snapshot if value is blank 1`] = `<div />`;

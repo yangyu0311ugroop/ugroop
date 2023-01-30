@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> render() should render correctly 1`] = `
+<div>
+  <P
+    endTime=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    variant="textOnly"
+  />
+</div>
+`;
+
+exports[`<EndTime /> render() should render text field if variant is text field 1`] = `
+<div>
+  <TimeField
+    autoComplete="off"
+    displayFormat="HH:mm"
+    maxTimeField={null}
+    maxTimeFieldError="Time is after maximum time"
+    minTimeField={null}
+    minTimeFieldError="Time is before minimum time"
+    name="endtime"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<EndTime /> render() should render text only variant 1`] = `
+<div>
+  <P
+    endTime=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    variant="textOnly"
+  />
+</div>
+`;

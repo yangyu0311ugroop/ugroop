@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserNodeList getInterestedUserNodeId()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList getParticipantUserNodeId()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        renderContributorSection
+        renderOtherSection
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`UserNodeList renderAddOthers()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderAddOthers()   Should render correctly when user has ability 1`] = `undefined`;
+
+exports[`UserNodeList renderContributor()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderContributor()   Should render correctly 2`] = `undefined`;
+
+exports[`UserNodeList renderContributorAddRole()   Should render correctly when user has ability 1`] = `undefined`;
+
+exports[`UserNodeList renderOther()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderOther()   Should render correctly if has interensted 1`] = `undefined`;
+
+exports[`UserNodeList renderOther()   Should render correctly if has participants 1`] = `undefined`;
+
+exports[`UserNodeList renderOtherNone()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderOtherSection()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderOtherSection()   Should render correctly 2`] = `undefined`;
+
+exports[`UserNodeList renderPart()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderUserNode()   Should render correctly 1`] = `undefined`;
+
+exports[`UserNodeList renderUserNode()   Should render correctly if no parameter 1`] = `undefined`;
+
+exports[`UserNodeList showFollower()   Should render correctly when showFollower 1`] = `undefined`;

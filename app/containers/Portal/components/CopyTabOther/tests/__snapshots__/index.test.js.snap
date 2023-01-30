@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CopyTabOther /> onSuccess() should onSuccess copy 1`] = `<div />`;
+
+exports[`<CopyTabOther /> onSuccess() should onSuccess move 1`] = `<div />`;
+
+exports[`<CopyTabOther /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullScreen={false}
+    fullWidth={true}
+    header={
+      <WithStyles(GridContainer)
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          move
+           Tab
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            ellipsis={true}
+          >
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              editable={false}
+              isCustomData={false}
+              valueKey="content"
+              variant="textOnly"
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    headerNoWrap={true}
+    hideSubmitButton={true}
+    onClose={[Function]}
+    open={true}
+    popper={true}
+  >
+    renderContent
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<CopyTabOther /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={2}
+  >
+    <WithStyles(GridItem)
+      md={4}
+      xs={12}
+    >
+      <WithStyles(Head)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="blue"
+              icon="lnr-group-work"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Organisations
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Head)>
+      <WithStyles(MarginWrapper)
+        bottom="md"
+      />
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+          ids={Array []}
+          onClickMenu={[Function]}
+          showPersonal={true}
+          variant="list"
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+          ids={Array []}
+          onClickMenu={[Function]}
+          showPersonal={true}
+          variant="MENU_ITEM"
+        />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={8}
+      xs={12}
+    >
+      <WithStyles(Head)>
+        Travel List
+      </WithStyles(Head)>
+      <WithStyles(MarginWrapper)
+        bottom="md"
+      />
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+            lg={true}
+          >
+            Choose organisation
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(MarginWrapper)
+      bottom="md"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<CopyTabOther /> renderTourLink() should renderTourLink to match with snapshots 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(NavLink)
+      onClick={[Function]}
+      stopPropogationLink={true}
+      to="/tours/1"
+    >
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        lg={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          id={1}
+          variant="valueOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(NavLink)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<CopyTabOther /> renderTourLink() should renderTourLink to return null 1`] = `<div />`;
+
+exports[`<CopyTabOther /> renderTours() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(TargetTour))))
+      action="move"
+      onSelect={[Function]}
+      onSuccess={[Function]}
+      selected={null}
+      targetTourId={1}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

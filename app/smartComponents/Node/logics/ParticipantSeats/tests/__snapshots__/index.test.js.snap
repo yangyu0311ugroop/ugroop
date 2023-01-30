@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantSeats /> should render correctly 1`] = `""`;
+
+exports[`<ParticipantSeats /> should render correctly if filteredIds have value 1`] = `""`;
+
+exports[`<ParticipantSeats /> should render correctly if filteredIds have value and participantWithSeats have value 1`] = `""`;

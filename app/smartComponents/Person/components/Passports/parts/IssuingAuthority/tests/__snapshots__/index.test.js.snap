@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IssuingAuthority /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    label="Issuing Authority"
+    name="issuingAuthority"
+    onSubmit={[Function]}
+    placeholder="Click to specify issuing authority"
+    readOnly={false}
+    readOnlyPlaceholder="No issuing authority"
+    value=""
+  />
+</div>
+`;
+
+exports[`<IssuingAuthority /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    label="Issuing Authority"
+    name="issuingAuthority"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`<IssuingAuthority /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <span />
+</div>
+`;

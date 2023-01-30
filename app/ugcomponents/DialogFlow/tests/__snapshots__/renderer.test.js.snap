@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogFlow should hide x button if isXBtnHidden is true 1`] = `
+<div
+  className="DialogFlow-container"
+>
+  <WithStyles(Component)
+    className=""
+    disableRestoreFocus={true}
+    fullWidth={false}
+    open={true}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(UGDialogContent)
+        noPaddingBottom={true}
+        noPaddingTop={true}
+      />
+      <WithStyles(UGDialogContent)>
+        Sample
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogAction)>
+        <WithStyles(GridContainer)
+          justify="flex-end"
+        >
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              dense={true}
+              disabled={false}
+              onClick={[MockFunction]}
+              size="small"
+              type="submit"
+            >
+              <span>
+                Save & Continue
+              </span>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(UGDialogAction)>
+    </GenericForm>
+  </WithStyles(Component)>
+  <WithStyles(UGDialog)
+    cancelButton="I'm not done yet"
+    cancelFunc={[MockFunction]}
+    confirmButton="Discard Changes and Proceed"
+    confirmFunc={[MockFunction]}
+    customClassnames={
+      Object {
+        "action": "DialogFlow-actionButtons",
+        "headline": "DialogFlow-headlineText",
+      }
+    }
+    dialogTitle="Discard Changes"
+    headlineIcon="lnr-bubble-alert"
+    headlineText="You have entered some information that is not going to be saved. Are you sure you want to discard this input?"
+    headlineTitle="You are leaving without saving"
+    open={false}
+    template="delete"
+  />
+</div>
+`;
+
+exports[`DialogFlow should not hide discardBtn if isDiscardBtnHidden is false 1`] = `
+<div
+  className="DialogFlow-container"
+>
+  <WithStyles(Component)
+    className=""
+    disableRestoreFocus={true}
+    fullWidth={false}
+    open={true}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(UGDialogContent)
+        noPaddingBottom={true}
+        noPaddingTop={true}
+      >
+        <WithStyles(Button)
+          className="DialogFlow-xBtn"
+          color="black"
+          disableRipple={true}
+          icon="cross"
+          iconButton={true}
+          onClick={[MockFunction]}
+          variant="borderless"
+        >
+          <WithStyles(Icon)
+            icon="cross"
+          />
+        </WithStyles(Button)>
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogContent)>
+        Sample
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogAction)>
+        <WithStyles(GridContainer)
+          justify="flex-end"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="gray"
+              dense={true}
+              onClick={[MockFunction]}
+              size="small"
+              variant="outline"
+            >
+              Discard
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              dense={true}
+              disabled={false}
+              onClick={[MockFunction]}
+              size="small"
+              type="submit"
+            >
+              <span>
+                Save & Continue
+              </span>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(UGDialogAction)>
+    </GenericForm>
+  </WithStyles(Component)>
+  <WithStyles(UGDialog)
+    cancelButton="I'm not done yet"
+    cancelFunc={[MockFunction]}
+    confirmButton="Discard Changes and Proceed"
+    confirmFunc={[MockFunction]}
+    customClassnames={
+      Object {
+        "action": "DialogFlow-actionButtons",
+        "headline": "DialogFlow-headlineText",
+      }
+    }
+    dialogTitle="Discard Changes"
+    headlineIcon="lnr-bubble-alert"
+    headlineText="You have entered some information that is not going to be saved. Are you sure you want to discard this input?"
+    headlineTitle="You are leaving without saving"
+    open={false}
+    template="delete"
+  />
+</div>
+`;
+
+exports[`DialogFlow should render what it should render given the props passed 1`] = `
+<div
+  className="DialogFlow-container"
+>
+  <WithStyles(Component)
+    className=""
+    disableRestoreFocus={true}
+    fullWidth={false}
+    open={true}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(UGDialogContent)
+        noPaddingBottom={true}
+        noPaddingTop={true}
+      >
+        <WithStyles(Button)
+          className="DialogFlow-xBtn"
+          color="black"
+          disableRipple={true}
+          icon="cross"
+          iconButton={true}
+          onClick={[MockFunction]}
+          variant="borderless"
+        >
+          <WithStyles(Icon)
+            icon="cross"
+          />
+        </WithStyles(Button)>
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogContent)>
+        Sample
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogAction)>
+        <WithStyles(GridContainer)
+          justify="flex-end"
+        >
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              dense={true}
+              disabled={false}
+              onClick={[MockFunction]}
+              size="small"
+              type="submit"
+            >
+              <span>
+                Save & Continue
+              </span>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(UGDialogAction)>
+    </GenericForm>
+  </WithStyles(Component)>
+  <WithStyles(UGDialog)
+    cancelButton="I'm not done yet"
+    cancelFunc={[MockFunction]}
+    confirmButton="Discard Changes and Proceed"
+    confirmFunc={[MockFunction]}
+    customClassnames={
+      Object {
+        "action": "DialogFlow-actionButtons",
+        "headline": "DialogFlow-headlineText",
+      }
+    }
+    dialogTitle="Discard Changes"
+    headlineIcon="lnr-bubble-alert"
+    headlineText="You have entered some information that is not going to be saved. Are you sure you want to discard this input?"
+    headlineTitle="You are leaving without saving"
+    open={false}
+    template="delete"
+  />
+</div>
+`;

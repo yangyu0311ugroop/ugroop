@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicFooter should render what it should render 1`] = `
+<div
+  className="PublicFooter-root"
+>
+  <Img
+    alt="uGroop logo"
+    className="PublicFooter-logo"
+    src="IMAGE_MOCK"
+  />
+  <H4
+    className="PublicFooter-ugroop"
+    weight="bold"
+  >
+    <FormattedMessage
+      defaultMessage="Powered by uGroop"
+      id="app.components.PublicFooter.poweredBy"
+    />
+  </H4>
+  <H5
+    className="PublicFooter-ugroopText"
+  >
+    <FormattedMessage
+      defaultMessage="Use of uGroop software is governed by Terms and Conditions and Privacy Policy."
+      id="app.components.PublicFooter.useOfuGroop"
+    />
+  </H5>
+</div>
+`;

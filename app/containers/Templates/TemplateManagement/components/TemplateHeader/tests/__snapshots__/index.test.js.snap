@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateHeader/tests/index.test.js render()   customData.displayDate 1`] = `
+<div>
+  <Element
+    name="Template:1"
+  >
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Container)
+            padding={false}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Component)
+                  canUpdate={false}
+                  printView={false}
+                  publicView={false}
+                  templateId={1}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Container)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(withRouter(Connect(WithSimplifyResaga(Component))))
+            id={1}
+            isPublic={false}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </Element>
+</div>
+`;
+
+exports[`TemplateHeader/tests/index.test.js tabId should go to first condition 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`TemplateHeader/tests/index.test.js tabId should go to second condition 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`TemplateHeader/tests/index.test.js tabId should go to third condition 1`] = `
+<div>
+  <Component />
+</div>
+`;

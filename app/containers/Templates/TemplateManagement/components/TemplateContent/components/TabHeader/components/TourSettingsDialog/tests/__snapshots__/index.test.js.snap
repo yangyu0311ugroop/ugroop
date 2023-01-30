@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourSettingsDialog /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    header={
+      <WithStyles(JTextClass)
+        bold={true}
+        md={true}
+        uppercase={true}
+      >
+        <FormattedMessage
+          defaultMessage="Settings"
+          id="TemplateContent.components.TabHeader.components.TourSettingsDialog.header"
+        />
+      </WithStyles(JTextClass)>
+    }
+    hideSubmitButton={true}
+    maxHeight="sm"
+    maxWidth="xs"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Content)))
+      id={0}
+    />
+  </WithStyles(Component)>
+</div>
+`;

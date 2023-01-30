@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogTitleContent /> should render custom dialog title 1`] = `
+<div>
+  <WithStyles(H6)>
+    Something
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> should render something 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="CUSTOM DIALOG TITLE HERE"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.customTitle"
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> templates should render add template 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="ADD NEW {type}"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.addTitle"
+      values={
+        Object {
+          "type": "ONE",
+        }
+      }
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> templates should render confirm template 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="CONFIRM THIS {type}?"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.dialogTitle"
+      values={
+        Object {
+          "type": "ONE",
+        }
+      }
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> templates should render delete template 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="DELETE THIS {type}?"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.deleteTitle"
+      values={
+        Object {
+          "type": "ONE",
+        }
+      }
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> types should render custom type 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="CUSTOM DIALOG TITLE HERE"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.customTitle"
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DialogTitleContent /> types should render to tour type 1`] = `
+<div>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="CUSTOM DIALOG TITLE HERE"
+      id="app.ugcomponents.Dialog.components.DialogHeadline.customTitle"
+    />
+  </WithStyles(H6)>
+  <WithStyles(Button)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+    />
+  </WithStyles(Button)>
+</div>
+`;

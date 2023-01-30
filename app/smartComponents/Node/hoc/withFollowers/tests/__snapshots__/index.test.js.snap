@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withFollowers #render() still matches snapshot 1`] = `
+<ConnectFunction
+  variant="renderProp"
+>
+  <Component />
+</ConnectFunction>
+`;
+
+exports[`withFollowers #render() still matches snapshot inside nodeProp 1`] = `
+<div
+  key="1"
+>
+  <Component
+    followers={Array []}
+    resaga={Object {}}
+  />
+</div>
+`;

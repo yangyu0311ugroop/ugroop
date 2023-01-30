@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookedBy /> handleSubmit should create request to patchEvent 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "bookedBy": "",
+      "classes": Object {},
+      "dataId": null,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<BookedBy /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<BookedBy /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Booked By"
+          id="app/smartComponents/Event/components/Event/parts/Coach/BookedBy/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.bookedBy"
+      onSubmit={[Function]}
+      readOnly={false}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<BookedBy /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    sm={true}
+    xs={12}
+  >
+    <FormsyInterceptor
+      label={
+        <FormattedMessage
+          defaultMessage="Booked By"
+          id="app/smartComponents/Event/components/Event/parts/Coach/BookedBy/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.bookedBy"
+      onInterceptValue={[Function]}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

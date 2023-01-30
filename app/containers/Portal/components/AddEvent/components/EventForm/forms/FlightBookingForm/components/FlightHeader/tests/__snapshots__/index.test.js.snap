@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightHeader /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={1}
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(JTextClass)
+            dark={true}
+          >
+            Enter flight
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

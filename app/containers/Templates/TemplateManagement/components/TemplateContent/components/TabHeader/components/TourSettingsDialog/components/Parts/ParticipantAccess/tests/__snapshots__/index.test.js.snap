@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantAccess /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              lg={true}
+            >
+              <FormattedMessage
+                defaultMessage="Visibility of {paxLabel}"
+                id="TemplateContent.components.TabHeader.components.TourSettingsDialog.ParticipantAccess.heading"
+                values={
+                  Object {
+                    "paxLabel": "",
+                  }
+                }
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              <FormattedMessage
+                defaultMessage="Permission option that allows each role to see \\"Going\\" {paxLabel}"
+                id="TemplateContent.components.TabHeader.components.TourSettingsDialog.ParticipantAccess.subHeading"
+                values={
+                  Object {
+                    "paxLabel": "",
+                  }
+                }
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={1}
+        >
+          <WithStyles(GridItem)
+            key="tour_participant"
+          >
+            <ParticipantAccessRole
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              paxLabel=""
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              role="tour_participant"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+          <WithStyles(GridItem)
+            key="tour_interested"
+          >
+            <ParticipantAccessRole
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              paxLabel=""
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              role="tour_interested"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+          <WithStyles(GridItem)
+            key="tour_collaborator"
+          >
+            <ParticipantAccessRole
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              paxLabel=""
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              role="tour_collaborator"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+          <WithStyles(GridItem)
+            key="tour_viewer"
+          >
+            <ParticipantAccessRole
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              paxLabel=""
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              role="tour_viewer"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

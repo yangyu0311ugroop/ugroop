@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Smoke Tests Should match snapshot 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            md={12}
+          >
+            <BoundCan
+              do="create"
+              on="orguser"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                noWrap={true}
+              >
+                <WithStyles(GridItem) />
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    className=""
+                    disabled={false}
+                    size="small"
+                    type="submit"
+                    variant="outline"
+                  >
+                    0 Pending Invitation
+                     
+                  </WithStyles(Button)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    noWrap={true}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </BoundCan>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <BoundCan
+        do="create"
+        on="orguser"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+        </WithStyles(GridItem)>
+      </BoundCan>
+      <WithStyles(GridItem)
+        md={12}
+      >
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <Styled(MuiBox)
+              pb={2}
+            >
+              <Component
+                onChange={[Function]}
+                onPressEnter={[Function]}
+                value=""
+              />
+            </Styled(MuiBox)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <BoundCan
+              do="create"
+              on="orguser"
+            >
+              <WithStyles(Formsy(CheckboxField))
+                disabled={false}
+                label="Show Inactive"
+                name="showInactive"
+                noMargin={true}
+                value={false}
+              />
+            </BoundCan>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;

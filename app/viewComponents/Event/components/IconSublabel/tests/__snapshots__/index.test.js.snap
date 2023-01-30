@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconSublabel /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <P
+    className="p"
+    dense={true}
+  >
+    Some children
+  </P>
+</WithStyles(GridItem)>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tours /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    showHeader={false}
+  />
+</div>
+`;

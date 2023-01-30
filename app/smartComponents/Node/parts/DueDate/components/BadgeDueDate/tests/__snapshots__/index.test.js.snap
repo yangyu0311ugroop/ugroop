@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BadgeDueDate /> renderDateDuration() should renderDateDuration 1`] = `
+<div>
+  <span>
+    renderCalendarDueDate
+    <Hidden
+      smDown={true}
+    >
+      <span
+        className=""
+      >
+        (
+        )
+      </span>
+    </Hidden>
+  </span>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderDateDuration() should renderDateDuration as actual 1`] = `
+<div>
+  <span>
+    renderCalendarDueDate
+    <Hidden
+      smDown={true}
+    >
+      <span
+        className=""
+      >
+        (
+        1 day after
+        )
+      </span>
+    </Hidden>
+  </span>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderDefault() should render dueSoon 1`] = `
+<div>
+  <div
+    title="This checklist is due renderTitle"
+  >
+    <span
+      className=""
+    >
+      <WithStyles(Icon)
+        icon="lnr-warning"
+        paddingRight={true}
+        size="xsmall"
+      />
+      renderCalendarDueDate
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderDefault() should render hideText 1`] = `
+<div>
+  <div
+    title="This checklist is due renderTitle"
+  >
+    <span
+      className=""
+    >
+      <WithStyles(Icon)
+        icon="lnr-calendar-full"
+        paddingRight={false}
+        size="xsmall"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderDefault() should render normal date 1`] = `
+<div>
+  <div
+    title="This checklist is due renderTitle"
+  >
+    <span
+      className=""
+    >
+      <WithStyles(Icon)
+        icon="lnr-calendar-full"
+        paddingRight={true}
+        size="xsmall"
+      />
+      renderCalendarDateShort
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderDefault() should render past due 1`] = `
+<div>
+  <div
+    title="This checklist is due renderTitle"
+  >
+    <span
+      className=""
+    >
+      <WithStyles(Icon)
+        icon="lnr-warning"
+        paddingRight={true}
+        size="xsmall"
+      />
+      renderCalendarDueDate
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<BadgeDueDate /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <span>
+    <WithStyles(Icon)
+      icon="lnr-calendar-empty"
+      paddingRight={true}
+      size="xsmall"
+    />
+    No due date
+  </span>
+</div>
+`;

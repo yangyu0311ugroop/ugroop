@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RemoveUser /> render() should remove user 1`] = `
+<div>
+  <DeleteConfirmationDialog
+    confirmButton={
+      <FormattedMessage
+        defaultMessage="Go ahead and remove"
+        id="ShareList.components.SeeDetail.messages.confirmRemoveText"
+      />
+    }
+    dialogTitle={
+      <FormattedMessage
+        defaultMessage="Remove User as {role}"
+        id="ShareList.components.SeeDetail.messages.removeRoletitle"
+        values={
+          Object {
+            "role": undefined,
+          }
+        }
+      />
+    }
+    headlineText={
+      <FormattedMessage
+        defaultMessage="Are you sure you want to remove {personName} as a {role} from this tour?"
+        id="ShareList.components.SeeDetail.messages.text"
+        values={
+          Object {
+            "adj": "the",
+            "final": "to remove this person from the tour",
+            "person": "person",
+            "personName": <Unknown
+              component="b"
+              id={0}
+              variant="textOnly"
+            />,
+            "role": undefined,
+            "toJoin": "You need to invite the person again to re-join the tour ",
+          }
+        }
+      />
+    }
+    headlineTitle={
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="You are about to remove the role of {roleText} to: "
+            id="ShareList.components.SeeDetail.messages.title.headlineDeleteRole"
+            values={
+              Object {
+                "roleText": undefined,
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<RemoveUser /> render() should render correctly 1`] = `
+<div>
+  <DeleteConfirmationDialog
+    confirmButton={
+      <FormattedMessage
+        defaultMessage="Leave the tour"
+        id="ShareList.components.SeeDetail.messages.confirmRemoveText"
+      />
+    }
+    dialogTitle={
+      <FormattedMessage
+        defaultMessage="Leave role as {role}"
+        id="ShareList.components.SeeDetail.messages.removedRoletitleMe"
+        values={
+          Object {
+            "role": undefined,
+          }
+        }
+      />
+    }
+    headlineText={
+      <FormattedMessage
+        defaultMessage="Are you sure you want to remove yourself as a {role} from this tour?"
+        id="ShareList.components.SeeDetail.messages.text"
+        values={
+          Object {
+            "adj": "that",
+            "final": "to leave from the tour",
+            "person": "you",
+            "personName": "yourself",
+            "role": undefined,
+            "toJoin": "To re-join the tour, you may need someone connected to the tour to invite you again ",
+          }
+        }
+      />
+    }
+    headlineTitle={
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="You are about to leave  the role of {roleText} to this tour"
+            id="ShareList.components.SeeDetail.messages.title.headlineDeleteMeRole"
+            values={
+              Object {
+                "roleText": undefined,
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<RemoveUser /> render() should render correctly for icon variant 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="alert"
+      dense={true}
+      disabled={false}
+      icon="lnr-trash2"
+      iconButton={true}
+      onClick={[Function]}
+      size="extraSmall"
+      square={false}
+      title="Remove Role?"
+      variant="outline"
+    />
+  </WithStyles(GridItem)>
+  <DeleteConfirmationDialog
+    confirmButton={
+      <FormattedMessage
+        defaultMessage="Leave the tour"
+        id="ShareList.components.SeeDetail.messages.confirmRemoveText"
+      />
+    }
+    dialogTitle={
+      <FormattedMessage
+        defaultMessage="Leave role as {role}"
+        id="ShareList.components.SeeDetail.messages.removedRoletitleMe"
+        values={
+          Object {
+            "role": undefined,
+          }
+        }
+      />
+    }
+    headlineText={
+      <FormattedMessage
+        defaultMessage="Are you sure you want to remove yourself as a {role} from this tour?"
+        id="ShareList.components.SeeDetail.messages.text"
+        values={
+          Object {
+            "adj": "that",
+            "final": "to leave from the tour",
+            "person": "you",
+            "personName": "yourself",
+            "role": undefined,
+            "toJoin": "To re-join the tour, you may need someone connected to the tour to invite you again ",
+          }
+        }
+      />
+    }
+    headlineTitle={
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="You are about to leave  the role of {roleText} to this tour"
+            id="ShareList.components.SeeDetail.messages.title.headlineDeleteMeRole"
+            values={
+              Object {
+                "roleText": undefined,
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<RemoveUser /> renderRemoveUser() should render correctly when renderRemoveUser is called 1`] = `
+<div>
+  <div>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="alert"
+        dense={true}
+        loading={false}
+        onClick={[Function]}
+        size="small"
+      >
+        <FormattedMessage
+          defaultMessage="Remove"
+          id="ShareList.components.SeeDetail.messages.confirmRemoveText"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </div>
+</div>
+`;
+
+exports[`<RemoveUser /> renderRemoveUser() should render correctly when renderRemoveUser is called with iAm = false 1`] = `
+<div>
+  <div>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="alert"
+        dense={true}
+        loading={false}
+        onClick={[Function]}
+        size="small"
+      >
+        <FormattedMessage
+          defaultMessage="Leave the tour"
+          id="ShareList.components.SeeDetail.messages.confirmRemoveText"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </div>
+</div>
+`;

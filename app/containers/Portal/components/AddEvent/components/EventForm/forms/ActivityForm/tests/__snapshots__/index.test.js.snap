@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivityForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <Formsy(DataField)
+      currentValue=""
+      innerRef={[Function]}
+      name="data.detail.detail.flightBookingId"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Formsy(FText))
+            label="Event name"
+            name="data.name"
+            placeholder="Enter event name"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)
+              xs={7}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))) />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={5}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(StartTime))) />
+            </WithStyles(GridItem)>
+            <ConnectFunction />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        renderEndDateTime
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Location)))
+            label="Place name"
+            placeholder="Enter place name"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Formsy(FText))
+            label="Location"
+            name="data.location.name"
+            placeholder="Enter location"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)
+              xs={5}
+            >
+              <WithStyles(Formsy(FText))
+                label="Phone"
+                name="data.detail.supplierPhoneNumber"
+                placeholder="Enter phone"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={7}
+            >
+              <WithStyles(Formsy(FText))
+                label="Website"
+                name="data.url"
+                placeholder="Enter website"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(withRouter(WithStyles(SimpleRTE)))
+            filled={true}
+            innerRef={[Function]}
+            name="data.description"
+            placeholder="Tell some more about this.."
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <AmountsForm />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Attachments))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Reservation))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ActivityForm /> renderEndDateTime() should renderEndDateTime 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        xs={7}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))) />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={5}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(EndTime))) />
+      </WithStyles(GridItem)>
+      <ConnectFunction />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

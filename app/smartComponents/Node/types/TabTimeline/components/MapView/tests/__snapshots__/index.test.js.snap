@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MapView /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))))
+          row={true}
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            renderLeft
+          </WithStyles(GridItem)>
+        </Hidden>
+        <Hidden
+          mdUp={true}
+        >
+          <WithStyles(GridItem)
+            xs={12}
+          >
+            renderLeft
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          renderContent
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MapView /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        card={true}
+        dense={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Route)))))
+            id={-1}
+            index={-1}
+            size="md"
+            variant="MAP_VIEW"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(withRouter(Connect(WithSimplifyResaga(Navigator))))
+            clickId="clickId"
+            route={true}
+            routeId={-1}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RenderDay)))))
+        dayId={22}
+        index={0}
+        marginLeft={true}
+        showEventDetail={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MapView /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))))
+          row={true}
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        dashed={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="grey"
+            icon="lnr-map-marker"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            There are no routes yet
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MapView /> renderEmpty() should renderEmpty can edit 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds))))))))
+          row={true}
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))) />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        dashed={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="grey"
+            icon="lnr-map-marker"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            Create a route from the location of your days to get detailed, easy-to-follow direction
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            size="xs"
+            weight="bold"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="row"
+              justify="center"
+              wrap="noWrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  icon="lnr-plus"
+                  size="normal"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Create a route
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MapView /> renderLeft() should renderLeft 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Routes)))
+      autoSelect={true}
+      ids={Array []}
+      showActive={true}
+      showIndex={true}
+      variant="ROUTE_CONTENT"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InviteFrom /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<InviteFrom /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<InviteFrom /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Name)))
+      id={12}
+      variant=""
+    />
+  </span>
+</div>
+`;

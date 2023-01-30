@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Passports /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    justify="center"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Passports",
+            "name": "description",
+          },
+        ]
+      }
+      title="Passports"
+    />
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Passports)))
+            id={0}
+            viewStore="personProfileViewStore"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

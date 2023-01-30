@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsTimeline /> EventPropGetter shall return correct style 1`] = `
+Object {
+  "style": Object {
+    "backgroundColor": "transparent",
+    "cursor": "initial",
+    "padding": 0,
+  },
+}
+`;
+
+exports[`<EventsTimeline /> render() should render correctly 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(IconButton)
+          disableTriggerFocus={true}
+          tooltip="Close"
+        >
+          <WithStyles(Icon)
+            icon="lnr-chevron-up"
+          />
+        </WithStyles(IconButton)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Uncontrolled(Calendar)
+        components={
+          Object {
+            "event": [Function],
+          }
+        }
+        defaultView="single_day"
+        eventPropGetter={[Function]}
+        events={Array []}
+        toolbar={false}
+        views={
+          Array [
+            "single_day",
+          ]
+        }
+      />
+      <div />
+      <div>
+        timeZone
+      </div>
+      <ConnectFunction
+        index={3}
+        key="undefined.undefined"
+        renderSection="ceiling"
+        startingUp={true}
+        updateParentEvents={[Function]}
+      />
+      <ConnectFunction
+        index={2}
+        key="undefined.undefined"
+        renderSection="ceiling"
+        startingUp={true}
+        updateParentEvents={[Function]}
+      />
+      <ConnectFunction
+        index={1}
+        key="undefined.undefined"
+        renderSection="content"
+        startingUp={true}
+        updateParentEvents={[Function]}
+      />
+      <ConnectFunction
+        index={0}
+        key="undefined.undefined"
+        renderSection="content"
+        startingUp={true}
+        updateParentEvents={[Function]}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventsTimeline /> renderCardsToggle() still matches snapshot when closed 1`] = `
+<div>
+  <WithStyles(IconButton)
+    disableTriggerFocus={true}
+    tooltip="Open"
+  >
+    <WithStyles(Icon)
+      icon="lnr-chevron-down"
+    />
+  </WithStyles(IconButton)>
+</div>
+`;

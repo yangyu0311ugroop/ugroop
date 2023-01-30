@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayTimeInput /> #render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={null}
+  />
+  <WithStyles(GridItem)
+    sm={true}
+    xs={12}
+  >
+    <DayDurationInput
+      calculatedTimeMode={null}
+      dayDates={Array []}
+      dayId={null}
+      dayIds={Array []}
+      defaultMode={null}
+      defaultValue="P0D"
+      formBatchCreate={false}
+      inputs={
+        Object {
+          "mode": Object {
+            "name": "mode",
+          },
+        }
+      }
+      mode={null}
+      otherCalculatedTimeValue={null}
+      otherFormCalculatedTimeMode={null}
+      otherValue=""
+      parentNodeId={0}
+      position={null}
+      renderDate={[Function]}
+      renderDuration={[Function]}
+      renderModeData={true}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+        }
+      }
+      singleColumn={false}
+      tabId={0}
+      value=""
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    sm={4}
+    xs={12}
+  >
+    <TimeInput
+      dayDates={Array []}
+      dayIds={Array []}
+      defaultMode={null}
+      formBatchCreate={false}
+      inputs={
+        Object {
+          "mode": Object {
+            "name": "mode",
+          },
+        }
+      }
+      mode={null}
+      otherValue=""
+      parentNodeId={0}
+      position={null}
+      renderModeData={true}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+        }
+      }
+      singleColumn={false}
+      tabId={0}
+      timePlaceholder="Time"
+      value=""
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<DayTimeInput /> #render() still matches snapshot if props.singleColumn 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={null}
+  />
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <DayDurationInput
+      calculatedTimeMode={null}
+      dayDates={Array []}
+      dayId={null}
+      dayIds={Array []}
+      defaultMode={null}
+      defaultValue="P0D"
+      formBatchCreate={false}
+      inputs={
+        Object {
+          "mode": Object {
+            "name": "mode",
+          },
+        }
+      }
+      mode={null}
+      otherCalculatedTimeValue={null}
+      otherFormCalculatedTimeMode={null}
+      otherValue=""
+      parentNodeId={0}
+      position={null}
+      renderDate={[Function]}
+      renderDuration={[Function]}
+      renderModeData={true}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+        }
+      }
+      singleColumn={true}
+      tabId={0}
+      value=""
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <TimeInput
+      dayDates={Array []}
+      dayIds={Array []}
+      defaultMode={null}
+      formBatchCreate={false}
+      inputs={
+        Object {
+          "mode": Object {
+            "name": "mode",
+          },
+        }
+      }
+      mode={null}
+      otherValue=""
+      parentNodeId={0}
+      position={null}
+      renderModeData={true}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+        }
+      }
+      singleColumn={true}
+      tabId={0}
+      timePlaceholder="Time"
+      value=""
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <Component
+              id={1}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <P>
+              <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+                id={1}
+                label={
+                  <FormattedMessage
+                    defaultMessage="Joined last "
+                    id="app.containers.Profile.components.Person.components.Header.joinedLabel"
+                  />
+                }
+                variant="textWithLabelInline"
+              />
+            </P>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          editable={true}
+          id={1}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;

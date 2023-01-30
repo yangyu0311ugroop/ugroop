@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventDay /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+              eventSchedule={true}
+              fullDate={true}
+              id={0}
+              showDayIndex={true}
+            />
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            id={0}
+            isCardOpen={false}
+            openCards={[Function]}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <ConnectFunction
+      id={0}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContributorList /> mapPersons should match snapshot if index is greater than 2 1`] = `
+<div>
+  <span
+    key="person"
+  />
+</div>
+`;
+
+exports[`<ContributorList /> mapPersons should match snapshot if index is less than 2 1`] = `
+<div>
+  <ConnectFunction
+    imageSize="imageExtraExtraSmall"
+    key="person"
+    rootClass=""
+    userId="person"
+    width={100}
+  />
+</div>
+`;
+
+exports[`<ContributorList /> render should match snapshot if persons is not array 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarMore should match snapshot if persons < 3 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarMore should match snapshot if persons > 3 1`] = `
+<div>
+  <ConnectFunction
+    more={1}
+    rootClass=""
+  />
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarText should match snapshot if persons is equal to 1 1`] = `
+<div>
+  <p>
+    <TextTruncate
+      element="div"
+      line={1}
+      maxCalculateTimes={1}
+      text=""
+      textElement="span"
+      truncateText="…"
+    />
+  </p>
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarText should match snapshot if persons is equal to 2 1`] = `
+<div>
+  <p>
+    <TextTruncate
+      element="div"
+      line={1}
+      maxCalculateTimes={1}
+      text={
+        <FormattedMessage
+          defaultMessage="{ firstPerson } and { secondPerson }"
+          id="ugroop.UGroopReact.app.containers.Templates.Components.TemplateList.TemplateItem.contributorsTextTwoPeople"
+          values={
+            Object {
+              "firstPerson": "",
+              "secondPerson": "",
+            }
+          }
+        />
+      }
+      textElement="span"
+      truncateText="…"
+    />
+  </p>
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarText should match snapshot if persons is greater than 2 1`] = `
+<div>
+  <p>
+    <TextTruncate
+      element="div"
+      line={1}
+      maxCalculateTimes={1}
+      text={
+        <FormattedMessage
+          defaultMessage="{ firstPerson } and { excess } other members"
+          id="ugroop.UGroopReact.app.containers.Templates.Components.TemplateList.TemplateItem.contributorsText"
+          values={
+            Object {
+              "excess": 2,
+              "firstPerson": "",
+            }
+          }
+        />
+      }
+      textElement="span"
+      truncateText="…"
+    />
+  </p>
+</div>
+`;
+
+exports[`<ContributorList /> renderAvatarText should match snapshot if persons is less than 1 1`] = `
+<div>
+  <p>
+    <TextTruncate
+      element="div"
+      line={1}
+      maxCalculateTimes={1}
+      text=""
+      textElement="span"
+      truncateText="…"
+    />
+  </p>
+</div>
+`;

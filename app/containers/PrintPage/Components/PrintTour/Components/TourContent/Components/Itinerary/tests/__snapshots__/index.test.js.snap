@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day/Itinerary render check snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={1}
+      />
+      <WithStyles(GridItem)
+        xs={9}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            key="1"
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Content)))
+              dayCount={2}
+              dayId={1}
+              dayNum={1}
+              endId={0}
+              index={1}
+              templateId={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            key="2"
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Content)))
+              dayCount={2}
+              dayId={2}
+              dayNum={2}
+              endId={3}
+              index={2}
+              templateId={0}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

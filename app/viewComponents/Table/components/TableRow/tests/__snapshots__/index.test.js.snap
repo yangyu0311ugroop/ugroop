@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableRow /> should render something 1`] = `
+<WithStyles(ForwardRef(TableRow))
+  classes={
+    Object {
+      "root": undefined,
+    }
+  }
+/>
+`;

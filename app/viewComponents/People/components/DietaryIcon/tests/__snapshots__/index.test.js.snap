@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DietaryIcon /> #render() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Icon)
+    icon="lnr-chef"
+    title="Dietary Requirement"
+  />
+  <WithStyles(Icon)
+    icon="lnr-cross2"
+    title="No dietary requirements specified"
+  />
+</div>
+`;

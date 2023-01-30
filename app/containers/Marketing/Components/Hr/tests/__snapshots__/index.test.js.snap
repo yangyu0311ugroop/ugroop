@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hr should render what it should render 1`] = `
+<hr
+  className="MarketingHR-root"
+  style={Object {}}
+/>
+`;
+
+exports[`Hr should render what it should render based on the size given to the component 1`] = `
+<hr
+  className="MarketingHR-root"
+  style={
+    Object {
+      "width": "20px",
+    }
+  }
+/>
+`;

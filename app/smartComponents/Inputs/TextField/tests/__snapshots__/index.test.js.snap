@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> #render() still matches snapshot 1`] = `
+<FormsyInterceptor
+  onInterceptValue={[Function]}
+  type="text"
+  validationErrors={Object {}}
+  validations={Object {}}
+/>
+`;

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NameSummary /> isEmpty should render correctly 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<NameSummary /> isEmpty should render correctly 2`] = `
+<div>
+  <span
+    className="default"
+  />
+</div>
+`;
+
+exports[`<NameSummary /> render text should render correctly 1`] = `<div />`;
+
+exports[`<NameSummary /> render text should render correctly 2`] = `
+<div>
+  <div>
+    <span
+      className="default"
+    />
+  </div>
+</div>
+`;
+
+exports[`<NameSummary /> renderAttachment should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="lavender"
+        icon="lnr-paperclip"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      some string
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NameSummary /> renderAttachment should still render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="lavender"
+        icon="lnr-paperclip"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      some string
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NameSummary /> renderEdit() should renderEdit 1`] = `<div />`;
+
+exports[`<NameSummary /> renderRtePlaceHolder should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <Quill
+      formats={
+        Array [
+          "bold",
+          "italic",
+          "color",
+        ]
+      }
+      key="0some string"
+      modules={Object {}}
+      readOnly={true}
+      theme={null}
+      value="some string"
+    />
+  </div>
+</div>
+`;
+
+exports[`<NameSummary /> renderRtePlaceHolder should still render correctly 1`] = `<div />`;
+
+exports[`<NameSummary /> renderView() should renderView should return location 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Location)))
+    editable={false}
+    id={0}
+    labelClassName=""
+    link=""
+    showIcon={true}
+    showTooltip={false}
+  />
+</div>
+`;
+
+exports[`<NameSummary /> renderView() should renderView url 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Url)))
+    id={0}
+    variant="title"
+  />
+</div>
+`;

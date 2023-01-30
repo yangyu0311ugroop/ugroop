@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRating /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="white"
+    dense={true}
+    onClick={[Function]}
+    size="extraSmall"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="pencil5"
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormattedMessage
+          defaultMessage="Rate and Review"
+          id="app/smartComponents/Node/components/Ratings/components/AddRating/btn"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AddRatingDialog)))))))))))))))))
+    onClose={[Function]}
+    open={false}
+  />
+  <Styled(MuiBox)
+    pb={1}
+  />
+</div>
+`;

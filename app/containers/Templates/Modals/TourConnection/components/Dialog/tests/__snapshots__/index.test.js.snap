@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourConnectionDialog /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    header={
+      <WithStyles(JTextClass)
+        bold={true}
+        md={true}
+        uppercase={true}
+      >
+        Tour Connection
+      </WithStyles(JTextClass)>
+    }
+    hideSubmitButton={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      justify="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          AvatarProps={
+            Object {
+              "imageSize": "imageMedium",
+              "lg": true,
+              "md": false,
+              "sm": false,
+              "xs": false,
+            }
+          }
+          variant="avatar"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        data-testid="tourConnectionUserName"
+      >
+        <WithStyles(JTextClass)
+          bold={true}
+          ellipsis={true}
+          xl={true}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            variant="value"
+          />
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          sm={true}
+        >
+          <Component
+            disabled={true}
+            variant="textOnly"
+          />
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <br />
+    <WithStyles(GridContainer) />
+  </WithStyles(Component)>
+</div>
+`;

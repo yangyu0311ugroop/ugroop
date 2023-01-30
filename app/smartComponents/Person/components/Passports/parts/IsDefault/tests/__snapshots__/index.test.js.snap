@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IsDefault /> render() should render correctly 1`] = `<div />`;
+
+exports[`<IsDefault /> render() should render correctly and variant is string only 1`] = `
+<div>
+  Set as Primary
+</div>
+`;
+
+exports[`<IsDefault /> render() should render correctly and variant is string only and isDefault is true 1`] = `
+<div>
+  Primary
+</div>
+`;
+
+exports[`<IsDefault /> render() should render correctly if isDefault is true and variant is text only 1`] = `
+<div>
+  <P
+    noMargin={true}
+    success={true}
+    weight="bold"
+  >
+    <WithStyles(MarginWrapper)
+      isInline={true}
+      right="sm"
+    >
+      <WithStyles(Icon)
+        icon="check"
+        size="xxs"
+      />
+    </WithStyles(MarginWrapper)>
+     
+    Primary Passport
+  </P>
+</div>
+`;
+
+exports[`<IsDefault /> render() should render correctly if variant checkbox 1`] = `
+<div>
+  <WithStyles(Formsy(CheckboxField))
+    color="primary"
+    label={[Function]}
+    name="isDefault"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    value={false}
+  />
+</div>
+`;
+
+exports[`<IsDefault /> render() should render correctly if variant checkbox and isChecked is true 1`] = `
+<div>
+  <WithStyles(Formsy(CheckboxField))
+    color="primary"
+    label={[Function]}
+    name="isDefault"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    value={true}
+  />
+</div>
+`;
+
+exports[`<IsDefault /> renderCheckboxLabel() should render correctly based on the passed props 1`] = `
+<div>
+  <P
+    noMargin={true}
+    success={true}
+    weight="bold"
+  >
+    Set as Primary
+  </P>
+</div>
+`;
+
+exports[`<IsDefault /> renderCheckboxLabel() should render correctly based on the passed props 2`] = `
+<div>
+  <P
+    noMargin={true}
+    success={false}
+    weight="bold"
+  >
+    Set as Primary
+  </P>
+</div>
+`;

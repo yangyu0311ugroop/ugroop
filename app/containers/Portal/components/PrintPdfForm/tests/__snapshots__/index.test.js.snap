@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintPdfForm /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Processing..."
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<PrintPdfForm /> renderContent() should renderContent 1`] = `
+<div>
+  <ConnectFunction
+    handleClose={[Function]}
+  />
+</div>
+`;

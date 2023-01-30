@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimeField /> #render() still matches snapshot 1`] = `
+<WithStyles(TimeField)
+  autoComplete="off"
+  displayFormat="HH:mm"
+  type="text"
+  validationErrors={
+    Object {
+      "isTime": "Please use valid format (eg. 14:00)",
+    }
+  }
+  validations={
+    Object {
+      "isTime": true,
+    }
+  }
+/>
+`;

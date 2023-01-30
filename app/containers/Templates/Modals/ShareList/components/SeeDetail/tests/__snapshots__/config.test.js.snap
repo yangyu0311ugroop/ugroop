@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeeDetail/config.js isLoading isLoading getter 1`] = `true`;
+
+exports[`SeeDetail/config.js value CONFIG.value should exists 1`] = `
+Object {
+  "detail": Object {
+    "getter": [Function],
+    "keyPath": Array [
+      Array [
+        "templateManagementView",
+        "seeDetail",
+      ],
+      Array [
+        "invitationStore",
+        "shares",
+      ],
+      Array [
+        "invitationStore",
+        "organisationShares",
+      ],
+      Array [
+        "organisationView",
+        "fromOrg",
+      ],
+      Array [
+        "templateManagementStore",
+        "id",
+      ],
+    ],
+    "spreadObject": true,
+  },
+  "fromOrg": Array [
+    "organisationView",
+    "fromOrg",
+  ],
+  "inviteToOrganisation": [Function],
+  "organisationName": [Function],
+  "personalMessage": [Function],
+  "userId": Array [
+    "cognitoAcctStore",
+    "account",
+    "id",
+  ],
+}
+`;
+
+exports[`SeeDetail/config.js value SEE_DETAIL_CONFIG.value should exists 1`] = `
+Object {
+  "seeDetail": Array [
+    "templateManagementView",
+    "seeDetail",
+  ],
+}
+`;
+
+exports[`SeeDetail/config.js value detail should return correct values 1`] = `
+Object {
+  "createdAt": "ages ago",
+  "email": undefined,
+  "resendUserId": 77,
+  "role": "general",
+  "seeDetail": "jon@qq",
+  "shareFrom": "foo@qq",
+  "shareTo": undefined,
+  "shareToUserId": undefined,
+  "status": "pending",
+  "templateId": undefined,
+  "updatedAt": "ages ago",
+}
+`;
+
+exports[`SeeDetail/config.js value detail should return correct values when request from organisation 1`] = `
+Object {
+  "createdAt": "ages ago",
+  "email": undefined,
+  "resendUserId": undefined,
+  "role": "general",
+  "seeDetail": "jon@qq",
+  "shareFrom": undefined,
+  "shareTo": undefined,
+  "shareToUserId": undefined,
+  "status": "pending",
+  "templateId": undefined,
+  "updatedAt": "ages ago",
+}
+`;
+
+exports[`SeeDetail/config.js value inviteToOrganisation 1`] = `
+Array [
+  "invitationStore",
+  "notifications",
+  "abcd",
+  "content",
+  "inviteToOrganisation",
+]
+`;
+
+exports[`SeeDetail/config.js value organisationName 1`] = `
+Array [
+  "invitationStore",
+  "notifications",
+  "abcd",
+  "content",
+  "organisationName",
+]
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectActivityDetail /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  id={0}
+  targetKey="start"
+>
+  <Component />
+</ConnectFunction>
+`;
+
+exports[`<SelectActivityDetail /> #render() still matches snapshot 2`] = `
+<Component
+  activityDetailId={1}
+  resaga={Object {}}
+/>
+`;

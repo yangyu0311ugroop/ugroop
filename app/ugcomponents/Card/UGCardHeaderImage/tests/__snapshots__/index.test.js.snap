@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGCardHeaderImage /> component should accept className props to override style of it 1`] = `
+<div
+  className="UGCardHeaderImage-ugCardImageHeader ug-card-header-image"
+>
+  <div
+    className="UGCardHeaderImage-ugCardHeaderOverlay"
+  />
+  <div
+    className="UGCardHeaderImage-ugCardImageList"
+  >
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 35,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<UGCardHeaderImage /> component should contain <UGImageItem /> components depending on the number of images passed (2) 1`] = `
+<div
+  className="UGCardHeaderImage-ugCardImageHeader"
+>
+  <div
+    className="UGCardHeaderImage-ugCardHeaderOverlay"
+  />
+  <div
+    className="UGCardHeaderImage-ugCardImageList"
+  >
+    <span
+      key="image-undefined"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 35,
+          "width": "100%",
+        }
+      }
+    />
+    <span
+      key="image-undefined"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 35,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<UGCardHeaderImage /> component should contain <UGImageItem /> components depending on the number of images passed (3) 1`] = `
+<div
+  className="UGCardHeaderImage-ugCardImageHeader"
+>
+  <div
+    className="UGCardHeaderImage-ugCardHeaderOverlay"
+  />
+  <div
+    className="UGCardHeaderImage-ugCardImageList"
+  >
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "height": 35,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<UGCardHeaderImage /> component should contain <UGImageItem /> components depending on the number of images passed 1`] = `
+<div
+  className="UGCardHeaderImage-ugCardImageHeader"
+>
+  <div
+    className="UGCardHeaderImage-ugCardHeaderOverlay"
+  />
+  <div
+    className="UGCardHeaderImage-ugCardImageList"
+  >
+    <WithStyles(UGImageItem)
+      alt=""
+      imageUrl="https://lonelyplanetimages.imgix.net/mastheads/78349125.jpg?sharp=10&vib=20&w=1200?x=0&y=0.2&w=1&h=0.3&width=500"
+      key="1"
+    />
+    <WithStyles(UGImageItem)
+      alt=""
+      imageUrl="http://www.daytripperpalawan.com/wp-content/uploads/2015/02/Daytripper_Palawan_ElNido.jpg?x=0&y=0.2&w=1&h=0.3&width=500"
+      key="2"
+    />
+  </div>
+</div>
+`;

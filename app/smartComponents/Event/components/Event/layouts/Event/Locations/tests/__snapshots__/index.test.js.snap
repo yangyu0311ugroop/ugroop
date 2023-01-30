@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Locations /> handleEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="space-between"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <Component
+              endLocationLabel=""
+              label={
+                <FormattedMessage
+                  defaultMessage="Departing"
+                  id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/departing"
+                />
+              }
+              readOnly={false}
+              startLocationLabel=""
+            />
+            <ConnectFunction
+              endLocationLabel=""
+              readOnly={false}
+              startLocationLabel=""
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Component
+              endLocationLabel=""
+              label={
+                <FormattedMessage
+                  defaultMessage="Arriving"
+                  id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+                />
+              }
+              readOnly={false}
+              startLocationLabel=""
+            />
+            <ConnectFunction
+              endLocationLabel=""
+              readOnly={false}
+              startLocationLabel=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          icon="lnr-tab"
+          iconButton={true}
+          onClick={[Function]}
+          size="small"
+          tooltipProps={
+            Object {
+              "title": "Swap Locations",
+            }
+          }
+          variant="outline"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Distance)))))
+    endLocationLabel=""
+    readOnly={false}
+    startLocationLabel=""
+  />
+</div>
+`;
+
+exports[`<Locations /> handleEditable should match snapshot if swapButton is null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="space-between"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Distance)))))
+    endLocationLabel=""
+    readOnly={true}
+    startLocationLabel=""
+  />
+</div>
+`;
+
+exports[`<Locations /> handleField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="center"
+    spacing={3}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        justify="center"
+      >
+        <WithStyles(GridItem)
+          md={2}
+          xs={12}
+        >
+          <H4
+            dense={true}
+            fontStyle="italic"
+            weight="bold"
+          >
+            <FormattedMessage
+              defaultMessage="Departing"
+              id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/departing"
+            />
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={10}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <Component
+                endLocationLabel=""
+                label={
+                  <FormattedMessage
+                    defaultMessage="Departing"
+                    id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/departing"
+                  />
+                }
+                readOnly={false}
+                startLocationLabel=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                endLocationLabel=""
+                readOnly={false}
+                startLocationLabel=""
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        justify="center"
+      >
+        <WithStyles(GridItem)
+          md={2}
+          xs={12}
+        >
+          <H4
+            dense={true}
+            fontStyle="italic"
+            weight="bold"
+          >
+            <FormattedMessage
+              defaultMessage="Arriving"
+              id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+            />
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={10}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <Component
+                endLocationLabel=""
+                label={
+                  <FormattedMessage
+                    defaultMessage="Arriving"
+                    id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+                  />
+                }
+                readOnly={false}
+                startLocationLabel=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                endLocationLabel=""
+                readOnly={false}
+                startLocationLabel=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Formsy(CheckboxField))
+                    compact={true}
+                    label="Same as origin"
+                    name="sameAsOrigin"
+                    onChange={[Function]}
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="gray"
+                    dense={true}
+                    icon="question-circle"
+                    iconButton={true}
+                    onClick={[Function]}
+                    size="extraSmall"
+                    variant="inline"
+                  />
+                  <WithStyles(ForwardRef(Popover))
+                    anchorEl={null}
+                    anchorOrigin={
+                      Object {
+                        "horizontal": "center",
+                        "vertical": "bottom",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={false}
+                    transformOrigin={
+                      Object {
+                        "horizontal": "center",
+                        "vertical": "top",
+                      }
+                    }
+                  >
+                    <WithStyles(UGCard)>
+                      <WithStyles(Padding)
+                        left="sm"
+                        right="sm"
+                      >
+                        <P>
+                          This will make the departing location same as the arriving location. This is useful for instances where a particular transportation will just tour you around and return to where you started.
+                        </P>
+                      </WithStyles(Padding)>
+                    </WithStyles(UGCard)>
+                  </WithStyles(ForwardRef(Popover))>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Locations /> onSwap should be called 1`] = `<div />`;
+
+exports[`<Locations /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Locations /> renderEndLocAndTimeField should match snapshot if state sameAsOrigin is false 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    justify="center"
+  >
+    <WithStyles(GridItem)
+      md={2}
+      xs={12}
+    >
+      <H4
+        dense={true}
+        fontStyle="italic"
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Arriving"
+          id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+        />
+      </H4>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={10}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <Component
+            endLocationLabel=""
+            label={
+              <FormattedMessage
+                defaultMessage="Arriving"
+                id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+              />
+            }
+            readOnly={false}
+            startLocationLabel=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            endLocationLabel=""
+            readOnly={false}
+            startLocationLabel=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <WithStyles(Formsy(CheckboxField))
+                compact={true}
+                label="Same as origin"
+                name="sameAsOrigin"
+                onChange={[Function]}
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="gray"
+                dense={true}
+                icon="question-circle"
+                iconButton={true}
+                onClick={[Function]}
+                size="extraSmall"
+                variant="inline"
+              />
+              <WithStyles(ForwardRef(Popover))
+                anchorEl={null}
+                anchorOrigin={
+                  Object {
+                    "horizontal": "center",
+                    "vertical": "bottom",
+                  }
+                }
+                onClose={[Function]}
+                open={false}
+                transformOrigin={
+                  Object {
+                    "horizontal": "center",
+                    "vertical": "top",
+                  }
+                }
+              >
+                <WithStyles(UGCard)>
+                  <WithStyles(Padding)
+                    left="sm"
+                    right="sm"
+                  >
+                    <P>
+                      This will make the departing location same as the arriving location. This is useful for instances where a particular transportation will just tour you around and return to where you started.
+                    </P>
+                  </WithStyles(Padding)>
+                </WithStyles(UGCard)>
+              </WithStyles(ForwardRef(Popover))>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Locations /> renderEndLocAndTimeField should match snapshot if state sameAsOrigin is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    justify="center"
+  >
+    <WithStyles(GridItem)
+      md={2}
+      xs={12}
+    >
+      <H4
+        dense={true}
+        fontStyle="italic"
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Arriving"
+          id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/components/Locations/arriving"
+        />
+      </H4>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={10}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            endLocationLabel=""
+            readOnly={false}
+            startLocationLabel=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <WithStyles(Formsy(CheckboxField))
+                compact={true}
+                label="Same as origin"
+                name="sameAsOrigin"
+                onChange={[Function]}
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="gray"
+                dense={true}
+                icon="question-circle"
+                iconButton={true}
+                onClick={[Function]}
+                size="extraSmall"
+                variant="inline"
+              />
+              <WithStyles(ForwardRef(Popover))
+                anchorEl={null}
+                anchorOrigin={
+                  Object {
+                    "horizontal": "center",
+                    "vertical": "bottom",
+                  }
+                }
+                onClose={[Function]}
+                open={false}
+                transformOrigin={
+                  Object {
+                    "horizontal": "center",
+                    "vertical": "top",
+                  }
+                }
+              >
+                <WithStyles(UGCard)>
+                  <WithStyles(Padding)
+                    left="sm"
+                    right="sm"
+                  >
+                    <P>
+                      This will make the departing location same as the arriving location. This is useful for instances where a particular transportation will just tour you around and return to where you started.
+                    </P>
+                  </WithStyles(Padding)>
+                </WithStyles(UGCard)>
+              </WithStyles(ForwardRef(Popover))>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Locations /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    endLocationLabel=""
+    readOnly={false}
+    startLocationLabel=""
+  />
+</div>
+`;

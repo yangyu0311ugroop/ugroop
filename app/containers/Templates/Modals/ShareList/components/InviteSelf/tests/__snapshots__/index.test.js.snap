@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InviteSelf /> joinTour() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="flex-end"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              loading={false}
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                direction="row"
+                justify="center"
+                wrap="noWrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Join as Organiser
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              italic={true}
+            >
+              Join to see Discussion Groups, Chats, Comments & Posts.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          danger={true}
+          italic={true}
+          sm={true}
+        >
+          <Component />
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<InviteSelf /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="flex-end"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              loading={false}
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                direction="row"
+                justify="center"
+                wrap="noWrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Join as Organiser
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              italic={true}
+            >
+              Join to see Discussion Groups, Chats, Comments & Posts.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

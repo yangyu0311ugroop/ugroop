@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateTab/utils.js addMultipleNode should return a particular object shape for set value 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+  "result": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`TemplateTab/utils.js addMultipleNode should return empty array 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+  "result": Array [],
+}
+`;
+
+exports[`TemplateTab/utils.js addMultipleNode should return empty array 2`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+  "result": Array [
+    undefined,
+  ],
+}
+`;
+
+exports[`TemplateTab/utils.js addTab should return a particular object shape for set value 1`] = `
+Object {
+  "nodes": [Function],
+}
+`;
+
+exports[`TemplateTab/utils.js addTab should return a particular object shape for set value 2`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "type": "tabtimeline",
+  },
+}
+`;

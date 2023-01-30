@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SameAsOrigin /> render() should match snapshot 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<SameAsOrigin /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(Formsy(CheckboxField))
+    compact={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Same as origin"
+        id="app/smartComponents/Event/components/Event/parts/Common/SameAsOrigin/messages.js"
+      />
+    }
+    name="data.detail.detail.common.sameAsOrigin"
+    onChange={[Function]}
+    value={false}
+  />
+</div>
+`;

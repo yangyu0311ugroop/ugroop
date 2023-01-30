@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrganisationList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)
+          className=""
+          key="orgNew"
+        >
+          <WithStyles(NavLink)
+            ellipsis={true}
+            heading="New organisation"
+            photo={
+              <div>
+                <WithStyles(Icon)
+                  icon="lnr-plus"
+                  size="small"
+                />
+              </div>
+            }
+            to="/orgs/new"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderNewOrganisation() should renderNewOrganisation 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    key="orgNew"
+  >
+    <WithStyles(NavLink)
+      ellipsis={true}
+      heading="New organisation"
+      photo={
+        <div>
+          <WithStyles(Icon)
+            icon="lnr-plus"
+            size="small"
+          />
+        </div>
+      }
+      to="/orgs/new"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderNewOrganisation() should renderNewOrganisation 2`] = `<div />`;
+
+exports[`<OrganisationList /> renderOrganisation() should renderOrganisation 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    key="personal"
+  >
+    <WithStyles(NavLink)
+      alwaysShow={true}
+      ellipsis={true}
+      fullWidth={true}
+      heading={
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <Unknown
+              className="j-text-ellipsis"
+              variant="stringOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            (Personal)
+          </WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(TourCount)))
+            id={-1}
+            variant="renderProp"
+          >
+            [Function]
+          </WithStyles(Connect(WithSimplifyResaga(TourCount)))>
+        </WithStyles(GridContainer)>
+      }
+      photo={
+        <Memo(Connect(WithSimplifyResaga(Photo)))
+          shape="imageSquare"
+          size="imageExtraExtraSmall"
+          variant="readOnly"
+        />
+      }
+      to="/my-tours/personal"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderOrganisation() should renderOrganisation to rendered some other link 1`] = `<div />`;
+
+exports[`<OrganisationList /> renderOrganisations() should renderOrganisations 1`] = `
+<div>
+  renderOrganisation
+  renderOrganisation
+</div>
+`;
+
+exports[`<OrganisationList /> renderPersonal() should renderPersonal 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    key="personal"
+  >
+    <WithStyles(NavLink)
+      alwaysShow={true}
+      ellipsis={true}
+      fullWidth={true}
+      heading={
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <Unknown
+              className="j-text-ellipsis"
+              variant="stringOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            (Personal)
+          </WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(TourCount)))
+            id={-1}
+            variant="renderProp"
+          >
+            [Function]
+          </WithStyles(Connect(WithSimplifyResaga(TourCount)))>
+        </WithStyles(GridContainer)>
+      }
+      photo={
+        <Memo(Connect(WithSimplifyResaga(Photo)))
+          shape="imageSquare"
+          size="imageExtraExtraSmall"
+          variant="readOnly"
+        />
+      }
+      to="/my-tours/personal"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderShowAllOrganisations() should renderShowAllOrganisations 1`] = `
+<div>
+  <span>
+     hidden. 
+    <span>
+      See more
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<OrganisationList /> renderShowAllOrganisations() should return null 1`] = `
+<div>
+  <span>
+    See less
+  </span>
+</div>
+`;
+
+exports[`<OrganisationList /> renderShowMore() should renderShowMore 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    onClick={[Function]}
+  >
+    <span>
+      1
+       hidden. 
+      <span>
+        See more
+      </span>
+    </span>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderTourCount should return count 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    title="There is 1 tour in this organisation"
+  >
+    <WithStyles(GridItem)>
+      1
+    </WithStyles(GridItem)>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<OrganisationList /> renderTourCount should return count if count > 1 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    title="There are 2 tours in this organisation"
+  >
+    <WithStyles(GridItem)>
+      2
+    </WithStyles(GridItem)>
+  </WithStyles(Tooltip)>
+</div>
+`;

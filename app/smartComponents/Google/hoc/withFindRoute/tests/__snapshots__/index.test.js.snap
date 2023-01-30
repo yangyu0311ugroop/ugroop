@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withFindRoute #render() still matches snapshot 1`] = `
+<Component
+  findRoute={[Function]}
+  resaga={Object {}}
+/>
+`;

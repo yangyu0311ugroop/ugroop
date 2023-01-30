@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabHeaderContainer /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(withRouter(Header)))))))))
+    activeTab={0}
+    data={Array []}
+    isPublicView={true}
+    sticky={false}
+    tabIds={Array []}
+  />
+</div>
+`;
+
+exports[`<TabHeaderContainer /> render() should render correctly with no data 1`] = `
+<div>
+  <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(withRouter(Header)))))))))
+    activeTab={0}
+    data={Array []}
+    isPublicView={true}
+    sticky={false}
+    tabIds={Array []}
+  />
+</div>
+`;

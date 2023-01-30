@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimeField /> #render() still matches snapshot 1`] = `
+<React.Fragment>
+  <FormsyInterceptor
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(Button)
+          className="pickerButton"
+          dense={true}
+          disableRipple={true}
+          onClick={[Function]}
+          tabIndex={-1}
+        >
+          <WithStyles(Icon)
+            icon="lnr-clock3"
+          />
+        </WithStyles(Button)>,
+      }
+    }
+    autoComplete="off"
+    disabled={false}
+    getErrorMessage={[Function]}
+    getValue={[Function]}
+    helperText="Help text"
+    innerRef={[Function]}
+    inputRef={[MockFunction]}
+    isRequired={[Function]}
+    isValidValue={[Function]}
+    label="Time Label"
+    name="time"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInterceptValue={[Function]}
+    setValue={[MockFunction]}
+    showError={[Function]}
+    utils={Object {}}
+    value="12:35"
+  />
+  <ForwardRef
+    TextFieldComponent={[Function]}
+    ampm={false}
+    clearable={true}
+    minDate={"0001-01-01T00:00:00.000Z"}
+    onChange={[Function]}
+    value={"0001-01-01T12:35:56.789Z"}
+  />
+</React.Fragment>
+`;
+
+exports[`<TimeField /> #render() still matches snapshot when error 1`] = `
+<React.Fragment>
+  <FormsyInterceptor
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(Button)
+          className="pickerButton"
+          dense={true}
+          disableRipple={true}
+          onClick={[Function]}
+          tabIndex={-1}
+        >
+          <WithStyles(Icon)
+            icon="lnr-clock3"
+          />
+        </WithStyles(Button)>,
+      }
+    }
+    autoComplete="off"
+    disabled={false}
+    getErrorMessage={[Function]}
+    getValue={[Function]}
+    helperText="Help text"
+    innerRef={[Function]}
+    inputRef={[MockFunction]}
+    isRequired={[Function]}
+    isValidValue={[Function]}
+    label="Time Label"
+    name="time"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInterceptValue={[Function]}
+    setValue={[MockFunction]}
+    showError={[Function]}
+    utils={Object {}}
+    value="12:35"
+  />
+  <ForwardRef
+    TextFieldComponent={[Function]}
+    ampm={false}
+    clearable={true}
+    minDate={"0001-01-01T00:00:00.000Z"}
+    onChange={[Function]}
+    value={"0001-01-01T12:35:56.789Z"}
+  />
+</React.Fragment>
+`;
+
+exports[`<TimeField /> #renderPickerButton() still matches snapshot 1`] = `
+<Button
+  className="pickerButton"
+  classes={
+    Object {
+      "block": "Button-block-16",
+      "blue": "Button-blue-6",
+      "blue_loading": "Button-blue_loading-7",
+      "dense": "Button-dense-2",
+      "first": "Button-first-4",
+      "green": "Button-green-8",
+      "grey": "Button-grey-25",
+      "inline": "Button-inline-5",
+      "large": "Button-large-15",
+      "medium": "Button-medium-14",
+      "noMargin": "Button-noMargin-3",
+      "outLineBlue": "Button-outLineBlue-17",
+      "outLineGreen": "Button-outLineGreen-18",
+      "outLineGrey": "Button-outLineGrey-19",
+      "outLineRed": "Button-outLineRed-21",
+      "outLineViolet": "Button-outLineViolet-23",
+      "outLineWhite": "Button-outLineWhite-22",
+      "outlineGrey": "Button-outlineGrey-20",
+      "outlineOrange": "Button-outlineOrange-24",
+      "pink": "Button-pink-10",
+      "red": "Button-red-11",
+      "root": "Button-root-1",
+      "small": "Button-small-13",
+      "textAlignleft": "Button-textAlignleft-26",
+      "violet": "Button-violet-9",
+      "xsmall": "Button-xsmall-12",
+    }
+  }
+  dense={true}
+  disableRipple={true}
+  onClick={[Function]}
+  tabIndex={-1}
+>
+  <WithStyles(Icon)
+    icon="lnr-clock3"
+  />
+</Button>
+`;

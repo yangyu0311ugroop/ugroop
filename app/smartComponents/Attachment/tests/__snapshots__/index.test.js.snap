@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachment /> handleEditableDeleteClick() should removeAttachment 1`] = `<div />`;
+
+exports[`<Attachment /> handleEditableSubmit() should createAttachment 1`] = `<div />`;
+
+exports[`<Attachment /> handleEditableSubmit() should handleEditableSubmit 1`] = `<div />`;
+
+exports[`<Attachment /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Attachment)
+    description={null}
+    fileSize={null}
+    hasMaxWidth={false}
+    id={null}
+    link={null}
+    name={null}
+    parentNodeId={null}
+    readOnly={null}
+    renderDescription={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "id": 2233,
+        "setValue": [MockFunction],
+      }
+    }
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderEditable() should renderEditable 1`] = `
+<div>
+  <WithStyles(EditableForm)
+    onSubmit={[Function]}
+    readOnly={null}
+    renderSecondaryFormActionsWithProps={[Function]}
+    renderValue={[Function]}
+    value={true}
+  >
+    <WithStyles(AttachmentBorder)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)
+          className=""
+        >
+          <ConnectFunction
+            name="attachment"
+            showClear={true}
+            value={
+              Object {
+                "fileSize": null,
+                "name": null,
+                "url": null,
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(AttachmentDescription)))
+          classes={
+            Object {
+              "default": "default",
+            }
+          }
+          description={null}
+          fileSize={null}
+          hasMaxWidth={false}
+          id={true}
+          name={null}
+          parentNodeId={null}
+          readOnly={null}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "id": 2233,
+              "setValue": [MockFunction],
+            }
+          }
+          url={null}
+          variant="textField"
+          width="xxs"
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(AttachmentBorder)>
+  </WithStyles(EditableForm)>
+</div>
+`;
+
+exports[`<Attachment /> renderEditableFormActions() should renderEditableFormActions 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    confirmButton="Delete Attachment"
+    dialogTitle="Delete this Attachment"
+    headlineText="Are you sure you want to delete this Attachment?"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Delete"
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderForm() should renderForm 1`] = `
+<div>
+  <WithStyles(AttachmentBorder)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <ConnectFunction
+          name="attachment"
+          showClear={true}
+          value={
+            Object {
+              "fileSize": null,
+              "name": null,
+              "url": null,
+            }
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(AttachmentDescription)))
+        classes={
+          Object {
+            "default": "default",
+          }
+        }
+        description={null}
+        fileSize={null}
+        hasMaxWidth={true}
+        id={null}
+        name={null}
+        parentNodeId={null}
+        readOnly={null}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "id": 2233,
+            "setValue": [MockFunction],
+          }
+        }
+        url={null}
+        variant="textField"
+        width="xxs"
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(AttachmentBorder)>
+</div>
+`;
+
+exports[`<Attachment /> renderPart() should renderPart 1`] = `
+<div>
+  <span
+    classes={
+      Object {
+        "default": "default",
+      }
+    }
+    description={null}
+    fileSize={null}
+    hasMaxWidth={false}
+    id={null}
+    name={null}
+    parentNodeId={null}
+    readOnly={null}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "id": 2233,
+        "setValue": [MockFunction],
+      }
+    }
+    url={null}
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderTextField() should renderTextField 1`] = `
+<div>
+  <ConnectFunction
+    name="attachment"
+    showClear={true}
+    value={
+      Object {
+        "fileSize": null,
+        "name": null,
+        "url": null,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderTextOnly() should renderTextOnly 1`] = `
+<div>
+  <WithStyles(Attachment)
+    description={null}
+    fileSize={null}
+    hasMaxWidth={false}
+    id={null}
+    link={null}
+    name={null}
+    parentNodeId={null}
+    readOnly={null}
+    renderDescription={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "id": 2233,
+        "setValue": [MockFunction],
+      }
+    }
+    variant={null}
+  />
+</div>
+`;

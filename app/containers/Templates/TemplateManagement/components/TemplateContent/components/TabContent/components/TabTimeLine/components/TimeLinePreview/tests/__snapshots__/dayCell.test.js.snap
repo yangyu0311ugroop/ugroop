@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayCell component render cover render case one 1`] = `
+<WithStyles(UGItemCell)
+  SubTitle="day content"
+  active={true}
+  didSelectRowAt={[Function]}
+  hasBadge={false}
+  row={1}
+  showTooltip={true}
+/>
+`;
+
+exports[`DayCell component render cover render case three 1`] = `
+<WithStyles(UGItemCell)
+  SubTitle="day content"
+  active={true}
+  didSelectRowAt={[Function]}
+  hasBadge={false}
+  row={0}
+  showTooltip={true}
+/>
+`;
+
+exports[`DayCell component render cover render case two 1`] = `
+<WithStyles(UGItemCell)
+  SubTitle="No Title Yet"
+  active={true}
+  didSelectRowAt={[Function]}
+  hasBadge={false}
+  row={1}
+  showTooltip={false}
+/>
+`;

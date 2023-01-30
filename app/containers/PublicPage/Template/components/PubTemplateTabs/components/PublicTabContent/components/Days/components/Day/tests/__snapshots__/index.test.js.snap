@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Day /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <H2
+      dense={true}
+      weight="bolder"
+    />
+    <WithStyles(Location)
+      icon=""
+      location=""
+      placeId=""
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Url)))
+      editable={false}
+      id={1}
+      variant="link"
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Day /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Container)>
+    <H2
+      dense={true}
+      weight="bolder"
+    />
+    <WithStyles(Location)
+      icon=""
+      location=""
+      placeId=""
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Url)))
+      editable={false}
+      id={1}
+      variant="link"
+    />
+    <WithStyles(UGRichEditor)
+      initContent="abcd"
+      readOnly={true}
+      toolBarId="dayToolBar1"
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Day /> should match style snapshot 1`] = `
+Object {
+  "dayDescription": "-dayDescription",
+  "grow": "-grow",
+  "root": "-root",
+  "urlStyles": "-urlStyles",
+  "wordBreak": "-wordBreak",
+}
+`;

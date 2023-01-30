@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              lg={true}
+            >
+              Push Notifications
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Let people know when something changes.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              label={
+                <FormattedMessage
+                  defaultMessage="Enable/Disable"
+                  id="TemplateContent.components.TabHeader.components.TourSettingsDialog.Notification.label"
+                />
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              settingKey="PUSH_NOTIFICATION"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              settingKey="PUSH_NOTIFICATION"
+              variant="renderProp"
+            >
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(TourSetting)))>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Notification /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+            highlight={true}
+            spacing={2}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    dark={true}
+                    lg={true}
+                  >
+                    Push Notifications
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    gray={true}
+                    nowrap={false}
+                  >
+                    Let people know when something changes.
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+                    classes={Object {}}
+                    intl={
+                      Object {
+                        "formatMessage": [MockFunction],
+                      }
+                    }
+                    label={
+                      <FormattedMessage
+                        defaultMessage="Enable/Disable"
+                        id="TemplateContent.components.TabHeader.components.TourSettingsDialog.Notification.label"
+                      />
+                    }
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    settingKey="PUSH_NOTIFICATION"
+                    variant="textField"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+                    classes={Object {}}
+                    intl={
+                      Object {
+                        "formatMessage": [MockFunction],
+                      }
+                    }
+                    resaga={
+                      Object {
+                        "dispatchTo": [MockFunction],
+                        "setValue": [MockFunction],
+                      }
+                    }
+                    settingKey="PUSH_NOTIFICATION"
+                    variant="textField"
+                  >
+                    <Component />
+                  </WithStyles(Connect(WithSimplifyResaga(TourSetting)))>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Notification /> render() should render text only variant 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              lg={true}
+            >
+              Push Notifications
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Let people know when something changes.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              label={
+                <FormattedMessage
+                  defaultMessage="Enable/Disable"
+                  id="TemplateContent.components.TabHeader.components.TourSettingsDialog.Notification.label"
+                />
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              settingKey="PUSH_NOTIFICATION"
+              variant="textOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+              classes={Object {}}
+              intl={
+                Object {
+                  "formatMessage": [MockFunction],
+                }
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              settingKey="PUSH_NOTIFICATION"
+              variant="textOnly"
+            >
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(TourSetting)))>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Notification /> renderHeading() should render correctly 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    bold={true}
+    lg={true}
+  >
+    <FormattedMessage
+      defaultMessage="Push Notifications"
+      id="TemplateContent.components.TabHeader.components.TourSettingsDialog.Notification.heading"
+    />
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Notification /> renderStatus() should render correctly when its not on 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    dark={true}
+    italic={true}
+    nowrap={false}
+  >
+    Notification is currently 
+    <WithStyles(JTextClass)
+      bold={true}
+      danger={true}
+      success={false}
+    >
+      Inactive
+    </WithStyles(JTextClass)>
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Notification /> renderStatus() should render correctly when its on 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    dark={true}
+    italic={true}
+    nowrap={false}
+  >
+    Notification is currently 
+    <WithStyles(JTextClass)
+      bold={true}
+      danger={false}
+      success={true}
+    >
+      Active
+    </WithStyles(JTextClass)>
+  </WithStyles(JTextClass)>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity/USER_USERS_CONFIG value orgId should return a particular shape of array 1`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "orgId",
+]
+`;
+
+exports[`Activity/config.js value parentIndex should return a particular shape of array 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "index",
+]
+`;
+
+exports[`Activity/config.js value parentType should return a particular shape of array 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "type",
+]
+`;

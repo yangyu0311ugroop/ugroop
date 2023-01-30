@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteButton/CONFIG_2 setValue calculatedPeople should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "people",
+]
+`;
+
+exports[`InviteButton/CONFIG_2 value participantEmail should match snapshot 1`] = `
+Array [
+  "personDataStore",
+  "people",
+  undefined,
+  "email",
+]
+`;
+
+exports[`InviteButton/config.js value dateOfBirth should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "dob",
+]
+`;
+
+exports[`InviteButton/config.js value firstName should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "firstName",
+]
+`;
+
+exports[`InviteButton/config.js value lastName should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "lastName",
+]
+`;
+
+exports[`InviteButton/config.js value personEmail should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "email",
+]
+`;
+
+exports[`InviteButton/config.js value personId keyPath should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "people",
+]
+`;
+
+exports[`InviteButton/config.js value personType should match snapshot 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "personType",
+]
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG CONFIG_2 passportNodeId should have getter that matches snapshot 1`] = `<div />`;
+
+exports[`CONFIG CONFIG_3 defaultUserValue should getter that matches snapshot 1`] = `
+<div>
+  1
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubtypeEditableHeadingForm /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "classes": Object {
+        "selectMenuPaper": "selectMenuPaper",
+      },
+      "dataId": 0,
+      "name": "name",
+      "readOnly": false,
+      "type": "",
+      "value": "",
+    },
+  ],
+]
+`;
+
+exports[`<SubtypeEditableHeadingForm /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableSelectForm)
+    SelectProps={
+      Object {
+        "MenuProps": Object {
+          "classes": Object {
+            "paper": "selectMenuPaper",
+          },
+        },
+      }
+    }
+    name="name"
+    onSubmit={[Function]}
+    options={Array []}
+    readOnly={false}
+    renderValue={[Function]}
+    value=""
+  >
+    <ConnectFunction
+      dataId={0}
+      variant="data"
+    />
+  </WithStyles(EditableSelectForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<SubtypeEditableHeadingForm /> #renderValue() still matches snapshot 1`] = `
+<EventHeading
+  Typography={[Function]}
+>
+  Coming Soon
+</EventHeading>
+`;

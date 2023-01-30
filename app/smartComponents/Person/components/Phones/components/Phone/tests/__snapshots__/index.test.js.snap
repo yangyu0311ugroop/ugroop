@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonPhone /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Phone)))
+    viewStore=""
+  />
+</div>
+`;

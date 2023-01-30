@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadButton /> handleDropZone should match snapshot 1`] = `
+<div>
+  <WithStyles(FileDropzone)
+    hasTextWidth={false}
+    onDrop={[Function]}
+  />
+</div>
+`;
+
+exports[`<UploadButton /> handleError should open snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Something went wrong. Please try again."
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.components.UploadButton.errorMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<UploadButton /> handleSuccess should open snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Successfully added new attachment."
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.components.UploadButton.successMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<UploadButton /> render() should match snapshot 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;

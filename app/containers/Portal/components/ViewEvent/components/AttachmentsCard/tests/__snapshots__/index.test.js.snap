@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentsCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              nowrap={true}
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  black={true}
+                  bold={true}
+                >
+                  Attachments
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  sm={true}
+                >
+                  (
+                  2
+                  )
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderAttachments
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AttachmentsCard /> render() should return null 1`] = `<div />`;
+
+exports[`<AttachmentsCard /> renderAttachment() should renderAttachment 1`] = `
+<div>
+  <WithStyles(Thumbnail) />
+</div>
+`;
+
+exports[`<AttachmentsCard /> renderAttachment() should return null 1`] = `
+<div>
+  <WithStyles(Thumbnail) />
+</div>
+`;
+
+exports[`<AttachmentsCard /> renderAttachments() should renderAttachments 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <ConnectFunction
+      dataId={1}
+      key="1"
+    />
+    <ConnectFunction
+      dataId={2}
+      key="2"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AttachmentsCard /> renderAttachments() should return null 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+  >
+    No attachments uploaded yet
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<AttachmentsCard /> renderDescription() should renderDescription 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      ellipsis={true}
+      gray={true}
+    >
+      description
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AttachmentsCard /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Empty)))
+      description="No attachments"
+      title="Attachments"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

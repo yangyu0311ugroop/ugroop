@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGDialogTitle component should render something 1`] = `
+<WithStyles(ForwardRef(DialogTitle))
+  classes={
+    Object {
+      "root": "UGDialogTitle-root",
+    }
+  }
+>
+  Something!
+</WithStyles(ForwardRef(DialogTitle))>
+`;
+
+exports[`UGDialogTitle component should render something if props.noPaddingBottom 1`] = `
+<WithStyles(ForwardRef(DialogTitle))
+  classes={
+    Object {
+      "root": "UGDialogTitle-root UGDialogTitle-noPaddingBottom",
+    }
+  }
+>
+  Something!
+</WithStyles(ForwardRef(DialogTitle))>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RiskRating /> render() should render 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RatingButton)))
+    active={true}
+    text="LOW"
+    title="Risk Rating: Low"
+    value={0}
+  />
+</div>
+`;
+
+exports[`<RiskRating /> renderHelp() should renderHelp 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <a
+      href="https://gateway-prod.ugroop.com/api/FileContainers/com.ugroop.personContainer/download/c6b38cf2-b175-4ef7-9bde-2cdb0dae8a94.jpeg"
+      target="_blank"
+    >
+      <WithStyles(Icon)
+        icon="lnr-question-circle"
+        paddingLeft={true}
+        size="xsmall"
+      />
+    </a>
+  </WithStyles(GridItem)>
+</div>
+`;

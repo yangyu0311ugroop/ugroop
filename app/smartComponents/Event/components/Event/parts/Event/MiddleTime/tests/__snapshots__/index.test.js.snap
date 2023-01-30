@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiddleTime /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<MiddleTime /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(IconSublabel)>
+  <FormattedMessage
+    defaultMessage="All Day"
+    id="app.Event.parts.Event.MiddleTime.labelValue"
+  />
+</WithStyles(IconSublabel)>
+`;

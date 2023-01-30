@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGCardHeaderFolder component should only render 3 images even if the imageList passed is beyond 3 1`] = `
+<div
+  className="UGCardHeaderFolder-ugCardHeaderFolder"
+>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderHeaderEmpty UGCardHeaderFolder-ugCardFolderHeader"
+  >
+    <WithStyles(H4)
+      className="UGCardHeaderFolder-ugCardFolderTitleEmpty"
+    />
+  </div>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderImgList"
+  >
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 8,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "opacity": 1,
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 7,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "backgroundColor": "#F6F8FA",
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 6,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "backgroundColor": "#F6F8FA",
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UGCardHeaderFolder component should render imageList being passed to the component (1) 1`] = `
+<div
+  className="UGCardHeaderFolder-ugCardHeaderFolder"
+>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderHeader"
+  >
+    <WithStyles(H4)
+      className="UGCardHeaderFolder-ugCardFolderTitle"
+    />
+  </div>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderImgList"
+  >
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 3,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+      <WithStyles(UGImageItem)
+        alt=""
+        imageUrl="http://qweqwe.com?width=500"
+        imgStyle="UGCardHeaderFolder-ugCardHeaderFolderImg"
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+      <WithStyles(UGImageItem)
+        alt=""
+        imageUrl="http://qweqwe.com?width=500"
+        imgStyle="UGCardHeaderFolder-ugCardHeaderFolderImg"
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+      <WithStyles(UGImageItem)
+        alt=""
+        imageUrl="http://qweqwe.com?width=500"
+        imgStyle="UGCardHeaderFolder-ugCardHeaderFolderImg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UGCardHeaderFolder component should render imageList being passed to the component (2) 1`] = `
+<div
+  className="UGCardHeaderFolder-ugCardHeaderFolder"
+>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderHeaderEmpty UGCardHeaderFolder-ugCardFolderHeader"
+  >
+    <WithStyles(H4)
+      className="UGCardHeaderFolder-ugCardFolderTitleEmpty"
+    />
+  </div>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderImgList"
+  >
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 3,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UGCardHeaderFolder component should render imageList being passed to the component (3) 1`] = `
+<div
+  className="UGCardHeaderFolder-ugCardHeaderFolder"
+>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderHeaderEmpty UGCardHeaderFolder-ugCardFolderHeader"
+  >
+    <WithStyles(H4)
+      className="UGCardHeaderFolder-ugCardFolderTitleEmpty"
+    />
+  </div>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderImgList"
+  >
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 3,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 0px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 2,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 16px)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="UGCardHeaderFolder-ugCardHeaderFolderImg cardAnimation"
+      key="ug-card-folder-pic-index-undefined"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="UGCardHeaderFolder-ugCardHeaderOverlay"
+        style={
+          Object {
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+      <span
+        style={
+          Object {
+            "display": "inline-block",
+            "height": "100%",
+            "width": "calc(100% - 32px)",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UGCardHeaderFolder component should render something 1`] = `
+<div
+  className="UGCardHeaderFolder-ugCardHeaderFolder"
+>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderHeaderEmpty UGCardHeaderFolder-ugCardFolderHeader"
+  >
+    <WithStyles(H4)
+      className="UGCardHeaderFolder-ugCardFolderTitleEmpty"
+    />
+  </div>
+  <div
+    className="UGCardHeaderFolder-ugCardFolderImgList"
+  />
+</div>
+`;

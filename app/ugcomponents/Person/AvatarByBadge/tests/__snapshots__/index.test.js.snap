@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarBadge/tests/index.test.js render() should render default 1`] = `
+<div>
+  <WithStyles(AvatarBadge)
+    fullName="?"
+    profileUrl={
+      Object {
+        "url": "url",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`AvatarBadge/tests/index.test.js render() should render default if photoUrl is null 1`] = `
+<WithStyles(AvatarBadge)
+  fullName="?"
+  profileUrl=""
+/>
+`;

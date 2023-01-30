@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SharedTemplates render()   should render when showShareToMe true 1`] = `
+<div>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Contains all shared templates",
+            "name": "description",
+          },
+        ]
+      }
+      title="Shared Tours"
+    />
+    <WithStyles(Container)>
+      <withRouter(WithStyles(Connect(WithSimplifyResaga(Component)))) />
+      <WithStyles(UGTemplateListHR) />
+      <WithStyles(Connect(WithSimplifyResaga(Body))) />
+    </WithStyles(Container)>
+  </div>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturedToursCard /> renderEmpty should render correctly 1`] = `
+<div>
+  <div>
+    app.smartComponents.Card.FeaturedToursCard.noFeaturedTours
+  </div>
+</div>
+`;
+
+exports[`<FeaturedToursCard /> renderHeader should render correctly 1`] = `
+<Header
+  classes={
+    Object {
+      "grow": "Header-grow-2",
+      "header": "Header-header-3",
+      "iconGrid": "Header-iconGrid-5",
+      "padding": "Header-padding-4",
+      "root": "Header-root-1",
+      "title": "Header-title-6",
+    }
+  }
+  expanded={true}
+  iconColor="blue"
+  isLoading={false}
+  onClickToggle={[Function]}
+  renderIcon="lnr-papers"
+  renderTitle="app.smartComponents.Card.FeaturedToursCard.featuredTours"
+/>
+`;
+
+exports[`<FeaturedToursCard /> renderLoadiing should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(LoadingText) />
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Invitation /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "cancelInvitation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getToken": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Invitation /> getTokenError() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "notifications": "upsertObject",
+    },
+  ],
+  Array [
+    Object {
+      "notifications": "upsertObject",
+    },
+  ],
+]
+`;
+
+exports[`<Invitation /> getTokenSuccess() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "notifications": "upsertObject",
+    },
+  ],
+]
+`;

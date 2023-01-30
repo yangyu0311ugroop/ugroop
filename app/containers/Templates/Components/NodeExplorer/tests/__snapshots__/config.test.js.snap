@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG setValue should be object with particular value 1`] = `
+Object {
+  "currResultCount": Array [
+    "myTemplatePageViewStore",
+    "currResultCount",
+  ],
+  "folderFormOpen": Array [
+    "myTemplatePageViewStore",
+    "folderFormOpen",
+  ],
+  "folderId": Array [
+    "myTemplatePageViewStore",
+    "id",
+  ],
+  "folderTreeIds": Array [
+    "myTemplatePageViewStore",
+    "folderTreeIds",
+  ],
+  "id": Array [
+    "myTemplatePageViewStore",
+    "id",
+  ],
+  "isAddTemplateModalOpen": Array [
+    "myTemplatePageViewStore",
+    "isAddTemplateModalOpen",
+  ],
+  "isFetchingInitialContent": Array [
+    "myTemplatePageViewStore",
+    "isFetchingInitialContent",
+  ],
+  "layout": Array [
+    "myTemplatePageViewStore",
+    "layout",
+  ],
+  "nodes": Array [
+    "nodeStore",
+    "nodes",
+  ],
+  "organisationId": Array [
+    "organisationView",
+    "organisationId",
+  ],
+  "people": Array [
+    "userDataStore",
+    "people",
+  ],
+  "sortField": Array [
+    "myTemplatePageViewStore",
+    "sortField",
+  ],
+  "sortOrder": Array [
+    "myTemplatePageViewStore",
+    "sortOrder",
+  ],
+}
+`;
+
+exports[`CONFIG value should be object with particular value 1`] = `
+Object {
+  "folderChildren": [Function],
+  "folderName": [Function],
+  "isFetchingInitialContent": Array [
+    "myTemplatePageViewStore",
+    "isFetchingInitialContent",
+  ],
+  "orgId": Array [
+    "organisationDataStore",
+    "organisationId",
+  ],
+  "sortField": Array [
+    "myTemplatePageViewStore",
+    "sortField",
+  ],
+  "sortOrder": Array [
+    "myTemplatePageViewStore",
+    "sortOrder",
+  ],
+  "view": Array [
+    "myTemplateListDataStore",
+    "view",
+  ],
+}
+`;

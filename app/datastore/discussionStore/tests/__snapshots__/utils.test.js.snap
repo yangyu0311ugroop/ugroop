@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/discussionStore/utils #getLatestDiscussionForTemplateAndDays() returns latest discussion date 1`] = `"Mon, 28 May '18"`;
+
+exports[`datastore/discussionStore/utils #getLatestDiscussionForTemplateAndDays() w/o template feedback 1`] = `"Mon, 28 May '18"`;
+
+exports[`datastore/discussionStore/utils #makeSetValueConfig() still matches snapshot 1`] = `
+Object {
+  "comments": Array [
+    "discussionStore",
+    "comments",
+  ],
+  "days": Array [
+    "discussionStore",
+    "days",
+  ],
+  "feedbacks": Array [
+    "discussionStore",
+    "feedbacks",
+  ],
+  "tabTimelines": Array [
+    "discussionStore",
+    "tabTimelines",
+  ],
+  "templateIds": Array [
+    "discussionStore",
+    "templateIds",
+  ],
+  "templates": Array [
+    "discussionStore",
+    "templates",
+  ],
+}
+`;
+
+exports[`datastore/discussionStore/utils #makeSetValueObj() still matches snapshot in default mode 1`] = `
+Object {
+  "days": Object {
+    "3": Object {
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 3,
+      "nextNodes": Array [],
+    },
+  },
+  "feedbacks": Object {
+    "undefined": Object {
+      "createdAt": "2018-05-28T16:23:45.6789",
+      "status": "open",
+    },
+  },
+  "tabTimelines": Object {
+    "2": Object {
+      "children": Array [
+        3,
+      ],
+      "id": "2",
+      "nextNodes": Array [],
+    },
+  },
+  "templateIds": Array [
+    "1",
+    "10",
+  ],
+  "templates": Object {
+    "1": Object {
+      "children": Array [
+        "2",
+      ],
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 1,
+    },
+    "10": Object {
+      "children": Array [],
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 10,
+    },
+  },
+}
+`;
+
+exports[`datastore/discussionStore/utils #normaliseTemplates() normalised data still matches snapshot 1`] = `
+Object {
+  "days": Object {
+    "3": Object {
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 3,
+      "nextNodes": Array [],
+    },
+  },
+  "feedbacks": Object {
+    "undefined": Object {
+      "createdAt": "2018-05-28T16:23:45.6789",
+      "status": "open",
+    },
+  },
+  "tabTimelines": Object {
+    "2": Object {
+      "children": Array [
+        3,
+      ],
+      "id": "2",
+      "nextNodes": Array [],
+    },
+  },
+  "templateIds": Array [
+    "1",
+    "10",
+  ],
+  "templates": Object {
+    "1": Object {
+      "children": Array [
+        "2",
+      ],
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 1,
+    },
+    "10": Object {
+      "children": Array [],
+      "feedbacks": Array [
+        undefined,
+      ],
+      "id": 10,
+    },
+  },
+}
+`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_MAIN_STORE_SORT_HELPER() #getSortOrderDiscussionSelector 1`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_MAIN_STORE_SORT_HELPER() #getSortOrderDiscussionSelector 2`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_MAIN_STORE_SORT_HELPER() #getSortOrderDiscussionSelector 3`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_STORE_SORT_HELPER() #getSortOrderSelector 1`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_STORE_SORT_HELPER() #getSortOrderSelector 2`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils DISCUSSION_STORE_SORT_HELPER() #getSortOrderSelector 3`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils getSortFunction() should return selector 1`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils getSortFunction() should return selector 2`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils getSortFunction() should return selector 3`] = `[Function]`;
+
+exports[`datastore/discussionStore/utils getSortFunction() should return selector 4`] = `[Function]`;

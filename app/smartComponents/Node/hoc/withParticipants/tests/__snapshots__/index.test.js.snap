@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withParticipants #render() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+  variant="renderProp"
+>
+  <Component />
+</WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))>
+`;
+
+exports[`withParticipants #render() still matches snapshot inside nodeProp 1`] = `
+<div
+  key="1"
+>
+  <Component
+    participants={Array []}
+    resaga={Object {}}
+  />
+</div>
+`;

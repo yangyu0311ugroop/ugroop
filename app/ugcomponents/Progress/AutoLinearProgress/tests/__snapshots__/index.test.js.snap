@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinearDeterminate Component should render something 1`] = `
+<div
+  className="LinearProgress-root"
+>
+  <WithStyles(ForwardRef(LinearProgress))
+    value={0}
+    variant="determinate"
+  />
+</div>
+`;

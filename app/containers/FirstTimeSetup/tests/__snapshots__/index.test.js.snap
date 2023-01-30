@@ -1,0 +1,1601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstTimeSetup <FirstTimeSetup /> should render loading 1`] = `
+<div
+  className={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Loading
+    className=""
+    color="#fff"
+    delay={1000}
+    height={24}
+    type="spin"
+    width={24}
+  />
+</div>
+`;
+
+exports[`FirstTimeSetup <FirstTimeSetup /> should render person setup 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="You have been assigned as an {admin} for your organisation. This means you have full control of all aspects of the uGroop service including data, users, settings and account information. More detailed functions that are available include:"
+          id="app.containers.FirstTimeSetup.youHaveBeenAssignedAsAdmin"
+          values={
+            Object {
+              "admin": <b>
+                Administrator
+              </b>,
+            }
+          }
+        />
+      </WithStyles(H4)>
+      <ul>
+        <li
+          key="0"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to invite other people to also be administrators of your organisation. You would need to do this if for example you were to leave this organisation."
+              id="app.containers.FirstTimeSetup.ability1"
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="1"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to set the preferences to be used by everyone in the organisation. Date display would be one example, as would how Notifications are delivered."
+              id="app.containers.FirstTimeSetup.ability2"
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="2"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The subscription service with pricing is chosen by the {admin}"
+              id="app.containers.FirstTimeSetup.ability3"
+              values={
+                Object {
+                  "admin": <b>
+                    Administrator
+                  </b>,
+                }
+              }
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="3"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to invite people in your organisation to act in other roles like {tourOwners} (those people that are able to create tours), {reviewers} (those that are able to oversee all tours for the organisation but not make any changes) and {moderators} (those that have the ability to control the content posted in the tour)."
+              id="app.containers.FirstTimeSetup.ability4"
+              values={
+                Object {
+                  "moderators": <b>
+                    Moderator
+                    s
+                  </b>,
+                  "reviewers": <b>
+                    Reviewer
+                    s
+                  </b>,
+                  "tourOwners": <b>
+                    Tour Owner
+                    s
+                  </b>,
+                }
+              }
+            />
+          </WithStyles(H4)>
+        </li>
+      </ul>
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="Now proceed to complete your organisation setup process and then you can begin working on your tours."
+          id="app.containers.FirstTimeSetup.nowProceedToOrganisationSetup"
+        />
+      </WithStyles(H4)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Index Wrapper should render without exploding 1`] = `
+<withRouter(Connect(WithSimplifyResaga(WithStyles(Component))))
+  location={
+    Object {
+      "pathName": "",
+    }
+  }
+>
+  <ConnectFunction />
+</withRouter(Connect(WithSimplifyResaga(WithStyles(Component))))>
+`;
+
+exports[`FirstTimeSetup Methods getRoleMessage ADMIN VIEW 1`] = `
+<div>
+  renderAdminMessage
+</div>
+`;
+
+exports[`FirstTimeSetup Methods getRoleMessage GENERAL VIEW 1`] = `
+<div>
+  renderGeneralMessage
+</div>
+`;
+
+exports[`FirstTimeSetup Methods getRoleMessage should render message for owner 1`] = `
+<div>
+  renderOwnerMessage
+</div>
+`;
+
+exports[`FirstTimeSetup Methods renderNavigations should render data needed to go to next step if data that was get from the orgs was firstTimeSetup 1`] = `
+<div>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Methods renderNavigations should render data needed to go to next step if data that was get from the orgs was not firstTimeSetup 1`] = `
+<div>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Administrator with no orgData yet 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="You have been assigned as an {admin} for your organisation. This means you have full control of all aspects of the uGroop service including data, users, settings and account information. More detailed functions that are available include:"
+          id="app.containers.FirstTimeSetup.youHaveBeenAssignedAsAdmin"
+          values={
+            Object {
+              "admin": <b>
+                Administrator
+              </b>,
+            }
+          }
+        />
+      </WithStyles(H4)>
+      <ul>
+        <li
+          key="0"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to invite other people to also be administrators of your organisation. You would need to do this if for example you were to leave this organisation."
+              id="app.containers.FirstTimeSetup.ability1"
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="1"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to set the preferences to be used by everyone in the organisation. Date display would be one example, as would how Notifications are delivered."
+              id="app.containers.FirstTimeSetup.ability2"
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="2"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The subscription service with pricing is chosen by the {admin}"
+              id="app.containers.FirstTimeSetup.ability3"
+              values={
+                Object {
+                  "admin": <b>
+                    Administrator
+                  </b>,
+                }
+              }
+            />
+          </WithStyles(H4)>
+        </li>
+        <li
+          key="3"
+        >
+          <WithStyles(H4)
+            className={
+              Object {
+                "lineHeight": 1.5,
+                "textAlign": "justify",
+              }
+            }
+          >
+            <FormattedMessage
+              defaultMessage="The ability to invite people in your organisation to act in other roles like {tourOwners} (those people that are able to create tours), {reviewers} (those that are able to oversee all tours for the organisation but not make any changes) and {moderators} (those that have the ability to control the content posted in the tour)."
+              id="app.containers.FirstTimeSetup.ability4"
+              values={
+                Object {
+                  "moderators": <b>
+                    Moderator
+                    s
+                  </b>,
+                  "reviewers": <b>
+                    Reviewer
+                    s
+                  </b>,
+                  "tourOwners": <b>
+                    Tour Owner
+                    s
+                  </b>,
+                }
+              }
+            />
+          </WithStyles(H4)>
+        </li>
+      </ul>
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="Now proceed to complete your organisation setup process and then you can begin working on your tours."
+          id="app.containers.FirstTimeSetup.nowProceedToOrganisationSetup"
+        />
+      </WithStyles(H4)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Administrator with orgData already 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      getRoleMessage
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Member 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      getRoleMessage
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Personal message 1`] = `
+<div>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="You are the Owner of your personal workspace and have full control over all aspects of the uGroop experience."
+      id="app.containers.FirstTimeSetup.youAreTheOwner"
+    />
+  </WithStyles(H4)>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="When planning and booking your adventure there are usually lots of emails with quotations, confirmations, terms and conditions, what you need to know, wear and bring, where to go, changes of itinerary, tickets and lots more."
+      id="app.containers.FirstTimeSetup.whenPlanning"
+    />
+     
+    <FormattedMessage
+      defaultMessage="Information is often spread across your desktop systems, paper and mobile devices over many channels."
+      id="app.containers.FirstTimeSetup.informationSpread"
+    />
+     
+    <FormattedMessage
+      defaultMessage="Then there are  things you may want to do or places to see along with a whole list of things that need to be done before you leave."
+      id="app.containers.FirstTimeSetup.thingsYouMayWant"
+    />
+     
+    <FormattedMessage
+      defaultMessage="Referencing the latest information, or sometimes even finding where it is can be time consuming, frustrating and take some pleasure away from your journey."
+      id="app.containers.FirstTimeSetup.referencingInfo"
+    />
+  </WithStyles(H4)>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="So here is the place to put all that info. Everything you need to get you through each day so you can plan quickly and easily tap into your travel resources to find things when your adventure starts."
+      id="app.containers.FirstTimeSetup.hereAllInfo"
+    />
+  </WithStyles(H4)>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="Let’s get started…"
+      id="app.containers.FirstTimeSetup.letsGetStarted"
+    />
+  </WithStyles(H4)>
+  <WithStyles(H6)>
+    <FormattedMessage
+      defaultMessage="Just a little note that uGroop is not a booking platform, there are many of those now.  Before you book and after you book is where we fit in {smile}"
+      id="app.containers.FirstTimeSetup.extraNote"
+      values={
+        Object {
+          "smile": <span
+            aria-label="smiley"
+            role="img"
+          >
+            🙂
+          </span>,
+        }
+      }
+    />
+  </WithStyles(H6)>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Reviewer 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      getRoleMessage
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render Tour Creator 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of First Time Setup",
+          "name": "description",
+        },
+      ]
+    }
+    title="First Time Setup"
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": "2px",
+        "color": "#989494",
+        "margin": 0,
+        "padding": "5%",
+      }
+    }
+    direction="column"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(H1)
+        className={
+          Object {
+            "color": "#759bec",
+            "fontSize": 30,
+            "margin": "20px 0",
+          }
+        }
+        weight="h1FontSize"
+      >
+        <WithStyles(Icon)
+          className={
+            Object {
+              "color": "#c0d5e0",
+            }
+          }
+          icon="ug-logo"
+          size="large"
+        />
+        <FormattedMessage
+          defaultMessage="Welcome to uGroop, your complete group tours manager!"
+          id="app.containers.FirstTimeSetup.welcome"
+        />
+      </WithStyles(H1)>
+      getRoleMessage
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <div
+    className={
+      Object {
+        "& > a": Object {
+          "textDecoration": "none",
+        },
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "textAlign": "center",
+      }
+    }
+  >
+    <withRouter(UGLink)
+      className={
+        Object {
+          "& > button": Object {
+            "fontWeight": 600,
+          },
+          "marginTop": "30px",
+        }
+      }
+      onClick={[Function]}
+      to="/admin/setup/person"
+    >
+      <WithStyles(Button)
+        className="display padding"
+        color="green"
+        size="medium"
+      >
+        <div>
+          Proceed to Person Setup
+           
+        </div>
+        <div
+          className={
+            Object {
+              "display": "flex",
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+    <ConnectFunction
+      className={
+        Object {
+          "& > button": Object {
+            "color": "#989494",
+            "fontWeight": 600,
+          },
+          "& > button:hover, button:focus": Object {
+            "backgroundColor": "rgba(255, 181, 54, 0.5)",
+          },
+          "marginTop": "-28px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "padding": "16px 108px",
+          }
+        }
+        onClick={[Function]}
+      >
+        Logout
+      </WithStyles(Button)>
+    </ConnectFunction>
+  </div>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render general message 1`] = `
+<div>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="You have accepted an invitation to connect to a tour and will be able to perform the functions that have been provided to you in Invitations."
+      id="app.containers.FirstTimeSetup.generalRoleMessage"
+    />
+  </WithStyles(H4)>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="Now proceed to complete your profile set-up and then you can begin working on the tour."
+      id="app.containers.FirstTimeSetup.nowProceedToProfileSetup"
+    />
+  </WithStyles(H4)>
+</div>
+`;
+
+exports[`FirstTimeSetup Roles should render owner message 1`] = `
+<div>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="You are the {highlightedText} of your organisation and have full control over all aspects of the uGroop experience including users, settings, subscription, and account information."
+      id="app.containers.FirstTimeSetup.youHaveBeenAssignedAsOwner"
+      values={
+        Object {
+          "highlightedText": <b
+            style={
+              Object {
+                "textTransform": "capitalize",
+              }
+            }
+          >
+            owner
+          </b>,
+        }
+      }
+    />
+  </WithStyles(H4)>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="Key functions available to you and Administrators include:"
+      id="app.containers.FirstTimeSetup.ownerKeyFunctions"
+    />
+  </WithStyles(H4)>
+  <ul>
+    <li
+      key="0"
+    >
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="The ability to invite others to your organisation in a number of roles depending on the level and type of access they would be given."
+          id="app.containers.FirstTimeSetup.ownerAbility1"
+          values={
+            Object {
+              "highlightedText": <b>
+                transfer
+              </b>,
+            }
+          }
+        />
+      </WithStyles(H4)>
+    </li>
+    <li
+      key="1"
+    >
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="Set the preferences to be used by everyone in your organisation."
+          id="app.containers.FirstTimeSetup.ownerAbility2"
+        />
+      </WithStyles(H4)>
+    </li>
+    <li
+      key="2"
+    >
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="Remove users that may have left the organisation or changed roles"
+          id="app.containers.FirstTimeSetup.ownerAbility3"
+          values={
+            Object {
+              "highlightedText": <b
+                style={
+                  Object {
+                    "textTransform": "capitalize",
+                  }
+                }
+              >
+                owner
+              </b>,
+            }
+          }
+        />
+      </WithStyles(H4)>
+    </li>
+    <li
+      key="3"
+    >
+      <WithStyles(H4)
+        className={
+          Object {
+            "lineHeight": 1.5,
+            "textAlign": "justify",
+          }
+        }
+      >
+        <FormattedMessage
+          defaultMessage="Maintain the Library of assets to be used in tour planning and management."
+          id="app.containers.FirstTimeSetup.ownerAbility3"
+          values={
+            Object {
+              "highlightedText": <b
+                style={
+                  Object {
+                    "textTransform": "capitalize",
+                  }
+                }
+              >
+                Administrator
+              </b>,
+            }
+          }
+        />
+      </WithStyles(H4)>
+    </li>
+  </ul>
+  <WithStyles(H4)
+    className={
+      Object {
+        "lineHeight": 1.5,
+        "textAlign": "justify",
+      }
+    }
+  >
+    <FormattedMessage
+      defaultMessage="Let’s get started…"
+      id="app.containers.FirstTimeSetup.letsGetStarted"
+    />
+  </WithStyles(H4)>
+</div>
+`;
+
+exports[`FirstTimeSetup Wrapper should render without exploding 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    exact={true}
+  />
+  <Route
+    component={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(FirstStep(OrganisationSetupWrapper))",
+        "type": [Function],
+      }
+    }
+    path="undefined/organisation"
+  />
+  <Route
+    component={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(LastStep(PersonSetupWrapper))",
+        "type": [Function],
+      }
+    }
+    path="undefined/person"
+  />
+</Switch>
+`;

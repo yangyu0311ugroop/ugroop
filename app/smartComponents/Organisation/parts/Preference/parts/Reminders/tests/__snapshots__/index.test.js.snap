@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reminders /> renderSwitch should match snapshot 1`] = `
+<div>
+  <WithStyles(SwitchField)
+    disabled={false}
+    label="Reminders enabled"
+    onChange={[Function]}
+    value={true}
+  />
+</div>
+`;
+
+exports[`<Reminders /> renderSwitch should match snapshot if no reminderDisabled 1`] = `
+<div>
+  <WithStyles(SwitchField)
+    disabled={false}
+    label="Reminders enabled"
+    onChange={[Function]}
+    value={true}
+  />
+</div>
+`;
+
+exports[`<Reminders /> renderSwitch should match snapshot if no reminderDisabled 2`] = `
+<div>
+  <WithStyles(SwitchField)
+    disabled={false}
+    label="Reminders disabled"
+    onChange={[Function]}
+    value={false}
+  />
+</div>
+`;

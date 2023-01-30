@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateField /> #render() still matches snapshot 1`] = `
+<Formsy(DateField)
+  autoComplete="off"
+  displayFormat="D MMMM YYYY"
+  innerRef={[Function]}
+  maxDateMessage={null}
+  minDate="1900-01-01"
+  minDateMessage="Minimum date is 1 January 1900"
+  name="name"
+  required={false}
+  type="text"
+  validationError=""
+  validationErrors={
+    Object {
+      "isDate": "Please use valid format (eg. 1 April 2019)",
+      "minDate": "Minimum date is 1 January 1900",
+    }
+  }
+  validations={
+    Object {
+      "isDate": true,
+      "minDate": "1900-01-01",
+    }
+  }
+  value={null}
+/>
+`;

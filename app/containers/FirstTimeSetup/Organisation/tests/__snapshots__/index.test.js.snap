@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/FirstTimeSetup/Organisation Wrapper should render without exploding 1`] = `
+<withRouter(Connect(WithSimplifyResaga(WithStyles(Component))))
+  location={Object {}}
+>
+  <ConnectFunction
+    type="Enterprise"
+  />
+</withRouter(Connect(WithSimplifyResaga(WithStyles(Component))))>
+`;

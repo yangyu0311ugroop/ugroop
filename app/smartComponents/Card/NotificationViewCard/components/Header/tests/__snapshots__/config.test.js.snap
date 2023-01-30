@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Card/NotificationViewCard/components/Header/config CONFIG #value ugroopIds 1`] = `
+Object {
+  "getter": [Function],
+  "keyPath": Array [
+    "notificationStore",
+    "ugroopIds",
+  ],
+  "props": [Function],
+}
+`;

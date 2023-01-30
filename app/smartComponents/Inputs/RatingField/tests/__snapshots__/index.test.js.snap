@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingField /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Rating)
+    onChange={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

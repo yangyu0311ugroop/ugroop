@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Editable /> #render() still matches snapshot 1`] = `
+<div
+  className=""
+>
+  <WithStyles(InlineButton)
+    bold={false}
+    className=""
+    component="div"
+    isEllipsis={true}
+    onClick={[MockFunction]}
+    onMouseEnter={null}
+    onMouseLeave={null}
+    spanBlock={true}
+    testId="editableInlineButton"
+  >
+    Children
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<Editable /> #render() still matches snapshot if no props.children 1`] = `<div />`;
+
+exports[`<Editable /> #render() still matches snapshot if props.readOnly 1`] = `
+<div>
+  <WithStyles(ReadOnlyWrapper)
+    Typography="P"
+    bold={false}
+    onMouseEnter={null}
+    onMouseLeave={null}
+  >
+    Children
+  </WithStyles(ReadOnlyWrapper)>
+</div>
+`;

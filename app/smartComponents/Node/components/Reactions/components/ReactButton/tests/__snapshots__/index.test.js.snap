@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactButton /> handleClick should run dispatch to delete link when user already reacted 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "reaction",
+          "actionContent": Object {
+            "type": "like",
+          },
+          "nextNodeId": undefined,
+        },
+        "id": undefined,
+        "nextNodeChildKey": "reactions",
+        "prevNodeChildKey": "reactions",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "deleteLink",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "fk": undefined,
+        "id": undefined,
+        "linkKey": undefined,
+        "nextNodeChildKey": "reactions",
+        "parentNodeId": undefined,
+        "prevNodeChildKey": "reactions",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ReactButton /> handleClick should run dispatchTo node api create link 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "reaction",
+          "actionContent": Object {
+            "type": "like",
+          },
+          "nextNodeId": undefined,
+        },
+        "id": undefined,
+        "nextNodeChildKey": "reactions",
+        "prevNodeChildKey": "reactions",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ReactButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="black"
+        dense={true}
+        loading={false}
+        onClick={[Function]}
+        size="xxs"
+        variant="inline"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="black"
+              icon="thumbs-up"
+              size="xxs"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <P
+              dense={true}
+              success={false}
+            >
+              <FormattedMessage
+                defaultMessage="Like"
+                id="app.smartComponents.Node.components.Reactions.components.ReactButton.label"
+              />
+            </P>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

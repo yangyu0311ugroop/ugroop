@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> componentWillReceiveProps() should componentWillReceiveProps 1`] = `
+Array [
+  Array [
+    Object {
+      "pathname": "pathname",
+    },
+  ],
+]
+`;
+
+exports[`<Dashboard /> componentWillReceiveProps() should componentWillReceiveProps 2`] = `
+Array [
+  Array [
+    Object {
+      "path": "path",
+    },
+  ],
+]
+`;
+
+exports[`<Dashboard /> handleChangePage() should handleChangePage() 1`] = `
+Array [
+  Array [
+    Object {
+      "page": "pathname",
+    },
+  ],
+  Array [
+    Object {
+      "page": "to change",
+    },
+  ],
+]
+`;
+
+exports[`<Dashboard /> renderCreateOrg() should renderCreateOrg 1`] = `
+<div>
+  <PlanProvider>
+    <CreateOrganisationWrapper
+      type="Enterprise"
+    />
+  </PlanProvider>
+</div>
+`;
+
+exports[`<Dashboard /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        className=""
+        exact={true}
+        title="Tours"
+        to="/my-tours"
+      >
+        <div>
+          Itineraries
+        </div>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        exact={true}
+        title="Up Next"
+        to="/"
+      >
+        <div>
+          See what’s up next
+        </div>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <withRouter(Connect(Component)) />
+          </div>
+          <WithStyles(Hr)
+            half={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="blue"
+              icon="lnr-group-work"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Organisations
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))
+        overlay={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Dashboard /> renderMenu() should renderMenu smDown 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <withRouter(UGNavLink)
+        className=""
+        exact={true}
+        title="Tours"
+        to="/my-tours"
+      >
+        <div>
+          Itineraries
+        </div>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <withRouter(UGNavLink)
+        exact={true}
+        title="Up Next"
+        to="/"
+      >
+        <div>
+          See What’s up next
+        </div>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

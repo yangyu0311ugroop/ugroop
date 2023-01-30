@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableSeat /> renderDialogFooter should pass to renderActions buttons needed for dialog footer if loading is not true 1`] = `
+Array [
+  Array [
+    Array [
+      <WithStyles(GridItem)>
+        <DeleteButton
+          ButtonProps={Object {}}
+          cancelTimeoutMs={7000}
+          disabled={false}
+          iconButton={true}
+          loading={false}
+          onClick={[Function]}
+          size="base"
+          text="Delete"
+        />
+      </WithStyles(GridItem)>,
+      <WithStyles(GridItem)>
+        renderCancelButton
+      </WithStyles(GridItem)>,
+      <WithStyles(GridItem)>
+        renderSubmitButton
+      </WithStyles(GridItem)>,
+    ],
+  ],
+]
+`;
+
+exports[`<EditableSeat /> renderDialogFooter should pass to renderActions buttons needed for dialog footer if loading is true 1`] = `
+Array [
+  Array [
+    Array [
+      <WithStyles(GridItem)>
+        <DeleteButton
+          ButtonProps={Object {}}
+          cancelTimeoutMs={7000}
+          disabled={false}
+          iconButton={true}
+          loading={true}
+          onClick={[Function]}
+          size="base"
+          text="Delete"
+        />
+      </WithStyles(GridItem)>,
+      <WithStyles(GridItem)>
+        renderCancelButton
+      </WithStyles(GridItem)>,
+      null,
+    ],
+  ],
+]
+`;
+
+exports[`<EditableSeat /> renderValue should display name of participant including avatar 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        qqqq
+      </P>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+        weight="bolder"
+      >
+        <WithStyles(Icon)
+          icon="arrow-right"
+          size="extraSmall"
+        />
+      </P>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        AvatarProps={
+          Object {
+            "imageSize": "imageExtraExtraExtraSmall",
+            "sm": false,
+            "xxs": true,
+          }
+        }
+        id={1}
+        variant="avatar"
+      />
+       
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        <ConnectFunction
+          id={1}
+        />
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableSeat /> renderValue should not display name of participant if participantId is 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        qqqqq
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableSeat /> should render content correctly 1`] = `ShallowWrapper {}`;
+
+exports[`<EditableSeat /> should render correctly 1`] = `
+<Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Content)))
+    id={1}
+    variant="renderProp"
+  >
+    <Component />
+  </WithStyles(Connect(WithSimplifyResaga(Content)))>
+  <WithStyles(Connect(WithSimplifyResaga(SeatDialog)))
+    eventNodeId={3}
+    loading={false}
+    mode="edit"
+    onClose={[Function]}
+    onSubmit={[Function]}
+    open={false}
+    renderFooter={[Function]}
+    seatNodeId={1}
+  />
+</Fragment>
+`;

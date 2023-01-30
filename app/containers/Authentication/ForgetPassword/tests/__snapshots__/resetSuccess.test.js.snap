@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResetSuccess /> props should render email address 1`] = `
+<div>
+  <WithStyles(H4)>
+    <FormattedMessage
+      defaultMessage="We have successfully reset your password for "
+      id="ugroop.containers.ForgetPasswordPage.emailSuccessContentP1"
+    />
+    <b>
+      h@h.com
+    </b>
+  </WithStyles(H4)>
+  <WithStyles(H4)>
+    <withRouter(UGLink)
+      to="/login?email=h%40h.com"
+    >
+      <FormattedMessage
+        defaultMessage="Back to Login"
+        id="ugroop.containers.ForgetPasswordPage.login"
+      />
+    </withRouter(UGLink)>
+  </WithStyles(H4)>
+</div>
+`;

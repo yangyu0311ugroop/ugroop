@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatePeopleCount/CONFIG_3 value mergedUserEmails getter should not explode 1`] = `
+Array [
+  undefined,
+]
+`;
+
+exports[`CalculatePeopleCount/CONFIG_3 value mergedUserEmails getter should return merged emails 1`] = `
+Array [
+  "123123-1231231",
+  "cc@gg.com",
+  "dd@gg.com",
+  "123123-1231232",
+  "bb@gg.com",
+  "aa@gg.com",
+  "123123-1231233",
+  "ee@gg.com",
+]
+`;

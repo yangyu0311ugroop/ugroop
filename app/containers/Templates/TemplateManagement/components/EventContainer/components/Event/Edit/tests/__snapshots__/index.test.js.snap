@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventEdit /> #handleFormValidSubmit() calls TEMPLATE_API_HELPERS.patchEvent if changed 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+      "onError": [Function],
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {
+        "paperRoot": "paperRoot",
+      },
+      "dataId": 0,
+      "dialogProps": Object {},
+      "formSubtype": undefined,
+      "formType": undefined,
+      "iconOverride": "",
+      "id": 1,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "subtype": null,
+      "templateId": 2,
+      "type": null,
+    },
+  ],
+]
+`;
+
+exports[`<EventEdit /> #handleOpen() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "form": undefined,
+  },
+}
+`;
+
+exports[`<EventEdit /> #render() still matches snapshot 1`] = `
+<WithStyles(GenericForm)
+  PaperProps={
+    Object {
+      "classes": Object {
+        "root": "paperRoot",
+      },
+    }
+  }
+  canSubmitForm={true}
+  dialogProps={Object {}}
+  onCancel={[Function]}
+  onClose={[Function]}
+  onFormValidSubmit={[Function]}
+  open={false}
+  renderHeader={[Function]}
+  submitButtonContent={
+    <FormattedMessage
+      defaultMessage="Save & Close"
+      id="app.EventContainer.Event.Edit.submitButtonLabel"
+    />
+  }
+>
+  <ConnectFunction
+    renderAccommodation={[Function]}
+    renderActivity={[Function]}
+    renderEvent={[Function]}
+    renderFlight={[Function]}
+    renderTransportation={[Function]}
+    subtype={null}
+    type={null}
+  />
+  <EventPatchData
+    dataId={0}
+    id={1}
+    subtype={false}
+  />
+</WithStyles(GenericForm)>
+`;
+
+exports[`<EventEdit /> #renderHeader() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading={
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+          dataId={0}
+          filterOptions={[Function]}
+          id={1}
+          readOnly={false}
+          templateId={2}
+          variant="editableHeading"
+        />
+        <Memo(Connect(WithSimplifyResaga(Icon)))
+          dataId={0}
+          id={1}
+          templateId={2}
+          variant="editableHeading"
+        />
+      </WithStyles(GridContainer)>
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="EDIT"
+        id="app.EventContainer.Event.Edit.headingBackground"
+      />
+    }
+  />
+  closeButton
+</div>
+`;
+
+exports[`<EventEdit /> #renderNoPart() still matches snapshot 1`] = `<div />`;
+
+exports[`<EventEdit /> #updateTimes() calls NODE_API_HELPERS.getTimes 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 2,
+      "ids": Array [
+        1,
+      ],
+    },
+    Object {
+      "classes": Object {
+        "paperRoot": "paperRoot",
+      },
+      "dataId": 0,
+      "dialogProps": Object {},
+      "formSubtype": undefined,
+      "formType": undefined,
+      "iconOverride": "",
+      "id": 1,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "subtype": null,
+      "templateId": 2,
+      "type": null,
+    },
+  ],
+]
+`;

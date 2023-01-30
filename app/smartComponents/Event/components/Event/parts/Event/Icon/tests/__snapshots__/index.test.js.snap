@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderEditableHeading={[Function]}
+  renderEditableHeadingForm={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Icon /> #renderIcon() renders Component 1`] = `
+<Component
+  SelectProps={
+    Object {
+      "displayEmpty": true,
+    }
+  }
+  name="data.detail.iconOverride"
+  subtype=""
+  type=""
+  value=""
+  variant={null}
+/>
+`;

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditPreferencesForm /> handleSwitchChange renderSwitch should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="Reminders enabled"
+      onChange={[Function]}
+      value={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> handleSwitchChange renderSwitch should match snapshot if disabled 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="Reminders disabled"
+      onChange={[Function]}
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> handleSwitchChange renderSwitch should match snapshot if no reminderDisabled 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="Reminders enabled"
+      onChange={[Function]}
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> logicWording should call logicWording 1`] = `
+<div>
+  everyday  for 5 attempts
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderReadOnly() should renderReadOnly() 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <div />
+      <WithStyles(GridItem)>
+        Reminder is
+         
+        Active.
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+  >
+    Email reminder will be send be send
+     
+    everyday  for 5 attempts
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSeeMoreSwitch should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          justify="flex-start"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              Disable See More
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              justify="flex-end"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(SwitchField)
+                  onChange={[Function]}
+                  value={true}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSeeMoreSwitch should match snapshot if disabled 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          justify="flex-start"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              Disable See More
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              justify="flex-end"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(SwitchField)
+                  onChange={[Function]}
+                  value={false}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSeeMoreSwitch should match snapshot if no seeMoreDisabled 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          justify="flex-start"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              Disable See More
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              justify="flex-end"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(SwitchField)
+                  onChange={[Function]}
+                  value={false}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSwitchSeeMore should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="See More enabled"
+      onChange={[Function]}
+      value={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSwitchSeeMore should match snapshot if disabled 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="See More disabled"
+      onChange={[Function]}
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditPreferencesForm /> renderSwitchSeeMore should match snapshot if no reminderDisabled 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(SwitchField)
+      label="See More enabled"
+      onChange={[Function]}
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

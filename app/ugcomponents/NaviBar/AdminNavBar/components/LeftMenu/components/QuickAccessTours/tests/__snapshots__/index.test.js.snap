@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickAccessTours /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    halfPadding={true}
+    placement="bottom-start"
+    recent={Array []}
+    renderButton={[Function]}
+    stars={Array []}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<QuickAccessTours /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(JButton)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      noWrap={true}
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          icon="lnr-menu"
+          paddingRight={true}
+          size="normal"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)>
+          Recent
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<QuickAccessTours /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="star"
+                    icon="lnr-star"
+                    size="normal"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    gray={true}
+                  >
+                    STARRED
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            renderTour
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="success"
+                    icon="lnr-eye"
+                    size="normal"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    gray={true}
+                  >
+                    RECENTLY VIEWED
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            renderTour
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(Hr)
+          quarter={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            justify="space-between"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(NewTour))) />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JButton)
+                noBorderRadius={true}
+                onClick={[Function]}
+              >
+                <WithStyles(JTextClass)
+                  blue={true}
+                >
+                  See all
+                </WithStyles(JTextClass)>
+              </WithStyles(JButton)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<QuickAccessTours /> renderMenu() should return null 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                dark={true}
+                nowrap={false}
+              >
+                Nothing to see yet.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                gray={true}
+                nowrap={false}
+              >
+                Tours that you starred or recently viewed will appear here.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(Hr)
+          quarter={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            justify="space-between"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(NewTour))) />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JButton)
+                noBorderRadius={true}
+                onClick={[Function]}
+              >
+                <WithStyles(JTextClass)
+                  blue={true}
+                >
+                  See all
+                </WithStyles(JTextClass)>
+              </WithStyles(JButton)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<QuickAccessTours /> renderTour() should renderTour 1`] = `
+<div>
+  <ConnectFunction
+    showOrganisation={true}
+    variant="compressed"
+  />
+</div>
+`;

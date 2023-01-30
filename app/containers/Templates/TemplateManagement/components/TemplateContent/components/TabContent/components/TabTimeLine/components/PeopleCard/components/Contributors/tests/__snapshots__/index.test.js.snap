@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contributors /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <H6
+        color="gray"
+        dense={true}
+        transform="uppercase"
+        weight="bold"
+      >
+        Organisers
+      </H6>
+    </WithStyles(GridItem)>
+    <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+      <Component />
+    </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Contributors /> renderSeeMore should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    clickable={false}
+    onClick={null}
+  >
+    <P
+      dense={true}
+    >
+      <Span
+        dense={true}
+        weight="bold"
+      >
+        <Component
+          variant="stringOnly"
+        />
+      </Span>
+       
+    </P>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Contributors /> renderSeeMore should match snapshot when no people 1`] = `
+<div>
+  <WithStyles(GridItem)
+    clickable={false}
+    onClick={null}
+  >
+    <P
+      dense={true}
+    >
+      <Span
+        dense={true}
+        weight="bold"
+      >
+        <Component
+          variant="stringOnly"
+        />
+      </Span>
+       
+      and 1 others
+    </P>
+  </WithStyles(GridItem)>
+</div>
+`;

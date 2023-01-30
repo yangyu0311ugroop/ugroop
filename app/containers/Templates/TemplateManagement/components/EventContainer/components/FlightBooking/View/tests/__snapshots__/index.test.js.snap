@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingView /> #handleDeleteConfirm() calls TEMPLATE_API_HELPERS.deleteFlightBooking 1`] = `
+Array [
+  Array [
+    Object {
+      "dataId": 3,
+      "onError": [Function],
+      "onSuccess": [Function],
+      "templateId": 2,
+    },
+    Object {
+      "canEditFlightBooking": false,
+      "classes": Object {
+        "headerActions": "headerActions",
+        "paperRoot": "paperRoot",
+      },
+      "dataId": 3,
+      "dialogProps": Object {},
+      "id": 1,
+      "name": null,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`<FlightBookingView /> #handleEditClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingEdit": Object {
+      "flightBookingEditId": 3,
+      "flightBookingEditOpen": true,
+      "flightBookingEditTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FlightBookingView /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(Component)
+    PaperProps={
+      Object {
+        "classes": Object {
+          "root": "paperRoot",
+        },
+      }
+    }
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Title)
+            heading={
+              <FormattedMessage
+                defaultMessage="Flight Itinerary"
+                id="app.EventContainer.FlightBooking.Edit.heading"
+              />
+            }
+            headingBackground={
+              <FormattedMessage
+                defaultMessage="VIEW"
+                id="app.EventContainer.FlightBooking.View.headingBackground"
+              />
+            }
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(DialogTitleHeading)>
+            •
+          </WithStyles(DialogTitleHeading)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(DialogTitleHeading)
+            title="Booking Reference"
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Number)))
+              dataId={3}
+              readOnly={true}
+              templateId={2}
+              variant="editableForm"
+            />
+          </WithStyles(DialogTitleHeading)>
+        </WithStyles(GridItem)>
+        <WithStyles(CloseButton)
+          onClick={[Function]}
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <ConnectFunction
+        dataId={3}
+        readOnly={true}
+        templateId={2}
+        variant="editableForm"
+      />
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction) />
+  </WithStyles(Component)>
+  <FlightBookingDeleteConfirmation
+    name={null}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<FlightBookingView /> #renderActions() still matches snapshot if props.canEditFlightBooking 1`] = `
+Array [
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="alert"
+      dense={true}
+      icon="lnr-trash2"
+      iconButton={true}
+      onClick={[Function]}
+      size="small"
+      title={
+        <FormattedMessage
+          defaultMessage="Delete Flight Itinerary"
+          id="app.EventContainer.FlightBooking.View.deleteButtonLabel"
+        />
+      }
+      variant="outline"
+    />
+  </WithStyles(GridItem)>,
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      dense={true}
+      icon="lnr-pencil3"
+      iconButton={true}
+      onClick={[Function]}
+      size="small"
+      title={
+        <FormattedMessage
+          defaultMessage="Edit Flight Itinerary"
+          id="app.EventContainer.FlightBooking.View.editButtonLabel"
+        />
+      }
+      variant="outline"
+    />
+  </WithStyles(GridItem)>,
+]
+`;

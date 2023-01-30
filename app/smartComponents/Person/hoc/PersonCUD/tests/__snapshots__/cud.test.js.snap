@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneCUD /> destroy should run dispatchTo 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "addPhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "removePhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> genericHandlerError should run snackbar helper for error 1`] = `
+Array [
+  Array [
+    "Something goes wrong doing the action, please try again",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> handleDestroySuccess should run openSuccessSnackbar and ifFunction 1`] = `
+Array [
+  Array [
+    "Successfully deleted contact",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> handleStoreSuccess should run openSuccessSnackbar and ifFunction 1`] = `
+Array [
+  Array [
+    "Successfully created a contact",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> handleUpdateAndCreate should fire snackbar helper for error based on the message returned by the backend 1`] = `
+Array [
+  Array [
+    "Sample Message",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> handleUpdateSuccess should run openSuccessSnackbar and ifFunction 1`] = `
+Array [
+  Array [
+    "Successfully updated the contact",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> render() should render correctly 1`] = `
+<div>
+  ifFunction
+</div>
+`;
+
+exports[`<PhoneCUD /> store should run dispatchTo 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+  Array [
+    "PersonDetails",
+    "addPhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PhoneCUD /> update should run dispatchTo 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPhone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "phoneId": 0,
+        "userId": 0,
+      },
+    },
+  ],
+]
+`;

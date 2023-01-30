@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sections /> render() should render correctly 1`] = `<div />`;
+
+exports[`<Sections /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        activityId={1}
+        dayId={1}
+        isReadOnly={true}
+        key="1"
+      />
+      <ConnectFunction
+        activityId={2}
+        dayId={1}
+        isReadOnly={true}
+        key="2"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

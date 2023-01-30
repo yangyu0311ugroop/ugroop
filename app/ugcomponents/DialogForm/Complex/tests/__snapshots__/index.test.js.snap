@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogForm /> #getDialogProps() still matches snapshot 1`] = `
+Object {
+  "PaperProps": Object {
+    "classes": Object {
+      "root": "paper",
+    },
+    "component": [Function],
+    "data-testid": "dialog-form-paper",
+    "y": 2,
+  },
+  "fullWidth": true,
+  "maxWidth": false,
+}
+`;
+
+exports[`<DialogForm /> #render() still matches snapshot 1`] = `
+<Component
+  classes={
+    Object {
+      "actions": "UGDialog-actions-10",
+      "closeDialog": "UGDialog-closeDialog-15",
+      "closeDialogButton": "UGDialog-closeDialogButton-16",
+      "content": "UGDialog-content-11",
+      "contentFullScreen": "UGDialog-contentFullScreen-12",
+      "contentSm": "UGDialog-contentSm-13",
+      "denseTitle": "UGDialog-denseTitle-9",
+      "fullWidthNotes": "UGDialog-fullWidthNotes-20",
+      "grow": "UGDialog-grow-6",
+      "logo": "UGDialog-logo-14",
+      "notes": "UGDialog-notes-17",
+      "paperRoot": "UGDialog-paperRoot-7",
+      "root": "UGDialog-root-5",
+      "sm": "UGDialog-sm-19",
+      "textCenter": "UGDialog-textCenter-18",
+      "title": "UGDialog-title-8",
+    }
+  }
+  open={true}
+  x={1}
+>
+  Children
+</Component>
+`;
+
+exports[`<DialogForm /> #renderFooter() still matches snapshot when form changed 1`] = `
+<UGDialogAction
+  className={null}
+  classes={
+    Object {
+      "action": "UGDialogAction-action-3",
+      "bgColor": "UGDialogAction-bgColor-4",
+      "noPaddingTop": "UGDialogAction-noPaddingTop-2",
+      "root": "UGDialogAction-root-1 actionsRoot",
+    }
+  }
+  noPaddingTop={false}
+>
+  <WithStyles(GridItem)
+    key="cancel"
+  >
+    Cancel Button
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="submit"
+  >
+    Submit Button
+  </WithStyles(GridItem)>
+</UGDialogAction>
+`;
+
+exports[`<DialogForm /> #renderHeader() still matches snapshot when form changed 1`] = `
+<UGDialogAction
+  className={null}
+  classes={
+    Object {
+      "action": "UGDialogAction-action-3",
+      "bgColor": "UGDialogAction-bgColor-4",
+      "noPaddingTop": "UGDialogAction-noPaddingTop-2",
+      "root": "UGDialogAction-root-1",
+    }
+  }
+  noPaddingTop={false}
+/>
+`;
+
+exports[`<DialogForm /> #renderHeader() still matches snapshot when form changed and disabled 1`] = `
+<UGDialogAction
+  className={null}
+  classes={
+    Object {
+      "action": "UGDialogAction-action-3",
+      "bgColor": "UGDialogAction-bgColor-4",
+      "noPaddingTop": "UGDialogAction-noPaddingTop-2",
+      "root": "UGDialogAction-root-1",
+    }
+  }
+  noPaddingTop={false}
+>
+  <WithStyles(CloseButton)
+    data-testid="dialog-form-close-btn"
+    onClick={[MockFunction]}
+  />
+</UGDialogAction>
+`;
+
+exports[`<DialogForm /> #renderHeader() still matches snapshot when form not changed 1`] = `
+<UGDialogAction
+  className={null}
+  classes={
+    Object {
+      "action": "UGDialogAction-action-3",
+      "bgColor": "UGDialogAction-bgColor-4",
+      "noPaddingTop": "UGDialogAction-noPaddingTop-2",
+      "root": "UGDialogAction-root-1",
+    }
+  }
+  noPaddingTop={false}
+>
+  <WithStyles(CloseButton)
+    data-testid="dialog-form-close-btn"
+    onClick={[MockFunction]}
+  />
+</UGDialogAction>
+`;
+
+exports[`<DialogForm /> #renderHeader() still matches snapshot when form not changed and not disabled 1`] = `
+<UGDialogAction
+  className={null}
+  classes={
+    Object {
+      "action": "UGDialogAction-action-3",
+      "bgColor": "UGDialogAction-bgColor-4",
+      "noPaddingTop": "UGDialogAction-noPaddingTop-2",
+      "root": "UGDialogAction-root-1",
+    }
+  }
+  noPaddingTop={false}
+>
+  <WithStyles(CloseButton)
+    data-testid="dialog-form-close-btn"
+    onClick={[MockFunction]}
+  />
+</UGDialogAction>
+`;

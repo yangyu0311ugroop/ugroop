@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrailData /> render() should render correctly 1`] = `<div />`;
+
+exports[`<TrailData /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": 333,
+      "dayIndex": 3,
+      "templateId": 1,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": undefined,
+      "dayIndex": 1,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": 333,
+      "dayIndex": 3,
+      "templateId": 1,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": undefined,
+      "dayIndex": 3,
+      "templateId": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": null,
+      "dayIndex": 0,
+      "templateId": null,
+    },
+  ],
+  Array [
+    Object {
+      "dayId": "dayId",
+      "dayIndex": "dayIndex",
+      "templateId": "templateId",
+    },
+  ],
+]
+`;

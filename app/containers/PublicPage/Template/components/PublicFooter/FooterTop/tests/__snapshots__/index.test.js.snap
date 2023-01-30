@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicFooter should render what it should render 1`] = `
+<div
+  className="FooterTop-root"
+>
+  <Img
+    alt="uGroop logo"
+    className="FooterTop-logo"
+    src="IMAGE_MOCK"
+  />
+  <H4
+    className="FooterTop-ugroop"
+    weight="bold"
+  >
+    <FormattedMessage
+      defaultMessage="Powered by uGroop"
+      id="app.containers.PublicPage.Template.components.PublicFooter.FooterTop.uGroop"
+    />
+  </H4>
+  <H5
+    className="FooterTop-ugroopText"
+    dense={true}
+  >
+    <FormattedMessage
+      defaultMessage="Use of uGroop software is governed by Terms and Conditions and Privacy Policy"
+      id="app.containers.PublicPage.Template.components.PublicFooter.FooterTop.uGroopText"
+    />
+  </H5>
+</div>
+`;

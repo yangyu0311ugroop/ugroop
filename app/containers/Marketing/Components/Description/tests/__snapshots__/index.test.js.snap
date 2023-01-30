@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description should render what it should render 1`] = `
+<p
+  className="MarketingDescription-root"
+  style={
+    Object {
+      "fontSize": "11px",
+    }
+  }
+/>
+`;
+
+exports[`Description should render what it should render if "isBold" is true 1`] = `
+<p
+  className="MarketingDescription-root"
+  style={
+    Object {
+      "fontSize": "11px",
+    }
+  }
+>
+  <strong />
+</p>
+`;

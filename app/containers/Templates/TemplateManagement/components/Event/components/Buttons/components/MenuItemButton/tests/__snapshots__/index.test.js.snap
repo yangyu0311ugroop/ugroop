@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuItemButton /> newEvent() should newEvent() 1`] = `
+Array [
+  Array [
+    Object {
+      "eventCreate": "EVENT_STORE_HELPERS.setEventCreate",
+      "selectedId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<MenuItemButton /> openCreateEventDialog() should openCreateEventDialog() 1`] = `
+Array [
+  Array [
+    Object {
+      "formSubtype": "MEETING",
+      "formType": "ACTIVITIES",
+      "iconOverride": "",
+    },
+  ],
+]
+`;
+
+exports[`<MenuItemButton /> renderAddEventMenuButton() should renderAddEventMenuButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="icon"
+        size="extraSmall"
+        style={
+          Object {
+            "color": "color",
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      name
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<MenuItemButton /> renderAddEventMenuButton() should renderAddEventMenuButton with different style when icon is bicycle 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-bicycle"
+        size="extraSmall"
+        style={
+          Object {
+            "color": "color",
+            "lineHeight": 0.5,
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      name
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

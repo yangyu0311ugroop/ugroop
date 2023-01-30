@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstName /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "autoFocus": true,
+      "currentValue": null,
+      "extended": false,
+      "id": null,
+      "readOnly": false,
+      "renderValue": [Function],
+      "required": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<FirstName /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    autoFocus={true}
+    label={
+      <FormattedMessage
+        defaultMessage="First Name"
+        id="app.Node.parts.FirstName.label"
+      />
+    }
+    name="node.customData.firstName"
+    onSubmit={[Function]}
+    placeholder="Click to specify first name"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<FirstName /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    autoFocus={true}
+    disabled={false}
+    label={
+      <FormattedMessage
+        defaultMessage="First Name"
+        id="app.Node.parts.FirstName.label"
+      />
+    }
+    name="node.customData.firstName"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<FirstName /> #renderTextField() still matches snapshot when props.required 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    autoFocus={true}
+    disabled={false}
+    label={
+      <FormattedMessage
+        defaultMessage="First Name *"
+        id="app.Node.parts.FirstName.labelRequired"
+      />
+    }
+    name="node.customData.firstName"
+    onInterceptValue={[Function]}
+    required={true}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<FirstName /> #renderTextOnly() still matches snapshot 1`] = `"value"`;

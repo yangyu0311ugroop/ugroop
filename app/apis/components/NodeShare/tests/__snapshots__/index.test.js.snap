@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NodeShare /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "confirmInvitation": Object {
+        "onSuccess": [Function],
+      },
+      "declineInvitation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getSharedTemplates": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;

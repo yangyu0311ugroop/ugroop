@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditableEditor should render the editable editor without error 1`] = `
+<WithStyles(UGRichEditor)
+  editorClassName="EditableEditor-editModeEditor"
+  toolBarId="toolbarid"
+/>
+`;

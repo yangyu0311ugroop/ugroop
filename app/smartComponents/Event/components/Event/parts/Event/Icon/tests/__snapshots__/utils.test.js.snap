@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Event/parts/Icon/utils #iconOptions() still matches snapshot 1`] = `
+Array [
+  Object {
+    "children": "Icon A",
+    "name": "Icon A",
+    "type": "icon_a",
+    "value": "icon_a",
+  },
+]
+`;
+
+exports[`smartComponents/Event/parts/Icon/utils #makeIconOptions() still matches snapshot 1`] = `
+Array [
+  Object {
+    "children": <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(EventIcon)
+          iconOverride="icon_a"
+          size="base"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Icon A
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>,
+    "value": "icon_a",
+  },
+]
+`;

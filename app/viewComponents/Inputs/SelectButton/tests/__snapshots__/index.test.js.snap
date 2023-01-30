@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectButton /> #render() still matches snapshot 1`] = `
+<Select
+  MenuProps={Object {}}
+  classes={
+    Object {
+      "icon": "icon",
+      "select": "select",
+    }
+  }
+  native={false}
+  options={null}
+  renderValue={[Function]}
+  value={null}
+/>
+`;
+
+exports[`<SelectButton /> #renderValue() still matches snapshot 1`] = `undefined`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comment /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "id": null,
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Comment /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Bed Count"
+        id="app.Node.parts.BedCount.editableLabel"
+      />
+    }
+    name="node.customData.bedCount"
+    onSubmit={[Function]}
+    placeholder="Click to specify bed count"
+    readOnly={false}
+    renderValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Comment /> #renderEditableValue() still matches snapshot 1`] = `"value beds"`;
+
+exports[`<Comment /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Bed count?"
+        id="app.Node.parts.BedCount.label"
+      />
+    }
+    name="node.customData.bedCount"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Comment /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</WithStyles(GridItem)>
+`;

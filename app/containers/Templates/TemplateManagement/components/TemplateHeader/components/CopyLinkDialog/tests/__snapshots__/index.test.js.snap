@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CopyDialog Test Component actions dialogContent has no url 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(DisableRyi)))
+        disableRYI={false}
+        id={111}
+        onClick={[Function]}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`CopyDialog Test Component actions onClickDisableRYI has no url 1`] = `<div />`;
+
+exports[`CopyDialog Test Component actions onSuccessGeneratetoken has no url 1`] = `<div />`;
+
+exports[`CopyDialog Test Component actions onSuccessGeneratetoken has no url 2`] = `
+<div>
+  For testing purpose, to indicate a function is doing nothing
+</div>
+`;
+
+exports[`CopyDialog Test Render and compare snapshot render component 1`] = `
+<WithStyles(UGDialog)
+  button={1}
+  cancelButton={
+    <FormattedMessage
+      defaultMessage="Remove Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.removeButton"
+    />
+  }
+  cancelFunc={[Function]}
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Generate Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.generateButton"
+    />
+  }
+  confirmButtonNode={null}
+  confirmFunc={[Function]}
+  customChildren={
+    Object {
+      "content": <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DisableRyi)))
+            disableRYI={false}
+            id={111}
+            onClick={[Function]}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>,
+      "footer": null,
+    }
+  }
+  customClassnames={
+    Object {
+      "cancelButton": undefined,
+      "content": "",
+      "headline": undefined,
+    }
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  disabled={false}
+  headlineIcon="lnr-link"
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Copy the URL and share it with others."
+      id="app.containers.TemplateHeader.CopyLinkDialog.copyMessage"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  onCloseFunc={[Function]}
+  open={true}
+  template="add"
+/>
+`;
+
+exports[`CopyDialog Test Render and compare snapshot with copied state 1`] = `
+<WithStyles(UGDialog)
+  button={1}
+  cancelButton={
+    <FormattedMessage
+      defaultMessage="Remove Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.removeButton"
+    />
+  }
+  cancelFunc={[Function]}
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Generate Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.generateButton"
+    />
+  }
+  confirmButtonNode={null}
+  confirmFunc={[Function]}
+  customChildren={
+    Object {
+      "content": <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DisableRyi)))
+            disableRYI={false}
+            id={111}
+            onClick={[Function]}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>,
+      "footer": null,
+    }
+  }
+  customClassnames={
+    Object {
+      "cancelButton": undefined,
+      "content": "",
+      "headline": undefined,
+    }
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  disabled={false}
+  headlineIcon="lnr-link"
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Copy the URL and share it with others."
+      id="app.containers.TemplateHeader.CopyLinkDialog.copyMessage"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  onCloseFunc={[Function]}
+  open={true}
+  template="add"
+/>
+`;
+
+exports[`CopyDialog Test Render and compare snapshot with hashkey 1`] = `
+<WithStyles(UGDialog)
+  button={2}
+  cancelButton={
+    <FormattedMessage
+      defaultMessage="Remove Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.removeButton"
+    />
+  }
+  cancelFunc={[Function]}
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Generate Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.generateButton"
+    />
+  }
+  confirmButtonNode={
+    <CopyToClipboard
+      onCopy={[Function]}
+      text="http://localhost/public/template/abcd"
+    >
+      <WithStyles(Button)
+        color="primary"
+        onMouseLeave={[Function]}
+        tooltipProps={
+          Object {
+            "title": "",
+          }
+        }
+      >
+        Copy Link to Clipboard
+      </WithStyles(Button)>
+    </CopyToClipboard>
+  }
+  confirmFunc={[Function]}
+  customChildren={
+    Object {
+      "content": <WithStyles(GridContainer)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(ForwardRef(FormLabel))>
+            <FormattedMessage
+              defaultMessage="Private URL"
+              id="app.containers.TemplateHeader.CopyLinkDialog.label"
+            />
+          </WithStyles(ForwardRef(FormLabel))>
+          <WithStyles(TextField)
+            InputProps={
+              Object {
+                "classes": Object {
+                  "input": undefined,
+                },
+              }
+            }
+            autoComplete="off"
+            autoFocus={true}
+            disabled={true}
+            name="content"
+            placeholder="Private Travel Link"
+            required={true}
+            value="http://localhost/public/template/abcd"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                bold={true}
+                gray={true}
+                md={true}
+              >
+                Assigned Organiser
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Memo
+                id={111}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                bold={true}
+                gray={true}
+                md={true}
+              >
+                Banner
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Memo(Connect(WithSimplifyResaga(Component)))
+                id={111}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <DescriptionHashkey
+            currentValue={null}
+            extended={false}
+            hashkeyDescription=""
+            id={111}
+            readOnly={false}
+            renderValue={[Function]}
+            variant={null}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DisableRyi)))
+            id={111}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>,
+      "footer": <div>
+        <H5>
+          Share this link directly to your social accounts or email: 
+        </H5>
+        <div>
+          <Facebook
+            link="http://localhost/public/template/abcd"
+            tooltipProps={
+              Object {
+                "title": "Post to Facebook",
+              }
+            }
+          />
+          <Twitter
+            link="http://localhost/public/template/abcd"
+            tooltipProps={
+              Object {
+                "title": "Post to Twitter",
+              }
+            }
+          />
+          <WhatsApp
+            link="http://localhost/public/template/abcd"
+            tooltipProps={
+              Object {
+                "title": "Post to WhatsApp",
+              }
+            }
+          />
+          <Mail
+            link="Click link to view: http://localhost/public/template/abcd"
+            tooltipProps={
+              Object {
+                "title": "Send email",
+              }
+            }
+          />
+        </div>
+      </div>,
+    }
+  }
+  customClassnames={
+    Object {
+      "cancelButton": undefined,
+      "content": "",
+      "headline": undefined,
+    }
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  disabled={false}
+  headlineIcon="lnr-link"
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Copy the URL and share it with others."
+      id="app.containers.TemplateHeader.CopyLinkDialog.copyMessage"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  onCloseFunc={[Function]}
+  open={true}
+  template="add"
+/>
+`;
+
+exports[`CopyDialog Test Render and compare snapshot with title 1`] = `
+<WithStyles(UGDialog)
+  button={1}
+  cancelButton={
+    <FormattedMessage
+      defaultMessage="Remove Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.removeButton"
+    />
+  }
+  cancelFunc={[Function]}
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Generate Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.generateButton"
+    />
+  }
+  confirmButtonNode={null}
+  confirmFunc={[Function]}
+  customChildren={
+    Object {
+      "content": <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DisableRyi)))
+            disableRYI={false}
+            id={111}
+            onClick={[Function]}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>,
+      "footer": null,
+    }
+  }
+  customClassnames={
+    Object {
+      "cancelButton": undefined,
+      "content": "",
+      "headline": undefined,
+    }
+  }
+  dialogTitle="abcd"
+  disabled={false}
+  headlineIcon="lnr-link"
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Copy the URL and share it with others."
+      id="app.containers.TemplateHeader.CopyLinkDialog.copyMessage"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="Travel Link"
+      id="app.containers.TemplateHeader.CopyLinkDialog.tourLink"
+    />
+  }
+  onCloseFunc={[Function]}
+  open={true}
+  template="add"
+/>
+`;

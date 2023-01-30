@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Dialog Render Smoke Test 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    button={1}
+    confirmButton={
+      <FormattedMessage
+        defaultMessage="Login"
+        id="app.containers.ErrorDialog.login"
+      />
+    }
+    customClassnames={
+      Object {
+        "content": undefined,
+      }
+    }
+    dialogTitle={
+      <FormattedMessage
+        defaultMessage="Session Expired"
+        id="app.containers.ErrorDialog.sessionExpiredDialogTitle"
+      />
+    }
+    headlineIcon="lnr-clock2"
+    headlineText={
+      <FormattedMessage
+        defaultMessage="For data security reasons you have been logged out of your uGroop account due to inactivity. You can change this time limit within the settings in your personal profile. Please login to your account again to continue."
+        id="app.containers.ErrorDialog.sessionExpiredMessage"
+      />
+    }
+    headlineTitle={
+      <FormattedMessage
+        defaultMessage="Your session has been expired"
+        id="app.containers.ErrorDialog.sessionExpired"
+      />
+    }
+  />
+</div>
+`;

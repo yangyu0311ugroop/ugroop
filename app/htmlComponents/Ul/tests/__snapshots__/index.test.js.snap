@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ul/tests/index.test.js content should render a component passed from a function 1`] = `
+<ul
+  className=""
+>
+  <ComponentToRender />
+</ul>
+`;
+
+exports[`Ul/tests/index.test.js content should render children 1`] = `
+<ul
+  className=""
+>
+  <WithStyles(Li)>
+    This is a list item
+  </WithStyles(Li)>
+</ul>
+`;
+
+exports[`Ul/tests/index.test.js smoke tests should render properly 1`] = `
+<ul
+  className=""
+>
+  <WithStyles(Li)
+    item="test"
+    key="item-0"
+  />
+</ul>
+`;

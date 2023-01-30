@@ -1,0 +1,776 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditEventForm /> render() should render !type !subtype 1`] = `
+<div>
+  renderData
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderFormHeader
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <div>
+                  <WithStyles(GridContainer)
+                    direction="column"
+                    spacing={2}
+                  >
+                    renderShowSelectSubtype
+                    renderForm
+                  </WithStyles(GridContainer)>
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderFormButtons
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditEventForm /> render() should render 1`] = `
+<div>
+  renderData
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderFormHeader
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <div>
+                  <WithStyles(GridContainer)
+                    direction="column"
+                    spacing={2}
+                  >
+                    renderShowSelectSubtype
+                    renderForm
+                  </WithStyles(GridContainer)>
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderFormButtons
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderCloseButton() should renderCloseButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="gray"
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross"
+        size="small"
+      />
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderData() should renderData 1`] = `
+<div>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="temp.changingType"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="data.type"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    currentValue="unknown"
+    innerRef={[Function]}
+    name="data.detail.type"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<EditEventForm /> renderForm() should renderForm 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="_unknown"
+  >
+    <span
+      editing={true}
+      formValue={Object {}}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderForm() should renderForm AttachmentForm 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachments)))
+      adding={true}
+      editing={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderForm() should renderForm FlightBookingForm 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Reservation)))
+      adding={true}
+      editing={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderForm() should renderForm FlightBookingForm 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(FlightBookingSubForm))) />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderForm() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      dark={true}
+    >
+      Type not supported!
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormButtons() should renderFormButtons 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bold={true}
+          onClick={[Function]}
+          padding="lg"
+        >
+          Advanced
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bg="gray"
+          bold={true}
+          padding="lg"
+        >
+          Go back
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JButton)
+          bg="blue"
+          block={true}
+          bold={true}
+          disabled={false}
+          padding="lg"
+          type="submit"
+        >
+          Update
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormButtons() should return null 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bold={true}
+          onClick={[Function]}
+          padding="lg"
+        >
+          Advanced
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bg="gray"
+          bold={true}
+          padding="lg"
+        >
+          Go back
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JButton)
+          bg="blue"
+          block={true}
+          bold={true}
+          disabled={false}
+          padding="lg"
+          type="submit"
+        >
+          Update
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormData() should renderFormData 1`] = `
+<div>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="node.customData.start.tempDay"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="node.customData.start.tempTime"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="node.customData.start.mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="node.customData.end.tempDay"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="node.customData.end.tempTime"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormHeader() should render CancellationForm 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JTextClass)
+          black={true}
+          xl={true}
+        >
+          Cancel an event
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      renderCloseButton
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormHeader() should render edit 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JTextClass)
+          black={true}
+          xl={true}
+        >
+          Edit Flight Itinerary
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      renderCloseButton
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderFormHeader() should renderFormHeader 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(JTextClass)
+          black={true}
+          xl={true}
+        >
+          Edit an event
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      renderCloseButton
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderSelectSubTypes() should renderSelectSubTypes 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      renderSubtype
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderSelectTypeSubtype() should renderSelectTypeSubtype 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              Current type
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  sm={true}
+                >
+                   &gt; 
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  unknown
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          sm={true}
+          uppercase={true}
+        >
+          Click to Select new type & subtype
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div
+          className=""
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                key="Activity"
+              >
+                <WithStyles(Button)
+                  className=""
+                  color="gray"
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  <WithStyles(JTextClass)
+                    bold={false}
+                    dark={false}
+                    gray={true}
+                  >
+                    Activity
+                  </WithStyles(JTextClass)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                key="Transportation"
+              >
+                <WithStyles(Button)
+                  className=""
+                  color="gray"
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  <WithStyles(JTextClass)
+                    bold={false}
+                    dark={false}
+                    gray={true}
+                  >
+                    Transportation
+                  </WithStyles(JTextClass)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                key="Accommodation"
+              >
+                <WithStyles(Button)
+                  className=""
+                  color="gray"
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  <WithStyles(JTextClass)
+                    bold={false}
+                    dark={false}
+                    gray={true}
+                  >
+                    Accommodation
+                  </WithStyles(JTextClass)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                className=""
+                color="gray"
+                onClick={[Function]}
+                size="xs"
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(EventIcon)
+                      size="medium"
+                    />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      dark={true}
+                      ellipsis={true}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(JButton)
+            bg="gray"
+            block={true}
+            bold={true}
+            onClick={[Function]}
+            padding="lg"
+          >
+            Cancel
+          </WithStyles(JButton)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderSelectTypes() should renderSelectTypes 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        renderType
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderType
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderType
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<EditEventForm /> renderShowSelectSubtype() should renderSelectSubTypes 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  sm={true}
+                >
+                   &gt; 
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  unknown
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              link={true}
+              onClick={[Function]}
+            >
+              Change type
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(SelectEventIcon)))
+          subtype="unknown"
+          type=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderShowSelectSubtype() should renderShowSelectSubtype 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  sm={true}
+                >
+                   &gt; 
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  unknown
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              link={true}
+              onClick={[Function]}
+            >
+              Change type
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(SelectEventIcon)))
+          subtype="unknown"
+          type=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderSubtype() should renderSubtype 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      className=""
+      color="gray"
+      onClick={[Function]}
+      size="xs"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EventIcon)
+            size="medium"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            dark={true}
+            ellipsis={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditEventForm /> renderType() should renderType 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      className=""
+      color="gray"
+      onClick={[Function]}
+      size="xs"
+    >
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        gray={false}
+      />
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

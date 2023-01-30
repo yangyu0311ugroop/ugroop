@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SHOW_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with general error message if status is 500 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="uGroop has encountered an unknown error, please try again."
+      id="app.error_messages.GENERAL_ERROR"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`SHOW_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with http 400 error message if status is 400 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="uGroop has encountered an unknown error, please try again."
+      id="app.error_messages.GENERAL_ERROR"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`SHOW_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with http 401 error message if status is 401 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="You are not authorized to do this action."
+      id="app.error_messages.HTTP_401"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`SHOW_UNPROCESSABLE_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with http 400 error message if status is 400 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="uGroop has encountered an unknown error, please try again."
+      id="app.error_messages.GENERAL_ERROR"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`SHOW_UNPROCESSABLE_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with http 402 error message if status is 402 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="uGroop has encountered an unknown error, please try again."
+      id="app.error_messages.GENERAL_ERROR"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`SHOW_UNPROCESSABLE_ERROR_IN_SNACKBAR should call SnackbarHelper.openErrorSnackbar with http 402 error message if status is 402 2`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="uGroop has encountered an unknown error, please try again."
+      id="app.error_messages.GENERAL_ERROR"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`wrapRequestWithErrorHandler should wrap request object with onError handlers 1`] = `
+Object {
+  "sample1": Object {
+    "onSuccess": "onSuccess",
+  },
+  "sample2": Object {
+    "onSuccess": "onSuccess",
+  },
+  "sample3": Object {
+    "onSuccess": "onSuccess",
+  },
+}
+`;

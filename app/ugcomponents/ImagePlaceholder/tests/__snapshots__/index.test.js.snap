@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Placeholder /> should return the image placeholder 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    headlineIcon="lnr-picture3"
+    headlineTitle="DELETE IMAGE"
+    open={false}
+    template="delete"
+    type="image"
+  />
+  <img
+    alt="placeholder"
+    className=""
+    data-testid="some.url"
+    src="some.url"
+  />
+</div>
+`;
+
+exports[`onDelete should render dialog 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    headlineIcon="lnr-picture3"
+    headlineTitle="DELETE IMAGE"
+    open={true}
+    template="delete"
+    type="image"
+  />
+  <div
+    className=""
+  >
+    <img
+      alt="Loading..."
+      className=""
+      src="https://gateway-latest.ugroop.com/url"
+    />
+    <div
+      className="undefined"
+    >
+      <label
+        className=""
+        htmlFor="placeholder"
+      >
+        <WithStyles(Icon)
+          className="undefined"
+          color="white"
+          icon="lnr-camera2"
+          size="medium"
+        />
+      </label>
+      <span
+        className=""
+        role="button"
+        tabIndex="-1"
+      >
+        <WithStyles(Icon)
+          className="undefined"
+          color="white"
+          icon="lnr-move"
+          size="medium"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

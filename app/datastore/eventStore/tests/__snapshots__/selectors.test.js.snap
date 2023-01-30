@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/selectors #EVENT_STORE_DATA_SELECTORS addSubtypes() cacheKey() should addSubtypes() 1`] = `
+<div>
+  event.events:1,2.addSubtypes
+</div>
+`;
+
+exports[`datastore/eventStore/selectors #EVENT_STORE_DATA_SELECTORS addSubtypes() cacheKey() should addSubtypes() no events 1`] = `
+<div>
+  event.events:null.addSubtypes
+</div>
+`;
+
+exports[`datastore/eventStore/selectors #EVENT_STORE_DATA_SELECTORS addSubtypes() getter() should addSubtypes() 1`] = `
+Array [
+  Object {
+    "hotel": "hotel",
+    "subtype": "HOTEL",
+  },
+]
+`;
+
+exports[`datastore/eventStore/selectors #EVENT_STORE_DATA_SELECTORS addSubtypes() keyPath() should addSubtypes() 1`] = `
+<div>
+  eventSubtype
+  eventSubtype
+</div>
+`;
+
+exports[`datastore/eventStore/selectors #EVENT_STORE_DATA_SELECTORS addSubtypes() props() should addSubtypes() no events 1`] = `
+<div>
+  1
+</div>
+`;

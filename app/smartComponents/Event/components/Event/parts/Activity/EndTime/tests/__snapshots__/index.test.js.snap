@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabel={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderDefault() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  editablePlaceholder={
+    <FormattedMessage
+      defaultMessage="Click to specify ending time"
+      id="app.Event.parts.Activity.EndTime.editablePlaceholder"
+    />
+  }
+  hasLabelPrefix={true}
+  multiInputLabel={
+    <FormattedMessage
+      defaultMessage="Specify activity duration instead of end time?"
+      id="app.Event.parts.Activity.EndTime.multiInputLabel"
+    />
+  }
+  multiMode={true}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabel() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  hasLabelPrefix={true}
+  multiMode={true}
+  renderPrefix={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabelPrefix() still matches snapshot 1`] = `
+<FormattedMessage
+  defaultMessage="Ending:"
+  id="app.Event.parts.Activity.EndTime.labelPrefix"
+/>
+`;

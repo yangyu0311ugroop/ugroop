@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabContent/tests/index.test.js fetchError()   should call setValue if type = tabother 1`] = `
+Array [
+  Array [
+    Object {
+      "templates": [Function],
+    },
+  ],
+]
+`;
+
+exports[`TabContent/tests/index.test.js handleTreeTimes() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "layoutRecheck": "Date.now",
+    },
+  ],
+  Array [
+    Object {
+      "layoutRecheck": "Date.now",
+    },
+  ],
+]
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render another tab view if layout is not list 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <ConnectFunction
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render another tab view if layout is not list and cards 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TabItineraryView)))
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render fetching 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        dashed={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="grey"
+            icon="lnr-new-tab"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            There are no content yet
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+        dialogProps={
+          Object {
+            "dialogTitle": "Create a tab",
+            "headlineIcon": "lnr-new-tab",
+            "headlineText": "Please provide a name for your new tab",
+            "headlineTitle": "Create a tab",
+            "template": "add",
+          }
+        }
+        onClose={[Function]}
+        onSuccess={[Function]}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render gallery tab 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TabTimeline)))
+        layout="list"
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render map tab 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(MapView)))))
+        id={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render maps tab view if layout is maps 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(MapView)))))
+        id={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render no data if layout does not exist 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TabTimeline)))
+        layout="qqqqw"
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render none if type is not known 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        dashed={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="grey"
+            icon="lnr-new-tab"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            Create a tab to start adding and organising sections
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            size="xs"
+            weight="bold"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  icon="lnr-plus"
+                  size="normal"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Create a tab
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+        dialogProps={
+          Object {
+            "dialogTitle": "Create a tab",
+            "headlineIcon": "lnr-new-tab",
+            "headlineText": "Please provide a name for your new tab",
+            "headlineTitle": "Create a tab",
+            "template": "add",
+          }
+        }
+        onClose={[Function]}
+        onSuccess={[Function]}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render risk 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabRiskAssessment)))))
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render room 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabRoomList)))))
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   should render title tab view if layout is title 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Connect(WithSimplifyResaga(TabTimeline)))
+        layout="title"
+        tabId={1}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;
+
+exports[`TabContent/tests/index.test.js render()   still matches snapshot if no tab 1`] = `
+<WithStyles(Tab)>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        dashed={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="grey"
+            icon="lnr-new-tab"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            Create a tab to start adding and organising sections
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            size="xs"
+            weight="bold"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  icon="lnr-plus"
+                  size="normal"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Create a tab
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+        dialogProps={
+          Object {
+            "dialogTitle": "Create a tab",
+            "headlineIcon": "lnr-new-tab",
+            "headlineText": "Please provide a name for your new tab",
+            "headlineTitle": "Create a tab",
+            "template": "add",
+          }
+        }
+        onClose={[Function]}
+        onSuccess={[Function]}
+        templateId={0}
+      />
+    </div>
+    <ConnectFunction />
+  </WithStyles(Container)>
+</WithStyles(Tab)>
+`;

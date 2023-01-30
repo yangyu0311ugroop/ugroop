@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Star /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    buttonTitle="Click to star or unstar. Starred items show up at the top of your list."
+    className=""
+    dense={true}
+    icon="lnr-star"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+  />
+</div>
+`;

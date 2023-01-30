@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  dataId={null}
+  renderAccommodation={[Function]}
+  renderActivity={[Function]}
+  renderFlight={[Function]}
+  renderTransportation={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<EndTime /> #renderPart() renders Component 1`] = `
+<Component
+  calculatedTimeModePath={
+    Array [
+      "calculated",
+      "time",
+      "end",
+      "mode",
+    ]
+  }
+  calculatedTimeValuePath={
+    Array [
+      "calculated",
+      "time",
+      "end",
+      "value",
+    ]
+  }
+  dataId={null}
+  formSubtype={null}
+  formType={null}
+  inputs={
+    Object {
+      "mode": Object {
+        "name": "node.customData.end.mode",
+      },
+      "tempDay": Object {
+        "name": "node.customData.end.tempDay",
+      },
+      "tempMode": Object {
+        "name": "node.customData.end.tempMode",
+      },
+      "tempTime": Object {
+        "name": "node.customData.end.tempTime",
+      },
+      "timeZoneId": Object {
+        "name": "node.customData.end.timeZoneId",
+      },
+      "timeZoneName": Object {
+        "name": "node.customData.end.timeZoneName",
+      },
+      "timeZoneOffset": Object {
+        "name": "node.customData.end.timeZoneOffset",
+      },
+      "value": Object {
+        "name": "node.customData.end.value",
+      },
+    }
+  }
+  modePath={
+    Array [
+      "customData",
+      "end",
+      "mode",
+    ]
+  }
+  otherCalculatedTimeModePath={
+    Array [
+      "calculated",
+      "time",
+      "start",
+      "mode",
+    ]
+  }
+  otherCalculatedTimeValuePath={
+    Array [
+      "calculated",
+      "time",
+      "start",
+      "value",
+    ]
+  }
+  otherValuePath={
+    Array [
+      "customData",
+      "start",
+      "value",
+    ]
+  }
+  position="end"
+  timeZoneIdPath={
+    Array [
+      "customData",
+      "end",
+      "timeZoneId",
+    ]
+  }
+  valuePath={
+    Array [
+      "customData",
+      "end",
+      "value",
+    ]
+  }
+/>
+`;

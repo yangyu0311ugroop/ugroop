@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Config value shall have correct obj 1`] = `
+Object {
+  "errorMsg": Array [
+    "global",
+    "error",
+  ],
+  "showErrorDialog": Array [
+    "global",
+    "showErrorDialog",
+  ],
+}
+`;

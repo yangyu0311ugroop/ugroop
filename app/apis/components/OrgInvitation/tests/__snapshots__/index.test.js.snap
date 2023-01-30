@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrgInvitation /> addAbility() should call resaga.setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "organisationAbilities": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<OrgInvitation /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "confirmInvitation": Object {
+        "onSuccess": [Function],
+      },
+      "declineInvitation": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<OrgInvitation /> confirmInvitationSuccess() should call resaga.setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "notifications": Array [
+        3,
+        4,
+      ],
+      "orgInvitations": Array [
+        1,
+        2,
+      ],
+      "orgUsers": [Function],
+      "users": [Function],
+    },
+  ],
+]
+`;

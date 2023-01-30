@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Invitations /> render() should render 1`] = `
+<div>
+  <WithStyles(NavItem)
+    count={2}
+    popper={true}
+    renderButton={[Function]}
+    renderMenu={[Function]}
+    renderTooltip={[Function]}
+    title="Invitations"
+  />
+</div>
+`;
+
+exports[`<Invitations /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-users-plus"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Invitations /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+    disablePortal={true}
+    fixWidth={true}
+    viewStore="invitationViewStore"
+  />
+</div>
+`;
+
+exports[`<Invitations /> renderTooltip() should renderTooltip 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(InvitationTooltip)))
+    token={1}
+  />
+</div>
+`;

@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SeeDetail /> cancelInvitation() should cancelInvitation correctly 1`] = `
+Array [
+  Array [
+    "Invitations",
+    "cancelInvitation",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "someToken",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<SeeDetail /> handleClose() should handleClose correctly 1`] = `undefined`;
+
+exports[`<SeeDetail /> render() should cancelInvitation correctly when shared from organisation 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "cancelInvitation",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<SeeDetail /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    dialogTitle="Invitation Dialog"
+    headlineIcon="ug-invitation-detail"
+    onCloseFunc={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<SeeDetail /> render() should renderInvitee 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    dialogTitle="Invitation Dialog"
+    headlineIcon="ug-invitation-detail"
+    onCloseFunc={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<SeeDetail /> renderDialogButtons() should match snapshot if button equals 0 1`] = `
+Object {
+  "button": 0,
+  "cancelButton": "Cancel Invitation",
+  "cancelFunc": [Function],
+  "confirmButton": <span>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(Icon)
+        icon="refresh"
+        size="small"
+      />
+    </Hidden>
+    <FormattedMessage
+      defaultMessage="Re-send Invitation?"
+      id="app.containers.Templates.Modals.ShareList.components.SeeDetail.reSendInvitationText"
+    />
+  </span>,
+  "confirmFunc": [Function],
+  "template": "custom",
+}
+`;
+
+exports[`<SeeDetail /> renderDialogButtons() should match snapshot if button equals 1 1`] = `
+Object {
+  "button": 0,
+  "cancelButton": "Cancel Invitation",
+  "cancelFunc": [Function],
+  "confirmButton": "Cancel Invitation",
+  "confirmFunc": [Function],
+  "template": "custom",
+}
+`;
+
+exports[`<SeeDetail /> renderDialogButtons() should match snapshot if button equals 2 1`] = `
+Object {
+  "button": 0,
+  "cancelButton": "Cancel Invitation",
+  "cancelFunc": [Function],
+  "confirmButton": <span>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(Icon)
+        icon="refresh"
+        size="small"
+      />
+    </Hidden>
+    <FormattedMessage
+      defaultMessage="Re-send Invitation?"
+      id="app.containers.Templates.Modals.ShareList.components.SeeDetail.reSendInvitationText"
+    />
+  </span>,
+  "confirmFunc": [Function],
+  "template": "custom",
+}
+`;
+
+exports[`<SeeDetail /> renderDialogButtons() should match snapshot if canDelete true 1`] = `
+Object {
+  "button": 2,
+  "cancelButton": "Cancel Invitation",
+  "cancelFunc": [Function],
+  "confirmButton": <span>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(Icon)
+        icon="refresh"
+        size="small"
+      />
+    </Hidden>
+    <FormattedMessage
+      defaultMessage="Re-send Invitation?"
+      id="app.containers.Templates.Modals.ShareList.components.SeeDetail.reSendInvitationText"
+    />
+  </span>,
+  "confirmFunc": [Function],
+  "template": "custom",
+}
+`;
+
+exports[`<SeeDetail /> renderDialogButtons() should match snapshot if resend true 1`] = `
+Object {
+  "button": 0,
+  "cancelButton": "Cancel Invitation",
+  "cancelFunc": [Function],
+  "confirmButton": <span>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(Icon)
+        icon="refresh"
+        size="small"
+      />
+    </Hidden>
+    <FormattedMessage
+      defaultMessage="Re-send Invitation?"
+      id="app.containers.Templates.Modals.ShareList.components.SeeDetail.reSendInvitationText"
+    />
+  </span>,
+  "confirmFunc": [Function],
+  "template": "confirm",
+}
+`;
+
+exports[`<SeeDetail /> renderInvitationDetail() should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="row"
+      >
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="Invitation sent"
+            id="app.containers.Templates.Modals.ShareList.components.SeeDetail.invitationSentLabel"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="calendar-full"
+            size="small"
+          />
+          <strong>
+            <WithStyles(ForwardRef(Tooltip))
+              placement="top"
+              title="Invalid date"
+            >
+              <span>
+                Invalid date
+              </span>
+            </WithStyles(ForwardRef(Tooltip))>
+          </strong>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="by"
+            id="app.containers.Templates.Modals.ShareList.components.SeeDetail.byText"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="user"
+            size="small"
+          />
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="Tour Label"
+        id="app.containers.Templates.Modals.ShareList.components.SeeDetail.tourRoleLabel"
+      />
+      <WithStyles(Icon)
+        icon="file-preview"
+        size="small"
+      />
+      <strong />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="Organisation"
+        id="app.containers.Templates.Modals.ShareList.components.SeeDetail.organisationLabel"
+      />
+      <WithStyles(Icon)
+        icon="users-plus"
+        size="small"
+      />
+      <strong />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        disableRipple={true}
+        noMargin={true}
+        variant="outline"
+      >
+        Invitation Accepted
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <hr />
+</div>
+`;
+
+exports[`<SeeDetail /> renderInvitee() should renderInvitee correctly 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<SeeDetail /> renderInvitee() should renderInvitee correctly 2`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<SeeDetail /> resend() should resend correctly 1`] = `
+Array [
+  Array [
+    "Invitations",
+    "resendInvitation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "someToken",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<SeeDetail /> resend() should resend correctly when shared from organisation 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "resendInvitation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "someToken",
+      },
+    },
+  ],
+]
+`;

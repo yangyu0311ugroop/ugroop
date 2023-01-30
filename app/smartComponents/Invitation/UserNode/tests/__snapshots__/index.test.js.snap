@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserNode /> Smoke tests should render properly 1`] = `
+<WithStyles(GridContainer)
+  alignItems="baseline"
+  wrap="nowrap"
+>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      component="p"
+      ellipsis={true}
+    >
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+      >
+        <ConnectFunction
+          id={0}
+        />
+      </WithStyles(JTextClass)>
+      , 
+      invited
+       
+      <ConnectFunction
+        id={0}
+      />
+       
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+      >
+        by
+         
+        <WithStyles(Connect(WithSimplifyResaga(ShareFrom)))
+          NameProps={
+            Object {
+              "shouldRenderNewLink": true,
+            }
+          }
+          id={0}
+          variant={null}
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      id={0}
+      removeAll={false}
+      variant="icon"
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`normalisers.test.js batchFetchFolderTree should return a particular object shape for setValue 1`] = `
+Object {
+  "nodes": [Function],
+  "raw": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "content": "Folder 1",
+          "id": 2,
+        },
+        Object {
+          "children": Array [],
+          "content": "Folder 2",
+          "id": 3,
+        },
+      ],
+      "content": "rootFolder",
+      "id": 1,
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "content": "Folder 1",
+          "id": 2,
+        },
+        Object {
+          "children": Array [],
+          "content": "Folder 2",
+          "id": 3,
+        },
+      ],
+      "content": "Organisation Tours",
+      "id": 4,
+    },
+  ],
+}
+`;
+
+exports[`normalisers.test.js batchFetchFolderTree should return a particular object shape for setValue 2`] = `"upsertObject"`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object 1`] = `
+Object {
+  "count": undefined,
+  "files": [Function],
+  "nodeId": 1,
+  "nodes": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object 2`] = `
+Object {
+  "a": "upsertObject",
+}
+`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object when fetchType is PAGINATION 1`] = `
+Object {
+  "count": undefined,
+  "files": [Function],
+  "nodeId": undefined,
+  "nodes": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object when fetchType is PAGINATION 2`] = `
+Object {
+  "a": Object {
+    "a": Object {},
+  },
+}
+`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object with count zero 1`] = `
+Object {
+  "count": undefined,
+  "files": [Function],
+  "nodeId": undefined,
+  "nodes": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`normalisers.test.js fetchFolderChildren should return setValue-shaped object with count zero 2`] = `
+Object {
+  "a": "upsertObject",
+}
+`;
+
+exports[`normalisers.test.js fetchFolderParent should return setValue-shaped object 1`] = `
+Object {
+  "breadcrumb": Object {
+    "id": 1,
+    "trail": 1,
+  },
+  "nodes": [Function],
+  "trail": Object {
+    "id": 1,
+    "trail": 1,
+  },
+}
+`;
+
+exports[`normalisers.test.js getChecklists should process checklists 1`] = `
+Object {
+  "nodes": Object {
+    "checklists": Array [
+      Object {
+        "checklists": Array [],
+        "id": 12,
+        "nextNodes": Array [],
+      },
+      Object {
+        "checklists": Array [],
+        "id": 23,
+        "nextNodes": Array [],
+      },
+    ],
+    "id": 2233,
+    "type": "checklist",
+  },
+}
+`;
+
+exports[`normalisers.test.js getChecklists should process checklists 2`] = `
+Array [
+  Array [
+    Object {
+      "checklists": Array [
+        Object {
+          "checklists": Array [],
+          "id": 12,
+          "nextNodes": Array [],
+        },
+        Object {
+          "checklists": Array [],
+          "id": 23,
+          "nextNodes": Array [],
+        },
+      ],
+      "id": 2233,
+      "type": "checklist",
+    },
+  ],
+]
+`;
+
+exports[`normalisers.test.js getChecklists should process folder checklists 1`] = `
+Object {
+  "nodes": Object {
+    "checklists": Array [
+      Object {
+        "checklists": Array [],
+        "id": 12,
+        "nextNodes": Array [
+          Object {
+            "id": 23,
+          },
+        ],
+      },
+    ],
+    "id": 2233,
+    "type": "folder",
+  },
+}
+`;
+
+exports[`normalisers.test.js getChecklists should process folder checklists 2`] = `
+Array [
+  Array [
+    Object {
+      "checklists": Array [
+        Object {
+          "checklists": Array [],
+          "id": 12,
+          "nextNodes": Array [
+            Object {
+              "id": 23,
+            },
+          ],
+        },
+      ],
+      "id": 2233,
+      "type": "folder",
+    },
+  ],
+]
+`;
+
+exports[`normalisers.test.js getChecklists should process others 1`] = `
+Object {
+  "nodes": Object {
+    "checklists": Array [
+      Object {
+        "id": 12,
+        "nextNodes": Array [
+          Object {
+            "id": 23,
+          },
+        ],
+      },
+    ],
+    "id": 2233,
+    "type": "day",
+  },
+}
+`;
+
+exports[`normalisers.test.js getChecklists should process others 2`] = `
+Array [
+  Array [
+    Object {
+      "checklists": Array [
+        Object {
+          "id": 12,
+          "nextNodes": Array [
+            Object {
+              "id": 23,
+            },
+          ],
+        },
+      ],
+      "id": 2233,
+      "type": "day",
+    },
+  ],
+]
+`;
+
+exports[`normalisers.test.js getChecklists should process return node 1`] = `
+Object {
+  "checklists": Array [
+    Object {
+      "id": 12,
+      "nextNodes": Array [
+        Object {
+          "id": 23,
+        },
+      ],
+    },
+  ],
+  "id": 2233,
+  "returnNode": true,
+  "type": "day",
+}
+`;
+
+exports[`normalisers.test.js getUnexistingNodesInStore should return the nodes that are not yet existing in the node store 1`] = `
+Object {
+  "entities": Object {
+    "node": Object {
+      "4": Object {
+        "children": Array [
+          5,
+          6,
+        ],
+        "content": "Organisation Tours",
+        "id": 4,
+      },
+      "5": Object {
+        "children": Array [],
+        "content": "Folder 1",
+        "id": 5,
+      },
+      "6": Object {
+        "children": Array [],
+        "content": "Folder 2",
+        "id": 6,
+      },
+    },
+  },
+  "result": Array [
+    4,
+    5,
+    6,
+  ],
+}
+`;
+
+exports[`normalisers.test.js handleBatchClone should not return setValue-shaped object 1`] = `
+Object {
+  "cloneIds": Array [],
+  "nodes": [MockFunction],
+  "result": Array [],
+}
+`;
+
+exports[`normalisers.test.js handleBatchClone should return setValue-shaped object 1`] = `
+Object {
+  "cloneIds": Array [
+    1,
+  ],
+  "nodes": [MockFunction],
+  "result": Array [
+    Object {
+      "cloneId": 1,
+      "customVal": Object {
+        "type": 1,
+      },
+      "id": 1,
+    },
+  ],
+}
+`;

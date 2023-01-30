@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Name /> #getAvatarProps() still matches snapshot 1`] = `
+Object {
+  "className": null,
+  "imageSize": "imageExtraSmall",
+  "sm": true,
+  "tooltipPlacement": "bottom",
+  "tooltipText": "",
+}
+`;
+
+exports[`<Name /> #render() still matches snapshot 1`] = `"firstName lastName"`;
+
+exports[`<Name /> #renderAvatar() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(AvatarById)))
+  className={null}
+  fullName="firstName lastName"
+  imageSize="imageExtraSmall"
+  personEmail=""
+  sm={true}
+  tooltipPlacement="bottom"
+  tooltipText=""
+  updatedEmail=""
+  userId={-1}
+/>
+`;
+
+exports[`<Name /> #renderAvatar() still matches snapshot 2`] = `
+<div>
+  <ConnectFunction
+    dataStore="personDataStore"
+    id={null}
+    label={
+      <FormattedMessage
+        defaultMessage="Full Name"
+        id="app.smartComponents.Node.parts.Name.editableLabel"
+      />
+    }
+    personId={null}
+    readOnly={false}
+    renderAvatar={[Function]}
+    userId={null}
+  />
+</div>
+`;
+
+exports[`<Name /> #renderAvatar() still matches snapshot if personId 1`] = `
+<div>
+  <ConnectFunction
+    className={null}
+    dataStore="personDataStore"
+    imageSize="imageExtraSmall"
+    sm={true}
+    tooltipPlacement="bottom"
+    tooltipText=""
+    userId={1}
+  />
+</div>
+`;
+
+exports[`<Name /> #renderAvatar() still matches snapshot if userId 1`] = `
+<div>
+  <ConnectFunction
+    className={null}
+    imageSize="imageExtraSmall"
+    sm={true}
+    tooltipPlacement="bottom"
+    tooltipText=""
+    userId={1}
+  />
+</div>
+`;
+
+exports[`<Name /> #renderLink() still matches snapshot if no name 1`] = `"Unnamed"`;
+
+exports[`<Name /> #renderLink() still matches snapshot if no name, with person id 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Name)))
+  bold={true}
+  className={null}
+  dataStore="personDataStore"
+  id={1}
+/>
+`;
+
+exports[`<Name /> #renderLink() still matches snapshot if only props.lastName 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Name)))
+  className={null}
+  id={1}
+/>
+`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if has personId 1`] = `
+<div>
+  renderValue
+</div>
+`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if has personId and valueOnly is true 1`] = `
+<div>
+  renderValue
+</div>
+`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if has userId 1`] = `
+<div>
+  renderValue
+</div>
+`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if no name 1`] = `"Unnamed"`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if no name 2`] = `"Unnamed"`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if only props.ellipsis 1`] = `
+<div
+  className="j-text-ellipsis"
+>
+  firstName lastName
+</div>
+`;
+
+exports[`<Name /> #renderTextOnly() still matches snapshot if only props.lastName 1`] = `"lastName"`;
+
+exports[`<Name /> renderEditable should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    dataStore="personDataStore"
+    id={1}
+    label={
+      <FormattedMessage
+        defaultMessage="Full Name"
+        id="app.smartComponents.Node.parts.Name.editableLabel"
+      />
+    }
+    personId={2}
+    readOnly={true}
+    renderAvatar={[MockFunction]}
+    userId={3}
+  />
+</div>
+`;
+
+exports[`<Name /> renderPart should match snapshot 1`] = `<div />`;
+
+exports[`<Name /> renderProps should match snapshot 1`] = `
+<div>
+  children
+</div>
+`;

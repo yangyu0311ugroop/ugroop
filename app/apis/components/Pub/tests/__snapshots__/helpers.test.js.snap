@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PUB_API_HELPERS getTreeAndTimes should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Pub",
+    "getPubTemplateTree",
+    Object {
+      "onError": "onError",
+      "onSuccess": [Function],
+      "payload": Object {
+        "hashkey": "hashkey",
+        "idUpsertMode": undefined,
+      },
+    },
+  ],
+  Array [
+    "Pub",
+    "getPubTemplateTimes",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "hashkey": "hashkey",
+        "ids": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+]
+`;

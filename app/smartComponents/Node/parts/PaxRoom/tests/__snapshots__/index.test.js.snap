@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomType /> handleCreateButtonRef() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handleCreateClick() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handlePopoverClose() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handleSubmit() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> handleValidSubmit() should still match snapshot 1`] = `<div />`;
+
+exports[`<RoomType /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<RoomType /> renderEditable() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(EditableLabel)>
+              <FormattedMessage
+                defaultMessage="Room Type"
+                id="app.Node.parts.PaxRoom.label"
+              />
+            </WithStyles(EditableLabel)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(InlineButton)
+          buttonRef={[Function]}
+          className=""
+          component="div"
+          isEllipsis={true}
+          onClick={[Function]}
+          spanBlock={true}
+        >
+          <WithStyles(EditablePlaceholder)>
+            <FormattedMessage
+              defaultMessage="Click to specify room type"
+              id="app.Node.parts.PaxRoom.placeholder"
+            />
+          </WithStyles(EditablePlaceholder)>
+        </WithStyles(InlineButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PopoverForm)
+          disabled={false}
+          onClose={[Function]}
+          open={false}
+          popoverProps={
+            Object {
+              "PaperProps": Object {
+                "classes": Object {
+                  "root": undefined,
+                },
+              },
+              "anchorEl": null,
+              "anchorOrigin": Object {
+                "horizontal": "right",
+                "vertical": "bottom",
+              },
+              "transformOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+            }
+          }
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                variant="selectField"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)
+                  xs={true}
+                />
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="black"
+                    dense={true}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="small"
+                    variant="outline"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Close"
+                      id="app.Node.parts.PaxRoom..cancelButtonLabel"
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(PopoverForm)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomType /> renderEditable() should still match snapshot 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(EditableLabel)>
+              <FormattedMessage
+                defaultMessage="Room Type"
+                id="app.Node.parts.PaxRoom.label"
+              />
+            </WithStyles(EditableLabel)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(InlineButton)
+          buttonRef={[Function]}
+          className=""
+          component="div"
+          isEllipsis={true}
+          onClick={[Function]}
+          spanBlock={true}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+            id={1}
+            variant="textOnly"
+          />
+        </WithStyles(InlineButton)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PopoverForm)
+          disabled={false}
+          onClose={[Function]}
+          open={false}
+          popoverProps={
+            Object {
+              "PaperProps": Object {
+                "classes": Object {
+                  "root": undefined,
+                },
+              },
+              "anchorEl": null,
+              "anchorOrigin": Object {
+                "horizontal": "right",
+                "vertical": "bottom",
+              },
+              "transformOrigin": Object {
+                "horizontal": "right",
+                "vertical": "top",
+              },
+            }
+          }
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+                selectedId={1}
+                variant="selectField"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)
+                  xs={true}
+                />
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="black"
+                    dense={true}
+                    disabled={false}
+                    onClick={[Function]}
+                    size="small"
+                    variant="outline"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Close"
+                      id="app.Node.parts.PaxRoom..cancelButtonLabel"
+                    />
+                  </WithStyles(Button)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(PopoverForm)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomType /> renderEditableOptions() should still match snapshot 1`] = `
+<div>
+  <Component
+    key="Single"
+  />
+  <Component
+    key="Double"
+  />
+  <Component
+    key="Twin"
+  />
+  <Component
+    key="Triple"
+  />
+  <Component
+    key="Others"
+  />
+</div>
+`;
+
+exports[`<RoomType /> renderRoomTypeOptions() should still match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Single
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Double
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Twin
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Triple
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

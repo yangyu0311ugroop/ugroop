@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentDetailNumber /> renderTextField should match snapshot 1`] = `
+<div>
+  <TextField
+    label={
+      <FormattedMessage
+        defaultMessage="Student Number/ID"
+        id="app.smartComponents.Person.StudentDetail.Number.label"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="studentDetail.number"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<StudentDetailNumber /> renderTextOnly should match snapshot 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="uppercase"
+  />
+</div>
+`;

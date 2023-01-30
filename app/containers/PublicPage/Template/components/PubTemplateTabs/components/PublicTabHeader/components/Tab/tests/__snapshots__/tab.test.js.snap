@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicTab should render what it should render 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tab))
+    classes={
+      Object {
+        "label": "PublicTab-label",
+        "selected": "PublicTab-selected",
+      }
+    }
+    label="Be reconciled to God today!"
+    tabId={5}
+  />
+</div>
+`;

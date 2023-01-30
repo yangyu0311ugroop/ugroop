@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourForm /> #handleInvalidSubmit() should call handleInvalidSubmit 1`] = `true`;
+
+exports[`<TourForm /> #handleInvalidSubmit() should call handleInvalidSubmit 2`] = `true`;
+
+exports[`<TourForm /> #handleSubmit() calls PUB_API_HELPERS.createInterest 1`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "node": Object {
+          "customData": Object {
+            "firstName": undefined,
+            "interestLevel": undefined,
+            "lastName": undefined,
+          },
+        },
+        "participant": Array [],
+        "selfTravel": false,
+      },
+      "hashkey": "hashkey",
+      "onError": [Function],
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {
+        "actionsRoot": "actionsRoot",
+        "h1": "h1",
+        "root": "root",
+      },
+      "hashkey": "hashkey",
+      "history": Object {
+        "push": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<TourForm /> #handleSubmit() interested person is also a participant 1`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "node": Object {
+          "customData": Object {
+            "firstName": undefined,
+            "interestLevel": undefined,
+            "lastName": undefined,
+          },
+        },
+        "participant": Array [
+          Object {
+            "customData": Object {
+              "comment": undefined,
+              "dob": undefined,
+              "email": undefined,
+              "firstName": undefined,
+              "lastName": undefined,
+              "orgId": undefined,
+              "personType": undefined,
+              "phone": undefined,
+              "primary": true,
+            },
+          },
+        ],
+        "selfTravel": true,
+      },
+      "hashkey": "hashkey",
+      "onError": [Function],
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {
+        "actionsRoot": "actionsRoot",
+        "h1": "h1",
+        "root": "root",
+      },
+      "hashkey": "hashkey",
+      "history": Object {
+        "push": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<TourForm /> #render() still matches snapshot 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onFormChange={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={0}
+    >
+      renderInterestForm
+      renderParticipantForm
+      renderFormButtons
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<TourForm /> #renderOtherTravelSelect() should match snapshot 1`] = `
+<div>
+  <div>
+    <WithStyles(Button)
+      color="primary"
+      key="2"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      2 people
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      key="3"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      3 people
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      key="4"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      4 people
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      key="5"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      5 people
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      key="6"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      6 people
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="alert"
+      onClick={[MockFunction]}
+      variant="outline"
+    >
+      Reset to 1 people
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`<TourForm /> #renderParticipantFormItem() should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <H3
+              dense={true}
+              weight="bold"
+            >
+              #NaN
+            </H3>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+          isEmptyInterestLevel={null}
+          isEmptySelfTravel={null}
+          isPublic={true}
+          isRYI={true}
+          nameKey="participant[undefined]"
+          variant="form"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

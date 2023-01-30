@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGFeaturePage  /> renders the feature page 1`] = `
+<UGLandingLayout>
+  <div
+    style={
+      Object {
+        "marginTop": "100px",
+      }
+    }
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "uGroop - Features",
+            "name": "description",
+          },
+        ]
+      }
+      title="Feature Page"
+    />
+    <div>
+      <WithStyles(Container)
+        className="MarketingFeaturePage-container"
+      >
+        <WithStyles(UGCard)
+          className="MarketingFeaturePage-featureCard"
+          withNoShadowAndBorder={true}
+        >
+          <WithStyles(Header)
+            as="h2"
+            color="orange"
+            isThin={true}
+          >
+            Create your own tour template
+          </WithStyles(Header)>
+          <WithStyles(UGHr) />
+          <WithStyles(GridContainer)
+            className="MarketingFeaturePage-featureContainer"
+          >
+            <WithStyles(GridItem)
+              className="MarketingFeaturePage-featureItem"
+              md={6}
+              xs={12}
+            >
+              <WithStyles(Header)
+                as="h4"
+              >
+                Start from template
+              </WithStyles(Header)>
+              <WithStyles(Description)
+                size={14}
+              >
+                Besides school administrators and facilitators, you can find help with your co-organisers when creating the tour
+              </WithStyles(Description)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              className="MarketingFeaturePage-featureItem"
+              md={6}
+              xs={12}
+            >
+              <WithStyles(Header)
+                as="h4"
+              >
+                Create your own tour
+              </WithStyles(Header)>
+              <WithStyles(Description)
+                size={14}
+              >
+                Besides school administrators and facilitators, you can find help with your co-organisers when creating the tour
+              </WithStyles(Description)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              className="MarketingFeaturePage-featureItem"
+              md={6}
+              xs={12}
+            >
+              <WithStyles(Header)
+                as="h4"
+              >
+                Collaborate with school
+              </WithStyles(Header)>
+              <WithStyles(Description)
+                size={14}
+              >
+                Besides school administrators and facilitators, you can find help with your co-organisers when creating the tour
+              </WithStyles(Description)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              className="MarketingFeaturePage-featureItem"
+              md={6}
+              xs={12}
+            >
+              <WithStyles(Header)
+                as="h4"
+              >
+                Share it with others
+              </WithStyles(Header)>
+              <WithStyles(Description)
+                size={14}
+              >
+                Besides school administrators and facilitators, you can find help with your co-organisers when creating the tour
+              </WithStyles(Description)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(UGCard)>
+      </WithStyles(Container)>
+    </div>
+    <div
+      className="MarketingFeaturePage-laptopBlock"
+    >
+      <WithStyles(Container)
+        className="MarketingFeaturePage-laptopBlockContainer"
+      >
+        <Img
+          alt="laptop"
+          className="MarketingFeaturePage-laptopImg"
+          src="IMAGE_MOCK"
+        />
+        <WithStyles(Header)
+          as="h1"
+          className="MarketingFeaturePage-paddingHeader"
+        >
+          ORGANISE IT BETTER, TOGETHER.
+        </WithStyles(Header)>
+      </WithStyles(Container)>
+    </div>
+  </div>
+</UGLandingLayout>
+`;

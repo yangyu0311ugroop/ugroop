@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecentItem /> render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(ActionIcon)))
+          loading={false}
+          onClick={[Function]}
+          variant="ShowButton"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          variant="link"
+        />
+         
+        <WithStyles(Connect(WithSimplifyResaga(LastUpdateAt))) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

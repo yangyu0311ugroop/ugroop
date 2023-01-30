@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Followers /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          justify="space-between"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(EditableLabel)
+                  Typography={[Function]}
+                >
+                  Followers
+                </WithStyles(EditableLabel)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                •
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  dense={true}
+                  onClick={[Function]}
+                  variant="inline"
+                >
+                  <WithStyles(EditableLabel)
+                    Typography={[Function]}
+                  >
+                    <WithStyles(JTextClass)
+                      success={true}
+                    >
+                      Add Follower
+                    </WithStyles(JTextClass)>
+                  </WithStyles(EditableLabel)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Create))))))) />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Component />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Followers /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        onClick={[Function]}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            gray={true}
+            sm={true}
+            spacing2={true}
+            uppercase={true}
+          >
+            Followers (
+            <Component
+              variant="count"
+            />
+            )
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="chevron-down"
+            size="extraSmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Component
+        readOnly={false}
+      />
+      <Component
+        readOnly={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

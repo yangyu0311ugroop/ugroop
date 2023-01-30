@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderListItem /> Smoke tests still matches snapshot 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  classes={
+    Object {
+      "default": undefined,
+    }
+  }
+  disableGutters={true}
+  divider={true}
+  key="0"
+>
+  <WithStyles(Icon)
+    className="itemIcon"
+    icon="lnr-document"
+  />
+  <Link
+    title="content"
+    to="url"
+  >
+     
+    content
+  </Link>
+</WithStyles(ForwardRef(ListItem))>
+`;
+
+exports[`<FolderListItem /> Smoke tests still matches snapshot if props.type=folder 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  classes={
+    Object {
+      "default": undefined,
+    }
+  }
+  disableGutters={true}
+  divider={true}
+>
+  <WithStyles(Icon)
+    className="itemIcon"
+    icon="lnr-folder"
+  />
+  <Link
+    title="content"
+    to="url"
+  >
+     
+    content
+  </Link>
+</WithStyles(ForwardRef(ListItem))>
+`;

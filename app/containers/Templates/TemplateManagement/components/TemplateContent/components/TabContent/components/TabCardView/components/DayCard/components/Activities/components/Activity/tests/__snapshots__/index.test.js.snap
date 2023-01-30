@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Activity /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem) />
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+            attachmentId="/attachmentUrl"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Activity /> render() should render location if location is not blank space 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem) />
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+            attachmentId="/attachmentUrl"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <p
+        className="undefined"
+      >
+        At the feet of the cross of Jesus Christ
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Activity /> render() should render no attachment if attachmentId is null/undefined 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Activity /> render() should render photoSection if photoId is not 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem) />
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+            attachmentId="/attachmentUrl"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+        isLazyLoad={true}
+        photoId="/photoUrl"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RightMenu /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    noWrap={true}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(NavItem)
+        icon="lnr-bubbles"
+        onClick={[Function]}
+        title="Chats"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Profile))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

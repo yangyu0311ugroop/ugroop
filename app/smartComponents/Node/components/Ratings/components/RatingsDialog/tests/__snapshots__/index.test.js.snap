@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingsDialog /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    open={false}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      renderDialogHeader
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderDialogContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<RatingsDialog /> render() should render correctly badge 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          color="star"
+          icon="lnr-star"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction>
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;
+
+exports[`<RatingsDialog /> render() should render correctly simplify 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                black={true}
+                bold={true}
+              >
+                Reviews
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)
+                  key="5"
+                >
+                  <ConnectFunction
+                    rate={5}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  key="4"
+                >
+                  <ConnectFunction
+                    rate={4}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  key="3"
+                >
+                  <ConnectFunction
+                    rate={3}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  key="2"
+                >
+                  <ConnectFunction
+                    rate={2}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  key="1"
+                >
+                  <ConnectFunction
+                    rate={1}
+                  >
+                    <Component />
+                  </ConnectFunction>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Styled(MuiBox)
+                p={
+                  Object {
+                    "md": 2,
+                    "xs": 0,
+                  }
+                }
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <H2
+                      dense={true}
+                    >
+                      <ConnectFunction>
+                        <Component />
+                      </ConnectFunction>
+                    </H2>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <ConnectFunction>
+                      <Component />
+                    </ConnectFunction>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <P
+                      dense={true}
+                      subtitle={true}
+                    >
+                      0
+                       
+                      reviews
+                    </P>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </Styled(MuiBox)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderDialogContent
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderAverage should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H2
+      dense={true}
+    >
+      <ConnectFunction>
+        <Component />
+      </ConnectFunction>
+    </H2>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderAverage should match snapshot 2`] = `"1.0"`;
+
+exports[`<RatingsDialog /> renderButton should render add rating button if userRatingId is null 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    justify="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(AddRating))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderButton should render edit rating button if userRatingId is not null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      justify="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(EditRating)))
+          id={1}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderButton should render nothing if roles is not participant, organiser or owner of tour 1`] = `<div />`;
+
+exports[`<RatingsDialog /> renderDialogContent should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        justify="center"
+      >
+        <ConnectFunction
+          key="0"
+          userId={0}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Hr)
+        noMarginBottom={true}
+        noMarginTop={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(RatingFilter)))
+        allRatingCount={2}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={1}
+      >
+        <ConnectFunction
+          filter="latest"
+          ratings={
+            Array [
+              1,
+              2,
+            ]
+          }
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderDialogContent should match snapshot 2`] = `
+Array [
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <ConnectFunction
+      id={1}
+    />
+  </WithStyles(GridItem)>,
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <ConnectFunction
+      id={2}
+    />
+  </WithStyles(GridItem)>,
+  <WithStyles(GridItem)
+    key="3"
+  >
+    <ConnectFunction
+      id={3}
+    />
+  </WithStyles(GridItem)>,
+]
+`;
+
+exports[`<RatingsDialog /> renderDialogHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="Reviews"
+  />
+  <WithStyles(CloseButton) />
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            bold={true}
+          >
+            Reviews
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              key="5"
+            >
+              <ConnectFunction
+                rate={5}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              key="4"
+            >
+              <ConnectFunction
+                rate={4}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              key="3"
+            >
+              <ConnectFunction
+                rate={3}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              key="2"
+            >
+              <ConnectFunction
+                rate={2}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              key="1"
+            >
+              <ConnectFunction
+                rate={1}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Styled(MuiBox)
+            p={
+              Object {
+                "md": 2,
+                "xs": 0,
+              }
+            }
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="column"
+              spacing={0}
+            >
+              renderAverage
+              renderRateStar
+              <WithStyles(GridItem)>
+                <P
+                  dense={true}
+                  subtitle={true}
+                >
+                  0
+                   
+                  reviews
+                </P>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </Styled(MuiBox)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderRateAverage() should renderRateAverage 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    bold={true}
+    dark={true}
+    paddingRight={true}
+    sm={true}
+  >
+    4.3
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderRateBar should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RateBar)))
+    percentage={100}
+    value={1}
+  />
+</div>
+`;
+
+exports[`<RatingsDialog /> renderRateBars should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="5"
+    >
+      <ConnectFunction
+        id={1}
+        rate={5}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="4"
+    >
+      <ConnectFunction
+        id={1}
+        rate={4}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="3"
+    >
+      <ConnectFunction
+        id={1}
+        rate={3}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="2"
+    >
+      <ConnectFunction
+        id={1}
+        rate={2}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <ConnectFunction
+        id={1}
+        rate={1}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderRateStar should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction>
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RatingsDialog /> renderRateStar should match snapshot 2`] = `
+<WithStyles(Rating)
+  precision={0.1}
+  readOnly={true}
+  value={1}
+/>
+`;

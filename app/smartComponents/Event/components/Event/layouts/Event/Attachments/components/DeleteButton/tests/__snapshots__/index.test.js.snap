@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteButton /> handleError should should snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Something went wrong. Please try again."
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.components.DeleteButton.errorMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<DeleteButton /> handleSuccess should should snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Successfully deleted an attachment"
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.components.DeleteButton.successMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<DeleteButton /> render() should render correctly 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    confirmButton="Delete Attachment"
+    dialogTitle="Delete this Attachment"
+    headlineText="Are you sure you want to delete this Attachment?"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Delete"
+  />
+</div>
+`;

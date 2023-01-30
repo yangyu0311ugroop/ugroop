@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompletedAt /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<CompletedAt /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<CompletedAt /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    enterDelay={1000}
+    placement="top"
+    title="renderCurrentDayDateTimeZone"
+  >
+    <span
+      className="default"
+    >
+      renderFromNow
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListHeading /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <div
+    className="item"
+  >
+    Children
+  </div>
+</WithStyles(GridItem)>
+`;

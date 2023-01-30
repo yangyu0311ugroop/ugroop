@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rating /> should render correctly 1`] = `
+<WithStyles(ForwardRef(Rating))
+  disabled={false}
+  readOnly={false}
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  size="large"
+/>
+`;

@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomSummary /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <div>
+            Room Summary
+          </div>
+        </WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Room
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </BoundCan>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        card={true}
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            gray={true}
+            halfPaddingLeft={true}
+            md={true}
+          >
+            Rooms
+          </WithStyles(JTextClass)>
+          <WithStyles(Hr)
+            halfMarginTop={true}
+            noMarginBottom={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          clickable={true}
+          onClick={[Function]}
+        >
+          <WithStyles(GridContainer)
+            justify="space-between"
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                noWrap={true}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    color="success"
+                    icon="lnr-bed"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <P
+                    dense={true}
+                    weight="bold"
+                    whiteSpace="nowrap"
+                  >
+                    <WithStyles(JTextClass)
+                      ellipsis={true}
+                    >
+                      All Rooms
+                    </WithStyles(JTextClass)>
+                  </P>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+        <WithStyles(Hr)
+          halfMarginTop={true}
+          noMarginBottom={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justify="space-between"
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                noWrap={true}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-users"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <P
+                    dense={true}
+                    weight="light"
+                    whiteSpace="nowrap"
+                  >
+                    Going undefined:
+                  </P>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justify="space-between"
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                noWrap={true}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-users-plus"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <P
+                    dense={true}
+                    weight="light"
+                    whiteSpace="nowrap"
+                  >
+                    undefined Allocated:
+                  </P>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justify="space-between"
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="baseline"
+                noWrap={true}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    color="warning"
+                    icon="lnr-bed"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <P
+                    dense={true}
+                    weight="light"
+                    whiteSpace="nowrap"
+                  >
+                    Unallocated rooms:
+                  </P>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomSummary /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <div>
+    No rooms have been created.
+  </div>
+</div>
+`;
+
+exports[`<RoomSummary /> renderRoom() should renderRoom 1`] = `<div />`;
+
+exports[`<RoomSummary /> renderRoomCountByType() should renderRoomCountByType() 1`] = `<div />`;
+
+exports[`<RoomSummary /> renderRoomCountByType() should renderRoomCountByType() 2`] = `
+<div>
+  <WithStyles(GridItem)
+    onClick={[Function]}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Head)>
+            #
+            1
+          </WithStyles(Head)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          1 (1)
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomSummary /> renderRoomType() should renderRoomType() 1`] = `
+<div>
+  <WithStyles(GridItem)
+    onClick={[Function]}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Head)>
+            #
+            2
+          </WithStyles(Head)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          Twin (2)
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomSummary /> renderRoomTypes() should renderRoomTypes() 1`] = `<div />`;
+
+exports[`<RoomSummary /> setSelectedType() should renderEmpty 1`] = `<div />`;

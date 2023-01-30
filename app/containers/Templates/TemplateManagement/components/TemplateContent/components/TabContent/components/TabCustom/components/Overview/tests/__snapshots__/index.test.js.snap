@@ -1,0 +1,3297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overview /> grouping() should grouping() 1`] = `
+Array [
+  Array [
+    "ACCOMMODATIONS",
+    Object {
+      "ACCOMMODATIONS": Object {
+        "name": "accommodationGrouping",
+        "obj": Object {
+          "positions": Array [
+            "start",
+            "middle",
+          ],
+          "where": Object {
+            "type": "Accommodation",
+          },
+        },
+      },
+      "ATTACHMENT": Object {
+        "name": "allEvents",
+        "obj": Array [
+          Object {
+            "cacheKey": "shd",
+            "dayCountType": "singleDay",
+            "positions": "start",
+          },
+          Object {
+            "cacheKey": "nshd",
+            "dayCountType": "multiDay",
+            "positions": Array [
+              "start",
+              "middle",
+              "end",
+            ],
+          },
+        ],
+      },
+      "FOOD": Object {
+        "name": "foodGrouping",
+        "obj": Array [
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Activity",
+                },
+                Object {
+                  "subtype": "Food",
+                },
+                Object {
+                  "dayCount": Object {
+                    "gt": 0,
+                  },
+                },
+                Object {
+                  "position": Object {
+                    "inq": Array [
+                      "start",
+                      "middle",
+                      "end",
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Activity",
+                },
+                Object {
+                  "subtype": "Food",
+                },
+                Object {
+                  "dayCount": 0,
+                },
+                Object {
+                  "position": "start",
+                },
+              ],
+            },
+          },
+        ],
+      },
+      "TRANSPORTATION": Object {
+        "name": "transportationWithFlightStartEndGrouping",
+        "obj": Array [
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Transportation",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Flight",
+                      "VehicleHire",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": Object {
+                    "gt": 0,
+                  },
+                },
+                Object {
+                  "position": Object {
+                    "inq": Array [
+                      "start",
+                      "end",
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Transportation",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Car",
+                      "Cab",
+                      "Taxi",
+                      "Rideshare",
+                      "Coach",
+                      "Bus",
+                      "Train",
+                      "Tram",
+                      "Ship",
+                      "Boat",
+                      "Ferry",
+                      "Bicycle",
+                      "Walk",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": Object {
+                    "gt": 0,
+                  },
+                },
+                Object {
+                  "position": Object {
+                    "inq": Array [
+                      "start",
+                      "middle",
+                      "end",
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Transportation",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Flight",
+                      "Car",
+                      "Cab",
+                      "Taxi",
+                      "Rideshare",
+                      "VehicleHire",
+                      "Coach",
+                      "Bus",
+                      "Train",
+                      "Tram",
+                      "Ship",
+                      "Boat",
+                      "Ferry",
+                      "Bicycle",
+                      "Walk",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": 0,
+                },
+                Object {
+                  "position": "start",
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Transportation",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Flight",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": 0,
+                },
+                Object {
+                  "position": "end",
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Transportation",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Flight",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": Object {
+                    "gt": 0,
+                  },
+                },
+                Object {
+                  "position": "end",
+                },
+              ],
+            },
+          },
+        ],
+      },
+      "default": Object {
+        "name": "activityGrouping",
+        "obj": Array [
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Activity",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Event",
+                      "Meeting",
+                      "Concert",
+                      "Tour",
+                      "Theatre",
+                      "Match",
+                      "Recreation",
+                      "Game",
+                      "MatchCompetition",
+                      "Occasion",
+                      "Walk",
+                      "Lesson",
+                      "Cruise",
+                      "Exhibition",
+                      "GuidedTour",
+                      "SelfGuidedTour",
+                      "Museum",
+                      "RiseAndShine",
+                      "SleepAndRest",
+                      "Other",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": Object {
+                    "gt": 0,
+                  },
+                },
+                Object {
+                  "position": Object {
+                    "inq": Array [
+                      "start",
+                      "middle",
+                      "end",
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "where": Object {
+              "and": Array [
+                Object {
+                  "type": "Activity",
+                },
+                Object {
+                  "subtype": Object {
+                    "inq": Array [
+                      "Event",
+                      "Meeting",
+                      "Concert",
+                      "Tour",
+                      "Theatre",
+                      "Match",
+                      "Recreation",
+                      "Game",
+                      "MatchCompetition",
+                      "Occasion",
+                      "Walk",
+                      "Lesson",
+                      "Cruise",
+                      "Exhibition",
+                      "GuidedTour",
+                      "SelfGuidedTour",
+                      "Museum",
+                      "RiseAndShine",
+                      "SleepAndRest",
+                      "Other",
+                    ],
+                  },
+                },
+                Object {
+                  "dayCount": 0,
+                },
+                Object {
+                  "position": "start",
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Overview /> handleInsertButton should setState 1`] = `
+Array [
+  Array [
+    2233,
+  ],
+]
+`;
+
+exports[`<Overview /> moveSuccess() should call handleClick 1`] = `
+Array [
+  Array [
+    2233,
+  ],
+]
+`;
+
+exports[`<Overview /> moveSuccess() should call handleClick 2`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<Overview /> render() should render 1`] = `
+<div>
+  <Scrollspy
+    componentTag="ul"
+    currentClassName=""
+    items={
+      Array [
+        "undefined1",
+        "undefined2",
+      ]
+    }
+    offset={-94}
+    onUpdate={[Function]}
+    style={Object {}}
+  />
+  <WithStyles(GridContainer)
+    card={true}
+    dense={true}
+    direction="column"
+  >
+    <ConnectFunction
+      ids={
+        Array [
+          1,
+          2,
+        ]
+      }
+    >
+      <Component />
+    </ConnectFunction>
+    renderBody
+    renderNewNode
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderAttachment() should renderAttachment 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    variant="list"
+  />
+</div>
+`;
+
+exports[`<Overview /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="flex-start"
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      renderDroppableContent
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderBody() should renderBody checklist 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="flex-start"
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)
+                onClick={[Function]}
+              >
+                <WithStyles(GridContainer)
+                  direction="column"
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Component)))
+                    component={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Naked": [Function],
+                        "displayName": "WithStyles(GridItem)",
+                        "options": Object {
+                          "defaultTheme": Object {
+                            "breakpoints": Object {
+                              "between": [Function],
+                              "down": [Function],
+                              "keys": Array [
+                                "xs",
+                                "sm",
+                                "md",
+                                "lg",
+                                "xl",
+                              ],
+                              "only": [Function],
+                              "up": [Function],
+                              "values": Object {
+                                "lg": 1280,
+                                "md": 960,
+                                "sm": 600,
+                                "xl": 1920,
+                                "xs": 0,
+                              },
+                              "width": [Function],
+                            },
+                            "direction": "ltr",
+                            "mixins": Object {
+                              "gutters": [Function],
+                              "toolbar": Object {
+                                "@media (min-width:0px) and (orientation: landscape)": Object {
+                                  "minHeight": 48,
+                                },
+                                "@media (min-width:600px)": Object {
+                                  "minHeight": 64,
+                                },
+                                "minHeight": 56,
+                              },
+                            },
+                            "overrides": Object {},
+                            "palette": Object {
+                              "action": Object {
+                                "activatedOpacity": 0.12,
+                                "active": "rgba(0, 0, 0, 0.54)",
+                                "disabled": "rgba(0, 0, 0, 0.26)",
+                                "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
+                              },
+                              "augmentColor": [Function],
+                              "background": Object {
+                                "default": "#fafafa",
+                                "paper": "#fff",
+                              },
+                              "common": Object {
+                                "black": "#000",
+                                "white": "#fff",
+                              },
+                              "contrastThreshold": 3,
+                              "divider": "rgba(0, 0, 0, 0.12)",
+                              "error": Object {
+                                "contrastText": "#fff",
+                                "dark": "#d32f2f",
+                                "light": "#e57373",
+                                "main": "#f44336",
+                              },
+                              "getContrastText": [Function],
+                              "grey": Object {
+                                "100": "#f5f5f5",
+                                "200": "#eeeeee",
+                                "300": "#e0e0e0",
+                                "400": "#bdbdbd",
+                                "50": "#fafafa",
+                                "500": "#9e9e9e",
+                                "600": "#757575",
+                                "700": "#616161",
+                                "800": "#424242",
+                                "900": "#212121",
+                                "A100": "#d5d5d5",
+                                "A200": "#aaaaaa",
+                                "A400": "#303030",
+                                "A700": "#616161",
+                              },
+                              "info": Object {
+                                "contrastText": "#fff",
+                                "dark": "#1976d2",
+                                "light": "#64b5f6",
+                                "main": "#2196f3",
+                              },
+                              "primary": Object {
+                                "contrastText": "#fff",
+                                "dark": "#303f9f",
+                                "light": "#7986cb",
+                                "main": "#3f51b5",
+                              },
+                              "secondary": Object {
+                                "contrastText": "#fff",
+                                "dark": "#c51162",
+                                "light": "#ff4081",
+                                "main": "#f50057",
+                              },
+                              "success": Object {
+                                "contrastText": "rgba(0, 0, 0, 0.87)",
+                                "dark": "#388e3c",
+                                "light": "#81c784",
+                                "main": "#4caf50",
+                              },
+                              "text": Object {
+                                "disabled": "rgba(0, 0, 0, 0.38)",
+                                "hint": "rgba(0, 0, 0, 0.38)",
+                                "primary": "rgba(0, 0, 0, 0.87)",
+                                "secondary": "rgba(0, 0, 0, 0.54)",
+                              },
+                              "tonalOffset": 0.2,
+                              "type": "light",
+                              "warning": Object {
+                                "contrastText": "rgba(0, 0, 0, 0.87)",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
+                              },
+                            },
+                            "props": Object {},
+                            "shadows": Array [
+                              "none",
+                              "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                              "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                              "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                              "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                              "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                              "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                              "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                              "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                              "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                              "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                              "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                              "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                              "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                              "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                              "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                              "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                              "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                              "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                              "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                              "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                              "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                              "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                              "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                              "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                            ],
+                            "shape": Object {
+                              "borderRadius": 4,
+                            },
+                            "spacing": [Function],
+                            "transitions": Object {
+                              "create": [Function],
+                              "duration": Object {
+                                "complex": 375,
+                                "enteringScreen": 225,
+                                "leavingScreen": 195,
+                                "short": 250,
+                                "shorter": 200,
+                                "shortest": 150,
+                                "standard": 300,
+                              },
+                              "easing": Object {
+                                "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                              },
+                              "getAutoHeightDuration": [Function],
+                            },
+                            "typography": Object {
+                              "body1": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "1rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.00938em",
+                                "lineHeight": 1.5,
+                              },
+                              "body2": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "0.875rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.01071em",
+                                "lineHeight": 1.43,
+                              },
+                              "button": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "0.875rem",
+                                "fontWeight": 500,
+                                "letterSpacing": "0.02857em",
+                                "lineHeight": 1.75,
+                                "textTransform": "uppercase",
+                              },
+                              "caption": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "0.75rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.03333em",
+                                "lineHeight": 1.66,
+                              },
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": 14,
+                              "fontWeightBold": 700,
+                              "fontWeightLight": 300,
+                              "fontWeightMedium": 500,
+                              "fontWeightRegular": 400,
+                              "h1": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "6rem",
+                                "fontWeight": 300,
+                                "letterSpacing": "-0.01562em",
+                                "lineHeight": 1.167,
+                              },
+                              "h2": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "3.75rem",
+                                "fontWeight": 300,
+                                "letterSpacing": "-0.00833em",
+                                "lineHeight": 1.2,
+                              },
+                              "h3": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "3rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0em",
+                                "lineHeight": 1.167,
+                              },
+                              "h4": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "2.125rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.00735em",
+                                "lineHeight": 1.235,
+                              },
+                              "h5": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "1.5rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0em",
+                                "lineHeight": 1.334,
+                              },
+                              "h6": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "1.25rem",
+                                "fontWeight": 500,
+                                "letterSpacing": "0.0075em",
+                                "lineHeight": 1.6,
+                              },
+                              "htmlFontSize": 16,
+                              "overline": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "0.75rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.08333em",
+                                "lineHeight": 2.66,
+                                "textTransform": "uppercase",
+                              },
+                              "pxToRem": [Function],
+                              "round": [Function],
+                              "subtitle1": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "1rem",
+                                "fontWeight": 400,
+                                "letterSpacing": "0.00938em",
+                                "lineHeight": 1.75,
+                              },
+                              "subtitle2": Object {
+                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                "fontSize": "0.875rem",
+                                "fontWeight": 500,
+                                "letterSpacing": "0.00714em",
+                                "lineHeight": 1.57,
+                              },
+                            },
+                            "zIndex": Object {
+                              "appBar": 1100,
+                              "drawer": 1200,
+                              "mobileStepper": 1000,
+                              "modal": 1300,
+                              "snackbar": 1400,
+                              "speedDial": 1050,
+                              "tooltip": 1500,
+                            },
+                          },
+                          "name": "GridItem",
+                        },
+                        "propTypes": Object {
+                          "classes": [Function],
+                          "innerRef": [Function],
+                        },
+                        "render": [Function],
+                        "useStyles": [Function],
+                      }
+                    }
+                    editable={false}
+                    first={false}
+                    xs={true}
+                  />
+                  <WithStyles(GridItem)>
+                    <div
+                      className=""
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="flex-start"
+                        wrap="nowrap"
+                      >
+                        <WithStyles(GridItem)>
+                          <div>
+                            <WithStyles(Icon)
+                              color="#2cbe4e"
+                              icon="lnr-home2"
+                              size="small"
+                            />
+                          </div>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(GridContainer)
+                            direction="column"
+                            spacing={0}
+                          >
+                            <WithStyles(GridItem)>
+                              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                                className=""
+                                editable={false}
+                                ellipsis={true}
+                                ellipsisClassName=""
+                                showEmpty={true}
+                              />
+                            </WithStyles(GridItem)>
+                            <WithStyles(GridContainer)>
+                              <WithStyles(GridItem)>
+                                <ConnectFunction
+                                  checklistsClass=""
+                                  defaultShowChecklists={false}
+                                  index={-1}
+                                  showAddButton={true}
+                                  showChecklists={true}
+                                  showEmpty={true}
+                                  small={true}
+                                  stopPropagation={false}
+                                  stopPropogateShowClose={true}
+                                  variant="iconButton"
+                                  xsIcon={true}
+                                />
+                              </WithStyles(GridItem)>
+                            </WithStyles(GridContainer)>
+                          </WithStyles(GridContainer)>
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </div>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      renderDroppableContent
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderBody() should renderBody editable 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="flex-start"
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <DragDropContext
+        onDragEnd={[Function]}
+      >
+        <Connect(Droppable)
+          direction="vertical"
+          droppableId="overview-droppable-undefined-undefined"
+          ignoreContainerClipping={false}
+          isCombineEnabled={false}
+          isDropDisabled={false}
+          type="SECTION"
+        >
+          renderDroppable
+        </Connect(Droppable)>
+      </DragDropContext>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderBody() should return editable 1`] = `<div />`;
+
+exports[`<Overview /> renderChecklist() should renderChecklist 1`] = `<div />`;
+
+exports[`<Overview /> renderChecklist() should renderChecklist 2`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        checklistsClass=""
+        defaultShowChecklists={false}
+        index={1}
+        parentNodeId={1}
+        showAddButton={true}
+        showChecklists={true}
+        showEmpty={true}
+        small={true}
+        stopPropagation={false}
+        stopPropogateShowClose={true}
+        variant="iconButton"
+        xsIcon={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Naked": [Function],
+          "displayName": "WithStyles(GridItem)",
+          "options": Object {
+            "defaultTheme": Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "activatedOpacity": 0.12,
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "info": Object {
+                  "contrastText": "#fff",
+                  "dark": "#1976d2",
+                  "light": "#64b5f6",
+                  "main": "#2196f3",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#303f9f",
+                  "light": "#7986cb",
+                  "main": "#3f51b5",
+                },
+                "secondary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#c51162",
+                  "light": "#ff4081",
+                  "main": "#f50057",
+                },
+                "success": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#388e3c",
+                  "light": "#81c784",
+                  "main": "#4caf50",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+                "warning": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
+                },
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.01071em",
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.02857em",
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.03333em",
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.01562em",
+                  "lineHeight": 1.167,
+                },
+                "h2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.00833em",
+                  "lineHeight": 1.2,
+                },
+                "h3": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.167,
+                },
+                "h4": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00735em",
+                  "lineHeight": 1.235,
+                },
+                "h5": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.334,
+                },
+                "h6": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.0075em",
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.08333em",
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.00714em",
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+            },
+            "name": "GridItem",
+          },
+          "propTypes": Object {
+            "classes": [Function],
+            "innerRef": [Function],
+          },
+          "render": [Function],
+          "useStyles": [Function],
+        }
+      }
+      editable={false}
+      first={false}
+      id={1}
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="flex-start"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              NaN
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                  className=""
+                  ellipsis={true}
+                  ellipsisClassName=""
+                  id={1}
+                  showEmpty={true}
+                />
+              </WithStyles(GridItem)>
+              <ConnectFunction
+                grouping={
+                  Object {
+                    "name": "activityGrouping",
+                    "obj": Array [
+                      Object {
+                        "where": Object {
+                          "and": Array [
+                            Object {
+                              "type": "Activity",
+                            },
+                            Object {
+                              "subtype": Object {
+                                "inq": Array [
+                                  "Event",
+                                  "Meeting",
+                                  "Concert",
+                                  "Tour",
+                                  "Theatre",
+                                  "Match",
+                                  "Recreation",
+                                  "Game",
+                                  "MatchCompetition",
+                                  "Occasion",
+                                  "Walk",
+                                  "Lesson",
+                                  "Cruise",
+                                  "Exhibition",
+                                  "GuidedTour",
+                                  "SelfGuidedTour",
+                                  "Museum",
+                                  "RiseAndShine",
+                                  "SleepAndRest",
+                                  "Other",
+                                ],
+                              },
+                            },
+                            Object {
+                              "dayCount": Object {
+                                "gt": 0,
+                              },
+                            },
+                            Object {
+                              "position": Object {
+                                "inq": Array [
+                                  "start",
+                                  "middle",
+                                  "end",
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "where": Object {
+                          "and": Array [
+                            Object {
+                              "type": "Activity",
+                            },
+                            Object {
+                              "subtype": Object {
+                                "inq": Array [
+                                  "Event",
+                                  "Meeting",
+                                  "Concert",
+                                  "Tour",
+                                  "Theatre",
+                                  "Match",
+                                  "Recreation",
+                                  "Game",
+                                  "MatchCompetition",
+                                  "Occasion",
+                                  "Walk",
+                                  "Lesson",
+                                  "Cruise",
+                                  "Exhibition",
+                                  "GuidedTour",
+                                  "SelfGuidedTour",
+                                  "Museum",
+                                  "RiseAndShine",
+                                  "SleepAndRest",
+                                  "Other",
+                                ],
+                              },
+                            },
+                            Object {
+                              "dayCount": 0,
+                            },
+                            Object {
+                              "position": "start",
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  }
+                }
+                id={1}
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderContent() should renderContent ATTACHMENT 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Naked": [Function],
+          "displayName": "WithStyles(GridItem)",
+          "options": Object {
+            "defaultTheme": Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "activatedOpacity": 0.12,
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "info": Object {
+                  "contrastText": "#fff",
+                  "dark": "#1976d2",
+                  "light": "#64b5f6",
+                  "main": "#2196f3",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#303f9f",
+                  "light": "#7986cb",
+                  "main": "#3f51b5",
+                },
+                "secondary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#c51162",
+                  "light": "#ff4081",
+                  "main": "#f50057",
+                },
+                "success": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#388e3c",
+                  "light": "#81c784",
+                  "main": "#4caf50",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+                "warning": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
+                },
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.01071em",
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.02857em",
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.03333em",
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.01562em",
+                  "lineHeight": 1.167,
+                },
+                "h2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.00833em",
+                  "lineHeight": 1.2,
+                },
+                "h3": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.167,
+                },
+                "h4": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00735em",
+                  "lineHeight": 1.235,
+                },
+                "h5": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.334,
+                },
+                "h6": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.0075em",
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.08333em",
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.00714em",
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+            },
+            "name": "GridItem",
+          },
+          "propTypes": Object {
+            "classes": [Function],
+            "innerRef": [Function],
+          },
+          "render": [Function],
+          "useStyles": [Function],
+        }
+      }
+      editable={false}
+      first={false}
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="flex-start"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              NaN
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              renderSubHeader
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                  className=""
+                  ellipsis={true}
+                  ellipsisClassName=""
+                  showEmpty={true}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderContent() should renderContent CHECKLIST 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Naked": [Function],
+          "displayName": "WithStyles(GridItem)",
+          "options": Object {
+            "defaultTheme": Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "activatedOpacity": 0.12,
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "info": Object {
+                  "contrastText": "#fff",
+                  "dark": "#1976d2",
+                  "light": "#64b5f6",
+                  "main": "#2196f3",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#303f9f",
+                  "light": "#7986cb",
+                  "main": "#3f51b5",
+                },
+                "secondary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#c51162",
+                  "light": "#ff4081",
+                  "main": "#f50057",
+                },
+                "success": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#388e3c",
+                  "light": "#81c784",
+                  "main": "#4caf50",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+                "warning": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
+                },
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.01071em",
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.02857em",
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.03333em",
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.01562em",
+                  "lineHeight": 1.167,
+                },
+                "h2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.00833em",
+                  "lineHeight": 1.2,
+                },
+                "h3": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.167,
+                },
+                "h4": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00735em",
+                  "lineHeight": 1.235,
+                },
+                "h5": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.334,
+                },
+                "h6": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.0075em",
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.08333em",
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.00714em",
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+            },
+            "name": "GridItem",
+          },
+          "propTypes": Object {
+            "classes": [Function],
+            "innerRef": [Function],
+          },
+          "render": [Function],
+          "useStyles": [Function],
+        }
+      }
+      editable={false}
+      first={false}
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="flex-start"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              <WithStyles(Icon)
+                color="#2cbe4e"
+                icon="lnr-home2"
+                size="small"
+              />
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              renderSubHeader
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                  className=""
+                  ellipsis={true}
+                  ellipsisClassName=""
+                  showEmpty={true}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderContent() should renderContent editable false 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Naked": [Function],
+          "displayName": "WithStyles(GridItem)",
+          "options": Object {
+            "defaultTheme": Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "activatedOpacity": 0.12,
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "info": Object {
+                  "contrastText": "#fff",
+                  "dark": "#1976d2",
+                  "light": "#64b5f6",
+                  "main": "#2196f3",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#303f9f",
+                  "light": "#7986cb",
+                  "main": "#3f51b5",
+                },
+                "secondary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#c51162",
+                  "light": "#ff4081",
+                  "main": "#f50057",
+                },
+                "success": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#388e3c",
+                  "light": "#81c784",
+                  "main": "#4caf50",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+                "warning": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
+                },
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.01071em",
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.02857em",
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.03333em",
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.01562em",
+                  "lineHeight": 1.167,
+                },
+                "h2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.00833em",
+                  "lineHeight": 1.2,
+                },
+                "h3": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.167,
+                },
+                "h4": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00735em",
+                  "lineHeight": 1.235,
+                },
+                "h5": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.334,
+                },
+                "h6": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.0075em",
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.08333em",
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.00714em",
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+            },
+            "name": "GridItem",
+          },
+          "propTypes": Object {
+            "classes": [Function],
+            "innerRef": [Function],
+          },
+          "render": [Function],
+          "useStyles": [Function],
+        }
+      }
+      editable={false}
+      first={false}
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="flex-start"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              NaN
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              renderSubHeader
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                  className=""
+                  ellipsis={true}
+                  ellipsisClassName=""
+                  showEmpty={true}
+                />
+              </WithStyles(GridItem)>
+              <ConnectFunction
+                grouping="switchCase"
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderContent() should renderContent editable true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Component)))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Naked": [Function],
+          "displayName": "WithStyles(GridItem)",
+          "options": Object {
+            "defaultTheme": Object {
+              "breakpoints": Object {
+                "between": [Function],
+                "down": [Function],
+                "keys": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "only": [Function],
+                "up": [Function],
+                "values": Object {
+                  "lg": 1280,
+                  "md": 960,
+                  "sm": 600,
+                  "xl": 1920,
+                  "xs": 0,
+                },
+                "width": [Function],
+              },
+              "direction": "ltr",
+              "mixins": Object {
+                "gutters": [Function],
+                "toolbar": Object {
+                  "@media (min-width:0px) and (orientation: landscape)": Object {
+                    "minHeight": 48,
+                  },
+                  "@media (min-width:600px)": Object {
+                    "minHeight": 64,
+                  },
+                  "minHeight": 56,
+                },
+              },
+              "overrides": Object {},
+              "palette": Object {
+                "action": Object {
+                  "activatedOpacity": 0.12,
+                  "active": "rgba(0, 0, 0, 0.54)",
+                  "disabled": "rgba(0, 0, 0, 0.26)",
+                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
+                },
+                "augmentColor": [Function],
+                "background": Object {
+                  "default": "#fafafa",
+                  "paper": "#fff",
+                },
+                "common": Object {
+                  "black": "#000",
+                  "white": "#fff",
+                },
+                "contrastThreshold": 3,
+                "divider": "rgba(0, 0, 0, 0.12)",
+                "error": Object {
+                  "contrastText": "#fff",
+                  "dark": "#d32f2f",
+                  "light": "#e57373",
+                  "main": "#f44336",
+                },
+                "getContrastText": [Function],
+                "grey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "800": "#424242",
+                  "900": "#212121",
+                  "A100": "#d5d5d5",
+                  "A200": "#aaaaaa",
+                  "A400": "#303030",
+                  "A700": "#616161",
+                },
+                "info": Object {
+                  "contrastText": "#fff",
+                  "dark": "#1976d2",
+                  "light": "#64b5f6",
+                  "main": "#2196f3",
+                },
+                "primary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#303f9f",
+                  "light": "#7986cb",
+                  "main": "#3f51b5",
+                },
+                "secondary": Object {
+                  "contrastText": "#fff",
+                  "dark": "#c51162",
+                  "light": "#ff4081",
+                  "main": "#f50057",
+                },
+                "success": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#388e3c",
+                  "light": "#81c784",
+                  "main": "#4caf50",
+                },
+                "text": Object {
+                  "disabled": "rgba(0, 0, 0, 0.38)",
+                  "hint": "rgba(0, 0, 0, 0.38)",
+                  "primary": "rgba(0, 0, 0, 0.87)",
+                  "secondary": "rgba(0, 0, 0, 0.54)",
+                },
+                "tonalOffset": 0.2,
+                "type": "light",
+                "warning": Object {
+                  "contrastText": "rgba(0, 0, 0, 0.87)",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
+                },
+              },
+              "props": Object {},
+              "shadows": Array [
+                "none",
+                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+              ],
+              "shape": Object {
+                "borderRadius": 4,
+              },
+              "spacing": [Function],
+              "transitions": Object {
+                "create": [Function],
+                "duration": Object {
+                  "complex": 375,
+                  "enteringScreen": 225,
+                  "leavingScreen": 195,
+                  "short": 250,
+                  "shorter": 200,
+                  "shortest": 150,
+                  "standard": 300,
+                },
+                "easing": Object {
+                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                },
+                "getAutoHeightDuration": [Function],
+              },
+              "typography": Object {
+                "body1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.5,
+                },
+                "body2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.01071em",
+                  "lineHeight": 1.43,
+                },
+                "button": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.02857em",
+                  "lineHeight": 1.75,
+                  "textTransform": "uppercase",
+                },
+                "caption": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.03333em",
+                  "lineHeight": 1.66,
+                },
+                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                "fontSize": 14,
+                "fontWeightBold": 700,
+                "fontWeightLight": 300,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "h1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "6rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.01562em",
+                  "lineHeight": 1.167,
+                },
+                "h2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3.75rem",
+                  "fontWeight": 300,
+                  "letterSpacing": "-0.00833em",
+                  "lineHeight": 1.2,
+                },
+                "h3": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "3rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.167,
+                },
+                "h4": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "2.125rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00735em",
+                  "lineHeight": 1.235,
+                },
+                "h5": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.5rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0em",
+                  "lineHeight": 1.334,
+                },
+                "h6": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1.25rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.0075em",
+                  "lineHeight": 1.6,
+                },
+                "htmlFontSize": 16,
+                "overline": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.75rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.08333em",
+                  "lineHeight": 2.66,
+                  "textTransform": "uppercase",
+                },
+                "pxToRem": [Function],
+                "round": [Function],
+                "subtitle1": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "1rem",
+                  "fontWeight": 400,
+                  "letterSpacing": "0.00938em",
+                  "lineHeight": 1.75,
+                },
+                "subtitle2": Object {
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": "0.875rem",
+                  "fontWeight": 500,
+                  "letterSpacing": "0.00714em",
+                  "lineHeight": 1.57,
+                },
+              },
+              "zIndex": Object {
+                "appBar": 1100,
+                "drawer": 1200,
+                "mobileStepper": 1000,
+                "modal": 1300,
+                "snackbar": 1400,
+                "speedDial": 1050,
+                "tooltip": 1500,
+              },
+            },
+            "name": "GridItem",
+          },
+          "propTypes": Object {
+            "classes": [Function],
+            "innerRef": [Function],
+          },
+          "render": [Function],
+          "useStyles": [Function],
+        }
+      }
+      editable={false}
+      first={false}
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="flex-start"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              NaN
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div
+              className=""
+            >
+              <WithStyles(IconButton)
+                disabled={true}
+                tooltip="Drag and Drop to move this Day"
+                transparent={true}
+                variant="flatButton"
+              >
+                <WithStyles(Icon)
+                  icon="lnr-move"
+                />
+              </WithStyles(IconButton)>
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              renderSubHeader
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NameSummary)))))
+                  className=""
+                  ellipsis={true}
+                  ellipsisClassName=""
+                  showEmpty={true}
+                />
+              </WithStyles(GridItem)>
+              <ConnectFunction
+                grouping="switchCase"
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+        <div>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              className=""
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+               
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              className=""
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+               
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </div>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderDraggableContent() should renderDraggableContent 1`] = `
+<div>
+  <div>
+    renderContent
+  </div>
+</div>
+`;
+
+exports[`<Overview /> renderDroppable() should renderDroppable 1`] = `
+<div>
+  <div>
+    renderDroppableContent
+  </div>
+</div>
+`;
+
+exports[`<Overview /> renderDroppableContent() should renderDroppableContent 1`] = `
+<div>
+  renderRow
+  renderRow
+</div>
+`;
+
+exports[`<Overview /> renderDroppableContent() should return placeholder 1`] = `<div />`;
+
+exports[`<Overview /> renderEventsOnDay() should renderEventsOnDay 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(EventsOnDay))) />
+</div>
+`;
+
+exports[`<Overview /> renderGallery() should renderGallery 1`] = `
+<div>
+  <ConnectFunction
+    dayId={1122}
+    filtered={true}
+    variant="badge"
+  />
+</div>
+`;
+
+exports[`<Overview /> renderHeader() should renderHeader 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <div>
+            #
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <Component />
+              </div>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderHeader() should renderHeader TOUR_ITINERARY 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <div>
+            #
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <ConnectFunction
+                  menuHeader="Filter by"
+                  noPadding={true}
+                  placement="bottom-start"
+                  renderButton={[Function]}
+                  value="ITINERARY"
+                >
+                  <Component />
+                </ConnectFunction>
+              </div>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderHeaderButton() should renderHeaderButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="inline"
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          maxChars={20}
+          variant="valueOnly"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Overview /> renderHeaderMenu() should renderHeaderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          maxChars={45}
+          variant="valueOnly"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Accommodation
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Activity
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Food
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Transportation
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Attachment
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Checklist
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderInsertBefore() should renderInsertBefore 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InsertNode)))))
+      insertBefore={2233}
+      onSuccess={[Function]}
+      renderButton={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<Overview /> renderInsertBeforeButton() should renderInsertBeforeButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(Icon)
+          bold={true}
+          className=""
+          color="grey"
+          icon="lnr-plus"
+          size="xsmall"
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderNewNode() should renderNewNode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InsertNode)))))
+      insertAfter={1}
+      onSuccess={[Function]}
+      renderButton={[Function]}
+      value="undefined1"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderNewNode() should renderNewNode 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InsertNode)))))
+      insertAfter={2}
+      onSuccess={[Function]}
+      renderButton={[Function]}
+      value="undefined2"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderNewNode() should return null 2 1`] = `<div />`;
+
+exports[`<Overview /> renderNewNodeButton() should render loading 1`] = `
+<div>
+  <WithStyles(Button)
+    block={true}
+    className=""
+    color="grey"
+    inline={true}
+    onClick={[Function]}
+    size="xsmall"
+    textAlign="left"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(LoadingText)
+          text="Creating"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Overview /> renderNewNodeButton() should renderNewNodeButton 1`] = `
+<div>
+  <WithStyles(Button)
+    block={true}
+    className=""
+    color="grey"
+    inline={true}
+    onClick={[Function]}
+    size="xsmall"
+    textAlign="left"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        New undefined
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          color="grey"
+          icon="lnr-plus"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Overview /> renderRow() should renderRow 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          onClick={[Function]}
+        >
+          renderRowContent
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      renderInsertBefore
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderRowContent() should renderContent 1`] = `
+<div>
+  renderContent
+</div>
+`;
+
+exports[`<Overview /> renderRowContent() should renderContent 2`] = `
+<div>
+  renderContent
+</div>
+`;
+
+exports[`<Overview /> renderRowContent() should renderDraggableContent 1`] = `
+<div>
+  <ConnectFunction
+    active={true}
+    editable={true}
+    headerValue="ITINERARY"
+    layout="list"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Overview /> renderShowDownload() should match snapshot when on public 1`] = `<div />`;
+
+exports[`<Overview /> renderShowDownload() should renderShowDownload 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <a
+      href="/print/tour/undefined"
+      target="_blank"
+    >
+      <WithStyles(Button)
+        color="base"
+        size="xs"
+        title="Open print view"
+      >
+        Print 
+        <WithStyles(Icon)
+          icon="lnr-launch"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </a>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderShowDownload() should return null 1`] = `<div />`;
+
+exports[`<Overview /> renderSubHeader() should renderSubHeader for day 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        date
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem) />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> renderSubHeader() should renderSubHeader for tour 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Duration)))
+      showIcon={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Overview /> selectDay() should selectDay() 1`] = `
+Array [
+  Array [
+    2233,
+  ],
+]
+`;
+
+exports[`<Overview /> updateServer() should MOVE_NODE_AFTER if destination > source 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "moveNodeAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "children": Array [],
+        "id": undefined,
+        "tabId": undefined,
+        "toBeMovedId": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Overview /> updateServer() should MOVE_NODE_BEFORE if destination < source 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "moveNodeBefore",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "children": Array [],
+        "id": undefined,
+        "tabId": undefined,
+        "toBeMovedId": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Overview /> updateStore() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": "moveChildren",
+    },
+  ],
+]
+`;
+
+exports[`<Overview /> updateTimes() should call NODE_API_HELPERS.getTreeAndTimes 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+    },
+    Object {
+      "classes": Object {},
+      "headerValue": "ITINERARY",
+      "history": Object {
+        "location": Object {
+          "pathname": "some path",
+        },
+      },
+      "ids": Array [],
+      "isPublic": false,
+      "layout": "list",
+      "location": Object {},
+      "placeholder": "No content yet",
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "type": "day",
+    },
+  ],
+]
+`;

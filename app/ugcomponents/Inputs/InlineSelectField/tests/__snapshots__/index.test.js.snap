@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineSelectField /> #render() still matches snapshot 1`] = `
+<span>
+  <Formsy(WithStyles(SelectField))
+    disableUnderline={true}
+    disabled={false}
+    fullWidth={false}
+    innerRef={[Function]}
+    onChange={null}
+    options={
+      Array [
+        Object {
+          "children": "display",
+          "value": "x",
+        },
+      ]
+    }
+    required={false}
+    selectClassName="select"
+    type={null}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+</span>
+`;

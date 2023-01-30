@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditPreferencesForm /> handleSubmit() should call dispatchTo with particular param shape 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "patchOrg",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "preference": Object {
+            "format": undefined,
+            "paxLabel": undefined,
+            "reminderAttempts": 5,
+            "reminderFrequencyDays": 1,
+            "timezone": undefined,
+          },
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditPreferencesForm /> handleSubmitSuccess() should call openSuccessSnackbar helper 1`] = `
+Array [
+  Array [
+    "Successfully updated your information",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<EditPreferencesForm /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={true}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        disabled={false}
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <FormattedMessage
+        defaultMessage="The timezone used when showing home time information"
+        id="app.smartComponents.Organisation.components.EditProfileForm.timezoneMsg"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        disabled={false}
+        id={0}
+        optionDropDown={true}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(Connect(WithSimplifyResaga(Reminders)))
+      disabled={false}
+      id={0}
+      orgId={1}
+    />
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        disabled={false}
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <FormattedMessage
+        defaultMessage="The label used across all tour for this organisation, the default value is PAX. Max character is 15."
+        id="app.smartComponents.Organisation.components.EditProfileForm.paxLabelMsg"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(GridContainer)
+      justify="flex-end"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          size="small"
+          type="submit"
+        >
+          <FormattedMessage
+            defaultMessage="Save"
+            id="app.smartComponents.Organisation.components.EditProfileForm.submitBtn"
+          />
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DescriptionHashkey /> #render() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditableRTE)))))
+  currentValue={null}
+  dense={true}
+  emptyPlaceholder="Click here to enter a confirmation message"
+  extended={false}
+  hashKeyDesc={true}
+  hashkeyDescription=""
+  headingLabel="Successful Registration Message"
+  id={1}
+  nodePath={
+    Array [
+      "hashkeyDescription",
+    ]
+  }
+  placeholder="Describe the confirmation message"
+  readOnly={false}
+  renderValue={[Function]}
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+    }
+  }
+  typeLabel="confirmation"
+  value="value"
+  variant={null}
+/>
+`;
+
+exports[`<DescriptionHashkey /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    disabled={false}
+    label={
+      <FormattedMessage
+        defaultMessage="Description"
+        id="app.Node.parts.DescriptionHashkey.label"
+      />
+    }
+    name="hashkeyDesc"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<DescriptionHashkey /> #renderTextOnly() still matches snapshot 1`] = `"value"`;

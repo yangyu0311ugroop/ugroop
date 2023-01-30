@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteConfirmationDialog /> #render() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  cancelFunc={[Function]}
+  confirmButton="Delete"
+  confirmFunc={[Function]}
+  dialogTitle="Delete"
+  headlineText="Are you sure you want to delete?"
+  headlineTitle="Delete"
+  loading={false}
+  open={false}
+  simplifyDialog={true}
+  template="delete"
+/>
+`;

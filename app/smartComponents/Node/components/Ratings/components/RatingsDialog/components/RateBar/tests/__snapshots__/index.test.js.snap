@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RateBar /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(ForwardRef(LinearProgress))
+        classes={
+          Object {
+            "barColorPrimary": undefined,
+            "root": undefined,
+          }
+        }
+        variant="determinate"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

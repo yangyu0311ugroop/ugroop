@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingEdit /> #handleFormValidSubmit() calls TEMPLATE_API_HELPERS.patchEvent if changed 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+      "onError": [Function],
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {
+        "paperRoot": "paperRoot",
+      },
+      "dataId": 0,
+      "dialogProps": Object {},
+      "id": 1,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {},
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`<FlightBookingEdit /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(GenericForm)
+    PaperProps={
+      Object {
+        "classes": Object {
+          "root": "paperRoot",
+        },
+      }
+    }
+    canSubmitForm={true}
+    dialogProps={Object {}}
+    onCancel={[Function]}
+    onClose={[Function]}
+    onFormValidSubmit={[Function]}
+    open={false}
+    renderHeader={[Function]}
+    submitButtonContent={
+      <FormattedMessage
+        defaultMessage="Save & Close"
+        id="app.EventContainer.FlightBooking.Edit.submitButtonLabel"
+      />
+    }
+  >
+    <ConnectFunction
+      dataId={0}
+      templateId={2}
+      variant="field"
+    />
+  </WithStyles(GenericForm)>
+</Fragment>
+`;
+
+exports[`<FlightBookingEdit /> #renderHeader() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading={
+      <FormattedMessage
+        defaultMessage="Flight Itinerary"
+        id="app.EventContainer.FlightBooking.Edit.heading"
+      />
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="EDIT"
+        id="app.EventContainer.FlightBooking.Edit.headingBackground"
+      />
+    }
+  />
+  closeButton
+</div>
+`;

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateShare should render correctly when templates is mounted 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(ListHeading)>
+      Contributors
+       
+      <WithStyles(Badge)
+        Component="span"
+        color="blue"
+        variant="imageSquare"
+      >
+        2
+      </WithStyles(Badge)>
+    </WithStyles(ListHeading)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        add={false}
+        addTooltipText="Invite Contributor"
+        avatarById={true}
+        onClick={[Function]}
+        onOpenMorePeople={[Function]}
+        ownerId={2}
+        people={
+          Array [
+            "people@gg.com",
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(ShareList)))))
+    id={1}
+    onClose={[Function]}
+    open={false}
+  />
+  <WithStyles(MorePeopleModal)
+    isOpen={false}
+    onClose={[Function]}
+    people={
+      Array [
+        "people@gg.com",
+      ]
+    }
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TransferTourOwner)))))
+    id={1}
+    onClose={[Function]}
+    open={false}
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`TemplateShare should render what it should render 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(ListHeading)>
+      Contributors
+       
+      <WithStyles(Badge)
+        Component="span"
+        color="blue"
+        variant="imageSquare"
+      >
+        2
+      </WithStyles(Badge)>
+    </WithStyles(ListHeading)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        add={false}
+        addTooltipText="Invite Contributor"
+        avatarById={true}
+        onClick={[Function]}
+        onOpenMorePeople={[Function]}
+        ownerId={2}
+        people={
+          Array [
+            "people@gg.com",
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(MorePeopleModal)
+    isOpen={false}
+    onClose={[Function]}
+    people={
+      Array [
+        "people@gg.com",
+      ]
+    }
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TransferTourOwner)))))
+    id={1}
+    onClose={[Function]}
+    open={false}
+  />
+</WithStyles(GridItem)>
+`;

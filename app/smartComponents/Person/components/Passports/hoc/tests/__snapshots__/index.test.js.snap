@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPassportCUD render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    id={0}
+    userId={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`withPassportCUD renderWrappedComponnet() should render the wrapped component 1`] = `
+<div>
+  <sample
+    classes={Object {}}
+    id={0}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    userId={0}
+  />
+</div>
+`;

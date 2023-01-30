@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Img /> Img/tests/index.test.js smoke tests should render properly 1`] = `
+<img
+  alt="image"
+  className=""
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350"
+/>
+`;

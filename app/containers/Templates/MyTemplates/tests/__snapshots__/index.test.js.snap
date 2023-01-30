@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyTemplatePage /> render() should render NodeExplorer 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Description of My Tours",
+          "name": "description",
+        },
+      ]
+    }
+    title="My Tours"
+  />
+  <withRouter(withReducer(withReducer(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NodeExplorer)))))))
+    currentRoute="my"
+    history={Object {}}
+    location={Object {}}
+    rootNodeId={1}
+  />
+</div>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header/config.js Smoke Test should match snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "show": [Function],
+  },
+  "value": Object {
+    "completedFromMeCount": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "completedToMeCount": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "expanded": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "receivedCount": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "sentCount": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "show": [Function],
+    "showCompleted": [Function],
+  },
+}
+`;
+
+exports[`Header/config.js expanded should return a particular getter shape 1`] = `false`;
+
+exports[`Header/config.js expanded should return a particular keypath shape 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "users",
+    1,
+    "preference",
+    "dashBoardInvitationExpanded",
+  ],
+]
+`;
+
+exports[`Header/config.js expanded should return default value a particular getter shape 1`] = `true`;
+
+exports[`Header/config.js expanded should return default value a particular keyPath shape 1`] = `
+Array [
+  "invitationStore",
+  "fromMe",
+]
+`;
+
+exports[`Header/config.js expanded should return default value a particular keyPath shape 2`] = `
+Array [
+  "invitationStore",
+  "toMe",
+]
+`;
+
+exports[`Header/config.js expanded should return default value a particular keyPath shape 3`] = `
+Array [
+  "invitationStore",
+  "completedFromMe",
+]
+`;
+
+exports[`Header/config.js expanded should return default value a particular keyPath shape 4`] = `
+Array [
+  "invitationStore",
+  "completedToMe",
+]
+`;

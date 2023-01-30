@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> displayDayOnly() should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  />
+  <WithStyles(H4)
+    className=""
+  >
+    momentHelper.getDateWithFormat
+  </WithStyles(H4)>
+</div>
+`;
+
+exports[`<Header /> handleCreateEvent should call setValue 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<Header /> handleCreateEvent should call setValue 2`] = `
+Array [
+  Array [
+    Object {
+      "eventCreate": "EVENT_STORE_HELPERS.setEventCreate",
+    },
+  ],
+]
+`;
+
+exports[`<Header /> render() should render a particular structure if displayDate is weekDay 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        alignItems="center"
+        container={true}
+        spacing={0}
+      >
+        <WithStyles(H4)
+          className=""
+        >
+          <FormattedMessage
+            defaultMessage="Day"
+            id="app.containers.Templates.TemplateManagement.components.TemplateContent.components.TabContent.components.TabCardView.components.dayLabel"
+          />
+           
+          0
+        </WithStyles(H4)>
+        displayCardAddInfo
+      </WithStyles(GridItem)>
+      <BoundCan
+        do="create"
+        on="event"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(IconButton)
+            onClick={[Function]}
+            tooltip="Add"
+            transparent={true}
+            variant="flatButton"
+          >
+            <WithStyles(Icon)
+              className=""
+              icon="lnr-plus"
+            />
+          </WithStyles(IconButton)>
+        </WithStyles(GridItem)>
+      </BoundCan>
+      <WithStyles(UGMenu)
+        anchorEl={null}
+        id="add-day-options"
+        onClose={[Function]}
+        open={false}
+      >
+        <WithStyles(UGMenuItem)
+          onClick={[Function]}
+        >
+          Add new Event
+        </WithStyles(UGMenuItem)>
+      </WithStyles(UGMenu)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Header /> render() should render a particular structure if startDate is not existing 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        alignItems="center"
+        container={true}
+        spacing={0}
+      >
+        <WithStyles(H4)
+          className=""
+        >
+          <FormattedMessage
+            defaultMessage="Day"
+            id="app.containers.Templates.TemplateManagement.components.TemplateContent.components.TabContent.components.TabCardView.components.dayLabel"
+          />
+           
+          0
+        </WithStyles(H4)>
+        displayCardAddInfo
+      </WithStyles(GridItem)>
+      <WithStyles(UGMenu)
+        anchorEl={null}
+        id="add-day-options"
+        onClose={[Function]}
+        open={false}
+      >
+        <WithStyles(UGMenuItem)
+          onClick={[Function]}
+        >
+          Add new Event
+        </WithStyles(UGMenuItem)>
+      </WithStyles(UGMenu)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        alignItems="center"
+        container={true}
+        spacing={0}
+      >
+        <WithStyles(H4)
+          className=""
+        >
+          <FormattedMessage
+            defaultMessage="Day"
+            id="app.containers.Templates.TemplateManagement.components.TemplateContent.components.TabContent.components.TabCardView.components.dayLabel"
+          />
+           
+          0
+        </WithStyles(H4)>
+        displayCardAddInfo
+      </WithStyles(GridItem)>
+      <WithStyles(UGMenu)
+        anchorEl={null}
+        id="add-day-options"
+        onClose={[Function]}
+        open={false}
+      >
+        <WithStyles(UGMenuItem)
+          onClick={[Function]}
+        >
+          Add new Event
+        </WithStyles(UGMenuItem)>
+      </WithStyles(UGMenu)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

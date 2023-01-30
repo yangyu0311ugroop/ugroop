@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "open": Array [
+      "snackbarViewStore",
+      "open",
+    ],
+    "text": Array [
+      "snackbarViewStore",
+      "text",
+    ],
+    "type": Array [
+      "snackbarViewStore",
+      "type",
+    ],
+  },
+  "value": Object {},
+}
+`;

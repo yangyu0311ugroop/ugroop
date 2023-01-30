@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render should match snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="dark"
+        icon="folder"
+        size="xxs"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        ellipsis={true}
+        md={true}
+      >
+        title
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Header /> renderIcon should match snapshot if there is an icon 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Icon)
+      color="dark"
+      icon="folder"
+      size="xxs"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

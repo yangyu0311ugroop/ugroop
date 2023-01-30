@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Itinerary /> Itinerary style should match snapshot 1`] = `
+Object {
+  "container": "Itinerary-container",
+  "date": "Itinerary-date",
+  "day": "Itinerary-day",
+  "dot": "Itinerary-dot",
+  "info": "Itinerary-info",
+  "padding": "Itinerary-padding",
+  "space": "Itinerary-space",
+  "text": "Itinerary-text",
+}
+`;
+
+exports[`<Itinerary /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      md={12}
+      sm={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayDateDisplay)))))
+        customClass={Object {}}
+        dayDateFormat="ddd[, ]D MMM YYYY"
+        displayInfo={
+          <H4
+            dense={true}
+          >
+            No Title
+          </H4>
+        }
+        id={1}
+        index={0}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

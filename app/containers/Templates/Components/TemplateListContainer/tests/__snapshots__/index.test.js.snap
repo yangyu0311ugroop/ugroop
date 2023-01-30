@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTemplateListContainer should display what it should display 1`] = `
+<div
+  className="qwee qweqwe"
+/>
+`;
+
+exports[`UGTemplateListContainer should display what it should display if children and class are present 1`] = `
+<div
+  className="qwee qweqwe"
+>
+  Praise the Lord! Oh my soul!
+</div>
+`;

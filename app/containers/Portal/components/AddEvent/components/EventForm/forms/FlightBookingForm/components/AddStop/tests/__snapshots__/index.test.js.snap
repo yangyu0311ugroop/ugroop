@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddStop /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      link={true}
+      noUnderlined={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="lnr-plus-circle"
+        paddingRight={true}
+        size="xsmall"
+      />
+       Add stop
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

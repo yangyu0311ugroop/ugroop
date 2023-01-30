@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dietaries /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Dietaries)))
+      readOnly={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Dietaries /> renderLogic should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Dietaries)))
+    keyPath="path"
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<Dietaries /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        onClick={[Function]}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            gray={true}
+            sm={true}
+            spacing2={true}
+            uppercase={true}
+          >
+            Dietary Requirements (
+            <WithStyles(Connect(WithSimplifyResaga(Dietaries)))
+              id={null}
+              readOnly={false}
+              value={Array []}
+              variant="count"
+            />
+            )
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="chevron-down"
+            size="extraSmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Dietaries)))
+        id={null}
+        readOnly={false}
+        value={Array []}
+        variant="row"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

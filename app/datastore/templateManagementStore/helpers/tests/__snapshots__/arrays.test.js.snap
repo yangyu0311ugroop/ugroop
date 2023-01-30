@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Templates/TemplateManagement/helpers/arrays convert() still matches snapshot with specified onShouldConvertAll 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Array [
+        Object {
+          "id": 2,
+          "nextNodes": Array [],
+          "type": "event",
+        },
+        Object {
+          "id": 3,
+          "nextNodes": Array [],
+          "type": "event",
+        },
+      ],
+      Array [
+        Object {
+          "id": 4,
+          "nextNodes": Array [],
+          "type": "activity",
+        },
+        Object {
+          "id": 5,
+          "nextNodes": Array [],
+          "type": "activity",
+        },
+      ],
+    ],
+    "id": 1,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+  Object {
+    "id": 11,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+]
+`;

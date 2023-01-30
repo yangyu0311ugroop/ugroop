@@ -1,0 +1,1156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantList /> #getShowLabel() should return label for pending 1`] = `
+Object {
+  "defaultMessage": "Maybe",
+  "id": "app.Containers.Templates.Modals.ParticipantList.filterPendingLabel",
+}
+`;
+
+exports[`<ParticipantList /> #getShowLabel() should return label for pending 2`] = `
+Object {
+  "defaultMessage": "Not Going",
+  "id": "app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabel",
+}
+`;
+
+exports[`<ParticipantList /> #handleAllParticipantsClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": null,
+    "participantViewModeModalFilter": "allParticipants",
+    "peopleFilterSelected": "participantsFilter",
+    "peopleTabOptionSelected": "allParticipants",
+  },
+}
+`;
+
+exports[`<ParticipantList /> #handleFilterConfirmedClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": null,
+    "participantViewModeModalFilter": "allParticipants",
+    "peopleTabOptionSelected": "allParticipants",
+  },
+}
+`;
+
+exports[`<ParticipantList /> #handleFilterConfirmedClick() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "setValue": Object {
+    "modeList": null,
+    "participantViewModeModalFilter": "confirmed",
+    "peopleFilterSelected": "participantsFilter",
+    "peopleTabOptionSelected": "goingParticipants",
+  },
+}
+`;
+
+exports[`<ParticipantList /> #handleFilterDeclinedClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": null,
+    "participantViewModeModalFilter": "declined",
+    "peopleFilterSelected": "participantsFilter",
+    "peopleTabOptionSelected": "notGoingParticipants",
+  },
+}
+`;
+
+exports[`<ParticipantList /> #handleFilterPendingClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": null,
+    "participantViewModeModalFilter": "pending",
+    "peopleFilterSelected": "participantsFilter",
+    "peopleTabOptionSelected": "maybeParticipants",
+  },
+}
+`;
+
+exports[`<ParticipantList /> #handleOpenCreateParticipantModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantCreateMode": null,
+    "participantCreateOpen": true,
+    "participantCreateParentNodeId": 1,
+  },
+}
+`;
+
+exports[`<ParticipantList /> #render() still matches snapshot 1`] = `
+<WithStyles(Component)
+  fullWidth={true}
+  maxHeight="md"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(UGDialogTitle)
+    noPaddingBottom={true}
+  >
+    <WithStyles(Title)
+      heading={
+        <FormattedMessage
+          defaultMessage="{paxLabel}"
+          id="app.Containers.Templates.Modals.ParticipantList.heading"
+          values={
+            Object {
+              "paxLabel": undefined,
+            }
+          }
+        />
+      }
+      headingBackground={
+        <FormattedMessage
+          defaultMessage="List"
+          id="app.Containers.Templates.Modals.ParticipantList.headingBackground"
+        />
+      }
+      hideOnSm={false}
+      renderSubheading={[Function]}
+    />
+    <WithStyles(CloseButton)
+      onClick={[Function]}
+    />
+  </WithStyles(UGDialogTitle)>
+  <WithStyles(UGDialogContent)
+    halfPaddingTop={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <H4
+          dense={true}
+          fontStyle="italic"
+        >
+          <FormattedMessage
+            defaultMessage="There are no {paxLabel}"
+            id="app.Containers.Templates.Modals.ParticipantList.noParticipantsConfirmed"
+            values={
+              Object {
+                "paxLabel": undefined,
+              }
+            }
+          />
+        </H4>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(UGDialogContent)>
+  <WithStyles(UGDialogAction)
+    disableActionSpacing={true}
+  >
+    <WithStyles(Button)
+      color="primary"
+      dense={true}
+      onClick={[Function]}
+      variant="inline"
+    >
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            bold={true}
+            color="success"
+            icon="plus"
+            size="xxs"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H4
+            dense={true}
+            primary={true}
+            transform="uppercase"
+            weight="bold"
+            whiteSpace="nowrap"
+          >
+            <FormattedMessage
+              defaultMessage="Add new {paxLabel}"
+              id="app.Containers.Templates.Modals.ParticipantList.addParticipantButtonLabel"
+              values={
+                Object {
+                  "paxLabel": undefined,
+                }
+              }
+            />
+          </H4>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(UGDialogAction)>
+</WithStyles(Component)>
+`;
+
+exports[`<ParticipantList /> #renderContent() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+  wrap="nowrap"
+>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <H4
+      dense={true}
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="There are no {paxLabel}"
+        id="app.Containers.Templates.Modals.ParticipantList.noParticipantsConfirmed"
+        values={
+          Object {
+            "paxLabel": undefined,
+          }
+        }
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot 1`] = `undefined`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot if props.modeList=invite 1`] = `null`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot if props.modeList=invite 2`] = `
+<WithStyles(GridItem)>
+  <Filter
+    color="primary"
+    count={0}
+    onClick={[Function]}
+    selected={false}
+  >
+    <Hidden
+      smUp={true}
+    >
+      <FormattedMessage
+        defaultMessage="Going"
+        id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabelWithoutCount"
+      />
+    </Hidden>
+    <Hidden
+      xsDown={true}
+    >
+      <FormattedMessage
+        defaultMessage="Going"
+        id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabel"
+        values={
+          Object {
+            "count": 1,
+          }
+        }
+      />
+    </Hidden>
+  </Filter>
+</WithStyles(GridItem)>
+`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot if props.modeList=invite 3`] = `undefined`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot if useList is true & shows only participants own 1`] = `
+<React.Fragment>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="primary"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <Hidden
+          smUp={true}
+        >
+          <FormattedMessage
+            defaultMessage="All {paxLabel}"
+            id="app.Containers.Templates.Modals.ParticipantList.filterAllLabelWithoutCount"
+            values={
+              Object {
+                "paxLabel": undefined,
+              }
+            }
+          />
+        </Hidden>
+        <Hidden
+          xsDown={true}
+        >
+          <FormattedMessage
+            defaultMessage="All {paxLabel}"
+            id="app.Containers.Templates.Modals.ParticipantList.filterAllLabel"
+            values={
+              Object {
+                "count": 0,
+                "paxLabel": undefined,
+              }
+            }
+          />
+        </Hidden>
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+  <WithStyles(GridItem)
+    className={false}
+  >
+    <Filter
+      color="primary"
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabel"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className={false}
+  >
+    <Filter
+      count={1}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Containers.Templates.Modals.ParticipantList.filterPendingLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Containers.Templates.Modals.ParticipantList.filterPendingLabel"
+          values={
+            Object {
+              "count": 1,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className={false}
+  >
+    <Filter
+      count={1}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Not Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Not Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabel"
+          values={
+            Object {
+              "count": 1,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<ParticipantList /> #renderFilters() still matches snapshot if useList is true 1`] = `
+<React.Fragment>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="primary"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <Hidden
+          smUp={true}
+        >
+          <FormattedMessage
+            defaultMessage="All {paxLabel}"
+            id="app.Containers.Templates.Modals.ParticipantList.filterAllLabelWithoutCount"
+            values={
+              Object {
+                "paxLabel": undefined,
+              }
+            }
+          />
+        </Hidden>
+        <Hidden
+          xsDown={true}
+        >
+          <FormattedMessage
+            defaultMessage="All {paxLabel}"
+            id="app.Containers.Templates.Modals.ParticipantList.filterAllLabel"
+            values={
+              Object {
+                "count": 0,
+                "paxLabel": undefined,
+              }
+            }
+          />
+        </Hidden>
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+  <WithStyles(GridItem)>
+    <Filter
+      color="primary"
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabel"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Filter
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Containers.Templates.Modals.ParticipantList.filterPendingLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Containers.Templates.Modals.ParticipantList.filterPendingLabel"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Filter
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <Hidden
+        smUp={true}
+      >
+        <FormattedMessage
+          defaultMessage="Not Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabelWithoutCount"
+        />
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <FormattedMessage
+          defaultMessage="Not Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabel"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </Hidden>
+    </Filter>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<ParticipantList /> #renderInvitationRow() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InvitationListItem)))))))
+  heading={true}
+  id={1}
+  mode={null}
+  templateId={1}
+/>
+`;
+
+exports[`<ParticipantList /> #renderList() should match snapshot if modeList is passport 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <H4
+      dense={true}
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="There are no {paxLabel}"
+        id="app.Containers.Templates.Modals.ParticipantList.noParticipantsConfirmed"
+        values={
+          Object {
+            "paxLabel": undefined,
+          }
+        }
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ParticipantList /> #renderList() still matches snapshot if no shareTokens 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are currently no pending invitations."
+      id="app.Containers.Templates.Modals.ParticipantList.noInvitations"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<ParticipantList /> #renderList() still matches snapshot if no shareTokens 2`] = `
+Array [
+  <ParticipantListItem
+    defaultAccessLevel="full"
+    heading={true}
+    hideRenderRowTail={true}
+    id={2}
+    index={0}
+    interestedPersonNodeId={null}
+    layout="simpleView"
+    loading={false}
+    mode={null}
+    participantNodeId={2}
+    readOnlyStatus={false}
+    templateId={1}
+    typeOnly={true}
+  />,
+]
+`;
+
+exports[`<ParticipantList /> #renderList() still matches snapshot if props.filterPending 1`] = `
+Array [
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InvitationListItem)))))))
+    heading={true}
+    id="token"
+    mode="invite"
+    templateId={1}
+  />,
+]
+`;
+
+exports[`<ParticipantList /> #renderNoParticipantsRow() still matches snapshot if props.filterPending 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no {paxLabel}"
+      id="app.Containers.Templates.Modals.ParticipantList.noParticipantsPending"
+      values={
+        Object {
+          "paxLabel": undefined,
+        }
+      }
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<ParticipantList /> #renderParticipantList() still matches snapshot if given ids 1`] = `
+Array [
+  <ParticipantListItem
+    defaultAccessLevel="full"
+    heading={true}
+    hideRenderRowTail={true}
+    id={1}
+    index={0}
+    interestedPersonNodeId={null}
+    layout="simpleView"
+    loading={false}
+    mode={null}
+    participantNodeId={null}
+    readOnlyStatus={false}
+    templateId={1}
+    typeOnly={true}
+  />,
+]
+`;
+
+exports[`<ParticipantList /> #renderParticipantList() still matches snapshot if no ids 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no {paxLabel}"
+      id="app.Containers.Templates.Modals.ParticipantList.noParticipantsConfirmed"
+      values={
+        Object {
+          "paxLabel": undefined,
+        }
+      }
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<ParticipantList /> #renderSubheading() still matches snapshot 1`] = `
+<WithStyles(GridContainer)>
+  <WithStyles(GridItem) />
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      justify="flex-start"
+    >
+      <WithStyles(GridItem)>
+        
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(Component)))
+          placement="bottom"
+          renderButton={[Function]}
+          stopPropagation={true}
+        >
+          [Function]
+        </Memo(Connect(WithSimplifyResaga(Component)))>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<ParticipantList /> getName() should getName 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="All {paxLabel}"
+    id="app.Containers.Templates.Modals.ParticipantList.filterAllLabelWithoutCount"
+    values={
+      Object {
+        "paxLabel": undefined,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ParticipantList /> handlePendingClick should call setValue 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": "invite",
+    "participantViewModeModalFilter": null,
+  },
+}
+`;
+
+exports[`<ParticipantList /> renderFilterPopper() should renderFilterPopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ParticipantList /> renderFilterPopperButton() should renderFilterPopperButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    dense={true}
+    direction="column"
+    justify="flex-start"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(Button)
+        color="normal"
+        noMargin={true}
+        size="base"
+        variant="inline"
+      >
+        <FormattedMessage
+          defaultMessage="All {paxLabel}"
+          id="app.Containers.Templates.Modals.ParticipantList.filterAllLabelWithoutCount"
+          values={
+            Object {
+              "paxLabel": undefined,
+            }
+          }
+        />
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderFilterPopperOptions() should renderFilterPopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="All {paxLabel}"
+          id="app.Containers.Templates.Modals.ParticipantList.filterAllLabelWithoutCount"
+          values={
+            Object {
+              "paxLabel": undefined,
+            }
+          }
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterConfirmedLabelWithoutCount"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Containers.Templates.Modals.ParticipantList.filterPendingLabelWithoutCount"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Not Going"
+          id="app.Containers.Templates.Modals.ParticipantList.filterDeclinedLabelWithoutCount"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderFilters should match snapshot 1`] = `<div />`;
+
+exports[`<ParticipantList /> renderFilters should match snapshot if includeStatusFilters is false 1`] = `<div />`;
+
+exports[`<ParticipantList /> renderLayoutPopper() should renderLayoutPopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ParticipantList /> renderLayoutPopperButton() should renderLayoutPopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Simple View
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderLayoutPopperOptions() should renderLayoutPopperOptions if detailedView 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Simple View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Detailed View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderLayoutPopperOptions() should renderLayoutPopperOptions if no view 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Simple View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Detailed View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderLayoutPopperOptions() should renderLayoutPopperOptions if simpleView 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Simple View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Detailed View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderModePopper() should renderModePopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ParticipantList /> renderModePopperOptions() should renderModePopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-user"
+        onClick={[Function]}
+        selected={true}
+      >
+        Show People
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-envelope"
+        onClick={[Function]}
+        selected={false}
+      >
+        Show Invitations
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderModePopperOptions() should renderModePopperOptions if modeList is invite 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-user"
+        onClick={[Function]}
+        selected={false}
+      >
+        Show People
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-envelope"
+        onClick={[Function]}
+        selected={true}
+      >
+        Show Invitations
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderPendingInvitations should match snapshot if shareTokens is empty 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <H4
+      dense={true}
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="There are currently no pending invitations."
+        id="app.Containers.Templates.Modals.ParticipantList.noInvitations"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderPendingInvitations should match snapshot if shareTokens length is greater than 1 1`] = `
+<div>
+  <ConnectFunction
+    heading={true}
+    id={1}
+    key="1"
+    mode={null}
+    templateId={1}
+  />
+  <ConnectFunction
+    heading={true}
+    id={2}
+    key="2"
+    mode={null}
+    templateId={1}
+  />
+</div>
+`;
+
+exports[`<ParticipantList /> renderPopperButton() should renderPopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem) />
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderProp should only return participantNodeId if useList is not true 1`] = `
+Array [
+  Array [
+    Object {
+      "filteredParticipants": Array [],
+      "participants": Array [
+        undefined,
+      ],
+    },
+  ],
+]
+`;
+
+exports[`<ParticipantList /> renderSortPopperButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    onClick={[MockFunction]}
+    size="extraSmall"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Sort by
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<ParticipantList /> renderSortPopperOptions should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        icon="lnr-user"
+        onClick={[Function]}
+        selected={true}
+      >
+        Name (Known As)
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        icon="lnr-clock3"
+        onClick={[Function]}
+        selected={false}
+      >
+        Recently Added
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        icon="lnr-man-woman"
+        onClick={[Function]}
+        selected={false}
+      >
+        Kind
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

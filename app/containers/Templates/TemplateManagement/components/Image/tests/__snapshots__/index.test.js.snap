@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateManagementImage /> render() should render correctly 1`] = `
+<div>
+  <UGImage
+    alt=""
+    className=""
+    cropMetaInfo={
+      Object {
+        "height": 0,
+        "rotate": 0,
+        "scale": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0,
+      }
+    }
+    imageUrl=""
+    imgClassName=""
+    isLazyLoad={true}
+    onError={null}
+    onLoad={null}
+    padFacadeURL={false}
+    resizeHeight={null}
+    resizeWidth={null}
+    rotate={0}
+    round={false}
+    size="custom"
+  />
+</div>
+`;

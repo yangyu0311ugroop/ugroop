@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventIconTooltipContent /> #render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <WithStyles(GridItem)>
+    <div>
+      <ConnectFunction
+        dataId={456}
+        setter={true}
+      />
+      <ConnectFunction
+        dataId={456}
+        setter={true}
+      />
+    </div>
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardContent)) />
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<EventIconTooltipContent /> #render() still matches snapshot with event 1`] = `
+<WithStyles(GridContainer)
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <WithStyles(GridItem)>
+    <div>
+      <ConnectFunction
+        dataId={456}
+        setter={true}
+      />
+      <ConnectFunction
+        dataId={456}
+        setter={true}
+      />
+    </div>
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(GridContainer)
+          direction="column"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)>
+                  <ConnectFunction
+                    dataId={456}
+                    id={123}
+                    templateId={789}
+                    variant="labelValue"
+                  />
+                  <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+                    dataId={456}
+                    id={123}
+                    templateId={789}
+                    variant="labelValue"
+                  />
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <ConnectFunction
+                dataId={456}
+                iconAndValue={true}
+                id={123}
+                templateId={789}
+                variant="label"
+              />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(RateSummary)))
+              id={123}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            Typography={[Function]}
+            dataId={456}
+            id={123}
+            templateId={789}
+            variant="labelValue"
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(UGRichEditor)
+              initContent="description"
+              readOnly={true}
+              toolBarId="eventTooltipToolbarundefined"
+            />
+          </WithStyles(GridItem)>
+          renderStartLocation
+          renderEndLocation
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Distance)))))
+              dataId={456}
+              variant="labelValue"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Hr) />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <p>
+                  Location
+                </p>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <o>
+                  <Component />
+                </o>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <p>
+                  URL
+                </p>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <a
+                  href="//google.com"
+                  target="_blank"
+                >
+                  https://google.com
+                </a>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(ForwardRef(CardContent))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<EventIconTooltipContent /> #render() still matches snapshot with event will show only attachments 1`] = `
+<WithStyles(GridContainer)
+  onMouseEnter={[MockFunction]}
+  onMouseLeave={[MockFunction]}
+>
+  <WithStyles(GridItem)>
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardContent)) />
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<EventIconTooltipContent /> #renderActivityDetails() should match snapshot if icon is cycling 1`] = `
+<React.Fragment>
+  renderPart
+  renderPart
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderAirport() still matches snapshot if position=end 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    <Unknown
+      dataId={456}
+      id={123}
+      templateId={789}
+      variant="label"
+    />
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderAirport() still matches snapshot if position=start 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    <Unknown
+      dataId={456}
+      id={123}
+      templateId={789}
+      variant="label"
+    />
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderFlightBooking() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Booking)))))
+  dataId={456}
+  id={123}
+  templateId={789}
+  variant="label"
+/>
+`;
+
+exports[`<EventIconTooltipContent /> #renderFooter() does not render a url 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <p>
+          URL
+        </p>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        not url
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventIconTooltipContent /> #renderLocationLink() still matches snapshot 1`] = `
+<a
+  href="map.url"
+  target="_blank"
+>
+  location.name
+</a>
+`;
+
+exports[`<EventIconTooltipContent /> #renderLocationLink() still matches snapshot without map url 1`] = `
+<a
+  href="location.name"
+  target="_blank"
+>
+  location.name
+</a>
+`;
+
+exports[`<EventIconTooltipContent /> #renderTime() still matches snapshot if nonAerial is true 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(Duration)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderTime() still matches snapshot if position=end 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(StartTime)))
+    customLabel={null}
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+  <Memo(Connect(WithSimplifyResaga(EndTime)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+  <Memo(Connect(WithSimplifyResaga(Duration)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderTime() still matches snapshot if position=end and nonAerial is true 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(EndTime)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderTime() still matches snapshot if position=start 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(StartTime)))
+    customLabel={null}
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+  <Memo(Connect(WithSimplifyResaga(EndTime)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+  <Memo(Connect(WithSimplifyResaga(Duration)))
+    dataId={456}
+    id={123}
+    templateId={789}
+    variant="label"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventIconTooltipContent /> #renderTime() still matches snapshot if this.hasActivityDetail is true 1`] = `null`;
+
+exports[`<EventIconTooltipContent /> renderAttachmentIcon should match snapshot if links and names do not exist 1`] = `<div />`;
+
+exports[`<EventIconTooltipContent /> renderAttachmentIcon should match snapshot if links and names exist 1`] = `<div />`;
+
+exports[`<EventIconTooltipContent /> renderAttachmentIcon should match snapshot if there is only one attachment 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Attachment)
+      link="link1"
+      variant="icon"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventIconTooltipContent /> renderAttachmentIcon should return component if there are attachments 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Attachment)
+      links={Array []}
+      names={Array []}
+      variant="popper"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

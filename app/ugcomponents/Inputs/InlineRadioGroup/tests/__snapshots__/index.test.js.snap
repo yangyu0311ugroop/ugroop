@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineRadioGroup /> optionClassName() should render custom className 1`] = `"optionClassName selectedOptionClassName"`;
+
+exports[`<InlineRadioGroup /> optionClassName() should render fade 1`] = `"fade"`;
+
+exports[`<InlineRadioGroup /> render() should renderOptions if !getValue() 1`] = `
+<div>
+  <span>
+    renderOptions
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> render() should renderValue if getValue() 1`] = `
+<div>
+  <span>
+    renderValue
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderContent() should renderContent 1`] = `
+<div>
+  <span>
+    <WithStyles(InlineButton)
+      className=""
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="j-text-ellipsis"
+      >
+        Some Value
+      </div>
+    </WithStyles(InlineButton)>
+    <span>
+      <WithStyles(InlineButton)
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-pencil3"
+        />
+      </WithStyles(InlineButton)>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderEditButton() should renderEditButton if NOT disabled 1`] = `
+<div>
+  <span>
+    <WithStyles(InlineButton)
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="lnr-pencil3"
+      />
+    </WithStyles(InlineButton)>
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderEditButton() should return loading if loading 1`] = `
+<div>
+  <span>
+    <WithStyles(Icon)
+      icon="lnr-refresh2"
+      size="xsmall"
+    />
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderEditButton() should return saved if saved 1`] = `
+<div>
+  <WithStyles(Icon)
+    color="success"
+    icon="lnr-check"
+    paddingLeft={true}
+    size="xsmall"
+  />
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderModePopper() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    direction="row"
+    justify="flex-start"
+  >
+    <WithStyles(GridItem)>
+      Select
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        placement="bottom"
+        renderButton={[Function]}
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderModePopperOptions() render renderModePopperOptions if optionDropDown is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Some Value
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Other value
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderOptions() should render correctly 1`] = `
+<div>
+  <span>
+    Select
+     
+    <WithStyles(InlineButton)
+      className=""
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+      title=""
+    >
+      Some Value
+    </WithStyles(InlineButton)>
+    renderSeparator
+    <WithStyles(InlineButton)
+      className=""
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+      title=""
+    >
+      Other value
+    </WithStyles(InlineButton)>
+    renderSeparator
+     
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderOptions() should still render correctly if excludeOptions has value  1`] = `
+<div>
+  <span>
+    Select
+     
+    <WithStyles(InlineButton)
+      className=""
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+      title=""
+    >
+      Some Value
+    </WithStyles(InlineButton)>
+    renderSeparator
+    <WithStyles(InlineButton)
+      className=""
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+      title=""
+    >
+      Other value
+    </WithStyles(InlineButton)>
+    renderSeparator
+     
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderSeparator() should NOT renderSeparator when index is the last one 1`] = `<div />`;
+
+exports[`<InlineRadioGroup /> renderSeparator() should renderSeparator when index is NOT the last one 1`] = `
+<div>
+  <span>
+    ·
+  </span>
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderValue() should NOT render tooltip if disabled 1`] = `
+<div>
+  renderContent
+</div>
+`;
+
+exports[`<InlineRadioGroup /> renderValue() should render tooltip if NOT disabled 1`] = `
+<div>
+  <span>
+    <WithStyles(ForwardRef(Tooltip))
+      classes={
+        Object {
+          "tooltip": undefined,
+        }
+      }
+      enterDelay={1000}
+      placement="top"
+      title="Change"
+    >
+      renderContent
+    </WithStyles(ForwardRef(Tooltip))>
+  </span>
+</div>
+`;

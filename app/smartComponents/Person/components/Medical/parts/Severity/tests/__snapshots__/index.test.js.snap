@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MedicalSeverity /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(MedicalIcon)
+    severity="mild"
+  />
+</div>
+`;
+
+exports[`<MedicalSeverity /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <Formsy(WithStyles(SelectField))
+    innerRef={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Condition severity"
+        id="app.smartComponents.Person.Medical.Severity.label"
+      />
+    }
+    name="medical.severity"
+    options={
+      Array [
+        Object {
+          "children": "Mild",
+          "value": "mild",
+        },
+        Object {
+          "children": "Moderate",
+          "value": "moderate",
+        },
+        Object {
+          "children": "Severe",
+          "value": "severe",
+        },
+      ]
+    }
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="mild"
+  />
+</div>
+`;
+
+exports[`<MedicalSeverity /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <WithStyles(MedicalIcon)
+    severity="mild"
+  />
+</div>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableMenuForm /> handleFormValidSubmit should just call defaultProps 1`] = `<div />`;
+
+exports[`<EditableMenuForm /> renderButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Editable)
+    readOnly={false}
+  >
+    value
+  </WithStyles(Editable)>
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderMenu should match snapshot 1`] = `
+<div>
+  wow
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderPlaceholder should match snapshot if readOnly 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    None
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderPlaceholder should match snapshot if readOnly is false 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    Click to specify
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderValue should just use defaultProps 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    Click to specify
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderValue should match snapshot if renderActions 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <Component />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      actions
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderValue should match snapshot if renderActions is false 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<EditableMenuForm /> renderValue should return renderPlaceholder 1`] = `
+<div>
+  renderPlaceholder
+</div>
+`;

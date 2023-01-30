@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastName /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "currentValue": null,
+      "extended": false,
+      "id": null,
+      "readOnly": false,
+      "renderValue": [Function],
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<LastName /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    label={
+      <FormattedMessage
+        defaultMessage="Last Name"
+        id="app.Node.parts.LastName.label"
+      />
+    }
+    name="node.customData.lastName"
+    onSubmit={[Function]}
+    placeholder="Click to specify last name"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<LastName /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    disabled={false}
+    label={
+      <FormattedMessage
+        defaultMessage="Last Name"
+        id="app.Node.parts.LastName.label"
+      />
+    }
+    name="node.customData.lastName"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<LastName /> #renderTextOnly() still matches snapshot 1`] = `"value"`;

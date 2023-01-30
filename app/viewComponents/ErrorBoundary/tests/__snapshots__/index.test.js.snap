@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorBoundary /> should render error fallback function if hasError state is true 1`] = `
+<div>
+  My custom error
+</div>
+`;
+
+exports[`<ErrorBoundary /> should render error fallback if hasError state is true 1`] = `
+<WithStyles(GridContainer)>
+  <WithStyles(GridItem)>
+    <Img
+      alt="error"
+      src="IMAGE_MOCK"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H2
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Oops! Something went wrong."
+        id="app.smartComponents.viewComponents.ErrorBoundary.somethingWentWrong"
+      />
+    </H2>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H4
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Maybe it's the connection, your computer, or gremlins."
+        id="app.smartComponents.viewComponents.ErrorBoundary.maybe"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H4
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Apologies! Please try again or contact your administrator."
+        id="app.smartComponents.viewComponents.ErrorBoundary.apologies"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H4
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Thank you."
+        id="app.smartComponents.viewComponents.ErrorBoundary.thankYou"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<ErrorBoundary /> should render something 1`] = `""`;

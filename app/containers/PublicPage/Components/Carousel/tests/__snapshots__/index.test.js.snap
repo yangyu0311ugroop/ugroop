@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayCarousel /> renderActions return default 1`] = `
+<div>
+  <div
+    className="DayCarousel-noAction"
+  />
+</div>
+`;
+
+exports[`<DayCarousel /> should render no Actions 1`] = `
+<div
+  className="DayCarousel-container"
+>
+  <Slider
+    afterChange={[MockFunction]}
+    arrows={false}
+    className="DayCarousel-root"
+    dots={false}
+    draggable={true}
+    responsive={
+      Array [
+        Object {
+          "breakpoint": 1615,
+          "settings": Object {
+            "slidesToShow": 4,
+          },
+        },
+        Object {
+          "breakpoint": 1415,
+          "settings": Object {
+            "slidesToShow": 3,
+          },
+        },
+        Object {
+          "breakpoint": 1215,
+          "settings": Object {
+            "slidesToShow": 2,
+          },
+        },
+        Object {
+          "breakpoint": 815,
+          "settings": Object {
+            "slidesToShow": 1,
+          },
+        },
+      ]
+    }
+    slidesToScroll={1}
+    slidesToShow={4}
+    swipeToSlide={true}
+  >
+    <div>
+      Jesus my comforter
+    </div>
+  </Slider>
+  <div
+    className="DayCarousel-actionContainer"
+  >
+    <WithStyles(Button)
+      className="DayCarousel-btn DayCarousel-prevBtn"
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        className="DayCarousel-icon"
+        icon="chevron-left"
+      />
+      <FormattedMessage
+        defaultMessage="Prev"
+        id="app.containers.PublicPage.Components.DayCarousel.prevBtn"
+      />
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      className="DayCarousel-btn DayCarousel-nextBtn"
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Next"
+        id="app.containers.PublicPage.Components.DayCarousel.nextBtn"
+      />
+      <WithStyles(Icon)
+        className="DayCarousel-icon"
+        icon="chevron-right"
+      />
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`<DayCarousel /> should render something 1`] = `
+<div
+  className="DayCarousel-container"
+>
+  <Slider
+    afterChange={[MockFunction]}
+    arrows={false}
+    className="DayCarousel-root"
+    dots={false}
+    draggable={true}
+    responsive={
+      Array [
+        Object {
+          "breakpoint": 1615,
+          "settings": Object {
+            "slidesToShow": 4,
+          },
+        },
+        Object {
+          "breakpoint": 1415,
+          "settings": Object {
+            "slidesToShow": 3,
+          },
+        },
+        Object {
+          "breakpoint": 1215,
+          "settings": Object {
+            "slidesToShow": 2,
+          },
+        },
+        Object {
+          "breakpoint": 815,
+          "settings": Object {
+            "slidesToShow": 1,
+          },
+        },
+      ]
+    }
+    slidesToScroll={1}
+    slidesToShow={4}
+    swipeToSlide={true}
+  >
+    <div>
+      Jesus my comforter
+    </div>
+  </Slider>
+  <div
+    className="DayCarousel-actionContainer"
+  >
+    <WithStyles(Button)
+      className="DayCarousel-btn DayCarousel-prevBtn"
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        className="DayCarousel-icon"
+        icon="chevron-left"
+      />
+      <FormattedMessage
+        defaultMessage="Prev"
+        id="app.containers.PublicPage.Components.DayCarousel.prevBtn"
+      />
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      className="DayCarousel-btn DayCarousel-nextBtn"
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Next"
+        id="app.containers.PublicPage.Components.DayCarousel.nextBtn"
+      />
+      <WithStyles(Icon)
+        className="DayCarousel-icon"
+        icon="chevron-right"
+      />
+    </WithStyles(Button)>
+  </div>
+</div>
+`;

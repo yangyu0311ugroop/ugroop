@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationPage /> render() should render correctly 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(TokenResolver))))
+    onSuccess={[Function]}
+  />
+</div>
+`;
+
+exports[`<NotificationPage /> render() should render invalid error page 1`] = `
+<div>
+  <withRouter(WithStyles(ErrorPages))
+    error="404"
+    type="invalid"
+  />
+</div>
+`;

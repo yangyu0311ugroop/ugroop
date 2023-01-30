@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/helpers/storybook #htmlComponentsStoriesOf() still matches snapshot 1`] = `
+Object {
+  "add": [Function],
+  "addDecorator": [Function],
+  "addParameters": [Function],
+  "kind": "htmlComponents/Component",
+}
+`;
+
+exports[`utils/helpers/storybook #smartComponentsStoriesOf() still matches snapshot 1`] = `
+Object {
+  "add": [Function],
+  "addDecorator": [Function],
+  "addParameters": [Function],
+  "kind": "smartComponents/Component",
+}
+`;
+
+exports[`utils/helpers/storybook #viewComponentsStoriesOf() still matches snapshot 1`] = `
+Object {
+  "add": [Function],
+  "addDecorator": [Function],
+  "addParameters": [Function],
+  "kind": "viewComponents/Component",
+}
+`;

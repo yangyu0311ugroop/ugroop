@@ -1,0 +1,907 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateActionButtonList /> canSeeChat() should canSeeChat 1`] = `<div />`;
+
+exports[`<TemplateActionButtonList /> componentWillMount() should check number 1`] = `
+Object {
+  "createdBy": 12,
+  "type": "template",
+}
+`;
+
+exports[`<TemplateActionButtonList /> componentWillMount() should check object 1`] = `
+Object {
+  "createdBy": 2233,
+  "type": "template",
+}
+`;
+
+exports[`<TemplateActionButtonList /> handleModeChange() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "editable": true,
+    },
+  ],
+]
+`;
+
+exports[`<TemplateActionButtonList /> handleModeChange() should setValue non editing 1`] = `
+Array [
+  Array [
+    Object {
+      "editable": false,
+      "node": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<TemplateActionButtonList /> openCreateChatChannelPortal() should openCreateChatChannelPortal 1`] = `<div />`;
+
+exports[`<TemplateActionButtonList /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              dense={true}
+              noPadding={true}
+              onClick={[Function]}
+              size="extraSmall"
+              title="Toggle viewing/editing mode"
+            >
+              <WithStyles(Icon)
+                icon="lnr-eye"
+                size="small"
+              />
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              menuHeader="Switch mode"
+              noPadding={true}
+              placement="bottom-end"
+              renderButton={[Function]}
+              value={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            renderOpenCommentButton
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            renderMore
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      mdUp={true}
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(GridContainer)
+          justify="left"
+          noWrap={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              menuHeader="Switch mode"
+              noPadding={true}
+              placement="bottom-end"
+              renderButton={[Function]}
+              value={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderOpenCommentButton
+            </WithStyles(GridItem)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            renderMore
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </Hidden>
+  </WithStyles(GridContainer)>
+  <ConnectFunction />
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> render() should render if showManageTabs 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              dense={true}
+              noPadding={true}
+              onClick={[Function]}
+              size="extraSmall"
+              title="Toggle viewing/editing mode"
+            >
+              <WithStyles(Icon)
+                icon="lnr-eye"
+                size="small"
+              />
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              menuHeader="Switch mode"
+              noPadding={true}
+              placement="bottom-end"
+              renderButton={[Function]}
+              value={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      mdUp={true}
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(GridContainer)
+          justify="left"
+          noWrap={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              menuHeader="Switch mode"
+              noPadding={true}
+              placement="bottom-end"
+              renderButton={[Function]}
+              value={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star)))))>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </Hidden>
+  </WithStyles(GridContainer)>
+  <ConnectFunction />
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderBadge() should renderBadge 1`] = `
+<div>
+  <WithStyles(ForwardRef(Badge))
+    badgeContent=""
+    classes={
+      Object {
+        "badge": undefined,
+      }
+    }
+    color="secondary"
+  />
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderModeMenu() should renderModeMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-pencil"
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+            >
+              EDITING MODE
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Make changes
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        alignItems="baseline"
+        icon="lnr-eye"
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+            >
+              VIEWING MODE
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <span>
+              Read or print
+            </span>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMore() should renderMore 1`] = `
+<div>
+  <ConnectFunction
+    noPadding={true}
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMoreButton() should renderMoreButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "title": "More options",
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          uppercase={true}
+        >
+          Options
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-ellipsis"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMoreButton() should renderMoreButton on mobile 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    noPadding={false}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "title": "More options",
+      }
+    }
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={false}
+          uppercase={false}
+        >
+          Options
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xxsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMoreMenu() should renderMoreMenu no move or delete 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="hashkey"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-link"
+        >
+          Get travel link
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="emailEvents"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-envelope"
+          onClick={[Function]}
+        >
+          Email-to-event Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <a
+        href="/print/tour/undefined"
+        target="_blank"
+      >
+        <WithStyles(MenuItem)
+          hover={true}
+          icon="lnr-printer"
+        >
+          Open print view
+        </WithStyles(MenuItem)>
+      </a>
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="create"
+      on="clone"
+    >
+      <BoundCan
+        do="create"
+        on="nodeshares"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(MenuItem)
+            icon="lnr-papers"
+          >
+            Clone
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+      </BoundCan>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="templatesetting"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-cog"
+          onClick={[Function]}
+        >
+          Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <WithStyles(Hr)>
+        Danger Zone
+      </WithStyles(Hr)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-compare"
+      >
+        Move
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-share3"
+        onClick={[Function]}
+      >
+        Transfer Ownership
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMoreMenu() should renderMoreMenu show delete 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="hashkey"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-link"
+        >
+          Get travel link
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="emailEvents"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-envelope"
+          onClick={[Function]}
+        >
+          Email-to-event Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <a
+        href="/print/tour/undefined"
+        target="_blank"
+      >
+        <WithStyles(MenuItem)
+          hover={true}
+          icon="lnr-printer"
+        >
+          Open print view
+        </WithStyles(MenuItem)>
+      </a>
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="create"
+      on="clone"
+    >
+      <BoundCan
+        do="create"
+        on="nodeshares"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(MenuItem)
+            icon="lnr-papers"
+          >
+            Clone
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+      </BoundCan>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="templatesetting"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-cog"
+          onClick={[Function]}
+        >
+          Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <WithStyles(Hr)>
+        Danger Zone
+      </WithStyles(Hr)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-trash2"
+      >
+        Delete
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderMoreMenu() should renderMoreMenu show move and transfer 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="hashkey"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-link"
+        >
+          Get travel link
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="emailEvents"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-envelope"
+          onClick={[Function]}
+        >
+          Email-to-event Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <a
+        href="/print/tour/undefined"
+        target="_blank"
+      >
+        <WithStyles(MenuItem)
+          hover={true}
+          icon="lnr-printer"
+        >
+          Open print view
+        </WithStyles(MenuItem)>
+      </a>
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="create"
+      on="clone"
+    >
+      <BoundCan
+        do="create"
+        on="nodeshares"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(MenuItem)
+            icon="lnr-papers"
+          >
+            Clone
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+      </BoundCan>
+    </BoundCan>
+    <BoundCan
+      do="create"
+      on="templatesetting"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-cog"
+          onClick={[Function]}
+        >
+          Settings
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <WithStyles(Hr)>
+        Danger Zone
+      </WithStyles(Hr)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-trash2"
+      >
+        Delete
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-compare"
+      >
+        Move
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        color="danger"
+        icon="lnr-share3"
+        onClick={[Function]}
+      >
+        Transfer Ownership
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderOpenCommentButton() should renderOpenCommentButton 1`] = `<div />`;
+
+exports[`<TemplateActionButtonList /> renderOpenCommentButton() should renderOpenCommentButton can see 1`] = `
+<div>
+  <ConnectFunction
+    label={
+      <WithStyles(JTextClass)
+        bold={true}
+        uppercase={true}
+      >
+        Chat
+      </WithStyles(JTextClass)>
+    }
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderPeople() match snapshots 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem) />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderStar() should renderStar 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      noWrap={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          className=""
+          icon="lnr-star"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderUpdateInfoButton() should renderUpdateInfoButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "placement": "bottom",
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      title="Viewing mode"
+      wrap="nowrap"
+    >
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-eye"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          uppercase={true}
+        >
+          Viewing Mode
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xxsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateActionButtonList /> renderUpdateInfoButton() should renderUpdateInfoButton on mobile 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    noPadding={false}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "placement": "bottom",
+      }
+    }
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      title="Viewing mode"
+      wrap="nowrap"
+    >
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-eye"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xxsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A/tests/index.test.js href should have an href 1`] = `
+<a
+  className=""
+  href="https://www.google.com/"
+>
+  <h3>
+    Test
+  </h3>
+</a>
+`;
+
+exports[`A/tests/index.test.js smoke tests should render properly 1`] = `
+<a
+  className=""
+  href=""
+>
+  <h3>
+    Test
+  </h3>
+</a>
+`;

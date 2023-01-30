@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H1 /> should accept noMargin 1`] = `
+<div>
+  <h1
+    className="fontWeight color fontFamily lineHeight"
+  />
+</div>
+`;
+
+exports[`<H1 /> should test styles 1`] = `
+Object {
+  "black": "-black",
+  "bold": "-bold",
+  "error": "-error",
+  "h1FontSize": "-h1FontSize",
+  "headerCommon": "-headerCommon",
+  "light": "-light",
+  "noMargin": "-noMargin",
+  "success": "-success",
+  "textCenter": "-textCenter",
+}
+`;

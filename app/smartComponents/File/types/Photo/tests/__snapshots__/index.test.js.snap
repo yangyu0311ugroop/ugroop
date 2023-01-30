@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    cancelUploadImage={[Function]}
+    canvasBorder={0}
+    canvasHeight={480}
+    canvasSize="canvasMedium"
+    canvasWidth={480}
+    component={Symbol(react.fragment)}
+    deleteTitle="DELETE IMAGE"
+    dispatchUpload={[Function]}
+    editable={false}
+    fileId="imageUploder-1"
+    fullWidth={true}
+    imageCropperContainerClassname=""
+    label=""
+    onDelete={[MockFunction]}
+    onUpload={[MockFunction]}
+    originalImageUrl=""
+    placeholderProps={
+      Object {
+        "centerIcons": true,
+        "className": "",
+        "cropMetaInfo": Object {
+          "height": undefined,
+          "rotate": 0,
+          "scale": undefined,
+          "width": undefined,
+          "x": undefined,
+          "y": undefined,
+        },
+        "deleteIcon": true,
+        "deleteTitle": "DELETE IMAGE",
+        "facadeURLPrefix": true,
+        "fileId": "imageUploder-1",
+        "imgSrc": "",
+        "onDeleteClick": undefined,
+        "placeholder": <WithStyles(Photo)
+          fileId="imageUploder-1"
+          label=""
+          shape="imageSquare"
+          size=""
+        />,
+        "resizeSize": 120,
+        "rotate": 0,
+        "smallIcons": true,
+      }
+    }
+    placeholderSize=""
+    saveImagePosition={[Function]}
+    shape="imageSquare"
+    show={true}
+    size="imageMedium"
+    uploadFile={
+      Object {
+        "enqueueData": [MockFunction],
+        "handleDelete": [Function],
+        "subscribeSuccess": [Function],
+      }
+    }
+    variant="default"
+  />
+</div>
+`;
+
+exports[`<Photo /> render() should render correctly if variant is read only and photo is empty 1`] = `<div />`;
+
+exports[`<Photo /> render() should render correctly if variant is read only and photo is not empty 1`] = `
+<div>
+  renderImageOnly
+</div>
+`;
+
+exports[`<Photo /> renderImageOnly should be called if photo is empty string 1`] = `<div />`;
+
+exports[`<Photo /> renderImageOnly should be called if photo is not empty string 1`] = `
+<div>
+  <WithStyles(UGImagePlaceholder)
+    centerIcons={true}
+    className=""
+    cropMetaInfo={
+      Object {
+        "height": undefined,
+        "rotate": 0,
+        "scale": undefined,
+        "width": undefined,
+        "x": undefined,
+        "y": undefined,
+      }
+    }
+    deleteIcon={true}
+    deleteTitle="DELETE IMAGE"
+    facadeURLPrefix={true}
+    fileId=""
+    imgSrc="photo"
+    placeholder=""
+    resizeSize={120}
+    rotate={0}
+    smallIcons={true}
+  />
+</div>
+`;

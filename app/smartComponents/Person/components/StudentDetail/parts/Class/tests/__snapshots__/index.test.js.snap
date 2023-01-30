@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentDetailClass /> renderTextField should match snapshot 1`] = `
+<div>
+  <TextField
+    label={
+      <FormattedMessage
+        defaultMessage="Class Name"
+        id="app.smartComponents.Person.StudentDetail.Class.label"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="studentDetail.class"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<StudentDetailClass /> renderTextOnly should match snapshot 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+  />
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<hoc /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction>
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<hoc /> renderWrappedComponent should render correctly 1`] = `
+<div>
+  <SampleComponent
+    classes={Object {}}
+    phoneCUD={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

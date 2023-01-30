@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Map /> render() should be called 1`] = `undefined`;
+
+exports[`<Map /> render() should return null 1 1`] = `undefined`;
+
+exports[`<Map /> render() should return null 1 2`] = `undefined`;
+
+exports[`<Map /> render() should return null if lat & lat is null 1`] = `undefined`;
+
+exports[`<Map /> render() should return something 1`] = `undefined`;

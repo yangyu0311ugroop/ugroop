@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fileStore/selectors.js PHONE_STORE_SELECTOR_CREATOR should generate selector based on specified fields 1`] = `
+Array [
+  "phoneDataStore",
+  "phones",
+  1,
+  "type",
+]
+`;
+
+exports[`fileStore/selectors.js PHONE_STORE_SELECTOR_CREATOR should generate selector based on specified fields 2`] = `
+Array [
+  "phoneDataStore",
+  "phones",
+  1,
+  "number",
+]
+`;
+
+exports[`fileStore/selectors.js PHONE_STORE_SELECTOR_CREATOR should generate selector based on specified fields 3`] = `
+Array [
+  "phoneDataStore",
+  "phones",
+  1,
+  "isDefault",
+]
+`;
+
+exports[`fileStore/selectors.js PHONE_STORE_SELECTOR_CREATOR should generate selector based on specified fields 4`] = `
+Array [
+  "phoneDataStore",
+  "phones",
+  1,
+  "editable",
+]
+`;
+
+exports[`fileStore/selectors.js PHONE_STORE_SET_VALUE_SELECTOR should return particular array shape 1`] = `
+Array [
+  "phoneDataStore",
+  "phones",
+  1,
+  "editable",
+]
+`;

@@ -1,0 +1,8 @@
+.container {
+  background-color: #edf2f4;
+}
+
+.activity-container {
+  border-left: 1px dashed #e5ecf0;
+  padding-left: 30px;
+}

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableTextForm /> Smoke tests should render editing properly 1`] = `
+<Fragment>
+  <WithStyles(EditableLabel) />
+  <div
+    className=""
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <ClickAwayListener
+            mouseEvent="onMouseDown"
+            onClickAway={[Function]}
+          >
+            <WithStyles(InlineText)
+              TextComponent={[Function]}
+              Typography="P"
+              autoComplete="off"
+              autoFocus={true}
+              inputRef={[Function]}
+              name="TextForm"
+              onKeyUp={[Function]}
+              required={false}
+              textClassName=""
+              value=""
+            />
+          </ClickAwayListener>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          className=""
+        >
+          <WithStyles(EditableFormActions)
+            inline={false}
+            loading={false}
+            noGrid={true}
+            onCancel={[Function]}
+            renderSecondaryActions={[Function]}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </GenericForm>
+  </div>
+</Fragment>
+`;
+
+exports[`<EditableTextForm /> Smoke tests should render properly 1`] = `
+<Fragment>
+  <WithStyles(EditableLabel) />
+  <WithStyles(Editable)
+    Typography="P"
+    bold={false}
+    className=""
+    isEllipsis={true}
+    onClick={[Function]}
+    readOnly={false}
+  >
+    <WithStyles(EditablePlaceholder)
+      className=""
+    >
+      Click to specify
+    </WithStyles(EditablePlaceholder)>
+  </WithStyles(Editable)>
+</Fragment>
+`;
+
+exports[`<EditableTextForm /> instance renderClearAction 1`] = `
+<div>
+  <WithStyles(Button)
+    color="gray"
+    dense={true}
+    icon="broom"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    square={true}
+  />
+</div>
+`;
+
+exports[`<EditableTextForm /> instance renderPlaceholder 1`] = `
+<WithStyles(EditablePlaceholder)
+  className=""
+>
+  None
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableTextForm /> instance should render different value if renderActions exist 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <div />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditableTextForm /> setStates handleEditableClick 1`] = `
+Object {
+  "cleared": false,
+  "editing": true,
+  "loading": false,
+  "showClear": false,
+}
+`;
+
+exports[`<EditableTextForm /> setStates handleSubmitError 1`] = `
+Object {
+  "cleared": false,
+  "editing": true,
+  "loading": false,
+  "showClear": false,
+}
+`;
+
+exports[`<EditableTextForm /> setStates handleSubmitSuccess 1`] = `
+Object {
+  "cleared": false,
+  "editing": false,
+  "loading": false,
+  "showClear": false,
+}
+`;
+
+exports[`<EditableTextForm /> setStates handleValidSubmit 1`] = `
+Object {
+  "cleared": false,
+  "editing": false,
+  "loading": true,
+  "showClear": false,
+}
+`;

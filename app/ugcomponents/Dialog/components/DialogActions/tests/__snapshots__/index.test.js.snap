@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogActions /> should render confirmButtonNode 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        color="gray"
+        noMargin={true}
+        onClick={[Function]}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div>
+        Confirm
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DialogActions /> should render custom props 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)
+      className=""
+    >
+      <WithStyles(Button)
+        block={true}
+        className=""
+        color="alert"
+        disabled={false}
+        noMargin={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        proceed
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DialogActions /> should render default 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        color="gray"
+        noMargin={true}
+        onClick={[Function]}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+    >
+      <WithStyles(Button)
+        block={true}
+        className=""
+        color="alert"
+        disabled={false}
+        noMargin={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        <FormattedMessage
+          defaultMessage="Delete {type}"
+          id="app.ugcomponents.Dialog.components.DialogActions.confirmDelete"
+          values={
+            Object {
+              "type": "tour",
+            }
+          }
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DialogActions /> should render logoutOnConfirm button 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        color="gray"
+        noMargin={true}
+        onClick={[Function]}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+    >
+      <ConnectFunction>
+        <WithStyles(Button)
+          block={true}
+          className=""
+          color="alert"
+          disabled={false}
+          noMargin={true}
+          onClick={[Function]}
+          type="submit"
+        >
+          <FormattedMessage
+            defaultMessage="Delete {type}"
+            id="app.ugcomponents.Dialog.components.DialogActions.confirmDelete"
+            values={
+              Object {
+                "type": "tour",
+              }
+            }
+          />
+        </WithStyles(Button)>
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DialogActions /> should render something 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        color="gray"
+        noMargin={true}
+        onClick={[Function]}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+    >
+      <WithStyles(Button)
+        block={true}
+        className=""
+        color="gray"
+        disabled={false}
+        noMargin={true}
+        onClick={[Function]}
+        type="submit"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

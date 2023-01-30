@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiModeInput /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<MultiModeInput /> #renderDefault() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    classes={
+      Object {
+        "root": "root",
+      }
+    }
+  >
+    <WithStyles(Formsy(CheckboxField))
+      compact={true}
+      label="Specify as duration?"
+      onChange={[Function]}
+      size="sm"
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

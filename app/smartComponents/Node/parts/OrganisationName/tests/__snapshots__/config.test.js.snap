@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrganisationName/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "featuredTour": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": Array [
+        "nodeStore",
+        "featuredTours",
+      ],
+      "props": [Function],
+    },
+    "organisationId": [Function],
+    "organisationIds": Array [
+      "organisationDataStore",
+      "organisationIds",
+    ],
+  },
+}
+`;

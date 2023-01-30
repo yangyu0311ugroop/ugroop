@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MapCard /> render() should return default 1`] = `
+<div>
+  <WithStyles(o)
+    classes={Object {}}
+    event={Object {}}
+    key="undefined___undefined__unknown"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<MapCard /> render() should return isFlight 1`] = `
+<div>
+  <WithStyles(o)
+    classes={Object {}}
+    event={Object {}}
+    key="undefined___undefined"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<MapCard /> render() should return isTransportation 1`] = `
+<div>
+  <WithStyles(o)
+    classes={Object {}}
+    event={Object {}}
+    key="undefined___undefined__unknown"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<MapCard /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(o)
+    classes={Object {}}
+    event={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

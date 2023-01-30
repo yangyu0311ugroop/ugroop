@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGAuthenticationLayout/tests/index.test.js renderVersion() still matches snapshot if CI 1`] = `
+<React.Fragment>
+  <span>
+    Version 
+    appVersion
+     -
+     
+    <a
+      href="buildUrl"
+      target="_blank"
+    >
+      Build 
+      buildNum
+       (
+      Latest
+      )
+    </a>
+  </span>
+   - 
+  <a
+    href="compareUrl"
+    target="_blank"
+  >
+    GitHub Commits
+  </a>
+</React.Fragment>
+`;
+
+exports[`UGAuthenticationLayout/tests/index.test.js renderVersion() still matches snapshot if CI and BRANCH=stage 1`] = `
+<React.Fragment>
+  <span>
+    Version 
+    appVersion
+     -
+     
+    <a
+      href="buildUrl"
+      target="_blank"
+    >
+      Build 
+      buildNum
+       (
+      Stable
+      )
+    </a>
+  </span>
+   - 
+  <a
+    href="compareUrl"
+    target="_blank"
+  >
+    GitHub Commits
+  </a>
+</React.Fragment>
+`;
+
+exports[`UGAuthenticationLayout/tests/index.test.js renderVersion() still matches snapshot if not CI 1`] = `
+<React.Fragment>
+  uGroop@appVersion.buildNum
+   - 
+  
+</React.Fragment>
+`;

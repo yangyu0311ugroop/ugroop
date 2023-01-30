@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventTime /> #render() still matches snapshot 1`] = `""`;
+
+exports[`<EventTime /> #render() still matches snapshot if position=end 1`] = `
+<ConnectFunction
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  position="end"
+/>
+`;
+
+exports[`<EventTime /> #render() still matches snapshot if position=middle 1`] = `
+<MiddleTime
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  position="middle"
+  variant={null}
+/>
+`;
+
+exports[`<EventTime /> #render() still matches snapshot if position=start 1`] = `
+<ConnectFunction
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  position="start"
+/>
+`;

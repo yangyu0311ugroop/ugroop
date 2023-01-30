@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Email /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "children": null,
+      "currentValue": null,
+      "id": null,
+      "onLogin": [Function],
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Email /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    editableSibling={null}
+    label={
+      <FormattedMessage
+        defaultMessage="Email"
+        id="app.Node.parts.Email.label"
+      />
+    }
+    name="node.customData.email"
+    onSubmit={[Function]}
+    placeholder="Click to specify email address"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Email /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <EmailField
+    autoComplete="off"
+    blacklist={null}
+    blacklistError="Hey, that email is not allowed"
+    isEmailError="Email address is not valid"
+    label={
+      <FormattedMessage
+        defaultMessage="Email"
+        id="app.Node.parts.Email.label"
+      />
+    }
+    myEmail={null}
+    myEmailError="Hey, that's your email address"
+    name="node.customData.email"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Email /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  value
+</WithStyles(GridItem)>
+`;

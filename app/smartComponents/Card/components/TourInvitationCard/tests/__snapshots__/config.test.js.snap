@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvitationCard/config.js Smoke Test should match snapshot 1`] = `
+Object {
+  "isLoading": Object {
+    "updateUserPreference": Array [
+      "Users",
+      "updateUserPreference",
+    ],
+  },
+  "setValue": Object {},
+  "value": Object {
+    "open": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "showCompleted": [Function],
+    "userId": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+  },
+}
+`;
+
+exports[`InvitationCard/config.js open should return a particular getter shape 1`] = `false`;
+
+exports[`InvitationCard/config.js open should return a particular keypath shape 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "users",
+    1,
+    "preference",
+    "dashBoardInvitationExpanded",
+  ],
+]
+`;
+
+exports[`InvitationCard/config.js open should return default value a particular getter shape 1`] = `true`;

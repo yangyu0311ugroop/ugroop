@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> render should match snapshot 1`] = `
+<WithStyles(UGCardFooter)
+  className="FolderCardContent-templateFolderFooter"
+>
+  <div
+    className="FolderCardContent-folderInfo"
+  >
+    <p
+      className="FolderCardContent-text"
+    >
+      1
+       
+      Folder
+    </p>
+    <p
+      className="FolderCardContent-dot FolderCardContent-text"
+    />
+    <p
+      className="FolderCardContent-text"
+    >
+      1
+       
+      Tour
+    </p>
+  </div>
+  <Component />
+</WithStyles(UGCardFooter)>
+`;
+
+exports[`<Footer /> renderDot should match snapshot if there is subfolder count and tour count 1`] = `
+<div>
+  <p
+    className="FolderCardContent-dot FolderCardContent-text"
+  />
+</div>
+`;
+
+exports[`<Footer /> renderFolderText should match snapshot if there is subfolder count 1`] = `
+<div>
+  <p
+    className="FolderCardContent-text"
+  >
+    1
+     
+    Folder
+  </p>
+</div>
+`;
+
+exports[`<Footer /> renderFooterContent should match snapshot if there are tours and subfolders 1`] = `
+<div>
+  <div
+    className="FolderCardContent-folderInfo"
+  >
+    renderFolderText
+    renderDot
+    renderTourText
+  </div>
+</div>
+`;
+
+exports[`<Footer /> renderTourText should match snapshot if there is tour count 1`] = `
+<div>
+  <p
+    className="FolderCardContent-text"
+  >
+    1
+     
+    Tour
+  </p>
+</div>
+`;

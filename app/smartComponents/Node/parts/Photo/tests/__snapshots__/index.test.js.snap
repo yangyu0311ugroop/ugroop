@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> fileId() should fileId 1`] = `
+<div>
+  photo-2233
+</div>
+`;
+
+exports[`<Photo /> onCrop() should call onInsertTemplateImage 1`] = `
+Array [
+  Array [
+    "url",
+    Object {
+      "height": undefined,
+      "rotate": undefined,
+      "scale": undefined,
+      "width": undefined,
+      "x": undefined,
+      "y": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onCrop() should call onUpdateTemplateImage 1`] = `
+Array [
+  Array [
+    "url",
+    Object {
+      "height": undefined,
+      "rotate": undefined,
+      "scale": undefined,
+      "width": undefined,
+      "x": undefined,
+      "y": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onInsertTemplateImage() should onInsertTemplateImage 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "removePhoto",
+    Object {
+      "payload": Object {
+        "fk": -1,
+        "id": undefined,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updatePhoto",
+    Object {
+      "payload": Object {
+        "content": undefined,
+        "fileName": undefined,
+        "fk": -1,
+        "id": undefined,
+        "metaInfo": undefined,
+        "oldPhoto": "",
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "createPhoto",
+    Object {
+      "payload": Object {
+        "content": undefined,
+        "fileName": "",
+        "id": undefined,
+        "metaInfo": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onUpdateTemplateImage() should onUpdateTemplateImage 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "removePhoto",
+    Object {
+      "payload": Object {
+        "fk": -1,
+        "id": undefined,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updatePhoto",
+    Object {
+      "payload": Object {
+        "content": undefined,
+        "fileName": undefined,
+        "fk": -1,
+        "id": undefined,
+        "metaInfo": undefined,
+        "oldPhoto": "",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onUploadTemplateImage should call originalImageBlob) 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "cropRect": undefined,
+      "imageSize": undefined,
+      "rotate": undefined,
+      "scale": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onUploadTemplateImage should call other 1`] = `
+Array [
+  Array [
+    null,
+    Object {
+      "cropRect": undefined,
+      "imageSize": undefined,
+      "rotate": undefined,
+      "scale": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> onUploadTemplateImage should call uploadImageData.length > 0 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "cropRect": undefined,
+      "imageSize": undefined,
+      "rotate": undefined,
+      "scale": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Photo /> render() should render !templatePhotoUrl 1`] = `
+<div>
+  <span>
+    <div
+      className=""
+    >
+      <ConnectFunction
+        cancelUploadImage={[Function]}
+        canvasBorder={0}
+        customCanEdit={false}
+        dialogClassname=""
+        dialogProps={Object {}}
+        dispatchUpload={[Function]}
+        fileId="photo-undefined"
+        originalImageUrl=""
+        placeholderContainerClassname=""
+        placeholderProps={
+          Object {
+            "editable": true,
+            "facadeURLPrefix": false,
+            "fileId": "photo-undefined",
+          }
+        }
+        resizeSize={24}
+        saveImagePosition={[Function]}
+        show={true}
+        showPreview={true}
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`<Photo /> render() should render correctly 1`] = `
+<div>
+  <span>
+    <ConnectFunction
+      cancelUploadImage={[Function]}
+      canvasBorder={0}
+      customCanEdit={false}
+      dialogClassname=""
+      dialogProps={Object {}}
+      dispatchUpload={[Function]}
+      fileId="photo-undefined"
+      originalImageUrl="templatePhotoUrl"
+      placeholderContainerClassname=""
+      placeholderProps={
+        Object {
+          "cropMetaInfo": Object {},
+          "editable": true,
+          "facadeURLPrefix": true,
+          "fileId": "photo-undefined",
+          "imgSrc": "templatePhotoUrl",
+          "onDeleteClick": [Function],
+          "photoId": "",
+          "resizeSide": "width",
+          "resizeSize": 1000,
+          "rotate": 0,
+        }
+      }
+      saveImagePosition={[Function]}
+      show={true}
+      showPreview={true}
+    />
+  </span>
+</div>
+`;
+
+exports[`<Photo /> renderImagePreview() should renderImagePreview 1`] = `<div />`;

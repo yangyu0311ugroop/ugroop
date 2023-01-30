@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NodeExplorer /> container componentDidMount should call setValue with particular object shape 1`] = `
+Array [
+  Array [
+    Object {
+      "folderFormOpen": false,
+      "folderTreeIds": Array [],
+      "organisationId": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "sortField": "createdAt",
+      "sortOrder": "desc",
+    },
+  ],
+]
+`;
+
+exports[`<NodeExplorer /> container componentWillReceiveProps should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "organisationId": 2233,
+    },
+  ],
+  Array [
+    Object {
+      "organisationId": 3344,
+    },
+  ],
+]
+`;
+
+exports[`<NodeExplorer /> container onFetchTemplates() should pass null if id is not existing 1`] = `
+Array [
+  Array [
+    "Folders",
+    "getFolderChildrenWithPagination",
+    Object {
+      "onError": "onFetchTemplateError",
+      "onSuccess": "onFetchTemplateSuccess",
+      "payload": Object {
+        "id": 0,
+        "limit": undefined,
+        "sortField": "content",
+        "sortOrder": "asc",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NodeExplorer /> container renderBreadcrumbs() should renderBreadcrumbs 1`] = `<div />`;
+
+exports[`<NodeExplorer /> container renderHeader() should renderHeader 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Component))))
+    currentRoute="/tours"
+    folderId={0}
+    isFetchFolderChildrenLoading={false}
+    showBreadCrumbs={true}
+  />
+</div>
+`;
+
+exports[`<NodeExplorer /> container should display what it should display if loadingState is false and query.current 1`] = `
+<WithStyles(Container)
+  maxSize={false}
+  padding={true}
+>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Component))))
+    currentRoute="/tours"
+    folderId={0}
+    isFetchFolderChildrenLoading={false}
+    showBreadCrumbs={true}
+  />
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Body))))
+    currentRoute="/tours"
+    folderId={0}
+  />
+</WithStyles(Container)>
+`;

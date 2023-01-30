@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOGIC_HELPERS ifFunction should call if function 1`] = `
+Array [
+  Array [],
+  Array [
+    "string",
+  ],
+  Array [
+    "string",
+    123,
+    true,
+    false,
+  ],
+]
+`;

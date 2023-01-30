@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarginWrapper /> should render something 1`] = `
+<div
+  className=""
+>
+  <div />
+</div>
+`;
+
+exports[`<MarginWrapper /> should render something if props isInline is true 1`] = `
+<span
+  className=""
+>
+  <div />
+</span>
+`;

@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateInterestedList /> #handleCloseCreateInterestedPersonModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "interestedPersonCreateOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateInterestedList /> #handleCloseInterestedModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "interestedListViewOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateInterestedList /> #handleCloseViewInterestedPersonModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "interestedPersonViewOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateInterestedList /> #handleOpenInterestedModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "peopleView": "interestedPeople",
+  },
+}
+`;
+
+exports[`<TemplateInterestedList /> #render() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InterestedList)))))))))))
+    interestedPersonIds={Array []}
+    onClose={[Function]}
+    open={false}
+    templateId={1}
+  />
+</React.Fragment>
+`;
+
+exports[`<TemplateInterestedList /> #renderAvatar() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+  AvatarProps={
+    Object {
+      "x": 1,
+    }
+  }
+  id={1}
+  variant="avatar"
+/>
+`;
+
+exports[`<TemplateInterestedList /> handleFilterSelect() should handleFilterSelect 1`] = `<div />`;
+
+exports[`<TemplateInterestedList /> renderList() should match snapshot if peopleTabIndex is not -1 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        addTooltipText="Add Follower"
+        maxAvatars={10}
+        onClick={[Function]}
+        people={Array []}
+        placeholder={
+          <P
+            dense={true}
+            fontStyle="italic"
+            subtitle={true}
+          >
+            No followers as of the moment
+          </P>
+        }
+        renderAvatar={[Function]}
+        seeMore={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateInterestedList /> renderList() should renderList 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        addTooltipText="Add Follower"
+        maxAvatars={10}
+        onClick={[Function]}
+        people={Array []}
+        placeholder={
+          <P
+            dense={true}
+            fontStyle="italic"
+            subtitle={true}
+          >
+            No followers as of the moment
+          </P>
+        }
+        renderAvatar={[Function]}
+        seeMore={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateInterestedList /> renderMine should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    interestedPersonIds={Array []}
+    mode="me"
+    userId={null}
+  />
+</div>
+`;
+
+exports[`<TemplateInterestedList /> renderPopperButton() should renderPopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+    weight="bold"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        All Followers
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateInterestedList /> renderPopperButton() should renderPopperButton 2`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+    weight="bold"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        All Followers
+        <span>
+          2
+        </span>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateInterestedList /> renderPopperOptions() should renderPopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Following
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Not Following
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Show All
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

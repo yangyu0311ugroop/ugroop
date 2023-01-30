@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Description /> render() should match snapshot 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "renderProp": [Function],
+      "textField": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Description /> renderTextField should match snapshot 1`] = `
+<div>
+  <TextField
+    maxLength={0}
+    minLength={0}
+    name="description"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Description /> renderTextOnly should match snapshot 1`] = `<div />`;

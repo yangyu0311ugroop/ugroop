@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreatedAt /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<CreatedAt /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "date": [Function],
+      "default": [Function],
+      "simpleTooltip": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<CreatedAt /> renderDate() should renderDate 1`] = `
+<div>
+  <span
+    className="default"
+    title="renderTitle"
+  >
+    12 July 2019
+  </span>
+</div>
+`;
+
+exports[`<CreatedAt /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+    title="renderTitle"
+  >
+    1m ago
+  </span>
+</div>
+`;
+
+exports[`<CreatedAt /> renderDefault() should renderDefault 2`] = `
+<div>
+  <span
+    className="default"
+    title="renderTitle"
+  >
+    a few seconds ago
+  </span>
+</div>
+`;
+
+exports[`<CreatedAt /> renderSimpleTooltip() should still match snapshot 1`] = `
+<div>
+  <div
+    title="Invalid date at Invalid date"
+  />
+</div>
+`;
+
+exports[`<CreatedAt /> renderTitle() should return renderTitle 1`] = `"Thursday, 21 December 1234 at 13:34"`;

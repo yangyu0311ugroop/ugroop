@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadcrumbDropdown /> render should render something 1`] = `
+<Fragment>
+  <WithStyles(Button)
+    className="BreadcrumbDropdown-btn"
+    disableRipple={true}
+    onClick={[Function]}
+  >
+    ...
+  </WithStyles(Button)>
+  <WithStyles(Icon)
+    className="BreadcrumbDropdown-icon"
+    icon="chevron-right"
+  />
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div>
+      <withRouter(UGLink)
+        className="BreadcrumbDropdown-link"
+        key="/1"
+        to="/1"
+      >
+        It
+      </withRouter(UGLink)>
+      <withRouter(UGLink)
+        className="BreadcrumbDropdown-link"
+        key="/2"
+        to="/2"
+      >
+        Is
+      </withRouter(UGLink)>
+      <withRouter(UGLink)
+        className="BreadcrumbDropdown-link"
+        key="/1"
+        to="/1"
+      >
+        Finished
+      </withRouter(UGLink)>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</Fragment>
+`;

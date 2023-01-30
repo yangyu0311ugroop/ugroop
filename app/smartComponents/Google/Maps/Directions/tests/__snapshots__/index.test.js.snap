@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Directions /> fetchDirections should call direction service route if props from and props to have value 1`] = `
+Array [
+  Array [],
+  Array [],
+]
+`;
+
+exports[`<Directions /> render() should render correctly 1`] = `
+<div>
+  <DirectionsRenderer
+    directions={Array []}
+    options={
+      Object {
+        "markerOptions": Object {
+          "icon": "",
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Directions /> render() should render correctly if directions state is null 1`] = `<div />`;

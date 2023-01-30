@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Person /> renderDefault() should hiddenSm renderDefault 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)
+        className="j-text-ellipsis"
+      >
+        <Component
+          ellipsis={true}
+          variant="stringOnly"
+        />
+      </WithStyles(GridItem)>
+    </Hidden>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      <Component
+        ellipsis={true}
+        variant="stringOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderPersonType() should hiddenSm renderPersonType 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)
+        className="j-text-ellipsis"
+      >
+        <Component
+          variant="stringOnly"
+        />
+      </WithStyles(GridItem)>
+    </Hidden>
+    <WithStyles(GridItem)>
+      (Personal)
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderPersonType() should renderPersonType 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      <Component
+        variant="stringOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      (Personal)
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

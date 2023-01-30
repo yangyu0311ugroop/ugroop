@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OldFollower /> handleCreateLink should call dispatchTo create link 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "guardian",
+          "actionContent": Object {
+            "relationship": undefined,
+          },
+          "nextNodeId": undefined,
+        },
+        "id": undefined,
+        "nextNodeChildKey": "participantLinks",
+        "prevNodeChildKey": "followers",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<OldFollower /> handleSubmit should call updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "parentNodeId": undefined,
+        "type": "participant",
+      },
+      "nodeId": undefined,
+      "onError": [MockFunction],
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {},
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<OldFollower /> handleSubmitSuccess should call resaga setValue and call onSuccess passed to it 1`] = `
+Array [
+  Array [
+    Object {
+      "oldFollowerId": 0,
+      "participants": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<OldFollower /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableForm)
+    isRow={true}
+    loading={false}
+    onSubmit={[Function]}
+    popoverProps={
+      Object {
+        "transformOrigin": Object {
+          "horizontal": "left",
+          "vertical": "bottom",
+        },
+      }
+    }
+    renderValue={[Function]}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <H6
+          dense={true}
+          weight="bold"
+        >
+          Relationship Details
+        </H6>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderForm
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(EditableForm)>
+</div>
+`;
+
+exports[`<OldFollower /> renderForm should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Relationship))) />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OldFollower /> renderValue should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="user"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <P
+            dense={true}
+            weight="bold"
+          >
+            <ConnectFunction
+              variant="textOnly"
+            />
+             
+            <ConnectFunction
+              variant="textOnly"
+            />
+          </P>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

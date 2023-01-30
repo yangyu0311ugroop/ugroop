@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoogleMaps fetchDetailSuccess should not change state if PlacesServiceStatus is not ok 1`] = `
+Object {
+  "loading": false,
+  "name": "",
+  "url": "",
+}
+`;
+
+exports[`GoogleMaps fetchDetailSuccess should set new state if PlacesServiceStatus is ok 1`] = `
+Object {
+  "loading": false,
+  "name": "Heaven",
+  "url": "Up Above",
+}
+`;

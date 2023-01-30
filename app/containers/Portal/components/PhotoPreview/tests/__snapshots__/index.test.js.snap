@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhotoPreview /> previewLeft() should previewLeft last 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+      "previewId": 2,
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    Object {
+      "children": Array [],
+      "classes": Object {},
+      "isPublic": false,
+      "previewId": 1,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    undefined,
+  ],
+]
+`;
+
+exports[`<PhotoPreview /> previewLeft() should previewLeft prev 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+      "previewId": 1,
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    Object {
+      "children": Array [],
+      "classes": Object {},
+      "isPublic": false,
+      "previewId": 2,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    undefined,
+  ],
+]
+`;
+
+exports[`<PhotoPreview /> previewRight() should previewRight first 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+      "previewId": 1,
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    Object {
+      "children": Array [],
+      "classes": Object {},
+      "isPublic": false,
+      "previewId": 2,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    undefined,
+  ],
+]
+`;
+
+exports[`<PhotoPreview /> previewRight() should previewRight next 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+      "previewId": 2,
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    Object {
+      "children": Array [],
+      "classes": Object {},
+      "isPublic": false,
+      "previewId": 1,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "sortBy": "RECENTLY_UPLOADED",
+    },
+    undefined,
+  ],
+]
+`;
+
+exports[`<PhotoPreview /> render() should render correctly 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(Component)
+      disabled={false}
+      maxWidth={false}
+      onClose={[Function]}
+      open={true}
+    >
+      <div>
+        <WithStyles(InlineButton)
+          color="default"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+          />
+        </WithStyles(InlineButton)>
+      </div>
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div
+            className=""
+          >
+            renderPhoto
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            renderContent
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Component)>
+  </Hidden>
+  <Hidden
+    mdUp={true}
+  >
+    <WithStyles(Component)
+      disabled={false}
+      fullWidth={true}
+      maxWidth="md"
+      onClose={[Function]}
+      open={true}
+    >
+      <div>
+        <WithStyles(InlineButton)
+          color="default"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+          />
+        </WithStyles(InlineButton)>
+      </div>
+      <WithStyles(UGDialogContent)
+        className=""
+      >
+        <div
+          className=""
+        >
+          renderPhoto
+        </div>
+      </WithStyles(UGDialogContent)>
+      <WithStyles(UGDialogAction)>
+        <div>
+          renderContent
+        </div>
+      </WithStyles(UGDialogAction)>
+    </WithStyles(Component)>
+  </Hidden>
+</div>
+`;
+
+exports[`<PhotoPreview /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(CreatedBy)))
+            variant="avatar"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(CreatedBy))) />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(CreatedAt))) />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <Hidden
+          mdUp={true}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              buttonTitle="More"
+              color="normal"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(Icon)
+                icon="lnr-trash2"
+                size="small"
+              />
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </Hidden>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+        editable={true}
+        onModeChange={[Function]}
+        renderSeeMore={false}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(ReactionSummary))) />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Hr)
+            halfMarginBottom={true}
+            noMarginTop={true}
+          />
+          <ConnectFunction>
+            <Component />
+          </ConnectFunction>
+          <WithStyles(Hr)
+            halfMarginTop={true}
+            noMarginBottom={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhotoPreview /> renderPhoto() should renderPhoto 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      onClick={[Function]}
+    >
+      <div>
+        <div
+          className=""
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-left"
+          />
+        </div>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      onClick={[Function]}
+    >
+      <div>
+        <div
+          className=""
+        >
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-chevron-right"
+          />
+        </div>
+      </div>
+    </WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              editable={false}
+              isCustomData={false}
+              valueKey="content"
+            />
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            2
+             of 
+            2
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(Button)
+        buttonTitle="Delete Image"
+        className=""
+        color="white"
+        onClick={[Function]}
+        size="xs"
+      >
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          size="small"
+        />
+      </WithStyles(Button)>
+    </Hidden>
+    <WithStyles(GridItem)>
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(WithUploadFile)))))))
+          borderRadius={false}
+          classNames={
+            Object {
+              "downloadButtonClassName": undefined,
+              "updateButtonClassName": undefined,
+            }
+          }
+          customCanEdit={true}
+          editable={true}
+          hideFrame={true}
+          id={1}
+          key="1"
+          placeholderProps={
+            Object {
+              "replaceButton": "Change photo",
+              "showDelete": false,
+              "showOverlay": false,
+            }
+          }
+          resizeSize={2000}
+          showDownload={true}
+          showPreview={false}
+          size={500}
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(WithUploadFile)))))))
+          borderRadius={false}
+          classNames={
+            Object {
+              "downloadButtonClassName": undefined,
+              "updateButtonClassName": undefined,
+            }
+          }
+          customCanEdit={true}
+          editable={true}
+          hideFrame={true}
+          id={1}
+          key="1"
+          placeholderProps={
+            Object {
+              "replaceButton": "Change photo",
+              "showDelete": false,
+              "showOverlay": false,
+            }
+          }
+          resizeSize={2000}
+          showDownload={true}
+          showPreview={false}
+          size={500}
+        />
+      </Hidden>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhotoPreview /> renderReactButton should render react button 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ReactButton)))
+    hasReacted={true}
+    id={1}
+    parentNodeId={1}
+  />
+</div>
+`;

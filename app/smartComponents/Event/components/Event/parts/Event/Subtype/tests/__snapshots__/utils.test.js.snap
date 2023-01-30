@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Event/parts/Subtype/utils #makeSubtypeOptions() still matches snapshot 1`] = `
+Array [
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Flight
+    </EventHeading>,
+    "value": "Flight",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Car
+    </EventHeading>,
+    "value": "Car",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Cab
+    </EventHeading>,
+    "value": "Cab",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Taxi
+    </EventHeading>,
+    "value": "Taxi",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ride Share
+    </EventHeading>,
+    "value": "Rideshare",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Vehicle Hire
+    </EventHeading>,
+    "value": "VehicleHire",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Coach
+    </EventHeading>,
+    "value": "Coach",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Bus
+    </EventHeading>,
+    "value": "Bus",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Train
+    </EventHeading>,
+    "value": "Train",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Tram
+    </EventHeading>,
+    "value": "Tram",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ship
+    </EventHeading>,
+    "value": "Ship",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Boat
+    </EventHeading>,
+    "value": "Boat",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ferry
+    </EventHeading>,
+    "value": "Ferry",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Bicycle
+    </EventHeading>,
+    "value": "Bicycle",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Walking
+    </EventHeading>,
+    "value": "Walk",
+  },
+]
+`;
+
+exports[`smartComponents/Event/parts/Subtype/utils #makeSubtypeOptions() still matches snapshot if filter is not null 1`] = `
+Array [
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Car
+    </EventHeading>,
+    "value": "Car",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Cab
+    </EventHeading>,
+    "value": "Cab",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Taxi
+    </EventHeading>,
+    "value": "Taxi",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ride Share
+    </EventHeading>,
+    "value": "Rideshare",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Vehicle Hire
+    </EventHeading>,
+    "value": "VehicleHire",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Coach
+    </EventHeading>,
+    "value": "Coach",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Bus
+    </EventHeading>,
+    "value": "Bus",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Train
+    </EventHeading>,
+    "value": "Train",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Tram
+    </EventHeading>,
+    "value": "Tram",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ship
+    </EventHeading>,
+    "value": "Ship",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Boat
+    </EventHeading>,
+    "value": "Boat",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Ferry
+    </EventHeading>,
+    "value": "Ferry",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Bicycle
+    </EventHeading>,
+    "value": "Bicycle",
+  },
+  Object {
+    "children": <EventHeading
+      Typography={[Function]}
+    >
+      Walking
+    </EventHeading>,
+    "value": "Walk",
+  },
+]
+`;

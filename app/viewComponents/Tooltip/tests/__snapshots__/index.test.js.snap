@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip/tests/index.js Smoke tests should render properly 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "popper": "Tooltip-popper",
+    }
+  }
+  disableFocusListener={true}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Tooltip))>
+`;

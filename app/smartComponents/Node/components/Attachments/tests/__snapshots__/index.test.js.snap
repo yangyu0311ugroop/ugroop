@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachments /> eventAttachmentIcon() eventAttachmentIcon should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+      attachmentOnly={true}
+      id={1}
+      position={1}
+      showSubIcon={false}
+      showSublabel={false}
+      size="xs"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachments /> eventAttachmentIcon() eventAttachmentIcon should render correctly when no events attachments 1`] = `<div />`;
+
+exports[`<Attachments /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  />
+</div>
+`;
+
+exports[`<Attachments /> renderEventAttachmentList() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      Event Attachments
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="event-1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(AttachmentItem)))
+      compact={false}
+      id={1}
+      type="events"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachments /> renderEventAttachmentList() should render correctly 2`] = `<div />`;
+
+exports[`<Attachments /> renderEventAttachmentList() should render correctly 3`] = `<div />`;
+
+exports[`<Attachments /> renderEventAttachments() renderEventAttachments should render correctly when no events attachments 1`] = `
+<div>
+  <ConnectFunction
+    dataId={1}
+    event={
+      Object {
+        "id": 1,
+      }
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Attachments /> renderMenuHeader() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      test
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachments /> renderMenuHeader() should render correctly 2`] = `<div />`;
+
+exports[`<Attachments /> renderModePopper() should render correctly 1`] = `<div />`;
+
+exports[`<Attachments /> renderModePopper() should render correctly 2`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        dense={true}
+        noPadding={false}
+        onClick={[Function]}
+        size="extraSmal"
+        variant="borderless"
+      >
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        anchorEl={null}
+        onClose={[Function]}
+        placement="bottom"
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachments /> renderModePopperButton() should render correctly from List 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmal"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem) />
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Attachments /> renderModePopperButton() should render correctly from List 2`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmal"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem) />
+      <WithStyles(GridItem)>
+        See All Attachments (5)
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Attachments /> renderModePopperButton() should render correctly from summary 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    noPadding={false}
+    onClick={[Function]}
+    size="extraSmal"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem) />
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Attachments /> renderModePopperOptions() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  />
+</div>
+`;
+
+exports[`<Attachments /> renderSectionAttachmentList() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      Section Attachments
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="sections-1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(AttachmentItem)))
+      compact={false}
+      id={1}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachments /> renderSectionAttachmentList() should render correctly 2`] = `<div />`;
+
+exports[`<Attachments /> renderSummary() renderSummary should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="lavender"
+        icon="lnr-paperclip"
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      2
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachments /> renderSummary() renderSummary should render correctly when no events attachments 1`] = `<div />`;

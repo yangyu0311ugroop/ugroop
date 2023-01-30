@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsTimelines /> render() should render correctly 1`] = `
+<WithStyles(EventsTimeline)
+  eventsWithTime={Array []}
+  id={null}
+  key=""
+  pinnedEventIds={Array []}
+  pinnedEvents={Array []}
+  showCardsToggle={true}
+  singleDayEventIds={Array []}
+  timeZone=""
+/>
+`;

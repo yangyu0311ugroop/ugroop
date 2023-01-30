@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayCarousel /> render() should render correctly if days are > 0 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(DayCarousel)
+      currPage={0}
+      focusOnSelect={true}
+      onChange={[Function]}
+      slideRef={null}
+      totalNum={2}
+    >
+      <div
+        className=""
+        key="223"
+      >
+        <WithStyles(DayCard)
+          dateText=""
+          dayCount={1}
+          id={223}
+          imgSrc="https://gateway-latest.ugroop.com/FileContainers/com.ugroop.personContainer/download/02cbf2f1-ed36-48c7-947b-cf465bcff28e.jpeg?h=1&w=0.6462212486308871&x=0.14984840547962586&y=0&width=1000"
+          placeText="Trekking Somewhere Far Far Away"
+          selected={true}
+        />
+      </div>
+      <div
+        className=""
+        key="224"
+      >
+        <WithStyles(DayCard)
+          dateText=""
+          dayCount={2}
+          id={224}
+          imgSrc="https://gateway-latest.ugroop.com/FileContainers/com.ugroop.personContainer/download/02cbf2f1-ed36-48c7-947b-cf465bcff28e.jpeg?h=1&w=0.6462212486308871&x=0.14984840547962586&y=0&width=1000"
+          placeText="Trekking Somewhere Far Far Away"
+          selected={false}
+        />
+      </div>
+    </WithStyles(DayCarousel)>
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<DayCarousel /> render() should render correctly if days are 0 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(DayCarousel)
+      currPage={0}
+      focusOnSelect={true}
+      onChange={[Function]}
+      slideRef={null}
+    >
+      <div />
+    </WithStyles(DayCarousel)>
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<DayCarousel /> render() should render correctly if days photo are not available 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(DayCarousel)
+      currPage={0}
+      focusOnSelect={true}
+      onChange={[Function]}
+      slideRef={null}
+      totalNum={2}
+    >
+      <div
+        className=""
+        key="223"
+      >
+        <WithStyles(DayCard)
+          dateText=""
+          dayCount={1}
+          id={223}
+          imgSrc=""
+          placeText="Trekking Somewhere Far Far Away"
+          rotate={0}
+          selected={true}
+        />
+      </div>
+      <div
+        className=""
+        key="224"
+      >
+        <WithStyles(DayCard)
+          dateText=""
+          dayCount={2}
+          id={224}
+          imgSrc=""
+          placeText="Trekking Somewhere Far Far Away"
+          rotate={0}
+          selected={false}
+        />
+      </div>
+    </WithStyles(DayCarousel)>
+  </WithStyles(Container)>
+</div>
+`;

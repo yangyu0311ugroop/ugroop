@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingText /> render() should render correctly 1`] = `
+<div>
+  <span>
+    Loading
+    ...
+  </span>
+</div>
+`;
+
+exports[`<LoadingText /> render() should renderIcon 1`] = `
+<div>
+  renderIcon
+</div>
+`;
+
+exports[`<LoadingText /> render() should renderSplash 1`] = `
+<div>
+  renderSplash
+</div>
+`;
+
+exports[`<LoadingText /> renderIcon() should renderIcon 1`] = `
+<div>
+  <div>
+    <WithStyles(Icon)
+      icon="lnr-sync2"
+      size="normal"
+    />
+  </div>
+</div>
+`;
+
+exports[`<LoadingText /> renderSplash() should renderSplash 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(PageLogo)
+        full={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+        sm={true}
+        uppercase={true}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            Loading content
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <WithStyles(Icon)
+                icon="lnr-sync2"
+                size="normal"
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,19 @@
+import {
+  TEMPLATE_MANAGEMENT_DATASTORE,
+  TEMPLATE_MANAGEMENT_VIEWSTORE,
+} from 'appConstants';
+import { PORTAL_HELPERS } from 'containers/Portal/helpers';
+import { NODE_STORE_SELECTORS } from 'datastore/nodeStore/selectors';
+
+export const TEMPLATE_CONFIG = {
+  value: { id: [TEMPLATE_MANAGEMENT_DATASTORE, 'id'] },
+};
+export const CONFIG = {
+  value: {},
+  setValue: {
+    selectedRoomId: [TEMPLATE_MANAGEMENT_VIEWSTORE, 'selectedRoomId'],
+    selectedRoomType: [TEMPLATE_MANAGEMENT_VIEWSTORE, 'selectedRoomType'],
+    layout: NODE_STORE_SELECTORS.calculatedLayout,
+    ...PORTAL_HELPERS.setValue,
+  },
+};

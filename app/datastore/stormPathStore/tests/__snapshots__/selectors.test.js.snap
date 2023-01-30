@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectOrgs stormPathSelectors should have a particular shape 1`] = `
+Object {
+  "rootNodeId": Object {
+    "defaultValue": 0,
+    "type": [Function],
+    "value": Array [
+      "cognitoAcctStore",
+      "account",
+      "rootnodeid",
+    ],
+  },
+  "userId": Object {
+    "defaultValue": 0,
+    "type": [Function],
+    "value": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+  },
+}
+`;

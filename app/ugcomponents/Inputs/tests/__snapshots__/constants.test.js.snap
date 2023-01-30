@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ugcomponents/Inputs/constants #DATE_ERROR() still matches snapshot 1`] = `"Please use valid format (eg. 1 April 2019)"`;
+
+exports[`ugcomponents/Inputs/constants #DATE_MAX_ERROR() still matches snapshot 1`] = `"Maximum date is 3 February 0001"`;
+
+exports[`ugcomponents/Inputs/constants #DATE_MIN_ERROR() still matches snapshot 1`] = `"Minimum date is 3 February 0001"`;
+
+exports[`ugcomponents/Inputs/constants #DURATION_ERROR() still matches snapshot 1`] = `"Please use valid format (eg. 4d 12h 30m)"`;
+
+exports[`ugcomponents/Inputs/constants #DURATION_POSITIVE_ERROR() still matches snapshot 1`] = `"Must be positive (eg. 1h)"`;
+
+exports[`ugcomponents/Inputs/constants #EMAIL_IS_EMAIL_ERROR() still matches snapshot 1`] = `"Email address is not valid"`;
+
+exports[`ugcomponents/Inputs/constants #INT_ERROR() still matches snapshot 1`] = `"Must be integer"`;
+
+exports[`ugcomponents/Inputs/constants #NUMBER_MAX_ERROR() still matches snapshot 1`] = `"Must be 10 or lower"`;
+
+exports[`ugcomponents/Inputs/constants #NUMBER_MIN_ERROR() still matches snapshot 1`] = `"Must be 10 or higher"`;
+
+exports[`ugcomponents/Inputs/constants #NUMBER_MIN_ERROR() still matches snapshot for epsilon 1`] = `"Must be 2.220446049250313e-16 or higher"`;
+
+exports[`ugcomponents/Inputs/constants #PHONE_IS_PHONE_NUMBER_ERROR() still matches snapshot 1`] = `"Please use valid format"`;
+
+exports[`ugcomponents/Inputs/constants #TEXT_MAX_ERROR() still matches snapshot 1`] = `"Must not be longer than 10 characters"`;
+
+exports[`ugcomponents/Inputs/constants #TEXT_MIN_ERROR() still matches snapshot 1`] = `"Must be at least 10 characters long"`;
+
+exports[`ugcomponents/Inputs/constants #TIME_ERROR() still matches snapshot 1`] = `"Please use valid format (eg. 14:00)"`;
+
+exports[`ugcomponents/Inputs/constants #TIME_MAX_FIELD_ERROR() still matches snapshot 1`] = `"Time is after maximum time"`;
+
+exports[`ugcomponents/Inputs/constants #TIME_MIN_FIELD_ERROR() still matches snapshot 1`] = `"Time is before minimum time"`;

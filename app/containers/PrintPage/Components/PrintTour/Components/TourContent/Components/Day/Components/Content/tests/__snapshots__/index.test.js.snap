@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day/Content render Should render correctly when content is empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={1}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(H2)>
+             
+            Day 1
+             
+          </WithStyles(H2)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="flex-end"
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+                  isLazyLoad={false}
+                  photoId={1}
+                />
+              </div>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={9}
+    >
+      <ConnectFunction
+        displayDescription={
+          <WithStyles(UGRichEditor)
+            initContent="abc"
+            readOnly={true}
+            toolBarId="dayToolBar1"
+          />
+        }
+        isPublic={true}
+        placeId=""
+        showDescr={false}
+        title="Title not set"
+        url={
+          <WithStyles(Connect(WithSimplifyResaga(Url)))
+            editable={false}
+            id={1}
+            variant="text"
+          />
+        }
+      />
+      <H4>
+        <WithStyles(UGRichEditor)
+          initContent="abc"
+          readOnly={true}
+          toolBarId="dayToolBar1"
+        />
+      </H4>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Day/Content render check snapshot 1`] = `
+<WithStyles(GridContainer)
+  spacing={0}
+>
+  <WithStyles(GridItem)
+    xs={1}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(H2)>
+           
+          Day 1
+           
+        </WithStyles(H2)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    xs={9}
+  >
+    <ConnectFunction
+      displayDescription={
+        <WithStyles(UGRichEditor)
+          initContent="abc"
+          readOnly={true}
+          toolBarId="dayToolBar1"
+        />
+      }
+      isPublic={true}
+      placeId=""
+      showDescr={false}
+      title="abc"
+      url={
+        <WithStyles(Connect(WithSimplifyResaga(Url)))
+          editable={false}
+          id={1}
+          variant="text"
+        />
+      }
+    />
+    <H4>
+      <WithStyles(UGRichEditor)
+        initContent="abc"
+        readOnly={true}
+        toolBarId="dayToolBar1"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

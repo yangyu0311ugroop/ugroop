@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config.test.js isLoading should exist 1`] = `
+Object {
+  "fetchingFeaturedTours": Array [
+    "Templates",
+    "getTemplateFeaturedList",
+  ],
+  "updateUserPreference": Array [
+    "Users",
+    "updateUserPreference",
+  ],
+}
+`;
+
+exports[`config.test.js value featuredTours open keyPath should exist 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "users",
+    1,
+    "preference",
+    "dashBoardFeaturedToursExpanded",
+  ],
+]
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisibleChildren/config.js value CREATED_BY_ME_CONFIG cacheKey should work 1`] = `"1,2.createdByMe"`;
+
+exports[`VisibleChildren/config.js value CREATED_BY_ME_CONFIG keyPath should work 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "createdBy",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "createdBy",
+  ],
+]
+`;
+
+exports[`VisibleChildren/config.js value visibleChildren should exists 1`] = `".visibleChildren"`;
+
+exports[`VisibleChildren/config.js value visibleChildren should exists 2`] = `"1,2.visibleChildren"`;
+
+exports[`VisibleChildren/config.js value visibleChildren should exists 3`] = `Array []`;
+
+exports[`VisibleChildren/config.js value visibleChildren should exists 4`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "sharedWith",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "sharedWith",
+  ],
+]
+`;
+
+exports[`VisibleChildren/config.js value visibleChildren should exists 5`] = `
+Object {
+  "hiddenIds": Array [
+    1,
+  ],
+  "notCreatedByMe": Array [
+    1,
+    2,
+  ],
+  "organizerTabs": Array [
+    4,
+  ],
+  "privateIds": Array [],
+  "visibleChildren": Array [
+    1,
+    3,
+  ],
+}
+`;

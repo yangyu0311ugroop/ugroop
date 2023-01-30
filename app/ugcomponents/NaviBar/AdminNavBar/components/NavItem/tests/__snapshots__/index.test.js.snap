@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavItem /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderButton
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NavItem /> renderButton() should renderButton count + 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    isLight={true}
+    open={false}
+    title="renderTooltipTitle"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        renderContent
+        <div
+          className=""
+        >
+          10
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<NavItem /> renderButton() should renderButton count + 2`] = `
+<div>
+  <WithStyles(Tooltip)
+    isLight={true}
+    open={false}
+    title="renderTooltipTitle"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        renderContent
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<NavItem /> renderButton() should return count 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NavItem /> renderContent() should return icon 1`] = `
+<div>
+  <WithStyles(Icon)
+    icon="icon"
+  />
+</div>
+`;
+
+exports[`<NavItem /> renderContent() should return popper 1`] = `
+<div>
+  <ConnectFunction
+    classes={
+      Object {
+        "topIndex": undefined,
+      }
+    }
+    noPadding={true}
+  />
+</div>
+`;
+
+exports[`<NavItem /> renderTooltipTitle() should renderTooltipTitle 1`] = `<div />`;

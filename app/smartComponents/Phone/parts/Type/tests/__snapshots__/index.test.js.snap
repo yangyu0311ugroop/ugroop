@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Type /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Icon)
+    icon="question"
+    size="extraSmall"
+  />
+</div>
+`;
+
+exports[`<Type /> render() should render correctly if variant is editable 1`] = `
+<div>
+  <Formsy(WithStyles(SelectField))
+    innerRef={[Function]}
+    name="type"
+    options={
+      Array [
+        Object {
+          "children": "Mobile",
+          "value": "mobile",
+        },
+        Object {
+          "children": "Landline",
+          "value": "landline",
+        },
+      ]
+    }
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Type /> render() should render correctly if variant is icon only 1`] = `
+<div>
+  <WithStyles(Icon)
+    icon="phone"
+    size="extraSmall"
+  />
+</div>
+`;
+
+exports[`<Type /> render() should render correctly if variant is icon only 2`] = `
+<div>
+  <WithStyles(Icon)
+    icon="telephone"
+    size="extraSmall"
+  />
+</div>
+`;
+
+exports[`<Type /> render() should render correctly if variant is icon only 3`] = `
+<div>
+  <P
+    noMargin={true}
+  />
+</div>
+`;

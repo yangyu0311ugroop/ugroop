@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGEventIcon /> #render() still matches snapshot with bold icon 1`] = `
+<span
+  style={
+    Object {
+      "color": "#de4f79",
+    }
+  }
+>
+  <WithStyles(Icon)
+    className="bold"
+    icon="dinner"
+    size={null}
+  />
+</span>
+`;
+
+exports[`<UGEventIcon /> render() should render end 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "color": "#ff0000",
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          className=""
+          icon="question"
+          size={null}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            bold={true}
+            className=""
+            icon="lnr-walk"
+            size="xxxs"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;
+
+exports[`<UGEventIcon /> render() should render normal 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "color": "#ff0000",
+      }
+    }
+  >
+    <WithStyles(Icon)
+      className=""
+      icon="question"
+      size={null}
+    />
+  </span>
+</div>
+`;
+
+exports[`<UGEventIcon /> render() should render start 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "color": "#ff0000",
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            bold={true}
+            className=""
+            icon="lnr-walk"
+            size="xxxs"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          className=""
+          icon="question"
+          size={null}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;

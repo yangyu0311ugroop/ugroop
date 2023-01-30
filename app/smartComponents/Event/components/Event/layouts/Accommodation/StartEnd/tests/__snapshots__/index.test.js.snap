@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccommodationStartEnd /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<AccommodationStartEnd /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <EventHeading
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Arriving"
+            id="app.Event.layouts.Accommodation.StartEnd.startSectionLabel"
+          />
+        </EventHeading>
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <EventHeading
+          Typography={[Function]}
+        >
+          <FormattedMessage
+            defaultMessage="Departing"
+            id="app.Event.layouts.Accommodation.StartEnd.endSectionLabel"
+          />
+        </EventHeading>
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <ConnectFunction
+    variant="label"
+  />
+</div>
+`;
+
+exports[`<AccommodationStartEnd /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    title={
+      <FormattedMessage
+        defaultMessage="Time"
+        id="app.Event.layouts.Accommodation.StartEnd.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      spacing={3}
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+        >
+          <WithStyles(GridItem)
+            sm={2}
+          >
+            <H4
+              dense={true}
+              fontStyle="italic"
+              weight="bold"
+            >
+              <FormattedMessage
+                defaultMessage="Arriving"
+                id="app.Event.layouts.Accommodation.StartEnd.startSectionLabel"
+              />
+            </H4>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            sm={true}
+            xs={12}
+          >
+            <ConnectFunction
+              variant={null}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+        >
+          <WithStyles(GridItem)
+            sm={2}
+          >
+            <H4
+              dense={true}
+              fontStyle="italic"
+              weight="bold"
+            >
+              <FormattedMessage
+                defaultMessage="Departing"
+                id="app.Event.layouts.Accommodation.StartEnd.endSectionLabel"
+              />
+            </H4>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            sm={true}
+            xs={12}
+          >
+            <ConnectFunction
+              variant={null}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;

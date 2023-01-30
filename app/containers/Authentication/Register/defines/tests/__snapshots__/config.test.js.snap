@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Config Test value should match snapshot 1`] = `
+Object {
+  "isRegisterByOrgInvitation": Object {
+    "getter": [Function],
+  },
+  "isRegisterByTourInvitation": Object {
+    "getter": [Function],
+  },
+  "notifications": Object {
+    "keyPath": [Function],
+    "spreadObject": true,
+  },
+  "shareTo": Object {
+    "getter": [Function],
+  },
+  "token": Object {
+    "getter": [Function],
+  },
+}
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FText /> render() should render 1`] = `
+<div>
+  <FilledTextField
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    InputProps={Object {}}
+    fullWidth={true}
+    name="name"
+    onChange={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    value="1"
+  />
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogForm/Complex/<CloseButton /> #render() still matches snapshot 1`] = `
+<WithStyles(InlineButton)
+  className="button"
+  color="default"
+  onClick={[Function]}
+>
+  children
+</WithStyles(InlineButton)>
+`;

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberEmailByIds should return a particular shape of object 1`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberEmailByIds should return a particular shape of object 2`] = `
+Array [
+  Array [
+    "organisationDataStore",
+    "members",
+    1,
+    "email",
+  ],
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberEmailByIds should return a particular shape of object 3`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndActivated should return a particular shape of object 1`] = `
+Array [
+  Array [
+    "organisationDataStore",
+    "members",
+    1,
+    "activated",
+  ],
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndActivated should return a particular shape of object 2`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndActivated should return a particular shape of object 3`] = `
+Array [
+  1,
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndActivated should return a particular shape of object 4`] = `
+Array [
+  Array [
+    3,
+    undefined,
+  ],
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndActivated should return a particular shape of object 5`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndEmail should return a particular shape of object 1`] = `
+Array [
+  Array [
+    "organisationDataStore",
+    "members",
+    1,
+    "role",
+  ],
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndEmail should return a particular shape of object 2`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndEmail should return a particular shape of object 3`] = `
+Array [
+  1,
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndEmail should return a particular shape of object 4`] = `
+Array [
+  Array [
+    3,
+    undefined,
+  ],
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS getMemberIdsAndEmail should return a particular shape of object 5`] = `Array []`;
+
+exports[`ORGANISATION_STORE_SELECTORS organisationId() should return keyPath 1`] = `
+Array [
+  "organisationDataStore",
+  "organisationId",
+]
+`;
+
+exports[`ORGANISATION_STORE_SELECTORS role() should return keyPath 1`] = `
+Array [
+  "organisationDataStore",
+  "orgUsers",
+  2233,
+  "role",
+]
+`;
+
+exports[`getActivated should return a particular shape of object 1`] = `
+Array [
+  "organisationDataStore",
+  "members",
+  1,
+  "activated",
+]
+`;
+
+exports[`getActivated should return a particular shape of object 2`] = `true`;
+
+exports[`getActivated should return a particular shape of object 3`] = `true`;
+
+exports[`getRoleMembersConfirmedIds should return a particular shape of object 1`] = `
+Array [
+  "organisationDataStore",
+  "shares",
+  1,
+  "confirmed",
+]
+`;
+
+exports[`getRoleMembersConfirmedIds should return a particular shape of object 2`] = `
+Array [
+  "1",
+]
+`;
+
+exports[`getRoleMembersConfirmedIds should return a particular shape of object 3`] = `Array []`;

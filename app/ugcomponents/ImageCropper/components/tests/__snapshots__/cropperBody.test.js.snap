@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cropper Body shall render properly 1`] = `
+<div>
+  <r
+    border={25}
+    borderRadius={0}
+    color={
+      Array [
+        0,
+        0,
+        0,
+        0.5,
+      ]
+    }
+    disableDrop={false}
+    height={500}
+    image="data:text/plain;charset=utf-8;base64,cmVzaXplSW1hZ2U="
+    onDropFile={[Function]}
+    onImageChange={[Function]}
+    onImageReady={[Function]}
+    onLoadFailure={[Function]}
+    onLoadSuccess={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+    onPositionChange={[Function]}
+    rotate={0}
+    scale={1}
+    style={
+      Object {
+        "background": "#000000",
+        "cursor": "move",
+      }
+    }
+    width={500}
+  />
+</div>
+`;

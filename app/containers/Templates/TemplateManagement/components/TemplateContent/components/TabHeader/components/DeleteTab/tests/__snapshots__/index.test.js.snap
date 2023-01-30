@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteTab /> onCancelDelete() should call props.onClose 1`] = `
+Array [
+  Array [
+    "deleteTab",
+  ],
+]
+`;
+
+exports[`<DeleteTab /> onDeleteConfirm() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "deleteChildren",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "keyPath": "233.children",
+        "nodeId": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<DeleteTab /> render() should render correctly 1`] = `
+<div>
+  <span>
+    <WithStyles(UGDialog)
+      cancelFunc={[Function]}
+      confirmButton="Delete Tab"
+      confirmFunc={[Function]}
+      dialogTitle="Delete Tab"
+      disableConfirmButton={false}
+      headlineTitle=""
+      muiDialogProps={
+        Object {
+          "onClose": [Function],
+        }
+      }
+      open={false}
+      template="delete"
+    />
+  </span>
+</div>
+`;

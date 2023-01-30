@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTab should render lock if privateTab 1`] = `
+<WithStyles(ForwardRef(Tab))
+  className=""
+  classes={
+    Object {
+      "root": "UGTab-rootPrimarySelected",
+      "selected": "UGTab-selected",
+    }
+  }
+  component="div"
+  label={
+    <div
+      className="UGTab-labelNoWrap"
+    >
+      <React.Fragment>
+        hi ho
+        <WithStyles(Icon)
+          className="UGTab-lock"
+          icon="lnr-lock"
+          size="normal"
+        />
+      </React.Fragment>
+    </div>
+  }
+/>
+`;
+
+exports[`UGTab should render what it should render 1`] = `
+<WithStyles(ForwardRef(Tab))
+  className=""
+  classes={
+    Object {
+      "root": "UGTab-rootPrimarySelected",
+      "selected": "UGTab-selected",
+    }
+  }
+  component="div"
+  label={
+    <div
+      className="UGTab-labelNoWrap"
+    >
+      <React.Fragment>
+        Be reconciled to God today!
+      </React.Fragment>
+    </div>
+  }
+/>
+`;

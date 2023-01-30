@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpNextCardRenderer /> render() should render children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<UpNextCardRenderer /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction />
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Header)
+        expanded={true}
+        iconColor="warning"
+        isLoading={false}
+        onClickToggle={[Function]}
+        renderIcon="lnr-clock3"
+        renderTitle={
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+                weight="bold"
+              >
+                Up Next
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                -
+              </H4>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H4
+                dense={true}
+              >
+                7 days
+              </H4>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        }
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Collapse))
+        in={true}
+        transitionduration="auto"
+        unmountOnExit={true}
+      >
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            className=""
+            xs={12}
+          >
+            <div>
+              <div>
+                Nothing to see yet
+              </div>
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(ForwardRef(Collapse))>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<UpNextCardRenderer /> renderEmpty should match snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      Nothing to see yet
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UpNextCardRenderer /> renderHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(Header)
+    expanded={true}
+    iconColor="warning"
+    isLoading={false}
+    onClickToggle={[Function]}
+    renderIcon="lnr-clock3"
+    renderTitle={
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <H4
+            dense={true}
+            weight="bold"
+          >
+            Up Next
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H4
+            dense={true}
+          >
+            -
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H4
+            dense={true}
+          >
+            7 days
+          </H4>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+  />
+</div>
+`;
+
+exports[`<UpNextCardRenderer /> renderLoading should match snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <WithStyles(LoadingText) />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UpNextCardRenderer /> renderTImes should match snapshot if times has items 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={true}
+    id="1"
+    key="1"
+    last={false}
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={false}
+    id="2"
+    key="2"
+    last={false}
+    prevId="1"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={false}
+    id="3"
+    key="3"
+    last={true}
+    prevId="2"
+  />
+</div>
+`;

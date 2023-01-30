@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> componentDidUpdate() should componentDidUpdate 1`] = `<div />`;
+
+exports[`<Card /> filteredIds() should filteredIds 1`] = `
+<div>
+  <ConnectFunction
+    ids={
+      Array [
+        1,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Card /> render() should render correctly 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      card={true}
+      className=""
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UploadPhotos))))))) />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <withRouter(UGLink)
+              title="Go to undefined tab"
+              to="/tours?tab=undefined"
+            >
+              <div />
+            </withRouter(UGLink)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      renderPhotos
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          renderGoTo
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;
+
+exports[`<Card /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    Share your photos and images about the tour along with a description
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderGoTo() should renderGoTo 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGLink)
+      title="Go to Gallery"
+      to="/tours?tab=undefined"
+    >
+      See all (
+      2
+      )
+    </withRouter(UGLink)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderPhoto() should renderPhoto 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <span>
+      <WithStyles(Connect(WithSimplifyResaga(CreatedBy)))
+        imageSize="imageExtraExtraExtraSmall"
+        variant="avatar"
+      />
+    </span>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(WithUploadFile)))))))
+      borderRadius={false}
+      editable={false}
+      placeholderProps={
+        Object {
+          "onClick": [Function],
+        }
+      }
+      resizeSize={100}
+      showPreview={false}
+      size={48}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderPhotoCount() should renderPhotoCount 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        Showing 2
+         
+        uploaded on this day
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderPhotos() should renderPhotos 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      renderPhoto
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

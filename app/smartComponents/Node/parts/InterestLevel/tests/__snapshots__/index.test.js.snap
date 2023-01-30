@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestLevel /> #getValue() matches snapshot required 1`] = `""`;
+
+exports[`<InterestLevel /> #getValue() still matches snapshot when not require 1`] = `"interested"`;
+
+exports[`<InterestLevel /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "id": null,
+      "isEmptyInterestLevel": false,
+      "onChange": [MockFunction],
+      "readOnly": false,
+      "required": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<InterestLevel /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H5
+    dense={true}
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestLevel /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableSelectForm)
+    label={
+      <FormattedMessage
+        defaultMessage="Interest Level *"
+        id="app.Node.parts.InterestLevel.required"
+      />
+    }
+    name="node.customData.interestLevel"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Not applicable"
+            id="app.Node.parts.InterestLevel.notapplicable"
+          />,
+          "value": "n/a",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Contact me with more info"
+            id="app.Node.parts.InterestLevel.interested"
+          />,
+          "value": "interested",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="I need to check some details"
+            id="app.Node.parts.InterestLevel.reserve"
+          />,
+          "value": "reserve",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="I'm definite"
+            id="app.Node.parts.InterestLevel.ready"
+          />,
+          "value": "ready",
+        },
+      ]
+    }
+    placeholder="Click to specify interest level"
+    readOnly={false}
+    renderValue={[Function]}
+    required={true}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestLevel /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <Formsy(SelectField)
+    error={false}
+    innerRef={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Interest Level *"
+        id="app.Node.parts.InterestLevel.required"
+      />
+    }
+    name="node.customData.interestLevel"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Not applicable"
+            id="app.Node.parts.InterestLevel.notapplicable"
+          />,
+          "value": "n/a",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Contact me with more info"
+            id="app.Node.parts.InterestLevel.interested"
+          />,
+          "value": "interested",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="I need to check some details"
+            id="app.Node.parts.InterestLevel.reserve"
+          />,
+          "value": "reserve",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="I'm definite"
+            id="app.Node.parts.InterestLevel.ready"
+          />,
+          "value": "ready",
+        },
+      ]
+    }
+    required={true}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrganisationCard /> goToOrganisationPage() should call history.push 1`] = `
+Array [
+  Array [
+    "/orgs/2233",
+  ],
+]
+`;
+
+exports[`<OrganisationCard /> render() should render children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<OrganisationCard /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="group-work"
+        size="base"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGLink)
+        to="/settings?tab=2"
+      >
+        Organisations
+      </withRouter(UGLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/orgs/new"
+      >
+        <WithStyles(Icon)
+          bold={true}
+          color="success"
+          icon="lnr-plus"
+          size="xxs"
+        />
+         
+        Create new organisation
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={2}
+  />
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={3}
+  >
+    renderPersonal
+    renderOrganisations
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrganisationCard /> renderOrgInvitations() should renderOrgInvitations 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <ConnectFunction
+      id={1}
+      key="1"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <ConnectFunction
+      id={2}
+      key="2"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationCard /> renderOrganisations() should renderOrganisations 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <div>
+      <WithStyles(Item)
+        heading={
+          <Unknown
+            id={1}
+            variant="stringOnly"
+          />
+        }
+        photo={
+          <Memo(Connect(WithSimplifyResaga(Photo)))
+            id={1}
+            shape="imageSquare"
+            size="imageSmall"
+            variant="readOnly"
+          />
+        }
+        reserveLeft={false}
+        secondary={
+          <WithStyles(Connect(WithSimplifyResaga(Role)))
+            id={1}
+            variant="text"
+          />
+        }
+        url="/orgs/1"
+      />
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <div>
+      <WithStyles(Item)
+        heading={
+          <Unknown
+            id={2}
+            variant="stringOnly"
+          />
+        }
+        photo={
+          <Memo(Connect(WithSimplifyResaga(Photo)))
+            id={2}
+            shape="imageSquare"
+            size="imageSmall"
+            variant="readOnly"
+          />
+        }
+        reserveLeft={false}
+        secondary={
+          <WithStyles(Connect(WithSimplifyResaga(Role)))
+            id={2}
+            variant="text"
+          />
+        }
+        url="/orgs/2"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationCard /> renderPendingInvitations() should renderPendingInvitations 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      renderOrgInvitations
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrganisationCard /> renderPersonal() should renderPersonal 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(Item)
+        heading={
+          <Unknown
+            id={0}
+            variant="stringOnly"
+          />
+        }
+        photo={
+          <Memo(Connect(WithSimplifyResaga(Photo)))
+            id={0}
+            shape="imageSquare"
+            size="imageSmall"
+            variant="readOnly"
+          />
+        }
+        reserveLeft={false}
+        secondary="Personal"
+        url="/tours"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

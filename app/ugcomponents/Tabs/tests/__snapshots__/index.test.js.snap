@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTabs should render what it should render 1`] = `
+<WithStyles(ForwardRef(Tabs))
+  classes={
+    Object {
+      "flexContainer": Object {
+        "display": "flex",
+      },
+      "scrollButtons": Object {
+        "flex": "none",
+        "width": "unset",
+      },
+      "scroller": Object {
+        "display": "flex",
+      },
+    }
+  }
+>
+  To reject Jesus is to die in your sin and be judged according to your deeds
+</WithStyles(ForwardRef(Tabs))>
+`;

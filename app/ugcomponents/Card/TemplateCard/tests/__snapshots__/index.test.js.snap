@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateCard /> component should not render actions if showActions is false 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+          ]
+        }
+      />
+      <WithStyles(Content)
+        baseUrl=""
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        description=""
+        queryParam=""
+        renderAdditionalContent=""
+        title="Small Group Tokyo Biking Tour"
+      />
+      <WithStyles(TemplateCardFooter)
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        renderActions=""
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<TemplateCard /> component should render actions if showActions is true 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+          ]
+        }
+      />
+      <WithStyles(Content)
+        baseUrl=""
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        description=""
+        queryParam=""
+        renderAdditionalContent=""
+        title="Small Group Tokyo Biking Tour"
+      />
+      <WithStyles(TemplateCardFooter)
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        renderActions={
+          <div
+            className="TemplateCard-templateItemFooterActions"
+          >
+            
+          </div>
+        }
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<TemplateCard /> component should render shortDescription and preserve new line 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+          ]
+        }
+      />
+      <WithStyles(Content)
+        baseUrl=""
+        customData={
+          Object {
+            "duration": 5,
+            "shortDescription": "qweqwe
+qweqwe
+qweqwe
+",
+          }
+        }
+        description={
+          Array [
+            <span>
+              <span>
+                qweqwe
+              </span>
+               
+              <br />
+            </span>,
+            <span>
+              <span>
+                qweqwe
+              </span>
+               
+              <br />
+            </span>,
+            <span>
+              qweqwe
+            </span>,
+          ]
+        }
+        queryParam=""
+        renderAdditionalContent=""
+        title="Small Group Tokyo Biking Tour"
+      />
+      <WithStyles(TemplateCardFooter)
+        customData={
+          Object {
+            "duration": 5,
+            "shortDescription": "qweqwe
+qweqwe
+qweqwe
+",
+          }
+        }
+        renderActions={
+          <div
+            className="TemplateCard-templateItemFooterActions"
+          >
+            
+          </div>
+        }
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<TemplateCard /> component should render what it should render when component is loading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <div
+      className="TemplateCard-templateOverride"
+    />
+    <WithStyles(ForwardRef(CircularProgress))
+      className="TemplateCard-templateItemLoading"
+    />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+          ]
+        }
+      />
+      <WithStyles(Content)
+        baseUrl=""
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        description=""
+        queryParam=""
+        renderAdditionalContent=""
+        title="Small Group Tokyo Biking Tour"
+      />
+      <WithStyles(TemplateCardFooter)
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        renderActions={
+          <div
+            className="TemplateCard-templateItemFooterActions"
+          >
+            
+          </div>
+        }
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<TemplateCard /> component should render what it should render when component is not loading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=""
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "",
+            },
+          ]
+        }
+      />
+      <WithStyles(Content)
+        baseUrl=""
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        description=""
+        queryParam=""
+        renderAdditionalContent=""
+        title="Small Group Tokyo Biking Tour"
+      />
+      <WithStyles(TemplateCardFooter)
+        customData={
+          Object {
+            "duration": 5,
+          }
+        }
+        renderActions={
+          <div
+            className="TemplateCard-templateItemFooterActions"
+          >
+            
+          </div>
+        }
+      />
+    </WithStyles(UGCard)>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;

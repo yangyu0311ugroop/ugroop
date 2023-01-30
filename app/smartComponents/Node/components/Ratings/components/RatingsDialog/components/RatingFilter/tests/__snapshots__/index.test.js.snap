@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingFilter /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        placement="bottom-start"
+        renderButton={[MockFunction]}
+        value="latest"
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RatingFilter /> renderFilterButton should button with rate count 1`] = `
+<div>
+  <WithStyles(Button)
+    color="inline"
+    dense={true}
+    size="xs"
+    variant="inline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <P
+          dense={true}
+        >
+          Sort:
+        </P>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <P
+              dense={true}
+            >
+              Latest
+            </P>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<RatingFilter /> renderFilterMenu should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="latest"
+    >
+      <WithStyles(MenuItem)
+        button={true}
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+        selected={true}
+      >
+        Latest
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="oldest"
+    >
+      <WithStyles(MenuItem)
+        button={true}
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+        selected={false}
+      >
+        Oldest
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="highest"
+    >
+      <WithStyles(MenuItem)
+        button={true}
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+        selected={false}
+      >
+        Highest Rating
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="lowest"
+    >
+      <WithStyles(MenuItem)
+        button={true}
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+        selected={false}
+      >
+        Lowest Rating
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

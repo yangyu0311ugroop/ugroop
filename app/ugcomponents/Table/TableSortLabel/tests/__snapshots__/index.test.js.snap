@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableSortLabel /> should render something 1`] = `
+<WithStyles(ForwardRef(TableSortLabel))
+  classes={
+    Object {
+      "icon": "TableSortLabel-icon",
+    }
+  }
+/>
+`;
+
+exports[`<TableSortLabel /> should show icon if showIcon is true 1`] = `
+<WithStyles(ForwardRef(TableSortLabel))
+  classes={
+    Object {
+      "icon": "TableSortLabel-icon",
+    }
+  }
+>
+  <WithStyles(Icon)
+    className="TableSortLabel-ownIcon"
+    icon="chevron-down"
+    size="extraSmall"
+  />
+</WithStyles(ForwardRef(TableSortLabel))>
+`;
+
+exports[`<TableSortLabel /> should use chevron up if sort is desc and showIcon is true 1`] = `
+<WithStyles(ForwardRef(TableSortLabel))
+  classes={
+    Object {
+      "icon": "TableSortLabel-icon",
+    }
+  }
+>
+  <WithStyles(Icon)
+    className="TableSortLabel-ownIcon"
+    icon="chevron-up"
+  />
+</WithStyles(ForwardRef(TableSortLabel))>
+`;
+
+exports[`<TableSortLabel /> should use loading if isLoading is true 1`] = `
+<WithStyles(ForwardRef(TableSortLabel))
+  classes={
+    Object {
+      "icon": "TableSortLabel-icon",
+    }
+  }
+>
+  <Loading
+    className="TableSortLabel-ownIcon"
+    color="#fff"
+    delay={1000}
+    height={24}
+    type="spin"
+    width={16}
+  />
+</WithStyles(ForwardRef(TableSortLabel))>
+`;

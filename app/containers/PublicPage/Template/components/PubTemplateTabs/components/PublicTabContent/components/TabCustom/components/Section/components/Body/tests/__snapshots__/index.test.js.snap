@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      renderBody
+      renderPhoto
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> render() should render empty if !body && !photo 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<Body /> renderAttachment() should render edit mode 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+    hasPhoto={false}
+    id={123}
+    readonly={true}
+    sectionId={13}
+  />
+</div>
+`;
+
+exports[`<Body /> renderAttachment() should render view mode 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+    hasPhoto={false}
+    id={123}
+    readonly={true}
+    sectionId={13}
+  />
+</div>
+`;
+
+exports[`<Body /> renderBody() should render view mode 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      renderDescription
+      renderAttachment
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderDescription() should render edit mode 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(UGRichEditor)
+      initContent="hello world"
+      readOnly={true}
+      toolBarId="readonly999"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderDescription() should render view mode 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(UGRichEditor)
+      initContent="hello world"
+      readOnly={true}
+      toolBarId="readonly999"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderPhoto() should render edit mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(UGImagePlaceholder)
+      alt="hello world"
+      cropMetaInfo={
+        Object {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+        }
+      }
+      facadeURLPrefix={true}
+      imgSrc="hello world"
+      resizeSize={90}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderPhoto() should render view mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(UGImagePlaceholder)
+      alt="hello world"
+      cropMetaInfo={
+        Object {
+          "height": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+        }
+      }
+      facadeURLPrefix={true}
+      imgSrc="hello world"
+      resizeSize={90}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

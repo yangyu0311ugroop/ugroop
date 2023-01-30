@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "roles": Object {
+      "getter": [Function],
+      "keyPath": Array [
+        "templateManagementView",
+        "filterRoleBy",
+      ],
+      "props": [Function],
+    },
+    "selectedOrgId": Array [
+      "templateManagementView",
+      "selectedOrgId",
+    ],
+    "shareListFilter": Array [
+      "templateManagementView",
+      "shareList",
+      "filter",
+    ],
+  },
+}
+`;

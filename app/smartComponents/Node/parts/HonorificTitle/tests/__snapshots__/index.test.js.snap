@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HonorificTitle /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "id": null,
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<HonorificTitle /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableSelectForm)
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Title"
+        id="app.Node.parts.Title.editableLabel"
+      />
+    }
+    name="node.customData.honorificTitle"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": "Mr",
+          "value": "Mr",
+        },
+        Object {
+          "children": "Mrs",
+          "value": "Mrs",
+        },
+        Object {
+          "children": "Miss",
+          "value": "Miss",
+        },
+        Object {
+          "children": "Ms",
+          "value": "Ms",
+        },
+        Object {
+          "children": "Sir",
+          "value": "Sir",
+        },
+        Object {
+          "children": "Dr",
+          "value": "Dr",
+        },
+        Object {
+          "children": "Other",
+          "value": "Others",
+        },
+      ]
+    }
+    placeholder="Click to specity Title"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<HonorificTitle /> #renderEditableInline() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextProps={Object {}}
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Title"
+        id="app.Node.parts.Title.editableLabel"
+      />
+    }
+    name="node.customData.honorificTitle"
+    onSubmit={[Function]}
+    placeholder="Click to specity Title"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<HonorificTitle /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="What is your Title?"
+        id="app.Node.parts.Title.label"
+      />
+    }
+    name="node.customData.honorificTitle"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<HonorificTitle /> #renderTextOnly() still matches snapshot 1`] = `
+<span>
+  value
+</span>
+`;

@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Received /> cancelOptionTransfer() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          sm={true}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+           
+           invited you to connect with a tour named
+           
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            disabled={true}
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Received /> excludeToken() should excludeToken() 1`] = `
+Array [
+  Array [
+    Object {
+      "exclusion": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Received /> onClickOrgMenu() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          sm={true}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+           
+           invited you to connect with a tour named
+           
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            disabled={true}
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Received /> onConfirmTransferAccept() should render correctly 1`] = `<div />`;
+
+exports[`<Received /> onConfirmTransferAccept() should render correctly 2`] = `<div />`;
+
+exports[`<Received /> onFailureAccepTransfer() should render correctly 1`] = `<div />`;
+
+exports[`<Received /> onSuccessAccepTransfer() should render correctly on invitation view 1`] = `<div />`;
+
+exports[`<Received /> onSuccessAccepTransfer() should render correctly on template view 1`] = `<div />`;
+
+exports[`<Received /> onTransferAccept() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          sm={true}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+           
+           invited you to connect with a tour named
+           
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            disabled={true}
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Received /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          sm={true}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            id={0}
+          />
+           
+           invited you to connect with a tour named
+           
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            disabled={true}
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Received /> renderConfirmedButtons() should renderConfirmedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          dense={true}
+          disabled={true}
+          outline="outLineGreen"
+          size="small"
+        >
+          Invitation accepted
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <withRouter(UGLink)
+          target=""
+          to="/tours"
+        >
+          <WithStyles(Button)
+            color="primary"
+            noMargin={true}
+            size="extraSmall"
+          >
+            View Tour
+          </WithStyles(Button)>
+        </withRouter(UGLink)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderOrg() Should return nothing if orgId is null 1`] = `<div />`;
+
+exports[`<Received /> renderOrg() should render organisation component if no organisation name is blank 1`] = `
+<div>
+  from 
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Organisation)))))
+    id={1}
+  />
+</div>
+`;
+
+exports[`<Received /> renderOrg() should render organisation organisation name 1`] = `
+<div>
+  from My Org
+</div>
+`;
+
+exports[`<Received /> renderOrgButton() for organisation should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    noMargin={true}
+    onClick={[Function]}
+    size="extraSmall"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <FormattedMessage
+              defaultMessage="MOVE TOUR TO:"
+              id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.orgTitle"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+              id={1}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+          style={
+            Object {
+              "bagroundColor": "grey",
+            }
+          }
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Received /> renderOrgButton() for organisation should render correctly for personal 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    noMargin={true}
+    onClick={[Function]}
+    size="extraSmall"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <FormattedMessage
+              defaultMessage="MOVE TOUR TO:"
+              id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.orgTitle"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Person)))
+              id={1}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+          style={
+            Object {
+              "bagroundColor": "grey",
+            }
+          }
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Received /> renderOrgMenu() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      menuHeader="Organisations"
+      noPadding={true}
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderOrgMenuItem() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu="test"
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Person)))
+          hiddenSm={true}
+        />
+         (Personal)
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <WithStyles(MenuItem)
+        closeMenu="test"
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          id={1}
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Received /> renderPendingButtons() should renderPendingButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(Button)
+        color="primary"
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+      >
+        <FormattedMessage
+          defaultMessage="Accept the invitation"
+          id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.confirmInvite"
+        />
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="black"
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        variant="outline"
+      >
+        <FormattedMessage
+          defaultMessage="Decline the invitation"
+          id="app.ugcomponents.Card.InvitationCard.components.Content.components.Received.declineInvite"
+        />
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderPendingButtons() should renderPendingButtons 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          menuHeader="Organisations"
+          noPadding={true}
+          renderButton={[Function]}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        loading={false}
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+      >
+        Continue
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="black"
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        variant="outline"
+      >
+        Go back
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Received /> renderPersonalMessage() should render when has message 1`] = `
+<div>
+   with a personal message:
+</div>
+`;
+
+exports[`<Received /> renderPersonalMessage() should render when no message 1`] = `
+<div>
+  .
+</div>
+`;
+
+exports[`<Received /> renderRedButtons() should renderRedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      disabled={true}
+      outline="outLineRed"
+      size="small"
+    >
+      Some label
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

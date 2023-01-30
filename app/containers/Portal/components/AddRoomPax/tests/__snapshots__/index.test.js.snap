@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRoomPax /> availableIds() should availableIds 1`] = `
+<div>
+  2
+  3
+</div>
+`;
+
+exports[`<AddRoomPax /> handleClickRow() should handleClickRow 1`] = `
+<div>
+  For testing purpose, to indicate a function is doing nothing
+</div>
+`;
+
+exports[`<AddRoomPax /> handleCreateLinkError() should handleCreateLinkError 1`] = `<div />`;
+
+exports[`<AddRoomPax /> handleCreateLinkSuccess() should handleCreateLinkSuccess 1`] = `<div />`;
+
+exports[`<AddRoomPax /> handleCreateLinkSuccess() should handleCreateLinkSuccess 2`] = `<div />`;
+
+exports[`<AddRoomPax /> handleremoveLinkSuccess() should handleremoveLinkSuccess 1`] = `<div />`;
+
+exports[`<AddRoomPax /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Add Pax to a Room"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderAddButton() should renderAddButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    disabled={false}
+    loading={false}
+    onClick={[Function]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-plus"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderAddButton() should renderAddButton 2`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    disabled={true}
+    loading={true}
+    onClick={[Function]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-plus"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderAvailableParticipantList() should rencder renderAvailableParticipantList correctly when room is full 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  />
+</div>
+`;
+
+exports[`<AddRoomPax /> renderAvailableParticipantList() should renderAvailableParticipantList 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  />
+</div>
+`;
+
+exports[`<AddRoomPax /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)
+          key="1"
+        >
+          <WithStyles(GridContainer)
+            justify="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                id={1}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                className=""
+                color="black"
+                disabled={false}
+                loading={false}
+                onClick={[Function]}
+                size="xs"
+                title="Remove from this room"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Icon)
+                      icon="lnr-trash2"
+                      paddingRight={true}
+                      size="xsmall"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="3"
+        >
+          <WithStyles(GridContainer)
+            justify="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                id={3}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                className=""
+                color="black"
+                disabled={false}
+                loading={false}
+                onClick={[Function]}
+                size="xs"
+                title="Remove from this room"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Icon)
+                      icon="lnr-trash2"
+                      paddingRight={true}
+                      size="xsmall"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(Hr)
+      half={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        danger={true}
+        italic={true}
+      >
+        This room is now complete.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderContent() should renderContent 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          italic={true}
+          lg={true}
+        >
+          There are no Pax allocated on this room yet
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+      >
+        There are no more pax to be added.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderContent() should renderContent form 2nd line 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          italic={true}
+          lg={true}
+        >
+          There are no Pax allocated on this room yet
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        danger={true}
+        italic={true}
+      >
+        This room is now complete.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        JText={true}
+        gray={true}
+        italic={true}
+      >
+        People still to be allocated are:
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)
+          key="1"
+        >
+          <ConnectFunction
+            accessLevel="full"
+            handleEditableClick={[Function]}
+            id={1}
+            readOnlyStatus={true}
+            variant="rowSimple"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderDeleteButton() should renderDeleteButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    disabled={false}
+    loading={false}
+    onClick={[Function]}
+    size="xs"
+    title="Remove from this room"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderDeleteButton() should renderDeleteButton 2`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    disabled={true}
+    loading={false}
+    onClick={[Function]}
+    size="xs"
+    title="Remove from this room"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderNoPax() should renderNoPax 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+        lg={true}
+      >
+        There are no Pax allocated on this room yet
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderNoPax() should renderNoPax 2`] = `<div />`;
+
+exports[`<AddRoomPax /> renderOccupants() should renderOccupants 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+        lg={true}
+      >
+        There are no Pax allocated on this room yet
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> renderOccupants() should renderOccupants 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        key="1"
+      >
+        <WithStyles(GridContainer)
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              id={1}
+              variant="rowSimple"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              disabled={false}
+              loading={false}
+              onClick={[Function]}
+              size="xs"
+              title="Remove from this room"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-trash2"
+                    paddingRight={true}
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="3"
+      >
+        <WithStyles(GridContainer)
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              id={3}
+              variant="rowSimple"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              className=""
+              color="black"
+              disabled={false}
+              loading={false}
+              onClick={[Function]}
+              size="xs"
+              title="Remove from this room"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    icon="lnr-trash2"
+                    paddingRight={true}
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(Hr)
+    half={true}
+  />
+</div>
+`;
+
+exports[`<AddRoomPax /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        size="xs"
+        type="submit"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            Continue
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-right"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoomPax /> setLoading() should setLoading 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Add Pax to a Room"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={1}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              italic={true}
+              lg={true}
+            >
+              There are no Pax allocated on this room yet
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+          >
+            There are no more pax to be added.
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;

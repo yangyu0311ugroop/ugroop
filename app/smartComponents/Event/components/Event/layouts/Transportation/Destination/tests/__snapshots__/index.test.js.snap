@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Destination /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Destination /> renderDefault should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+  <ConnectFunction
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Destination /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    title={
+      <FormattedMessage
+        defaultMessage="Location and Time"
+        id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/title"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          classes={Object {}}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant=""
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          classes={Object {}}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;
+
+exports[`<Destination /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Destination /> renderTitle should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Location and Time"
+    id="app/smartComponents/Event/components/Event/layouts/Coach/components/Destination/title"
+  />
+</div>
+`;

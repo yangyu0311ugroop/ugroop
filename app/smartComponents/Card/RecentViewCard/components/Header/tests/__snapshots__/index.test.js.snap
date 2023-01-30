@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> to match with Snapshot 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="success"
+          icon="lnr-earth"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        Recently Viewed
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        0 Items
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="gray"
+          disabled={false}
+          icon="lnr-chevron-down"
+          iconButton={true}
+          noMargin={true}
+          noPadding={true}
+          size="small"
+          tabIndex={-1}
+          variant="borderless"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;

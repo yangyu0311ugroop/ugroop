@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingLayoutTitle should render what it should render 1`] = `
+<WithStyles(Container)
+  className="MarketingLandingLayoutTitle-homeContainer"
+>
+  <div
+    className="MarketingLandingLayoutTitle-container"
+  >
+    <hr
+      className="MarketingLandingLayoutTitle-hrStyle"
+    />
+    <WithStyles(Header)
+      as="h1"
+      className="MarketingLandingLayoutTitle-homeHeader"
+    >
+      Manage your tours easily, anywhere and anytime
+    </WithStyles(Header)>
+    <WithStyles(Description)
+      size={17}
+    >
+      uGroop is the pioneer application program that lets you manage your school tours anytime anywhere
+    </WithStyles(Description)>
+    <WithStyles(Button)
+      className="MarketingLandingLayoutTitle-homeBtn"
+    >
+      <span>
+        Let's get started!
+      </span>
+       
+      <[object Object] />
+    </WithStyles(Button)>
+  </div>
+</WithStyles(Container)>
+`;
+
+exports[`LandingLayoutTitle should render what it should render if pathname is /faq 1`] = `
+<WithStyles(Container)
+  className=""
+>
+  <div>
+    <WithStyles(Header)
+      as="h1"
+    >
+      Got a questions? Look here!
+    </WithStyles(Header)>
+    <WithStyles(ForwardRef(TextField))
+      className="MarketingLandingLayoutTitle-faqInputStyle"
+      placeholder="Search anything under the sun"
+    />
+    <WithStyles(Description)
+      size={16}
+    >
+      Can't find an answer? Call us at (890) 682-7777 or email as at help@ugroop.com.au
+    </WithStyles(Description)>
+  </div>
+</WithStyles(Container)>
+`;
+
+exports[`LandingLayoutTitle should render what it should render if pathname is /feautres 1`] = `
+<WithStyles(Container)
+  className="MarketingLandingLayoutTitle-featureContainer"
+>
+  <div
+    className="MarketingLandingLayoutTitle-centeredContainer"
+  >
+    <WithStyles(Header)
+      as="h2"
+    >
+      Features
+    </WithStyles(Header)>
+    <WithStyles(Description)
+      isBold={true}
+      size={17}
+    >
+      Get familiar with what we can do
+    </WithStyles(Description)>
+  </div>
+</WithStyles(Container)>
+`;
+
+exports[`LandingLayoutTitle should render what it should render if pathname is not defined 1`] = `
+<WithStyles(Container)
+  className=""
+>
+  <div />
+</WithStyles(Container)>
+`;

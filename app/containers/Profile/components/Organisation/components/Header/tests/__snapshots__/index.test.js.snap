@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        md={10}
+        sm={10}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(EditHeaderForm)))
+          id={1}
+          readOnly={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        md={2}
+        sm={2}
+      >
+        <ConnectFunction
+          editable={false}
+          id={1}
+          placeholderProps={
+            Object {
+              "deleteIcon": true,
+              "showIconOnHover": true,
+            }
+          }
+          variant="imageSquare"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;

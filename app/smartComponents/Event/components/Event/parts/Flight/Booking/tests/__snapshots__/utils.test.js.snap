@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Event/parts/Subtype/utils #renderBookingOptions() still matches snapshot 1`] = `
+Array [
+  Object {
+    "children": <P
+      noMargin={true}
+    >
+      No flight itinerary
+    </P>,
+    "value": "0",
+  },
+  Object {
+    "children": <Memo(Connect(WithSimplifyResaga(FlightBooking)))
+      dataId={1}
+      variant="option"
+    />,
+    "value": "1",
+  },
+  Object {
+    "children": <P
+      noMargin={true}
+      weight="bold"
+    >
+      Add new itinerary
+    </P>,
+    "value": "new",
+  },
+]
+`;
+
+exports[`smartComponents/Event/parts/Subtype/utils #renderBookingOptions() still matches snapshot if hideAddNew 1`] = `
+Array [
+  Object {
+    "children": <P
+      noMargin={true}
+    >
+      No flight itinerary
+    </P>,
+    "value": "0",
+  },
+  Object {
+    "children": <Memo(Connect(WithSimplifyResaga(FlightBooking)))
+      dataId={1}
+      variant="option"
+    />,
+    "value": "1",
+  },
+]
+`;
+
+exports[`smartComponents/Event/parts/Subtype/utils #renderBookingOptions() still matches snapshot if no bookingIds 1`] = `
+Array [
+  Object {
+    "children": <P
+      noMargin={true}
+    >
+      No flight itinerary
+    </P>,
+    "value": "0",
+  },
+  Object {
+    "children": <P
+      noMargin={true}
+      weight="bold"
+    >
+      Add new itinerary
+    </P>,
+    "value": "new",
+  },
+]
+`;

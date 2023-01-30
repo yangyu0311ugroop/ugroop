@@ -1,0 +1,551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTour /> onCreateSuccess() should onCreateSuccess() 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<AddTour /> onCreateSuccess() should onCreateSuccess() 2`] = `
+Array [
+  Array [
+    Object {
+      "editable": true,
+      "layout": "list",
+    },
+  ],
+]
+`;
+
+exports[`<AddTour /> onCreateSuccess() should onCreateSuccess() 3`] = `
+Array [
+  Array [
+    "/tours/2233?tab=0&dayView=list",
+  ],
+]
+`;
+
+exports[`<AddTour /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullScreen={false}
+    fullWidth={true}
+    header={
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            xxl={true}
+          >
+            <FormattedMessage
+              defaultMessage="A new adventure"
+              id="app.components.UGAddTemplateModal.ugAddTemplateModalHeader"
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <FormattedMessage
+            defaultMessage="The first step in creating an excellent itinerary, enter a few key questions and then start building and sharing with others."
+            id="app.components.UGAddTemplateModal.ugAddTemplateModalSub"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    headerContainerAlign="baseline"
+    headerNoWrap={true}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    open={true}
+    submitButton="Create"
+  >
+    <WithStyles(ForwardRef(Stepper))
+      connector={
+        <WithStyles(ForwardRef(StepConnector))
+          classes={
+            Object {
+              "line": undefined,
+            }
+          }
+        />
+      }
+      orientation="vertical"
+    >
+      <WithStyles(ForwardRef(Step))
+        active={true}
+        expanded={true}
+        key="step-0"
+        onFocus={[Function]}
+      >
+        <WithStyles(ForwardRef(StepLabel))
+          StepIconProps={
+            Object {
+              "classes": Object {
+                "root": undefined,
+              },
+            }
+          }
+        >
+          <div>
+            Select where you would like to store your itinerary?
+          </div>
+        </WithStyles(ForwardRef(StepLabel))>
+        <WithStyles(ForwardRef(StepContent))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <ConnectFunction
+            placement="bottom-start"
+            renderButton={[Function]}
+            value={0}
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(ForwardRef(StepContent))>
+      </WithStyles(ForwardRef(Step))>
+      <WithStyles(ForwardRef(Step))
+        active={true}
+        expanded={true}
+        key="step-1"
+        onFocus={[Function]}
+      >
+        <WithStyles(ForwardRef(StepLabel))
+          StepIconProps={
+            Object {
+              "classes": Object {
+                "root": undefined,
+              },
+            }
+          }
+        >
+          <div>
+            What name would you like your itinerary to have?
+          </div>
+        </WithStyles(ForwardRef(StepLabel))>
+        <WithStyles(ForwardRef(StepContent))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <FormsyInterceptor
+            autoFocus={true}
+            label={
+              <FormattedMessage
+                defaultMessage="Title"
+                id="app.components.UGAddTemplateModal.Body.titleLabel"
+              />
+            }
+            name="content"
+            onInterceptValue={[Function]}
+            required={true}
+            validationErrors={
+              Object {
+                "maxLength": <FormattedMessage
+                  defaultMessage="too long (max: 100)"
+                  id="app.components.UGAddTemplateModal.Body.titleMaxLength"
+                />,
+              }
+            }
+            validations={
+              Object {
+                "maxLength": 100,
+              }
+            }
+          />
+        </WithStyles(ForwardRef(StepContent))>
+      </WithStyles(ForwardRef(Step))>
+      <WithStyles(ForwardRef(Step))
+        active={true}
+        expanded={true}
+        key="step-2"
+        onFocus={[Function]}
+      >
+        <WithStyles(ForwardRef(StepLabel))
+          StepIconProps={
+            Object {
+              "classes": Object {
+                "root": undefined,
+              },
+            }
+          }
+        >
+          <div>
+            How many days is this going to be? Don't worry, you can
+                    always change it later.
+          </div>
+        </WithStyles(ForwardRef(StepLabel))>
+        <WithStyles(ForwardRef(StepContent))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": "0",
+                },
+              }
+            }
+            fullWidth={false}
+            label={
+              <FormattedMessage
+                defaultMessage="Duration of tour"
+                id="app.components.UGAddTemplateModal.Body.durationLabel"
+              />
+            }
+            name="duration"
+            onInterceptValue={[Function]}
+            type="number"
+            validationErrors={
+              Object {
+                "isGreaterThanOrEqual": <FormattedMessage
+                  defaultMessage="Duration should be greater than 0"
+                  id="app.components.UGAddTemplateModal.Body.durationGreaterThanError"
+                />,
+                "isLessThanOrEqual": <FormattedMessage
+                  defaultMessage="Duration should be less than 50"
+                  id="app.components.UGAddTemplateModal.Body.durationLessThanError"
+                />,
+              }
+            }
+            validations="isLessThanOrEqual:50,isGreaterThanOrEqual:1"
+            value="7"
+          />
+        </WithStyles(ForwardRef(StepContent))>
+      </WithStyles(ForwardRef(Step))>
+      <WithStyles(ForwardRef(Step))
+        active={true}
+        expanded={true}
+        key="step-3"
+        onFocus={[Function]}
+      >
+        <WithStyles(ForwardRef(StepLabel))
+          StepIconProps={
+            Object {
+              "classes": Object {
+                "root": undefined,
+              },
+            }
+          }
+        >
+          <div>
+            Do you know what date you will leave? If not, you can always add or change later.
+          </div>
+        </WithStyles(ForwardRef(StepLabel))>
+        <WithStyles(ForwardRef(StepContent))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                noWrap={true}
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <ForwardRef
+                    clearable={true}
+                    disablePast={false}
+                    format="D MMMM YYYY"
+                    fullWidth={false}
+                    invalidLabel=" "
+                    leftArrowIcon={
+                      <WithStyles(Icon)
+                        icon="arrow-left"
+                      />
+                    }
+                    onBlur={null}
+                    onChange={[Function]}
+                    placeholder="Pick a date"
+                    rightArrowIcon={
+                      <WithStyles(Icon)
+                        icon="arrow-right"
+                      />
+                    }
+                    value={null}
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="black"
+                    dense={true}
+                    icon="lnr-calendar-full"
+                    iconButton={true}
+                    noPadding={true}
+                    onClick={[Function]}
+                    size="extraSmall"
+                    variant="borderless"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(ForwardRef(StepContent))>
+      </WithStyles(ForwardRef(Step))>
+      <WithStyles(ForwardRef(Step))
+        active={true}
+        expanded={true}
+        key="step-4"
+        onFocus={[Function]}
+      >
+        <WithStyles(ForwardRef(StepLabel))
+          StepIconProps={
+            Object {
+              "classes": Object {
+                "root": undefined,
+              },
+            }
+          }
+        >
+          <div>
+            Do you have an idea of the day of the week it will start?
+          </div>
+        </WithStyles(ForwardRef(StepLabel))>
+        <WithStyles(ForwardRef(StepContent))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            justify="left"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Sun
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Mon
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Tue
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Wed
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Thu
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Fri
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(MenuItem)
+                button={true}
+                className=""
+                onClick={[Function]}
+              >
+                Sat
+              </WithStyles(MenuItem)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(ForwardRef(StepContent))>
+      </WithStyles(ForwardRef(Step))>
+    </WithStyles(ForwardRef(Stepper))>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddTour /> renderDefault() should renderDefault 1`] = `<div />`;
+
+exports[`<AddTour /> renderList() should renderList 1`] = `
+<div>
+  renderOrganisation
+  renderOrganisation
+</div>
+`;
+
+exports[`<AddTour /> renderOrganisation() should renderOrganisation 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="123"
+  >
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+        id={123}
+      />
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddTour /> renderOrganisation() should renderOrganisation personal 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="-1"
+  >
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Person)))
+        variant="personType"
+      />
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddTour /> renderOrganisationList() should renderOrganisationList 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)>
+        Where would you like to store it?
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))>
+      renderList
+    </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddTour /> renderOwnerButton() should renderOwnerButton organisation 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    block={false}
+    button={true}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          id={2233}
+        />
+        <ConnectFunction
+          id={2233}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<AddTour /> renderOwnerButton() should renderOwnerButton personal 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    block={false}
+    button={true}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Person)))
+          variant="personType"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<AddTour /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        disabled={false}
+        noMargin={true}
+        onClick={[Function]}
+      >
+        Cancel
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        disabled={false}
+        noMargin={true}
+        type="submit"
+      >
+        Create
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddTour /> startPickDate() should startPickDate() 1`] = `
+Array [
+  Array [],
+]
+`;

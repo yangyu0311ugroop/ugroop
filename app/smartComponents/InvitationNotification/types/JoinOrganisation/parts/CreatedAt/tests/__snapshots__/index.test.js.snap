@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreatedAt /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<CreatedAt /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<CreatedAt /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+    title="renderTitle"
+  >
+    a few seconds ago
+  </span>
+</div>
+`;
+
+exports[`<CreatedAt /> renderTitle() should return renderTitle 1`] = `"Thursday, 21 December 1234 at 13:34"`;

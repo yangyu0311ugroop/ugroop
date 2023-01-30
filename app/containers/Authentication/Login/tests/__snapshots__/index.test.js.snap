@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage/tests/index.test.js errorAction should render resend button 1`] = `undefined`;
+
+exports[`LoginPage/tests/index.test.js handleSubmit() should call resaga.dispatch 1`] = `
+Array [
+  Array [
+    "Users",
+    "signIn",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "password": "123",
+        "username": "abc",
+      },
+    },
+  ],
+]
+`;
+
+exports[`LoginPage/tests/index.test.js handleSubmit() should use shareTo 1`] = `
+Array [
+  Array [
+    "Users",
+    "signIn",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "password": "123",
+        "username": "shareto",
+      },
+    },
+  ],
+]
+`;
+
+exports[`LoginPage/tests/index.test.js mapDispatchToProps return correct data 1`] = `
+Object {
+  "onUserLogin": [Function],
+}
+`;
+
+exports[`LoginPage/tests/index.test.js renderErrorMessage should render properly if error message is USER_NOT_CONFIRMED_ERROR 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <FormattedMessage
+      defaultMessage="Before you can use your account please verify your email address from the uGroop Verification Link email sent to you. Please check your Spam folder if you cannot see it in your Inbox otherwise Click Resend for another verification email."
+      id="app.containers.Form.Login.verificationMessageError"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`LoginPage/tests/index.test.js renderErrorMessage should render properly if error message is different 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    errorMsg
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`LoginPage/tests/index.test.js renderInvitationMessage() should render if isRegisterByInvitation 1`] = `
+<div>
+  <div>
+    <WithStyles(H5)>
+      <FormattedMessage
+        defaultMessage="{sender} from {org}"
+        id="app.containers.Form.Login.invitationSender"
+        values={
+          Object {
+            "org": <b>
+              organisationName
+            </b>,
+            "sender": <a
+              href="mailto:senderEmail"
+            >
+              <b>
+                senderName
+              </b>
+            </a>,
+          }
+        }
+      />
+      <FormattedMessage
+        defaultMessage=" invited you to work on their tour {tourName} as their {tourRole}. Please login to respond."
+        id="app.containers.Form.Login.invitationInfo"
+        values={
+          Object {
+            "tourName": <b>
+              nodeContent
+            </b>,
+            "tourRole": <b>
+              roleName
+            </b>,
+          }
+        }
+      />
+    </WithStyles(H5)>
+    <WithStyles(H5)>
+      <FormattedMessage
+        defaultMessage="You will be logged in as {invitee}. "
+        id="app.containers.Form.Login.loginAs"
+        values={
+          Object {
+            "invitee": <b>
+              shareTo
+            </b>,
+          }
+        }
+      />
+      <withRouter(UGLink)
+        to="/login"
+      >
+        <b>
+          Not you?
+        </b>
+      </withRouter(UGLink)>
+    </WithStyles(H5)>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartAttendance /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  classes={Object {}}
+  inputs={
+    Object {
+      "label": <FormattedMessage
+        defaultMessage="When event starts"
+        id="app.Event.parts.Activity.StartAttendance.startAttendanceLabel"
+      />,
+      "name": "data.attendance.recordEventStart",
+    }
+  }
+/>
+`;

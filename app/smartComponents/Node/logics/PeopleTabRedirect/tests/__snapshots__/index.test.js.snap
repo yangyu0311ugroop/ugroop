@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeopleTabRedirect /> handleCreateTabSuccess should set value of the crucial redux stores to make sure people tab migration work properly 1`] = `
+Array [
+  Array [
+    Object {
+      "calculatedPeopleTab": 3,
+      "calculatedVisibleChildren": [Function],
+      "peopleView": "aaa",
+    },
+  ],
+]
+`;
+
+exports[`<PeopleTabRedirect /> render() should render correctly 1`] = `<div />`;

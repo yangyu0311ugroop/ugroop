@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subtype /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderData={[Function]}
+  renderEditableHeading={[Function]}
+  renderEditableHeadingForm={[Function]}
+  renderLabel={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Subtype /> #renderData() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="data.detail.type"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value=""
+/>
+`;
+
+exports[`<Subtype /> #renderLabel() renders Component 1`] = `
+<WithStyles(GridItem)>
+  <H5
+    dense={true}
+    weight="bold"
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff0000",
+        }
+      }
+    >
+      Coming Soon
+    </span>
+  </H5>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Subtype /> #renderLabelValue() renders Component 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    <WithStyles(Icon)
+      icon="chevron-right"
+      size="xsmall"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+      weight="bold"
+    >
+      <span
+        style={
+          Object {
+            "color": "#ff0000",
+          }
+        }
+      >
+        Coming Soon
+      </span>
+    </H6>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<Subtype /> #renderSubtype() renders Component 1`] = `
+<Component
+  classes={Object {}}
+  component="span"
+  formValue=""
+  name="data.detail.type"
+  type=""
+  value=""
+  variant={null}
+/>
+`;
+
+exports[`<Subtype /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <span>
+    EVENT_HELPERS.getEventSubtypeConstants
+  </span>
+</div>
+`;

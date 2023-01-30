@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstTimeSetupLayout/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {},
+}
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recentActivity should match with snapshot 1`] = `
+Object {
+  "file": [Function],
+  "node": [Function],
+  "recentActivity": Object {
+    "19": Object {
+      "action": "view",
+      "createdat": "2018-08-06 14:33:11.880",
+      "targetId": 19,
+      "targetType": "template",
+      "updatedat": "2018-08-06 14:33:11.880",
+    },
+    "20": Object {
+      "action": "view",
+      "createdat": "2018-08-06 14:33:11.880",
+      "targetId": 20,
+      "targetType": "template",
+      "updatedat": "2018-08-06 14:33:11.880",
+    },
+  },
+  "recentActivityIds": Array [
+    19,
+  ],
+}
+`;
+
+exports[`recentActivity should match with snapshot 2`] = `
+Object {
+  "recentActivity": [Function],
+  "recentActivityIds": [Function],
+}
+`;

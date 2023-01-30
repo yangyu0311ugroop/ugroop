@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/apis/components/User/utils.js USER_APIS_UTILS normaliseRoles should return a particular object shape fit for the resaga setValue 1`] = `
+Object {
+  "orgUsers": [Function],
+  "person": [Function],
+  "raw": Object {
+    "orgs": Array [
+      Object {
+        "orgId": 1,
+      },
+      Object {
+        "orgId": 2,
+      },
+      Object {
+        "orgId": 3,
+      },
+    ],
+    "tours": Array [
+      Object {
+        "id": 1,
+      },
+      Object {
+        "id": 2,
+      },
+    ],
+  },
+  "userNodes": [Function],
+}
+`;
+
+exports[`app/apis/components/User/utils.js USER_APIS_UTILS normaliseRoles should return a particular object shape fit for the resaga setValue 2`] = `
+Object {
+  "1": Object {
+    "id": 1,
+  },
+}
+`;

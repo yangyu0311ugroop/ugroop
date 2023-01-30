@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourDetail /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <TemplateDetailReadMode
+        classes={
+          Object {
+            "root": "root",
+          }
+        }
+        disableRYI={false}
+        hidePeople={true}
+        publicView={true}
+        readOnly={true}
+        roles={Array []}
+        templateDescriptionVal="My Tour"
+        templateId={1}
+        templateTitleVal="Tour"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

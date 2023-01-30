@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/Node/config #requests BATCH_CREATE_CLONE 1`] = `
+Array [
+  Array [
+    "post",
+    "/Nodes/1/clones",
+    Object {},
+  ],
+  Array [
+    "post",
+    "/Nodes/2/clones",
+    Object {},
+  ],
+]
+`;
+
+exports[`apis/Node/config #requests BATCH_CREATE_CLONE 2`] = `Array []`;
+
+exports[`apis/Node/config #requests BATCH_DELETE_CHILDREN 1`] = `
+Array [
+  Array [
+    "delete",
+    "/Nodes/1/children",
+  ],
+  Array [
+    "delete",
+    "/Nodes/2/children",
+  ],
+]
+`;
+
+exports[`apis/Node/config #requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "post",
+    "/Nodes/123/children",
+    Object {
+      "content": "some node",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/123/children",
+    Object {
+      "content": "some node",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/123/children",
+    Object {
+      "content": "some node 2",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/123/nextNodes",
+    Object {
+      "content": "some node",
+    },
+  ],
+  Array [
+    "delete",
+    "/Nodes/123/children",
+  ],
+  Array [
+    "delete",
+    "/Nodes/[object Object]/children",
+  ],
+  Array [
+    "delete",
+    "/Nodes/[object Object]/children",
+  ],
+  Array [
+    "put",
+    "/Nodes/123/batchMove",
+    Array [
+      "operations",
+    ],
+  ],
+  Array [
+    "put",
+    "/Nodes/123/moveBefore/456",
+  ],
+  Array [
+    "put",
+    "/Nodes/123/moveAfter/456?remove_parent_node=undefined",
+  ],
+  Array [
+    "post",
+    "/Nodes/123/share",
+    Object {
+      "some": "thing",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes",
+    Object {
+      "content": "YO",
+      "parentNodeId": 1,
+    },
+  ],
+  Array [
+    "delete",
+    "/Nodes/1?",
+  ],
+  Array [
+    "delete",
+    "/Nodes/1?newParentId=2",
+  ],
+  Array [
+    "patch",
+    "/Nodes/1",
+    Object {
+      "content": "YO",
+      "id": 1,
+      "type": "folder",
+    },
+  ],
+  Array [
+    "delete",
+    "/Nodes/2",
+  ],
+  Array [
+    "delete",
+    "/Nodes/3",
+  ],
+  Array [
+    "delete",
+    "/Nodes/4",
+  ],
+  Array [
+    "delete",
+    "/Nodes/2",
+  ],
+  Array [
+    "delete",
+    "/Nodes/3",
+  ],
+  Array [
+    "delete",
+    "/Nodes/4",
+  ],
+  Array [
+    "post",
+    "/Nodes/1/copy",
+    Object {
+      "parentNodeId": 2,
+    },
+  ],
+  Array [
+    "patch",
+    "/Nodes/1/move",
+    Object {
+      "parentNodeId": 2,
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/123/clones",
+    Object {
+      "some": "props",
+    },
+  ],
+  Array [
+    "delete",
+    "/Nodes/1/photos/1",
+  ],
+  Array [
+    "get",
+    "/Nodes/1/times?ids=[1,2]",
+  ],
+  Array [
+    "get",
+    "/Nodes/123/children/",
+  ],
+  Array [
+    "put",
+    "/Nodes/123/children/1",
+    Object {
+      "some": "thing",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/1/insertBefore",
+    Object {
+      "content": "hello",
+      "id": 1,
+      "type": "folder",
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/1/insertAfter",
+    Object {
+      "content": "hello",
+      "id": 1,
+      "type": "folder",
+    },
+  ],
+  Array [
+    "put",
+    "/Nodes/1/photos/1",
+    Object {
+      "payload": Object {
+        "content": "hello",
+        "id": 1,
+        "type": "folder",
+      },
+    },
+  ],
+  Array [
+    "put",
+    "/Nodes/1/attachment",
+    Object {
+      "fk": 1,
+      "payload": Object {
+        "content": "hello",
+        "id": 1,
+        "type": "attachment",
+      },
+    },
+  ],
+  Array [
+    "get",
+    "/Nodes/1/attachment",
+  ],
+  Array [
+    "delete",
+    "/nodes/1/attachment",
+  ],
+  Array [
+    "post",
+    "/Nodes/1/photos",
+    Object {
+      "payload": Object {
+        "content": "hello",
+        "id": 1,
+        "type": "photo",
+      },
+    },
+  ],
+  Array [
+    "post",
+    "/Nodes/1/attachment",
+    Object {
+      "payload": Object {
+        "content": "hello",
+        "id": 1,
+        "type": "photo",
+      },
+    },
+  ],
+  Array [
+    "get",
+    "/Nodes/1/tree",
+  ],
+  Array [
+    "get",
+    "/Nodes/1/photos",
+  ],
+  Array [
+    "put",
+    "/nodes/1/moveBefore/2",
+  ],
+  Array [
+    "put",
+    "/nodes/1/moveAfter/2",
+  ],
+  Array [
+    "get",
+    "/Nodes/1/ABCD/",
+  ],
+  Array [
+    "post",
+    "/Nodes/1/links",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/Nodes/1/links/2",
+  ],
+  Array [
+    "patch",
+    "/Nodes/1/links/2",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/Nodes/1/nodeAndLinks",
+  ],
+  Array [
+    "post",
+    "/Nodes/1/transfer",
+    Object {
+      "nodeId": 1,
+    },
+  ],
+  Array [
+    "get",
+    "/Nodes/1/transfer",
+  ],
+  Array [
+    "patch",
+    "/Nodes/1/transfer",
+    Object {
+      "nodeId": 1,
+    },
+  ],
+  Array [
+    "get",
+    "/Nodes/getFilterNodes/undefined",
+  ],
+  Array [
+    "get",
+    "/Nodes/1/findParticipant",
+  ],
+  Array [
+    "post",
+    "/Nodes/1/cloneParticipant",
+    Object {
+      "nodeId": 1,
+    },
+  ],
+  Array [
+    "put",
+    "/nodes/undefined/moveChild/2",
+  ],
+]
+`;

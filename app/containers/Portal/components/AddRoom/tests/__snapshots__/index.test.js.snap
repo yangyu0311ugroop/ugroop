@@ -1,0 +1,635 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRoom /> handleSelectType() should handleSelectType() 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Add Room"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      <GenericForm
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        disabled={false}
+        discardDialogProps={Object {}}
+        loading={false}
+        onInvalid={[Function]}
+        onValid={[Function]}
+        onValidSubmit={[Function]}
+        showChangeRoutePrompt={false}
+        submitButtonContent="Submit"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <div>
+              <div>
+                <FormattedMessage
+                  defaultMessage="What is the room type you want to add."
+                  id="app.containers.Portal.components.AddRoom.roomTypeLabelSub"
+                />
+              </div>
+              <ConnectFunction
+                placement="bottom-start"
+                renderButton={[Function]}
+                selectedType={true}
+                value={1}
+              >
+                <Component />
+              </ConnectFunction>
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <div>
+                <FormattedMessage
+                  defaultMessage="How many rooms do you want to add?. You can add more rooms at the same time."
+                  id="app.containers.Portal.components.AddRoom.roomCountLabelSub"
+                />
+              </div>
+              <FormsyInterceptor
+                InputProps={
+                  Object {
+                    "inputProps": Object {
+                      "min": "0",
+                    },
+                  }
+                }
+                fullWidth={false}
+                label={
+                  <FormattedMessage
+                    defaultMessage="Number of Rooms to Add"
+                    id="app.containers.Portal.components.AddRoom.roomCountLabel"
+                  />
+                }
+                name="roomCount"
+                onInterceptValue={[Function]}
+                required={true}
+                type="number"
+                validationErrors={
+                  Object {
+                    "isGreaterThanOrEqual": <FormattedMessage
+                      defaultMessage="Rooms to add should be greater than 0"
+                      id="app.components.UGAddTemplateModal.Body.roomCountGreaterThanError"
+                    />,
+                    "isLessThanOrEqual": <FormattedMessage
+                      defaultMessage="Rooms to add should be less than 10"
+                      id="app.components.UGAddTemplateModal.Body.roomCountLessThanError"
+                    />,
+                  }
+                }
+                validations="isLessThanOrEqual:10,isGreaterThanOrEqual:1"
+                value="1"
+              />
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <div>
+                <FormattedMessage
+                  defaultMessage="How many Pax can the room accomodate."
+                  id="app.containers.Portal.components.AddRoom.guestCountLabelSub"
+                />
+              </div>
+              <FormsyInterceptor
+                InputProps={
+                  Object {
+                    "inputProps": Object {
+                      "min": "0",
+                    },
+                  }
+                }
+                fullWidth={false}
+                label="Room capacity?"
+                name="guestCount"
+                onInterceptValue={[Function]}
+                placeholder="Room capacity"
+                required={true}
+                type="number"
+                validationErrors={
+                  Object {
+                    "isGreaterThanOrEqual": <FormattedMessage
+                      defaultMessage="Rooms to add should be greater than 0"
+                      id="app.components.UGAddTemplateModal.Body.guestCountGreaterThanError"
+                    />,
+                    "isLessThanOrEqual": <FormattedMessage
+                      defaultMessage="Rooms to add should be less than 50"
+                      id="app.components.UGAddTemplateModal.Body.guestCountLessThanError"
+                    />,
+                  }
+                }
+                validations="isLessThanOrEqual:50,isGreaterThanOrEqual:1"
+              />
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <div>
+                <FormattedMessage
+                  defaultMessage="How many Beds."
+                  id="app.containers.Portal.components.AddRoom.bedCountLabelSub"
+                />
+              </div>
+              <FormsyInterceptor
+                InputProps={
+                  Object {
+                    "inputProps": Object {
+                      "min": "0",
+                    },
+                  }
+                }
+                fullWidth={false}
+                label="No. of Beds?"
+                name="bedCount"
+                onInterceptValue={[Function]}
+                placeholder="No. of Beds"
+                required={true}
+                type="number"
+                validationErrors={
+                  Object {
+                    "isGreaterThanOrEqual": <FormattedMessage
+                      defaultMessage="Bed to add should be greater than 0"
+                      id="app.components.UGAddTemplateModal.Body.bedCountGreaterThanError"
+                    />,
+                    "isLessThanOrEqual": <FormattedMessage
+                      defaultMessage="Bed to add should be less than 50"
+                      id="app.components.UGAddTemplateModal.Body.bedCountLessThanError"
+                    />,
+                  }
+                }
+                validations="isLessThanOrEqual:50,isGreaterThanOrEqual:1"
+              />
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <div>
+                  Description
+                </div>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <Formsy(withRouter(WithStyles(SimpleRTE)))
+                  innerRef={[Function]}
+                  lines={2}
+                  name="description"
+                  placeholder="i.e. Twin, Double (optional)"
+                  required={false}
+                  validationError=""
+                  validationErrors={Object {}}
+                  validations={null}
+                  value=""
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="gray"
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  Discard
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  size="xs"
+                  type="submit"
+                >
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                    spacing={0}
+                  >
+                    <WithStyles(GridItem)>
+                      Continue
+                    </WithStyles(GridItem)>
+                    <WithStyles(GridItem)>
+                      <WithStyles(Icon)
+                        icon="lnr-chevron-right"
+                        paddingLeft={true}
+                        size="xsmall"
+                      />
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </GenericForm>
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddRoom /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="Add Room"
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddRoom /> renderContent() should renderContent 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <div>
+            <FormattedMessage
+              defaultMessage="What is the room type you want to add."
+              id="app.containers.Portal.components.AddRoom.roomTypeLabelSub"
+            />
+          </div>
+          <ConnectFunction
+            placement="bottom-start"
+            renderButton={[Function]}
+            selectedType={true}
+            value="Twin"
+          >
+            <Component />
+          </ConnectFunction>
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <div>
+            <FormattedMessage
+              defaultMessage="How many rooms do you want to add?. You can add more rooms at the same time."
+              id="app.containers.Portal.components.AddRoom.roomCountLabelSub"
+            />
+          </div>
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": "0",
+                },
+              }
+            }
+            fullWidth={false}
+            label={
+              <FormattedMessage
+                defaultMessage="Number of Rooms to Add"
+                id="app.containers.Portal.components.AddRoom.roomCountLabel"
+              />
+            }
+            name="roomCount"
+            onInterceptValue={[Function]}
+            required={true}
+            type="number"
+            validationErrors={
+              Object {
+                "isGreaterThanOrEqual": <FormattedMessage
+                  defaultMessage="Rooms to add should be greater than 0"
+                  id="app.components.UGAddTemplateModal.Body.roomCountGreaterThanError"
+                />,
+                "isLessThanOrEqual": <FormattedMessage
+                  defaultMessage="Rooms to add should be less than 10"
+                  id="app.components.UGAddTemplateModal.Body.roomCountLessThanError"
+                />,
+              }
+            }
+            validations="isLessThanOrEqual:10,isGreaterThanOrEqual:1"
+            value="1"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <div>
+            <FormattedMessage
+              defaultMessage="How many Pax can the room accomodate."
+              id="app.containers.Portal.components.AddRoom.guestCountLabelSub"
+            />
+          </div>
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": "0",
+                },
+              }
+            }
+            fullWidth={false}
+            label="Room capacity?"
+            name="guestCount"
+            onInterceptValue={[Function]}
+            placeholder="Room capacity"
+            required={true}
+            type="number"
+            validationErrors={
+              Object {
+                "isGreaterThanOrEqual": <FormattedMessage
+                  defaultMessage="Rooms to add should be greater than 0"
+                  id="app.components.UGAddTemplateModal.Body.guestCountGreaterThanError"
+                />,
+                "isLessThanOrEqual": <FormattedMessage
+                  defaultMessage="Rooms to add should be less than 50"
+                  id="app.components.UGAddTemplateModal.Body.guestCountLessThanError"
+                />,
+              }
+            }
+            validations="isLessThanOrEqual:50,isGreaterThanOrEqual:1"
+            value={2}
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <div>
+            <FormattedMessage
+              defaultMessage="How many Beds."
+              id="app.containers.Portal.components.AddRoom.bedCountLabelSub"
+            />
+          </div>
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": "0",
+                },
+              }
+            }
+            fullWidth={false}
+            label="No. of Beds?"
+            name="bedCount"
+            onInterceptValue={[Function]}
+            placeholder="No. of Beds"
+            required={true}
+            type="number"
+            validationErrors={
+              Object {
+                "isGreaterThanOrEqual": <FormattedMessage
+                  defaultMessage="Bed to add should be greater than 0"
+                  id="app.components.UGAddTemplateModal.Body.bedCountGreaterThanError"
+                />,
+                "isLessThanOrEqual": <FormattedMessage
+                  defaultMessage="Bed to add should be less than 50"
+                  id="app.components.UGAddTemplateModal.Body.bedCountLessThanError"
+                />,
+              }
+            }
+            validations="isLessThanOrEqual:50,isGreaterThanOrEqual:1"
+            value={2}
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <div>
+              Description
+            </div>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Formsy(withRouter(WithStyles(SimpleRTE)))
+              innerRef={[Function]}
+              lines={2}
+              name="description"
+              placeholder="i.e. Twin, Double (optional)"
+              required={false}
+              validationError=""
+              validationErrors={Object {}}
+              validations={null}
+              value=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        renderSaveCancelButton
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<AddRoom /> renderRoomTypeButton() should renderRoomTypeButton() 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        block={false}
+        button={true}
+        onClick={[MockFunction]}
+        stopPropagation={true}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            Others
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-down"
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <FormsyInterceptor
+        autoFocus={true}
+        id="otherRoomType"
+        name="otherRoomType"
+        onInterceptValue={[Function]}
+        placeholder="Please specify room the type"
+        required={true}
+        type="text"
+        validationErrors={
+          Object {
+            "maxLength": <FormattedMessage
+              defaultMessage="too long (max: 100)"
+              id="app.components.UGAddTemplateModal.Body.titleMaxLength"
+            />,
+          }
+        }
+        validations={
+          Object {
+            "maxLength": 100,
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoom /> renderRoomTypeOptions() should renderRoomTypeOptions() 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Single
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Double
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Twin
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Triple
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Others
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoom /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        size="xs"
+        type="submit"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            Continue
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-chevron-right"
+              paddingLeft={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

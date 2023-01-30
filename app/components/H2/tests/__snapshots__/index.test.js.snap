@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H2 /> should accept noMargin 1`] = `
+<div>
+  <h2
+    className="H2-h2FontSize H2-headerCommon H2-noMargin"
+  />
+</div>
+`;

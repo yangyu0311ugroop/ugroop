@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponseMessage /> render() should render correctly with decline header 1`] = `
+<div>
+  <div>
+    <P
+      noMargin={true}
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Note:"
+        id="app.ugcomponents.Card.InvitationCard.components.Content.components.ResponseMessage.header"
+      />
+    </P>
+    <P
+      noMargin={true}
+    >
+      <em>
+        wrong email address
+      </em>
+    </P>
+  </div>
+</div>
+`;

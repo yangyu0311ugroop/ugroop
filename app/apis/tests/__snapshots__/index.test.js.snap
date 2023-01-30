@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<API /> render() should render 1`] = `
+<div>
+  <withReducer(Connect(WithResaga(FileContainer))) />
+  <withReducer(Connect(WithResaga(Node))) />
+  <withReducer(withReducer(withReducer(Connect(WithResaga(Folder))))) />
+  <withReducer(Connect(WithResaga(Invitation))) />
+  <withReducer(Connect(WithResaga(Template))) />
+  <withReducer(Connect(WithResaga(User))) />
+  <withReducer(Connect(WithResaga(Organisation))) />
+  <withReducer(Connect(WithResaga(NodeShare))) />
+  <withReducer(Connect(WithResaga(PersonDetail))) />
+  <withReducer(Connect(WithResaga(Pub))) />
+  <withReducer(Connect(WithResaga(TemplateTab))) />
+  <withReducer(Connect(WithResaga(OrgInvitation))) />
+  <withReducer(Connect(WithResaga(Geocodes))) />
+  <withReducer(Connect(WithResaga(Products))) />
+  <withReducer(Connect(WithResaga(Plans))) />
+  <withReducer(Connect(WithResaga(SubscriptionAPI))) />
+  <withReducer(Connect(WithResaga(SubscriptionScheduleAPI))) />
+  <withReducer(Connect(WithResaga(CustomerAPI))) />
+  <withReducer(Connect(WithResaga(CardsAPI))) />
+  <withReducer(Connect(WithResaga(PaymentMethodAPI))) />
+  <withReducer(Connect(WithResaga(Invoice))) />
+  <withReducer(Connect(WithResaga(ChargesAPI))) />
+  <withReducer(Connect(WithResaga(CouponAPI))) />
+  <withReducer(Connect(WithResaga(EventsApi))) />
+  <ConnectFunction />
+</div>
+`;

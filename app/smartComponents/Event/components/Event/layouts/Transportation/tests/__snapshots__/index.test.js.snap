@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Transportation /> getDestinationProps should return empty object if subtype is not vehicle hire 1`] = `Object {}`;
+
+exports[`<Transportation /> getDestinationProps should return props needed if subtype is vehicle hire 1`] = `
+Object {
+  "endLocationLabel": <FormattedMessage
+    defaultMessage="Drop-off"
+    id="app/smartComponents/Event/components/Event/layouts/Transportation/end"
+  />,
+  "startLocationLabel": <FormattedMessage
+    defaultMessage="Pick-up"
+    id="app/smartComponents/Event/components/Event/layouts/Transportation/start"
+  />,
+}
+`;
+
+exports[`<Transportation /> getOptions should return bus type options if subtype is bus 1`] = `
+Array [
+  Object {
+    "children": <FormattedMessage
+      defaultMessage="Public"
+      id="app/smartComponents/Event/components/Event/layouts/Transportation/publicLabel"
+    />,
+    "value": "Public",
+  },
+  Object {
+    "children": <FormattedMessage
+      defaultMessage="Private"
+      id="app/smartComponents/Event/components/Event/layouts/Transportation/privateLabel"
+    />,
+    "value": "Private",
+  },
+  Object {
+    "children": <FormattedMessage
+      defaultMessage="Charter"
+      id="app/smartComponents/Event/components/Event/layouts/Transportation/charterLabel"
+    />,
+    "value": "Charter",
+  },
+]
+`;
+
+exports[`<Transportation /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Transportation /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <ConnectFunction
+      classes={Object {}}
+      hasType={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+      variant="editableHeadingForm"
+    />
+    <ConnectFunction
+      classes={Object {}}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+    <ConnectFunction
+      classes={Object {}}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Attachments)))
+      classes={Object {}}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transportation /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <ConnectFunction
+      classes={Object {}}
+      hasType={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+    <ConnectFunction
+      classes={Object {}}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+    <ConnectFunction
+      classes={Object {}}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      subtype=""
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Transportation /> renderPart should match snapshot 1`] = `
+<div>
+  <div
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtype=""
+  />
+</div>
+`;

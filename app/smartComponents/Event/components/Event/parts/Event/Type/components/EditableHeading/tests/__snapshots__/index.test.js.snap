@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TypeEditableHeading /> #handleChange() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "formSubtype": "unknown",
+    "formValue": "value",
+  },
+}
+`;
+
+exports[`<TypeEditableHeading /> #handleClose() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "formSubtype": "unknown",
+    "formValue": "",
+  },
+}
+`;
+
+exports[`<TypeEditableHeading /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <EditableSelect
+    SelectProps={
+      Object {
+        "MenuProps": Object {
+          "classes": Object {
+            "paper": "selectMenuPaper",
+          },
+        },
+      }
+    }
+    name="name"
+    onChange={[Function]}
+    onClose={[Function]}
+    open={false}
+    options={
+      Array [
+        Object {
+          "children": <EventHeading
+            Typography={[Function]}
+          >
+            Activity
+          </EventHeading>,
+          "value": "Activity",
+        },
+        Object {
+          "children": <EventHeading
+            Typography={[Function]}
+          >
+            Transportation
+          </EventHeading>,
+          "value": "Transportation",
+        },
+        Object {
+          "children": <EventHeading
+            Typography={[Function]}
+          >
+            Accommodation
+          </EventHeading>,
+          "value": "Accommodation",
+        },
+      ]
+    }
+    readOnly={false}
+    renderValue={[Function]}
+    resaga={
+      Object {
+        "setValue": [MockFunction],
+      }
+    }
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<TypeEditableHeading /> #renderValue() still matches snapshot 1`] = `
+<EventHeading
+  Typography={[Function]}
+>
+  Unknown
+</EventHeading>
+`;

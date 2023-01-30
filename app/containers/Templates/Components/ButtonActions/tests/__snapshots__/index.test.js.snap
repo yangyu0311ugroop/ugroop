@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonActions /> onAddFolderBtnClicked should call setValue with onAddFolderBtnClicked 1`] = `
+Array [
+  Array [
+    Object {
+      "isAddTemplateModalOpen": true,
+    },
+  ],
+  Array [
+    Object {
+      "folderFormOpen": true,
+    },
+  ],
+]
+`;
+
+exports[`<ButtonActions /> onCloseAddTemplateModal should call setValue with onCloseAddTemplateModal 1`] = `
+Array [
+  Array [
+    Object {
+      "isAddTemplateModalOpen": true,
+    },
+  ],
+  Array [
+    Object {
+      "folderFormOpen": true,
+    },
+  ],
+  Array [
+    Object {
+      "folderFormOpen": false,
+    },
+  ],
+  Array [
+    Object {
+      "isAddTemplateModalOpen": false,
+    },
+  ],
+]
+`;
+
+exports[`<ButtonActions /> onCloseFolderBtnClicked should call setValue with onCloseFolderBtnClicked 1`] = `
+Array [
+  Array [
+    Object {
+      "isAddTemplateModalOpen": true,
+    },
+  ],
+  Array [
+    Object {
+      "folderFormOpen": true,
+    },
+  ],
+  Array [
+    Object {
+      "folderFormOpen": false,
+    },
+  ],
+]
+`;
+
+exports[`<ButtonActions /> onOpenAddTemplateModal should call setValue with isAddTemplateModalOpen to true 1`] = `
+Array [
+  Array [
+    Object {
+      "isAddTemplateModalOpen": true,
+    },
+  ],
+]
+`;
+
+exports[`<ButtonActions /> render() should pass a particular parameter in children 1`] = `
+Array [
+  Array [
+    Object {
+      "onAddFolderBtnClicked": [Function],
+      "onCloseAddTemplateModal": [Function],
+      "onCloseFolderBtnClicked": [Function],
+      "onOpenAddTemplateModal": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<ButtonActions /> render() should render correctly 1`] = `<div />`;

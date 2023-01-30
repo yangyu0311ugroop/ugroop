@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User/config.js #requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "get",
+    "/Users/me/invitations?show=default&status=pending",
+  ],
+  Array [
+    "get",
+    "/Users/me/invitations?show=received&status=pending",
+  ],
+]
+`;

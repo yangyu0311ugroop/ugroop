@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BatchCreate /> #handleChange() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "formBatchCreate": false,
+  },
+}
+`;
+
+exports[`<BatchCreate /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<BatchCreate /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(CheckboxField))
+        compact={true}
+        currentValue={true}
+        label="Create single-day activities across a range of days?"
+        name="data.batchCreate"
+        onChange={[Function]}
+        size="sm"
+        value={false}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={8}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="lavender"
+            icon="lnr-notification-circle"
+            size="large"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H6
+            dense={true}
+            fontStyle="italic"
+            lavender={true}
+            weight="bold"
+          >
+            <FormattedMessage
+              defaultMessage="An activity will be created on each day within the range specified above and below."
+              id="app.Event.parts.Event.BatchCreate.infoLabel"
+            />
+          </H6>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(BatchCreateDayRange))))))) />
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;

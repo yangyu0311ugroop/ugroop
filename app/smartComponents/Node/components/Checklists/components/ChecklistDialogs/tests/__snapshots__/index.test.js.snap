@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistDialogs /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(SeeDetailCheckitem)))))
+    id={33}
+    parentNodeId={0}
+  />
+  <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component))))))))
+    id={11}
+    parentNodeId={22}
+  />
+</div>
+`;

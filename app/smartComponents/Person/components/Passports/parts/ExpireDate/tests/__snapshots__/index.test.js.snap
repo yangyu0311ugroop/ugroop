@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpireDate /> render() should render correctly 1`] = `
+<div>
+  <EditableDateForm
+    fullWidth={false}
+    label="Date of Expiry"
+    minDate=""
+    minDateError="Cannot be before date of issue"
+    name="expireDate"
+    onChange={[Function]}
+    onSubmit={[Function]}
+    placeholder="Click to specify date of expiry"
+    readOnly={false}
+    readOnlyPlaceholder="No date of expiry"
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<ExpireDate /> render() should render correctly if variant prop is text field 1`] = `
+<div>
+  <DateField
+    autoComplete="off"
+    displayFormat="D MMMM YYYY"
+    label="Date of Expiry"
+    minDate=""
+    minDateError="Cannot be before date of issue"
+    name="expireDate"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<ExpireDate /> render() should render correctly if variant prop is text only 1`] = `<div />`;

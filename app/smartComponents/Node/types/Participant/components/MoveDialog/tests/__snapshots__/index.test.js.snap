@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MoveDialog /> render should match snapshot 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[MockFunction]}
+    confirmFunc={[MockFunction]}
+    customChildren={
+      Object {
+        "content": "renderDialogContent",
+      }
+    }
+    dialogTitle="Move Participant to Another Follower"
+    hideHeadline={true}
+    open={true}
+    template="confirm"
+  />
+</div>
+`;
+
+exports[`<MoveDialog /> renderDialogContent should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="compare"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <H3
+        weight="bold"
+      >
+        Move 
+        <ConnectFunction
+          id={1}
+          renderValue={[Function]}
+          valueOnly={true}
+        />
+        ?
+      </H3>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <H5>
+        You are about to move this participant from 
+        <ConnectFunction
+          id={2}
+          renderValue={[Function]}
+          valueOnly={true}
+        />
+         to 
+        <ConnectFunction
+          id={3}
+          renderValue={[Function]}
+          valueOnly={true}
+        />
+        . Are you sure you want to continue?
+      </H5>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

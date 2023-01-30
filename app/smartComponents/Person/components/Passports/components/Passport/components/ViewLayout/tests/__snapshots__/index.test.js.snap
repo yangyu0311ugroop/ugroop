@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewLayout /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)>
+      renderInfo
+      renderPhoto
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<ViewLayout /> renderInfo should render the info properly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={7}
+    xs={12}
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(PassportNumber)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(PassportType)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(FirstName)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(MiddleName)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(LastName)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(BirthDate)))
+          id={0}
+          passportId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(BirthPlace)))
+          id={0}
+          passportId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(IssuedDate)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(ExpireDate)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(IssuingAuthority)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        sm={6}
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(CardNumber)))
+          id={0}
+          userId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewLayout /> renderPhoto should not render the photo if photo should not be shown 1`] = `<div />`;
+
+exports[`<ViewLayout /> renderPhoto should render the photo if photo should be shown 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={5}
+    xs={12}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="flex-end"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Photo)))))
+        id={0}
+        label="Passport Photo"
+        size="imageLarge"
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

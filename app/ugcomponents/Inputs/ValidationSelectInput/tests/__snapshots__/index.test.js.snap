@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValidationSelectInput  Test props render() still matches snapshot with label 1`] = `
+<ForwardRef(FormControl)
+  classes={
+    Object {
+      "fullWidth": "MuiFormControl-fullWidth",
+      "marginDense": "MuiFormControl-marginDense",
+      "marginNormal": "MuiFormControl-marginNormal",
+      "root": "MuiFormControl-root",
+    }
+  }
+>
+  some label
+  <WithStyles(ForwardRef(Select))
+    input={<WithStyles(ForwardRef(Input)) />}
+    name="name"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="0"
+      value="AUS"
+    >
+      <WithStyles(H4)>
+        Australia
+      </WithStyles(H4)>
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</ForwardRef(FormControl)>
+`;
+
+exports[`ValidationSelectInput  Test props render() still matches snapshot with no label 1`] = `
+<WithStyles(ForwardRef(Select))
+  input={<WithStyles(ForwardRef(Input)) />}
+  name="name"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="0"
+    value="AUS"
+  >
+    <WithStyles(H4)>
+      Australia
+    </WithStyles(H4)>
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;

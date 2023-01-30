@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_STORE selectors #addEventDataIds returns correct getter 1`] = `
+Array [
+  Object {
+    "dataId": Object {
+      "node": 1,
+    },
+    "id": 1,
+  },
+]
+`;
+
+exports[`NODE_STORE selectors #addEventDataIds returns correct keyPath 1`] = `
+Array [
+  "eventDataId",
+]
+`;
+
+exports[`NODE_STORE selectors #filterByNotMatchingTime getter calls map 1`] = `[Function]`;
+
+exports[`NODE_STORE selectors #filterCalculatedEvents getter calls map 1`] = `Array []`;
+
+exports[`NODE_STORE selectors #filterCalculatedEvents getter calls map 2`] = `
+Array [
+  Object {
+    "id": 1,
+    "value": undefined,
+  },
+]
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS allChecklistIds() should matchSnapshot 1`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": null,
+}
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS allChecklistStatuses() should matchSnapshot 1`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": null,
+}
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS index should return a specific keyPath shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "index",
+]
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS lastModifiedBy should return a specific keyPath shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "lastModifiedBy",
+]
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS percentage() should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  999,
+  "calculated",
+  "percentage",
+]
+`;
+
+exports[`NODE_STORE selectors Data store selectors NODE_STORE_SELECTORS updatedAt should return a specific keyPath shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "updatedAt",
+]
+`;
+
+exports[`NODE_STORE selectors SORT_BY_SELECTORS Smoke Test should exists 1`] = `
+Object {
+  "order": [Function],
+  "sortBy": [Function],
+}
+`;
+
+exports[`NODE_STORE selectors SORT_BY_SELECTORS order should exists 1`] = `
+Array [
+  "templateManagementView",
+  "checklists",
+  33,
+  "order",
+]
+`;
+
+exports[`NODE_STORE selectors SORT_BY_SELECTORS order should exists 2`] = `
+Array [
+  "someStore",
+  "checklists",
+  44,
+  "order",
+]
+`;
+
+exports[`NODE_STORE selectors SORT_BY_SELECTORS sortBy should exists 1`] = `
+Array [
+  "templateManagementView",
+  "checklists",
+  33,
+  "sortBy",
+]
+`;
+
+exports[`NODE_STORE selectors SORT_BY_SELECTORS sortBy should exists 2`] = `
+Array [
+  "someStore",
+  "checklists",
+  44,
+  "sortBy",
+]
+`;
+
+exports[`NODE_STORE selectors cachedCalculatedEvents keyPath should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "events",
+]
+`;
+
+exports[`NODE_STORE selectors calculatedEvents should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "events",
+]
+`;
+
+exports[`NODE_STORE selectors calculatedParticipants should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "participants",
+]
+`;
+
+exports[`NODE_STORE selectors filterByNotMatchingTime keyPath should return keyPath 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "calculated",
+    "time",
+    "start",
+    "value",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "calculated",
+    "time",
+    "start",
+    "value",
+  ],
+]
+`;
+
+exports[`NODE_STORE selectors getNodeSetting() should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodeSettings",
+  999,
+  "test",
+  "value",
+]
+`;
+
+exports[`NODE_STORE selectors hashkey() should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  999,
+  "hashkey",
+]
+`;
+
+exports[`NODE_STORE selectors hashkey() should return keyPath 2`] = `
+Array [
+  "nodeStore",
+  "nodeSettings",
+  999,
+  "",
+  "id",
+]
+`;
+
+exports[`NODE_STORE selectors hashkeyDescription() should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  undefined,
+  "haskeyDescription",
+]
+`;
+
+exports[`NODE_STORE selectors hashkeyDescription() should return keyPath 2`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "disableRYI",
+]
+`;
+
+exports[`NODE_STORE selectors rating should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "rating",
+]
+`;
+
+exports[`NODE_STORE selectors ratings should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "ratings",
+]
+`;
+
+exports[`NODE_STORE selectors reactions should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "reactions",
+]
+`;

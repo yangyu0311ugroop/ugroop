@@ -1,0 +1,706 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedList /> #handleModeChange() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": "value",
+  },
+}
+`;
+
+exports[`<InterestedList /> #handleModeChange() resaga.setValue still matches snapshot if props.hasInterestedPersonIds 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": "createdAt",
+  },
+}
+`;
+
+exports[`<InterestedList /> #handleOpen() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "modeList": "createdAt",
+  },
+}
+`;
+
+exports[`<InterestedList /> #handleOpenCreateInterestedPersonModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "interestedPersonCreateOpen": true,
+  },
+}
+`;
+
+exports[`<InterestedList /> #handleRowClick() rcalls props.onClose 1`] = `
+Object {
+  "setValue": Object {
+    "interestedPersonViewId": 1,
+    "interestedPersonViewMode": null,
+    "interestedPersonViewOpen": true,
+  },
+}
+`;
+
+exports[`<InterestedList /> #render() still matches snapshot 1`] = `
+<WithStyles(Component)
+  fullWidth={true}
+  maxHeight="sm"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(UGDialogTitle)
+    noPaddingBottom={true}
+  >
+    <WithStyles(Title)
+      heading={
+        <FormattedMessage
+          defaultMessage="Followers"
+          id="app.Containers.Templates.Modals.InterestedList.heading"
+        />
+      }
+      headingBackground={
+        <FormattedMessage
+          defaultMessage="List"
+          id="app.Containers.Templates.Modals.InterestedList.headingBackground"
+        />
+      }
+      hideOnSm={false}
+      renderSubheading={[Function]}
+    />
+    <WithStyles(CloseButton)
+      onClick={[Function]}
+    />
+  </WithStyles(UGDialogTitle)>
+  <WithStyles(UGDialogContent)
+    halfPaddingTop={true}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <H4
+          dense={true}
+          fontStyle="italic"
+        >
+          <FormattedMessage
+            defaultMessage="There are no followers."
+            id="app.Containers.Templates.Modals.InterestedList.noConnected"
+          />
+        </H4>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(UGDialogContent)>
+  <WithStyles(UGDialogAction)
+    disableActionSpacing={true}
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        variant="inline"
+      >
+        <WithStyles(GridContainer)
+          alignItems="baseline"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              bold={true}
+              color="success"
+              icon="plus"
+              size="xxs"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <H4
+              dense={true}
+              primary={true}
+              transform="uppercase"
+              weight="bold"
+            >
+              <FormattedMessage
+                defaultMessage="Add new follower"
+                id="app.Containers.Templates.Modals.InterestedList.addInterestedPersonButtonLabel"
+              />
+            </H4>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(UGDialogAction)>
+</WithStyles(Component)>
+`;
+
+exports[`<InterestedList /> #renderConnectedRow() still matches snapshot 1`] = `
+<ConnectedListItem
+  id={1}
+  mode="createdAt"
+  onClick={[Function]}
+  templateId={1}
+/>
+`;
+
+exports[`<InterestedList /> #renderContent() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    id={2}
+    index={0}
+    mode="createdAt"
+    onClick={[Function]}
+    templateId={1}
+  />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<InterestedList /> #renderFilters() still matches snapshot 1`] = `
+<React.Fragment>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="pending"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="All Followers"
+          id="app.Containers.Templates.Modals.InterestedList.allFollowers"
+        />
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+  <WithStyles(GridItem)>
+    <Filter
+      color="pending"
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <FormattedMessage
+        defaultMessage="Following"
+        id="app.Containers.Templates.Modals.InterestedList.pendingFilterLabel"
+      />
+    </Filter>
+  </WithStyles(GridItem)>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="gray"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Not Following"
+          id="app.Containers.Templates.Modals.InterestedList.completeFilterLabel"
+        />
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+</React.Fragment>
+`;
+
+exports[`<InterestedList /> #renderFilters() still matches snapshot children is function 1`] = `undefined`;
+
+exports[`<InterestedList /> #renderFilters() still matches snapshot if props.modeList=invite 1`] = `
+<React.Fragment>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="pending"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="All Followers"
+          id="app.Containers.Templates.Modals.InterestedList.allFollowers"
+        />
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+  <WithStyles(GridItem)
+    className={false}
+  >
+    <Filter
+      color="pending"
+      count={0}
+      onClick={[Function]}
+      selected={false}
+    >
+      <FormattedMessage
+        defaultMessage="Following"
+        id="app.Containers.Templates.Modals.InterestedList.pendingFilterLabel"
+      />
+    </Filter>
+  </WithStyles(GridItem)>
+  <BoundCan
+    do="execute"
+    on="participant"
+  >
+    <WithStyles(GridItem)>
+      <Filter
+        color="gray"
+        count={0}
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Not Following"
+          id="app.Containers.Templates.Modals.InterestedList.completeFilterLabel"
+        />
+      </Filter>
+    </WithStyles(GridItem)>
+  </BoundCan>
+</React.Fragment>
+`;
+
+exports[`<InterestedList /> #renderInvitationRow() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InvitationListItem)))))))
+  id={1}
+  mode="createdAt"
+  statusHidden={true}
+  templateId={1}
+/>
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is connected 1`] = `
+Array [
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    id={1}
+    index={0}
+    mode="connected"
+    onClick={[Function]}
+    templateId={1}
+  />,
+]
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is connected but there are no persons 1`] = `"renderNoConnected"`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is showEmail 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no followers."
+      id="app.Containers.Templates.Modals.InterestedList.noConnected"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is showEmail but there are no persons 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no followers."
+      id="app.Containers.Templates.Modals.InterestedList.noConnected"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is showLastAccess 1`] = `
+Array [
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    id={1}
+    index={0}
+    mode="showLastAccess"
+    onClick={[Function]}
+    templateId={1}
+  />,
+]
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if mode is showLastAccess but there are no persons 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no followers."
+      id="app.Containers.Templates.Modals.InterestedList.noConnected"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderList() still matches snapshot if props.filterPending 1`] = `
+Array [
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InvitationListItem)))))))
+    id="token"
+    mode="invite"
+    statusHidden={true}
+    templateId={1}
+  />,
+]
+`;
+
+exports[`<InterestedList /> #renderNoInterestedRow() still matches snapshot if filterComplete is fale 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no followers."
+      id="app.Containers.Templates.Modals.InterestedList.noInterestedComplete"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderNoInterestedRow() still matches snapshot if props.filterPending 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are no followers."
+      id="app.Containers.Templates.Modals.InterestedList.noInterestedPending"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderNoInvitations() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <H4
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="There are currently no pending invitations."
+      id="app.Containers.Templates.Modals.InterestedList.noInvitations"
+    />
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedList /> #renderSubheading() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  alignItems="baseline"
+  noWrap={true}
+>
+  <WithStyles(GridItem)>
+    <Memo(Connect(WithSimplifyResaga(Component)))
+      placement="bottom"
+      renderButton={[Function]}
+      stopPropagation={true}
+    >
+      [Function]
+    </Memo(Connect(WithSimplifyResaga(Component)))>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Memo(Connect(WithSimplifyResaga(Component)))
+      placement="bottom"
+      renderButton={[Function]}
+      stopPropagation={true}
+    >
+      [Function]
+    </Memo(Connect(WithSimplifyResaga(Component)))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<InterestedList /> getName() should getName 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="All Followers"
+    id="app.Containers.Templates.Modals.InterestedList.allFollowers"
+  />
+</div>
+`;
+
+exports[`<InterestedList /> handleFilterClick should call setValue with set of values 1`] = `
+Object {
+  "setValue": Object {
+    "interestedListViewModalFilter": 1,
+    "peopleFilterSelected": "followersFilter",
+    "peopleTabOptionSelected": 2,
+  },
+}
+`;
+
+exports[`<InterestedList /> handleLayoutSelect() should handleLayoutSelect 1`] = `<div />`;
+
+exports[`<InterestedList /> handleModeSelect() should handleModeSelect 1`] = `<div />`;
+
+exports[`<InterestedList /> renderFilterPopper() should renderFilterPopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<InterestedList /> renderFilterPopperButton() should renderFilterPopperButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    dense={true}
+    direction="column"
+    justify="flex-start"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(Button)
+        color="normal"
+        noMargin={true}
+        size="base"
+        variant="inline"
+      >
+        <FormattedMessage
+          defaultMessage="All Followers"
+          id="app.Containers.Templates.Modals.InterestedList.allFollowers"
+        />
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedList /> renderFilterPopperOptions() should renderFilterPopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <BoundCan
+      do="execute"
+      on="participant"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <FormattedMessage
+            defaultMessage="All Followers"
+            id="app.Containers.Templates.Modals.InterestedList.allFollowers"
+          />
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <FormattedMessage
+          defaultMessage="Following"
+          id="app.Containers.Templates.Modals.InterestedList.pendingFilterLabel"
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <BoundCan
+      do="execute"
+      on="participant"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          <FormattedMessage
+            defaultMessage="Not Following"
+            id="app.Containers.Templates.Modals.InterestedList.completeFilterLabel"
+          />
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedList /> renderInterestedRow() should renderInterestedRow 1`] = `
+<div>
+  <ConnectFunction
+    mode="createdAt"
+    onClick={[Function]}
+    templateId={1}
+  />
+</div>
+`;
+
+exports[`<InterestedList /> renderLayoutPopperButton() should renderLayoutPopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Simple View
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<InterestedList /> renderLayoutPopperOptions() should renderLayoutPopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Simple View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Detailed View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedList /> renderModePopperButton() should renderModePopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Show All
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<InterestedList /> renderModePopperOptions() should renderModePopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-users"
+        onClick={[Function]}
+        selected={true}
+      >
+        Show People
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-group-work"
+        onClick={[Function]}
+        selected={false}
+      >
+        Show Connected
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-loading"
+        onClick={[Function]}
+        selected={false}
+      >
+        Show Pending
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedList /> renderNoLastAccess() should renderNoLastAccess 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <H4
+      dense={true}
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="No follower has accessed this tour yet."
+        id="app.Containers.Templates.Modals.InterestedList.noLastAccess"
+      />
+    </H4>
+  </WithStyles(GridItem)>
+</div>
+`;

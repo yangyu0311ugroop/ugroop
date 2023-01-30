@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render something with only classes as prop 1`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 1`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 2`] = `
+<WithStyles(H2)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 3`] = `
+<WithStyles(H3)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 4`] = `
+<WithStyles(H4)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 5`] = `
+<WithStyles(H5)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 6`] = `
+<WithStyles(H6)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending on the props "as" 7`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending to "color" props 1`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render depending to "color" props 2`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-orangeColor"
+/>
+`;
+
+exports[`Header should render what it should render depending to "color" props 3`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerDefault MarketingHeader-primaryColor"
+/>
+`;
+
+exports[`Header should render what it should render when isThin is true 1`] = `
+<WithStyles(H1)
+  className="MarketingHeader-headerThin MarketingHeader-primaryColor"
+/>
+`;

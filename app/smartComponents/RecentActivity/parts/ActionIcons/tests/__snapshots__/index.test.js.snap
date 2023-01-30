@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionIcon /> VARIANTS.BUTTON 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    icon=""
+    iconButton={true}
+    loading={false}
+    noMargin={true}
+    noPadding={true}
+    onClick={[Function]}
+    title="Hide"
+    variant="borderless"
+  />
+</div>
+`;
+
+exports[`<ActionIcon /> to match with Snapshot 1`] = `
+<div>
+  <span>
+    <WithStyles(Icon)
+      color="success"
+      icon=""
+    />
+  </span>
+</div>
+`;

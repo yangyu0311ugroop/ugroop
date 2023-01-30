@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Name /> render() should render 1`] = `
+<div>
+  <ScrollToTopOnMount />
+  <Formsy
+    disabled={false}
+    getErrorMessage={[Function]}
+    getErrorMessages={[Function]}
+    getValue={[Function]}
+    hasValue={[Function]}
+    isFormDisabled={[Function]}
+    isFormSubmitted={[Function]}
+    isPristine={[Function]}
+    isRequired={[Function]}
+    isValid={[Function]}
+    isValidValue={[Function]}
+    mapping={null}
+    onChange={[Function]}
+    onError={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    preventExternalInvalidation={false}
+    resetValue={[Function]}
+    setValidations={[Function]}
+    setValue={[Function]}
+    showError={[Function]}
+    showRequired={[Function]}
+    validationErrors={null}
+  >
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            nowrap={false}
+          >
+            Changes to your organisation name will be reflected across your uGroop account.
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Hr)
+            half={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            card={true}
+            cardPadding={4}
+            direction="column"
+            highlight={true}
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={3}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    bold={true}
+                    gray={true}
+                    sm={true}
+                    uppercase={true}
+                  >
+                    Change organisation name
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  xs={true}
+                >
+                  <WithStyles(Formsy(FText))
+                    label="Organisation name"
+                    name="name"
+                    placeholder="Enter organisation name"
+                    required={true}
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                  >
+                    <WithStyles(GridItem)
+                      xs={true}
+                    >
+                      <ForwardRef(Fade)>
+                        <WithStyles(GridContainer)
+                          alignItems="center"
+                          wrap="nowrap"
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(Icon)
+                              color="success"
+                              icon="lnr-checkmark-circle"
+                              size="normal"
+                            />
+                          </WithStyles(GridItem)>
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              success={true}
+                            >
+                              Saved!
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </ForwardRef(Fade)>
+                    </WithStyles(GridItem)>
+                    <WithStyles(GridItem)>
+                      <WithStyles(JButton)
+                        bold={true}
+                        onClick={[Function]}
+                        padding="lg"
+                      >
+                        Go back
+                      </WithStyles(JButton)>
+                    </WithStyles(GridItem)>
+                    <WithStyles(GridItem) />
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </Formsy>
+</div>
+`;

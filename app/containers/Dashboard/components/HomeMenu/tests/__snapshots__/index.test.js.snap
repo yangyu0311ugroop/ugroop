@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeMenu /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Sticky
+      activeClass="active"
+      bottomBoundary="#LayoutContent"
+      enableTransforms={true}
+      enabled={true}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top="#stickyAppBar"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(List)))
+          first={true}
+          items={Array []}
+          name="starred"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(List)))
+          first={true}
+          items={Array []}
+          maxRender={8}
+          name="recent"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(List)))
+          first={true}
+          items={Array []}
+          name="featured"
+        />
+        <WithStyles(GridItem)>
+          <div
+            className=""
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="success"
+                  icon="lnr-link"
+                  size="normal"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Useful Links
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(NewTour))) />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </Sticky>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<HomeMenu /> renderCards() should renderCards 1`] = `<div />`;

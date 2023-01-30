@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneEditableMenu /> renderActions should match snapshot if userPhoneId 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+    value={null}
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderActions should match snapshot if userPhoneId 2`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+    value={null}
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderActions should match snapshot if userPhoneId 3`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+    value={null}
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderIsDefault should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(IsDefault)))
+    id={1}
+    variant="badge"
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenu should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    renderMenuItemInput
+  </WithStyles(GridItem)>
+  renderMenuItemUserValues
+  renderMenuItemNodeValue
+  renderMenuItemClear
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemClear should match snapshot if userPhoneId === 0 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemClear)>
+      Clear phone number
+    </WithStyles(EditableMenuItemClear)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemClear should match snapshot if userPhoneId 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemClear)>
+      Clear phone number
+    </WithStyles(EditableMenuItemClear)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemClear should match snapshot if value 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemClear)>
+      Clear phone number
+    </WithStyles(EditableMenuItemClear)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemInput should match snapshot 1`] = `
+<div>
+  <WithStyles(EditableMenuItemInput)>
+    <PhoneField
+      inputProps={Object {}}
+      name="node.customData.phone"
+      placeholder="New phone number?"
+      validationErrors={Object {}}
+      validations={Object {}}
+    />
+  </WithStyles(EditableMenuItemInput)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemNodeValue should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemValue)
+      disabled={false}
+      onClick={[Function]}
+      selected={true}
+    >
+      1
+    </WithStyles(EditableMenuItemValue)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemSubmit should match snapshot if not valid 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemSubmit)
+      disabled={true}
+    >
+      <FormattedMessage
+        defaultMessage="Set new number \\"{value}\\""
+        id="app.Node.parts.Phone.menuItemSubmit"
+        values={
+          Object {
+            "value": 1,
+          }
+        }
+      />
+    </WithStyles(EditableMenuItemSubmit)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemSubmit should match snapshot if valid 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemSubmit)
+      disabled={false}
+    >
+      <FormattedMessage
+        defaultMessage="Set new number \\"{value}\\""
+        id="app.Node.parts.Phone.menuItemSubmit"
+        values={
+          Object {
+            "value": "1",
+          }
+        }
+      />
+    </WithStyles(EditableMenuItemSubmit)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemUserValue should match snapshot if isDefault and userPhoneId === 0 1`] = `
+<div>
+  <WithStyles(EditableMenuItemValue)
+    disabled={false}
+    onClick={[Function]}
+    renderTail={[Function]}
+    selected={true}
+    userId={null}
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemUserValue should match snapshot if userPhoneId === id 1`] = `
+<div>
+  <WithStyles(EditableMenuItemValue)
+    disabled={false}
+    onClick={[Function]}
+    selected={true}
+    userId={null}
+  />
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderMenuItemUserValues should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(EditableMenuItemValue)
+      disabled={false}
+      onClick={[Function]}
+      renderTail={[Function]}
+      selected={false}
+      userId={null}
+    >
+      value
+    </WithStyles(EditableMenuItemValue)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PhoneEditableMenu /> renderNonInputValue should match snapshot 1`] = `
+<div>
+  <WithStyles(Flag)
+    paddingRight={true}
+  />
+  1
+</div>
+`;

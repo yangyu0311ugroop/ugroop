@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileDropzone /> #handlePaste() handlePaste should not explode if item is not a function  1`] = `undefined`;
+
+exports[`<FileDropzone /> #handlePaste() handlePaste should return null if not an image 1`] = `undefined`;
+
+exports[`<FileDropzone /> #handlePaste() handlePaste still matches snapshot  1`] = `undefined`;
+
+exports[`<FileDropzone /> #handlePaste() still matches snapshot if props.compact 1`] = `undefined`;
+
+exports[`<FileDropzone /> #handlePaste() still matches snapshot if props.compact 2`] = `undefined`;
+
+exports[`<FileDropzone /> #render() should render children 1`] = `
+<div>
+  <div
+    onPaste={[Function]}
+  >
+    <t
+      disableClick={false}
+      disablePreview={false}
+      disabled={false}
+      getDataTransferItems={[Function]}
+      inputProps={Object {}}
+      maxSize={Infinity}
+      minSize={0}
+      multiple={true}
+      onDrop={[Function]}
+      preventDropOnDocument={true}
+      type="hidden"
+    >
+      <Component />
+    </t>
+  </div>
+</div>
+`;
+
+exports[`<FileDropzone /> #render() still matches snapshot 1`] = `
+<div
+  className="root"
+>
+  <WithStyles(GridContainer)
+    alignItems="stretch"
+    direction="row-reverse"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(Tooltip)
+        title="Upload Forms & Attachments"
+      >
+        <Dropzone
+          className=""
+          disableClick={false}
+          disablePreview={false}
+          disabled={false}
+          getDataTransferItems={[Function]}
+          inputProps={Object {}}
+          maxSize={Infinity}
+          minSize={0}
+          multiple={true}
+          onDrop={[Function]}
+          preventDropOnDocument={true}
+          type="hidden"
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            classes={
+              Object {
+                "root": undefined,
+              }
+            }
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <WithStyles(Icon)
+                  icon="lnr-paperclip"
+                />
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              className="undefined"
+            >
+              Drag and drop the files you want to upload or click to select them.
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </Dropzone>
+      </WithStyles(Tooltip)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="black"
+        dense={true}
+        icon="lnr-broom"
+        iconButton={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="outline"
+        verySquare={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FileDropzone /> #renderText() still matches snapshot if props.compact 1`] = `"Click to upload"`;

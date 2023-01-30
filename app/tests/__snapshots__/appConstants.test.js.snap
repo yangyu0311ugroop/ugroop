@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SHARE_URL_HELPERS should match snapshot 1`] = `"https://www.facebook.com/sharer/sharer.php?u=localhost&quote=test"`;
+
+exports[`SHARE_URL_HELPERS should match snapshot 2`] = `"https://twitter.com/intent/tweet?url=localhost&text=test"`;
+
+exports[`SHARE_URL_HELPERS should match snapshot 3`] = `"https://api.whatsapp.com/send?text=test%0Alocalhost"`;
+
+exports[`SHARE_URL_HELPERS should match snapshot 4`] = `"mailto:?subject=test&body=localhost"`;
+
+exports[`URL_HELPERS goTo() should goTo() 1`] = `
+Array [
+  Array [
+    "/tours//tours/1231",
+  ],
+]
+`;
+
+exports[`URL_HELPERS myTours() should return myTours URL 1`] = `"/my-tours"`;
+
+exports[`URL_HELPERS myTours() should return myTours URL 2`] = `"/my-tours/personal"`;
+
+exports[`URL_HELPERS myTours() should return myTours URL 3`] = `"/my-tours/recent"`;
+
+exports[`URL_HELPERS myTours() should return myTours URL 4`] = `"/my-tours/starred"`;
+
+exports[`URL_HELPERS myTours() should return myTours URL 5`] = `"/my-tours/3344"`;
+
+exports[`URL_HELPERS personalInfo() should return personalInfo URL 1`] = `"/settings/personal-info"`;
+
+exports[`URL_HELPERS settingsOrganisations() should return settingsOrganisations URL 1`] = `"/settings?tab=2"`;
+
+exports[`URL_HELPERS tourPrint() should return tourPrint URL 1`] = `"/print/tour/undefined"`;
+
+exports[`URL_HELPERS tours() should return tours URL 1`] = `"/tours"`;
+
+exports[`URL_HELPERS tours() should return tours URL 2`] = `"/tours/:id?"`;
+
+exports[`URL_HELPERS tours() should return tours URL 3`] = `"/tours/3344"`;

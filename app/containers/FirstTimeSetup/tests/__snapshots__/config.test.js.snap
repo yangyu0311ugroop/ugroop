@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstTimeSetup/config.js Smoke Test should exists 1`] = `
+Object {
+  "isLoading": Object {
+    "fetching": Array [
+      "Organisations",
+      "getOwnOrgInfo",
+    ],
+  },
+  "value": Object {
+    "orgInfo": Object {
+      "keyPath": Array [
+        "organisationDataStore",
+        "orgInfo",
+      ],
+      "spreadObject": true,
+    },
+  },
+}
+`;

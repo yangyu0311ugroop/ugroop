@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentDetailYear /> renderTextField should match snapshot 1`] = `
+<div>
+  <TextField
+    autoFocus={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Year Level"
+        id="app.smartComponents.Person.StudentDetail.Year.label"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="studentDetail.year"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<StudentDetailYear /> renderTextOnly should match snapshot 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+  />
+</div>
+`;

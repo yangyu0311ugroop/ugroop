@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventHeading /> #render() still matches snapshot 1`] = `
+<H2
+  dense={true}
+  weight="bold"
+>
+  Some children
+</H2>
+`;

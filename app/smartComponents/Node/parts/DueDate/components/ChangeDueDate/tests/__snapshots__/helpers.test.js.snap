@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 1`] = `"0001-01-01T12:35:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 2`] = `"0001-01-01T13:05:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 3`] = `"0001-01-02T12:35:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 4`] = `"0000-12-31T12:35:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 5`] = `"0001-01-03T12:35:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS calculateDate() should calculateDate 6`] = `"0000-12-30T12:35:56.789Z"`;
+
+exports[`DUE_DATE_HELPERS humaniseDuration() should humaniseDuration 1`] = `"renderNoOffset"`;
+
+exports[`DUE_DATE_HELPERS humaniseDuration() should humaniseDuration 2`] = `"at time of event"`;
+
+exports[`DUE_DATE_HELPERS humaniseDuration() should humaniseDuration 3`] = `"renderOffset"`;
+
+exports[`DUE_DATE_HELPERS makeCustomDurationOption() should makeCustomDurationOption 1`] = `
+Object {
+  "key": "P2D",
+  "mode": "relative",
+  "value": "DUE_DATE_HELPERS.humaniseDuration",
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeHeadingOption() should makeHeadingOption 1`] = `
+Object {
+  "disabled": true,
+  "heading": true,
+  "key": "Relative date:",
+  "value": "Relative date:",
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeNoOffsetOption() should makeNoOffsetOption 1`] = `
+Object {
+  "key": "P0D",
+  "mode": "relative",
+  "value": <React.Fragment>
+    renderNoOffset
+  </React.Fragment>,
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeOptionsByType() should makeOptionsByType 1`] = `
+Array [
+  "makeRelativeOptions",
+]
+`;
+
+exports[`DUE_DATE_HELPERS makeOptionsByType() should makeOptionsByType 2`] = `
+Array [
+  "makeRelativeOptions",
+]
+`;
+
+exports[`DUE_DATE_HELPERS makeOptionsByType() should makeOptionsByType 3`] = `
+Array [
+  "modeEventOptions",
+]
+`;
+
+exports[`DUE_DATE_HELPERS makeOptionsByType() should makeOptionsByType 4`] = `
+Array [
+  "makeRelativeOptions",
+]
+`;
+
+exports[`DUE_DATE_HELPERS makeRelativeOption() should makeRelativeOption 1`] = `"makeCustomDurationOption"`;
+
+exports[`DUE_DATE_HELPERS makeRelativeOption() should makeRelativeOption 2`] = `
+Object {
+  "key": "P3D",
+  "mode": "relative",
+  "value": "3 days after",
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeRelativeOptions() should makeRelativeOptions 1`] = `
+Array [
+  "makeRelativeOption",
+  "makeRelativeOption",
+]
+`;
+
+exports[`DUE_DATE_HELPERS makeSelectedFixedDateOption() should makeSelectedFixedDateOption 1`] = `
+Object {
+  "key": "0001-01-01T12:35:56.789Z",
+  "mode": "fixedDateTime",
+  "value": <React.Fragment>
+    renderDayDate
+     at 
+    renderTime
+  </React.Fragment>,
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeSelectedFixedDateOption() should makeSelectedFixedDateOption 2`] = `
+Object {
+  "key": "0001-01-01T12:35:56.789Z",
+  "mode": "fixedDate",
+  "value": <React.Fragment>
+    renderDayDate
+  </React.Fragment>,
+}
+`;
+
+exports[`DUE_DATE_HELPERS makeSelectedFixedDateOptionState() should makeSelectedFixedDateOptionState 1`] = `
+Object {
+  "key": "0001-01-01T09:00:56.789Z",
+  "mode": "fixedDateTime",
+  "value": <React.Fragment>
+    Click to set 
+    "
+    renderDayDate
+     at renderTime
+    "
+  </React.Fragment>,
+}
+`;
+
+exports[`DUE_DATE_HELPERS modeEventOptions() should modeEventOptions 1`] = `
+Array [
+  "makeRelativeOption",
+  "makeRelativeOptions",
+]
+`;
+
+exports[`DUE_DATE_HELPERS renderCalculatedDate() should renderCalculatedDate 1`] = `"renderTime"`;
+
+exports[`DUE_DATE_HELPERS renderCalculatedDate() should renderCalculatedDate 2`] = `"renderCalendarDueDate"`;
+
+exports[`DUE_DATE_HELPERS renderNoOffset() should renderNoOffset 1`] = `"start of tour"`;
+
+exports[`DUE_DATE_HELPERS renderNoOffset() should renderNoOffset 2`] = `"on this day"`;
+
+exports[`DUE_DATE_HELPERS renderNoOffset() should renderNoOffset 3`] = `"on date of event"`;
+
+exports[`DUE_DATE_HELPERS renderNoOffset() should renderNoOffset 4`] = `"start of tour, day or event"`;
+
+exports[`DUE_DATE_HELPERS renderOffset() should renderOffset 1`] = `"2 days after this tour"`;
+
+exports[`DUE_DATE_HELPERS renderOffset() should renderOffset 2`] = `"a day after this tour"`;
+
+exports[`DUE_DATE_HELPERS renderOffset() should renderOffset 3`] = `"30 minutes after"`;
+
+exports[`DUE_DATE_HELPERS renderOffset() should renderOffset 4`] = `"4 days after"`;

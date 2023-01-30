@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Name /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "Typography": [Function],
+      "classes": Object {
+        "labelValueItem": "labelValueItem",
+      },
+      "dataId": null,
+      "editablePlaceholder": "Click to specify event title",
+      "readOnly": false,
+      "readOnlyEditablePlaceholder": "Untitled",
+      "value": "",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Name /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderEditableHeadingForm={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Name /> #renderEditableHeadingForm() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      Typography="H2"
+      autoComplete="off"
+      autoFocus={true}
+      name="data.name"
+      onSubmit={[Function]}
+      placeholder="Click to specify event title"
+      readOnly={false}
+      readOnlyPlaceholder="Untitled"
+      renderValue={[Function]}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Name /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <FormsyInterceptor
+    autoComplete="off"
+    autoFocus={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Title"
+        id="app.Event.parts.Event.Name.nameLabel"
+      />
+    }
+    name="data.name"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Name /> #renderHeadingValue() still matches snapshot 1`] = `
+<EventHeading
+  Typography={[Function]}
+>
+  value
+</EventHeading>
+`;
+
+exports[`<Name /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H5
+    className="labelValueItem"
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H5>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Name /> #renderLabelValue() still matches snapshot 2`] = `""`;
+
+exports[`<Name /> #renderValueOnly() still matches snapshot 1`] = `""`;

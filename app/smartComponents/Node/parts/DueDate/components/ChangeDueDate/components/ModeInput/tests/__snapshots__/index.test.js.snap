@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModeInput /> changeDueDate() should render correctly 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "customData": Object {
+            "dueDate": Object {
+              "mode": "relative",
+              "parentNodeId": 0,
+              "value": undefined,
+            },
+          },
+          "type": "checklist",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ModeInput /> modeOptions() should match snapshot 1`] = `
+Array [
+  Object {
+    "key": "unset",
+    "mode": "unset",
+    "noIndent": true,
+    "value": "No due date",
+  },
+  Object {
+    "disabled": true,
+    "heading": true,
+    "key": "Fixed date:",
+    "value": "Fixed date:",
+  },
+  null,
+  Object {
+    "key": "fixedDateTime",
+    "mode": "fixedDateTime",
+  },
+  null,
+  Object {
+    "disabled": true,
+    "heading": true,
+    "key": "Relative date:",
+    "value": "Relative date:",
+  },
+  Object {
+    "key": "P0D",
+    "mode": "relative",
+    "value": <React.Fragment>
+      start of tour
+    </React.Fragment>,
+  },
+  "makeCustomDurationOption",
+  "makeCustomDurationOption",
+  "makeCustomDurationOption",
+  "makeCustomDurationOption",
+  "makeCustomDurationOption",
+  "makeCustomDurationOption",
+  "makeSelectedRelativeDateOption",
+  Object {
+    "key": "custom",
+    "mode": "custom",
+  },
+  "makeCustomDurationOption",
+]
+`;
+
+exports[`<ModeInput /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(List))>
+    renderListItem
+  </WithStyles(ForwardRef(List))>
+</div>
+`;
+
+exports[`<ModeInput /> renderCustom() should renderCustom 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+    >
+       
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <GenericForm
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        disabled={false}
+        discardDialogProps={Object {}}
+        loading={false}
+        onInvalid={[Function]}
+        onValid={[Function]}
+        onValidSubmit={[Function]}
+        showChangeRoutePrompt={false}
+        submitButtonContent="Submit"
+      >
+        <WithStyles(InlineText)
+          autoComplete="off"
+          name="value"
+          onChange={[Function]}
+          placeholder="custom offset: 3d, -3d, etc."
+        />
+      </GenericForm>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-question-circle"
+          size="xsmall"
+        />
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ModeInput /> renderFixed() should renderFixed 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+         
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Formsy(DateField)
+          iconSize="xsmall"
+          innerRef={[Function]}
+          name="dueDate"
+          onChange={[Function]}
+          onPickerClose={[Function]}
+          onPickerOpen={[Function]}
+          placeholder="input a date"
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value=""
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(TimeField)
+          iconSize="xsmall"
+          name="dueTime"
+          onChange={[Function]}
+          onPickerClose={[Function]}
+          onPickerOpen={[Function]}
+          placeholder="time"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<ModeInput /> renderListItem() should renderListItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    className=""
+    key="some keyundefined"
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <span>
+           
+        </span>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(ListItem))>
+</div>
+`;

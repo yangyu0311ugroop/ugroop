@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadPhotos /> render() should render 1`] = `
+<div>
+  <WithStyles(FileDropzone)
+    accept="image/*"
+    id={99}
+    onDrop={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  >
+    <Component />
+  </WithStyles(FileDropzone)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderUploadPhotosButton() should renderUploadPhotosButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="primary"
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-plus"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<UploadPhotos /> renderUploadPhotosButton() should renderUploadPhotosButton full 1`] = `
+<div>
+  <WithStyles(JButton)
+    bg="green"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          icon="lnr-upload2"
+          paddingRight={true}
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Upload
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+</div>
+`;

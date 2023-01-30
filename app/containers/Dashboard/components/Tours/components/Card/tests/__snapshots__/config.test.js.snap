@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card/config.js organisationTours() should organisationTours() 1`] = `
+Array [
+  "organisationDataStore",
+  "organisationTours",
+  2233,
+  "children",
+]
+`;
+
+exports[`Card/config.js organisationUpdatedAt() should organisationUpdatedAt() 1`] = `
+Array [
+  "organisationDataStore",
+  "organisationTours",
+  2233,
+  "updatedAt",
+]
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventTimeLabel /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        12:00 UTC
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventTimeLabel /> #render() still matches snapshot with prefix 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <H5
+        dense={true}
+        weight="bold"
+      >
+        Some prefix
+      </H5>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        12:00 UTC
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventTimeLabel /> #render() still matches snapshot without time 1`] = `""`;
+
+exports[`<EventTimeLabel /> #render() still matches snapshot without time and showEmpty 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        Not set
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;

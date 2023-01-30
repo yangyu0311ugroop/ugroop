@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortBy /> render() should render correctly 1`] = `<div />`;
+
+exports[`<SortBy /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Object {
+      "ids": Array [],
+      "sortedIds": Array [],
+    },
+  ],
+  Array [
+    Object {
+      "ids": Array [],
+      "sortedIds": Array [],
+    },
+  ],
+  Array [
+    Object {
+      "ids": Array [],
+      "sortedIds": Array [],
+    },
+  ],
+  Array [
+    Object {
+      "ids": Array [],
+      "sortedIds": Array [],
+    },
+  ],
+]
+`;

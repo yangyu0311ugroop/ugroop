@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourCount /> getStrippedOwnProps should match snapshot 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TourCount /> renderProp should match snapshot 1`] = `<div />`;
+
+exports[`<TourCount /> renderSpanOnly should match snapshot 1`] = `
+<div>
+  <span
+    childrenArray={Array []}
+    classes={Object {}}
+    withLabel={false}
+  >
+    renderWithLabel
+  </span>
+</div>
+`;
+
+exports[`<TourCount /> renderStringOnly should match snapshot 1`] = `
+<div>
+  renderWithLabel
+</div>
+`;
+
+exports[`<TourCount /> renderTextOnly should match snapshot 1`] = `
+<div>
+  <P
+    childrenArray={Array []}
+    classes={Object {}}
+    withLabel={false}
+  >
+    renderWithLabel
+  </P>
+</div>
+`;
+
+exports[`<TourCount /> renderTitle should match snapshot 1`] = `
+<div>
+  <span>
+    renderWithLabel
+  </span>
+</div>
+`;
+
+exports[`<TourCount /> renderWithOrgName should match snapshot if there are no childrenArray 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TourCount /> renderWithOrgName should match snapshot with childrenArray.length > 1 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    />
+    <WithStyles(Tooltip)
+      title="There are 2 tours in this organisation"
+    >
+      <WithStyles(GridItem)>
+        2
+      </WithStyles(GridItem)>
+    </WithStyles(Tooltip)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TourCount /> renderWithOrgName should match snapshot with childrenArray.length 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    />
+    <WithStyles(Tooltip)
+      title="There is 1 tour in this organisation"
+    >
+      <WithStyles(GridItem)>
+        1
+      </WithStyles(GridItem)>
+    </WithStyles(Tooltip)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabs/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "shareListFilter": Array [
+      "templateManagementView",
+      "shareList",
+      "filter",
+    ],
+    "shareListTab": Array [
+      "templateManagementView",
+      "shareList",
+      "tab",
+    ],
+  },
+  "value": Object {
+    "shareListFilter": Array [
+      "templateManagementView",
+      "shareList",
+      "filter",
+    ],
+    "shareListTab": Array [
+      "templateManagementView",
+      "shareList",
+      "tab",
+    ],
+  },
+}
+`;

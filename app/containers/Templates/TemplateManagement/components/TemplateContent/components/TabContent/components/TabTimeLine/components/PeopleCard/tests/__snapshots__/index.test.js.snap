@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeopleCard /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+    paddingBottom0={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(Head)>
+            People
+          </WithStyles(Head)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))
+            filterView={
+              Object {
+                "peopleTabOptionSelected": "allContributors",
+              }
+            }
+            peopleTabIndex={-1}
+            readOnlyLabel={<div />}
+            view="tour_contributor"
+          >
+            See all
+          </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              0
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))
+                filterView={
+                  Object {
+                    "participantViewFilter": "confirmed",
+                    "peopleTabOptionSelected": "goingParticipants",
+                  }
+                }
+                peopleTabIndex={-1}
+                peopleView="participant"
+              >
+                <WithStyles(Head)
+                  xs={true}
+                >
+                  Going
+                </WithStyles(Head)>
+              </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              0
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))
+                filterView={
+                  Object {
+                    "participantViewFilter": "pending",
+                    "peopleTabOptionSelected": "maybeParticipants",
+                  }
+                }
+                peopleTabIndex={-1}
+                peopleView="participant"
+              >
+                <WithStyles(Head)
+                  xs={true}
+                >
+                  Maybe
+                </WithStyles(Head)>
+              </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              0
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))
+                filterView={
+                  Object {
+                    "interestedListViewModalFilter": "allFollowers",
+                    "peopleTabOptionSelected": "allFollowers",
+                  }
+                }
+                peopleTabIndex={-1}
+                peopleView="interestedPeople"
+              >
+                <WithStyles(Head)
+                  xs={true}
+                >
+                  Followers
+                </WithStyles(Head)>
+              </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleCard /> renderContent() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))
+        filterView={Object {}}
+        peopleTabIndex={-1}
+      >
+        <WithStyles(Head)
+          xs={true}
+        />
+      </withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleLink))))))>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

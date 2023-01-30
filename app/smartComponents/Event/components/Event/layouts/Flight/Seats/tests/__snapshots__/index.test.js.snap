@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Seats /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)
+        md={11}
+        sm={11}
+        xs={10}
+      >
+        <H5
+          dense={true}
+          weight="bold"
+        >
+          Seats
+        </H5>
+      </WithStyles(GridItem)>
+      renderUpperRightButton
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      renderSeat
+      renderSeat
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Seats /> renderEmptyList should match snapshot 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    No seats added yet
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<Seats /> renderSeat should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+    xs={12}
+  >
+    <ConnectFunction
+      id={1}
+      variant="textOnly"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Seats /> renderUpperRightButton should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={1}
+    sm={1}
+    xs={2}
+  >
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(AddSeat)))
+        parentNodeId={1122}
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Seats /> renderUpperRightButton should match snapshot if value array is empty 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={1}
+    sm={1}
+    xs={2}
+  >
+    <div>
+      <WithStyles(Connect(WithSimplifyResaga(AddSeat)))
+        parentNodeId={1122}
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

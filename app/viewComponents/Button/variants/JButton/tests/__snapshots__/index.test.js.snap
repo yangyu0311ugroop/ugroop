@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JButton /> render() should render 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    dense={true}
+    noPadding={true}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    size="extraSmall"
+  />
+</div>
+`;

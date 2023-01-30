@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MedicalDescription /> render() should render correctly 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+    weight="bold"
+  />
+</div>
+`;
+
+exports[`<MedicalDescription /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <TextField
+    autoFocus={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Description"
+        id="app.smartComponents.Person.Medical.Description.label"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="medical.description"
+    required={true}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<MedicalDescription /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+    weight="bold"
+  />
+</div>
+`;

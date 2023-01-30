@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Type /> #renderData() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="node.type"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+/>
+`;
+
+exports[`<Type /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "data": [Function],
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Type /> renderDefault() should render section rather than activity 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    section
+  </span>
+</div>
+`;
+
+exports[`<Type /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    some type
+  </span>
+</div>
+`;
+
+exports[`<Type /> renderDefault() should renderDefault properly given that type of node includes tab 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    tabtimeline
+  </span>
+</div>
+`;

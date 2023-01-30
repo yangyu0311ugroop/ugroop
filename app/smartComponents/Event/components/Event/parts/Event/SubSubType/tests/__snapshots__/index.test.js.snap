@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubSubType /> handleSubmit should call patchEvent templat helpers 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "classes": Object {},
+      "dataId": 0,
+      "options": Array [
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Escorted"
+            id="app/smartComponents/Event/components/Event/parts/Coach/Type/escorted"
+          />,
+          "value": "Escorted",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Self-Drive"
+            id="app/smartComponents/Event/components/Event/parts/Coach/Type/selfdrive"
+          />,
+          "value": "SelfDrive",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Driver"
+            id="app/smartComponents/Event/components/Event/parts/Coach/Type/drive"
+          />,
+          "value": "Driver",
+        },
+      ],
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "subSubType": "",
+    },
+  ],
+]
+`;
+
+exports[`<SubSubType /> render() should match snapshot 1`] = `Array []`;
+
+exports[`<SubSubType /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableSelectForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Type"
+          id="app/smartComponents/Event/components/Event/parts/Coach/Type/label"
+        />
+      }
+      name="data.detail.detail.type"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Escorted"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/escorted"
+            />,
+            "value": "Escorted",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Self-Drive"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/selfdrive"
+            />,
+            "value": "SelfDrive",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Driver"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/drive"
+            />,
+            "value": "Driver",
+          },
+        ]
+      }
+      placeholder="Click here to specify the location"
+      readOnly={false}
+      renderValue={[Function]}
+      value=""
+    >
+      <EventPatchData
+        dataId={0}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableSelectForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<SubSubType /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Formsy(SelectField)
+      innerRef={[Function]}
+      label={
+        <FormattedMessage
+          defaultMessage="Type"
+          id="app/smartComponents/Event/components/Event/parts/Coach/Type/label"
+        />
+      }
+      name="data.detail.detail.type"
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Escorted"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/escorted"
+            />,
+            "value": "Escorted",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Self-Drive"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/selfdrive"
+            />,
+            "value": "SelfDrive",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Driver"
+              id="app/smartComponents/Event/components/Event/parts/Coach/Type/drive"
+            />,
+            "value": "Driver",
+          },
+        ]
+      }
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+      value="Escorted"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

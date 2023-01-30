@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Templates/Modals/ParticipantList/config CONFIG value contains required properties 1`] = `"containers.templates.modals.participantList.statuses.1"`;
+
+exports[`containers/Templates/Modals/ParticipantList/config CONFIG value contains required properties 2`] = `"containers.templates.modals.participantList.statuses.null"`;

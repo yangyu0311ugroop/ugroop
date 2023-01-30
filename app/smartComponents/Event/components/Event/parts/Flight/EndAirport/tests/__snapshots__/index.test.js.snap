@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndAirport /> #render() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Airport)))
+  cityNamePath={
+    Array [
+      "detail",
+      "detail",
+      "end",
+      "airport",
+      "cityName",
+    ]
+  }
+  editablePlaceholder={
+    Array [
+      Object {
+        "defaultMessage": "Click to search for airport",
+        "id": "app.Event.parts.Flight.EndAirport.editablePlaceholder",
+      },
+    ]
+  }
+  iataCodePath={
+    Array [
+      "detail",
+      "detail",
+      "end",
+      "airport",
+      "iataCode",
+    ]
+  }
+  inputs={
+    Object {
+      "InputLabelProps": Object {
+        "shrink": true,
+      },
+      "cityNameProps": Object {
+        "name": "data.detail.detail.end.airport.cityName",
+      },
+      "iataCodeProps": Object {
+        "name": "data.detail.detail.end.airport.iataCode",
+      },
+      "label": <FormattedMessage
+        defaultMessage="Arriving"
+        id="app.Event.parts.Flight.EndAirport.airportLabel"
+      />,
+      "name": "data.detail.detail.end.airport.name",
+      "timeZoneIdProps": Object {
+        "name": "node.customData.end.timeZoneId",
+      },
+    }
+  }
+  placeholder={
+    Array [
+      Object {
+        "defaultMessage": "Search for airport",
+        "id": "app.Event.parts.Flight.EndAirport.placeholder",
+      },
+    ]
+  }
+  position="end"
+  timeZoneIdPath={
+    Array [
+      "customData",
+      "end",
+      "timeZoneId",
+    ]
+  }
+  valuePath={
+    Array [
+      "detail",
+      "detail",
+      "end",
+      "airport",
+      "name",
+    ]
+  }
+  variant={null}
+/>
+`;

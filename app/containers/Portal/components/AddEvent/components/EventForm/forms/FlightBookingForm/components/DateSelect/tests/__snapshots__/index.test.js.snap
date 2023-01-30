@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateSelect /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    fullWidth={true}
+    noPadding={true}
+    placement="bottom"
+    renderButton={[MockFunction]}
+    startDayId={123}
+    value=""
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<DateSelect /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+    id={1}
+    showDayIndex={true}
+  >
+    <Component />
+  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))>
+</div>
+`;
+
+exports[`<DateSelect /> renderButton() should return batchCreate 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <FilledTextField
+        InputProps={Object {}}
+        autoComplete="off"
+        fullWidth={true}
+        label="Date"
+        placeholder="Enter date"
+        readonly={true}
+        value=""
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DateSelect /> renderDayDate() should renderDayDate 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <FilledTextField
+        InputProps={Object {}}
+        autoComplete="off"
+        fullWidth={true}
+        label="Date"
+        placeholder="Enter date"
+        readonly={true}
+        value=""
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DateSelect /> renderMenu() should renderMenu 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`<DateSelect /> renderOption() should renderOption 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      block={true}
+      noBorderRadius={true}
+      onClick={[Function]}
+      textAlign="left"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <input
+            checked={false}
+            name="startDates"
+            type="radio"
+            value="email"
+          />
+        </WithStyles(GridItem)>
+        renderOptionContent
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DateSelect /> renderOptionContent() should renderOptionContent index !0 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(JTextClass)
+      dark={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+        offset="P10D"
+        showDayIndex={true}
+      />
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DateSelect /> renderOptionContent() should renderOptionContent index 0 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(JTextClass)
+      dark={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+        offset="P0D"
+        showDayIndex={true}
+      />
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DateSelect /> renderOptionContent() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      gray={true}
+    >
+      undefined day later
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

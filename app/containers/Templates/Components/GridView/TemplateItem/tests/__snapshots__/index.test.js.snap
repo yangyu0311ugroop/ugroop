@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateItem  componentDidMount  should be called properly if cardImageUrl does not exist 1`] = `
+Array [
+  Array [
+    Object {
+      "manuallySubscribe": true,
+      "name": "Nodes",
+      "processResult": Object {
+        "batchCreateClone": [Function],
+        "batchDeleteChildren": [Function],
+        "batchDeleteNode": [Function],
+        "batchMove": [Function],
+        "copyNode": [Function],
+        "createAttachment": [Function],
+        "createChild": [Function],
+        "createLink": [Function],
+        "createNextNode": [Function],
+        "createNode": [Function],
+        "createPhoto": [Function],
+        "deleteChildren": [Function],
+        "deleteLink": [Function],
+        "deleteTempNode": [Function],
+        "getAttachment": [Function],
+        "getChildren": [Function],
+        "getFilterNodes": [Function],
+        "getNode": [Function],
+        "getTransfer": [Function],
+        "getTree": [Function],
+        "insertAfter": [Function],
+        "insertBefore": [Function],
+        "insertTempAfter": [Function],
+        "insertTempBefore": [Function],
+        "move": [Function],
+        "patchTransferNode": [Function],
+        "removeAttachment": [Function],
+        "removeNode": [Function],
+        "removeNodeAndLinks": [Function],
+        "removePhoto": [Function],
+        "shareNode": [Function],
+        "transfer": [Function],
+        "updateAttachment": [Function],
+        "updateChild": [Function],
+        "updateNode": [Function],
+        "updatePhoto": [Function],
+        "updatedLink": [Function],
+      },
+      "requests": Object {
+        "batchCreateClone": [Function],
+        "batchDeleteChildren": [Function],
+        "batchDeleteNode": [Function],
+        "batchMove": [Function],
+        "cloneParticipant": [Function],
+        "copyNode": [Function],
+        "createAttachment": [Function],
+        "createChild": [Function],
+        "createClone": [Function],
+        "createLink": [Function],
+        "createNextNode": [Function],
+        "createNode": [Function],
+        "createPhoto": [Function],
+        "deleteChildren": [Function],
+        "deleteLink": [Function],
+        "deleteTempNode": [Function],
+        "findParticipant": [Function],
+        "getAttachment": [Function],
+        "getChildren": [Function],
+        "getFilterNodes": [Function],
+        "getNode": [Function],
+        "getPhotos": [Function],
+        "getTimes": [Function],
+        "getTransfer": [Function],
+        "getTree": [Function],
+        "insertAfter": [Function],
+        "insertBefore": [Function],
+        "insertTempAfter": [Function],
+        "insertTempBefore": [Function],
+        "move": [Function],
+        "moveAfter": [Function],
+        "moveBefore": [Function],
+        "moveChild": [Function],
+        "moveNodeAfter": [Function],
+        "moveNodeBefore": [Function],
+        "patchTransferNode": [Function],
+        "removeAttachment": [Function],
+        "removeNode": [Function],
+        "removeNodeAndLinks": [Function],
+        "removePhoto": [Function],
+        "shareNode": [Function],
+        "transfer": [Function],
+        "updateAttachment": [Function],
+        "updateChild": [Function],
+        "updateNode": [Function],
+        "updatePhoto": [Function],
+        "updatedLink": [Function],
+      },
+      "setValue": Object {
+        "attachments": Array [
+          "attachmentStore",
+          "attachments",
+        ],
+        "editingCheckItem": Array [
+          "templateManagementView",
+          "editingCheckItem",
+        ],
+        "files": Array [
+          "fileDataStore",
+          "files",
+        ],
+        "linkIds": Array [
+          "nodeStore",
+          "linkIds",
+        ],
+        "links": Array [
+          "nodeStore",
+          "links",
+        ],
+        "nodeTransfers": Array [
+          "invitationStore",
+          "transfers",
+        ],
+        "nodes": Array [
+          "nodeStore",
+          "nodes",
+        ],
+        "notifications": Array [
+          "invitationStore",
+          "notifications",
+        ],
+        "open": Array [
+          "snackbarViewStore",
+          "open",
+        ],
+        "organisationTours": Array [
+          "organisationDataStore",
+          "organisationTours",
+        ],
+        "reaction": Array [
+          "nodeStore",
+          "nodes",
+        ],
+        "shareIds": Array [
+          "invitationStore",
+          "shareIds",
+        ],
+        "shareSubNodeIds": Array [
+          "invitationStore",
+          "shareSubNodeIds",
+        ],
+        "shareSubNodes": Array [
+          "invitationStore",
+          "shareSubNodes",
+        ],
+        "shares": Array [
+          "invitationStore",
+          "shares",
+        ],
+        "text": Array [
+          "snackbarViewStore",
+          "text",
+        ],
+        "tours": Array [
+          "abilityDataStore",
+          "tours",
+        ],
+        "transferFromMe": Array [
+          "invitationStore",
+          "transferFromMe",
+        ],
+        "transferToMe": Array [
+          "invitationStore",
+          "transferToMe",
+        ],
+        "type": Array [
+          "snackbarViewStore",
+          "type",
+        ],
+        "user": Array [
+          "nodeStore",
+          "nodes",
+        ],
+      },
+      "value": Object {
+        "tourOwnerAbilities": Array [
+          "abilityDataStore",
+          "definitions",
+          "tour",
+          "tour_owner",
+        ],
+      },
+    },
+    "getPhotos",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 15,
+      },
+    },
+  ],
+]
+`;
+
+exports[`TemplateItem  should hide actions if showActions is false 1`] = `
+<WithStyles(TemplateCard)
+  baseUrl="/tours/15"
+  cardImageUrl={null}
+  content="Small Group Tokyo Biking Tour"
+  customData={
+    Object {
+      "duration": 5,
+    }
+  }
+  dataStore=""
+  id={15}
+  onDelete={[MockFunction]}
+  renderActions={
+    <BoundCan
+      do="create"
+      on="folder"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+        onCopy={[MockFunction]}
+        onDelete={[MockFunction]}
+        onMove={[MockFunction]}
+      />
+    </BoundCan>
+  }
+  renderAdditionalContent={
+    <WithStyles(Connect(WithSimplifyResaga(ContributorsList)))
+      dataStore=""
+      id={15}
+    />
+  }
+  rootClassName=""
+  showActions={false}
+  templateQueryParam=""
+/>
+`;

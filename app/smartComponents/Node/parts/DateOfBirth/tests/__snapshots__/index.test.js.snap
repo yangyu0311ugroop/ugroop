@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateOfBirth /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <ConnectFunction
+    name="person.birthDate"
+    personId={null}
+    readOnly={false}
+    renderValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<DateOfBirth /> #renderEditable() still matches snapshot if props.userConnected and props.userValue 1`] = `
+<WithStyles(GridItem)>
+  <Memo(Connect(WithSimplifyResaga(DateOfBirthEditableMenu)))
+    id={null}
+    name="person.birthDate"
+    personId={null}
+    readOnly={false}
+    renderValue={[Function]}
+    userId={null}
+    userValue="userValue"
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<DateOfBirth /> #renderEditableValue() still matches snapshot if value 1`] = `"date (age)"`;
+
+exports[`<DateOfBirth /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <DateField
+    autoComplete="off"
+    disabled={false}
+    displayFormat="D MMMM YYYY"
+    initialFocusedDate="middlelastYear"
+    label={
+      <FormattedMessage
+        defaultMessage="Date of Birth"
+        id="app.Node.parts.DateOfBirth.label"
+      />
+    }
+    maxDate="lastYear"
+    name="node.customData.dob"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<DateOfBirth /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</WithStyles(GridItem)>
+`;
+
+exports[`<DateOfBirth /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="cake"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        nowrap={true}
+      >
+        Invalid date
+         ( old)
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

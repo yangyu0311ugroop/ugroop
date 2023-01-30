@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ugcomponents/File/hoc/withUploadFile #enqueueFile() should call setValue if fileSize exceeds MAX_FILE_SIZE 1`] = `
+Object {
+  "setValue": Object {
+    "obj": Object {
+      "open": true,
+      "text": "Max file size of 10mb exceeded",
+      "type": "critical",
+    },
+  },
+}
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile #handleUploadError() calls onError() 1`] = `
+Array [
+  Array [
+    Object {
+      "error": "HTTP 9001: some error response status text",
+      "name": "some name",
+      "raw": Object {
+        "response": Object {
+          "statusText": "some error response status text",
+        },
+        "status": 9001,
+      },
+      "size": 123,
+    },
+  ],
+]
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile #render() still matches snapshot 1`] = `
+<Fragment>
+  <MockComponent
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    uploadFile={
+      Object {
+        "enqueueData": [Function],
+        "enqueueFile": [Function],
+        "enqueuePhoto": [Function],
+        "handleDelete": [Function],
+        "subscribeError": [Function],
+        "subscribeSuccess": [Function],
+      }
+    }
+  />
+  <WithStyles(UploadProgressDialogUI)
+    dialogState="awaitingUpload"
+    filename=""
+    progress={0}
+    remaining={0}
+    speed={0}
+  />
+</Fragment>
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile #render() still matches snapshot while uploading 1`] = `
+<div>
+  <MockComponent
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    uploadFile={
+      Object {
+        "enqueueData": [Function],
+        "enqueueFile": [Function],
+        "enqueuePhoto": [Function],
+        "handleDelete": [Function],
+        "subscribeError": [Function],
+        "subscribeSuccess": [Function],
+      }
+    }
+  />
+  <WithStyles(UploadProgressDialogUI)
+    dialogState="uploading"
+    filename="some name"
+    progress={0}
+    remaining={0}
+    speed={0}
+  />
+</div>
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile #upload() still matches snapshot 1`] = `
+Object {
+  "dispatchTo": Object {
+    "key": "FileContainers",
+    "obj": Object {
+      "onError": "handleUploadError",
+      "onSuccess": "handleUploadSuccess",
+      "payload": Object {
+        "container": "someContainer",
+        "data": Object {
+          "get": [Function],
+        },
+        "uploadOptions": Object {
+          "onUploadProgress": [Function],
+        },
+      },
+    },
+    "type": "uploadFile",
+  },
+}
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile default state still matches snapshot 1`] = `
+Object {
+  "remainingTime": 0,
+  "status": "awaitingUpload",
+  "uploadProgress": 0,
+  "uploadSpeed": 0,
+  "uploading": null,
+}
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile handleDelete() should call dispatchTo 1`] = `
+Object {
+  "dispatchTo": Object {
+    "key": "FileContainers",
+    "obj": Object {
+      "onSuccess": "handleDeleteSuccess",
+      "payload": Object {
+        "container": "someContainer",
+        "file": "file",
+      },
+    },
+    "type": "destroyFile",
+  },
+}
+`;
+
+exports[`ugcomponents/File/hoc/withUploadFile handleDelete() should call ifFunction of LOGIC_HELPER and call custom handle delete 1`] = `
+Array [
+  Array [
+    [MockFunction],
+    Array [
+      "file",
+      "someContainer",
+    ],
+  ],
+]
+`;

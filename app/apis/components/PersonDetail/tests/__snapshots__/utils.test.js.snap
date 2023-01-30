@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/apis/components/PersonDetail/utils.js addDietary should return a particular object shape 1`] = `
+Object {
+  "dietaries": "upsertObject",
+  "peopleById": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addInsurancePolicy should return a particular object shape 1`] = `
+Object {
+  "addResult": Object {},
+  "insurancePolicies": "upsertObject",
+  "peopleById": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addMedical should return a particular object shape 1`] = `
+Object {
+  "medicals": "upsertObject",
+  "peopleById": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addPassport should return a particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": "upsertObject",
+  "peopleById": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addPassport should return a particular object shape if birthDate and birthPlace are included 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": "upsertObject",
+  "peopleById": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addPeople should return particular object shape 1`] = `
+Object {
+  "dietaries": "upsertObject",
+  "files": "upsertObject",
+  "insurancePolicies": "upsertObject",
+  "medicals": "upsertObject",
+  "people": "upsertObject",
+  "peopleById": "upsertObject",
+  "phones": "upsertObject",
+  "result": Object {
+    "photo": Object {
+      "url": "url",
+      "x": 1,
+      "y": 1,
+    },
+    "userId": 1,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addPersonById should return particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "peopleById": "upsertObject",
+  "phones": "upsertObject",
+  "result": Object {
+    "id": 1,
+    "phones": Array [
+      Object {
+        "id": 2,
+      },
+    ],
+    "photo": Object {
+      "url": "url",
+      "x": 1,
+      "y": 1,
+    },
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addPhone should return a particular object shape 1`] = `
+Object {
+  "people": "upsertArray",
+  "phones": [Function],
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js addStudentDetail should return a particular object shape 1`] = `
+Object {
+  "peopleById": "upsertArray",
+  "studentDetails": "upsertObject",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js createPassportFacade should return a particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js createPassportFacade should return a particular object shape with no birthDate 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js deletePhone should return a particular object shape 1`] = `
+Object {
+  "people": "removeItemsArray",
+  "phones": "removeObjectById",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js getPassportsFacade should return a particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": "upsertObject",
+  "people": "upsertArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js makeIsDefaultOne should make all defaults to false if the item to be inserted is default is true 1`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "isDefault": false,
+  },
+  "2": Object {
+    "id": 2,
+    "isDefault": false,
+  },
+  "3": Object {
+    "id": 3,
+    "isDefault": false,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js makeIsDefaultOne should make all defaults to false if the item to be updated is default is true 1`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "isDefault": true,
+  },
+  "2": Object {
+    "id": 2,
+    "isDefault": false,
+  },
+  "3": Object {
+    "id": 3,
+    "isDefault": false,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js makeIsDefaultOne should not make all defaults to false if the item to be inserted is default is false 1`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "isDefault": true,
+  },
+  "2": Object {
+    "id": 2,
+    "isDefault": false,
+  },
+  "3": Object {
+    "id": 3,
+    "isDefault": false,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js makeIsDefaultOne should not make all defaults to false if the item to be updated is default is false 1`] = `
+Object {
+  "1": Object {
+    "id": 1,
+    "isDefault": false,
+  },
+  "2": Object {
+    "id": 2,
+    "isDefault": false,
+  },
+  "3": Object {
+    "id": 3,
+    "isDefault": true,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchDietary should return a particular object shape 1`] = `
+Object {
+  "dietaries": "upsertObject",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchInsurancePolicy should return a particular object shape 1`] = `
+Object {
+  "insurancePolicies": "upsertObject",
+  "patchResult": Object {
+    "body": Object {
+      "insurancePolicy": Object {},
+    },
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchMedical should return a particular object shape 1`] = `
+Object {
+  "medicals": "upsertObject",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchPassport should return a particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": "upsertObject",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchPassportFacade should return a particular object shape 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchPassportFacade should return a particular object shape if birthDate and birthPlace are included 1`] = `
+Object {
+  "files": "upsertObject",
+  "passports": [Function],
+  "people": [Function],
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js patchStudentDetail should return a particular object shape 1`] = `
+Object {
+  "studentDetails": "upsertObject",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removeDietary should return a particular object shape 1`] = `
+Object {
+  "dietaries": "removeObjectById",
+  "peopleById": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removeInsurancePolicy should return a particular object shape 1`] = `
+Object {
+  "insurancePolicies": "removeObjectById",
+  "peopleById": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removeMedical should return a particular object shape 1`] = `
+Object {
+  "medicals": "removeObjectById",
+  "peopleById": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removePassport should return a particular object shape 1`] = `
+Object {
+  "passports": "removeObjectById",
+  "people": "removeItemsArray",
+  "peopleById": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removePassport should return a particular object shape with no userId 1`] = `
+Object {
+  "passports": "removeObjectById",
+  "peopleById": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removePassportFacade should return a particular object shape 1`] = `
+Object {
+  "passports": [Function],
+  "people": "removeItemsArray",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js removeStudentDetail should return a particular object shape 1`] = `
+Object {
+  "peopleById": "removeItemsArray",
+  "studentDetails": "removeObjectById",
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js updatePeople should return a particular object shape 1`] = `
+Object {
+  "files": [Function],
+  "people": "upsertObject",
+  "peopleById": "upsertObject",
+  "personNode": [Function],
+  "phones": "upsertObject",
+  "result": Object {
+    "phones": Array [
+      Object {
+        "id": 1,
+        "number": "2222",
+        "type": "mobile",
+      },
+    ],
+    "photo": Object {
+      "url": "url",
+      "x": 1,
+      "y": 1,
+    },
+    "userId": 1,
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js updatePeople should return a particular object shape if no userId 1`] = `
+Object {
+  "files": [Function],
+  "people": "upsertObject",
+  "peopleById": "upsertObject",
+  "personNode": [Function],
+  "phones": "upsertObject",
+  "result": Object {
+    "id": 1,
+    "nodeId": 222,
+    "phones": Array [
+      Object {
+        "id": 1,
+        "number": "2222",
+        "type": "mobile",
+      },
+    ],
+    "photo": Object {
+      "url": "url",
+      "x": 1,
+      "y": 1,
+    },
+  },
+}
+`;
+
+exports[`app/apis/components/PersonDetail/utils.js updatePhone should return a particular object shape 1`] = `
+Object {
+  "phones": [Function],
+}
+`;

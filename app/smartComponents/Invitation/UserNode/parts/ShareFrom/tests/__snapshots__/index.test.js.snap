@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShareFrom /> #render() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Name)))
+  bold={false}
+  className="shareFromEllipsis"
+  id={0}
+  variant="link"
+/>
+`;

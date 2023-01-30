@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhotoPlaceHolder /> deleteDialog() should deleteDialog 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    headlineIcon="lnr-picture3"
+    headlineTitle="DELETE IMAGE"
+    open={false}
+    template="delete"
+    type="image"
+  />
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> handleDelete() should handleDelete 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<PhotoPlaceHolder /> handleDelete() should handleDelete 2`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<PhotoPlaceHolder /> imgSrc() should imgSrc 1`] = `<div />`;
+
+exports[`<PhotoPlaceHolder /> render() should render !editable 1`] = `
+<div>
+  <div>
+    <div
+      className=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> render() should render correctly 1`] = `
+<div>
+  <div>
+    deleteDialog
+    <div
+      className="undefined"
+    >
+      renderCoverPhotoPopper
+      renderImage
+      renderDialog
+    </div>
+    <div
+      className=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> render() still matches snapshot if props.showOverlay + no image 1`] = `
+<div>
+  <div>
+    <div
+      className=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderButton() should renderButton 1`] = `
+<div>
+  <div>
+    <WithStyles(Button)
+      className=""
+      color="black"
+      dense={true}
+      noPadding={true}
+      size="extraSmall"
+      variant="borderless"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-camera2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5
+            dense={true}
+            white={true}
+          >
+            Update
+          </H5>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderButton() should renderButton label 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <label
+      className=""
+      htmlFor=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-camera2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <H6
+              dense={true}
+              white={true}
+            >
+              Upload
+            </H6>
+          </WithStyles(GridItem)>
+        </Hidden>
+      </WithStyles(GridContainer)>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderCoverPhotoPopper() should renderCoverPhotoPopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-start"
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderDialog() should call renderPreview 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    maxWidth="md"
+    onClose={[Function]}
+    open={false}
+  >
+    <div>
+      <WithStyles(InlineButton)
+        color="default"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-cross2"
+        />
+      </WithStyles(InlineButton)>
+    </div>
+    renderPreview
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderDialog() should renderDialog 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    maxWidth="md"
+    onClose={[Function]}
+    open={false}
+  >
+    <div>
+      <WithStyles(InlineButton)
+        color="default"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-cross2"
+        />
+      </WithStyles(InlineButton)>
+    </div>
+    renderImagePreview
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderDownload() should renderDownload 1`] = `
+<div>
+  <a
+    download={true}
+    target="_blank"
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-download2"
+            paddingRight={true}
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          Download
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderImage() should previewError 1`] = `<div />`;
+
+exports[`<PhotoPlaceHolder /> renderImage() should renderImage 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    onClick={[Function]}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <img
+        alt="Loading..."
+        className=""
+        src="imgSrc"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderImage() should renderImage no cropMetaInfo 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    onClick={[Function]}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <img
+        alt="Loading..."
+        className=""
+        src="imgSrc"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderImagePreview() should renderImagePreview 1`] = `
+<div>
+  <div>
+    <WithStyles(PreviewPhoto)
+      id="date.now"
+      key="date.now"
+      metaInfo={Object {}}
+      onClose={[Function]}
+      onError={[Function]}
+      rotate={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderImagePreview() should renderImagePreview for previewError 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <H4
+        dense={true}
+        textAlign="center"
+        weight="bold"
+      >
+        Sorry, your image could not be previewed.
+      </H4>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <H4
+        dense={true}
+        textAlign="center"
+      >
+        If this problem persists, please reupload the original image.
+      </H4>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PhotoPlaceHolder /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        hover={true}
+        icon="lnr-camera2"
+      >
+        <label
+          className=""
+          htmlFor=""
+        >
+          Upload photo
+        </label>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-move"
+      >
+        Reposition
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-trash2"
+        onClick={[Function]}
+      >
+        Remove
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

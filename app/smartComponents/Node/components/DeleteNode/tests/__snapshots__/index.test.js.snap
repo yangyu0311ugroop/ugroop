@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteNode /> render() should not render noText 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    onClick={[Function]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      noWrap={true}
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="j-text-ellipsis"
+      >
+        Delete
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DeleteNode /> render() should render noText 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    onClick={[Function]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      noWrap={true}
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<DeleteNode /> render() should render renderProp 1`] = `<div />`;

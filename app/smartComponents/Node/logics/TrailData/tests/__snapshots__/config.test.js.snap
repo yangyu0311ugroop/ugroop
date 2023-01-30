@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrailData/config.js GET_DATA Test should work properly 1`] = `"1122.types"`;
+
+exports[`TrailData/config.js GET_DATA Test should work properly 2`] = `"11,22,33.types"`;
+
+exports[`TrailData/config.js GET_DATA Test should work properly 3`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1122,
+  "type",
+]
+`;
+
+exports[`TrailData/config.js GET_DATA Test should work properly 4`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    11,
+    "type",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    22,
+    "type",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    33,
+    "type",
+  ],
+]
+`;
+
+exports[`TrailData/config.js GET_DATA Test should work properly 5`] = `
+Array [
+  1,
+  2,
+  3,
+]
+`;
+
+exports[`TrailData/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "trail": [Function],
+  },
+}
+`;
+
+exports[`TrailData/config.js Smoke Test should exists 2`] = `
+Object {
+  "value": Object {
+    "types": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+    },
+  },
+}
+`;

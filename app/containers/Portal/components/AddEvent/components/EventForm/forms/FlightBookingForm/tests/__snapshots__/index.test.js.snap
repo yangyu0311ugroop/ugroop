@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <WithStyles(Component) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightDetails /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+            >
+              travelClass
+               
+              · airline flightNumber
+               
+              · Terminal terminal
+               
+              · Gate gate
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              link={true}
+              noUnderlined={true}
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                icon="lnr-pencil"
+                size="xsmall"
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetails /> render() should render empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            bold={true}
+            color="blue"
+            icon="lnr-plus"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                blue={true}
+              >
+                Flight Details
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightDetails /> render() should return adding 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            bold={true}
+          >
+            Flight Details
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(SelectField)
+            SelectProps={
+              Object {
+                "native": true,
+              }
+            }
+            component={[Function]}
+            innerRef={[Function]}
+            label="Travel class"
+            name="data.detail.detail.travelClass"
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "children": "Economy",
+                  "value": "Economy",
+                },
+                Object {
+                  "children": "Premium Economy",
+                  "value": "PremiumEconomy",
+                },
+                Object {
+                  "children": "Business",
+                  "value": "Business",
+                },
+                Object {
+                  "children": "First",
+                  "value": "First",
+                },
+                Object {
+                  "children": "Other",
+                  "value": "Other",
+                },
+              ]
+            }
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)
+              sm={6}
+              xs={12}
+            >
+              <FilledTextField
+                InputProps={Object {}}
+                label="Airline"
+                onChange={[Function]}
+                placeholder="Enter airline"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              sm={6}
+              xs={12}
+            >
+              <FilledTextField
+                InputProps={Object {}}
+                label="Flight number"
+                onChange={[Function]}
+                placeholder="Enter flight number"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)
+              sm={6}
+              xs={12}
+            >
+              <FilledTextField
+                InputProps={Object {}}
+                label="Departure terminal"
+                onChange={[Function]}
+                placeholder="Enter departure terminal"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              sm={6}
+              xs={12}
+            >
+              <FilledTextField
+                InputProps={Object {}}
+                label="Departure gate"
+                onChange={[Function]}
+                placeholder="Enter departure gate"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(withRouter(WithStyles(SimpleRTE)))
+            filled={true}
+            innerRef={[Function]}
+            name="description"
+            onChange={[Function]}
+            placeholder="Tell some more about this.."
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            />
+            <WithStyles(GridItem)>
+              <WithStyles(JButton)
+                onClick={[Function]}
+              >
+                Cancel
+              </WithStyles(JButton)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JButton)
+                bg="blue"
+                block={true}
+                onClick={[Function]}
+                padding="lg"
+              >
+                Save
+              </WithStyles(JButton)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

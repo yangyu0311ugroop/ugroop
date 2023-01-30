@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TreeView /> render() should render something based on props 1`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  >
+    renderItem
+  </WithStyles(ForwardRef(TreeView))>
+</div>
+`;
+
+exports[`<TreeView /> render() should render something based on props 2`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  >
+    renderItem
+  </WithStyles(ForwardRef(TreeView))>
+</div>
+`;
+
+exports[`<TreeView /> render() should render something based on props 3`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  >
+    renderItem
+  </WithStyles(ForwardRef(TreeView))>
+</div>
+`;
+
+exports[`<TreeView /> render() should render something based on props 4`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  >
+    renderItem
+  </WithStyles(ForwardRef(TreeView))>
+</div>
+`;
+
+exports[`<TreeView /> render() should render something based on props 5`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  >
+    renderItem
+  </WithStyles(ForwardRef(TreeView))>
+</div>
+`;
+
+exports[`<TreeView /> renderIcon should render properly 1`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  />
+</div>
+`;
+
+exports[`<TreeView /> renderIcon should render properly 2`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  />
+</div>
+`;
+
+exports[`<TreeView /> renderItem should render something 1`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  />
+</div>
+`;
+
+exports[`<TreeView /> renderItem should render something if the item has children 1`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  />
+</div>
+`;
+
+exports[`<TreeView /> renderItem should render something if the item has children and the item isnt opened 1`] = `
+<div>
+  <WithStyles(ForwardRef(TreeView))
+    defaultCollapseIcon={<Memo(ExpandMoreIcon) />}
+    defaultExpandIcon={<Memo(ChevronRightIcon) />}
+    defaultExpanded={Array []}
+    defaultSelected={Array []}
+    onNodeToggle={[Function]}
+  />
+</div>
+`;

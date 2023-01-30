@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectRoute /> render() should renderSelected 1`] = `<div />`;
+
+exports[`<SelectRoute /> render() should renderSelecting 1`] = `<div />`;
+
+exports[`<SelectRoute /> renderSubtitle() should render clear selection 1`] = `<div />`;
+
+exports[`<SelectRoute /> renderSubtitle() should render null 1`] = `<div />`;
+
+exports[`<SelectRoute /> renderSubtitle() should render set 1`] = `<div />`;
+
+exports[`<SelectRoute /> renderSubtitle() should render unset destination 1`] = `<div />`;

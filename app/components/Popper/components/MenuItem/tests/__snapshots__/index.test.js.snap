@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuItem /> handleClickMenu() should handleClickMenu() 1`] = `
+Array [
+  Array [
+    undefined,
+    Array [
+      Object {
+        "stopPropagation": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      Object {
+        "IconProps": Object {},
+        "alignItems": "center",
+        "block": true,
+        "className": "",
+        "classes": Object {
+          "default": "default",
+        },
+        "color": "default",
+        "compact": false,
+        "disabled": false,
+        "icon": null,
+        "resaga": Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "type": null,
+        "variant": "",
+      },
+    ],
+  ],
+  Array [
+    undefined,
+    Array [
+      Object {
+        "stopPropagation": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      Object {
+        "IconProps": Object {},
+        "alignItems": "center",
+        "block": true,
+        "className": "",
+        "classes": Object {
+          "default": "default",
+        },
+        "color": "default",
+        "compact": false,
+        "disabled": false,
+        "icon": null,
+        "resaga": Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "type": null,
+        "variant": "",
+      },
+    ],
+  ],
+]
+`;
+
+exports[`<MenuItem /> handleClickMenu() should handleClickMenu() 2`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<MenuItem /> handleClickMenu() should not stopPropagation 1`] = `
+Array [
+  Array [
+    undefined,
+    Array [
+      Object {
+        "stopPropagation": [MockFunction],
+      },
+      Object {
+        "IconProps": Object {},
+        "alignItems": "center",
+        "block": true,
+        "className": "",
+        "classes": Object {
+          "default": "default",
+        },
+        "color": "default",
+        "compact": false,
+        "disabled": false,
+        "icon": null,
+        "resaga": Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "type": null,
+        "variant": "",
+      },
+    ],
+  ],
+  Array [
+    undefined,
+    Array [
+      Object {
+        "stopPropagation": [MockFunction],
+      },
+      Object {
+        "IconProps": Object {},
+        "alignItems": "center",
+        "block": true,
+        "className": "",
+        "classes": Object {
+          "default": "default",
+        },
+        "color": "default",
+        "compact": false,
+        "disabled": false,
+        "icon": null,
+        "resaga": Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "type": null,
+        "variant": "",
+      },
+    ],
+  ],
+]
+`;
+
+exports[`<MenuItem /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<MenuItem /> renderDefault() should render button 1`] = `<div />`;
+
+exports[`<MenuItem /> renderDefault() should render div 1`] = `<div />`;
+
+exports[`<MenuItem /> renderIcon() should renderIcon 1`] = `<div />`;
+
+exports[`<MenuItem /> renderMenuItem() should renderMenuItem 1`] = `<div />`;

@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </BoundCan>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(JTextClass)
+            link={true}
+            onClick={[Function]}
+          >
+            <div>
+              Rooming
+            </div>
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderRooms
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RoomCard /> renderChildren() should renderChildren 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      2
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomCard /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <div>
+    No rooms have been created.
+  </div>
+</div>
+`;
+
+exports[`<RoomCard /> renderRoom() should renderRoom 1`] = `
+<div>
+  <WithStyles(GridItem)
+    onClick={[Function]}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Head)>
+            #
+            NaN
+          </WithStyles(Head)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+            editable={false}
+            isCustomData={false}
+            valueKey="content"
+          />
+        </WithStyles(GridItem)>
+        <ConnectFunction>
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<RoomCard /> renderRooms() should renderRooms 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RoomSummary)))))
+      onClick={[Function]}
+      selectType={true}
+      variant="countOnly"
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        link={true}
+        onClick={[Function]}
+      >
+        See all (
+        2
+        )
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

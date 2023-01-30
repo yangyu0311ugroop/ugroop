@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbContainer/config.js isLoading isFetchParentsLoading should return a particular array shape 1`] = `
+Array [
+  "Folders",
+  "getParentOfFolder",
+]
+`;
+
+exports[`BreadcrumbContainer/config.js value items keyPath should return a particular of array shape 1`] = `
+Array [
+  "nodeTrailsDataStore",
+  "breadcrumb",
+  1,
+  "trail",
+]
+`;
+
+exports[`BreadcrumbContainer/config.js/ITEM_CONFIG value nodeData keyPath should return a particular array shape 1`] = `
+Array [
+  "nodeTrailsDataStore",
+  "trail",
+  7,
+]
+`;

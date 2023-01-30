@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeopleWrapper /> fetchDone() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        There is no members yet.
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        There is no members yet.
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Element
+          name="Invite-2"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={false}
+              userId={2}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 3`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Element
+          name="Invite-2"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={2}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 4`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Element
+          name="Invite-2"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={false}
+              userId={2}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-3"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={false}
+              userId={3}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-4"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={false}
+              userId={4}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-5"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={false}
+              userId={5}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 5`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        All organisations members have already been invited to this tour.
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 6`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className={false}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Element
+          name="Invite-1"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={1}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> render() should render correctly 7`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className={false}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Element
+          name="Invite-1"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={1}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-2"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={2}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-3"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={3}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+        <Element
+          name="Invite-4"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              showAsRow={true}
+              userId={4}
+            />
+          </WithStyles(GridItem)>
+        </Element>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> renderInvOrg() should render correctly 1`] = `<div />`;
+
+exports[`<PeopleWrapper /> renderInvOrg() should render correctly 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(NavLink)
+      to="/orgs/undefined/people"
+    >
+      Invite someone to join your organisation
+    </WithStyles(NavLink)>
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(InviteUser)))
+    onClose={[Function]}
+  />
+</div>
+`;
+
+exports[`<PeopleWrapper /> renderInvOrg() should render correctly 3`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(NavLink)
+      to="/orgs/undefined/people"
+    >
+      Invite someone to join your organisation
+    </WithStyles(NavLink)>
+  </WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(InviteUser)))
+    onClose={[Function]}
+  />
+</div>
+`;
+
+exports[`<PeopleWrapper /> renderMoreButton() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      noMargin={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="xs"
+      variant="inline"
+    >
+      Show more...
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PeopleWrapper /> showMore() should render correctly 1`] = `<div />`;

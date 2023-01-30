@@ -1,0 +1,2188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> organisation has Setting Access() should renderOrganisationButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGNavLink)
+      to="/orgs/undefined/tours"
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+      >
+        <WithStyles(Tooltip)
+          placement="top"
+          title="Save time and organise your travel in folders just like you would all your other stuff"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-folder"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Folders
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Tooltip)>
+      </WithStyles(Button)>
+    </withRouter(UGNavLink)>
+  </WithStyles(GridItem)>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/checklists"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="ug-pin-3"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Checklists
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/people"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your team in your organisation as they come and go into the workflow."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-users-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Our Team
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/contacts"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your PAX"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-contacts"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                PAX
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/settings"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your settings for this organisation"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-cog"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Settings
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Card /> organisation has Setting Access() should return null 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmall"
+  >
+    ...
+  </WithStyles(Button)>
+  <Popover
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/people"
+      >
+        <WithStyles(Button)
+          dense={true}
+          size="extraSmall"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-users-plus"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              People
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/settings"
+      >
+        <WithStyles(Button)
+          dense={true}
+          size="extraSmall"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-cog"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Settings
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/checklists"
+      >
+        <WithStyles(Button)
+          dense={true}
+          size="extraSmall"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="ug-pin-3"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Checklists
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Popover>
+</div>
+`;
+
+exports[`<Card /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="undefinedheader"
+  >
+    renderHeader
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className=""
+    key="undefinedbody"
+  >
+    <WithStyles(GridContainer)
+      spacing={2}
+    >
+      renderTours
+      renderNewTour
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  renderShowAll
+</div>
+`;
+
+exports[`<Card /> render() should render correctly if there are no featuredTours 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="undefinedheader"
+  >
+    renderHeader
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className=""
+    key="undefinedbody"
+  >
+    <WithStyles(GridContainer)
+      spacing={2}
+    >
+      renderTours
+      renderNewTour
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  renderShowAll
+</div>
+`;
+
+exports[`<Card /> renderCollapseButton() should renderCollapseButton 1`] = `
+<div>
+  <WithStyles(GridItem)
+    title="Expand"
+  >
+    <WithStyles(Button)
+      className=""
+      dense={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="extraSmall"
+    >
+      <WithStyles(Icon)
+        bold={true}
+        icon="lnr-chevron-right"
+        size="xsmall"
+      />
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderFeaturedHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        color="success"
+        icon="lnr-earth"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      Featured Tours
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should renderHeader prop 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+      >
+        <div
+          className=""
+        >
+          renderHeader
+        </div>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = -1 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderPersonalHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderPersonalButtons
+    <Hidden
+      smUp={true}
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        ...
+      </WithStyles(Button)>
+      <Popover
+        anchorEl={null}
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          }
+        }
+        onClose={[Function]}
+        open={false}
+        transformOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGNavLink)
+            to="/settings"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <withRouter(UGNavLink)
+            to="/checklists"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+      </Popover>
+    </Hidden>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = -1 and items.length is zero 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              shape="imageSquare"
+              size="imageExtraExtraSmall"
+              variant="readOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Component
+              ellipsis={true}
+              variant="stringOnly"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/tours"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Save time and organise your travel in folders just like you would all your other stuff"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-folder"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Folders
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <Hidden
+      xsDown={true}
+    >
+      <WithStyles(GridItem)
+        wrap="nowrap"
+      >
+        <withRouter(UGNavLink)
+          to="/settings"
+        >
+          <WithStyles(Button)
+            className=""
+            dense={true}
+            noPadding={true}
+            size="extraSmall"
+          >
+            <WithStyles(Tooltip)
+              placement="top"
+              title="Manage your personal settings"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Tooltip)>
+          </WithStyles(Button)>
+        </withRouter(UGNavLink)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      xsDown={true}
+    >
+      <WithStyles(GridItem)>
+        <withRouter(UGNavLink)
+          to="/checklists"
+        >
+          <WithStyles(Button)
+            className=""
+            dense={true}
+            noPadding={true}
+            size="extraSmall"
+          >
+            <WithStyles(Tooltip)
+              placement="top"
+              title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Tooltip)>
+          </WithStyles(Button)>
+        </withRouter(UGNavLink)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      smUp={true}
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        ...
+      </WithStyles(Button)>
+      <Popover
+        anchorEl={null}
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          }
+        }
+        onClose={[Function]}
+        open={false}
+        transformOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGNavLink)
+            to="/settings"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <withRouter(UGNavLink)
+            to="/checklists"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+      </Popover>
+    </Hidden>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = -1 and selectedFeaturedMinimise 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              shape="imageSquare"
+              size="imageExtraExtraSmall"
+              variant="readOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Component
+              ellipsis={true}
+              variant="stringOnly"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/tours"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Save time and organise your travel in folders just like you would all your other stuff"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-folder"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Folders
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <Hidden
+      xsDown={true}
+    >
+      <WithStyles(GridItem)
+        wrap="nowrap"
+      >
+        <withRouter(UGNavLink)
+          to="/settings"
+        >
+          <WithStyles(Button)
+            className=""
+            dense={true}
+            noPadding={true}
+            size="extraSmall"
+          >
+            <WithStyles(Tooltip)
+              placement="top"
+              title="Manage your personal settings"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Tooltip)>
+          </WithStyles(Button)>
+        </withRouter(UGNavLink)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      xsDown={true}
+    >
+      <WithStyles(GridItem)>
+        <withRouter(UGNavLink)
+          to="/checklists"
+        >
+          <WithStyles(Button)
+            className=""
+            dense={true}
+            noPadding={true}
+            size="extraSmall"
+          >
+            <WithStyles(Tooltip)
+              placement="top"
+              title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Tooltip)>
+          </WithStyles(Button)>
+        </withRouter(UGNavLink)>
+      </WithStyles(GridItem)>
+    </Hidden>
+    <Hidden
+      smUp={true}
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        ...
+      </WithStyles(Button)>
+      <Popover
+        anchorEl={null}
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          }
+        }
+        onClose={[Function]}
+        open={false}
+        transformOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGNavLink)
+            to="/settings"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <withRouter(UGNavLink)
+            to="/checklists"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+      </Popover>
+    </Hidden>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = FEATURED 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderFeaturedHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = FEATURED and return null 1`] = `<div />`;
+
+exports[`<Card /> renderHeader() should toggleId = RECENT 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderRecentHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = STARRED 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderStarredHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId = STARRED and selectedFeaturedMinimise 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderStarredHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderHeader() should toggleId > 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={1}
+    wrap="nowrap"
+  >
+    renderCollapseButton
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        renderOrganisationHeader
+      </div>
+    </WithStyles(GridItem)>
+    renderOrganisationButtons
+    <Hidden
+      smUp={true}
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        ...
+      </WithStyles(Button)>
+      <Popover
+        anchorEl={null}
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          }
+        }
+        onClose={[Function]}
+        open={false}
+        transformOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <withRouter(UGNavLink)
+            to="/orgs/undefined/people"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-users-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  People
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <withRouter(UGNavLink)
+            to="/orgs/undefined/settings"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="lnr-cog"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Settings
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <withRouter(UGNavLink)
+            to="/orgs/undefined/checklists"
+          >
+            <WithStyles(Button)
+              dense={true}
+              size="extraSmall"
+            >
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    color="blue"
+                    icon="ug-pin-3"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  Checklists
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </withRouter(UGNavLink)>
+        </WithStyles(GridItem)>
+      </Popover>
+    </Hidden>
+    renderUpdatedAt
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderNewTour() should renderNewTour 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(NewTour)))>
+    <Component />
+  </WithStyles(Connect(WithSimplifyResaga(NewTour)))>
+</div>
+`;
+
+exports[`<Card /> renderNewTourButton() should renderNewTourButton 1`] = `
+<div>
+  <WithStyles(GridItem)
+    lg={3}
+    md={4}
+    sm={6}
+    xs={12}
+  >
+    <WithStyles(Button)
+      block={true}
+      className=""
+      dense={true}
+      noPadding={true}
+      size="extraSmall"
+      textAlign="left"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="success"
+                icon="lnr-plus"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <span>
+                <FormattedMessage
+                  defaultMessage="Create new"
+                  id="app.containers.Dashboard.components.Tours.components.createNewTour"
+                />
+              </span>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <span>
+            <FormattedMessage
+              defaultMessage="Edit and share content with your team or the organisation"
+              id="app.containers.Dashboard.components.Home.shareToTeam"
+            />
+          </span>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderNewTourButton() should renderNewTourButton 2`] = `
+<div>
+  <WithStyles(GridItem)
+    lg={3}
+    md={4}
+    sm={6}
+    xs={12}
+  >
+    <WithStyles(Button)
+      block={true}
+      className=""
+      dense={true}
+      noPadding={true}
+      size="extraSmall"
+      textAlign="left"
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="success"
+                icon="lnr-plus"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <span>
+                <FormattedMessage
+                  defaultMessage="Create new"
+                  id="app.containers.Dashboard.components.Tours.components.createNewTour"
+                />
+              </span>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <span>
+            <FormattedMessage
+              defaultMessage="Edit and share content with your friends or family"
+              id="app.containers.Dashboard.components.Home.shareToPersonal"
+            />
+          </span>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> renderOrganisationButtons() should renderOrganisationButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGNavLink)
+      to="/orgs/undefined/tours"
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+      >
+        <WithStyles(Tooltip)
+          placement="top"
+          title="Save time and organise your travel in folders just like you would all your other stuff"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-folder"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Folders
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Tooltip)>
+      </WithStyles(Button)>
+    </withRouter(UGNavLink)>
+  </WithStyles(GridItem)>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/checklists"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="ug-pin-3"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Checklists
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/people"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your team in your organisation as they come and go into the workflow."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-users-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Our Team
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/contacts"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your PAX"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-contacts"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                PAX
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/settings"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your settings for this organisation"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-cog"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Settings
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Card /> renderOrganisationButtonsView should match snapshot if isDrawer 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGNavLink)
+      to="/orgs/undefined/tours"
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+      >
+        <WithStyles(Tooltip)
+          placement="top"
+          title="Save time and organise your travel in folders just like you would all your other stuff"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-folder"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Folders
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Tooltip)>
+      </WithStyles(Button)>
+    </withRouter(UGNavLink)>
+  </WithStyles(GridItem)>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/checklists"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="ug-pin-3"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Checklists
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/people"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your team in your organisation as they come and go into the workflow."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-users-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Our Team
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/contacts"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your PAX"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-contacts"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                PAX
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/orgs/undefined/settings"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your settings for this organisation"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-cog"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Settings
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  />
+</div>
+`;
+
+exports[`<Card /> renderOrganisationHeader() should renderOrganisationHeader 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Organisation))) />
+</div>
+`;
+
+exports[`<Card /> renderPersonalButtonView should match snapshot if isDrawer 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGNavLink)
+      to="/tours"
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+      >
+        <WithStyles(Tooltip)
+          placement="top"
+          title="Save time and organise your travel in folders just like you would all your other stuff"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-folder"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Folders
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Tooltip)>
+      </WithStyles(Button)>
+    </withRouter(UGNavLink)>
+  </WithStyles(GridItem)>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/settings"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your personal settings"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-cog"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Settings
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/checklists"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="ug-pin-3"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Checklists
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  />
+</div>
+`;
+
+exports[`<Card /> renderPersonalButtons() should renderPersonalButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <withRouter(UGNavLink)
+      to="/tours"
+    >
+      <WithStyles(Button)
+        className=""
+        dense={true}
+        noPadding={true}
+        size="extraSmall"
+      >
+        <WithStyles(Tooltip)
+          placement="top"
+          title="Save time and organise your travel in folders just like you would all your other stuff"
+        >
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                bold={true}
+                color="blue"
+                icon="lnr-folder"
+                size="xsmall"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Folders
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(Tooltip)>
+      </WithStyles(Button)>
+    </withRouter(UGNavLink)>
+  </WithStyles(GridItem)>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      <withRouter(UGNavLink)
+        to="/settings"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Manage your personal settings"
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="lnr-cog"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Settings
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        to="/checklists"
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noPadding={true}
+          size="extraSmall"
+        >
+          <WithStyles(Tooltip)
+            placement="top"
+            title="Remember to tick of all the things to do and by when and use them again and again with master checklists."
+          >
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  color="blue"
+                  icon="ug-pin-3"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Checklists
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Tooltip)>
+        </WithStyles(Button)>
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Card /> renderPersonalHeader() should renderPersonalHeader 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Component
+        ellipsis={true}
+        variant="stringOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderRecentHeader() should renderRecentHeader 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        color="success"
+        icon="lnr-eye"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      Recently Viewed
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderShowAll() should renderTour 1`] = `
+<div>
+  <ConnectFunction
+    minimise={false}
+    personal={true}
+    recent={false}
+    shouldFilter={true}
+    showOrganisation={false}
+    variant="card"
+  />
+</div>
+`;
+
+exports[`<Card /> renderShowAll() should renderTour minimise 1`] = `
+<div>
+  <ConnectFunction
+    minimise={true}
+    personal={true}
+    recent={false}
+    shouldFilter={true}
+    showOrganisation={false}
+    variant="compressed"
+  />
+</div>
+`;
+
+exports[`<Card /> renderStarredHeader() should match snapshot if personal 1`] = `<div />`;
+
+exports[`<Card /> renderStarredHeader() should render Starred Featured Tours 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        color="star"
+        icon="lnr-star"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      Starred
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderStarredHeader() should renderStarredHeader 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        color="star"
+        icon="lnr-star"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      Starred
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderStarredHeader() should renderStarredHeader 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        color="star"
+        icon="lnr-star"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      wrap="nowrap"
+    >
+      Starred
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderTour() should renderTour 1`] = `
+<div>
+  <ConnectFunction
+    minimise={false}
+    personal={true}
+    recent={false}
+    shouldFilter={true}
+    showOrganisation={false}
+    variant="card"
+  />
+</div>
+`;
+
+exports[`<Card /> renderTours() should render featured tours 1`] = `
+<div>
+  renderTour
+  renderTour
+</div>
+`;
+
+exports[`<Card /> renderTours() should render starredFeatured 1`] = `<div />`;
+
+exports[`<Card /> renderTours() should render without starred 1`] = `
+<div>
+  <ConnectFunction
+    id={3}
+    key="3"
+    personal={true}
+    recent={false}
+    shouldFilter={true}
+    showOrganisation={false}
+    variant="card"
+  />
+  <ConnectFunction
+    id={4}
+    key="4"
+    personal={true}
+    recent={false}
+    shouldFilter={true}
+    showOrganisation={false}
+    variant="card"
+  />
+</div>
+`;
+
+exports[`<Card /> renderTours() should renderTours active 1`] = `
+<div>
+  renderTour
+  renderTour
+</div>
+`;
+
+exports[`<Card /> renderTours() should renderTours maxRender 1`] = `
+<div>
+  renderTour
+</div>
+`;
+
+exports[`<Card /> renderUpdatedAt() should renderUpdatedAt 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)
+      title="Last tour updated: renderDayDate at renderTime"
+    >
+      timeSinceAtLeast
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Card /> showAllTour() should goToMyTours 1`] = `<div />`;
+
+exports[`<Card /> showAllTour() should setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedOrgId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Card /> showAllTour() should setValue if minimise and toggleId = FEATURED 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedFeaturedMinimise": true,
+    },
+  ],
+  Array [
+    Object {
+      "selectedOrgId": "featured",
+    },
+  ],
+]
+`;
+
+exports[`<Card /> showAllTour() should setValue if toggleId = FEATURED 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedFeatured": true,
+    },
+  ],
+]
+`;
+
+exports[`<Card /> toggleCollapsible() should toggleCollapsible() 1`] = `
+Array [
+  Array [
+    Object {
+      "hideOrganisations": [Function],
+    },
+  ],
+]
+`;

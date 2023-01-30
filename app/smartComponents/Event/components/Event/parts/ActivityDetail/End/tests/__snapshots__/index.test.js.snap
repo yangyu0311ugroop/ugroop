@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<End /> handleSubmit should create patchEvent request 1`] = `
+Array [
+  Array [
+    Object {
+      "model": Object {
+        "data": Object {
+          "detail": Object {
+            "activityDetails": Object {
+              "end": Object {
+                "name": "qqqq",
+              },
+            },
+          },
+        },
+      },
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {},
+      "dataId": null,
+      "id": null,
+      "label": "",
+      "labelDirection": "column",
+      "labelSibling": null,
+      "linkClassName": "",
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "showLabel": true,
+      "templateId": null,
+      "timeZoneId": null,
+      "value": "",
+      "variant": "",
+    },
+    false,
+  ],
+]
+`;
+
+exports[`<End /> handleSubmitSuccess should dispatch to geocode api 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": null,
+        "ids": Array [
+          null,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<End /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EventLocation)
+    EventTime={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(EndTime))",
+        "type": [Function],
+      }
+    }
+    PatchData={[Function]}
+    classes={Object {}}
+    dataId={null}
+    handleOnClear={[Function]}
+    handleSelect={[Function]}
+    handleSubmit={[Function]}
+    id={null}
+    inputLocationProps={
+      Object {
+        "editable": Object {
+          "label": <FormattedMessage
+            defaultMessage="Arriving"
+            id="app/smartComponents/Event/components/Event/parts/ActivityDetail/End/label"
+          />,
+          "name": "data.detail.activityDetails.end.name",
+          "placeholder": "Click here to specify the location",
+        },
+        "editableTextProps": Object {
+          "editing": true,
+          "iconInputs": Object {
+            "name": "data.detail.activityDetails.end.icon",
+          },
+          "locationKey": "data.detail.activityDetails.end.name",
+          "placeIdInputs": Object {
+            "name": "data.detail.activityDetails.end.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.end.timeZoneId",
+          },
+        },
+        "end": "data.detail.activityDetails.end",
+        "field": Object {
+          "iconInputs": Object {
+            "name": "data.detail.activityDetails.end.icon",
+          },
+          "locationKey": "data.detail.activityDetails.end.name",
+          "locationLabel": null,
+          "placeIdInputs": Object {
+            "name": "data.detail.activityDetails.end.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.end.timeZoneId",
+          },
+        },
+        "icon": "data.detail.activityDetails.end.icon",
+        "name": "data.detail.activityDetails.end.name",
+        "placeId": "data.detail.activityDetails.end.placeId",
+        "timeZoneId": "node.customData.end.timeZoneId",
+      }
+    }
+    label=""
+    labelDirection="column"
+    labelSibling={null}
+    linkClassName=""
+    readOnly={false}
+    showLabel={true}
+    templateId={null}
+    timeZoneId={null}
+    variant=""
+  />
+</div>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventContainer /> #handleCloseEventCreate() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "eventCreate": Object {
+      "createDayId": 1,
+      "createOpen": false,
+      "createOpenHandler": undefined,
+      "createTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #handleCloseEventEdit() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "eventEdit": Object {
+      "editId": 3,
+      "editOpen": false,
+      "editTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #handleCloseEventView() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "eventView": Object {
+      "viewId": 2,
+      "viewOpen": false,
+      "viewTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #handleCloseFlightBookingCreate() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingCreate": Object {
+      "flightBookingCreateHandler": undefined,
+      "flightBookingCreateOpen": false,
+      "flightBookingCreateTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #handleCloseFlightBookingEdit() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingEdit": Object {
+      "flightBookingEditId": 5,
+      "flightBookingEditOpen": false,
+      "flightBookingEditTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #handleCloseFlightBookingView() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingView": Object {
+      "flightBookingViewId": 4,
+      "flightBookingViewOpen": false,
+      "flightBookingViewTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventContainer /> #render() still matches snapshot 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <EventCreate
+      dayId={1}
+      flightBookingCreateHandler={[Function]}
+      flightBookingCreateOpen={false}
+      flightBookingEditId={5}
+      flightBookingEditOpen={false}
+      flightBookingViewId={4}
+      flightBookingViewOpen={false}
+      onClose="handleCloseEventCreate"
+      open={false}
+      resaga={
+        Object {
+          "setValue": [MockFunction],
+        }
+      }
+    />
+    <EventView
+      id={2}
+      onClose="handleCloseEventView"
+      open={false}
+    />
+    <EventEdit
+      id={3}
+      onClose="handleCloseEventEdit"
+      open={false}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <FlightBookingCreate
+      onClose="handleCloseFlightBookingCreate"
+      open={false}
+    />
+    <WithStyles(Key)
+      dataId={4}
+      onClose={[Function]}
+      open={false}
+    />
+    <FlightBookingEdit
+      dataId={5}
+      onClose="handleCloseFlightBookingEdit"
+      open={false}
+    />
+  </React.Fragment>
+</React.Fragment>
+`;

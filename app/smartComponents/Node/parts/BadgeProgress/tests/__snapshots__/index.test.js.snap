@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BadgeProgress /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    id={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderUI() should renderUI 1`] = `
+<div>
+  <WithStyles(BadgeProgress)
+    custom="prop"
+    hoc="prop"
+  />
+</div>
+`;

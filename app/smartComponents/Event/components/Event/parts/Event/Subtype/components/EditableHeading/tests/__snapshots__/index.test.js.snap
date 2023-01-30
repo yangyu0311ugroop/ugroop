@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubtypeEditableHeading /> #handleChange() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "formValue": "value",
+  },
+}
+`;
+
+exports[`<SubtypeEditableHeading /> #handleClose() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "formValue": "value",
+  },
+}
+`;
+
+exports[`<SubtypeEditableHeading /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <EditableSelect
+    SelectProps={
+      Object {
+        "MenuProps": Object {
+          "classes": Object {
+            "paper": "selectMenuPaper",
+          },
+        },
+        "currentValue": "value",
+      }
+    }
+    name="name"
+    onChange={[Function]}
+    onClose={[Function]}
+    open={false}
+    options={Array []}
+    readOnly={false}
+    renderValue={[Function]}
+    resaga={
+      Object {
+        "setValue": [MockFunction],
+      }
+    }
+    type=""
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<SubtypeEditableHeading /> #renderValue() still matches snapshot 1`] = `
+<EventHeading
+  Typography={[Function]}
+>
+  Coming Soon
+</EventHeading>
+`;

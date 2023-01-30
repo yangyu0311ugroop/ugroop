@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/FileContainer/config #requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "post",
+    "/FileContainers/someContainer/upload",
+    Object {
+      "data": Object {
+        "x": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/FileContainer/config #requests still matches snapshot 2`] = `
+Array [
+  Array [
+    "delete",
+    "/FileContainers/com.ugroop.personContainer/files/3284d33c-dca6-4c4f-9932-e0b2af607738.jpeg",
+  ],
+  Array [
+    "delete",
+    "/FileContainers/someContainer/files/qqq",
+  ],
+]
+`;

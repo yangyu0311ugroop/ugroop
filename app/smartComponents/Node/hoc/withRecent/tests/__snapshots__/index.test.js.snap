@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withRecent #render() still matches snapshot 1`] = `
+<Component
+  recent={Array []}
+  resaga={Object {}}
+  stars={Array []}
+/>
+`;

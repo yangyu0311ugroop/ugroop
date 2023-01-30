@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimeZone /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <span>
+    Time zone set by the location
+  </span>
+</div>
+`;
+
+exports[`<TimeZone /> timeZoneOffset() should timeZoneOffset 1`] = `
+<div>
+  -
+</div>
+`;

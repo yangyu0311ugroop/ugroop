@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image/config.js value content should return a particular array shape given the props provided 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  7,
+  "content",
+]
+`;
+
+exports[`Image/config.js value metaInfo keyPath should return a particular array shape given the props provided 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  7,
+  "metaInfo",
+]
+`;

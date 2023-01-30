@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteButton /> Smoke tests still matches snapshots 1`] = `
+<Fragment>
+  <WithStyles(Button)
+    color="alert"
+    dense={true}
+    icon="lnr-trash2"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    square={true}
+    title="Delete"
+    variant="outline"
+  />
+  <DeleteConfirmationDialog
+    cancelTimeoutMs={7000}
+    iconButton={true}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    size="extraSmall"
+    text="Delete"
+  >
+    Children
+  </DeleteConfirmationDialog>
+</Fragment>
+`;
+
+exports[`<DeleteButton /> Smoke tests still matches snapshots if not icon button 1`] = `
+<Fragment>
+  <WithStyles(Button)
+    color="alert"
+    dense={true}
+    onClick={[Function]}
+    size="extraSmall"
+    square={true}
+    title="Delete"
+    variant="outline"
+  >
+    Delete
+  </WithStyles(Button)>
+  <DeleteConfirmationDialog
+    cancelTimeoutMs={7000}
+    iconButton={false}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    size="extraSmall"
+    text="Delete"
+  >
+    Children
+  </DeleteConfirmationDialog>
+</Fragment>
+`;
+
+exports[`<DeleteButton /> Smoke tests still matches snapshots if not icon button simple 1`] = `
+<Fragment>
+  <WithStyles(JTextClass)
+    onClick={[Function]}
+  >
+    <WithStyles(Icon)
+      icon="lnr-cross"
+      size="small"
+    />
+  </WithStyles(JTextClass)>
+  <DeleteConfirmationDialog
+    cancelTimeoutMs={7000}
+    iconButton={true}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    simple={true}
+    size="extraSmall"
+    text="Delete"
+  >
+    Children
+  </DeleteConfirmationDialog>
+</Fragment>
+`;
+
+exports[`<DeleteButton /> Smoke tests still matches snapshots renderProp 1`] = `undefined`;
+
+exports[`<DeleteButton /> Smoke tests still matches snapshots renderProp 2`] = `undefined`;

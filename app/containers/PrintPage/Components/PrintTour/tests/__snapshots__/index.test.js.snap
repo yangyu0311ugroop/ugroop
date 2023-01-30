@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintTour isVisible check snapshot 1`] = `undefined`;
+
+exports[`PrintTour loading should not render if it is loading with hashkey 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <WithStyles(Icon)
+      icon="lnr-sync"
+    />
+     Loading...
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`PrintTour render check snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={0}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={Array []}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour render check snapshot when fetch is loading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={0}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={Array []}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour render check snapshot when tabOCustomIds is empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={0}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={Array []}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour render check snapshot when tabOCustomIds is not empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={0}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={
+            Array [
+              1,
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour render check snapshot with activeid is not day tab 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={0}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={Array []}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour render check snapshot with days > 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+          createdById={0}
+          dayIndex={3}
+          hasRegister={false}
+          hashkey=""
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+          tabId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+          tabIds={Array []}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(PublicFooter) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`PrintTour renderLoading should be called 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+        createdById={0}
+        dayIndex={0}
+        hasRegister={false}
+        hashkey=""
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+        tabId={0}
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+        tabIds={Array []}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(PublicFooter) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`PrintTour renderTourFooterButton should be called 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourPrintHeader)))))
+        createdById={0}
+        dayIndex={0}
+        hasRegister={false}
+        hashkey=""
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourContent)))))))
+        tabId={0}
+        templateId={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TourFooter)))))
+        tabIds={Array []}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className={1}
+    >
+      <WithStyles(PublicFooter) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

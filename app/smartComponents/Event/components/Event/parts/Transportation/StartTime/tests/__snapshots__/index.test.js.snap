@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartTime /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<StartTime /> renderDefault should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    editablePlaceholder="Click here to specify departure time"
+    hasLabelPrefix={true}
+    readOnlyEditablePlaceholder="No time set"
+    renderPrefix={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<StartTime /> renderLabel should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasLabelPrefix={true}
+    readOnlyEditablePlaceholder="No time set"
+    renderPrefix={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<StartTime /> renderLabelPrefix should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Departing:"
+    id="app.smartComponents.Event.components.Event.parts.Coach.StartTime.pickupLabel"
+  />
+</div>
+`;
+
+exports[`<StartTime /> renderLabelPrefix should match snapshot if hasLabelPrefix is false 1`] = `<div />`;

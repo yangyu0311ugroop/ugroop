@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemainingTasks/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "checklists": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+    },
+    "status": [Function],
+    "statuses": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+    },
+    "type": [Function],
+  },
+}
+`;
+
+exports[`RemainingTasks/config.js Smoke Test should exists 2`] = `
+Object {
+  "setValue": Object {
+    "percentage": [Function],
+  },
+  "value": Object {
+    "percentage": Object {
+      "getter": [Function],
+    },
+    "remainingCompleted": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+      "spreadObject": true,
+    },
+    "total": Object {
+      "getter": [Function],
+    },
+  },
+}
+`;

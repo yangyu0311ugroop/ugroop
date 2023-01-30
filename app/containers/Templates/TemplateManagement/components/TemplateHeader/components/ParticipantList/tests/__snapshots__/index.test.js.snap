@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateParticipantList /> #handleCloseCreateParticipantModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantsCount": 0,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleCloseCreateParticipantModal() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "setValue": Object {
+    "participantCreateOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleCloseParticipantsModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantListViewOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleCloseViewParticipantModal() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantsCount": 0,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleCloseViewParticipantModal() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "setValue": Object {
+    "participantViewOpen": false,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleViewFormsClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantsCount": 0,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #handleViewFormsClick() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "setValue": Object {
+    "participantListViewModeList": "forms",
+    "participantListViewOpen": true,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #render() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(ParticipantList)))))))))))))))))))))))))))))))))))))))))
+    hideParticipants={false}
+    includeFormsMode={true}
+    interestedPersonNodeId={null}
+    isInterestedPerson={false}
+    isTemplateId={true}
+    myId={null}
+    onClose={[Function]}
+    open={false}
+    parentId={null}
+    participantNodeId={null}
+    templateId={1}
+    useList={true}
+  />
+</React.Fragment>
+`;
+
+exports[`<TemplateParticipantList /> #renderAvatar() still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantsCount": 0,
+  },
+}
+`;
+
+exports[`<TemplateParticipantList /> #renderAvatar() still matches snapshot 2`] = `
+<Memo(Connect(WithSimplifyResaga(ParticipantAccessLevel)))
+  id={1}
+  interestedPersonNodeId={null}
+  participantNodeId={null}
+>
+  [Function]
+</Memo(Connect(WithSimplifyResaga(ParticipantAccessLevel)))>
+`;
+
+exports[`<TemplateParticipantList /> canCreateParticipant should match snapshot 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> handleFilterSelect() should handleFilterSelect 1`] = `<div />`;
+
+exports[`<TemplateParticipantList /> renderAvatarList() should renderAvatarList 1`] = `
+<div>
+  <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    <Component />
+  </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderAvatarWithAccessLevel() should renderAvatarWithAccessLevel 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ConditionsBorderStyle)))
+    id={1}
+  />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderAvatarWithAccessLevel() should renderAvatarWithAccessLevel 2`] = `<div />`;
+
+exports[`<TemplateParticipantList /> renderAvatarWithClassname() should renderAvatarWithClassname 1`] = `
+<div>
+  <ConnectFunction
+    AvatarProps={Object {}}
+    id={1}
+    tooltipText={[Function]}
+    variant="avatar"
+  />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderAvatars should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    customBorder={true}
+    maxAvatars={10}
+    people={Array []}
+    placeholder={
+      <P
+        dense={true}
+        fontStyle="italic"
+        subtitle={true}
+      >
+        No participants as of the moment
+      </P>
+    }
+    renderAvatar={[Function]}
+    seeMore={true}
+  />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderFilterPopper should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    key=""
+    menuHeader="Filter by Status"
+    noPadding={true}
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderLabel() should renderLabel 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    Participants
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderLabel() should renderLabel 2`] = `
+<div>
+  <ConnectFunction
+    key=""
+    menuHeader="Filter by Status"
+    noPadding={true}
+    placement="bottom"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderList() should renderList 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+        <Component />
+      </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderListLogics() should renderListLogics 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    key="1"
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderMine() should renderMine 1`] = `
+<div>
+  <ConnectFunction
+    mode="me"
+    participantIds={Array []}
+    userId={null}
+  />
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderParticipants() should renderParticipants 1`] = `<div />`;
+
+exports[`<TemplateParticipantList /> renderPopperButton() should renderPopperButton 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+    weight="bold"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Participants
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderPopperButton() should renderPopperButton 2`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    size="extraSmall"
+    variant="borderless"
+    weight="bold"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Participants
+        <span>
+          2
+        </span>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderPopperOptions() should renderPopperOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Going
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Maybe
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Not Going
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Show All
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TemplateParticipantList /> renderTooltipText() should renderTooltipText 1`] = `
+<div>
+  <ConnectFunction
+    accessLevel="level"
+    id={1}
+    variant="textOnly"
+  />
+</div>
+`;

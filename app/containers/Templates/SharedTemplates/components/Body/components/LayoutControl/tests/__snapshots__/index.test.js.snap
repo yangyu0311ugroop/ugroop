@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LayoutControl /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GroupButton)
+    btnItems={
+      Array [
+        Object {
+          "icon": "grid",
+          "label": "Card",
+          "value": "card",
+        },
+        Object {
+          "icon": "list4",
+          "label": "List",
+          "value": "list",
+        },
+      ]
+    }
+    initSelected=""
+    onClick={[Function]}
+  />
+</div>
+`;

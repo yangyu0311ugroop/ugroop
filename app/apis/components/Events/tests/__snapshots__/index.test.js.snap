@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Events /> componentWillReceiveProps should have call analyse with particular params 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "getEventsById": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Events /> render() should render correctly 1`] = `<div />`;

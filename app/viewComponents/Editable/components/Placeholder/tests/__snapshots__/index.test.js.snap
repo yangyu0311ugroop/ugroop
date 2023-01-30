@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditablePlaceholder /> Smoke tests should render properly 1`] = `
+<P
+  className=""
+  dense={true}
+>
+  Placeholder
+</P>
+`;

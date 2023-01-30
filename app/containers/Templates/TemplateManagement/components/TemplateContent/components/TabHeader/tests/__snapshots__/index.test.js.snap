@@ -1,0 +1,741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render Sticky() should renderTabs correctly when sticky 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={false}
+    enabled={true}
+    id="tabHeader"
+    innerZ={99}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={0}
+  >
+    <WithStyles(ForwardRef(AppBar))
+      className=""
+      color="inherit"
+      position="static"
+    >
+      <WithStyles(Container)
+        className=""
+      >
+        <WithStyles(StickyToolbar)
+          activeTabId={0}
+          tourTitle=""
+        />
+        <WithStyles(ForwardRef(Toolbar))
+          className=""
+        >
+          <WithStyles(UGTabs)
+            onChange={[Function]}
+            scrollButtons="auto"
+            textColor="primary"
+            value={0}
+            variant="scrollable"
+          />
+          <ConnectFunction
+            placement="bottom-end"
+            renderButton={[Function]}
+            value={false}
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(ForwardRef(Toolbar))>
+      </WithStyles(Container)>
+    </WithStyles(ForwardRef(AppBar))>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Template",
+            "name": "description",
+          },
+        ]
+      }
+      title=""
+    />
+    renderContent
+    renderDialogs
+  </div>
+</div>
+`;
+
+exports[`<Header /> renderContent() should renderContent correctly 1`] = `
+<div>
+  <DragDropContext
+    onDragEnd={[Function]}
+  >
+    <Connect(Droppable)
+      direction="horizontal"
+      droppableId="tabHeader"
+      ignoreContainerClipping={false}
+      isCombineEnabled={false}
+      isDropDisabled={false}
+      type="tabItem"
+    >
+      <Component />
+    </Connect(Droppable)>
+  </DragDropContext>
+</div>
+`;
+
+exports[`<Header /> renderDialogs() should renderDialogs correctly 1`] = `
+<div>
+  <span>
+    <WithStyles(Component)
+      onClose={[Function]}
+      open={false}
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+      dialogProps={
+        Object {
+          "dialogTitle": "Add Tab",
+          "headlineIcon": "lnr-new-tab",
+          "headlineText": "Please provide a name for your new tab",
+          "headlineTitle": "Add Tab",
+          "template": "add",
+        }
+      }
+      onClose={[Function]}
+      open={true}
+      parentId={232}
+      templateId={2222}
+      tourRole=""
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+      onClose={[Function]}
+      open={false}
+      tabId={21}
+      tourRole=""
+    />
+    <WithStyles(Connect(WithSimplifyResaga(DeleteTab)))
+      onClose={[Function]}
+      onSuccess={[Function]}
+      open={true}
+      tabId={21}
+      templateId={2222}
+      tourRole=""
+    />
+  </span>
+</div>
+`;
+
+exports[`<Header /> renderDroppable() should renderDroppable correctly 1`] = `
+<div>
+  <div
+    hi="hoo"
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={false}
+      enabled={true}
+      id="tabHeader"
+      innerZ={99}
+      onStateChange={[Function]}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={0}
+    >
+      <WithStyles(ForwardRef(AppBar))
+        className=""
+        color="inherit"
+        position="static"
+      >
+        <WithStyles(Container)
+          className=""
+        >
+          <WithStyles(ForwardRef(Toolbar))
+            className=""
+          >
+            <WithStyles(UGTabs)
+              onChange={[Function]}
+              scrollButtons="auto"
+              textColor="primary"
+              value={0}
+              variant="scrollable"
+            />
+            <ConnectFunction
+              placement="bottom-end"
+              renderButton={[Function]}
+              value={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(ForwardRef(Toolbar))>
+        </WithStyles(Container)>
+      </WithStyles(ForwardRef(AppBar))>
+    </Sticky>
+    some holder
+  </div>
+</div>
+`;
+
+exports[`<Header /> renderLabel() should render normal tab time line button 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    onClick={[Function]}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-list4"
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <span
+        title="Days & Events"
+      >
+        Days & Events
+      </span>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        placement="bottom-end"
+        renderButton={[Function]}
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderLabel() should renderLabel 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <span
+        title="Custom tab"
+      >
+        Custom tab
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderLabel() should renderLabel Days & Events 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <span
+        title="Days & Events"
+      >
+        Days & Events
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderLabel() should still match snapshot for other label 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <span
+        title="Other"
+      >
+        Other
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderLabel() should still match snapshot if the tab is a private tab 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-lock"
+        size="xsmall"
+      />
+      <span
+        title="Other"
+      >
+        Other
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderMoreButton() should renderMoreButton 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tab))
+    className=""
+    key="more"
+    label={
+      <WithStyles(Icon)
+        icon="lnr-ellipsis"
+        size="small"
+      />
+    }
+  />
+</div>
+`;
+
+exports[`<Header /> renderMoreButton() should return null 1`] = `<div />`;
+
+exports[`<Header /> renderMoreMenu() should renderMoreMenu 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-end"
+    renderButton={[Function]}
+    value={false}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Header /> renderMorePopper() should match snapshot if tabType is tabother 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-plus"
+          onClick={[Function]}
+        >
+          New Tab
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="update"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-register"
+          onClick={[Function]}
+        >
+          Edit Tab
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="delete"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-trash2"
+          onClick={[Function]}
+        >
+          Delete Tab
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="update"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-question"
+          onClick={[Function]}
+        >
+          Help
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderMorePopper() should renderMorePopper 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-plus"
+          onClick={[Function]}
+        >
+          New Tab
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+    <BoundCan
+      do="update"
+      on="tabother"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-question"
+          onClick={[Function]}
+        >
+          Help
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderSwitchView() should renderSwitchView 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-end"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Header /> renderSwitchViewPopper() should renderSwitchViewPopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-end"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Header /> renderTabItems() should renderTabItems correctly 1`] = `
+<div>
+  <ConnectFunction
+    active={false}
+    className=""
+    index={0}
+    key="0"
+    renderLabel={[Function]}
+    tabId={0}
+  />
+  <ConnectFunction
+    active={false}
+    className=""
+    index={1}
+    key="1"
+    renderLabel={[Function]}
+    tabId={1}
+  />
+  <ConnectFunction
+    active={true}
+    className=""
+    index={2}
+    key="2222"
+    renderLabel={[Function]}
+    tabId={2222}
+  />
+</div>
+`;
+
+exports[`<Header /> renderTabItems() should renderTabItems correctly on public tour 1`] = `
+<div>
+  <ConnectFunction
+    active={false}
+    className=""
+    index={0}
+    key="0"
+    renderLabel={[Function]}
+    tabId={0}
+  />
+  <ConnectFunction
+    active={false}
+    className=""
+    index={1}
+    key="1"
+    renderLabel={[Function]}
+    tabId={1}
+  />
+  <ConnectFunction
+    active={true}
+    className=""
+    index={2}
+    key="2222"
+    renderLabel={[Function]}
+    tabId={2222}
+  />
+</div>
+`;
+
+exports[`<Header /> renderTabItems() should renderTabItems correctly on public tour if tabids is null 1`] = `<div />`;
+
+exports[`<Header /> renderTabTimeLine() should renderTabTimeLine 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-list4"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <span />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-chevron-down"
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderTabs() should renderTabs correctly 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={false}
+    enabled={true}
+    id="tabHeader"
+    innerZ={99}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={0}
+  >
+    <WithStyles(ForwardRef(AppBar))
+      className=""
+      color="inherit"
+      position="static"
+    >
+      <WithStyles(Container)
+        className=""
+      >
+        <WithStyles(ForwardRef(Toolbar))
+          className=""
+        >
+          <WithStyles(UGTabs)
+            onChange={[Function]}
+            scrollButtons="auto"
+            textColor="primary"
+            value={2}
+            variant="scrollable"
+          />
+          <ConnectFunction
+            placement="bottom-end"
+            renderButton={[Function]}
+            value={false}
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(ForwardRef(Toolbar))>
+      </WithStyles(Container)>
+    </WithStyles(ForwardRef(AppBar))>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> renderTabs() should renderTabs correctly on public 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={false}
+    enabled={true}
+    id="tabHeader"
+    innerZ={99}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top={0}
+  >
+    <WithStyles(ForwardRef(AppBar))
+      className=""
+      color="inherit"
+      position="static"
+    >
+      <WithStyles(Container)
+        className=""
+      >
+        <WithStyles(ForwardRef(Toolbar))
+          className=""
+        >
+          <WithStyles(UGTabs)
+            onChange={[Function]}
+            scrollButtons="auto"
+            textColor="primary"
+            value={2}
+            variant="scrollable"
+          />
+          <ConnectFunction
+            placement="bottom-end"
+            renderButton={[Function]}
+            value={false}
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(ForwardRef(Toolbar))>
+      </WithStyles(Container)>
+    </WithStyles(ForwardRef(AppBar))>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> renderViewButton() should renderViewButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+  >
+    <WithStyles(Icon)
+      icon="lnr-chevron-down"
+      size="xsmall"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Header /> renderViewPopper() should renderViewPopper 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-list"
+        onClick={[Function]}
+      >
+        List View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-31"
+        onClick={[Function]}
+      >
+        Day View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-grid"
+        onClick={[Function]}
+      >
+        Card View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-full"
+        onClick={[Function]}
+      >
+        Timeline View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-map-marker"
+        onClick={[Function]}
+      >
+        Map View
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> updateServer() should MOVE_NODE_AFTER if destination > source 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "moveNodeAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "children": Array [
+          1,
+          2,
+          3,
+        ],
+        "destination": 2,
+        "id": 3,
+        "store": "templates",
+        "tabId": 123,
+        "toBeMovedId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Header /> updateServer() should MOVE_NODE_BEFORE if destination < source 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "moveNodeBefore",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "children": Array [
+          1,
+          2,
+          3,
+        ],
+        "destination": 1,
+        "id": 2,
+        "store": "templates",
+        "tabId": 123,
+        "toBeMovedId": 3,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Header /> updateStore() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "templates": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 1`] = `"lnr-calendar-31"`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 2`] = `"lnr-grid"`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 3`] = `"lnr-calendar-full"`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 4`] = `"lnr-menu-square"`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 5`] = `"lnr-map-marker"`;
+
+exports[`<Header /> viewIconFromValue() should viewIconFromValue 6`] = `"lnr-list4"`;

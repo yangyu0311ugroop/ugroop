@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrgInvitation/config.js Smoke Test should exists 1`] = `
+Object {
+  "manuallySubscribe": true,
+  "name": "OrgInvitations",
+  "processResult": Object {
+    "confirmInvitation": [Function],
+    "declineInvitation": [Function],
+  },
+  "requests": Object {
+    "confirmInvitation": [Function],
+    "declineInvitation": [Function],
+  },
+  "setValue": Object {
+    "notifications": [Function],
+    "orgInvitations": [Function],
+    "orgUsers": Array [
+      "organisationDataStore",
+      "orgUsers",
+    ],
+    "organisationAbilities": Array [
+      "abilityDataStore",
+      "organisation",
+    ],
+    "shares": Array [
+      "invitationStore",
+      "shares",
+    ],
+    "tours": Array [
+      "abilityDataStore",
+      "tours",
+    ],
+    "users": Array [
+      "userDataStore",
+      "users",
+    ],
+  },
+  "value": Object {
+    "id": Array [
+      "userDataStore",
+      "userId",
+    ],
+    "organisationAbilities": Array [
+      "abilityDataStore",
+      "definitions",
+      "organisation",
+    ],
+  },
+}
+`;
+
+exports[`OrgInvitation/config.js processResult CONFIRM_INVITATION should CONFIRM_INVITATION 1`] = `
+Object {
+  "notifications": [Function],
+  "orgInvitations": [Function],
+  "orgUser": Object {
+    "org": "user",
+  },
+}
+`;
+
+exports[`OrgInvitation/config.js processResult DECLINE_INVITATION should DECLINE_INVITATION 1`] = `
+Object {
+  "notifications": [Function],
+  "orgInvitations": [Function],
+}
+`;
+
+exports[`OrgInvitation/config.js requests should call fetchWithAuthorisation 1`] = `
+Array [
+  Array [
+    "post",
+    "/OrgInvitations/some token/accept",
+    Object {
+      "content": "some content",
+    },
+  ],
+  Array [
+    "post",
+    "/OrgInvitations/some token/decline",
+    Object {
+      "content": "some content",
+    },
+  ],
+]
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrganizerTab should render what it should render 1`] = `
+<WithStyles(GridContainer)
+  className="undefined"
+>
+  <WithStyles(GridItem)
+    md={3}
+  >
+    <WithStyles(Header)
+      as="h2"
+    >
+      Table of Content
+    </WithStyles(Header)>
+    <ul
+      className="FAQPageOrganizerTab-itemList"
+    >
+      <li
+        className="FAQPageOrganizerTab-items FAQPageOrganizerTab-itemSelected"
+        key="general"
+      >
+        <a
+          data-index={0}
+          href="#general"
+          onClick={[Function]}
+        >
+          General
+        </a>
+      </li>
+      <li
+        className="FAQPageOrganizerTab-items"
+        key="accounts"
+      >
+        <a
+          data-index={1}
+          href="#accounts"
+          onClick={[Function]}
+        >
+          Accounts
+        </a>
+      </li>
+      <li
+        className="FAQPageOrganizerTab-items"
+        key="organisation"
+      >
+        <a
+          data-index={2}
+          href="#organisation"
+          onClick={[Function]}
+        >
+          Organisation
+        </a>
+      </li>
+      <li
+        className="FAQPageOrganizerTab-items"
+        key="template"
+      >
+        <a
+          data-index={3}
+          href="#template"
+          onClick={[Function]}
+        >
+          Template
+        </a>
+      </li>
+    </ul>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={9}
+  >
+    <WithStyles(ForwardRef(List))>
+      <WithStyles(FAQListItem)
+        itemTitle="Sample 1"
+      >
+        <WithStyles(Description)
+          size={16}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia lacus. Vivamus vel cursus dolor, a sollicitudin ligula. Maecenas nec mollis lorem. Pellentesque sed aliquam dolor, a fermentum odio. Donec sit amet iaculis odio. Nulla pulvinar in urna eget vehicula. Curabitur at fermentum est. Vestibulum et tellus dolor. Praesent ultricies mauris vitae tristique dapibus.
+        </WithStyles(Description)>
+      </WithStyles(FAQListItem)>
+      <WithStyles(FAQListItem)
+        itemTitle="Sample 2"
+      >
+        <WithStyles(Description)
+          size={16}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia lacus. Vivamus vel cursus dolor, a sollicitudin ligula. Maecenas nec mollis lorem. Pellentesque sed aliquam dolor, a fermentum odio. Donec sit amet iaculis odio. Nulla pulvinar in urna eget vehicula. Curabitur at fermentum est. Vestibulum et tellus dolor. Praesent ultricies mauris vitae tristique dapibus.
+        </WithStyles(Description)>
+      </WithStyles(FAQListItem)>
+      <WithStyles(FAQListItem)
+        itemTitle="Sample 3"
+      >
+        <WithStyles(Description)
+          size={16}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia lacus. Vivamus vel cursus dolor, a sollicitudin ligula. Maecenas nec mollis lorem. Pellentesque sed aliquam dolor, a fermentum odio. Donec sit amet iaculis odio. Nulla pulvinar in urna eget vehicula. Curabitur at fermentum est. Vestibulum et tellus dolor. Praesent ultricies mauris vitae tristique dapibus.
+        </WithStyles(Description)>
+      </WithStyles(FAQListItem)>
+      <WithStyles(FAQListItem)
+        itemTitle="Sample 4"
+      >
+        <WithStyles(Description)
+          size={16}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lacinia lacus. Vivamus vel cursus dolor, a sollicitudin ligula. Maecenas nec mollis lorem. Pellentesque sed aliquam dolor, a fermentum odio. Donec sit amet iaculis odio. Nulla pulvinar in urna eget vehicula. Curabitur at fermentum est. Vestibulum et tellus dolor. Praesent ultricies mauris vitae tristique dapibus.
+        </WithStyles(Description)>
+      </WithStyles(FAQListItem)>
+    </WithStyles(ForwardRef(List))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

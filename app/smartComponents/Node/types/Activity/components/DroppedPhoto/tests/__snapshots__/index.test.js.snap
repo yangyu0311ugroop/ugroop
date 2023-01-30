@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DroppedPhoto /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div>
+        <a
+          target="_blank"
+        >
+          <img
+            className=""
+          />
+        </a>
+      </div>
+      <div>
+        <WithStyles(LoadingText)
+          icon={true}
+          show={true}
+        />
+      </div>
+      <div>
+        error
+      </div>
+      <div>
+        NaN MB
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      tabIndex={0}
+    >
+      <Formsy(withRouter(WithStyles(SimpleRTE)))
+        innerRef={[Function]}
+        lines={2}
+        name="undefined.description"
+        placeholder="Add a description"
+        readOnly="error"
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value=""
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DroppedPhoto /> renderFileSize() should return KB 1`] = `"23 KB"`;
+
+exports[`<DroppedPhoto /> renderFileSize() should return MB 1`] = `"23 MB"`;
+
+exports[`<DroppedPhoto /> renderImage() should return image 1`] = `
+<div>
+  <a
+    href=""
+    target="_blank"
+  >
+    <img
+      className=""
+    />
+  </a>
+</div>
+`;

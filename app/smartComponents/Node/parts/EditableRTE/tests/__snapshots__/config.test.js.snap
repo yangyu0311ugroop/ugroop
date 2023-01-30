@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditableRTE/config.js Smoke Test should exists 1`] = `
+Object {
+  "isLoading": Object {
+    "updatingNode": Array [
+      "Nodes",
+      "updateNode",
+    ],
+  },
+  "setValue": Object {},
+  "value": Object {
+    "content": [Function],
+    "type": [Function],
+  },
+}
+`;
+
+exports[`EditableRTE/config.js Smoke Test value should exists content 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "haskeyDescription",
+]
+`;
+
+exports[`EditableRTE/config.js Smoke Test value should exists content 2`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  undefined,
+]
+`;

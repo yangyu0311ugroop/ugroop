@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NodeContent /> render() should render Link 1`] = `
+<div>
+  <withRouter(UGLink)
+    className="NodeContent-root"
+    onClick={[Function]}
+    target=""
+    to="/tours"
+  >
+    renderBody
+  </withRouter(UGLink)>
+</div>
+`;
+
+exports[`<NodeContent /> renderBody() should renderBody 1`] = `
+<div>
+  <span
+    className="customClassName"
+  >
+    content
+  </span>
+</div>
+`;

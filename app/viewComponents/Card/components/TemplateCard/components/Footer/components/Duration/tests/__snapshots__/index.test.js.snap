@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Describe /> render should match snapshot if duration is 1 day 1`] = `
+<P
+  className=""
+  dense={true}
+>
+  1
+   
+  Day
+</P>
+`;
+
+exports[`<Describe /> render should match snapshot if duration is greater than 1 day 1`] = `
+<P
+  className=""
+  dense={true}
+>
+  3
+   
+  Days
+</P>
+`;

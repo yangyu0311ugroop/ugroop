@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineText /> InlineText style should match snapshot 1`] = `
+Object {
+  "bgTransparent": "-bgTransparent",
+  "editing": "-editing",
+  "grow": "-grow",
+  "h1FontSize": "-h1FontSize",
+  "h2FontSize": "-h2FontSize",
+  "h3FontSize": "-h3FontSize",
+  "h4FontSize": "-h4FontSize",
+  "h5FontSize": "-h5FontSize",
+  "h6FontSize": "-h6FontSize",
+  "inkbar": "-inkbar",
+  "input": "-input",
+  "root": "-root",
+  "spanFontSize": "-spanFontSize",
+  "text": "-text",
+  "titleFontSize": "-titleFontSize",
+  "underline": "-underline",
+}
+`;
+
+exports[`<InlineText /> render() should render correctly 1`] = `
+<div>
+  <FormsyInterceptor
+    InputProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    className=""
+    inputProps={
+      Object {
+        "className": "",
+      }
+    }
+    margin="none"
+    name="text"
+    onInterceptValue={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

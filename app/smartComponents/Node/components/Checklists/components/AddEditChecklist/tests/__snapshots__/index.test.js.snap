@@ -1,0 +1,716 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEditChecklist /> addChecklist() should call NODE_API_HELPERS.createNode 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "checklists",
+      "node": Object {
+        "content": "content",
+        "customData": Object {
+          "description": "description",
+          "dueDate": Object {
+            "mode": "relative",
+            "value": "P0D",
+          },
+        },
+        "status": "open",
+        "type": "checklist",
+      },
+      "onSuccess": [Function],
+      "parentNodeId": 2311,
+    },
+    Object {
+      "classes": Object {},
+      "content": "",
+      "description": "",
+      "id": 0,
+      "parentContent": "",
+      "parentNodeId": 2311,
+      "parentType": "",
+      "resaga": Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Folders",
+              "getChecklists",
+              Object {
+                "onSuccess": undefined,
+                "payload": Object {
+                  "id": 123,
+                },
+              },
+            ],
+            Array [
+              "Folders",
+              "getChecklists",
+              Object {
+                "onSuccess": "onSuccess",
+                "payload": Object {
+                  "id": 123,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "addChecklistParentId": null,
+                "editChecklistId": null,
+                "selectedChecklists": null,
+              },
+            ],
+            Array [
+              Object {
+                "expandedChecklistId": 123,
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      "selectedChecklists": Array [],
+      "submitButtonContent": "Save Changes",
+      "tabId": 999,
+    },
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> addSuccess() should addSuccess() 1`] = `
+Array [
+  Array [
+    2233,
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> copyFromIds() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "batchCreateClone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "filter": "checklist",
+          "parentNodeId": 2392,
+        },
+        "node": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> copyNodeSuccess() should call fetchChecklists 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      232,
+      Object {
+        "onSuccess": [Function],
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<AddEditChecklist /> editChecklist() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "batchCreateClone",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "filter": "checklist",
+          "parentNodeId": 2392,
+        },
+        "node": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTree",
+    Object {
+      "onError": undefined,
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 232,
+        "idUpsertMode": undefined,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "content": "content",
+          "customData": Object {
+            "description": "description",
+          },
+          "type": "checklist",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> fetchChecklists() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+  Array [
+    "Folders",
+    "getChecklists",
+    Object {
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> fetchListSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "addChecklistParentId": null,
+      "editChecklistId": null,
+      "selectedChecklists": null,
+    },
+  ],
+  Array [
+    Object {
+      "expandedChecklistId": 123,
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            1,
+            2,
+          ],
+          "groupId": 2,
+          "id": 1,
+          "label": "",
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 2,
+          "id": 3,
+        },
+        Object {
+          "checklists": Array [
+            1,
+            2,
+          ],
+          "groupId": 2,
+          "id": 1,
+          "label": "",
+        },
+        Object {
+          "checklists": Array [
+            1,
+            2,
+          ],
+          "groupId": 2,
+          "id": 2,
+          "label": "",
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 2,
+          "id": 3,
+        },
+        Object {
+          "checklists": Array [
+            1,
+          ],
+          "groupId": 2,
+          "id": 1,
+          "label": "",
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 2,
+          "id": 3,
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 5,
+          "id": 10,
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 2,
+          "id": 3,
+        },
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 5,
+          "id": 10,
+        },
+        Object {
+          "checklists": Array [],
+          "groupId": 7,
+          "id": 1,
+          "label": "",
+        },
+        Object {
+          "checklists": Array [
+            1,
+          ],
+          "groupId": 7,
+          "id": 7,
+          "label": "",
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "selectedChecklists": Array [
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 2,
+          "id": 3,
+        },
+        Object {
+          "checklists": Array [
+            3,
+          ],
+          "groupId": 5,
+          "id": 10,
+        },
+        Object {
+          "checklists": Array [],
+          "groupId": 7,
+          "id": 7,
+          "label": "",
+        },
+      ],
+    },
+  ],
+  Array [
+    Object {
+      "expandedChecklistId": 232,
+    },
+  ],
+  Array [
+    Object {
+      "checklists": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "addChecklistParentId": null,
+      "editChecklistId": null,
+      "selectedChecklists": null,
+    },
+  ],
+]
+`;
+
+exports[`<AddEditChecklist /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    fullScreen={false}
+    fullWidth={true}
+    header={
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            xl={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onClose={[Function]}
+    onInvalidSubmit={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      renderCopyItems
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <FormsyInterceptor
+              autoFocus={true}
+              id="content"
+              label={
+                <span>
+                  Checklist Name
+                </span>
+              }
+              name="content"
+              onInterceptValue={[Function]}
+              required={true}
+              type="text"
+              validationErrors={
+                Object {
+                  "minLength": "too short",
+                }
+              }
+              validations={
+                Object {
+                  "minLength": 3,
+                }
+              }
+              value=""
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Formsy(withRouter(WithStyles(SimpleRTE)))
+              innerRef={[Function]}
+              name="description"
+              placeholder="Write a short description, i.e. its purpose or when it would be used"
+              required={false}
+              validationError=""
+              validationErrors={Object {}}
+              validations={null}
+              value=""
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddEditChecklist /> renderCopyItems() should renderCopyItems 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        menuHeader="Checklists"
+        noPadding={true}
+        placement="right"
+        renderButton={[Function]}
+        selectedChecklists={
+          Array [
+            Object {
+              "checklists": Array [],
+              "groupId": 1,
+              "id": 1,
+            },
+            Object {
+              "checklists": Array [],
+              "groupId": 2,
+              "id": 3,
+            },
+          ]
+        }
+        stopPropagation={true}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        direction="row"
+      >
+        <WithStyles(GridItem)
+          key="1"
+        >
+          <WithStyles(ForwardRef(Chip))
+            avatar={
+              <WithStyles(ForwardRef(Avatar))>
+                0
+              </WithStyles(ForwardRef(Avatar))>
+            }
+            className="j-text-ellipsis"
+            inputProps={
+              Object {
+                "checked": true,
+                "id": 1,
+              }
+            }
+            key="1"
+            label={
+              <div
+                className="j-text-ellipsis"
+              >
+                <WithStyles(withRouter(Connect(WithSimplifyResaga(ChecklistContent))))
+                  id={1}
+                  index={0}
+                  parentNodeId={null}
+                />
+              </div>
+            }
+            onDelete={[Function]}
+            variant="outlined"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="3"
+        >
+          <WithStyles(ForwardRef(Chip))
+            avatar={null}
+            className="j-text-ellipsis"
+            inputProps={
+              Object {
+                "checked": true,
+                "id": 3,
+              }
+            }
+            key="3"
+            label={
+              <div
+                className="j-text-ellipsis"
+              >
+                <WithStyles(withRouter(Connect(WithSimplifyResaga(ChecklistContent))))
+                  id={3}
+                  index={1}
+                  parentNodeId={2}
+                />
+              </div>
+            }
+            onDelete={[Function]}
+            variant="outlined"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        borderHighlight={true}
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(Hr)
+            half={true}
+          />
+          <P
+            dense={true}
+          >
+            Selected Checklists:  Group(1), Checklists: (1) 
+          </P>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddEditChecklist /> renderPopperButton() should match snapshots 1`] = `
+<WithStyles(Button)
+  color="base"
+  dense={true}
+  selectedChecklists={Array []}
+  size="extraSmall"
+  variant="borderless"
+>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      Copy from
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-chevron-down"
+        paddingLeft={true}
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(Button)>
+`;
+
+exports[`<AddEditChecklist /> renderPopperOptions() should match snapshots 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <WithStyles(GridItem)>
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(ChecklistOptions))))
+      onChange={[Function]}
+      parentNodeId={0}
+      parentType=""
+      variant="checkInput"
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<AddEditChecklist /> updateDialogProps() should set addDialogProps 1`] = `
+Object {
+  "customClassnames": Object {
+    "content": undefined,
+  },
+  "dialogTitle": "New Checklist",
+  "headlineIcon": "lnr-clipboard-pencil",
+  "headlineText": <span>
+    parentContent
+  </span>,
+  "headlineTitle": <span>
+    New checklist on this 
+    parentType
+  </span>,
+  "template": "add",
+}
+`;

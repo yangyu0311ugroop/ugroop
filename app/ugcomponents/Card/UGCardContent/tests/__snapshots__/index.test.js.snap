@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGCardContent /> component should render given the props provided 1`] = `
+<div
+  className="UGCardContent-cardContent Jesus-Is-The-Way"
+>
+  as it is written: “None is righteous, no, not one;"
+</div>
+`;
+
+exports[`<UGCardContent /> component should render something even without children and className provided 1`] = `
+<div
+  className="UGCardContent-cardContent "
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTemplateListHR should always render what it should render 1`] = `
+<hr
+  className="qweqwe sample"
+/>
+`;
+
+exports[`UGTemplateListHR should display what it should display when className is present 1`] = `
+<hr
+  className="qweqwe "
+/>
+`;

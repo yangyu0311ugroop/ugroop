@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleMarker /> renderDestination() should renderDestination 1`] = `
+<div>
+  <div
+    className=""
+    title="Destination"
+  >
+    <div
+      className=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<CircleMarker /> renderLine() should renderLine 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<CircleMarker /> renderWaypoint() should renderWaypoint 1`] = `
+<div>
+  <div
+    className=""
+    title="Waypoint"
+  />
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketingUGLink should render what it should render 1`] = `
+<withRouter(UGLink)
+  className="MarketingUGLink-notActive"
+  to="/"
+/>
+`;
+
+exports[`MarketingUGLink should render what it should render depending on outline 1`] = `
+<withRouter(UGLink)
+  className="MarketingUGLink-notActive MarketingUGLink-btnLink MarketingUGLink-outlineOrange"
+  to="/"
+/>
+`;
+
+exports[`MarketingUGLink should render what it should render if link isButton 1`] = `
+<withRouter(UGLink)
+  className="MarketingUGLink-notActive MarketingUGLink-btnLink"
+  to="/"
+/>
+`;

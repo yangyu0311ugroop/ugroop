@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayCard /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGCard)>
+    <WithStyles(Connect(WithSimplifyResaga(Header)))
+      dayCount={0}
+      id={1}
+      startDate=""
+    />
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(CardContent)))
+            content=""
+            dayId={1}
+            location=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <ConnectFunction
+        id={1}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Activities)))
+        dayId={1}
+        isLazyLoad={true}
+      />
+    </div>
+  </WithStyles(UGCard)>
+  <ConnectFunction
+    id={1}
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<DayCard /> render() should render something different if photoId exist 1`] = `
+<div>
+  <WithStyles(UGCard)>
+    <WithStyles(Connect(WithSimplifyResaga(Header)))
+      dayCount={0}
+      id={1}
+      startDate=""
+    />
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+            isLazyLoad={true}
+            photoId="/photoId"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(CardContent)))
+            content=""
+            dayId={1}
+            location=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <ConnectFunction
+        id={1}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Activities)))
+        dayId={1}
+        isLazyLoad={true}
+      />
+    </div>
+  </WithStyles(UGCard)>
+  <ConnectFunction
+    id={1}
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<DayCard /> render() should render something different if startDate exist 1`] = `
+<div>
+  <WithStyles(UGCard)>
+    <WithStyles(Connect(WithSimplifyResaga(Header)))
+      dayCount={0}
+      id={1}
+      startDate="2018-04-07"
+    />
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(CardContent)))
+            content=""
+            dayId={1}
+            location=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <ConnectFunction
+        id={1}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Activities)))
+        dayId={1}
+        isLazyLoad={true}
+      />
+    </div>
+  </WithStyles(UGCard)>
+  <ConnectFunction
+    id={1}
+    variant="logic"
+  />
+</div>
+`;

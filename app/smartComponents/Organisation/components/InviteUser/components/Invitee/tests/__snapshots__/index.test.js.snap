@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Invitee /> componentWillMount() should call setTimeout when index < ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    750,
+  ],
+]
+`;
+
+exports[`<Invitee /> componentWillMount() should call setTimeout when index >= ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    1000,
+  ],
+]
+`;
+
+exports[`<Invitee /> componentWillUnmount() should call setTimeout when index < 5 1`] = `
+Array [
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`<Invitee /> render() should render correctly 1`] = `
+<div>
+  <ForwardRef(Grow)
+    in={true}
+    timeout={150}
+  >
+    renderContent
+  </ForwardRef(Grow)>
+</div>
+`;
+
+exports[`<Invitee /> renderAccepted() should renderAccepted correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <Hidden
+          smDown={true}
+        >
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              noTooltip={true}
+              sm={true}
+              userId={999}
+            />
+          </WithStyles(GridItem)>
+        </Hidden>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email="that@guy"
+            id={999}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Component
+            id={999}
+            token=""
+            variant="textReadOnly"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            dense={true}
+            icon="ellipsis"
+            iconButton={true}
+            onClick={[Function]}
+            size="small"
+            variant="borderless"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Invitee /> renderPending() should renderPending correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-envelope"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email="that@guy"
+            id={999}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Component
+            disableEditing={false}
+            id={999}
+            token=""
+            variant="textEditng"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            dense={true}
+            icon="ellipsis"
+            iconButton={true}
+            onClick={[Function]}
+            size="small"
+            variant="borderless"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Invitee /> renderPersonalMessage() should render Personal Message 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+      justify="flex-start"
+    >
+      <WithStyles(GridItem)>
+        <H5>
+          Message: 
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Formsy(withRouter(WithStyles(SimpleRTE)))
+          innerRef={[Function]}
+          name="pm"
+          readOnly={true}
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value="message"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Invitee /> renderStatus() should return correctly if fromOtherOrg and user is empty is false 1`] = `"NEW USER"`;
+
+exports[`<Invitee /> renderStatus() should return correctly if fromOtherOrg is false 1`] = `"REGISTERED USER "`;
+
+exports[`<Invitee /> renderStatus() should return correctly if fromOtherOrg is true 1`] = `"REGISTERED USER FROM OTHER ORGANISATION"`;
+
+exports[`<Invitee /> renderUserStatus() should render if creating is true 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <span>
+      renderStatus
+    </span>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy/config.js ALL_VALUES value getter 1`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    2,
+  ],
+  Array [
+    3,
+    3,
+  ],
+]
+`;
+
+exports[`SortBy/config.js ALL_VALUES value keypath 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "createdAt",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "createdAt",
+  ],
+]
+`;
+
+exports[`SortBy/config.js ALL_VALUES value props 1`] = `
+Object {
+  "ids": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`SortBy/config.js ALL_VALUES value should exists 1`] = `"tourDateIds.1,2.undefined.1,2.filterFunction.filter"`;
+
+exports[`SortBy/config.js ALL_VALUES value should exists 2`] = `"tourDateIds.null.undefined.1,2.filterFunction.filter"`;
+
+exports[`SortBy/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "dayId": Object {
+      "getter": [Function],
+      "keyPath": Array [
+        "templateManagementView",
+        "selectedId",
+      ],
+      "props": [Function],
+    },
+  },
+}
+`;
+
+exports[`SortBy/config.js Smoke Test should exists 2`] = `
+Object {
+  "value": Object {
+    "calculatedDate": [Function],
+    "isDateSet": [Function],
+  },
+}
+`;
+
+exports[`SortBy/config.js Smoke Test should exists 3`] = `
+Object {
+  "value": Object {
+    "filteredIds": Object {
+      "getter": [Function],
+    },
+    "values": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+  },
+}
+`;
+
+exports[`SortBy/config.js TOUR_DATES_CONFIG calculatedDate 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  2,
+  "calculated",
+  "time",
+  "start",
+  "value",
+]
+`;
+
+exports[`SortBy/config.js TOUR_DATES_CONFIG isDateSet 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  2,
+  "calculated",
+  "time",
+  "start",
+  "real",
+]
+`;

@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render 1`] = `
+<div>
+  <VIEW
+    fixed={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2b344d",
+        "flexDirection": "column",
+        "paddingBottom": 8,
+        "paddingTop": 8,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <VIEW>
+      <IMAGE
+        source="IMAGE_MOCK"
+        style={
+          Object {
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </VIEW>
+    <VIEW
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "color": "#e5e7e8",
+            "fontSize": 11,
+            "fontWeight": 900,
+            "padding": 4,
+            "textAlign": "justify",
+          }
+        }
+      >
+        Travel by
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#8ba2bd",
+            "fontSize": 12,
+            "padding": 4,
+            "textAlign": "justify",
+          }
+        }
+      />
+    </VIEW>
+  </VIEW>
+  <VIEW
+    fixed={true}
+    style={
+      Object {
+        "backgroundColor": "#faf9f7",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "padding": 8,
+        "textAlign": "center",
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "color": "#1a2b49",
+          "fontSize": 15,
+          "fontWeight": 500,
+          "padding": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+       
+       
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#1a2b49",
+          "fontSize": 15,
+          "fontWeight": 500,
+          "padding": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+       
+       
+    </TEXT>
+    <VIEW
+      style={
+        Object {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <TEXT
+          style={
+            Object {
+              "color": "#6682a3",
+              "fontSize": 12,
+              "fontWeight": 900,
+              "paddingBottom": 2,
+              "paddingLeft": 2,
+              "paddingTop": 2,
+              "textAlign": "justify",
+            }
+          }
+        >
+           Travel Date: 
+        </TEXT>
+        <TEXT
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 12,
+              "padding": 2,
+              "textAlign": "justify",
+            }
+          }
+        >
+           
+           
+        </TEXT>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "alignItems": "baseline",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#aab20c",
+                "borderRadius": 10,
+                "fontSize": 8,
+                "height": "10px",
+                "justifyContent": "center",
+                "marginRight": 1,
+                "width": "10px",
+              }
+            }
+          />
+          <TEXT
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 10,
+                "color": "black",
+                "fontSize": 8,
+                "height": "10px",
+                "justifyContent": "center",
+                "textAlign": "justify",
+                "width": "80px",
+              }
+            }
+          >
+             - Medical Conditions 
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "alignItems": "baseline",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#55cd3d",
+                "borderRadius": 10,
+                "fontSize": 8,
+                "height": "10px",
+                "justifyContent": "center",
+                "marginRight": 1,
+                "width": "10px",
+              }
+            }
+          />
+          <TEXT
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 10,
+                "color": "black",
+                "fontSize": 8,
+                "height": "10px",
+                "justifyContent": "center",
+                "textAlign": "justify",
+                "width": "100px",
+              }
+            }
+          >
+             
+            - Dietary Requirements
+             
+          </TEXT>
+        </VIEW>
+      </VIEW>
+    </VIEW>
+  </VIEW>
+</div>
+`;
+
+exports[`<Header /> subTitle() should render 1`] = `
+<div>
+  <VIEW
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "color": "#6682a3",
+          "fontSize": 12,
+          "fontWeight": 900,
+          "paddingBottom": 2,
+          "paddingLeft": 2,
+          "paddingTop": 2,
+          "textAlign": "justify",
+        }
+      }
+    >
+       Travel Date: 
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 12,
+          "padding": 2,
+          "textAlign": "justify",
+        }
+      }
+    >
+       
+       
+    </TEXT>
+  </VIEW>
+</div>
+`;

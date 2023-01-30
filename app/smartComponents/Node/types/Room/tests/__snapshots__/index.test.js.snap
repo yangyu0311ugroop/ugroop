@@ -1,0 +1,1387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Room /> deleteRoom() should deleteRoom 1`] = `
+<div>
+  <WithStyles(Button)
+    color="alert"
+    onClick={[MockFunction]}
+    size="xs"
+    title="Remove this room, and if there are any allocated guests, place them in another room"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      noWrap={true}
+    >
+      <WithStyles(GridItem)>
+        Delete Room
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Room /> handleDeleteRoom() should handleDeleteRoom 1`] = `<div />`;
+
+exports[`<Room /> handleRelocateParticipant() should handleRequestError 1`] = `<div />`;
+
+exports[`<Room /> handleRemoveLink() should handleRemoveLink 1`] = `<div />`;
+
+exports[`<Room /> handleRequestError() should handleRequestError 1`] = `<div />`;
+
+exports[`<Room /> handleremoveLinkSuccess() should handleremoveLinkSuccess 1`] = `<div />`;
+
+exports[`<Room /> isFull() should isFull 1`] = `<div />`;
+
+exports[`<Room /> openAddPax() should setLoading 1`] = `<div />`;
+
+exports[`<Room /> renderCard() should renderCard 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="darkGray"
+            icon="lnr-bed"
+            size="extraSmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            variant="textOnly"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+      md={true}
+    >
+      Room not shared yet.
+    </WithStyles(JTextClass)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderCard() should renderCard 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="darkGray"
+            icon="lnr-bed"
+            size="extraSmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            id={1}
+            variant="textOnly"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          key="1"
+          md={4}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                card={true}
+                elevation={1}
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    id={1}
+                    variant="avatar"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    bold={true}
+                  >
+                    <ConnectFunction
+                      id={1}
+                      variant="textOnly"
+                    />
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="3"
+          md={4}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                card={true}
+                elevation={1}
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    id={3}
+                    variant="avatar"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    bold={true}
+                  >
+                    <ConnectFunction
+                      id={3}
+                      variant="textOnly"
+                    />
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderChangeRoom() should renderChangeRoom 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+    editable={false}
+    handleOnSubmit={null}
+    renderLabel={[Function]}
+    showLabel={false}
+    showOthers={true}
+    variant="popper"
+  />
+</div>
+`;
+
+exports[`<Room /> renderDeleteButton() should renderDeleteButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="alert"
+    dense={true}
+    disabled={true}
+    icon="lnr-trash2"
+    iconButton={true}
+    loading={true}
+    onClick={[Function]}
+    size="xsmall"
+    square={true}
+    title="Remove undefined from this room"
+    variant="inline"
+  />
+</div>
+`;
+
+exports[`<Room /> renderEditable() should renderEditable 1`] = `<div />`;
+
+exports[`<Room /> renderEditable() should renderEditable 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+        editable={true}
+        id={1}
+        variant="popper"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(Hr) />
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+      md={true}
+      textCenter={true}
+    >
+      Room not yet allocated
+    </WithStyles(JTextClass)>
+    <WithStyles(Hr) />
+    <WithStyles(GridItem)
+      xs={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderLabel() should match snapshots 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    blue={true}
+    italic={true}
+  >
+    Change Room Type
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Room /> renderList() should renderList 1`] = `
+<div>
+  <WithStyles(TableRow)>
+    <WithStyles(TableCell)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              dense={true}
+              onClick={[Function]}
+              size="xs"
+              title="Add/Edit undefined"
+              variant="inline"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </BoundCan>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            variant="popper"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(TableCell)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+      id={1}
+      showSubDetail={false}
+      variant="table"
+    />
+    <WithStyles(TableCell)
+      padding="halfLeftRight"
+    >
+      <WithStyles(Button)
+        color="alert"
+        dense={true}
+        disabled={false}
+        icon="lnr-trash2"
+        iconButton={true}
+        loading={false}
+        onClick={[Function]}
+        size="xsmall"
+        square={true}
+        title="Remove undefined from this room"
+        variant="inline"
+      />
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<Room /> renderList() should renderList 2`] = `
+<div>
+  <WithStyles(TableRow)>
+    <WithStyles(TableCell)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              dense={true}
+              onClick={[Function]}
+              size="xs"
+              title="Add/Edit undefined"
+              variant="inline"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </BoundCan>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            variant="popper"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      colSpan={2}
+    >
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+        md={true}
+        textCenter={true}
+      >
+        Room not yet allocated
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          , 
+          <WithStyles(JTextClass)
+            link={true}
+            onClick={[Function]}
+          >
+            click to add
+          </WithStyles(JTextClass)>
+        </BoundCan>
+      </WithStyles(JTextClass)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell) />
+    <WithStyles(TableCell) />
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<Room /> renderMenuItem() should renderMenuItem 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    disabled={false}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="row"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+              editable={true}
+              variant="textOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              blue={true}
+              italic={true}
+              link={true}
+              onClick={[Function]}
+              sm={true}
+              textCenter={true}
+              underline={true}
+            >
+              undefined (0)
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<Room /> renderMenuItem() should renderMenuItem 2`] = `
+<div>
+  <WithStyles(MenuItem)
+    disabled={false}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="row"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+              editable={true}
+              variant="textOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              blue={true}
+              italic={true}
+              link={true}
+              onClick={[Function]}
+              sm={true}
+              textCenter={true}
+              underline={true}
+            >
+              undefined (0)
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          italic={true}
+          md={true}
+          textCenter={true}
+        >
+          Room not yet allocated
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<Room /> renderNoPax() should renderNoPax 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+    md={true}
+    textCenter={true}
+  >
+    No undefined to room with yet
+    <BoundCan
+      do="create"
+      on="room"
+    >
+      , 
+      <WithStyles(JTextClass)
+        link={true}
+        onClick={[Function]}
+      >
+        click to add
+      </WithStyles(JTextClass)>
+    </BoundCan>
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Room /> renderPaxContentAvatar() should renderPaxContentAvatar 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        justity="space-between"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            id={1}
+            showSubDetail={false}
+            variant="avatarOnly"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderPaxContentAvatar() should renderPaxContentAvatar 2`] = `
+<div>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+    md={true}
+    textCenter={true}
+  >
+    Room not yet allocated
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Room /> renderPaxContentAvatar() should renderPaxContentAvatar 3`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        justity="space-between"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            id={1}
+            showSubDetail={false}
+            variant="avatarOnly"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderPaxContentAvatar() should renderPaxContentFiltered 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        justity="space-between"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            id={2}
+            showSubDetail={false}
+            variant="rowSimple"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            justify="flex-end"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="alert"
+                dense={true}
+                disabled={false}
+                icon="lnr-trash2"
+                iconButton={true}
+                loading={false}
+                onClick={[Function]}
+                size="xsmall"
+                square={true}
+                title="Remove undefined from this room"
+                variant="inline"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        justity="space-between"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            id={3}
+            showSubDetail={false}
+            variant="rowSimple"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            justify="flex-end"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="alert"
+                dense={true}
+                disabled={false}
+                icon="lnr-trash2"
+                iconButton={true}
+                loading={false}
+                onClick={[Function]}
+                size="xsmall"
+                square={true}
+                title="Remove undefined from this room"
+                variant="inline"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderPaxContentAvatar() should renderPaxContentFiltered 2`] = `
+<div>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+    md={true}
+    textCenter={true}
+  >
+    No undefined to room with yet
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Room /> renderPaxcontentByAgeType() should renderPaxcontentByAgeType 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    key="Adult"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          sm={true}
+          uppercase={true}
+        >
+          Adult (2)
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={1}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              justify="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  id={1}
+                  showSubDetail={false}
+                  variant="rowSimple"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  justify="flex-end"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Button)
+                      color="alert"
+                      dense={true}
+                      disabled={false}
+                      icon="lnr-trash2"
+                      iconButton={true}
+                      loading={false}
+                      onClick={[Function]}
+                      size="xsmall"
+                      square={true}
+                      title="Remove undefined from this room"
+                      variant="inline"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              justify="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  id={3}
+                  showSubDetail={false}
+                  variant="rowSimple"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  justify="flex-end"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Button)
+                      color="alert"
+                      dense={true}
+                      disabled={false}
+                      icon="lnr-trash2"
+                      iconButton={true}
+                      loading={false}
+                      onClick={[Function]}
+                      size="xsmall"
+                      square={true}
+                      title="Remove undefined from this room"
+                      variant="inline"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)
+    direction="column"
+    key="Children"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          sm={true}
+          uppercase={true}
+        >
+          Children (1)
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={1}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              justify="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  id={2}
+                  showSubDetail={false}
+                  variant="rowSimple"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  justify="flex-end"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Button)
+                      color="alert"
+                      dense={true}
+                      disabled={false}
+                      icon="lnr-trash2"
+                      iconButton={true}
+                      loading={false}
+                      onClick={[Function]}
+                      size="xsmall"
+                      square={true}
+                      title="Remove undefined from this room"
+                      variant="inline"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderRowSimple() should renderRowSimple 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+          editable={true}
+          id={1}
+          variant="textOnly"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              justity="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  id={1}
+                  showSubDetail={false}
+                  variant="avatarOnly"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              justity="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                  id={3}
+                  showSubDetail={false}
+                  variant="avatarOnly"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Room /> renderSelect() should renderSelect 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            variant="NodeProp"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+        editable={true}
+        handleOnSubmit={[Function]}
+        renderLabel={[Function]}
+        showLabel={false}
+        showOthers={true}
+        variant="popper"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(Hr)
+      halfMarginBottom={true}
+      halfMarginTop={true}
+    />
+    <WithStyles(GridItem)>
+      hello
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justity="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                id={1}
+                showSubDetail={false}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                justify="flex-end"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="alert"
+                    dense={true}
+                    disabled={false}
+                    icon="lnr-trash2"
+                    iconButton={true}
+                    loading={false}
+                    onClick={[Function]}
+                    size="xsmall"
+                    square={true}
+                    title="Remove undefined from this room"
+                    variant="inline"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justity="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                id={3}
+                showSubDetail={false}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                justify="flex-end"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="alert"
+                    dense={true}
+                    disabled={false}
+                    icon="lnr-trash2"
+                    iconButton={true}
+                    loading={false}
+                    onClick={[Function]}
+                    size="xsmall"
+                    square={true}
+                    title="Remove undefined from this room"
+                    variant="inline"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+        size="xs"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              bold={true}
+              icon="lnr-user"
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Add 
+             to room with
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> renderSelect() should renderSelect 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+            editable={true}
+            variant="NodeProp"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            gray={true}
+            italic={true}
+            sm={true}
+          >
+            Guest( 2) Bed( undefined)
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+        editable={true}
+        handleOnSubmit={[Function]}
+        renderLabel={[Function]}
+        showLabel={false}
+        showOthers={true}
+        variant="popper"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(Hr)
+      halfMarginBottom={true}
+      halfMarginTop={true}
+    />
+    <WithStyles(GridItem)>
+      hello
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justity="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                id={1}
+                showSubDetail={false}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                justify="flex-end"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="alert"
+                    dense={true}
+                    disabled={false}
+                    icon="lnr-trash2"
+                    iconButton={true}
+                    loading={false}
+                    onClick={[Function]}
+                    size="xsmall"
+                    square={true}
+                    title="Remove undefined from this room"
+                    variant="inline"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            justity="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                id={3}
+                showSubDetail={false}
+                variant="rowSimple"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(GridContainer)
+                justify="flex-end"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="alert"
+                    dense={true}
+                    disabled={false}
+                    icon="lnr-trash2"
+                    iconButton={true}
+                    loading={false}
+                    onClick={[Function]}
+                    size="xsmall"
+                    square={true}
+                    title="Remove undefined from this room"
+                    variant="inline"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Room /> roomPaxContentCard() should roomPaxContentCard 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      bold={true}
+      gray={true}
+      sm={true}
+      uppercase={true}
+    >
+      undefined (0)
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={1}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Room /> roomPaxContentList() should roomPaxContentList 1`] = `
+<div>
+  <WithStyles(TableRow)>
+    <WithStyles(TableCell)>
+      1
+    </WithStyles(TableCell)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+      id={1}
+      showSubDetail={false}
+      variant="table"
+    />
+    <WithStyles(TableCell)
+      padding="halfLeftRight"
+    >
+      <WithStyles(Button)
+        color="alert"
+        dense={true}
+        disabled={false}
+        icon="lnr-trash2"
+        iconButton={true}
+        loading={false}
+        onClick={[Function]}
+        size="xsmall"
+        square={true}
+        title="Remove undefined from this room"
+        variant="inline"
+      />
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<Room /> roomPaxContentList() should roomPaxContentList 2`] = `<div />`;
+
+exports[`<Room /> setLoading() should setLoading 1`] = `
+<div>
+  <WithStyles(GridItem)
+    md={4}
+    xs={12}
+  >
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        className=""
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div
+            className=""
+          >
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+              noWrap={true}
+            >
+              <WithStyles(GridItem)
+                className="j-text-ellipsis"
+                xs={true}
+              >
+                <WithStyles(Connect(WithSimplifyResaga(RoomType)))
+                  editable={false}
+                  ellipsis={true}
+                  onSuccess={[Function]}
+                  variant="popper"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  buttonTitle="Start editing this room"
+                  className=""
+                  dense={true}
+                  noMargin={true}
+                  onClick={[Function]}
+                  size="xxs"
+                  variant="outline"
+                >
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                  >
+                    <WithStyles(GridItem)>
+                      <WithStyles(Icon)
+                        icon="lnr-pencil"
+                        size="xsmall"
+                      />
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+                editable={false}
+                placeholder="Describe this room if needed"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                justify="space-between"
+                spacing={0}
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    spacing={0}
+                    wrap="nowrap"
+                  >
+                    <WithStyles(GridItem)>
+                      <WithStyles(Icon)
+                        icon="lnr-user"
+                        paddingRight={true}
+                        size="xsmall"
+                      />
+                    </WithStyles(GridItem)>
+                    <WithStyles(GridItem)
+                      className="j-text-ellipsis"
+                    >
+                      Guest Count 
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    noLabel={true}
+                    readOnly={true}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                justify="space-between"
+                spacing={0}
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    spacing={0}
+                    wrap="nowrap"
+                  >
+                    <WithStyles(GridItem)>
+                      <WithStyles(Icon)
+                        icon="lnr-bed"
+                        paddingRight={true}
+                        size="xsmall"
+                      />
+                    </WithStyles(GridItem)>
+                    <WithStyles(GridItem)
+                      className="j-text-ellipsis"
+                    >
+                      Bed Count 
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <ConnectFunction
+                    noLabel={true}
+                    readOnly={true}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Hr) />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+            md={true}
+            textCenter={true}
+          >
+            Room not yet allocated
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Room /> toggleShowPaxDetail() should toggleShowPaxDetail 1`] = `<div />`;
+
+exports[`<Room /> updateLink() should updateLink 1`] = `<div />`;
+
+exports[`<Room /> updateLink() should updateLink if id is null 1`] = `<div />`;

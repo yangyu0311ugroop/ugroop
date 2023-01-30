@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableDateForm /> Smoke tests should render properly 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  onValidSubmit={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <DateField
+    autoComplete="off"
+    displayFormat="D MMMM YYYY"
+    fullWidth={false}
+    inputRef={[Function]}
+    name="DateForm"
+    onChange={[Function]}
+    type="hidden"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+  <WithStyles(EditableLabel) />
+  <WithStyles(Editable)
+    fullWidth={false}
+    onClick={[Function]}
+    readOnly={false}
+  >
+    <WithStyles(EditablePlaceholder)>
+      Click to specify
+    </WithStyles(EditablePlaceholder)>
+  </WithStyles(Editable)>
+</GenericForm>
+`;
+
+exports[`<EditableDateForm /> instance renderPlaceholder 1`] = `
+<WithStyles(EditablePlaceholder)>
+  No date
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableDateForm /> instance renderValue with no value 1`] = `
+<WithStyles(EditablePlaceholder)>
+  Click to specify
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableDateForm /> setStates handleSubmitError 1`] = `
+Object {
+  "loading": false,
+}
+`;
+
+exports[`<EditableDateForm /> setStates handleSubmitSuccess 1`] = `
+Object {
+  "loading": false,
+}
+`;
+
+exports[`<EditableDateForm /> setStates handleValidSubmit 1`] = `
+Object {
+  "loading": true,
+}
+`;

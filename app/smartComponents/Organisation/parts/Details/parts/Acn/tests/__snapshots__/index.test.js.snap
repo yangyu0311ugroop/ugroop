@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Acn /> render() should render correctly 1`] = `
+<div>
+  <P
+    acn=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Acn /> render() should render text field if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    acn=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "ACN Number",
+                "id": "app.smartComponents.Organisation.parts.acn.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "ACN Number",
+                "id": "app.smartComponents.Organisation.parts.acn.label",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    name="acn"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Acn /> render() should render text only variant 1`] = `
+<div>
+  <P
+    acn=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

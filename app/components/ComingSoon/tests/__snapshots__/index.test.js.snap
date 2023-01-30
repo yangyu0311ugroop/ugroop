@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComingSoon /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-construction"
+        size="xl"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      Coming Soon
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

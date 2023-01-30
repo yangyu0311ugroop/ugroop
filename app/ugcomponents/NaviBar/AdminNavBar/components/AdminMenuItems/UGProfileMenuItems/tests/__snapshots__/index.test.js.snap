@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGProfileMenuItems /> render even image fetching 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListSubheader))>
+    <div />
+    <div>
+      <WithStyles(H4)>
+        <Component
+          variant="stringOnly"
+        />
+      </WithStyles(H4)>
+      <p>
+        <Component
+          dark={true}
+          variant="VIEW_MODE_COPY"
+        />
+      </p>
+    </div>
+  </WithStyles(ForwardRef(ListSubheader))>
+</div>
+`;
+
+exports[`<UGProfileMenuItems /> render even no photo 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListSubheader))>
+    <div>
+      <ConnectFunction
+        shape="imageRound"
+        size="imageMedium"
+        type="photo"
+        variant="readOnly"
+      />
+    </div>
+    <div>
+      <WithStyles(H4)>
+        <Component
+          variant="stringOnly"
+        />
+      </WithStyles(H4)>
+      <p>
+        <Component
+          dark={true}
+          variant="VIEW_MODE_COPY"
+        />
+      </p>
+    </div>
+    <div
+      className=""
+    >
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          color="white"
+          icon="lnr-cross2"
+          size="xxs"
+        />
+      </WithStyles(CloseButton)>
+    </div>
+  </WithStyles(ForwardRef(ListSubheader))>
+</div>
+`;
+
+exports[`<UGProfileMenuItems /> render even no photo if smDown 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListSubheader))>
+    <div>
+      <ConnectFunction
+        shape="imageRound"
+        size="imageMedium"
+        type="photo"
+        variant="readOnly"
+      />
+    </div>
+    <div>
+      <WithStyles(H4)>
+        <Component
+          variant="stringOnly"
+        />
+      </WithStyles(H4)>
+      <p>
+        <Component
+          dark={true}
+          variant="VIEW_MODE_COPY"
+        />
+      </p>
+    </div>
+  </WithStyles(ForwardRef(ListSubheader))>
+</div>
+`;
+
+exports[`<UGProfileMenuItems /> should render proper lists 1`] = `
+<div>
+  <withRouter(UGLink)
+    key="1"
+    onClick={[Function]}
+    to="#"
+  >
+    <WithStyles(ForwardRef(ListItem))
+      button={true}
+    >
+      <WithStyles(Icon) />
+       
+    </WithStyles(ForwardRef(ListItem))>
+  </withRouter(UGLink)>
+  <WithStyles(ForwardRef(Divider))
+    key="2"
+  />
+  <a
+    href=""
+    target="_blank"
+  >
+    <WithStyles(JTextClass)
+      dark={true}
+      key="6"
+      link={true}
+      noUnderlined={true}
+    >
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+      >
+        <WithStyles(Icon) />
+         
+      </WithStyles(ForwardRef(ListItem))>
+    </WithStyles(JTextClass)>
+  </a>
+</div>
+`;
+
+exports[`<UGProfileMenuItems /> should render support link 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    dark={true}
+    key="1"
+    link={true}
+    noUnderlined={true}
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(ListItem))
+      button={true}
+    >
+      <WithStyles(Icon) />
+       
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(JTextClass)>
+</div>
+`;

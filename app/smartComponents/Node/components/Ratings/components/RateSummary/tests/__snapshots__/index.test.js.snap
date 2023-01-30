@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RateSummary /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <ConnectFunction>
+      <Component />
+    </ConnectFunction>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+        subtitle={true}
+      >
+        (
+        0
+        )
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RateSummary /> render() should render correctly 2`] = `
+<Fragment>
+  <WithStyles(GridItem)>
+    <Span
+      dense={true}
+      subtitle={true}
+    >
+      1.0
+    </Span>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <Styled(MuiBox)
+      display="flex"
+    >
+      <WithStyles(Rating)
+        key="1"
+        precision={0.1}
+        readOnly={true}
+        size="large"
+        value={1}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(GridItem)>
+</Fragment>
+`;

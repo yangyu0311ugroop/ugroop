@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelpTourConnections /> render() should render correctly 1`] = `
+<WithStyles(Component)
+  denseTitle={true}
+  fullWidth={true}
+  header={
+    <H3
+      dense={true}
+      weight="bold"
+    >
+      app.containers.Templates.ShareList.People.HelpTourConnections.tourConnectionsHelp
+    </H3>
+  }
+  headerNoWrap={true}
+  maxWidth="sm"
+  onClose={[MockFunction]}
+  open={false}
+  submitButton={
+    <WithStyles(JTextClass)
+      onClick={[MockFunction]}
+    >
+      Got It
+    </WithStyles(JTextClass)>
+  }
+>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <H4>
+        <FormattedMessage
+          defaultMessage="Need others to contribute or review tour content?"
+          id="app.containers.Templates.ShareList.People.HelpTourConnections.needOthers"
+        />
+      </H4>
+      <H4>
+        <FormattedMessage
+          defaultMessage="If so, use their email for an invitation and select their role in this tour. Add a personalised
+      message to the email for an explanation of your needs. The contributor list will be updated, including a
+      pending status, with a notification to you when they accept or decline your invitation."
+          id="app.containers.Templates.ShareList.People.HelpTourConnections.inviteThemViaEmail"
+        />
+      </H4>
+      <H4>
+        <FormattedMessage
+          defaultMessage="You may cancel a pending invitation or remove the person from the tour at any time."
+          id="app.containers.Templates.ShareList.People.HelpTourConnections.cancelAnInvitation"
+        />
+      </H4>
+      <H4>
+        <FormattedMessage
+          defaultMessage="Tour Roles"
+          id="app.containers.Templates.ShareList.People.HelpTourConnections.tourRoles"
+        />
+      </H4>
+      <WithStyles(Table)>
+        <WithStyles(TableBody)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                    weight="bold"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Organiser"
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.organiserHeader"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="A person who has the same tour permissions as the tour owner to add, change and delete all tour content."
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.tourOrganiser"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                    weight="bold"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Collaborator"
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.collaboratorHeader"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="This person cannot change any content, however, they can add and maintain their events and sections on any day
+      or tab and participate in group chat. They can also add and maintain checklist for the tour."
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.tourCollaborator"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableCell)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                    weight="bold"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Viewer"
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.viewerHeader"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <H4
+                    dense={true}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Someone who can only view the tour content and participate in group discussions."
+                      id="app.containers.Templates.ShareList.People.HelpTourConnections.tourViewer"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(TableCell)>
+          </WithStyles(TableRow)>
+        </WithStyles(TableBody)>
+      </WithStyles(Table)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(Component)>
+`;

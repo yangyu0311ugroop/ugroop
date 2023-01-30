@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadPhotos/config.js gridSize should return count = 1 1`] = `
+Object {
+  "xs": 12,
+}
+`;
+
+exports[`UploadPhotos/config.js gridSize should return count = 2 1`] = `
+Object {
+  "sm": 6,
+  "xs": 12,
+}
+`;
+
+exports[`UploadPhotos/config.js gridSize should return count = 8 1`] = `
+Object {
+  "lg": 3,
+  "md": 4,
+  "sm": 6,
+  "xs": 12,
+}
+`;
+
+exports[`UploadPhotos/config.js maxWidth should return count = 1 1`] = `"sm"`;
+
+exports[`UploadPhotos/config.js maxWidth should return count = 2 1`] = `"md"`;
+
+exports[`UploadPhotos/config.js normaliseSubmitData should concat 1`] = `
+Array [
+  Object {
+    "customData": Object {
+      "description": undefined,
+      "metaInfo": Object {
+        "rotate": undefined,
+      },
+      "photo": undefined,
+    },
+    "parentNodeId": undefined,
+    "type": "activity",
+  },
+]
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableLabel /> Smoke tests should render properly 1`] = `
+<H5
+  className=""
+  dense={true}
+  weight="bold"
+>
+  Label
+</H5>
+`;

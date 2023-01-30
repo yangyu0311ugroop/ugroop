@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightDetails /> render() should render !adding 1`] = `
+<div>
+  <WithStyles(JButton)
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          color="blue"
+          icon="lnr-plus"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              blue={true}
+            >
+              Flight details
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="data.detail.detail.flightNumber"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<FlightDetails /> render() should render adding 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            bold={true}
+          >
+            Flight details
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+            nowrap={false}
+          >
+            Your edits in uGroop won
+            '
+            t change the actual booking.
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        SelectProps={
+          Object {
+            "native": true,
+          }
+        }
+        component={[Function]}
+        innerRef={[Function]}
+        label="Travel class"
+        name="data.detail.detail.travelClass"
+        options={
+          Array [
+            Object {
+              "children": "Economy",
+              "value": "Economy",
+            },
+            Object {
+              "children": "Premium Economy",
+              "value": "PremiumEconomy",
+            },
+            Object {
+              "children": "Business",
+              "value": "Business",
+            },
+            Object {
+              "children": "First",
+              "value": "First",
+            },
+            Object {
+              "children": "Other",
+              "value": "Other",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="Economy"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Airline"
+            name="data.detail.detail.airline"
+            placeholder="Enter airline"
+            value=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Flight number"
+            name="data.detail.detail.flightNumber"
+            placeholder="Enter flight number"
+            value=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Departure terminal"
+            name="data.detail.detail.terminal"
+            placeholder="Enter departure terminal"
+            value=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Departure gate"
+            name="data.detail.detail.gate"
+            placeholder="Enter departure gate"
+            value="42"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

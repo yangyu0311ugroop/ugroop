@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activities/config.js value sections should return a particular array given the props passed 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "children",
+]
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterLinks /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Container)
+        maxSize={true}
+        padding={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(PageLogo)
+              full={true}
+              md={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <withRouter(UGLink)
+                  title="Privacy Policy"
+                  to="/privacy"
+                >
+                  <WithStyles(JTextClass)
+                    gray={true}
+                  >
+                    Privacy
+                  </WithStyles(JTextClass)>
+                </withRouter(UGLink)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                ·
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <withRouter(UGLink)
+                  title="Terms of Service"
+                  to="/terms-of-service"
+                >
+                  <WithStyles(JTextClass)
+                    gray={true}
+                  >
+                    Terms
+                  </WithStyles(JTextClass)>
+                </withRouter(UGLink)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                ·
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <a
+                  href="mailto:hello@ugroop.com"
+                  title="Contact us"
+                >
+                  <WithStyles(JTextClass)
+                    gray={true}
+                  >
+                    Contact
+                  </WithStyles(JTextClass)>
+                </a>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            title="Version undefined Build undefined"
+          >
+            <WithStyles(JTextClass)
+              gray={true}
+              nowrap={false}
+            >
+              Copyright © 2016 - 
+              2021
+               uGroop Pty Ltd. All rights reserved.
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Container)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Buttons /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        loading={false}
+        size="small"
+        type="submit"
+      >
+        Find
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <ForwardRef(Fade)
+      in={false}
+    >
+      <WithStyles(GridItem)>
+        <span>
+          <WithStyles(Icon)
+            icon="lnr-check"
+            paddingRight={true}
+            size="small"
+          />
+          Invitation sent successfully!
+        </span>
+      </WithStyles(GridItem)>
+    </ForwardRef(Fade)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Buttons /> renderSubmitButton() should renderSubmitButton Find 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      dense={true}
+      loading={false}
+      size="small"
+      type="submit"
+    >
+      Find
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Buttons /> renderSubmitButton() should renderSubmitButton Send Invitation 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      dense={true}
+      loading={false}
+      size="small"
+      type="submit"
+    >
+      Send invitation
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

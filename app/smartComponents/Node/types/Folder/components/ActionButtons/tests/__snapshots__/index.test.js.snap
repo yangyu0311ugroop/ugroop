@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionsButtons /> onDelete should match snapshot 1`] = `<div />`;
+
+exports[`<ActionsButtons /> render should match snapshot if can Move 1`] = `
+<Fragment>
+  <ConnectFunction
+    anchorEl={null}
+    onClose={[Function]}
+    placement="bottom-center"
+    renderButton={[Function]}
+  >
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="pencil3"
+      />
+      <FormattedMessage
+        defaultMessage="Edit"
+        id="app.containers.Templates.Components.TemplateFolder.editLabel"
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="trash2"
+      />
+      <FormattedMessage
+        defaultMessage="Delete"
+        id="app.containers.Templates.Components.TemplateFolder.deleteLabel"
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="compare"
+      />
+      <FormattedMessage
+        defaultMessage="Move"
+        id="app.containers.Templates.Components.TemplateFolder.moveLabel"
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      button={true}
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="copy"
+      />
+      <FormattedMessage
+        defaultMessage="Copy"
+        id="app.containers.Templates.Components.TemplateFolder.copyLabel"
+      />
+    </WithStyles(MenuItem)>
+  </ConnectFunction>
+</Fragment>
+`;
+
+exports[`<ActionsButtons /> renderButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Button)
+    onClick={[Function]}
+    size="small"
+    tooltipProps={
+      Object {
+        "title": "Options",
+      }
+    }
+    variant="borderless"
+  >
+    <div>
+      OPTIONS
+    </div>
+  </WithStyles(Button)>
+</div>
+`;

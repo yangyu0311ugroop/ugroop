@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Folder/config.js requests BATCH_GET_FOLDER_TREE should call api for fetching all folders and its children folders given the folderId 1`] = `
+Array [
+  Array [
+    "get",
+    "/Folders/1/tree",
+  ],
+  Array [
+    "get",
+    "/Folders/2/tree",
+  ],
+]
+`;
+
+exports[`Folder/config.js requests should call fetchWithAuthorisation 1`] = `
+Array [
+  Array [
+    "get",
+    "/Folders/2233/checklists",
+  ],
+]
+`;

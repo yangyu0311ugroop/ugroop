@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Url /> render() should render 1`] = `
+<div>
+  renderNodeProp
+</div>
+`;
+
+exports[`<Url /> renderLink() should render node prop 1`] = `<div />`;
+
+exports[`<Url /> renderLink() should render url 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-link"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <a
+        className="j-text-ellipsis"
+        href="//www.google.com"
+        target="_blank"
+      >
+        www.google.com
+      </a>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Url /> renderLink() should renderLink 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-link"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        url
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Url /> renderProp() should renderLink 1`] = `<div />`;
+
+exports[`<Url /> renderTextOnly() should render node prop 1`] = `<div />`;
+
+exports[`<Url /> renderTextOnly() should render title 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-link"
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      www.facebook.com
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Url /> renderTextOnly() should renderTextOnly 1`] = `
+<div>
+  <div>
+    www.facebook.com
+  </div>
+</div>
+`;
+
+exports[`<Url /> renderTextOnly() should still render title value is null 1`] = `<div />`;

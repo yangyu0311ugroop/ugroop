@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer still matches snapshot if CI 1`] = `
+<div
+  className="MarketingFooter-root"
+>
+  <div
+    className="MarketingFooter-darkOverride"
+  />
+  <div
+    className="MarketingFooter-footerContent"
+  >
+    <WithStyles(Container)
+      className="MarketingFooter-container"
+    >
+      <WithStyles(FooterTop) />
+      <UGFooter
+        items={
+          Array [
+            <withRouter(UGLink)
+              target="_blank"
+              to="/privacy"
+            >
+              Privacy Policy
+            </withRouter(UGLink)>,
+            "Contact Us",
+            <withRouter(UGLink)
+              target="_blank"
+              to="/terms-of-service"
+            >
+              Terms of Service
+            </withRouter(UGLink)>,
+            <span>
+              Version 
+              appVersion
+               -
+               
+              <a
+                href="buildUrl"
+                target="_blank"
+              >
+                Build 
+                buildNum
+                 (
+                Latest
+                )
+              </a>
+            </span>,
+            <a
+              href="compareUrl"
+              target="_blank"
+            >
+              GitHub Commits
+            </a>,
+          ]
+        }
+        rootClassName="MarketingFooter-footerBottom"
+      />
+    </WithStyles(Container)>
+  </div>
+</div>
+`;
+
+exports[`Footer still matches snapshot if CI and BRANCH=stage 1`] = `
+<div
+  className="MarketingFooter-root"
+>
+  <div
+    className="MarketingFooter-darkOverride"
+  />
+  <div
+    className="MarketingFooter-footerContent"
+  >
+    <WithStyles(Container)
+      className="MarketingFooter-container"
+    >
+      <WithStyles(FooterTop) />
+      <UGFooter
+        items={
+          Array [
+            <withRouter(UGLink)
+              target="_blank"
+              to="/privacy"
+            >
+              Privacy Policy
+            </withRouter(UGLink)>,
+            "Contact Us",
+            <withRouter(UGLink)
+              target="_blank"
+              to="/terms-of-service"
+            >
+              Terms of Service
+            </withRouter(UGLink)>,
+            <span>
+              Version 
+              appVersion
+               -
+               
+              <a
+                href="buildUrl"
+                target="_blank"
+              >
+                Build 
+                buildNum
+                 (
+                Stable
+                )
+              </a>
+            </span>,
+            <a
+              href="compareUrl"
+              target="_blank"
+            >
+              GitHub Commits
+            </a>,
+          ]
+        }
+        rootClassName="MarketingFooter-footerBottom"
+      />
+    </WithStyles(Container)>
+  </div>
+</div>
+`;
+
+exports[`Footer still matches snapshot if not CI 1`] = `
+<div
+  className="MarketingFooter-root"
+>
+  <div
+    className="MarketingFooter-darkOverride"
+  />
+  <div
+    className="MarketingFooter-footerContent"
+  >
+    <WithStyles(Container)
+      className="MarketingFooter-container"
+    >
+      <WithStyles(FooterTop) />
+      <UGFooter
+        items={
+          Array [
+            <withRouter(UGLink)
+              target="_blank"
+              to="/privacy"
+            >
+              Privacy Policy
+            </withRouter(UGLink)>,
+            "Contact Us",
+            <withRouter(UGLink)
+              target="_blank"
+              to="/terms-of-service"
+            >
+              Terms of Service
+            </withRouter(UGLink)>,
+            "uGroop@appVersion.buildNum",
+            "",
+          ]
+        }
+        rootClassName="MarketingFooter-footerBottom"
+      />
+    </WithStyles(Container)>
+  </div>
+</div>
+`;

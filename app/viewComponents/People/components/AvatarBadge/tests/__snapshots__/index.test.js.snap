@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AvatarBadge /> render() should not include tooltip if noTooltip props is true 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        ?
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render Button 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="?"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "some class defaultRoot",
+          }
+        }
+      >
+        ?
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render custom tooltip text 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="Tooltip Text"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        FN
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render default 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="?"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        ?
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render first name and last name initials 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="Name"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        N
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render first name and last name initials 2`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="Full Name"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        FN
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render more 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="5 others"
+  >
+    <WithStyles(ForwardRef(Avatar))
+      classes={
+        Object {
+          "img": "defaultImg",
+          "root": "defaultRoot",
+        }
+      }
+    >
+      +
+      5
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render no tooltip 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "some class defaultRoot",
+          }
+        }
+      >
+        ?
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarBadge /> render() should render sizes 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    classes={
+      Object {
+        "lightTooltip": "",
+        "popper": undefined,
+      }
+    }
+    enterDelay={200}
+    isLight={true}
+    placement="top"
+    title="?"
+  >
+    <div>
+      <WithStyles(ForwardRef(Avatar))
+        classes={
+          Object {
+            "img": "defaultImg",
+            "root": "defaultRoot",
+          }
+        }
+      >
+        ?
+      </WithStyles(ForwardRef(Avatar))>
+    </div>
+  </WithStyles(Tooltip)>
+</div>
+`;
+
+exports[`<AvatarBadge /> renderAvatar() should render more 1`] = `
+<div>
+  <WithStyles(ForwardRef(Avatar))
+    classes={
+      Object {
+        "img": "defaultImg",
+        "root": "defaultRoot",
+      }
+    }
+  >
+    +
+    5
+  </WithStyles(ForwardRef(Avatar))>
+</div>
+`;
+
+exports[`<AvatarBadge /> renderAvatar() should render profileUrl 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+      alt="ping pong 123"
+      className={null}
+      id="image link"
+      shape="imageRound"
+      size="imageExtraSmall"
+      variant="readOnly"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AvatarBadge /> renderAvatar() should render question mark when nothing is given 1`] = `
+<div>
+  <div>
+    <WithStyles(ForwardRef(Avatar))
+      classes={
+        Object {
+          "img": "defaultImg",
+          "root": "defaultRoot",
+        }
+      }
+    >
+      ?
+    </WithStyles(ForwardRef(Avatar))>
+  </div>
+</div>
+`;
+
+exports[`<AvatarBadge /> renderAvatar() should render the name when showFullName is true 1`] = `
+<div>
+  <div>
+    <WithStyles(ForwardRef(Avatar))
+      classes={
+        Object {
+          "img": "defaultImg",
+          "root": "defaultRoot",
+        }
+      }
+    >
+      <p>
+        Render letter avatar
+      </p>
+    </WithStyles(ForwardRef(Avatar))>
+    <p>
+      ?
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<AvatarBadge /> renderAvatar() should render what is being passed to children props 1`] = `
+<div>
+  <div>
+    <WithStyles(ForwardRef(Avatar))
+      classes={
+        Object {
+          "img": "defaultImg",
+          "root": "defaultRoot",
+        }
+      }
+    >
+      <p>
+        Render letter avatar
+      </p>
+    </WithStyles(ForwardRef(Avatar))>
+  </div>
+</div>
+`;

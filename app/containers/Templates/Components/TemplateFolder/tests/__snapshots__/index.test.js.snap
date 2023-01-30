@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTemplateFolder  componentDidMount  should be called properly if cardImageUrl does not exist 1`] = `
+Array [
+  Array [
+    Object {
+      "name": "Folders",
+      "processResult": Object {
+        "batchGetFolderTree": [Function],
+        "deleteChildrenFromFolder": [Function],
+        "getChecklists": [Function],
+        "getFolderChildrenWithPagination": [Function],
+        "getParentOfFolder": [Function],
+      },
+      "requests": Object {
+        "batchGetFolderTree": [Function],
+        "deleteChildrenFromFolder": [Function],
+        "getChecklists": [Function],
+        "getFolderChildrenWithPagination": [Function],
+        "getFolderImage": [Function],
+        "getFolderTree": [Function],
+        "getParentOfFolder": [Function],
+      },
+      "setValue": Object {
+        "breadcrumb": Array [
+          "nodeTrailsDataStore",
+          "breadcrumb",
+        ],
+        "files": Array [
+          "fileDataStore",
+          "files",
+        ],
+        "nodes": Array [
+          "nodeStore",
+          "nodes",
+        ],
+        "people": Array [
+          "userDataStore",
+          "people",
+        ],
+        "trail": Array [
+          "nodeTrailsDataStore",
+          "trail",
+        ],
+      },
+    },
+    "getFolderImage",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 3,
+      },
+    },
+  ],
+]
+`;
+
+exports[`UGTemplateFolder  should show actions for delete and other stuff 1`] = `
+<WithStyles(FolderCard)
+  cardImageUrl={null}
+  classes={
+    Object {
+      "ugFolderLink": "TemplateFolder-ugFolderLink",
+      "ugFolderLinkEmpty": "TemplateFolder-ugFolderLinkEmpty",
+      "ugTemplateFolder": "TemplateFolder-ugTemplateFolder",
+      "ugTemplateFolderContent": "TemplateFolder-ugTemplateFolderContent",
+      "ugTemplateFolderContentEmpty": "TemplateFolder-ugTemplateFolderContentEmpty",
+      "ugTemplateFolderFooter": "TemplateFolder-ugTemplateFolderFooter",
+      "ugTemplateFolderLoading": "TemplateFolder-ugTemplateFolderLoading",
+      "ugTemplateFolderOverride": "TemplateFolder-ugTemplateFolderOverride",
+      "ugTemplateItemFooterActions": "TemplateFolder-ugTemplateItemFooterActions",
+      "ugTemplateItemFooterActionsIcon": "TemplateFolder-ugTemplateItemFooterActionsIcon",
+      "ugTemplateLinks": "TemplateFolder-ugTemplateLinks",
+    }
+  }
+  content=""
+  folderItems={Array []}
+  id={3}
+  isEditable={false}
+  onEditCancel={[MockFunction]}
+  onEditSubmit={[MockFunction]}
+  renderActions={
+    <BoundCan
+      do="create"
+      on="folder"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+        onCopy={[MockFunction]}
+        onDelete={[MockFunction]}
+        onMove={[MockFunction]}
+      />
+    </BoundCan>
+  }
+  rootClassName=""
+  showActions={false}
+  templateQueryParam=""
+/>
+`;
+
+exports[`UGTemplateFolder  should use another card if isEditable is true 1`] = `
+<WithStyles(FolderCard)
+  cardImageUrl={null}
+  classes={
+    Object {
+      "ugFolderLink": "TemplateFolder-ugFolderLink",
+      "ugFolderLinkEmpty": "TemplateFolder-ugFolderLinkEmpty",
+      "ugTemplateFolder": "TemplateFolder-ugTemplateFolder",
+      "ugTemplateFolderContent": "TemplateFolder-ugTemplateFolderContent",
+      "ugTemplateFolderContentEmpty": "TemplateFolder-ugTemplateFolderContentEmpty",
+      "ugTemplateFolderFooter": "TemplateFolder-ugTemplateFolderFooter",
+      "ugTemplateFolderLoading": "TemplateFolder-ugTemplateFolderLoading",
+      "ugTemplateFolderOverride": "TemplateFolder-ugTemplateFolderOverride",
+      "ugTemplateItemFooterActions": "TemplateFolder-ugTemplateItemFooterActions",
+      "ugTemplateItemFooterActionsIcon": "TemplateFolder-ugTemplateItemFooterActionsIcon",
+      "ugTemplateLinks": "TemplateFolder-ugTemplateLinks",
+    }
+  }
+  content=""
+  folderItems={Array []}
+  id={3}
+  isEditable={true}
+  onEditCancel={[MockFunction]}
+  onEditSubmit={[MockFunction]}
+  renderActions={
+    <BoundCan
+      do="create"
+      on="folder"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+        onCopy={[MockFunction]}
+        onDelete={[MockFunction]}
+        onMove={[MockFunction]}
+      />
+    </BoundCan>
+  }
+  rootClassName=""
+  showActions={true}
+  templateQueryParam=""
+/>
+`;

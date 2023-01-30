@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tab /> render() should not be drabble if is Gallery 1`] = `
+<div>
+  <div>
+    <WithStyles(UGTab)
+      accessible={true}
+      className=""
+      classes={Object {}}
+      index={0}
+      label="Gallery"
+      privateTab={false}
+      tabId={0}
+    />
+     
+  </div>
+</div>
+`;
+
+exports[`<Tab /> render() should render correctly 1`] = `
+<div>
+  <Connect(Draggable)
+    disableInteractiveElementBlocking={false}
+    draggableId={0}
+    index={0}
+    isDragDisabled={true}
+    shouldRespectForceTouch={true}
+    type="tabItem"
+  >
+    <Component />
+  </Connect(Draggable)>
+</div>
+`;
+
+exports[`<Tab /> renderDraggable() should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      hi="ho"
+    >
+      <WithStyles(UGTab)
+        ho="heh"
+        tabProps={123}
+      />
+    </div>
+  </div>
+</div>
+`;

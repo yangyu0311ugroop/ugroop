@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachments /> inlineAfterUpload() should inlineAfterUpload 1`] = `<div />`;
+
+exports[`<Attachments /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={1}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+                spacing={0}
+              >
+                <WithStyles(GridItem)
+                  xs={true}
+                >
+                  <WithStyles(JTextClass)
+                    black={true}
+                    bold={true}
+                  >
+                    Attachments
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(JTextClass)
+                    gray={true}
+                    xs={true}
+                  >
+                    Upload Speed: 
+                    10
+                    kB/s
+                  </WithStyles(JTextClass)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                gray={true}
+                nowrap={false}
+              >
+                Upload PDFs, documents, booking confirmations, tickets, vouchers, boarding passes, rental agreements and anything else you might need when travelling.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(FileDropzone)
+        disableClick={true}
+        droppedFiles={Object {}}
+        droppedIds={Array []}
+        onDrop={[Function]}
+        uploadProgress={99}
+      >
+        <Component />
+      </WithStyles(FileDropzone)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={true}
+        nowrap={false}
+      >
+        Click on the file name after the upload has been done to enter a meaningful description.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachments /> render() should render simple 1`] = `
+<div>
+  <WithStyles(FileDropzone)
+    droppedFiles={Object {}}
+    droppedIds={Array []}
+    onDrop={[Function]}
+    simple={true}
+    uploadProgress={99}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        Attachments
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+            Browse={true}
+            id={1}
+            key="1"
+            onRemoveFile={[Function]}
+            remainingTime={0}
+            uploadProgress={99}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(FileDropzone)>
+</div>
+`;
+
+exports[`<Attachments /> renderBrowserButton() should renderBrowserButton 1`] = `
+<div>
+  <WithStyles(JButton)
+    block={true}
+    borderGray={true}
+    padding="lg"
+  >
+    <WithStyles(JTextClass)
+      blue={true}
+      bold={true}
+      uppercase={true}
+    >
+      Browse files from your device
+    </WithStyles(JTextClass)>
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<Attachments /> renderDropZone() should renderDropZone 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <Formsy(DataField)
+        currentValue={2}
+        innerRef={[Function]}
+        name="temp.eventAttachmentsLength"
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          renderDroppedFile
+          renderDroppedFile
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          italic={true}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              Drag and drop files here or 
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(FileDropzone)
+                onDrop={[Function]}
+              >
+                <Component />
+              </WithStyles(FileDropzone)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+               to upload
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Attachments /> renderDropZone() should return null 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(JTextClass)
+            blue={true}
+            bold={true}
+            uppercase={true}
+          >
+            Drag and drop files here
+          </WithStyles(JTextClass)>
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          uppercase={true}
+        >
+          Or
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FileDropzone)
+          onDrop={[Function]}
+        >
+          <Component />
+        </WithStyles(FileDropzone)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Attachments /> renderDroppedFile() should renderDroppedFile 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+    Browse={true}
+    file={
+      Object {
+        "requestFile": Object {},
+        "status": "uploaded",
+      }
+    }
+    id={1}
+    index={0}
+    key="1"
+    onRemoveFile={[Function]}
+    remainingTime={0}
+    uploadProgress={0}
+    uploadedFile={
+      Object {
+        "errorMessage": "file too large",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Attachments /> renderUploadButton() should renderUploadButton 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    link={true}
+    underline={true}
+  >
+    browse
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Attachments /> uploadNext() should call enqueuePhoto 1`] = `
+Array [
+  Array [
+    Object {
+      "size": 1,
+    },
+    undefined,
+    undefined,
+    Object {
+      "onUploadError": [Function],
+      "onUploadProgress": [Function],
+    },
+  ],
+]
+`;

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayCard /> should render imgPlaceholder 1`] = `
+<Fragment>
+  <WithStyles(UGCard)
+    className="DayCard-root"
+    withShadow={false}
+  >
+    <div
+      className="DayCard-boxShadow DayCard-overshadow"
+    />
+    <div
+      className="DayCard-flexCenter DayCard-placeholder DayCard-color2"
+    >
+      <Img
+        alt="logo"
+        className="DayCard-logo"
+        src="IMAGE_MOCK"
+      />
+    </div>
+    <div
+      className="DayCard-contentContainer"
+    >
+      <div
+        className="DayCard-dayLabel"
+      />
+      <div
+        className="DayCard-dayInfo"
+      >
+        <p
+          className="DayCard-info"
+        >
+          <span
+            className="DayCard-dateText"
+          >
+            <FormattedMessage
+              defaultMessage="Day {dayCount}"
+              id="app.containers.Templates.Components.DayCard.Day"
+              values={
+                Object {
+                  "dayCount": 1,
+                }
+              }
+            />
+            : 
+          </span>
+          <span
+            className="DayCard-placeText"
+          />
+        </p>
+      </div>
+    </div>
+  </WithStyles(UGCard)>
+  <ConnectFunction
+    id={null}
+    variant="logic"
+  />
+</Fragment>
+`;
+
+exports[`<DayCard /> should render something 1`] = `
+<Fragment>
+  <WithStyles(UGCard)
+    className="DayCard-root"
+    withShadow={false}
+  >
+    <div
+      className="DayCard-overshadow"
+    />
+    <Img
+      alt=""
+      className="DayCard-imgBg"
+      src="https://loremflickr.com/320/240/paris"
+    />
+    <div
+      className="DayCard-contentContainer"
+    >
+      <div
+        className="DayCard-dayLabel"
+      />
+      <div
+        className="DayCard-dayInfo"
+      >
+        <p
+          className="DayCard-info"
+        >
+          <span
+            className="DayCard-dateText"
+          >
+            <FormattedMessage
+              defaultMessage="Day {dayCount}"
+              id="app.containers.Templates.Components.DayCard.Day"
+              values={
+                Object {
+                  "dayCount": 1,
+                }
+              }
+            />
+            : 
+          </span>
+          <span
+            className="DayCard-placeText"
+          />
+        </p>
+      </div>
+    </div>
+  </WithStyles(UGCard)>
+  <ConnectFunction
+    id={null}
+    variant="logic"
+  />
+</Fragment>
+`;

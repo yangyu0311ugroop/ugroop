@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopoverForm /> #getPopoverProps() still matches snapshot 1`] = `
+Object {
+  "anchorOrigin": Object {
+    "horizontal": "left",
+    "vertical": "bottom",
+  },
+  "transformOrigin": Object {
+    "horizontal": "left",
+    "vertical": "top",
+  },
+}
+`;
+
+exports[`<PopoverForm /> #render() still matches snapshot 1`] = `
+<Popover
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  disableRestoreFocus={true}
+  onClose={[Function]}
+  onEnter={[Function]}
+  open={false}
+  transformOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "top",
+    }
+  }
+>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    className=""
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onFormChange={[Function]}
+    onInvalid={[MockFunction]}
+    onValid={[MockFunction]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    Some children
+  </GenericForm>
+</Popover>
+`;

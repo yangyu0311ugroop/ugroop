@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Password /> render() should render 1`] = `
+<div>
+  <ScrollToTopOnMount />
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          nowrap={false}
+        >
+          Choose a strong password and don
+          '
+          t reuse it for other accounts.
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Hr)
+          half={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          card={true}
+          cardPadding={4}
+          direction="column"
+          highlight={true}
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(ChangePasswordForm)))
+              onDiscard={[Function]}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferStatus /> handleCancelSuccess() should handleCancelSuccess 1`] = `<div />`;
+
+exports[`<TransferStatus /> handleCancelSuccess() should handleCancelSuccess 2`] = `<div />`;
+
+exports[`<TransferStatus /> handleCancelTransfer() should renderPersonal 1`] = `<div />`;
+
+exports[`<TransferStatus /> handleTransferError() should handleTransferError 1`] = `<div />`;
+
+exports[`<TransferStatus /> handleTransferError() should handleTransferError 2`] = `<div />`;
+
+exports[`<TransferStatus /> isOwner() should isOwner 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TransferStatus /> onConfirmCancelTransfer() should renderOrganisation 1`] = `<div />`;
+
+exports[`<TransferStatus /> openTransferTour() should openTransferTour 1`] = `<div />`;
+
+exports[`<TransferStatus /> render() should render 1`] = `<div />`;
+
+exports[`<TransferStatus /> render() should render badge 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="row"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            Tour Ownership Transfer
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          placement="bottom-end"
+          renderButton={[Function]}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> render() should render badge 2`] = `<div />`;
+
+exports[`<TransferStatus /> render() should render badge 3`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="row"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            Tour Ownership Transfer
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          placement="bottom-end"
+          renderButton={[Function]}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> render() should render badge from my invite 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="row"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-share3"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Pending Transfer
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              placement="bottom-end"
+              renderButton={[Function]}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> render() should render badge simple 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    Awaiting Ownership
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> render() should render badge simple 2`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    Pending Transfer
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> render() should renderButton 1`] = `<div />`;
+
+exports[`<TransferStatus /> render() should renderButton 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="alert"
+      dense={true}
+      loading={false}
+      onClick={[Function]}
+      size="small"
+    >
+      Cancel Transfer
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> renderMore() should renderMore 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-end"
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<TransferStatus /> renderMoreButton() should renderMoreButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    loading={false}
+    noPadding={true}
+    onClick={[MockFunction]}
+    size="extraSmall"
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="extraSmall"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TransferStatus /> renderMoreButton() should renderMoreButton if from an invite 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    onClick={[MockFunction]}
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        Confirm Ownership
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<TransferStatus /> renderViewPopper() should renderViewPopper 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    icon="lnr-sync-crossed"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Received)))
+          orgUserIds={Array []}
+          type="transfers"
+          view="template"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<TransferStatus /> renderViewPopper() should renderViewPopper 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-sync-crossed"
+        onClick={[Function]}
+      >
+        Cancel Transfer
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-file-preview"
+        onClick={[Function]}
+      >
+        View Transfer Details
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

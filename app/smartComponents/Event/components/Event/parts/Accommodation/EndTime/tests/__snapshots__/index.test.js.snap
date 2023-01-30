@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabel={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderDefault() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  defaultValue="P1D"
+  editablePlaceholder={
+    <FormattedMessage
+      defaultMessage="Click to specify departure time"
+      id="app.Event.parts.Accommodation.EndTime.editablePlaceholder"
+    />
+  }
+  renderDuration={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabel() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  renderPrefix={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabelPrefix() still matches snapshot 1`] = `
+<FormattedMessage
+  defaultMessage="Departing:"
+  id="app.Event.parts.Accommodation.EndTime.labelPrefix"
+/>
+`;

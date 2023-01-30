@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpenClosed/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "id": [Function],
+  },
+}
+`;
+
+exports[`OpenClosed/config.js Smoke Test should exists 2`] = `
+Object {
+  "value": Object {
+    "openClosed": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+      "spreadObject": true,
+    },
+  },
+}
+`;

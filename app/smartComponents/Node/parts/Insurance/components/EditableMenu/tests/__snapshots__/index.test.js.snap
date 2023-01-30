@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsuranceEditableMenu /> renderActionButton should return renderActionButton 1`] = `
+<div>
+  <WithStyles(EditableActions)>
+    <EditableAction
+      color="gray"
+      icon="lnr-eye"
+      onClick={[Function]}
+      size="extraSmall"
+      title="View Insurance Policy Details"
+      variant="outline"
+    />
+  </WithStyles(EditableActions)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderActionButton should return renderActionButton null 1`] = `<div />`;
+
+exports[`<InsuranceEditableMenu /> renderEditable should render EditableTextForm 1`] = `
+<div>
+  <Editable
+    label={
+      <FormattedMessage
+        defaultMessage="Insurance Policy"
+        id="app.smartComponents.Node.parts.InsurancePolicy.label"
+      />
+    }
+    name="node.customData.insuranceValue"
+    onClick={[Function]}
+    placeholder="Click to specify Insurance Policy"
+    readOnly={false}
+    readOnlyPlaceholder="None"
+    renderActions={[Function]}
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderEditable should render InsuranceEditableMenu 1`] = `
+<div>
+  <Editable
+    label={
+      <FormattedMessage
+        defaultMessage="Insurance Policy"
+        id="app.smartComponents.Node.parts.InsurancePolicy.label"
+      />
+    }
+    name="node.customData.insuranceValue"
+    onClick={[Function]}
+    placeholder="Click to specify Insurance Policy"
+    readOnly={false}
+    readOnlyPlaceholder="None"
+    renderActions={[Function]}
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderMenu should return renderMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemValue)
+      disabled={false}
+      onClick={[Function]}
+      selected={false}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Component)))
+        id={1}
+        variant="row"
+      />
+    </WithStyles(EditableMenuItemValue)>
+  </WithStyles(GridItem)>
+  <WithStyles(Hr)
+    halfMarginBottom={true}
+    halfMarginTop={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemValue)
+      disabled={false}
+      hideIcon={true}
+      onClick={[Function]}
+      selected={false}
+    >
+      Add new insurance policy?
+    </WithStyles(EditableMenuItemValue)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderMenuItemClear should return renderMenuItemClear 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemClear)
+      onClick={[Function]}
+    >
+      Clear Insurance Policy
+    </WithStyles(EditableMenuItemClear)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderMenuItemInput should return editable 1`] = `
+<div>
+  <WithStyles(EditableMenuItemInput)>
+    <FormsyInterceptor
+      label="app.Node.parts.Insurance.label"
+      name="insurancePolicy"
+      onInterceptValue={[Function]}
+    />
+  </WithStyles(EditableMenuItemInput)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderMenuItemInput should return renderMenuItemInput 1`] = `
+<div>
+  <WithStyles(EditableMenuItemInput)>
+    <FormsyInterceptor
+      label="app.Node.parts.Insurance.label"
+      name="insurancePolicy"
+      onInterceptValue={[Function]}
+    />
+  </WithStyles(EditableMenuItemInput)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderMenuItemSubmit should return renderMenuItemSubmit 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableMenuItemSubmit)
+      disabled={true}
+    >
+      <FormattedMessage
+        defaultMessage="Set new Insurance Policy \\"{value}\\""
+        id="app.Node.parts.Insurance.menuItemSubmit"
+        values={
+          Object {
+            "value": Object {},
+          }
+        }
+      />
+    </WithStyles(EditableMenuItemSubmit)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderRow should match snapshot 1`] = `<div />`;
+
+exports[`<InsuranceEditableMenu /> renderTextField should match snapshot 1`] = `<div />`;
+
+exports[`<InsuranceEditableMenu /> renderValue should return renderValue 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    name={null}
+    placeholder="Click to specify Insurance Policy"
+    readOnly={true}
+    readOnlyPlaceholder="Click to specify Insurance Policy"
+    value={null}
+  />
+</div>
+`;
+
+exports[`<InsuranceEditableMenu /> renderValueInput should match snapshot 1`] = `<div />`;

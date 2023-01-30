@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Geocodes /> componentWillReceiveProps should call resaga analyse 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "getGeoCountryCode": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getGeoCurrentLocation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getLatLong": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPlaceIds": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;

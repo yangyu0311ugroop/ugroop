@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowRatingList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="inline"
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmall"
+    variant="inline"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(RateSummary))) />
+  </WithStyles(Button)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RatingsDialog)))))
+    onClose={[Function]}
+    open={false}
+    userRatingIds={Array []}
+  />
+</div>
+`;
+
+exports[`<ShowRatingList /> render() should render correctly simplify 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RatingsDialog)))))
+    component="span"
+    simplify={true}
+    userRatingIds={Array []}
+  />
+</div>
+`;

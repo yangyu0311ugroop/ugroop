@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SupplierName /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": null,
+      "readOnly": false,
+      "value": "",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<SupplierName /> #render() still matches snapshot 1`] = `""`;
+
+exports[`<SupplierName /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    label={
+      <FormattedMessage
+        defaultMessage="Booking Supplier Name"
+        id="app.Event.parts.Event.SupplierName.supplierNameLabel"
+      />
+    }
+    name="data.detail.supplier"
+    onSubmit={[Function]}
+    placeholder="Click to specify who this event is booked with"
+    readOnly={false}
+    value=""
+  >
+    <EventPatchData
+      dataId={null}
+      id={0}
+      subtype={true}
+    />
+  </WithStyles(EditableTextForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<SupplierName /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={true}
+  xs={12}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Booking Supplier Name"
+        id="app.Event.parts.Event.SupplierName.supplierNameLabel"
+      />
+    }
+    name="data.detail.supplier"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<SupplierName /> render() should render 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<SupplierName /> render() should render 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;

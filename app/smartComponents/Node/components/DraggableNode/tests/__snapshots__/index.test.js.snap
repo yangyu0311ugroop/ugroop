@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DraggableNode /> isDragDisabled() should return null 1`] = `
+Array [
+  Array [
+    Object {
+      "classes": Object {},
+      "isDragDisabled": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+        ],
+      },
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+  Array [
+    Object {
+      "classes": Object {},
+      "isDragDisabled": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+        ],
+      },
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+  Array [
+    Object {
+      "classes": Object {},
+      "isDragDisabled": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+          Object {
+            "type": "return",
+            "value": "isDragDisabled",
+          },
+        ],
+      },
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<DraggableNode /> render() should render correctly 1`] = `
+<div>
+  <Connect(Draggable)
+    disableInteractiveElementBlocking={false}
+    isDragDisabled={true}
+    shouldRespectForceTouch={true}
+  >
+    <Component />
+  </Connect(Draggable)>
+</div>
+`;
+
+exports[`<DraggableNode /> renderChildren() should renderChildren 1`] = `<div />`;

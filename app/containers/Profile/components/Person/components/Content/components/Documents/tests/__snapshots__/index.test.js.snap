@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Documents /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    justify="center"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Documents",
+            "name": "description",
+          },
+        ]
+      }
+      title="Documents"
+    />
+    <WithStyles(GridItem)>
+      <H1>
+        <FormattedMessage
+          defaultMessage="Coming Soon!"
+          id="app.containers.Profile.components.Person.components.Content.sample"
+        />
+      </H1>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

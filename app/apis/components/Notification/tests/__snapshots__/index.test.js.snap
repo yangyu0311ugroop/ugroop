@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> componentDidMount() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    "Notifications",
+    "getUGroopNotifications",
+    Object {},
+  ],
+]
+`;
+
+exports[`<Notification /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "getUGroopNotifications": Object {
+        "onSuccess": [Function],
+      },
+    },
+  ],
+]
+`;

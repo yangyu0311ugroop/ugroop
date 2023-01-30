@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route/config.js normalisePolylines should return normalisePolylines 1`] = `
+Array [
+  Object {
+    "getPath": [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Array [
+            1,
+          ],
+        },
+        Object {
+          "type": "return",
+          "value": Array [
+            2,
+          ],
+        },
+        Object {
+          "type": "return",
+          "value": Array [
+            3,
+          ],
+        },
+      ],
+    },
+  },
+  Object {
+    "getPath": [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Array [
+            1,
+          ],
+        },
+        Object {
+          "type": "return",
+          "value": Array [
+            2,
+          ],
+        },
+        Object {
+          "type": "return",
+          "value": Array [
+            3,
+          ],
+        },
+      ],
+    },
+  },
+]
+`;
+
+exports[`Route/config.js normaliseResult should return empty 1`] = `Object {}`;
+
+exports[`Route/config.js normaliseResult should return normaliseResult 1`] = `
+Object {
+  "bounds": undefined,
+  "distance": NaN,
+  "duration": NaN,
+  "markerIds": Array [
+    22,
+  ],
+  "markers": Array [
+    Object {
+      "id": 22,
+    },
+  ],
+  "nodes": Object {
+    "22": Object {
+      "content": "22",
+      "id": 22,
+    },
+  },
+  "polylines": Array [
+    22,
+  ],
+  "routeIds": undefined,
+  "summary": undefined,
+}
+`;
+
+exports[`Route/config.js normaliseStops should normaliseStops empty 1`] = `
+Object {
+  "destination": 0,
+  "origin": 0,
+}
+`;
+
+exports[`Route/config.js normaliseStops should normaliseStops found both 1`] = `
+Object {
+  "destination": 4,
+  "origin": 2,
+}
+`;
+
+exports[`Route/config.js normaliseStops should normaliseStops found destination 1`] = `
+Object {
+  "destination": 0,
+  "origin": 4,
+}
+`;
+
+exports[`Route/config.js normaliseStops should normaliseStops found origin 1`] = `
+Object {
+  "destination": 0,
+  "origin": 2,
+}
+`;
+
+exports[`Route/config.js renderDistance should renderDistance 1`] = `"3.3 km"`;
+
+exports[`Route/config.js routeIds should return routeIds 1`] = `
+Array [
+  2,
+  3,
+  4,
+  5,
+]
+`;

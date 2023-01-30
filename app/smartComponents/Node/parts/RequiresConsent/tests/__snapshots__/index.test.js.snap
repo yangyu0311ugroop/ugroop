@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RequiresConsent /> renderCheckboxField should match snapshot 1`] = `
+<div>
+  <WithStyles(Formsy(CheckboxField))
+    compact={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Does this require consent?"
+        id="app.Node.parts.RequiresConsent.label"
+      />
+    }
+    name="node.customData.requiresConsent"
+    onChange={[Function]}
+    size="sm"
+    value={false}
+  />
+</div>
+`;

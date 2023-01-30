@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SupplierPhone /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "countryCode": null,
+      "dataId": null,
+      "eventPlaceId": null,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+      },
+      "type": "",
+      "value": "",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<SupplierPhone /> #render() still matches snapshot 1`] = `""`;
+
+exports[`<SupplierPhone /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    TextProps={
+      Object {
+        "country": null,
+        "inline": true,
+        "inputProps": undefined,
+      }
+    }
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Supplier Phone Number"
+        id="app.Event.parts.Event.SupplierPhone.supplierPhoneLabel"
+      />
+    }
+    name="data.detail.supplierPhoneNumber"
+    onSubmit={[Function]}
+    placeholder="Click to specify booking supplier's phone number"
+    readOnly={false}
+    renderActions={[Function]}
+    renderValue={[Function]}
+    resetValue=""
+    value=""
+  >
+    <EventPatchData
+      dataId={null}
+      id={0}
+      subtype={true}
+    />
+  </WithStyles(EditableTextForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<SupplierPhone /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={5}
+  xs={12}
+>
+  <PhoneField
+    country={null}
+    inputProps={Object {}}
+    label={
+      <FormattedMessage
+        defaultMessage="Supplier Phone Number"
+        id="app.Event.parts.Event.SupplierPhone.supplierPhoneLabel"
+      />
+    }
+    name="data.detail.supplierPhoneNumber"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<SupplierPhone /> #renderValue() still matches snapshot 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <PhoneField
+    country={null}
+    inputProps={Object {}}
+    name="data.detail.supplierPhoneNumber"
+    readOnly={true}
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="value"
+  />
+</GenericForm>
+`;
+
+exports[`<SupplierPhone /> render() should render 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<SupplierPhone /> renderActions should still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+  showDialButton={false}
+  value=""
+/>
+`;

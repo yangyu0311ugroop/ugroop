@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChecklistDialogs/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "addChecklistParentId": Array [
+      "templateManagementView",
+      "addChecklistParentId",
+    ],
+    "editChecklistId": Array [
+      "templateManagementView",
+      "editChecklistId",
+    ],
+    "seeCheckItemDetail": Array [
+      "templateManagementView",
+      "seeCheckItemDetail",
+    ],
+    "seeCheckItemParentId": Array [
+      "templateManagementView",
+      "seeCheckItemParentId",
+    ],
+  },
+}
+`;

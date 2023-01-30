@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRole /> #renderAddRoleButton() addNonContributorRole to be called  1`] = `
+<Memo(Connect(WithSimplifyResaga(Component)))
+  id={null}
+  showAsRow={true}
+  variant="ADD_CONTRIBUTOR_BUTTON"
+/>
+`;

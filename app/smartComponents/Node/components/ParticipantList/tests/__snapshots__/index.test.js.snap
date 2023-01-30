@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participants /> handleCreateClick should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "participantCreateMode": null,
+      "participantCreateOpen": true,
+      "participantCreateParentNodeId": 0,
+    },
+  ],
+]
+`;
+
+exports[`<Participants /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    interestedPersonIds={Array []}
+    mode="me"
+    userId={0}
+    variant="renderProp"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Participants /> renderParticipantsWithInterestedPersonNodeId should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    mode="me"
+    participantIds={Array []}
+    userId={0}
+    variant="renderProp"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Participants /> renderParticipantsWithMyConfirmedParticipantNodeId should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    nodeId={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Participants /> renderParticipantsWithMyRoles should match snapshot 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TemplateParticipantList))))))
+    classes={Object {}}
+    interestedPersonIds={Array []}
+    myId={0}
+    participantIds={Array []}
+    participantNodeId={2}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    templateId={0}
+  />
+</div>
+`;
+
+exports[`<Participants /> renderParticipantsWithParticipantAccessRoles should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    nodeId={0}
+    roles={
+      Array [
+        "tour_organizer",
+        "tour_collaborator",
+        "tour_viewer",
+        "tour_owner",
+        "tour_participant",
+        "tour_interested",
+      ]
+    }
+    userId={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;

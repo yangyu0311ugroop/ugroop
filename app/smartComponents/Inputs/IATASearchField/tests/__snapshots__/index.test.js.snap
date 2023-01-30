@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IATASearchField /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <FormsyInterceptor
+    autoComplete="off"
+    iata={
+      Object {
+        "api": [MockFunction],
+      }
+    }
+    innerRef={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onInterceptValue={[Function]}
+  />
+  <Formsy(DataField)
+    currentValue="cityName"
+    innerRef={[Function]}
+    name="cityName"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="cityName"
+  />
+  <Formsy(DataField)
+    currentValue="iataCode"
+    innerRef={[Function]}
+    name="iataCode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="iataCode"
+  />
+  <Formsy(DataField)
+    currentValue="timeZoneId"
+    innerRef={[Function]}
+    name="timeZoneId"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="timeZoneId"
+  />
+  <WithStyles(ForwardRef(Paper))
+    className="hidden"
+  >
+    <ForwardRef(MenuList)>
+      <WithStyles(ForwardRef(MenuItem))>
+        No results
+      </WithStyles(ForwardRef(MenuItem))>
+    </ForwardRef(MenuList)>
+  </WithStyles(ForwardRef(Paper))>
+</Fragment>
+`;
+
+exports[`<IATASearchField /> #renderMenu() visible menu still matches snapshot 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className={null}
+>
+  <ForwardRef(MenuList)>
+    <WithStyles(ForwardRef(MenuItem))>
+      No results
+    </WithStyles(ForwardRef(MenuItem))>
+  </ForwardRef(MenuList)>
+</WithStyles(ForwardRef(Paper))>
+`;
+
+exports[`<IATASearchField /> #renderMenuItems() menuData still matches snapshot 1`] = `
+Array [
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <P
+          dense={true}
+        >
+          undefined (iata)
+        </P>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H6
+          dense={true}
+        >
+          undefined, undefined
+        </H6>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(ForwardRef(MenuItem))>,
+]
+`;

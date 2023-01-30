@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridItem /> render() should render 1`] = `
+<div>
+  <WithStyles(ForwardRef(Grid))
+    className=""
+    item={true}
+  />
+</div>
+`;

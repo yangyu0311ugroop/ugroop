@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayDate /> dayDate() should dayDate 1`] = `
+<div>
+  renderDayDate
+</div>
+`;
+
+exports[`<DayDate /> dayDate() should return array 1`] = `
+<div>
+  renderDayDate
+  renderDayDate
+</div>
+`;
+
+exports[`<DayDate /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  />
+  <WithStyles(GridItem)>
+    1123
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DayDate /> renderDayDate() should renderDayDate none 1`] = `
+<div>
+  Day 3
+</div>
+`;
+
+exports[`<DayDate /> renderDayDate() should renderDayDate weekDay 1`] = `
+<div>
+  Day 3, undefined
+</div>
+`;
+
+exports[`<DayDate /> renderEventHeader() should renderEventHeader startDate 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          danger={true}
+          spacing2={true}
+          uppercase={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          xxl={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DayDate /> renderEventSchedule() should renderEventSchedule none 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+        sm={true}
+        uppercase={true}
+      >
+        Day
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        black={true}
+        xl={true}
+      >
+        13
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    renderButton
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DayDate /> renderEventSchedule() should renderEventSchedule startDate 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    noWrap={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            sm={true}
+            uppercase={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            sm={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            sm={true}
+            uppercase={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    renderButton
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DayDate /> renderEventSchedule() should renderEventSchedule weekDay 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+        sm={true}
+        uppercase={true}
+      >
+        Day
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        black={true}
+        xl={true}
+      >
+        13
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        gray={true}
+        sm={true}
+        uppercase={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    renderButton
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DayDate /> renderNoDay() should renderNoDay 1`] = `
+<div>
+  No day
+</div>
+`;
+
+exports[`<DayDate /> renderNoDay() should return null 1`] = `
+<div>
+  No day
+</div>
+`;
+
+exports[`<DayDate /> renderUnanchored() should renderUnanchored 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    bold={true}
+    gray={true}
+  >
+    11
+     day
+    s
+     later
+  </WithStyles(JTextClass)>
+</div>
+`;

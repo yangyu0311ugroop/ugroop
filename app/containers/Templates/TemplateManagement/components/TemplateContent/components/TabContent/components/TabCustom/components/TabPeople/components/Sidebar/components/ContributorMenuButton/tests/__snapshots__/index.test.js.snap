@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContributorMenuButton /> handleClick should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "peopleFilterSelected": "contributorsFilter",
+      "peopleTabOptionSelected": "allContributors",
+    },
+  ],
+]
+`;
+
+exports[`<ContributorMenuButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className={false}
+    xs={12}
+  >
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <Hidden
+            smDown={true}
+          >
+            <WithStyles(GridContainer)
+              alignitems="flex-end"
+              justify="space-between"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  halfPaddingLeft={true}
+                  md={true}
+                >
+                  Contributors
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem) />
+            </WithStyles(GridContainer)>
+          </Hidden>
+          <Hidden
+            mdUp={true}
+          >
+            <WithStyles(Button)
+              dense={true}
+              onClick={[Function]}
+              size="xs"
+              variant="inline"
+            >
+              <P
+                color="gray"
+                dense={true}
+                weight="bold"
+              >
+                Contributors
+              </P>
+            </WithStyles(Button)>
+          </Hidden>
+          <Hidden
+            smDown={true}
+          >
+            <WithStyles(Hr)
+              halfMarginTop={true}
+              noMarginBottom={true}
+            />
+          </Hidden>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(MarginWrapper)
+        bottom="sm"
+        left="md"
+        top="sm"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(WrappedComponent))) />
+        </WithStyles(GridContainer)>
+      </WithStyles(MarginWrapper)>
+    </Hidden>
+  </WithStyles(GridItem)>
+</div>
+`;

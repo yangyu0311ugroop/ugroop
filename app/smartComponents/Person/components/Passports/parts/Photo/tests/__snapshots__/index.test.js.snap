@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(File)))
+    canvasSize="canvasLandscapeMedium"
+    height={0}
+    photo={null}
+    placeholderProps={
+      Object {
+        "deleteIcon": true,
+        "showIconOnHover": true,
+      }
+    }
+    rotate={0}
+    scale={0}
+    variant="default"
+    width={0}
+    x={0}
+    y={0}
+  />
+</div>
+`;
+
+exports[`<Photo /> render() should render correctly if isFormsyConnect is true 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+    canvasSize="canvasLandscapeMedium"
+    height={0}
+    name="photo"
+    photo={null}
+    placeholderProps={
+      Object {
+        "deleteIcon": true,
+        "showIconOnHover": false,
+      }
+    }
+    rotate={0}
+    scale={0}
+    value={null}
+    variant="default"
+    width={0}
+    x={0}
+    y={0}
+  />
+</div>
+`;
+
+exports[`<Photo /> render() should render correctly if isFormsyConnect is true and photo is not empty string 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+    canvasSize="canvasLandscapeMedium"
+    height={0}
+    name="photo"
+    photo="/photo"
+    placeholderProps={
+      Object {
+        "deleteIcon": true,
+        "showIconOnHover": false,
+      }
+    }
+    rotate={0}
+    scale={0}
+    value={
+      Object {
+        "height": 0,
+        "rotate": 0,
+        "scale": 0,
+        "url": null,
+        "width": 0,
+        "x": 0,
+        "y": 0,
+      }
+    }
+    variant="default"
+    width={0}
+    x={0}
+    y={0}
+  />
+</div>
+`;

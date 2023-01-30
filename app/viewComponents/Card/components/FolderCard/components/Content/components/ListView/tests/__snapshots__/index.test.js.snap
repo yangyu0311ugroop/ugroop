@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderListView /> Smoke tests still matches snapshot 1`] = `
+<UIItemListView
+  className="listViewRoot"
+  noULWrap={false}
+  viewDelegate={
+    Object {
+      "x": 1,
+    }
+  }
+/>
+`;

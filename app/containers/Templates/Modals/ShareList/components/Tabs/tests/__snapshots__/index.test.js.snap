@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShareListTabs /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    onClose={[Function]}
+    open={false}
+  />
+  <div>
+    <WithStyles(UGTabs)
+      className=""
+      onChange={[Function]}
+      textColor="primary"
+      value={0}
+    >
+      <WithStyles(UGTab)
+        className=""
+        label={
+          <div>
+            Connected 
+          </div>
+        }
+        onClick={[Function]}
+      />
+      <WithStyles(UGTab)
+        label={
+          <div>
+            Pending 
+          </div>
+        }
+        onClick={[Function]}
+      />
+      <WithStyles(UGTab)
+        label="Organisation"
+        onClick={[Function]}
+      />
+    </WithStyles(UGTabs)>
+    <div>
+      <WithStyles(Button)
+        color="gray"
+        icon="question"
+        iconButton={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="outline"
+        weight="strong"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ShareListTabs /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Component)
+    onClose={[Function]}
+    open={false}
+  />
+  <div>
+    <WithStyles(UGTabs)
+      className=""
+      onChange={[Function]}
+      textColor="primary"
+      value={0}
+    >
+      <WithStyles(UGTab)
+        className=""
+        label={
+          <div>
+            Connected 
+          </div>
+        }
+        onClick={[Function]}
+      />
+      <WithStyles(UGTab)
+        label={
+          <div>
+            Pending 
+          </div>
+        }
+        onClick={[Function]}
+      />
+      <WithStyles(UGTab)
+        label="Organisation"
+        onClick={[Function]}
+      />
+    </WithStyles(UGTabs)>
+    <div>
+      <WithStyles(Button)
+        color="gray"
+        icon="question"
+        iconButton={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="outline"
+        weight="strong"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ShareListTabs /> renderBadge() should renderBadge 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <Component />
+  </div>
+</div>
+`;

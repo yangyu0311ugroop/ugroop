@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogFlowContainer render should render what it should render 1`] = `
+<WithStyles(DialogFlow)
+  actionBtnSize="small"
+  dialogClassName=""
+  isBeingDiscarded={false}
+  isDiscardBtnHidden={true}
+  isFullWidth={false}
+  isOpen={false}
+  isSaveDisabled={false}
+  isXBtnHidden={false}
+  onCancelClick={[Function]}
+  onClose={[MockFunction]}
+  onCloseClick={[Function]}
+  onDiscardClick={[Function]}
+  onSave={[MockFunction]}
+/>
+`;

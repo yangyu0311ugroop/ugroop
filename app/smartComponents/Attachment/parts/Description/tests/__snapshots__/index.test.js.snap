@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentDescription /> getRTEClassName should return something 1`] = `
+<div>
+  undefined
+</div>
+`;
+
+exports[`<AttachmentDescription /> getTextClassName should return something if there is width 1`] = `<div />`;
+
+exports[`<AttachmentDescription /> renderTextField should match snapshot if richText is false 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <TextField
+      attachmentTextField={true}
+      autoFocus={true}
+      className={null}
+      maxLength={0}
+      minLength={0}
+      name="attachment.description"
+      placeholder="Enter description?"
+      type="text"
+      validationErrors={Object {}}
+      validations={Object {}}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AttachmentDescription /> renderTextField should match snapshot if richText is true 1`] = `
+<div>
+  <Formsy(withRouter(WithStyles(SimpleRTE)))
+    autoFocus={true}
+    className=""
+    innerRef={[Function]}
+    name="attachment.description"
+    placeholder="Enter description?"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="<p><br></p>"
+  />
+</div>
+`;
+
+exports[`<AttachmentDescription /> renderTextOnly should match snapshot if richText is true 1`] = `
+<div>
+  <WithStyles(UGRichEditor)
+    initContent={null}
+    readOnly={true}
+    toolBarId="attachmentDescriptionnull"
+  />
+</div>
+`;
+
+exports[`<AttachmentDescription /> renderTextOnly should return getValue 1`] = `
+<div>
+  getValue
+</div>
+`;

@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Status /> className() should return generated className 1`] = `"default someVariant customClassName"`;
+
+exports[`<Status /> confirmAction() children snapshopts 1`] = `undefined`;
+
+exports[`<Status /> confirmAction() children snapshopts 2`] = `undefined`;
+
+exports[`<Status /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "checkitem": [Function],
+      "checklist": [Function],
+      "default": null,
+      "icon": [Function],
+      "interestedperson": [Function],
+      "participant": [Function],
+      "template": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Status /> renderButton() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "Not Completed",
+    "Complete this Task",
+  ],
+]
+`;
+
+exports[`<Status /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="green"
+    first={true}
+    noMargin={true}
+    onClick={[Function]}
+    size="small"
+    type="submit"
+  />
+</div>
+`;
+
+exports[`<Status /> renderButton() should renderButton 2`] = `
+Array [
+  Array [
+    false,
+    "Not Completed",
+    "Complete this Task",
+  ],
+]
+`;
+
+exports[`<Status /> renderCheckStatusIcon() should renderCheckStatusIcon 1`] = `
+<div>
+  <WithStyles(ForwardRef(Checkbox))
+    checked={false}
+    checkedIcon={
+      <WithStyles(Icon)
+        className=""
+        icon="lnr-check-square"
+        size="small"
+      />
+    }
+    className=""
+    color="default"
+    disabled={false}
+    icon={
+      <WithStyles(Icon)
+        icon="lnr-square"
+        size="small"
+      />
+    }
+    title="undefined checklist"
+  />
+</div>
+`;
+
+exports[`<Status /> renderCheckitem() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "button": [Function],
+      "default": [Function],
+      "icon": [Function],
+      "summary": [Function],
+      "text": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Status /> renderChecklist() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "buttonText": [Function],
+      "checkInput": [Function],
+      "default": [Function],
+      "icon": [Function],
+      "menuText": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Status /> renderChecklistButtonText() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "Reopen",
+    "Complete",
+  ],
+]
+`;
+
+exports[`<Status /> renderChecklistIcon() should renderChecklistIcon 1`] = `
+<div>
+  <WithStyles(Icon)
+    paddingLeft={false}
+    paddingRight={false}
+    size="small"
+  />
+</div>
+`;
+
+exports[`<Status /> renderChecklistIcon() should renderChecklistIcon 2`] = `
+Array [
+  Array [
+    false,
+    "lnr-outbox",
+    "lnr-archive2",
+  ],
+]
+`;
+
+exports[`<Status /> renderChecklistMenuText() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "Reopen",
+    "Mark as Completed ",
+  ],
+]
+`;
+
+exports[`<Status /> renderChecklistText() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "Completed",
+    "Open",
+  ],
+]
+`;
+
+exports[`<Status /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    renderIcon
+     
+  </span>
+</div>
+`;
+
+exports[`<Status /> renderDefault() should renderDefault 2`] = `
+Array [
+  Array [
+    true,
+    undefined,
+    undefined,
+  ],
+  Array [
+    true,
+    "Completed",
+    "Outstanding",
+  ],
+]
+`;
+
+exports[`<Status /> renderIcon() should renderIcon 1`] = `
+<div>
+  <WithStyles(Icon)
+    size="small"
+  />
+</div>
+`;
+
+exports[`<Status /> renderIcon() should renderIcon 2`] = `
+Array [
+  Array [
+    false,
+    "lnr-check",
+    "lnr-clock3",
+  ],
+]
+`;
+
+exports[`<Status /> renderInterestedPerson() still matches snapshot 1`] = `
+<InterestedPerson
+  className=""
+  classes={
+    Object {
+      "default": "default",
+      "someVariant": "someVariant",
+    }
+  }
+  disabled={false}
+  id={0}
+  isLoading={false}
+  label="Complete this Task"
+  me={0}
+  paddingLeft={false}
+  paddingRight={false}
+  readOnly={false}
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  revertLabel="Not Completed"
+  size="small"
+  status=""
+  type=""
+  variant=""
+/>
+`;
+
+exports[`<Status /> renderParticipant() still matches snapshot 1`] = `
+<Participant
+  Typography={[Function]}
+  className=""
+  classes={
+    Object {
+      "default": "default",
+      "someVariant": "someVariant",
+    }
+  }
+  disabled={false}
+  id={0}
+  isEmptyParticipantStatus={false}
+  isLoading={false}
+  label="Complete this Task"
+  me={0}
+  paddingLeft={false}
+  paddingRight={false}
+  readOnly={false}
+  required={false}
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  revertLabel="Not Completed"
+  showLabel={true}
+  size="small"
+  status=""
+  type=""
+  variant=""
+/>
+`;
+
+exports[`<Status /> renderPersonIcon should render folder icon if status is not personal 1`] = `"switchCase"`;
+
+exports[`<Status /> renderPersonIcon should render user icon if status is personal 1`] = `"switchCase"`;
+
+exports[`<Status /> renderSummary() should renderSummary 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      renderButton
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Status /> renderSummary() should renderSummary 2`] = `
+Array [
+  Array [
+    false,
+    <WithStyles(Connect(WithSimplifyResaga(CompletedBy)))
+      id={0}
+    />,
+    "renderText",
+  ],
+  Array [
+    false,
+    <WithStyles(Connect(WithSimplifyResaga(CompletedBy)))
+      id={0}
+      variant="avatar"
+    />,
+    "renderIcon",
+  ],
+]
+`;
+
+exports[`<Status /> renderText() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "This task is complete.",
+    "This task is outstanding.",
+  ],
+]
+`;
+
+exports[`<Status /> renderTourEditableStatus() children snapshopts 1`] = `
+<WithStyles(Button)
+  dense={true}
+  disabled={false}
+  loading={false}
+  onClick={[Function]}
+  size="xs"
+/>
+`;
+
+exports[`<Status /> renderTourStatus() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "SMALL_BADGE": [Function],
+      "badge": [Function],
+      "default": null,
+      "editable": [Function],
+      "valueOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Status /> templateStatusUpdate() children snapshopts 1`] = `undefined`;
+
+exports[`<Status /> toggleStatus() should toggleStatus COMPLETED 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "payload": Object {
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Status /> toggleStatus() should toggleStatus OUTSTANDING 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "payload": Object {
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Status /> tourStatusBandge() Badge snapshopts 1`] = `
+<WithStyles(JTextClass)
+  bolder={true}
+  disable={true}
+  onClick={null}
+  spacing2={true}
+  title="This travel is currenly cancelled, click to see options"
+  uppercase={true}
+>
+  cancelled
+</WithStyles(JTextClass)>
+`;
+
+exports[`<Status /> tourStatusBandge() Badge snapshopts 2`] = `
+<WithStyles(JTextClass)
+  bolder={true}
+  disable={false}
+  onClick={[Function]}
+  spacing2={true}
+  title="This travel is currenly cancelled, click to see options"
+  uppercase={true}
+>
+  cancelled
+</WithStyles(JTextClass)>
+`;
+
+exports[`<Status /> tourStatusBandge() children snapshopts 1`] = `"some render"`;
+
+exports[`<Status /> tourStatusSmallBandge() Badge snapshopts 1`] = `
+<div>
+  CANCELLED
+</div>
+`;
+
+exports[`<Status /> tourStatusSmallBandge() children snapshopts 1`] = `"some render"`;

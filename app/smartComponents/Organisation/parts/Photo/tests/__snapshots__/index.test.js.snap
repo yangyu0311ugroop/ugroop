@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(File)))
+    avatarProps={Object {}}
+    editable={false}
+    id=""
+    onDelete={[Function]}
+    onUpload={[Function]}
+    type="photo"
+  />
+</div>
+`;

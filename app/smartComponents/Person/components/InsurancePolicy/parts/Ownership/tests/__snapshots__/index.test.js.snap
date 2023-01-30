@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ownership /> renderAvatar should match snapshot if personNodeId 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    variant="avatar"
+  />
+</div>
+`;
+
+exports[`<Ownership /> renderAvatar should match snapshot if personUserId 1`] = `
+<div>
+  <ConnectFunction
+    userId={1}
+    variant="avatar"
+  />
+</div>
+`;
+
+exports[`<Ownership /> renderMessage should match snapshot if personNodeId and futureTense 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="This insurance policy will only be used on this tour."
+    id="app.smartComponents.Person.Passport.parts.InsurancePolicy.ownershipNodeFuture"
+  />
+</div>
+`;

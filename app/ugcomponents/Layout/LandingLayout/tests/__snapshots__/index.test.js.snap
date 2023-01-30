@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingLayout should render what it should render 1`] = `
+<article>
+  <HelmetWrapper
+    defaultTitle="uGroop"
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "",
+          "name": "uGroop Marketing",
+        },
+      ]
+    }
+    titleTemplate="%s - uGroop"
+  />
+  <WithStyles(BGContentWrapper)
+    location={
+      Object {
+        "location": Object {
+          "pathname": "/",
+        },
+      }
+    }
+  >
+    <ConnectFunction />
+    <WithStyles(LandingLayoutTitle)
+      location={
+        Object {
+          "location": Object {
+            "pathname": "/",
+          },
+        }
+      }
+    />
+  </WithStyles(BGContentWrapper)>
+  <WithStyles(FooterMarketing) />
+</article>
+`;

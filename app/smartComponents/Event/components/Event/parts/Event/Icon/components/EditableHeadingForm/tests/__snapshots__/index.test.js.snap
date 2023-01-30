@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconEditableHeadingForm /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "SelectProps": Object {},
+      "dataId": null,
+      "displayFlex": false,
+      "name": "name",
+      "readOnly": false,
+      "subtype": "",
+      "type": "",
+      "value": "",
+    },
+  ],
+]
+`;
+
+exports[`<IconEditableHeadingForm /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableSelectForm)
+    SelectProps={Object {}}
+    displayFlex={false}
+    name="name"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(EventIcon)
+                iconOverride=""
+                size="base"
+                subtype=""
+                type=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Default
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>,
+          "value": "",
+        },
+      ]
+    }
+    placeholder={null}
+    readOnly={false}
+    renderValue={[Function]}
+    value=""
+  >
+    <EventPatchData
+      dataId={null}
+      id={0}
+      subtype={false}
+    />
+  </WithStyles(EditableSelectForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<IconEditableHeadingForm /> #renderValue() still matches snapshot 1`] = `
+<WithStyles(EventIcon)
+  iconOverride="value"
+  size="base"
+  subtype=""
+  type=""
+/>
+`;

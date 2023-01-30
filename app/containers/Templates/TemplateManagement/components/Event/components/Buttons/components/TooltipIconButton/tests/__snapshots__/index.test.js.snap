@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGEventTooltipIconButton /> #handleButtonEnter() still matches snapshot 1`] = `
+Object {
+  "active": true,
+}
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleButtonEnter() still matches snapshot 2`] = `
+Array [
+  Array [
+    Object {
+      "active": true,
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleButtonLeave() still matches snapshot 1`] = `
+Object {
+  "active": false,
+}
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleButtonLeave() still matches snapshot 2`] = `
+Array [
+  Array [
+    Object {
+      "active": false,
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleEventView() still matches snapshot 1`] = `
+Object {
+  "portalData": [Function],
+  "portalIds": [Function],
+}
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleEventView() still matches snapshot 2`] = `
+Array [
+  Array [
+    Object {
+      "tooltipContentHover": false,
+      "tooltipOpen": false,
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleEventView() still matches snapshot 3`] = `
+Array [
+  Array [
+    Object {
+      "portalData": [Function],
+      "portalIds": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleIconButtonClick() still matches snapshot 1`] = `
+Object {
+  "portalData": [Function],
+  "portalIds": [Function],
+}
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleIconButtonClick() still matches snapshot 2`] = `
+Array [
+  Array [
+    Object {
+      "tooltipContentHover": false,
+      "tooltipOpen": false,
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #handleIconButtonClick() still matches snapshot 3`] = `
+Array [
+  Array [
+    Object {
+      "portalData": [Function],
+      "portalIds": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<UGEventTooltipIconButton /> #render() should display checkmark if eventDetail bookingNumber has value 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "popper": "",
+      "tooltip": "",
+    }
+  }
+  disableFocusListener={true}
+  enterDelay={400}
+  interactive={true}
+  leaveDelay={100}
+  onClose={[Function]}
+  onOpen={[Function]}
+  open={false}
+  placement="bottom"
+  title={
+    <Memo(Connect(WithSimplifyResaga(CanEditEvent)))
+      action="view"
+      id={123}
+      tooltip={true}
+    />
+  }
+>
+  <div>
+    <Measure
+      bounds={true}
+      onResize={[Function]}
+    >
+      <Component />
+    </Measure>
+  </div>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`<UGEventTooltipIconButton /> #render() should not pass function in onClick of IconButton is editable is false 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "popper": "",
+      "tooltip": "",
+    }
+  }
+  disableFocusListener={true}
+  enterDelay={400}
+  interactive={true}
+  leaveDelay={100}
+  onClose={[Function]}
+  onOpen={[Function]}
+  open={false}
+  placement="bottom"
+  title={
+    <Memo(Connect(WithSimplifyResaga(CanEditEvent)))
+      action="view"
+      id={123}
+      tooltip={true}
+    />
+  }
+>
+  <div>
+    <Measure
+      bounds={true}
+      onResize={[Function]}
+    >
+      <Component />
+    </Measure>
+  </div>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`<UGEventTooltipIconButton /> #render() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  disableFocusListener={true}
+  enterDelay={400}
+  interactive={true}
+  leaveDelay={100}
+  onClose={[Function]}
+  onOpen={[Function]}
+  open={false}
+  placement="bottom"
+  title={
+    <Memo(Connect(WithSimplifyResaga(CanEditEvent)))
+      action="view"
+      id={123}
+      tooltip={true}
+    />
+  }
+>
+  <div>
+    <Measure
+      bounds={true}
+      onResize={[Function]}
+    >
+      <Component />
+    </Measure>
+  </div>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton match snapshot 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton match snapshot if subtype is coach 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton match snapshot if subtype is coach 2`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton not explodes when showLabel 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton should use size props and use small classes 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton should use size props and use xs classes 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderButton still matches snapshot if event has no type 1`] = `undefined`;
+
+exports[`<UGEventTooltipIconButton /> #renderPart() renders Component 1`] = `
+<Component
+  dataId={456}
+  id={123}
+  variant="labelValue"
+/>
+`;
+
+exports[`<UGEventTooltipIconButton /> getTriangleClass if no need to show triangle 1`] = `"UGEventTooltipIconButton-noTriangleStyle"`;
+
+exports[`<UGEventTooltipIconButton /> getTriangleClass if show triangle but not checkout 1`] = `"UGEventTooltipIconButton-triangle UGEventTooltipIconButton-Accommodation.Motel.solidColor"`;
+
+exports[`<UGEventTooltipIconButton /> getTriangleClass if show triangle with checkout 1`] = `"UGEventTooltipIconButton-triangleBorder UGEventTooltipIconButton-Accommodation.Motel.borderColor"`;
+
+exports[`<UGEventTooltipIconButton /> render() should renderProp 1`] = `
+<div>
+  renderProp
+</div>
+`;
+
+exports[`<UGEventTooltipIconButton /> renderProp() should renderProp 1`] = `<div />`;
+
+exports[`<UGEventTooltipIconButton /> renderProp() should renderProp 2`] = `
+Array [
+  Array [
+    Object {
+      "icon": "renderEventIcon",
+      "onClick": [Function],
+    },
+  ],
+]
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OpenClosed /> render() should render correctly 1`] = `<div />`;
+
+exports[`<OpenClosed /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Object {
+      "closed": 0,
+      "open": 0,
+    },
+  ],
+  Array [
+    Object {
+      "closed": 0,
+      "open": 0,
+    },
+  ],
+  Array [
+    Object {
+      "closed": 0,
+      "open": 0,
+    },
+  ],
+  Array [
+    Object {
+      "closed": 0,
+      "open": 0,
+    },
+  ],
+]
+`;

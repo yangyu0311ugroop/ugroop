@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButtonsCell /> render should render move btn if canMove 1`] = `
+<Fragment>
+  <ConnectFunction
+    placement="bottom-center"
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</Fragment>
+`;
+
+exports[`<ActionButtonsCell /> renderButton should match snapshot 1`] = `
+<div>
+  <div>
+    <WithStyles(Button)
+      size="small"
+      tooltipProps={
+        Object {
+          "title": "Options",
+        }
+      }
+      variant="inline"
+    >
+      <div>
+        OPTIONS
+      </div>
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`<ActionButtonsCell /> renderPopperOptions should match snapshot 1`] = `ShallowWrapper {}`;

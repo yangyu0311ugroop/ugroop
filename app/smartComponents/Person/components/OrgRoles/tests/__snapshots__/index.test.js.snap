@@ -1,0 +1,709 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrgRoleTable /> onClickOrgMenu() should render correctly 1`] = `
+<div>
+  hello
+</div>
+`;
+
+exports[`<OrgRoleTable /> onClickOrgMenu() should render correctly 2`] = `<div />`;
+
+exports[`<OrgRoleTable /> render() should render correctly 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            minWidth={
+              Array [
+                "xxxs",
+              ]
+            }
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Member Since"
+              id="app.smartComponents.Person.components.OrgRoles.createdAtTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={false}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={false}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={false}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            centeredText={true}
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={true}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={true}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={true}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderDefault() should render correctly 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            minWidth={
+              Array [
+                "xxxs",
+              ]
+            }
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Member Since"
+              id="app.smartComponents.Person.components.OrgRoles.createdAtTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={false}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={false}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={false}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            centeredText={true}
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={true}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={true}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={true}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderList() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Roles)))
+      id={1}
+      key="1"
+      variant="list"
+    />
+    <WithStyles(GridItem)
+      className=""
+      onClick={[Function]}
+    >
+      <span>
+        1
+         hidden. 
+        <span>
+          See more
+        </span>
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderList() should render correctly when render show all 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)
+      className=""
+      clickable={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <Component
+            className="j-text-ellipsis"
+            variant="stringOnly"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          (Personal)
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Roles)))
+      id={1}
+      key="1"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              -1,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      variant="list"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Roles)))
+      id={2}
+      key="2"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              -1,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      variant="list"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Roles)))
+      id={3}
+      key="3"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              -1,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      variant="list"
+    />
+    <WithStyles(GridItem)
+      className=""
+      onClick={[Function]}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderList() should return null 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)
+      className=""
+      clickable={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <Component
+            className="j-text-ellipsis"
+            variant="stringOnly"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          (Personal)
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+      onClick={[Function]}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderListMenu() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={1}
+        key="1"
+        variant="list"
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={2}
+        key="2"
+        variant="list"
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={3}
+        key="3"
+        variant="list"
+      />
+    </WithStyles(MenuItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderOrgButton() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    noMargin={true}
+    onClick="1"
+    size="extraSmall"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Select Organisation
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderOrgButton() should render correctly 2`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    noMargin={true}
+    onClick="1"
+    size="extraSmall"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          ellipsisClassName="j-text-ellipsis"
+          id={1}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderOrgMenu() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      menuHeader="Organisations"
+      noPadding={true}
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderOrgMenuItem() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu="1"
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <Component
+              className="j-text-ellipsis"
+              variant="stringOnly"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            (Personal)
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <WithStyles(MenuItem)
+        closeMenu="1"
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          id={1}
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="2"
+    >
+      <WithStyles(MenuItem)
+        closeMenu="1"
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          id={2}
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="3"
+    >
+      <WithStyles(MenuItem)
+        closeMenu="1"
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Organisation)))
+          id={3}
+        />
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderPersonal() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <Component
+            className="j-text-ellipsis"
+            variant="stringOnly"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          (Personal)
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderShowMore should match snapshot 1`] = `
+<div>
+  <span>
+    1
+     hidden. 
+    <span>
+      See more
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderShowMore should match snapshot toggleShowAll 1`] = `
+<div>
+  <span>
+    See less
+  </span>
+</div>
+`;
+
+exports[`<OrgRoleTable /> renderTable() should render correctly 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            minWidth={
+              Array [
+                "xxxs",
+              ]
+            }
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            minWidth="xxxs"
+          >
+            <FormattedMessage
+              defaultMessage="Member Since"
+              id="app.smartComponents.Person.components.OrgRoles.createdAtTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={false}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={false}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={false}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Organisation"
+              id="app.smartComponents.Person.components.OrgRoles.orgTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            centeredText={true}
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Role"
+              id="app.smartComponents.Person.components.OrgRoles.roleTableHeader"
+            />
+          </WithStyles(TableHeadCell)>
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={1}
+          isMobile={true}
+          key="1"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={2}
+          isMobile={true}
+          key="2"
+          variant="table"
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Roles)))
+          id={3}
+          isMobile={true}
+          key="3"
+          variant="table"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </Hidden>
+</div>
+`;
+
+exports[`<OrgRoleTable /> toggleShowAll should match snapshot 1`] = `<div />`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndMode /> render() should render 1`] = `
+<div>
+  <Formsy(DataField)
+    currentValue="123"
+    innerRef={[Function]}
+    name="node.customData.end.mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;

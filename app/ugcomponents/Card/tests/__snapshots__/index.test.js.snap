@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGCard /> component should accept children text and display it 1`] = `
+<div
+  className="UGCard-card UGCard-cardBorder"
+  style={Object {}}
+>
+  16 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but to save the world through him. 18 Whoever believes in him is not condemned, but whoever does not believe stands condemned already because they have not believed in the name of God’s one and only Son.
+</div>
+`;
+
+exports[`<UGCard /> component should accept className for easy extending the component 1`] = `
+<div
+  className="UGCard-card UGCard-cardBorder sample-test"
+  style={Object {}}
+>
+  <sampleContent />
+</div>
+`;
+
+exports[`<UGCard /> component should add class when withShadow is true 1`] = `
+<div
+  className="UGCard-card UGCard-cardBorder sample-test"
+  style={Object {}}
+>
+  <sampleContent />
+</div>
+`;
+
+exports[`<UGCard /> component should display children component 1`] = `
+<div
+  className="UGCard-card UGCard-cardBorder"
+  style={Object {}}
+>
+  <sampleComponent />
+</div>
+`;
+
+exports[`<UGCard /> component should not add class when withNoShadowAndBorder is true 1`] = `
+<div
+  className="UGCard-card UGCard-cardBorder sample-test"
+  style={Object {}}
+>
+  <sampleContent />
+</div>
+`;

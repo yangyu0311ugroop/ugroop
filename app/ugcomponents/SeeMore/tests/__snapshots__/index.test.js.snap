@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeeMore/tests/index.test.js handleCreateLinkSuccess() should handleCreateLinkSuccess 1`] = `<div />`;
+
+exports[`SeeMore/tests/index.test.js handleCreateLinkSuccess() should handleCreateLinkSuccess 2`] = `<div />`;
+
+exports[`SeeMore/tests/index.test.js render() should render ADVANCED_EDIT_MODE 1`] = `<div />`;
+
+exports[`SeeMore/tests/index.test.js render() should return normal 1`] = `<div />`;
+
+exports[`SeeMore/tests/index.test.js render() should return with See Less 1`] = `
+<div>
+  <WithStyles(ForwardRef(Collapse))
+    collapsedHeight={105}
+    in={false}
+  >
+    <ResizeDetector
+      handleHeight={true}
+      handleWidth={false}
+      nodeType="div"
+      onResize={[Function]}
+      querySelector={null}
+      refreshRate={1000}
+      skipOnMount={false}
+      targetDomEl={null}
+    />
+  </WithStyles(ForwardRef(Collapse))>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        blue={true}
+        italic={true}
+        md={true}
+        onClick={[Function]}
+      >
+        See more...
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="inline"
+      >
+        Disable see more
+      </WithStyles(Button)>
+      <WithStyles(Component)
+        header={
+          <WithStyles(JTextClass)
+            bold={true}
+            uppercase={true}
+          >
+            Disable See more/See less
+          </WithStyles(JTextClass)>
+        }
+        headerNoWrap={true}
+        hideSubmitButton={true}
+        loading={false}
+        maxWidth="xs"
+        onClose={[Function]}
+        open={false}
+        submitButton="Continue"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  md={true}
+                  nowrap={false}
+                >
+                  This will disable the See More feature. Changes will be reflected. across your uGroop account. Are you sure you want to continue?
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  italic={true}
+                  md={true}
+                  nowrap={false}
+                >
+                  You can always turn on this feature in
+                  <strong>
+                     USER SETTINGS &gt; PREFERENCE
+                  </strong>
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="black"
+                  dense={true}
+                  disabled={false}
+                  onClick={[Function]}
+                  size="xs"
+                  variant="outline"
+                >
+                  Cancel
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  dense={true}
+                  disabled={false}
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  Disable
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Component)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`SeeMore/tests/index.test.js render() should return with See More 1`] = `
+<div>
+  <WithStyles(ForwardRef(Collapse))
+    collapsedHeight={105}
+    in={true}
+  >
+    <ResizeDetector
+      handleHeight={true}
+      handleWidth={false}
+      nodeType="div"
+      onResize={[Function]}
+      querySelector={null}
+      refreshRate={1000}
+      skipOnMount={false}
+      targetDomEl={null}
+    />
+  </WithStyles(ForwardRef(Collapse))>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        blue={true}
+        italic={true}
+        md={true}
+        onClick={[Function]}
+      >
+        See less...
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="inline"
+      >
+        Disable see more
+      </WithStyles(Button)>
+      <WithStyles(Component)
+        header={
+          <WithStyles(JTextClass)
+            bold={true}
+            uppercase={true}
+          >
+            Disable See more/See less
+          </WithStyles(JTextClass)>
+        }
+        headerNoWrap={true}
+        hideSubmitButton={true}
+        loading={false}
+        maxWidth="xs"
+        onClose={[Function]}
+        open={false}
+        submitButton="Continue"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  md={true}
+                  nowrap={false}
+                >
+                  This will disable the See More feature. Changes will be reflected. across your uGroop account. Are you sure you want to continue?
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                  italic={true}
+                  md={true}
+                  nowrap={false}
+                >
+                  You can always turn on this feature in
+                  <strong>
+                     USER SETTINGS &gt; PREFERENCE
+                  </strong>
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="black"
+                  dense={true}
+                  disabled={false}
+                  onClick={[Function]}
+                  size="xs"
+                  variant="outline"
+                >
+                  Cancel
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  dense={true}
+                  disabled={false}
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  Disable
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Component)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

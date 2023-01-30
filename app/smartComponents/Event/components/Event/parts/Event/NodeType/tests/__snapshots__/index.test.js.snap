@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NodeType /> #render() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="node.type"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value="value"
+/>
+`;

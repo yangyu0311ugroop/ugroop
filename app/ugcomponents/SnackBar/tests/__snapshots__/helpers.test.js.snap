@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar Helper openErrorSnackbar should call setValue with particular shape 1`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Death has no sting on me",
+      "type": "critical",
+    },
+  ],
+]
+`;
+
+exports[`Snackbar Helper openInfoSnackbar should call setValue with particular shape 1`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Following Jesus is costly",
+      "type": "info",
+    },
+  ],
+]
+`;
+
+exports[`Snackbar Helper openSuccessSnackbar should call setValue with particular shape 1`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Jesus reigns victorious!",
+      "type": "success",
+    },
+  ],
+]
+`;

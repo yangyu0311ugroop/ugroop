@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Profile)))
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Password)))
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 3`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(Roles))))
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 4`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(Component)
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 5`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Passports)))
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 6`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Documents)))
+      id={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Content /> render() should render correctly 7`] = `
+<div>
+  <WithStyles(Container)
+    padding={false}
+  >
+    <ConnectFunction
+      userId={1}
+    />
+  </WithStyles(Container)>
+</div>
+`;

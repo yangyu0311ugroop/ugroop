@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OldFollower/config.js setValue oldFollowerId should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "oldFollower",
+  "id",
+]
+`;
+
+exports[`OldFollower/config.js setValue participants should return keyPath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "participants",
+]
+`;

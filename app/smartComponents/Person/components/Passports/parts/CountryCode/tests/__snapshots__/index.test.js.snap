@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryCode /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableSelectForm)
+    Typography="H2"
+    label="Code of Issuing State/Country Code"
+    name="countryCode"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <WithStyles(JTextClass)
+            blue={true}
+            italic={true}
+          >
+            Select none
+          </WithStyles(JTextClass)>,
+          "value": null,
+        },
+      ]
+    }
+    placeholder="Click to specify country code"
+    readOnly={false}
+    readOnlyPlaceholder="No country code"
+    value=""
+  />
+</div>
+`;
+
+exports[`<CountryCode /> render() should render correctly if variant is inline 1`] = `
+<WithStyles(EditableSelectForm)
+  Typography="H2"
+  name="countryCode"
+  onSubmit={[Function]}
+  options={Array []}
+  placeholder="Click to specify country code"
+  readOnly={false}
+  readOnlyPlaceholder="No country code"
+  value=""
+/>
+`;
+
+exports[`<CountryCode /> render() should render correctly if variant is inline and country code is not none 1`] = `
+<WithStyles(EditableSelectForm)
+  Typography="H2"
+  name="countryCode"
+  onSubmit={[Function]}
+  options={Array []}
+  placeholder="Click to specify country code"
+  readOnly={false}
+  readOnlyPlaceholder="No country code"
+  value="Philippines - PH"
+/>
+`;
+
+exports[`<CountryCode /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <Formsy(SelectField)
+    autoFocus={false}
+    innerRef={[Function]}
+    label="Code of Issuing State/Country Code"
+    name="countryCode"
+    options={
+      Array [
+        Object {
+          "children": <WithStyles(JTextClass)
+            blue={true}
+            italic={true}
+          >
+            Select none
+          </WithStyles(JTextClass)>,
+          "value": null,
+        },
+      ]
+    }
+    required={false}
+    size="md"
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value="AU"
+  />
+</div>
+`;
+
+exports[`<CountryCode /> render() should render correctly if variant is text field and country code is not none 1`] = `
+<Formsy(SelectField)
+  autoFocus={false}
+  innerRef={[Function]}
+  label="Code of Issuing State/Country Code"
+  name="countryCode"
+  options={
+    Array [
+      Object {
+        "children": <WithStyles(JTextClass)
+          blue={true}
+          italic={true}
+        >
+          Select none
+        </WithStyles(JTextClass)>,
+        "value": null,
+      },
+    ]
+  }
+  required={false}
+  size="md"
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value="PH"
+/>
+`;
+
+exports[`<CountryCode /> render() should render correctly if variant is text only 1`] = `<div />`;
+
+exports[`<CountryCode /> render() should render if variant is default and countryCode is not NONE 1`] = `
+<div>
+  <WithStyles(EditableSelectForm)
+    Typography="H2"
+    label="Code of Issuing State/Country Code"
+    name="countryCode"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <WithStyles(JTextClass)
+            blue={true}
+            italic={true}
+          >
+            Select none
+          </WithStyles(JTextClass)>,
+          "value": null,
+        },
+      ]
+    }
+    placeholder="Click to specify country code"
+    readOnly={false}
+    readOnlyPlaceholder="No country code"
+    value="Philippines - PH"
+  />
+</div>
+`;

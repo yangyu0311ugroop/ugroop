@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> still matches snapshot if props.tinting 1`] = `
+<withRouter(UGLink)
+  to="/"
+>
+  <img
+    alt="üGroop"
+    className=""
+    src="IMAGE_MOCK"
+  />
+</withRouter(UGLink)>
+`;

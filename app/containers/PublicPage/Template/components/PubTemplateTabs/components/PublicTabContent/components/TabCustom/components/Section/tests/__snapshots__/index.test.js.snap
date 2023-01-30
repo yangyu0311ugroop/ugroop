@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> render() should NOT render if NOT exist 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<Section /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          className=""
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Header)))
+            id={999}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Body)))
+          id={999}
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MorePeopleModal /> should render what it should render 1`] = `
+<WithStyles(Component)
+  className="MorePeopleModal-root"
+  fullWidth={true}
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(UGDialogTitle)>
+    <FormattedMessage
+      defaultMessage="All Contributors"
+      id="app.containers.Templates.Modals.MorePeopleModal.modalTitle"
+    />
+  </WithStyles(UGDialogTitle)>
+  <WithStyles(UGDialogContent)
+    className="MorePeopleModal-dialogContent"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        key="paulc123@g.com-0"
+        md={2}
+        xs={12}
+      >
+        <ConnectFunction
+          disableGrow={true}
+          imgClass="MorePeopleModal-avatar"
+          noTooltip={true}
+          rootClass="MorePeopleModal-avatar"
+          showFullName={true}
+          userId="paulc123@g.com"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="paulc456@g.com-1"
+        md={2}
+        xs={12}
+      >
+        <ConnectFunction
+          disableGrow={true}
+          imgClass="MorePeopleModal-avatar"
+          noTooltip={true}
+          rootClass="MorePeopleModal-avatar"
+          showFullName={true}
+          userId="paulc456@g.com"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(UGDialogContent)>
+  <WithStyles(UGDialogAction)>
+    <WithStyles(Button)
+      onClick={[MockFunction]}
+    >
+      <FormattedMessage
+        defaultMessage="Close"
+        id="app.containers.Templates.Modals.MorePeopleModal.closeBtn"
+      />
+    </WithStyles(Button)>
+  </WithStyles(UGDialogAction)>
+</WithStyles(Component)>
+`;

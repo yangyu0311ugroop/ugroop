@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddCheckGroup /> addCheckGroup() should call NODE_API_HELPERS.createNode 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "checklists",
+      "lastNodeId": 223,
+      "node": Object {
+        "content": "some input",
+        "customData": Object {
+          "description": undefined,
+        },
+        "type": "checkgroup",
+      },
+      "onSuccess": [Function],
+      "parentNodeId": 12,
+    },
+    Object {
+      "classes": Object {},
+      "content": "",
+      "description": "",
+      "lastNodeId": 223,
+      "parentNodeId": 12,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddCheckGroup /> addCheckGroup() should call NODE_API_HELPERS.update 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "content": "some input",
+        "customData": Object {
+          "description": undefined,
+        },
+        "type": "checkgroup",
+      },
+      "nodeId": 1,
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {},
+      "content": "",
+      "description": "",
+      "id": 1,
+      "lastNodeId": 223,
+      "parentNodeId": 12,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddCheckGroup /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        size="xs"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          spacing={1}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-plus"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Add Checklist Group
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(Component)
+      fullScreen={false}
+      fullWidth={true}
+      header={
+        <WithStyles(GridContainer)
+          alignItems="center"
+          noWrap={true}
+        >
+          <WithStyles(GridItem)>
+            New Checklist Group
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      }
+      onClose={[Function]}
+      onValidSubmit={[Function]}
+      open={false}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <FormsyInterceptor
+            autoFocus={true}
+            label={
+              <span>
+                Checklist Group Name
+              </span>
+            }
+            name="content"
+            onInterceptValue={[Function]}
+            required={true}
+            type="text"
+            validationErrors={
+              Object {
+                "maxLength": "too long (between 2-500 characters)",
+                "minLength": "a bit longer (between 2-500 characters)",
+              }
+            }
+            validations="minLength:2,maxLength:500"
+            value=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(withRouter(WithStyles(SimpleRTE)))
+            innerRef={[Function]}
+            name="description"
+            placeholder="Write a short description, i.e. its purpose or when it would be used"
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+            value=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Component)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddCheckGroup /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Button)
+    buttonTitle="Add Checklist Group"
+    color="primary"
+    dense={true}
+    onClick={[Function]}
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(Icon)
+      icon="lnr-plus"
+      size="xsmall"
+    />
+  </WithStyles(Button)>
+  <WithStyles(Component)
+    fullScreen={false}
+    fullWidth={true}
+    header={
+      <WithStyles(GridContainer)
+        alignItems="center"
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          New Checklist Group
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          autoFocus={true}
+          label={
+            <span>
+              Checklist Group Name
+            </span>
+          }
+          name="content"
+          onInterceptValue={[Function]}
+          required={true}
+          type="text"
+          validationErrors={
+            Object {
+              "maxLength": "too long (between 2-500 characters)",
+              "minLength": "a bit longer (between 2-500 characters)",
+            }
+          }
+          validations="minLength:2,maxLength:500"
+          value=""
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Formsy(withRouter(WithStyles(SimpleRTE)))
+          innerRef={[Function]}
+          name="description"
+          placeholder="Write a short description, i.e. its purpose or when it would be used"
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddCheckGroup /> render() should render edit checklist group correctly 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    onClick={[Function]}
+    title="Edit checklist group"
+  >
+    <WithStyles(Icon)
+      icon="lnr-pencil"
+      size="xsmall"
+    />
+  </WithStyles(InlineButton)>
+  <WithStyles(Component)
+    fullScreen={false}
+    fullWidth={true}
+    header={
+      <WithStyles(GridContainer)
+        alignItems="center"
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          Edit Checklist Group
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          autoFocus={true}
+          label={
+            <span>
+              Checklist Group Name
+            </span>
+          }
+          name="content"
+          onInterceptValue={[Function]}
+          required={true}
+          type="text"
+          validationErrors={
+            Object {
+              "maxLength": "too long (between 2-500 characters)",
+              "minLength": "a bit longer (between 2-500 characters)",
+            }
+          }
+          validations="minLength:2,maxLength:500"
+          value=""
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Formsy(withRouter(WithStyles(SimpleRTE)))
+          innerRef={[Function]}
+          name="description"
+          placeholder="Write a short description, i.e. its purpose or when it would be used"
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;

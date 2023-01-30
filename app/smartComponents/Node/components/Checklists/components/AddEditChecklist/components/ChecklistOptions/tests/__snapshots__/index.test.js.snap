@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistOptions /> render() should render correctly 1`] = `
+<div>
+  <Formsy(WithStyles(SelectField))
+    disabled={false}
+    innerRef={[Function]}
+    label="Copy checklist"
+    name="copyFromNodeId"
+    optionRendered={true}
+    options={
+      <React.Fragment>
+        <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+          parentNodeId={22999}
+          variant="option"
+        />
+      </React.Fragment>
+    }
+    required={false}
+    showNone={true}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<ChecklistOptions /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+    parentNodeId={22999}
+    variant="checkInput"
+  />
+</div>
+`;

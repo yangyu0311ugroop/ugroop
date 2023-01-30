@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getEventDetails should match snapshot when event type is accommodation 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "bookedBy": undefined,
+    "bookingNumber": undefined,
+    "bookingPersonCount": undefined,
+    "iconOverride": undefined,
+    "supplier": undefined,
+    "supplierPhoneNumber": undefined,
+    "type": undefined,
+  },
+  "location": Object {
+    "icon": undefined,
+    "name": undefined,
+    "placeId": undefined,
+  },
+  "name": undefined,
+  "type": "Accommodation",
+  "url": undefined,
+}
+`;
+
+exports[`getEventDetails should match snapshot when event type is activities 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "bookedBy": undefined,
+    "bookingNumber": undefined,
+    "bookingPersonCount": undefined,
+    "iconOverride": undefined,
+    "supplier": undefined,
+    "supplierPhoneNumber": undefined,
+    "type": undefined,
+  },
+  "location": Object {
+    "icon": undefined,
+    "name": undefined,
+    "placeId": undefined,
+  },
+  "name": undefined,
+  "type": "Activity",
+  "url": undefined,
+}
+`;
+
+exports[`getEventDetails should match snapshot when event type is activities and iconOverride is cycling 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "activityDetails": Object {
+      "end": Object {
+        "icon": undefined,
+        "name": undefined,
+        "placeId": undefined,
+      },
+      "start": Object {
+        "icon": undefined,
+        "name": undefined,
+        "placeId": undefined,
+      },
+    },
+    "bookedBy": undefined,
+    "bookingNumber": undefined,
+    "bookingPersonCount": undefined,
+    "iconOverride": "Cycling",
+    "supplier": undefined,
+    "supplierPhoneNumber": undefined,
+    "type": "Match",
+  },
+  "location": Object {
+    "icon": undefined,
+    "name": undefined,
+    "placeId": undefined,
+  },
+  "name": undefined,
+  "type": "Activity",
+  "url": undefined,
+}
+`;
+
+exports[`getEventDetails should match snapshot when event type is activities and iconOverride is not cycling 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "bookedBy": undefined,
+    "bookingNumber": undefined,
+    "bookingPersonCount": undefined,
+    "iconOverride": "Default",
+    "supplier": undefined,
+    "supplierPhoneNumber": undefined,
+    "type": "Match",
+  },
+  "location": Object {
+    "icon": undefined,
+    "name": undefined,
+    "placeId": undefined,
+  },
+  "name": undefined,
+  "type": "Activity",
+  "url": undefined,
+}
+`;
+
+exports[`getEventDetails should match snapshot when event type is transportation 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "detail": Object {
+      "common": Object {
+        "end": Object {
+          "icon": undefined,
+          "name": undefined,
+          "placeId": undefined,
+        },
+        "eventBooking": Object {
+          "bookedBy": undefined,
+          "bookingNumber": undefined,
+          "personCount": undefined,
+          "supplierName": undefined,
+          "supplierNumber": undefined,
+        },
+        "start": Object {
+          "icon": undefined,
+          "name": undefined,
+          "placeId": undefined,
+        },
+      },
+    },
+    "type": undefined,
+  },
+  "name": undefined,
+  "type": "Transportation",
+  "url": undefined,
+}
+`;
+
+exports[`getEventDetails should match snapshot when event type is transportation and subtype is Flight 1`] = `
+Object {
+  "description": undefined,
+  "detail": Object {
+    "detail": Object {
+      "airline": undefined,
+      "end": Object {
+        "airport": Object {
+          "cityName": undefined,
+          "iataCode": undefined,
+          "name": undefined,
+        },
+      },
+      "flightBookingId": undefined,
+      "flightNumber": undefined,
+      "gate": undefined,
+      "start": Object {
+        "airport": Object {
+          "cityName": undefined,
+          "iataCode": undefined,
+          "name": undefined,
+        },
+      },
+      "terminal": undefined,
+      "travelClass": undefined,
+    },
+    "type": "Flight",
+  },
+  "name": undefined,
+  "type": "Transportation",
+  "url": undefined,
+}
+`;

@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldTable /> #render() still matches snapshot when empty 1`] = `
+<Fragment>
+  <FieldTableFooter
+    addButtonContent="Add New"
+    addButtonProps={
+      Object {
+        "dense": true,
+        "outline": "outLineGrey",
+      }
+    }
+    footerProp="some footer prop"
+    onAdd={null}
+  />
+</Fragment>
+`;
+
+exports[`<FieldTable /> #render() still matches snapshot when empty and with custom footer 1`] = `
+<Fragment>
+  <div
+    key="123"
+  >
+    some row {"id":123,"x":1}
+    <FieldTableRowTail
+      onRemove={[Function]}
+      removeButtonProps={Object {}}
+      rowTailProp="some row tail prop"
+    />
+  </div>
+  <WithStyles(FieldTableSeparator) />
+  some footer 1
+</Fragment>
+`;
+
+exports[`<FieldTable /> #render() still matches snapshot when empty and with header 1`] = `
+<Fragment>
+  <FieldTableFooter
+    addButtonContent="Add New"
+    addButtonProps={
+      Object {
+        "dense": true,
+        "outline": "outLineGrey",
+      }
+    }
+    footerProp="some footer prop"
+    onAdd={null}
+  />
+</Fragment>
+`;
+
+exports[`<FieldTable /> #render() still matches snapshot when not empty 1`] = `
+<Fragment>
+  <div
+    key="123"
+  >
+    some row {"id":123,"x":1}
+    <FieldTableRowTail
+      onRemove={[Function]}
+      removeButtonProps={Object {}}
+      rowTailProp="some row tail prop"
+    />
+  </div>
+  <WithStyles(FieldTableSeparator) />
+  <FieldTableFooter
+    addButtonContent="Add New"
+    addButtonProps={
+      Object {
+        "dense": true,
+        "outline": "outLineGrey",
+      }
+    }
+    footerProp="some footer prop"
+    onAdd={null}
+  />
+</Fragment>
+`;
+
+exports[`<FieldTable /> #render() still matches snapshot when not empty and with header 1`] = `
+<Fragment>
+  some header
+  <div
+    key="123"
+  >
+    some row {"id":123,"x":1}
+    <FieldTableRowTail
+      onRemove={[Function]}
+      removeButtonProps={Object {}}
+      rowTailProp="some row tail prop"
+    />
+  </div>
+  <WithStyles(FieldTableSeparator) />
+  <FieldTableFooter
+    addButtonContent="Add New"
+    addButtonProps={
+      Object {
+        "dense": true,
+        "outline": "outLineGrey",
+      }
+    }
+    footerProp="some footer prop"
+    onAdd={null}
+  />
+</Fragment>
+`;

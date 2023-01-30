@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SeatDialog /> renderHeading should render heading for dialog form add 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="Add Seat"
+    headingBackground="Seat"
+  />
+  renderCloseButton
+</div>
+`;
+
+exports[`<SeatDialog /> renderHeading should render heading for dialog form edit 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="Edit Seat"
+    headingBackground="Seat"
+  />
+  renderCloseButton
+</div>
+`;
+
+exports[`<SeatDialog /> should render correctly 1`] = `
+<WithStyles(GenericForm)
+  loading={false}
+  open={false}
+  renderFooter={null}
+  renderHeader={[Function]}
+  size="sm"
+>
+  <WithStyles(Connect(WithSimplifyResaga(SeatForm)))
+    mode="add"
+  />
+</WithStyles(GenericForm)>
+`;

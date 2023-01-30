@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneField /> #render() still matches snapshot 1`] = `
+<FormsyInterceptor
+  name="name"
+  onInterceptValue={[Function]}
+  validations={
+    Object {
+      "isPhoneNumber": true,
+    }
+  }
+/>
+`;

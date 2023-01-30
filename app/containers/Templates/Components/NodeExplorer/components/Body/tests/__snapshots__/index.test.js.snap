@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> render() should render correctly 1`] = `
+<Fragment>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component))))))))
+    folderId={1}
+  />
+</Fragment>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AssignedChecklists /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of My Tours",
+            "name": "description",
+          },
+        ]
+      }
+      title="Assigned Checklists"
+    />
+    <WithStyles(GridItem)>
+      Assigned by me/Assigned from others
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

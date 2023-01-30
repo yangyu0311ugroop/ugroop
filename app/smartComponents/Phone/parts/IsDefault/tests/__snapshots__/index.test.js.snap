@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IsDefault /> render() should render correctly 1`] = `<div />`;
+
+exports[`<IsDefault /> render() should render correctly if variant is badge 1`] = `<div />`;
+
+exports[`<IsDefault /> render() should render correctly if variant is badge and isDefault 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <P
+      dense={true}
+      weight="bold"
+    >
+      <WithStyles(Badge)>
+        Primary
+      </WithStyles(Badge)>
+    </P>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<IsDefault /> render() should render correctly if variant is editable 1`] = `
+<div>
+  <WithStyles(Formsy(CheckboxField))
+    compact={true}
+    label="Primary"
+    name="isDefault"
+    noMargin={true}
+    value={false}
+  />
+</div>
+`;

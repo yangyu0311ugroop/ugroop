@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Roles /> render() should render correctly 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  />
+  <Hidden
+    smUp={true}
+  />
+</div>
+`;
+
+exports[`<Roles /> renderRows() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RoleItems)))
+    id={1}
+    key="1"
+    orgId={0}
+    variant="table"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(RoleItems)))
+    id={2}
+    key="2"
+    orgId={0}
+    variant="table"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(RoleItems)))
+    id={3}
+    key="3"
+    orgId={0}
+    variant="table"
+  />
+</div>
+`;
+
+exports[`<Roles /> renderTable() should render correctly 1`] = `
+<div>
+  <Hidden
+    xsDown={true}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(Table)>
+        <WithStyles(TableHeader)>
+          <WithStyles(TableRow)>
+            <WithStyles(TableHeadCell)
+              padding="halfLeftRight"
+            >
+              <WithStyles(ForwardRef(TableSortLabel))
+                active={true}
+                direction="desc"
+                onClick={[Function]}
+              >
+                <FormattedMessage
+                  defaultMessage="Name"
+                  id=".app.smartComponents.Organisation.components.OrganisationRoles.tableHeadName"
+                />
+              </WithStyles(ForwardRef(TableSortLabel))>
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell)
+              padding="halfLeftRight"
+            >
+              <WithStyles(ForwardRef(TableSortLabel))
+                active={false}
+                direction="desc"
+                onClick={[Function]}
+              >
+                <div
+                  className="j-text-ellipsis"
+                >
+                  <abbr
+                    title="Email Address"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Email Address"
+                      id=".app.smartComponents.Organisation.components.OrganisationRoles.tableHeadEmailAddress"
+                    />
+                  </abbr>
+                </div>
+              </WithStyles(ForwardRef(TableSortLabel))>
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell)
+              padding="halfLeftRight"
+            >
+              <WithStyles(ForwardRef(TableSortLabel))
+                active={false}
+                direction="desc"
+                onClick={[Function]}
+              >
+                <div
+                  className="j-text-ellipsis"
+                >
+                  <abbr
+                    title="Member Since"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Member Since"
+                      id=".app.smartComponents.Organisation.components.OrganisationRoles.tableHeadMemberSince"
+                    />
+                  </abbr>
+                </div>
+              </WithStyles(ForwardRef(TableSortLabel))>
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell)
+              padding="halfLeftRight"
+            >
+              <WithStyles(ForwardRef(TableSortLabel))
+                active={false}
+                direction="desc"
+                onClick={[Function]}
+              >
+                <div
+                  className="j-text-ellipsis"
+                >
+                  <abbr
+                    title="Last Seen"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Last Seen"
+                      id=".app.smartComponents.Organisation.components.OrganisationRoles.tableHeadLastSeen"
+                    />
+                  </abbr>
+                </div>
+              </WithStyles(ForwardRef(TableSortLabel))>
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell)
+              padding="halfLeftRight"
+            >
+              <div
+                className="j-text-ellipsis"
+              >
+                <FormattedMessage
+                  defaultMessage="Active"
+                  id=".app.smartComponents.Organisation.components.OrganisationRoles.active"
+                />
+              </div>
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell)
+              centeredText={true}
+              padding="halfLeftRight"
+            >
+              <FormattedMessage
+                defaultMessage="Role"
+                id="app.smartComponents.Organisation.components.OrganisationRoles.tableHeadRole"
+              />
+            </WithStyles(TableHeadCell)>
+            <WithStyles(TableHeadCell) />
+          </WithStyles(TableRow)>
+        </WithStyles(TableHeader)>
+        <WithStyles(TableBody)>
+          <ConnectFunction
+            columnOrderBy="desc"
+            columnSortBy="knownAs"
+            ids={
+              Array [
+                1,
+                2,
+                3,
+              ]
+            }
+          >
+            <Component />
+          </ConnectFunction>
+        </WithStyles(TableBody)>
+      </WithStyles(Table)>
+    </GenericForm>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <GenericForm
+          canSubmitForm={true}
+          cancelButtonContent="Discard"
+          disabled={false}
+          discardDialogProps={Object {}}
+          loading={false}
+          onInvalid={[Function]}
+          onValid={[Function]}
+          showChangeRoutePrompt={false}
+          submitButtonContent="Submit"
+        >
+          <WithStyles(Table)>
+            <WithStyles(TableHeader)>
+              <WithStyles(TableRow)>
+                <WithStyles(TableHeadCell)
+                  padding="halfLeftRight"
+                >
+                  <WithStyles(ForwardRef(TableSortLabel))
+                    active={true}
+                    direction="desc"
+                    onClick={[Function]}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Name"
+                      id=".app.smartComponents.Organisation.components.OrganisationRoles.tableHeadName"
+                    />
+                  </WithStyles(ForwardRef(TableSortLabel))>
+                </WithStyles(TableHeadCell)>
+                <WithStyles(TableHeadCell)
+                  centeredText={true}
+                  padding="halfLeftRight"
+                >
+                  <FormattedMessage
+                    defaultMessage="Role"
+                    id="app.smartComponents.Organisation.components.OrganisationRoles.tableHeadRole"
+                  />
+                </WithStyles(TableHeadCell)>
+                <WithStyles(TableHeadCell)
+                  padding="halfLeftRight"
+                />
+              </WithStyles(TableRow)>
+            </WithStyles(TableHeader)>
+            <WithStyles(TableBody)>
+              <ConnectFunction
+                columnOrderBy="desc"
+                columnSortBy="knownAs"
+                ids={
+                  Array [
+                    1,
+                    2,
+                    3,
+                  ]
+                }
+              >
+                <Component />
+              </ConnectFunction>
+            </WithStyles(TableBody)>
+          </WithStyles(Table)>
+        </GenericForm>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </Hidden>
+</div>
+`;

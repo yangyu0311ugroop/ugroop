@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rating /> render() should render correctly 1`] = `
+<div>
+  <Formsy(RatingField)
+    innerRef={[Function]}
+    name="customData.rating"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={0}
+  />
+</div>
+`;

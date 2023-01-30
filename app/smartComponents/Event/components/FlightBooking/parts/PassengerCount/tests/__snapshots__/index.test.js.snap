@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PassengerCount /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchFlightBooking 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "classes": Object {},
+      "readOnly": false,
+      "value": "Some value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<PassengerCount /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<PassengerCount /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Passenger Count"
+        id="app.Event.parts.FlightBooking.PassengerCount.passengerCountLabel"
+      />
+    }
+    makeEmptyZero={true}
+    name="passengerCount"
+    onSubmit={[Function]}
+    placeholder="Click to specify passenger count"
+    readOnly={false}
+    renderValue={[Function]}
+    value="Some value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<PassengerCount /> #renderEditableValue() still matches snapshot 1`] = `"undefined people"`;
+
+exports[`<PassengerCount /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={4}
+>
+  <NumberField
+    autoComplete="off"
+    isInt={true}
+    isIntError="Must be integer"
+    label={
+      <FormattedMessage
+        defaultMessage="Passenger Count"
+        id="app.Event.parts.FlightBooking.PassengerCount.passengerCountLabel"
+      />
+    }
+    makeEmptyZero={true}
+    max={NaN}
+    min={0}
+    name="passengerCount"
+    type="number"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="Some value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<PassengerCount /> renderLabelValue() should renderLabelValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-users"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        value
+         pax
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

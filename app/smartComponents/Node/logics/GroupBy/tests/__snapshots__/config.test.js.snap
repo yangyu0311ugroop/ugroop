@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy/config.js ALL_VALUES values should return cacheKey 1`] = `"1,2.groupBy.createdAt"`;
+
+exports[`SortBy/config.js ALL_VALUES values should return getter 1`] = `
+Object {
+  "groupData": Object {
+    "1": Array [
+      1,
+      2,
+    ],
+  },
+  "groupIds": Array [
+    1,
+  ],
+}
+`;
+
+exports[`SortBy/config.js ALL_VALUES values should return keyPath 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "createdAt",
+  ],
+  Array [
+    "nodeStore",
+    "nodes",
+    2,
+    "createdAt",
+  ],
+]
+`;
+
+exports[`SortBy/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "values": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": Array [
+        [Function],
+        [Function],
+      ],
+    },
+  },
+}
+`;
+
+exports[`helpers helpers should exists 1`] = `
+Object {
+  "createdAt": [Function],
+  "createdBy": [Function],
+  "getSelector": [Function],
+  "reduceGroup": [Function],
+  "selectProp": [Function],
+}
+`;
+
+exports[`helpers reduceGroup() should reduce CREATED_BY 1`] = `
+Object {
+  "groupData": Object {
+    "1": Array [
+      11,
+      12,
+    ],
+  },
+  "groupIds": Array [
+    1,
+  ],
+}
+`;

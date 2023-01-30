@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Passport /> componentDidUpdate handlePassportCreateClose should still match snapshot 1`] = `<div />`;
+
+exports[`<Passport /> componentDidUpdate handlePassportViewClose should do nothing 1`] = `<div />`;
+
+exports[`<Passport /> componentDidUpdate render should render row 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="profile"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        italic={true}
+      >
+        Passport not specified
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Passport /> componentDidUpdate render should renderIcon 1`] = `<div />`;
+
+exports[`<Passport /> componentDidUpdate render should renderProps 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <PassportEditable
+      onPassportView={[Function]}
+      readOnly={false}
+      renderActions={[Function]}
+      renderValue={[Function]}
+      saving={false}
+      value={null}
+    />
+  </WithStyles(GridItem)>
+  <ConnectFunction />
+</div>
+`;
+
+exports[`<Passport /> componentDidUpdate renderIcon() should renderIcon 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Tooltip)
+      placement="bottom"
+      title="Participant has a passport"
+    >
+      <WithStyles(Icon)
+        icon="lnr-document2"
+        size="extraSmall"
+      />
+    </WithStyles(Tooltip)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Passport /> renderActions should match snapshot if there is value 1`] = `
+<div>
+  <WithStyles(EditableActions)>
+    <EditableAction
+      color="gray"
+      icon="lnr-eye"
+      onClick={[Function]}
+      size="extraSmall"
+      title="View Passport Details"
+      variant="outline"
+    />
+  </WithStyles(EditableActions)>
+</div>
+`;
+
+exports[`<Passport /> renderActions should return value 1`] = `<div />`;
+
+exports[`<Passport /> renderEditable should match snapshot if userConnected and userValues.length 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <PassportEditableMenu
+      nodeValues={Array []}
+      onPassportSelect={[Function]}
+      onPassportView={[Function]}
+      readOnly={false}
+      renderActions={[Function]}
+      renderValue={[Function]}
+      saving={true}
+      userId={null}
+      userValues={
+        Array [
+          1,
+        ]
+      }
+      value={null}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Passport /> renderPassportNumber should render passport number 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    ellipsis={true}
+    nowrap={true}
+  >
+    <ConnectFunction
+      id={null}
+      variant="row"
+    />
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Passport /> renderProp should match snapshot 1`] = `<div />`;
+
+exports[`<Passport /> renderValue should match snapshot if there is value 1`] = `
+<div>
+  <ConnectFunction
+    id="value"
+    variant="row"
+  />
+</div>
+`;

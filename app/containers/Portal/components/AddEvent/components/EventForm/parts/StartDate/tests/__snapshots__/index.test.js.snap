@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartDate /> render() should render 1`] = `
+<div>
+  renderData
+  <ConnectFunction
+    batchCreate={false}
+    fullWidth={true}
+    noPadding={true}
+    placement="bottom"
+    renderButton={[Function]}
+    selectedValues={
+      Array [
+        11,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<StartDate /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+    id={
+      Array [
+        1,
+      ]
+    }
+    showDayIndex={true}
+  >
+    renderDayDate
+  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))>
+</div>
+`;
+
+exports[`<StartDate /> renderCheckStatus() should renderCheckStatus 1`] = `
+<div>
+  <input
+    name="startDates"
+    type="radio"
+    value="email"
+  />
+</div>
+`;
+
+exports[`<StartDate /> renderCheckStatus() should return null 1`] = `
+<div>
+  <input
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`<StartDate /> renderData() should renderData 1`] = `
+<div>
+  <Formsy(DataField)
+    currentValue="undefined"
+    innerRef={[Function]}
+    name="node.customData.start.tempDay"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<StartDate /> renderData() should return null 1`] = `
+<div>
+  <Formsy(DataField)
+    currentValue={true}
+    innerRef={[Function]}
+    name="data.batchCreate"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+  <Formsy(DataField)
+    currentValue={
+      Array [
+        1,
+        2,
+      ]
+    }
+    innerRef={[Function]}
+    name="data.tempDayRange"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<StartDate /> renderDayDate() should renderDayDate 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <FilledTextField
+        InputProps={Object {}}
+        autoComplete="off"
+        fullWidth={true}
+        label="Start date"
+        placeholder="Enter start date"
+        readonly={true}
+        value="renderDayDateValue"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<StartDate /> renderDayMenu() should renderDayMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      block={true}
+      noBorderRadius={true}
+      onClick={[Function]}
+      textAlign="left"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          renderCheckStatus
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={false}
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+              showDayIndex={true}
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<StartDate /> renderMenu() should renderMenu !batchCreate 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              multiple days
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(ForwardRef(Switch))
+            checked={false}
+            color="primary"
+            onChange={[Function]}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bg="gray"
+          block={true}
+          noBorderRadius={true}
+          onClick={[Function]}
+          textAlign="left"
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <input
+                checked={true}
+                name="startDates"
+                type="radio"
+                value="email"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(JTextClass)
+                bold={true}
+              >
+                No day
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<StartDate /> renderMenu() should renderMenu batchCreate 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              uppercase={true}
+            >
+              multiple days
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(ForwardRef(Switch))
+            checked={true}
+            color="primary"
+            onChange={[Function]}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(JButton)
+          bg="gray"
+          block={true}
+          noBorderRadius={true}
+          onClick={[Function]}
+          textAlign="left"
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(JTextClass)
+                bold={true}
+              >
+                No day
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(JButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    No followers linked
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<List /> render() should render correctly if followers is greater than 0 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(HRWithText)
+        content={
+          <WithStyles(JTextClass)
+            bold={true}
+            sm={true}
+          >
+            Followers
+          </WithStyles(JTextClass)>
+        }
+        halfPadding={true}
+        noFontSize={true}
+        x2MarginTopBottom={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)
+        key="1"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))))))
+          id={1}
+          readOnly={false}
+          showEditBtn={true}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="2"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))))))
+          id={2}
+          readOnly={false}
+          showEditBtn={true}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<List /> render() should render with old data 1`] = `
+<div>
+  renderListWithOldData
+</div>
+`;
+
+exports[`<List /> renderCount should match snapshot 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`<List /> renderList should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))))))
+      id={1}
+      readOnly={false}
+      showEditBtn={true}
+      variant="editable"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<List /> renderListWithOldData should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

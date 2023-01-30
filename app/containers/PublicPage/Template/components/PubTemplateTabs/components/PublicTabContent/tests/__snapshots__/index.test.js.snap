@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess with hashkey 1`] = `
+Object {
+  "hashkey": "abcd",
+  "idUpsertMode": "set",
+}
+`;
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess with hashkey 2`] = `
+Object {
+  "hashkey": "abcd",
+}
+`;
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess with hashkey 3`] = `
+Array [
+  Array [
+    "Pub",
+    "getPubTemplatePeople",
+    Object {
+      "payload": Object {
+        "hashkey": "abcd",
+      },
+    },
+  ],
+]
+`;
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess without hashkey 1`] = `
+Object {
+  "id": 0,
+  "idUpsertMode": "set",
+}
+`;
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess without hashkey 2`] = `
+Object {
+  "templateId": 0,
+}
+`;
+
+exports[`PublicTabContent/tests/index.test.js fetchSuccess without hashkey 3`] = `
+Array [
+  Array [
+    "Templates",
+    "findPeople",
+    Object {
+      "payload": Object {
+        "id": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`PublicTabContent/tests/index.test.js render()   renders tabmap 1`] = `undefined`;
+
+exports[`PublicTabContent/tests/index.test.js render()   renders tabmap if there are no tabs 1`] = `undefined`;
+
+exports[`PublicTabContent/tests/index.test.js render()   renders tabmap that passes 0 as tabId 1`] = `undefined`;

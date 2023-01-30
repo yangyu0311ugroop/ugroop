@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconEditableHeading /> #handleChange() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "formValue": "value",
+}
+`;
+
+exports[`<IconEditableHeading /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <EditableSelect
+    SelectProps={
+      Object {
+        "ref": [Function],
+      }
+    }
+    name="name"
+    onChange={[Function]}
+    onClose={[Function]}
+    open={false}
+    options={
+      Array [
+        Object {
+          "children": <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(EventIcon)
+                iconOverride=""
+                size="base"
+                subtype=""
+                type=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              Default
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>,
+          "value": "",
+        },
+      ]
+    }
+    readOnly={false}
+    renderValue={[Function]}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<IconEditableHeading /> #renderValue() still matches snapshot 1`] = `
+<WithStyles(EventIcon)
+  iconOverride=""
+  size="base"
+  subtype=""
+  type=""
+/>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reservation /> render() should render !adding 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <Formsy(DataField)
+      currentValue="1990-01-01 01:00:00.000"
+      innerRef={[Function]}
+      name="data.detail.bookingDate"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+    <WithStyles(Hr)
+      half={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <Formsy(PP)
+            innerRef={[Function]}
+            label={
+              <WithStyles(JTextClass)
+                bold={true}
+                dark={true}
+              >
+                Have you booked?
+                 
+                <WithStyles(JTextClass)
+                  danger={true}
+                  sm={true}
+                >
+                  Required
+                </WithStyles(JTextClass)>
+              </WithStyles(JTextClass)>
+            }
+            name="temp.booked"
+            noMargin={true}
+            onChange={[Function]}
+            options={
+              Object {
+                "no": "No",
+                "yes": "Yes",
+              }
+            }
+            required={true}
+            row={true}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

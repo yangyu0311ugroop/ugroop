@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render should have start of startDate if it is not empty string 1`] = `
+<WithStyles(UGCardContent)>
+  <Link
+    to="baseUrl?queryParam"
+  >
+     
+    <H4>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="Nice"
+        textElement="span"
+        truncateText="…"
+      />
+    </H4>
+  </Link>
+  <div>
+    <P
+      dense={true}
+      weight="light"
+    >
+      Start - 
+      20 April 2010
+    </P>
+  </div>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="nice description"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+  <Component />
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<Content /> render should have start of weekDay if it is not empty string 1`] = `
+<WithStyles(UGCardContent)>
+  <Link
+    to="baseUrl?queryParam"
+  >
+     
+    <H4>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="Nice"
+        textElement="span"
+        truncateText="…"
+      />
+    </H4>
+  </Link>
+  <div>
+    <P
+      dense={true}
+      weight="light"
+    >
+      Start - 
+      Monday
+    </P>
+  </div>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="nice description"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+  <Component />
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<Content /> render should render something 1`] = `
+<WithStyles(UGCardContent)>
+  <Link
+    to="baseUrl?queryParam"
+  >
+     
+    <H4>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="Nice"
+        textElement="span"
+        truncateText="…"
+      />
+    </H4>
+  </Link>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="nice description"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+  <Component />
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<Content /> renderDescription should match snapshot 1`] = `
+<div>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="nice description"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Content /> renderStartSection should match snapshot if start is not empty string 1`] = `
+<div>
+  <div>
+    <P
+      dense={true}
+      weight="light"
+    >
+      Start - 
+      start
+    </P>
+  </div>
+</div>
+`;
+
+exports[`<Content /> renderTemplateTitle should match snapshot 1`] = `
+<div>
+  <Link
+    to="baseUrl?queryParam"
+  >
+     
+    <H4>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="Nice"
+        textElement="span"
+        truncateText="…"
+      />
+    </H4>
+  </Link>
+</div>
+`;

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        component={[Function]}
+        innerRef={[Function]}
+        label="Flight Itinerary"
+        name="data.detail.detail.flightBookingId"
+        options={
+          Array [
+            Object {
+              "children": <P
+                noMargin={true}
+              >
+                No flight itinerary
+              </P>,
+              "value": "0",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="0"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)
+              xs={7}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                label="Departing date"
+                placeholder="Enter departing date"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={5}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(StartTime)))
+                label="Departing time"
+                placeholder="Enter departing time"
+              />
+            </WithStyles(GridItem)>
+            <ConnectFunction />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)
+                  xs={7}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                    label="Arriving date"
+                    placeholder="Enter arriving date"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  xs={5}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(EndTime)))
+                    label="Arriving time"
+                    placeholder="Enter arriving time"
+                  />
+                </WithStyles(GridItem)>
+                <ConnectFunction />
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Component)
+            cityNameProps={
+              Object {
+                "name": "data.detail.detail.start.airport.cityName",
+              }
+            }
+            component={[Function]}
+            iataCodeProps={
+              Object {
+                "name": "data.detail.detail.start.airport.iataCode",
+              }
+            }
+            label="Departing airport"
+            name="data.detail.detail.start.airport.name"
+            placeholder="Enter departing airport"
+            timeZoneIdProps={
+              Object {
+                "name": "data.customData.start.timeZoneId",
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Component)
+            cityNameProps={
+              Object {
+                "name": "data.detail.detail.end.airport.cityName",
+              }
+            }
+            component={[Function]}
+            iataCodeProps={
+              Object {
+                "name": "data.detail.detail.end.airport.iataCode",
+              }
+            }
+            label="Arriving airport"
+            name="data.detail.detail.end.airport.name"
+            placeholder="Enter arriving airport"
+            timeZoneIdProps={
+              Object {
+                "name": "data.customData.end.timeZoneId",
+              }
+            }
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Formsy(withRouter(WithStyles(SimpleRTE)))
+            filled={true}
+            innerRef={[Function]}
+            name="data.description"
+            placeholder="Tell some more about this.."
+            required={false}
+            validationError=""
+            validationErrors={Object {}}
+            validations={null}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(FlightDetails))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Attachments))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

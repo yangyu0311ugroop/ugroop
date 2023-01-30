@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClickableGroupField /> #render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  spacing={24}
+>
+  <WithStyles(GridItem)
+    className={null}
+    key="1"
+  >
+    <WithStyles(Button)
+      key="1"
+      onClick={[Function]}
+    >
+      child 
+      1
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className="unselected"
+    key="2"
+  >
+    <WithStyles(Button)
+      key="2"
+      onClick={[Function]}
+    >
+      child 
+      2
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

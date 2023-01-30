@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateTab/config.js value BATCH_GET_TEMPLATE_TAB_DETAIL should call many fetchWithAuthorisation with particular parameter 1`] = `
+Array [
+  Array [
+    "get",
+    "/TemplateTabs/1/tabtimeline",
+  ],
+  Array [
+    "get",
+    "/TemplateTabs/2/tabtother",
+  ],
+  Array [
+    "get",
+    "/TemplateTabs/3/tabother",
+  ],
+]
+`;
+
+exports[`TemplateTab/config.js value BATCH_GET_TEMPLATE_TAB_DETAIL should processResult of BATCH_GET_TEMPLATE_TAB_DETAIL 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+  "result": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;

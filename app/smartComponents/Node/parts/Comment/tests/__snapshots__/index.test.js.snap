@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comment /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "id": null,
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Comment /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextProps={Object {}}
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Comment"
+        id="app.Node.parts.Comment.editableLabel"
+      />
+    }
+    name="node.customData.comment"
+    onSubmit={[Function]}
+    placeholder="Click to add a comment"
+    readOnly={false}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Comment /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Any comments?"
+        id="app.Node.parts.Comment.label"
+      />
+    }
+    name="node.customData.comment"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Comment /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</WithStyles(GridItem)>
+`;

@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gender /> #getEditableValue() still matches snapshot if value=Male 1`] = `<div />`;
+
+exports[`<Gender /> #getEditableValue() still matches snapshot if value=unknown 1`] = `<div />`;
+
+exports[`<Gender /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(EditableSelectForm)
+  name=""
+  onSubmit={[Function]}
+  options={
+    Array [
+      Object {
+        "children": "Male",
+        "value": "male",
+      },
+      Object {
+        "children": "Female",
+        "value": "female",
+      },
+      Object {
+        "children": "Other",
+        "value": "unknown",
+      },
+    ]
+  }
+  placeholder="Click to specify gender"
+  readOnly={false}
+  renderValue={[Function]}
+  value=""
+/>
+`;
+
+exports[`<Gender /> #renderEditableValue() should match snapshot if renderButton props exist 1`] = `
+<div>
+  renderEditableValue
+</div>
+`;
+
+exports[`<Gender /> #renderEditableValue() still matches snapshot 2 1`] = `undefined`;
+
+exports[`<Gender /> render() should render correctly 1`] = `
+<div>
+  <P
+    extraOptions={Array []}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    placeholder="Click to specify gender"
+    readOnly={false}
+    renderEditableValue={null}
+    variant="textOnly"
+  />
+</div>
+`;
+
+exports[`<Gender /> render() should render correctly if variant is radio field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <Formsy(PP)
+          extraOptions={Array []}
+          innerRef={[Function]}
+          intl={
+            Object {
+              "formatMessage": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    Object {
+                      "defaultMessage": "Gender",
+                      "id": "app.smartComponents.Person.parts.Gender.label",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "defaultMessage": "Gender",
+                      "id": "app.smartComponents.Person.parts.Gender.label",
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            }
+          }
+          name="gender"
+          noMargin={true}
+          options={
+            Object {
+              "female": "Female",
+              "male": "Male",
+              "unknown": "Other",
+            }
+          }
+          placeholder="Click to specify gender"
+          readOnly={false}
+          renderEditableValue={null}
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value="unknown"
+          variant="radioField"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Gender /> renderEditableOptions() should still match snapshot 1`] = `
+<div>
+  <Component />
+  <Component />
+  <Component />
+</div>
+`;
+
+exports[`<Gender /> renderLabel() should renderLabel 1`] = `<div />`;

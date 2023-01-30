@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content/config.js Smoke Test should exists 1`] = `
+Object {
+  "isLoading": Object {
+    "updatingNode": Array [
+      "Nodes",
+      "updateNode",
+    ],
+  },
+  "setValue": Object {
+    "nodes": Array [
+      "nodeStore",
+      "nodes",
+    ],
+  },
+  "value": Object {
+    "editable": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "icon": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "location": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "placeId": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "status": [Function],
+    "timeZoneId": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "type": [Function],
+  },
+}
+`;

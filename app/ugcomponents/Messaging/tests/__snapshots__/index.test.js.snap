@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messaging component should not render the icon when not present 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    Some Content
+  </div>
+  <div>
+    <WithStyles(Button)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      dense={true}
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[MockFunction]}
+      variant="flat"
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross"
+      />
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`Messaging component should render messaging component 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    Some Content
+  </div>
+  <div>
+    <WithStyles(Button)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      dense={true}
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[MockFunction]}
+      variant="flat"
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross"
+      />
+    </WithStyles(Button)>
+  </div>
+</div>
+`;
+
+exports[`Messaging component should render the icon when present 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <img
+      alt="Test"
+      src="/someimg.jpg"
+    />
+  </div>
+  <div
+    className=""
+  >
+    Some Content
+  </div>
+  <div>
+    <WithStyles(Button)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      dense={true}
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[MockFunction]}
+      variant="flat"
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross"
+      />
+    </WithStyles(Button)>
+  </div>
+</div>
+`;

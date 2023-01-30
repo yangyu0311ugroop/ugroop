@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status/helpers.js Smoke Test should exists 1`] = `
+Object {
+  "isCancelled": [Function],
+  "isClosed": [Function],
+  "isCompleted": [Function],
+}
+`;

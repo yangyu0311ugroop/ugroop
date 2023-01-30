@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRoute /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    PaperProps={
+      Object {
+        "classes": Object {
+          "root": undefined,
+        },
+      }
+    }
+    fullWidth={true}
+    maxWidth="lg"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogContent)
+      className=""
+    >
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            wrap="nowrap"
+          >
+            renderResults
+            renderRouteNotFound
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(Connect(WithSimplifyResaga(GoogleMap)))
+      onGoogleApiLoaded={[Function]}
+    >
+      renderMarker
+    </WithStyles(Connect(WithSimplifyResaga(GoogleMap)))>
+    <div>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        <WithStyles(Icon)
+          icon="lnr-cross2"
+          size="normal"
+        />
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<AddRoute /> renderMarker() should renderMarker 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Marker)))
+    destination={false}
+    geocode={true}
+    id={1}
+    index={0}
+    interactive={true}
+    key="1"
+    lat={2}
+    lng={3}
+    origin={false}
+    showDetail={true}
+  />
+</div>
+`;
+
+exports[`<AddRoute /> renderResults should return if first condition 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <H5>
+          Unable to find a route with the selected locations
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H5>
+          Add or select a valid location in a day to create a route or set the route with the locations available
+        </H5>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddRoute /> renderResults should return if second condition 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <WithStyles(GridContainer)
+        card={true}
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            key="1.2"
+          >
+            <WithStyles(GridItem)>
+              <FormsyInterceptor
+                autoFocus={true}
+                fullWidth={true}
+                label="Route title"
+                name="content"
+                onInterceptValue={[Function]}
+                placeholder="Set route title"
+                useTypography={false}
+                value="via undefined"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <Formsy(withRouter(WithStyles(SimpleRTE)))
+                innerRef={[Function]}
+                lines={2}
+                name="description"
+                placeholder="Say something about this route"
+                required={false}
+                validationError=""
+                validationErrors={Object {}}
+                validations={null}
+                value=""
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+                justify="flex-end"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="gray"
+                    onClick={[Function]}
+                    size="xs"
+                  >
+                    Discard
+                  </WithStyles(Button)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="primary"
+                    disabled={true}
+                    size="xs"
+                    type="submit"
+                  >
+                    Add route
+                  </WithStyles(Button)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </Formsy>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddRoute /> renderRouteNotFound() should render NOT_FOUND 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <i>
+        At least one of the locations specified in the route
+        '
+        s origin, destination, or waypoints could not be geocoded. It could be an issue from Google APIs server. Please try it again later, or select another route.
+      </i>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoute /> renderRouteNotFound() should renderRouteNotFound 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <i>
+        Sorry, we cannot find a way from 
+        "
+        <WithStyles(Connect(WithSimplifyResaga(Location)))
+          variant="text"
+        />
+        "
+         to 
+        "
+        <WithStyles(Connect(WithSimplifyResaga(Location)))
+          variant="text"
+        />
+        "
+      </i>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddRoute /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        onClick={[Function]}
+        size="xs"
+      >
+        Discard
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        disabled={true}
+        size="xs"
+        type="submit"
+      >
+        Add route
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

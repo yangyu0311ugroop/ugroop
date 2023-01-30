@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hashkey /> hashkey() should hashkey 1`] = `
+<div>
+  <span>
+    <CopyToClipboard
+      onCopy={[Function]}
+      text="http://localhost/public/template/2323"
+    >
+      <WithStyles(Button)
+        className=""
+        color="primary"
+        onMouseLeave={[Function]}
+        title="Click to copy shareable link"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              bold={false}
+              icon="lnr-share2"
+              paddingRight={true}
+              size="xsmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)>
+              SHARE ON&gt;
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </CopyToClipboard>
+  </span>
+</div>
+`;

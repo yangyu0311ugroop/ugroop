@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditForm /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={null}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    renderContent
+  </GenericForm>
+</div>
+`;
+
+exports[`<EditForm /> render() should render correctly if withFormWrap prop is true 1`] = `
+<div>
+  renderContent
+</div>
+`;
+
+exports[`<EditForm /> renderContent should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    spacing={3}
+  >
+    <WithStyles(GridItem)
+      sm={8}
+      xs={12}
+    >
+      renderInfo
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={4}
+      xs={12}
+    >
+      renderPhoto
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditForm /> renderInfo should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(PassportNumber)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(PassportType)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(CountryCode)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(FirstName)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(MiddleName)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(LastName)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(BirthDate)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(BirthPlace)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(IssuedDate)))
+        id={0}
+        onChange={[Function]}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(ExpireDate)))
+        id={0}
+        issuedDate=""
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(IssuingAuthority)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(CardNumber)))
+        id={0}
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EditForm /> renderPhoto should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={3}
+  >
+    <WithStyles(MarginWrapper)
+      bottom="md"
+      left="md"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(IsDefault)))
+        disabled={true}
+        id={0}
+        isChecked={true}
+        variant="checkboxField"
+      />
+    </WithStyles(MarginWrapper)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="flex-end"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Photo)))))
+      editable={true}
+      id={0}
+      isFormsyConnected={true}
+      label="Passport Page Photo"
+      name="photo"
+      placeholderSize="landscapeMedium"
+      size="landscapeMedium"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

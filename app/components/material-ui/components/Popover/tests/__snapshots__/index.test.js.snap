@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popover /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(Popover))
+    that="other props"
+    this="props"
+  >
+    123
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;

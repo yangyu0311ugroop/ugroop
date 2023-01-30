@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkitems /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    id={1}
+    index={0}
+    key="1"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    showPlaceholder={false}
+    type="checkitem"
+  />
+</div>
+`;
+
+exports[`<Checkitems /> render() should render showPlaceholder 1`] = `
+<div>
+  <i>
+    There are no tasks in this checklist
+  </i>
+</div>
+`;

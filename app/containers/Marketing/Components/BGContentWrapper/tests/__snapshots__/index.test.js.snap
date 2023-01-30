@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BGContentWrapper should render what it should render 1`] = `
+<div
+  className="MarketingBGContentWrapper-root MarketingBGContentWrapper-fullViewportHeight"
+  style={
+    Object {
+      "backgroundImage": "url(IMAGE_MOCK)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    className="MarketingBGContentWrapper-override"
+  />
+  <div
+    className="MarketingBGContentWrapper-wrappedItem undefined"
+  >
+    Sample
+  </div>
+</div>
+`;
+
+exports[`BGContentWrapper should render what it should render if location.pathname is not defined 1`] = `
+<div
+  className="MarketingBGContentWrapper-root"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    className="MarketingBGContentWrapper-override"
+  />
+  <div
+    className="MarketingBGContentWrapper-wrappedItem undefined"
+  >
+    Sample
+  </div>
+</div>
+`;
+
+exports[`BGContentWrapper should render what it should render when location is unknown 1`] = `
+<div
+  className="MarketingBGContentWrapper-root"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    className="MarketingBGContentWrapper-override"
+  />
+  <div
+    className="MarketingBGContentWrapper-wrappedItem undefined"
+  >
+    Sample
+  </div>
+</div>
+`;
+
+exports[`BGContentWrapper still matches snapshot if location.pathname=/features 1`] = `
+<div
+  className="MarketingBGContentWrapper-root MarketingBGContentWrapper-halfViewportHeight"
+  style={
+    Object {
+      "backgroundImage": "url(IMAGE_MOCK)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    className="MarketingBGContentWrapper-override"
+  />
+  <div
+    className="MarketingBGContentWrapper-wrappedItem undefined"
+  >
+    Sample
+  </div>
+</div>
+`;

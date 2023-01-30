@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourContent render check snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(ForwardRef(Divider)) />
+      <WithStyles(GridItem)
+        xs={1}
+      />
+      <WithStyles(GridItem)
+        xs={9}
+      >
+        <WithStyles(H2)>
+           
+          <FormattedMessage
+            defaultMessage="Your Itinerary"
+            id="app.containers.PrintPage.Components./home/danilo/ugrooprepo/Frontend/ak/UGroopReact/app/containers/PrintPage/Components/PrintTour.ItineraryLabel"
+          />
+           
+        </WithStyles(H2)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(Itinerary)
+      dayIds={
+        Array [
+          1,
+          2,
+          3,
+        ]
+      }
+      templateId={0}
+    />
+    <WithStyles(Day)
+      dayIds={
+        Array [
+          1,
+          2,
+          3,
+        ]
+      }
+      templateId={0}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

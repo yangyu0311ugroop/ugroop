@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrgType /> getOrgTypes() should call resaga.dispatchTo 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "getOrgTypes",
+    Object {},
+  ],
+]
+`;
+
+exports[`<OrgType /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  >
+    Tour Operator
+  </P>
+</div>
+`;
+
+exports[`<OrgType /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <Formsy(WithStyles(SelectField))
+          innerRef={[Function]}
+          intl={
+            Object {
+              "formatMessage": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    Object {
+                      "defaultMessage": "Type",
+                      "id": "app.smartComponents.Organisation.parts.Type.label",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "defaultMessage": "Type",
+                      "id": "app.smartComponents.Organisation.parts.Type.label",
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            }
+          }
+          name="type"
+          options={
+            Array [
+              Object {
+                "children": undefined,
+                "value": undefined,
+              },
+            ]
+          }
+          required={false}
+          validationError=""
+          validationErrors={Object {}}
+          validations={null}
+          value=""
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<OrgType /> render() should render text field if variant is text field 2`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(ForwardRef(InputLabel))
+          shrink={true}
+        >
+          Type
+        </WithStyles(ForwardRef(InputLabel))>
+        <P
+          noMargin={true}
+        >
+          Tour Operator
+        </P>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<OrgType /> render() should render text only variant 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  >
+    Tour Operator
+  </P>
+</div>
+`;
+
+exports[`<OrgType /> renderSelect() should renderSelect 1`] = `
+<div>
+  <WithStyles(Formsy(InlineRadioGroup))
+    autoClose={true}
+    color="primary"
+    highlightSelected={true}
+    label="Organisation type"
+    name="type"
+    options={
+      Object {
+        "undefined": undefined,
+      }
+    }
+    required={true}
+    tooltip="Click button to change type"
+    valueLabel="Organisation type"
+  />
+</div>
+`;

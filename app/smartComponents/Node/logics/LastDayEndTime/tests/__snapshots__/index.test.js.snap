@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastDayEndTime /> updateLastDayEndTime() should setValue endTime 1`] = `
+Array [
+  Array [
+    Object {
+      "endTime": null,
+    },
+  ],
+  Array [
+    Object {
+      "endTime": "1899-12-30T11:59:59.999Z",
+    },
+  ],
+]
+`;
+
+exports[`<LastDayEndTime /> updateLastDayEndTime() should setValue null 1`] = `
+Array [
+  Array [
+    Object {
+      "endTime": null,
+    },
+  ],
+  Array [
+    Object {
+      "endTime": null,
+    },
+  ],
+]
+`;

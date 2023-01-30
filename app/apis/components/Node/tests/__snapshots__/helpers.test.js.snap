@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NODE_API_HELPERS /> convertNextNode should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "children": [Function],
+      "nextNodes": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createAttachment() should createAttachment 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createAttachment",
+    Object {
+      "payload": Object {
+        "description": "description",
+        "fileSize": 3322,
+        "id": 2233,
+        "isSection": true,
+        "name": "file name",
+        "url": "url",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createNode dispatchTo still matches snapshot if fetchCalculated 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createChild",
+    Object {
+      "onError": 2,
+      "onSuccess": [Function],
+      "payload": Object {
+        "keyPath": "99222.children",
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 99222,
+        "parentNodeId": 99222,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "id": undefined,
+        "ids": Array [
+          undefined,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createNode should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createChild",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "keyPath": "99222.children",
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 99222,
+        "parentNodeId": 99222,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "createNextNode",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "keyPath": "99222.children",
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 2,
+        "parentNodeId": 99222,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createNode should check required props 1`] = `
+Array [
+  Array [
+    "Missing required props",
+    "parentNodeId",
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createNodeAndAttachment() should createNodeAndAttachment 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 2233,
+      "onSuccess": [Function],
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> createNodeAndAttachment() should createNodeAndAttachment 2`] = `
+Array [
+  Array [
+    Object {
+      "id": 123,
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> deleteNode should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "deleteChildren",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "dependentIds": undefined,
+        "dependentLinkIds": undefined,
+        "keyPath": "99222.children",
+        "nodeId": 123,
+        "type": undefined,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "deleteChildren",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "dependentIds": undefined,
+        "dependentLinkIds": undefined,
+        "keyPath": "99333.children",
+        "nodeId": 123,
+        "type": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> deleteNode should check required props 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Missing required props",
+      "nodeId",
+    ],
+    Array [
+      "Missing required props",
+      "parentNodeId",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<NODE_API_HELPERS /> deleteTempNode should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "deleteTempNode",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "keyPath": "99222.children",
+        "nodeId": 123,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "deleteTempNode",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "keyPath": "99333.children",
+        "nodeId": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> deleteTempNode should check required props 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Missing required props",
+      "nodeId",
+    ],
+    Array [
+      "Missing required props",
+      "parentNodeId",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<NODE_API_HELPERS /> getTimes should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 1,
+        "ids": Array [
+          2,
+          3,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> getTree should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "getTree",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 1,
+        "idUpsertMode": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> getTreeAndTimes should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "getTree",
+    Object {
+      "onError": "onError",
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 1,
+        "idUpsertMode": undefined,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 1,
+        "ids": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> removeAttachment() should removeAttachment 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "removeAttachment",
+    Object {
+      "payload": Object {
+        "id": 2233,
+        "isSection": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> shareNode should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "shareNode",
+    Object {
+      "payload": Object {
+        "content": "",
+        "fullName": "Nancy Bina",
+        "inviteToOrganisation": false,
+        "role": "tour_participant",
+        "roleName": "Participant",
+        "shareTo": "marcy_dizon@gmail.com",
+        "subNodes": Array [
+          Object {
+            "nodeId": 28,
+            "role": "participant_linkee",
+          },
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> updateAttachment() should updateAttachment 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateAttachment",
+    Object {
+      "payload": Object {
+        "attachmentId": 123,
+        "description": "description",
+        "fileSize": 3322,
+        "id": 2233,
+        "isSection": true,
+        "name": "file name",
+        "url": "url",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> updateNode dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "node": Object {
+          "content": "some node",
+        },
+        "nodeId": 99222,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> updateNodeAndAttachment() should updateNodeAndAttachment 1`] = `
+Array [
+  Array [
+    Object {
+      "node": undefined,
+      "nodeId": 2233,
+      "onSuccess": [Function],
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<NODE_API_HELPERS /> updateNodeAndAttachment() should updateNodeAndAttachment 2`] = `
+Array [
+  Array [
+    Object {
+      "attachmentId": undefined,
+      "id": 2233,
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;

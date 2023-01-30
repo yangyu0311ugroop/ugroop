@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchField /> should render something 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  className="TemplateSearchField-root"
+>
+  <WithStyles(ForwardRef(Input))
+    classes={
+      Object {
+        "input": "TemplateSearchField-input",
+        "underline": "TemplateSearchField-inputLine",
+      }
+    }
+    id="template-search"
+    inputProps={
+      Object {
+        "onKeyPress": [MockFunction],
+      }
+    }
+    onChange={[MockFunction]}
+    startAdornment={
+      <WithStyles(ForwardRef(InputAdornment))
+        className="TemplateSearchField-adornment"
+        position="start"
+      >
+        <WithStyles(Icon)
+          icon="magnifier"
+        />
+      </WithStyles(ForwardRef(InputAdornment))>
+    }
+    value=""
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;

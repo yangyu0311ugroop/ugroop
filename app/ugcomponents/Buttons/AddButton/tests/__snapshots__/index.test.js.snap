@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddButton /> render() should render 1`] = `
+<div>
+  <WithStyles(Button)
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-plus"
+            paddingRight={true}
+            size="xsmall"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Add
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddButton /> render() should render 2`] = `
+<div>
+  <WithStyles(Button)
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            bold={true}
+            icon="lnr-plus"
+            paddingRight={true}
+            size="xsmall"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Add
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<AddButton /> renderCardButton() should renderCardButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    size="xs"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          icon="lnr-plus"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Add
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;

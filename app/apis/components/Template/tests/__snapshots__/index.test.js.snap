@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Template /> #componentWillReceiveProps() still matches snapshot 1`] = `
+Object {
+  "analyse": Object {
+    "nextProps": null,
+    "requests": Object {
+      "acceptOwnerTourOwnership": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "addMyOwnRole": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addRole": Object {
+        "onSuccess": [MockFunction],
+      },
+      "batchRecentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "changeCustomUserRole": Object {
+        "onSuccess": [MockFunction],
+      },
+      "changeRole": Object {
+        "onSuccess": [MockFunction],
+      },
+      "createEvent": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "createEventAttachment": Object {
+        "onSuccess": [MockFunction],
+      },
+      "createFlightBooking": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "deleteEvent": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "deleteEventAttachment": Object {
+        "onSuccess": [MockFunction],
+      },
+      "deleteFlightBooking": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "fetchEvents": Object {
+        "onSuccess": [Function],
+      },
+      "findOrganisationId": Object {
+        "onSuccess": [MockFunction],
+      },
+      "findPeople": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getParticipants": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPerson": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTemplateDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTemplateFeaturedList": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTemplateHashkey": Object {
+        "onSuccess": [MockFunction],
+      },
+      "initTemplateSetting": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchEvent": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "patchEventAttachment": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchFlightBooking": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "posthashkey": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "removeTemplate": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removeUserFromTour": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removehashkey": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "updateHashKey": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertTemplateSetting": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertTemplateSettings": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  },
+}
+`;

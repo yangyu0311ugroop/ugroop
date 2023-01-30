@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Direction /> getDirections should show an error if status is not OK 1`] = `<div />`;
+
+exports[`<Direction /> render should return match snapshot if there are directions 1`] = `ShallowWrapper {}`;

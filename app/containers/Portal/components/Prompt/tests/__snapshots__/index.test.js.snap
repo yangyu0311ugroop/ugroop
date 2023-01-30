@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Prompt /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    classes={Object {}}
+    closeOnConfirm={true}
+    confirmFunc={[Function]}
+    dialogTitle="Delete"
+    headlineTitle="Delete"
+    loading={false}
+    muiDialogProps={
+      Object {
+        "onEscapeKeyDown": [Function],
+      }
+    }
+    open={true}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

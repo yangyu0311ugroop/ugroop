@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGTemplateListHeader should always render what it should render 1`] = `
+<div
+  className="qweqwe sample"
+/>
+`;
+
+exports[`UGTemplateListHeader should display what it should display when className is present 1`] = `
+<div
+  className="qweqwe "
+>
+  Blessed be the name of the Lord!
+</div>
+`;

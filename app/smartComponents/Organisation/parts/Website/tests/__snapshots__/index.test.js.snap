@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Website /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Website /> render() should render text field if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Website",
+                "id": "app.smartComponents.Organisation.parts.Website.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "ex: https://www.ugroop.com",
+                "id": "app.containers.Profile.Organisation.websiteIsUrl",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Website",
+                "id": "app.smartComponents.Organisation.parts.Website.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "ex: https://www.ugroop.com",
+                "id": "app.containers.Profile.Organisation.websiteIsUrl",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    name="website"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Website /> render() should render text only variant 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

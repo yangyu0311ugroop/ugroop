@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tree /> initializeArr should call setValue with particular param 1`] = `
+Array [
+  Array [
+    Object {
+      "array": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "array": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "array": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "array": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Tree /> render() should render correctly 1`] = `<div />`;

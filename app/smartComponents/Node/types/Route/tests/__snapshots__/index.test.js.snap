@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Route /> handleReCentre() should handleReCentre() 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<Route /> handleReCentre() should handleReCentre() 2`] = `
+Array [
+  Array [
+    Object {
+      "clickZoom": false,
+    },
+  ],
+]
+`;
+
+exports[`<Route /> padding() should return md 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<Route /> padding() should return other 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<Route /> renderCard() should renderCard 1`] = `<div />`;
+
+exports[`<Route /> renderMapView() should renderMapView !validRoute 1`] = `<div />`;
+
+exports[`<Route /> renderMapView() should renderMapView 1`] = `<div />`;
+
+exports[`<Route /> renderRouteCard() should renderRouteCard 1`] = `<div />`;
+
+exports[`<Route /> renderRouteContent() should renderRouteContent 1`] = `<div />`;
+
+exports[`<Route /> renderRouteDetails() should renderRouteDetails 1`] = `<div />`;
+
+exports[`<Route /> renderSelectRoute() should renderSelectRoute 1`] = `<div />`;

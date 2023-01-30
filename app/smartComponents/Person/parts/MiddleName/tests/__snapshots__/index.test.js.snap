@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiddleName /> renderTextField should match snapshot 1`] = `
+<div>
+  <NameField
+    label={
+      <FormattedMessage
+        defaultMessage="Middle Name"
+        id="app.smartComponents.Person.parts.MiddleName.label"
+      />
+    }
+    name="middleName"
+    readOnly={true}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;

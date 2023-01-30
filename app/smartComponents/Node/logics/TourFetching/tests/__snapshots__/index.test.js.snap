@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourFetching /> componentWillReceiveProps() should call updateTourFetching() 1`] = `
+Array [
+  Array [
+    Object {
+      "fetchEvents": true,
+    },
+  ],
+]
+`;

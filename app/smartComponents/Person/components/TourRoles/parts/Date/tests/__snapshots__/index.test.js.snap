@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Date /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(DateTimeTooltip)
+    dateTime=""
+  >
+    <span>
+      Invalid date
+    </span>
+  </WithStyles(DateTimeTooltip)>
+</div>
+`;

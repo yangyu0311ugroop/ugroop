@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Invitation /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    dense={true}
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        dense={true}
+        direction="row"
+        noWrap={true}
+        spacing={1}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            dense={true}
+            noMargin={true}
+            onClick={[Function]}
+            size="xs"
+          >
+            <WithStyles(MarginWrapper)
+              isInline={true}
+              right="sm"
+            >
+              <WithStyles(Icon)
+                icon="lnr-users-plus"
+              />
+            </WithStyles(MarginWrapper)>
+            Add Contributor
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            dense={true}
+            icon="question"
+            iconButton={true}
+            onClick={[Function]}
+            size="extraSmall"
+            tooltipProps={
+              Object {
+                "title": "Tour Connections Help",
+              }
+            }
+            variant="outline"
+            weight="strong"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(InvitationModal)))
+        onClose={[Function]}
+        open={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Invitation /> render() should render correctly if inviteFromOrg is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    dense={true}
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        dense={true}
+        direction="row"
+        noWrap={true}
+        spacing={1}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            dense={true}
+            noMargin={true}
+            onClick={[Function]}
+            size="xs"
+          >
+            <WithStyles(MarginWrapper)
+              isInline={true}
+              right="sm"
+            >
+              <WithStyles(Icon)
+                icon="lnr-inbox"
+              />
+            </WithStyles(MarginWrapper)>
+            Add Contributor
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="gray"
+            dense={true}
+            icon="question"
+            iconButton={true}
+            onClick={[Function]}
+            size="extraSmall"
+            tooltipProps={
+              Object {
+                "title": "Tour Connections Help",
+              }
+            }
+            variant="outline"
+            weight="strong"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(InvitationModal)))
+        onClose={[Function]}
+        open={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

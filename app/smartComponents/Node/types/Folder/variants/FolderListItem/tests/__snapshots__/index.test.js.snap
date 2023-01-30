@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderListItem /> render should match snapshot 1`] = `
+<div>
+  <WithStyles(memo(ListItem))
+    action="renderActionButtons"
+    checkboxProps={Object {}}
+    description="renderDescription"
+    hasCheckbox={true}
+    icon="folder"
+    secondColumn="renderSecondColumn"
+    subtitle="renderSubtitle"
+    title="renderLink"
+  />
+</div>
+`;
+
+exports[`<FolderListItem /> render should match snapshot if isEditable 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+  />
+</div>
+`;
+
+exports[`<FolderListItem /> renderActionButtons should equal null if showActions is false 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(HasTemplateViewActions)))
+    canMove={true}
+    id={1}
+  />
+</div>
+`;

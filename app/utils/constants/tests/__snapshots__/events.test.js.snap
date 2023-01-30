@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/constants/events #EVENT_CONSTANTS FOOD_ICON_KEY are correct 1`] = `
+Object {
+  "Breakfast": "ug-breakfast",
+  "Dinner": "ug-dinner",
+  "Drinks": "lnr-glass2",
+  "Food": "dinner",
+  "Lunch": "ug-lunch",
+  "Snack": "lnr-ice-cream",
+}
+`;
+
+exports[`utils/constants/events #EVENT_CONSTANTS FOOD_ICON_SELECT are correct 1`] = `
+Array [
+  Object {
+    "children": "Food",
+    "value": "Food",
+  },
+  Object {
+    "children": "Breakfast",
+    "value": "Breakfast",
+  },
+  Object {
+    "children": "Lunch",
+    "value": "Lunch",
+  },
+  Object {
+    "children": "Dinner",
+    "value": "Dinner",
+  },
+  Object {
+    "children": "Drinks",
+    "value": "Drinks",
+  },
+  Object {
+    "children": "Snack",
+    "value": "Snack",
+  },
+]
+`;
+
+exports[`utils/constants/events #EVENT_CONSTANTS all subtypes are correct 1`] = `
+Array [
+  Object {
+    "children": "Hotel",
+    "value": "Hotel",
+  },
+  Object {
+    "children": "Motel",
+    "value": "Motel",
+  },
+  Object {
+    "children": "Hostel",
+    "value": "Hostel",
+  },
+  Object {
+    "children": "Apartment",
+    "value": "Apartment",
+  },
+  Object {
+    "children": "B&B",
+    "value": "BedAndBreakfast",
+  },
+  Object {
+    "children": "Camping Ground",
+    "value": "CampingGround",
+  },
+  Object {
+    "children": "Chalet",
+    "value": "Chalet",
+  },
+  Object {
+    "children": "Farmstay",
+    "value": "Farmstay",
+  },
+  Object {
+    "children": "Guest House",
+    "value": "GuestHouse",
+  },
+  Object {
+    "children": "Holiday Park",
+    "value": "HolidayPark",
+  },
+  Object {
+    "children": "Homestay",
+    "value": "Homestay",
+  },
+  Object {
+    "children": "Lodge",
+    "value": "Lodge",
+  },
+  Object {
+    "children": "Resort",
+    "value": "Resort",
+  },
+  Object {
+    "children": "Other",
+    "value": "Other",
+  },
+]
+`;
+
+exports[`utils/constants/events #subtypeNamesByType Other 1`] = `Array []`;

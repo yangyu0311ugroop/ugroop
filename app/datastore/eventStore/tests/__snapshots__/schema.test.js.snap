@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/schema #events still matches snapshot 1`] = `
+Array [
+  EntitySchema {
+    "_getId": [Function],
+    "_idAttribute": "id",
+    "_key": "events",
+    "_mergeStrategy": [Function],
+    "_processStrategy": [Function],
+    "schema": Object {
+      "detail": Object {
+        "activityDetails": Array [
+          EntitySchema {
+            "_getId": [Function],
+            "_idAttribute": "id",
+            "_key": "activityDetail",
+            "_mergeStrategy": [Function],
+            "_processStrategy": [Function],
+            "schema": Object {},
+          },
+        ],
+      },
+      "eventAttachments": Array [
+        EntitySchema {
+          "_getId": [Function],
+          "_idAttribute": "id",
+          "_key": "attachments",
+          "_mergeStrategy": [Function],
+          "_processStrategy": [Function],
+          "schema": Object {},
+        },
+      ],
+    },
+  },
+]
+`;
+
+exports[`datastore/eventStore/schema #flightBookings still matches snapshot 1`] = `
+Array [
+  EntitySchema {
+    "_getId": [Function],
+    "_idAttribute": "id",
+    "_key": "flightBookings",
+    "_mergeStrategy": [Function],
+    "_processStrategy": [Function],
+    "schema": Object {},
+  },
+]
+`;

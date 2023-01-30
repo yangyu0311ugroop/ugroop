@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gender /> renderEditable should match snapshot if userConnected && userValue 1`] = `
+<div>
+  <Component
+    extraOptions="renderExtraEditableOptions"
+    placeholder={null}
+    renderEditableValue="renderEditableValue"
+  />
+</div>
+`;
+
+exports[`<Gender /> renderEditableValue should return gender options 1`] = `
+<div>
+  Male
+</div>
+`;
+
+exports[`<Gender /> renderEditableValue should return value 1`] = `<div />`;
+
+exports[`<Gender /> renderExtraEditableOptions should match snapshot 1`] = `
+<div>
+  <Component />
+  <Component />
+</div>
+`;
+
+exports[`<Gender /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="user"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        nowrap={true}
+      >
+        Gender not Specified
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/nodeStore/constants #NODE_BATCH_ACTIONS still matches snapshot 1`] = `
+Object {
+  "MOVE_INSIDE": "MOVE_INSIDE",
+  "UPDATE_EVENT": "UPDATE_EVENT",
+}
+`;
+
+exports[`datastore/nodeStore/constants #NODE_PATHS still matches snapshot 1`] = `
+Object {
+  "ageType": Array [
+    "customData",
+    "ageType",
+  ],
+  "attachment": Array [
+    "attachment",
+  ],
+  "bedCount": Array [
+    "customData",
+    "bedCount",
+  ],
+  "calculatedEndTimeMode": Array [
+    "calculated",
+    "time",
+    "end",
+    "mode",
+  ],
+  "calculatedEndTimeValue": Array [
+    "calculated",
+    "time",
+    "end",
+    "value",
+  ],
+  "calculatedPeople": Array [
+    "calculated",
+    "people",
+  ],
+  "calculatedStartTimeMode": Array [
+    "calculated",
+    "time",
+    "start",
+    "mode",
+  ],
+  "calculatedStartTimeValue": Array [
+    "calculated",
+    "time",
+    "start",
+    "value",
+  ],
+  "children": Array [
+    "children",
+  ],
+  "comment": Array [
+    "customData",
+    "comment",
+  ],
+  "consentedBy": Array [
+    "customData",
+    "consentedBy",
+  ],
+  "content": Array [
+    "content",
+  ],
+  "createdAt": Array [
+    "createdAt",
+  ],
+  "createdBy": Array [
+    "createdBy",
+  ],
+  "dateOfBirth": Array [
+    "customData",
+    "dob",
+  ],
+  "dateOfBirthMode": Array [
+    "customData",
+    "dobMode",
+  ],
+  "email": Array [
+    "customData",
+    "email",
+  ],
+  "endTimeMode": Array [
+    "customData",
+    "end",
+    "mode",
+  ],
+  "endTimeValue": Array [
+    "customData",
+    "end",
+    "value",
+  ],
+  "endTimeZoneId": Array [
+    "customData",
+    "end",
+    "timeZoneId",
+  ],
+  "endTimeZoneName": Array [
+    "customData",
+    "end",
+    "timeZoneName",
+  ],
+  "endTimeZoneOffset": Array [
+    "customData",
+    "end",
+    "timeZoneOffset",
+  ],
+  "firstName": Array [
+    "customData",
+    "firstName",
+  ],
+  "forms": Array [
+    "forms",
+  ],
+  "guestCount": Array [
+    "customData",
+    "guestCount",
+  ],
+  "honorificTitle": Array [
+    "customData",
+    "honorificTitle",
+  ],
+  "id": Array [
+    "id",
+  ],
+  "insuranceMode": Array [
+    "customData",
+    "insuranceMode",
+  ],
+  "insuranceValue": Array [
+    "customData",
+    "insuranceValue",
+  ],
+  "interestLevel": Array [
+    "customData",
+    "interestLevel",
+  ],
+  "lastName": Array [
+    "customData",
+    "lastName",
+  ],
+  "namePersonId": Array [
+    "customData",
+    "namePersonId",
+  ],
+  "note": Array [
+    "customData",
+    "note",
+  ],
+  "parentNodeId": Array [
+    "parentNodeId",
+  ],
+  "participantLinks": Array [
+    "participantLinks",
+  ],
+  "participants": Array [
+    "participants",
+  ],
+  "passportId": Array [
+    "customData",
+    "passportId",
+  ],
+  "personType": Array [
+    "customData",
+    "personType",
+  ],
+  "phone": Array [
+    "customData",
+    "phone",
+  ],
+  "requiresConsent": Array [
+    "customData",
+    "requiresConsent",
+  ],
+  "roomType": Array [
+    "customData",
+    "roomType",
+  ],
+  "seats": Array [
+    "seats",
+  ],
+  "startTimeMode": Array [
+    "customData",
+    "start",
+    "mode",
+  ],
+  "startTimeValue": Array [
+    "customData",
+    "start",
+    "value",
+  ],
+  "startTimeZoneId": Array [
+    "customData",
+    "start",
+    "timeZoneId",
+  ],
+  "startTimeZoneName": Array [
+    "customData",
+    "start",
+    "timeZoneName",
+  ],
+  "startTimeZoneOffset": Array [
+    "customData",
+    "start",
+    "timeZoneOffset",
+  ],
+  "status": Array [
+    "status",
+  ],
+  "tempEndDay": Array [
+    "customData",
+    "end",
+    "tempDay",
+  ],
+  "tempEndMode": Array [
+    "customData",
+    "end",
+    "tempMode",
+  ],
+  "tempEndTime": Array [
+    "customData",
+    "end",
+    "tempTime",
+  ],
+  "tempStartDay": Array [
+    "customData",
+    "start",
+    "tempDay",
+  ],
+  "tempStartMode": Array [
+    "customData",
+    "start",
+    "tempMode",
+  ],
+  "tempStartTime": Array [
+    "customData",
+    "start",
+    "tempTime",
+  ],
+  "type": Array [
+    "type",
+  ],
+  "userPhoneId": Array [
+    "customData",
+    "phoneId",
+  ],
+}
+`;

@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NodeShare/config.js Smoke Test should exists 1`] = `
+Object {
+  "manuallySubscribe": true,
+  "name": "NodeShares",
+  "processResult": Object {
+    "confirmInvitation": [Function],
+    "declineInvitation": [Function],
+    "getSharedTemplates": [Function],
+  },
+  "requests": Object {
+    "confirmInvitation": [Function],
+    "declineInvitation": [Function],
+    "getSharedTemplates": [Function],
+  },
+  "setValue": Object {
+    "currResultCount": Array [
+      "sharedTemplateListDataStore",
+      "currResultCount",
+    ],
+    "nodes": Array [
+      "nodeStore",
+      "nodes",
+    ],
+    "org": Array [
+      "organisationDataStore",
+      "organisations",
+    ],
+    "pageSelected": Array [
+      "sharedTemplateListDataStore",
+      "pageSelected",
+    ],
+    "person": Array [
+      "userDataStore",
+      "people",
+    ],
+    "photo": Array [
+      "fileDataStore",
+      "files",
+    ],
+    "shareIds": Array [
+      "invitationStore",
+      "shareIds",
+    ],
+    "shares": Array [
+      "invitationStore",
+      "shares",
+    ],
+    "sortField": Array [
+      "sharedTemplateListDataStore",
+      "sortField",
+    ],
+    "sortOrder": Array [
+      "sharedTemplateListDataStore",
+      "sortOrder",
+    ],
+    "tours": Array [
+      "abilityDataStore",
+      "tours",
+    ],
+    "userNodeIds": Array [
+      "invitationStore",
+      "userNodeIds",
+    ],
+    "userNodes": Array [
+      "invitationStore",
+      "userNodes",
+    ],
+    "viewSelected": Array [
+      "sharedTemplateListDataStore",
+      "viewSelected",
+    ],
+  },
+  "value": Object {
+    "tourAbilities": Object {
+      "isEqual": [Function],
+      "keyPath": Array [
+        "abilityDataStore",
+        "definitions",
+        "tour",
+      ],
+    },
+  },
+}
+`;
+
+exports[`NodeShare/config.js helpers normaliseConfirmInvitation upserts correctly 1`] = `
+Object {
+  "shareIds": Array [
+    "array",
+    "notificationToken",
+    "append",
+  ],
+  "shares": Array [
+    "upsertObject",
+    Object {
+      "notificationToken": Object {
+        "status": "status",
+        "updatedAt": "updatedAt",
+      },
+    },
+  ],
+  "userNodeIds": Array [
+    "array",
+    Array [
+      NaN,
+    ],
+    "append",
+  ],
+  "userNodes": Array [
+    "upsertObject",
+    Object {
+      "1": Object {
+        "id": 1,
+      },
+    },
+  ],
+}
+`;
+
+exports[`NodeShare/config.js helpers normaliseDeclineInvitation upserts correctly 1`] = `
+Object {
+  "shareIds": Array [
+    "array",
+    "notificationToken",
+    "append",
+  ],
+  "shares": Array [
+    "upsertObject",
+    Object {
+      "notificationToken": Object {
+        "status": "status",
+        "updatedAt": "updatedAt",
+      },
+    },
+  ],
+}
+`;
+
+exports[`NodeShare/config.js requests should call fetchWithAuthorisation 1`] = `
+Array [
+  Array [
+    "post",
+    "/NodeShares/some token/confirm",
+    Object {
+      "content": "some content",
+    },
+  ],
+  Array [
+    "post",
+    "/NodeShares/some token/decline",
+    Object {
+      "content": "some content",
+    },
+  ],
+]
+`;

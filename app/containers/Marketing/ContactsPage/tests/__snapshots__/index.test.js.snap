@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGContactsPage /> still matches snapshot 1`] = `
+<div
+  className="root"
+>
+  <h1>
+    Contact Us
+  </h1>
+</div>
+`;

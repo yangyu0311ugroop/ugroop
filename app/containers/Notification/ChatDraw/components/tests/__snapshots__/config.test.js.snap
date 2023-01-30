@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Config 1`] = `
+Object {
+  "chatDrawerKeepOpen": Array [
+    "cognitoAcctStore",
+    "userSettings",
+    "navigationDrawer",
+    "chatDrawerKeepOpen",
+  ],
+  "drawerKeepOpen": Array [
+    "cognitoAcctStore",
+    "userSettings",
+    "navigationDrawer",
+    "drawerKeepOpen",
+  ],
+}
+`;
+
+exports[`Test Config Setvalue 1`] = `
+Object {
+  "chatDrawerKeepOpen": Array [
+    "cognitoAcctStore",
+    "userSettings",
+    "navigationDrawer",
+    "chatDrawerKeepOpen",
+  ],
+  "drawerKeepOpen": Array [
+    "cognitoAcctStore",
+    "userSettings",
+    "navigationDrawer",
+    "drawerKeepOpen",
+  ],
+}
+`;
+
+exports[`Test Config1 1`] = `
+Object {
+  "templateName": [Function],
+}
+`;

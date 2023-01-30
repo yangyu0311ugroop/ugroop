@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferByEmail /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <GenericForm
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        disabled={false}
+        discardDialogProps={Object {}}
+        loading={false}
+        onInvalid={[Function]}
+        onInvalidSubmit={[Function]}
+        onValid={[Function]}
+        onValidSubmit={[Function]}
+        showChangeRoutePrompt={false}
+        submitButtonContent="Submit"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)
+            xs={12}
+          >
+            <FormsyInterceptor
+              autoFocus={true}
+              label={
+                <span>
+                  Enter email address
+                </span>
+              }
+              name="email"
+              onInterceptValue={[Function]}
+              placeholder="Enter the email address of the person you want this tour be transfered"
+              required={true}
+              type="text"
+              validText=""
+              validationErrors={
+                Object {
+                  "isEmail": "does not look like an email",
+                }
+              }
+              validations={
+                Object {
+                  "inviteYourself": [Function],
+                  "isEmail": true,
+                  "transToOwner": [Function],
+                }
+              }
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="row"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  dense={true}
+                  loading={false}
+                  size="small"
+                  type="submit"
+                >
+                  Find
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </GenericForm>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

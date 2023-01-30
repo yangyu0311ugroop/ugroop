@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactionSummary /> render() should render correctly if reactions is < 1 1`] = `<div />`;
+
+exports[`<ReactionSummary /> render() should render correctly if reactions is > 0 1`] = `
+<div>
+  <WithStyles(Button)
+    dense={true}
+    onClick={[Function]}
+    size="xs"
+    variant="inline"
+  >
+    <WithStyles(GridContainer)
+      className=""
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="blue"
+          icon="lnr-thumbs-up"
+          size="xxs"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction>
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+  <WithStyles(Connect(WithSimplifyResaga(ReactionList)))
+    onClose={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`<ReactionSummary /> renderCountText should return only the count if user has not reacted yet 1`] = `
+<div>
+  <H6
+    dense={true}
+    subtitle={true}
+  >
+    3
+  </H6>
+</div>
+`;
+
+exports[`<ReactionSummary /> renderCountText should return the count of user include logged in user if user had reacted and reaction count is not 0 1`] = `
+<div>
+  <H6
+    dense={true}
+    subtitle={true}
+  >
+    You and 
+    2
+     
+    others
+  </H6>
+</div>
+`;
+
+exports[`<ReactionSummary /> renderCountText should return you like this if only the user logged in liked the photo 1`] = `
+<div>
+  <H6
+    dense={true}
+    subtitle={true}
+  >
+    You liked this
+  </H6>
+</div>
+`;

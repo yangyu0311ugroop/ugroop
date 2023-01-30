@@ -1,0 +1,1131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintParticipants /> colStype() should renderFooter 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<PrintParticipants /> filterMedicals() should filterMedicals dietaries 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<PrintParticipants /> filterMedicals() should filterMedicals medicals 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<PrintParticipants /> filterMedicals() should filterMedicals none 1`] = `<div />`;
+
+exports[`<PrintParticipants /> getPhoto() should getPhoto 1`] = `
+<div>
+  horizontalSide
+</div>
+`;
+
+exports[`<PrintParticipants /> getPhoto() should return getPhoto with value null if photo is empty 1`] = `<div />`;
+
+exports[`<PrintParticipants /> headerColumn() should headerColumn 1`] = `
+<div>
+  <VIEW
+    fixed={true}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "borderBottomColor": "#8898aa",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "borderTopColor": "#8898aa",
+        "borderTopStyle": "solid",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "width": "2%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      #
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    >
+      NAME
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "6%",
+        }
+      }
+    >
+      GENDER
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "13%",
+        }
+      }
+    >
+      DATE OF BIRTH
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "10%",
+        }
+      }
+    >
+      ADULT or CHILD
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      PHONE
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "marginRight": 0,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      ROOM TYPE
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "marginRight": 0,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "17%",
+        }
+      }
+    >
+      PARTICIPATING AS
+    </TEXT>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> headerColumnMedical() should headerColumnMedical 1`] = `
+<div>
+  <VIEW
+    fixed={true}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "borderBottomColor": "#8898aa",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "borderTopColor": "#8898aa",
+        "borderTopStyle": "solid",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      #
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    >
+      NAME
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "36%",
+        }
+      }
+    >
+      MEDICAL CONDITION
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#2b344d",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "36%",
+        }
+      }
+    >
+      DIETARIES
+    </TEXT>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> render() should render 1`] = `<div />`;
+
+exports[`<PrintParticipants /> renderContent() should renderContent 1`] = `
+<div>
+  <VIEW>
+    <VIEW
+      style={
+        Object {
+          "backgroundColor": "#ebf1f8",
+          "flexDirection": "column",
+          "margin": 2,
+          "paddingBottom": 2,
+          "paddingLeft": 2,
+          "paddingRight": 8,
+          "paddingTop": 2,
+        }
+      }
+    >
+      renderPax
+    </VIEW>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderContent() should renderContent 2`] = `
+<div>
+  <VIEW>
+    <VIEW
+      style={
+        Object {
+          "backgroundColor": "#ebf1f8",
+          "flexDirection": "column",
+          "margin": 2,
+          "paddingBottom": 2,
+          "paddingLeft": 2,
+          "paddingRight": 8,
+          "paddingTop": 2,
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "color": "#0a0a0a",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "paddingLeft": 6,
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+          }
+        }
+      >
+        test
+      </TEXT>
+      renderPax
+    </VIEW>
+    <VIEW
+      style={
+        Object {
+          "backgroundColor": "#ebf1f8",
+          "flexDirection": "column",
+          "margin": 2,
+          "paddingBottom": 2,
+          "paddingLeft": 2,
+          "paddingRight": 8,
+          "paddingTop": 2,
+        }
+      }
+    />
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderGroup() should renderGroup 1`] = `
+<div>
+  <VIEW
+    style={
+      Object {
+        "backgroundColor": "#ebf1f8",
+        "flexDirection": "column",
+        "margin": 2,
+        "paddingBottom": 2,
+        "paddingLeft": 2,
+        "paddingRight": 8,
+        "paddingTop": 2,
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "color": "#0a0a0a",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+        }
+      }
+    >
+      group 1
+    </TEXT>
+    <VIEW
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingBottom": 4,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+        }
+      }
+    >
+      <VIEW
+        style={
+          Object {
+            "width": "2%",
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "color": "#253b53",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "right",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "2%",
+          }
+        }
+      >
+        1. 
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#253b53",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "23%",
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "center",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "6%",
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "13%",
+          }
+        }
+      >
+        Not specified
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "center",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "10%",
+          }
+        }
+      >
+        Not specified
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "12%",
+          }
+        }
+      >
+        Not specified
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "paddingLeft": 6,
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "12%",
+          }
+        }
+      >
+        Not specified
+      </TEXT>
+      <TEXT
+        style={
+          Object {
+            "color": "#bdbec4",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "paddingLeft": 6,
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+            "width": "17%",
+          }
+        }
+      >
+        Not specified
+      </TEXT>
+    </VIEW>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderHeader() should renderHeader 1`] = `
+<div>
+  <Header
+    duration={1}
+    photo={null}
+    showLegend={true}
+    startDate="26 Apr - 26 Apr 1977 (1 dayundefined)"
+  />
+</div>
+`;
+
+exports[`<PrintParticipants /> renderIcon() should renderLoading 1`] = `
+<div>
+  <WithStyles(Icon)
+    color="dark"
+    icon="lnr-printer"
+    size="mediumPlus"
+    title="Print undefined"
+  />
+</div>
+`;
+
+exports[`<PrintParticipants /> renderLoading() should renderLoading 1`] = `
+<div>
+  loading...
+</div>
+`;
+
+exports[`<PrintParticipants /> renderLoading() should renderLoading when true 1`] = `
+<div>
+  loading...
+</div>
+`;
+
+exports[`<PrintParticipants /> renderPax() renderPax should not fail if all empty 1`] = `
+<div>
+  <VIEW
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <VIEW
+      style={
+        Object {
+          "width": "2%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      1. 
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "6%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "13%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "10%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "17%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderPax() should renderFooter 1`] = `
+<div>
+  <VIEW
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <VIEW
+      style={
+        Object {
+          "width": "2%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      1. 
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "6%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "13%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "10%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "17%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderPax() should renderPax 1`] = `
+<div>
+  <VIEW
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <VIEW
+      style={
+        Object {
+          "width": "2%",
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#55cd3d",
+            "borderBottomColor": "#55cd3d",
+            "borderLeftColor": "#aab20c",
+            "borderRadius": 10,
+            "borderRightColor": "#55cd3d",
+            "borderTopColor": "#aab20c",
+            "borderWidth": 6,
+            "fontSize": 8,
+            "height": "10px",
+            "justifyContent": "center",
+            "margin": 2,
+            "width": "10px",
+          }
+        }
+      />
+    </VIEW>
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      1. 
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "6%",
+        }
+      }
+    />
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "13%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "center",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "10%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "12%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#bdbec4",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "paddingLeft": 6,
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "17%",
+        }
+      }
+    >
+      Not specified
+    </TEXT>
+  </VIEW>
+</div>
+`;
+
+exports[`<PrintParticipants /> renderPaxMedical() should renderPaxMedical 1`] = `
+<div>
+  <VIEW
+    key="1"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+  >
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "right",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "2%",
+        }
+      }
+    >
+      NaN. 
+    </TEXT>
+    <TEXT
+      style={
+        Object {
+          "color": "#253b53",
+          "fontSize": 10,
+          "margin": 2,
+          "overflow": "hidden",
+          "textAlign": "left",
+          "textOverflow": "ellipsis",
+          "whiteSpace": "noWrap",
+          "width": "23%",
+        }
+      }
+    />
+    <VIEW
+      style={
+        Object {
+          "width": "36%",
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "color": "#253b53",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+          }
+        }
+      >
+        undefined:undefined
+      </TEXT>
+    </VIEW>
+    <VIEW
+      style={
+        Object {
+          "width": "36%",
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "color": "#253b53",
+            "fontSize": 10,
+            "margin": 2,
+            "overflow": "hidden",
+            "textAlign": "left",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "noWrap",
+          }
+        }
+      />
+    </VIEW>
+  </VIEW>
+</div>
+`;

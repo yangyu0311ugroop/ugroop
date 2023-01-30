@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisableRyi /> finishEdit() should finishEdit 1`] = `<div />`;
+
+exports[`<DisableRyi /> onClick() should finishEdit 1`] = `<div />`;
+
+exports[`<DisableRyi /> renderButtonText() should renderButtonText 1`] = `
+<div>
+  Complete
+</div>
+`;
+
+exports[`<DisableRyi /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="medium"
+          />
+        }
+        color="default"
+        disabled={false}
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="medium"
+          />
+        }
+        onClick={[Function]}
+        title="Disable Register your interest feature"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <span>
+        Disable 
+      </span>
+      <WithStyles(JTextClass)
+        gray={true}
+        italic={true}
+      >
+        Register your interest
+         
+      </WithStyles(JTextClass)>
+      <span>
+        feature
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

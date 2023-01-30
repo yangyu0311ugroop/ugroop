@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShareList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="Contributors"
+            id="app.containers.Templates.Modals.ShareList.header"
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="List"
+            id="app.containers.Templates.Modals.ShareList.headerBackground"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(ShareListTabs)))))))))))))))))
+        id={999}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <BoundCan
+          do="create"
+          on="nodeshares"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+              ids={Array []}
+              onClickMenu={[Function]}
+              variant="MENU_ITEM"
+            />
+          </WithStyles(GridItem)>
+        </BoundCan>
+      </WithStyles(GridContainer)>
+      <People
+        id={999}
+        orgUserIds={Array []}
+        showConnected={true}
+      />
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+    />
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<ShareList /> renderMobile() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      noMargin={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="xs"
+      variant="inline"
+    >
+      <WithStyles(Icon)
+        color="blue"
+        icon="lnr-inbox"
+      />
+      Invite someone by email
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      noMargin={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="xs"
+      variant="inline"
+    >
+      <WithStyles(Icon)
+        color="blue"
+        icon="lnr-users-plus"
+      />
+      Invite someone already in your organisation
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ShareList /> renderMobile() should render normally 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      noMargin={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="xs"
+      variant="inline"
+    >
+      <WithStyles(Icon)
+        color="blue"
+        icon="lnr-users-plus"
+      />
+      Invite someone already in your organisation
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

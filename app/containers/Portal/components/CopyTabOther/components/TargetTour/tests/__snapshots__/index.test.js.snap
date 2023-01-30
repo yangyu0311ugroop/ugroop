@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TargetTour /> cancelAdd() should cancelAdd 1`] = `<div />`;
+
+exports[`<TargetTour /> cancelSelected() should cancelSelected 1`] = `<div />`;
+
+exports[`<TargetTour /> confirmAction() should confirmAction 1`] = `<div />`;
+
+exports[`<TargetTour /> copyTab() should copyTab 1`] = `<div />`;
+
+exports[`<TargetTour /> copyTab() should copyTab, only id 1`] = `<div />`;
+
+exports[`<TargetTour /> getTourDetail() should getTourDetail 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCopyMoveSuccess() should handleCopyMoveSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateError() should handleCreateError 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateSuccess() should handleCreateSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateSuccess() should handleCreateSuccess 2`] = `<div />`;
+
+exports[`<TargetTour /> handleError() should renderContent 1`] = `<div />`;
+
+exports[`<TargetTour /> handleMoveSuccess() should handleMoveSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> handlePersonSuccess() should handlePersonSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> handlePersonSuccess() should handlePersonSuccess 2`] = `<div />`;
+
+exports[`<TargetTour /> moveTab() should renderAdding 1`] = `<div />`;
+
+exports[`<TargetTour /> onCloneSuccess() should onCloneSuccess - not yet exists 1`] = `<div />`;
+
+exports[`<TargetTour /> onCloneSuccess() should onCloneSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> onConfirm() should onConfirm  has ids copy 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TargetTour /> onConfirm() should onConfirm  move 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TargetTour /> onConfirm() should onConfirm 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<TargetTour /> personFindError() should personFindError 1`] = `<div />`;
+
+exports[`<TargetTour /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> renderAdding() should renderAdding 1`] = `
+<div>
+  handleCreateSuccess
+</div>
+`;

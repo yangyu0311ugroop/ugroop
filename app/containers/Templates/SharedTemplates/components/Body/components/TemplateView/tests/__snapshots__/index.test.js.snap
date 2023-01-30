@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateView /> render() should render correctly 1`] = `
+<div>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`<TemplateView /> renderActions should render correctly 1`] = `<div />`;
+
+exports[`<TemplateView /> renderActions should render correctly if pageSelected is shareByOthers 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Role)))
+    id={1}
+    variant="subtitleText"
+  />
+</div>
+`;
+
+exports[`<TemplateView /> renderBlankslate() sharedByOthers 1`] = `
+<div>
+  <div>
+    <H5>
+      Tours that are shared by others will be shown here
+    </H5>
+    <H3>
+      There are no Shared Tours yet
+    </H3>
+  </div>
+</div>
+`;
+
+exports[`<TemplateView /> should not render loading if state isFetching is false 1`] = `
+<div>
+  <H5>
+    Tours that you shared to others will be shown here
+  </H5>
+  <H3>
+    There are no Shared Tours yet
+  </H3>
+</div>
+`;

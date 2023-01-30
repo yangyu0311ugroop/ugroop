@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantList /> handleCreateClick should call resaga setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "participantCreateMode": null,
+      "participantCreateOpen": true,
+      "participantCreateParentNodeId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<ParticipantList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          card={true}
+          justify="space-between"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <P
+                  color="gray"
+                  dense={true}
+                >
+                  Participants:
+                </P>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <P
+                  color="black"
+                  dense={true}
+                  weight="bold"
+                >
+                  ALL PAX
+                </P>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="inline"
+                    dense={true}
+                    icon="lnr-printer"
+                    iconButton={true}
+                    noMargin={true}
+                    onClick={[Function]}
+                    size="small"
+                    square={true}
+                    title="Open print view"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Sorters))) />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <Connect(WithSimplifyResaga(AddParticipantFromContact))
+                  addParticipant={[Function]}
+                  paxLabel="PAX"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <AddGroupButton />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </Hidden>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridContainer)
+          card={true}
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <P
+                  color="gray"
+                  dense={true}
+                >
+                  Participants:
+                </P>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <P
+                  color="black"
+                  dense={true}
+                  weight="bold"
+                >
+                  ALL PAX
+                </P>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Button)
+                    color="inline"
+                    dense={true}
+                    icon="lnr-printer"
+                    iconButton={true}
+                    noMargin={true}
+                    onClick={[Function]}
+                    size="small"
+                    square={true}
+                    title="Open print view"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              justify="space-between"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Sorters))) />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <Connect(WithSimplifyResaga(AddParticipantFromContact))
+                  addParticipant={[Function]}
+                  paxLabel="PAX"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+        variant="contentOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

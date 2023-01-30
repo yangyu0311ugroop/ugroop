@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H4 /> should have dense 1`] = `
+<h4
+  className="dense"
+>
+  Test
+</h4>
+`;

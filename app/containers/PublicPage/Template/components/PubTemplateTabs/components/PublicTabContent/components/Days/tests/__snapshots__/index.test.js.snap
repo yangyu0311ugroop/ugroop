@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Days /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      md={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayCarousel)))
+        daysId={Array []}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+      md={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Day))) />
+    </WithStyles(GridItem)>
+    <WithStyles(Container)>
+      <EventsOnDay
+        dense={true}
+        eventIds={Array []}
+        events={Array []}
+        showLabel={true}
+      />
+    </WithStyles(Container)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Days /> render() should render correctly if days.length is 2 and sections.length is 1 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      md={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayCarousel)))
+        daysId={
+          Array [
+            1,
+            2,
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+      md={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Day))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={12}
+      xs={12}
+    >
+      <WithStyles(Container)>
+        <WithStyles(Connect(WithSimplifyResaga(Sections))) />
+      </WithStyles(Container)>
+    </WithStyles(GridItem)>
+    <WithStyles(Container)>
+      <EventsOnDay
+        dense={true}
+        eventIds={Array []}
+        events={Array []}
+        showLabel={true}
+      />
+    </WithStyles(Container)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Days /> should match style snapshot 1`] = `
+Object {
+  "borderBottom": "-borderBottom",
+  "carouselPadding": "-carouselPadding",
+  "contentStyle": "-contentStyle",
+  "dayPadding": "-dayPadding",
+  "eventsLabel": "-eventsLabel",
+  "eventsRoot": "-eventsRoot",
+  "grow": "-grow",
+  "padding": "-padding",
+  "paddingLarge": "-paddingLarge",
+  "root": "-root",
+  "sectionContainer": "-sectionContainer",
+}
+`;

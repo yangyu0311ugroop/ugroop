@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingFlightCount /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<FlightBookingFlightCount /> #renderFlightCount() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  1 flight
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookingFlightCount /> #renderFlightCountValueOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="ug-departure3"
+        paddingRight={true}
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        dark={true}
+      >
+        1
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookingFlightCount /> #renderLabelValue() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    ·
+  </WithStyles(GridItem)>
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightIds)))))))))))
+    flightBookingDataId={1}
+  >
+    [Function]
+  </Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightIds)))))))))))>
+</React.Fragment>
+`;
+
+exports[`<FlightBookingFlightCount /> #renderValueOnly() still matches snapshot 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightIds)))))))))))
+    flightBookingDataId={1}
+  >
+    [Function]
+  </Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightIds)))))))))))>
+</React.Fragment>
+`;

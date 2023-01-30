@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditHeaderForm /> handleSubmit() should call dispatchTo with particular param shape 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "patchOrg",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "OrgName": "Ugroop",
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditHeaderForm /> handleSubmitSuccess() should call openSuccessSnackbar helper 1`] = `
+Array [
+  Array [
+    "Successfully updated your information",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<EditHeaderForm /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        onClick={[Function]}
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={11}
+        >
+          <Component
+            id={1}
+            variant="default"
+          />
+          <Component
+            id={1}
+            variant="default"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={1}
+        >
+          <WithStyles(InlineButton)
+            color="primary"
+          >
+            <WithStyles(Icon)
+              icon="lnr-pencil3"
+              size="small"
+            />
+          </WithStyles(InlineButton)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MarginWrapper)>
+  </GenericForm>
+</div>
+`;

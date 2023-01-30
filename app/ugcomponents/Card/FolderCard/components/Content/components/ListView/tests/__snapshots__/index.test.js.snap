@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateEntryListView should render something based on default props 1`] = `
+<UIItemListView
+  className="TemplateEntryListView-listViewRoot"
+  noULWrap={false}
+  viewDelegate={Object {}}
+/>
+`;

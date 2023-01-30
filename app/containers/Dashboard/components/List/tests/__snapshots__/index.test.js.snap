@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            bold={true}
+            color="star"
+            icon="lnr-star"
+            size="normal"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          Starred
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <ConnectFunction
+      id={1}
+      variant="Line"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <ConnectFunction
+      id={2}
+      variant="Line"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<List /> renderItem() should renderItem 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      id={NaN}
+      variant="Line"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstTimeSetup /> should render children 1`] = `
+<BlockUi
+  blocking={false}
+  className=""
+  loader={[Function]}
+  renderChildren={true}
+  tag="div"
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    justify="space-between"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of FirstTimeSetup",
+            "name": "description",
+          },
+        ]
+      }
+      title="FirstTimeSetup"
+    />
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <withRouter(WithStyles(Logo))
+        tinting={true}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <MockComponent
+        handleLoading={[Function]}
+        handlesOnClick={[Function]}
+      >
+        Hello
+      </MockComponent>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/contact"
+          >
+            Contact Us
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/terms"
+          >
+            Terms of Service
+          </withRouter(UGLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(H5)>
+            <FormattedMessage
+              defaultMessage="2016-2018 © uGroop. All rights reserved"
+              id="app.containers.FirstTimeSetupLayout.copyright"
+            />
+          </WithStyles(H5)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</BlockUi>
+`;
+
+exports[`<FirstTimeSetup /> should render in orgSetup step 1`] = `
+<BlockUi
+  blocking={false}
+  className=""
+  loader={[Function]}
+  renderChildren={true}
+  tag="div"
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    justify="space-between"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of FirstTimeSetup",
+            "name": "description",
+          },
+        ]
+      }
+      title="FirstTimeSetup"
+    />
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <div>
+        <withRouter(WithStyles(Logo))
+          tinting={true}
+        />
+        <Memo(Connect(WithSimplifyResaga(Authenticated)))>
+          <WithStyles(Button)
+            onClick={[Function]}
+            outline="outLineWhite"
+          >
+            <WithStyles(GridContainer)>
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  icon="lnr-exit-right"
+                  size="medium"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                alignItems="center"
+              >
+                Logout
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </Memo(Connect(WithSimplifyResaga(Authenticated)))>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <MockComponent
+        handleLoading={[Function]}
+        handlesOnClick={[Function]}
+      >
+        Hello
+      </MockComponent>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/contact"
+          >
+            Contact Us
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/terms"
+          >
+            Terms of Service
+          </withRouter(UGLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(H5)>
+            <FormattedMessage
+              defaultMessage="2016-2018 © uGroop. All rights reserved"
+              id="app.containers.FirstTimeSetupLayout.copyright"
+            />
+          </WithStyles(H5)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</BlockUi>
+`;
+
+exports[`<FirstTimeSetup /> should render in personSetup step 1`] = `
+<BlockUi
+  blocking={false}
+  className=""
+  loader={[Function]}
+  renderChildren={true}
+  tag="div"
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    justify="space-between"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of FirstTimeSetup",
+            "name": "description",
+          },
+        ]
+      }
+      title="FirstTimeSetup"
+    />
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    />
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <MockComponent
+        handleLoading={[Function]}
+        handlesOnClick={[Function]}
+      >
+        Hello
+      </MockComponent>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      lg={8}
+      md={9}
+      sm={10}
+      xs={11}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/privacy"
+          >
+            Privacy Policy
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/contact"
+          >
+            Contact Us
+          </withRouter(UGLink)>
+          <withRouter(UGLink)
+            onClick={[Function]}
+            to="/terms"
+          >
+            Terms of Service
+          </withRouter(UGLink)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(H5)>
+            <FormattedMessage
+              defaultMessage="2016-2018 © uGroop. All rights reserved"
+              id="app.containers.FirstTimeSetupLayout.copyright"
+            />
+          </WithStyles(H5)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</BlockUi>
+`;

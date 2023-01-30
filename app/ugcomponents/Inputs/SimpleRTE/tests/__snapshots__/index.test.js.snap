@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleRTE/tests/index.test.js handleChange() should call LOGIC_HELPERS.ifFunction 1`] = `
+Array [
+  Array [
+    false,
+    "",
+    123,
+  ],
+  Array [
+    [MockFunction],
+    Array [
+      undefined,
+    ],
+  ],
+  Array [
+    undefined,
+    Array [
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`SimpleRTE/tests/index.test.js handleCreateLinkSuccess() should handleCreateLinkSuccess 1`] = `<div />`;
+
+exports[`SimpleRTE/tests/index.test.js handleCreateLinkSuccess() should handleCreateLinkSuccess 2`] = `<div />`;
+
+exports[`SimpleRTE/tests/index.test.js render() should render ADVANCED_EDIT_MODE 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(SeeMore)))
+      isCollapeSeeMore={false}
+      isMinHeightCollapse={false}
+      readOnly={false}
+    >
+      <div
+        className="wrapperClassName"
+      >
+        <WithStyles(UGRichEditor)
+          disableImgUpload={false}
+          initContent=""
+          onChange={[Function]}
+          toolBarId="rteundefined"
+          value=""
+        />
+      </div>
+    </WithStyles(Connect(WithSimplifyResaga(SeeMore)))>
+  </div>
+</div>
+`;
+
+exports[`SimpleRTE/tests/index.test.js render() should return normal 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(SeeMore)))
+      isCollapeSeeMore={false}
+      isMinHeightCollapse={false}
+      readOnly={false}
+    >
+      <div
+        className="wrapperClassName"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+          accept="image/*"
+          allowPaste={true}
+          disableClick={true}
+          onUpload={[Function]}
+          simple={true}
+          uploadLabel="Uploading..."
+          valueRef={[Function]}
+        >
+          <Quill
+            className="lines1"
+            modules={
+              Object {
+                "clipboard": Object {
+                  "matchVisual": false,
+                },
+              }
+            }
+            onChange={[Function]}
+            placeholder="Write a personal message"
+            readOnly={false}
+            theme={null}
+            value=""
+          />
+        </WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))>
+      </div>
+    </WithStyles(Connect(WithSimplifyResaga(SeeMore)))>
+  </div>
+</div>
+`;
+
+exports[`SimpleRTE/tests/index.test.js render() should return with See Less 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(SeeMore)))
+      editing={false}
+      isCollapeSeeMore={false}
+      isMinHeightCollapse={false}
+      readOnly={true}
+      renderSeeMore={true}
+    >
+      <div
+        className="wrapperClassName"
+      >
+        <Quill
+          className="lines1"
+          modules={
+            Object {
+              "clipboard": Object {
+                "matchVisual": false,
+              },
+            }
+          }
+          onChange={[Function]}
+          placeholder="Write a personal message"
+          readOnly={true}
+          theme={null}
+          value=""
+        />
+      </div>
+    </WithStyles(Connect(WithSimplifyResaga(SeeMore)))>
+  </div>
+</div>
+`;
+
+exports[`SimpleRTE/tests/index.test.js render() should return with See More 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(SeeMore)))
+      editing={false}
+      isCollapeSeeMore={false}
+      isMinHeightCollapse={false}
+      readOnly={true}
+      renderSeeMore={true}
+    >
+      <div
+        className="wrapperClassName"
+      >
+        <Quill
+          className="lines1"
+          modules={
+            Object {
+              "clipboard": Object {
+                "matchVisual": false,
+              },
+            }
+          }
+          onChange={[Function]}
+          placeholder="Write a personal message"
+          readOnly={true}
+          theme={null}
+          value=""
+        />
+      </div>
+    </WithStyles(Connect(WithSimplifyResaga(SeeMore)))>
+  </div>
+</div>
+`;
+
+exports[`SimpleRTE/tests/index.test.js wrapperClassName() should return readOnly 1`] = `"commentEditor root readOnly"`;

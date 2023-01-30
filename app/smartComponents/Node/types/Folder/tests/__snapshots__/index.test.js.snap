@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Folder /> render should not return null 1`] = `
+<div>
+  <ConnectFunction
+    folderContent={Array []}
+    folderIds={Array []}
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+    templateContent={Array []}
+    templateIds={Array []}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderCardView should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    folderContent={
+      Array [
+        "1",
+        "3",
+      ]
+    }
+    folderIds={Array []}
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+    templateContent={
+      Array [
+        "1",
+        "3",
+      ]
+    }
+    templateIds={Array []}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderCardView should match snapshot if children have been searched 1`] = `
+<div>
+  <ConnectFunction
+    folderContent={Array []}
+    folderIds={Array []}
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+    templateContent={Array []}
+    templateIds={Array []}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView hasFolders to be equal memberIds.length > 0 && hasNoRootNodeIds === false if first condition is false 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={2}
+    parentFolderIdsLength={1}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should match snapshot if children have been searched 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should match snapshot if isEditable 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should render empty string if short desc doesnt exists 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should render null if showActions is false 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={false}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should render short description if it exists 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Folder /> renderListItemView should return search results 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isEditable={false}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;

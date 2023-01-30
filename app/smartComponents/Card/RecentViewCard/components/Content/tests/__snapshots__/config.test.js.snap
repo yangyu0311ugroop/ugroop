@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "ids": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+  },
+}
+`;

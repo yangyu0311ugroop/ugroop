@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstName /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    label="First Name"
+    name="firstName"
+    onSubmit={[Function]}
+    placeholder="Click to specify first name"
+    value=""
+  />
+</div>
+`;
+
+exports[`<FirstName /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    label="First Name"
+    name="firstName"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`<FirstName /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <span />
+</div>
+`;

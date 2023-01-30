@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timezone /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Timezone /> render() should render text only variant 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

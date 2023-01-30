@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DaySeparator /> render() should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(ForwardRef(Tooltip))
+      placement="top"
+      title="Invalid date"
+    >
+      <div>
+        <H6
+          className=""
+        >
+          Invalid date
+        </H6>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+</div>
+`;
+
+exports[`<DaySeparator /> render() should render first 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(ForwardRef(Tooltip))
+      placement="top"
+      title="Invalid date"
+    >
+      <div>
+        <H6
+          className="undefined"
+        >
+          Invalid date
+        </H6>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+</div>
+`;

@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalSettings /> render() should render 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <Sticky
+              activeClass="active"
+              bottomBoundary="#LayoutContent"
+              enableTransforms={true}
+              enabled={true}
+              onStateChange={null}
+              releasedClass="released"
+              shouldFreeze={[Function]}
+              top={60}
+            >
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/personal-info"
+                  >
+                    Personal Info
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/passports"
+                  >
+                    Passports
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/organisations"
+                  >
+                    My Organisations
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/preferences"
+                  >
+                    Preferences
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/billings"
+                  >
+                    Billings
+                  </NavLink>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </Sticky>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className=""
+          >
+            <Switch>
+              <Route
+                path="undefined/personal-info"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/passports"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/organisations"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/preferences"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/billings"
+                render={[Function]}
+              />
+              <Route
+                path="*"
+                render={[Function]}
+              />
+            </Switch>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PersonalSettings /> renderNav() should renderNav 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <NavLink
+        to="undefined/personal-info"
+      >
+        Personal Info
+      </NavLink>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <NavLink
+        to="undefined/passports"
+      >
+        Passports
+      </NavLink>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <NavLink
+        to="undefined/organisations"
+      >
+        My Organisations
+      </NavLink>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <NavLink
+        to="undefined/preferences"
+      >
+        Preferences
+      </NavLink>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <NavLink
+        to="undefined/billings"
+      >
+        Billings
+      </NavLink>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DuplicateConfirmationDialog /> #render() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  cancelFunc={[Function]}
+  confirmButton="Confirm"
+  confirmFunc={[Function]}
+  dialogTitle="Confirm"
+  headlineText="Are you sure you want to copy?"
+  headlineTitle="Confirm"
+  loading={false}
+  open={false}
+  simplifyDialog={true}
+  template="confirm"
+/>
+`;
+
+exports[`<DuplicateConfirmationDialog /> handleConfirm should call onConfirm props with handleConfirm 1`] = `undefined`;
+
+exports[`<DuplicateConfirmationDialog /> handleLoad should call onConfirm props with handleConfirm 1`] = `undefined`;

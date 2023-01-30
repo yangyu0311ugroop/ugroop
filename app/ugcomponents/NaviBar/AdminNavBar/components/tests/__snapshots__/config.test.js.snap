@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config value should have particular value subscribed 1`] = `
+Object {
+  "email": [Function],
+  "knownAs": [Function],
+  "openMenu": Array [
+    "dashboardViewStore",
+    "openProfileMenu",
+  ],
+}
+`;

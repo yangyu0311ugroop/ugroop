@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneInput/tests/index.test.js Smoke tests should render properly with label 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(InputLabel))
+    classes={
+      Object {
+        "root": "",
+      }
+    }
+    shrink={true}
+  >
+    Some label
+    
+  </WithStyles(ForwardRef(InputLabel))>
+  <PhoneInputNativeDefaults
+    className=""
+    country="AU"
+    countryOptions={
+      Array [
+        "AU",
+        "|",
+        "...",
+      ]
+    }
+    debouncems={500}
+    disabled={false}
+    error=""
+    indicateInvalid={true}
+    internationalIcon={[MockFunction]}
+    labels={Object {}}
+    metadata={
+      Object {
+        "country_calling_codes": Object {},
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    validations="isPhoneNumber"
+  />
+</React.Fragment>
+`;
+
+exports[`PhoneInput/tests/index.test.js checkValid should check if input is invalid 1`] = `
+<Fragment>
+  <PhoneInputNativeDefaults
+    className=""
+    country="AU"
+    countryOptions={
+      Array [
+        "AU",
+        "|",
+        "...",
+      ]
+    }
+    debouncems={500}
+    disabled={false}
+    error="Invalid phone number"
+    indicateInvalid={true}
+    internationalIcon={[MockFunction]}
+    labels={Object {}}
+    metadata={
+      Object {
+        "country_calling_codes": Object {},
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    validations="isPhoneNumber"
+    value={false}
+  />
+</Fragment>
+`;
+
+exports[`PhoneInput/tests/index.test.js checkValid should check if input is valid 1`] = `
+<Fragment>
+  <PhoneInputNativeDefaults
+    className=""
+    country="AU"
+    countryOptions={
+      Array [
+        "AU",
+        "|",
+        "...",
+      ]
+    }
+    debouncems={500}
+    disabled={false}
+    indicateInvalid={true}
+    internationalIcon={[MockFunction]}
+    labels={Object {}}
+    metadata={
+      Object {
+        "country_calling_codes": Object {},
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    validations="isPhoneNumber"
+    value={true}
+  />
+</Fragment>
+`;
+
+exports[`PhoneInput/tests/index.test.js placeholder should render a placeholder 1`] = `
+<Fragment>
+  <PhoneInputNativeDefaults
+    className=""
+    country="AU"
+    countryOptions={
+      Array [
+        "AU",
+        "|",
+        "...",
+      ]
+    }
+    debouncems={500}
+    disabled={false}
+    error=""
+    indicateInvalid={true}
+    internationalIcon={[MockFunction]}
+    labels={Object {}}
+    metadata={
+      Object {
+        "country_calling_codes": Object {},
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="This is a placeholder"
+    validations="isPhoneNumber"
+  />
+</Fragment>
+`;
+
+exports[`PhoneInput/tests/index.test.js renderReadOnly should return div having the value inside it 1`] = `
+<div>
+  <div>
+    777
+  </div>
+</div>
+`;
+
+exports[`PhoneInput/tests/index.test.js value should accept a value 1`] = `
+<Fragment>
+  <PhoneInputNativeDefaults
+    className=""
+    country="AU"
+    countryOptions={
+      Array [
+        "AU",
+        "|",
+        "...",
+      ]
+    }
+    debouncems={500}
+    disabled={false}
+    indicateInvalid={true}
+    internationalIcon={[MockFunction]}
+    labels={Object {}}
+    metadata={
+      Object {
+        "country_calling_codes": Object {},
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    validations="isPhoneNumber"
+    value="+63 999 876 9611"
+  />
+</Fragment>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Duration /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabelValue={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Duration /> #renderLabel() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <EventHeading
+        Typography={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Nights: "
+          id="app.Event.parts.Accommodation.Duration.prefixLabel"
+        />
+      </EventHeading>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        1
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Duration /> #renderLabelSuffix() still matches snapshot 1`] = `"Messages"`;
+
+exports[`<Duration /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(IconSublabel)>
+  1 Night
+</WithStyles(IconSublabel)>
+`;

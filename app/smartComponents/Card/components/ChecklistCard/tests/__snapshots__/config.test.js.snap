@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChecklistCard/config.js open should return a particular getter shape 1`] = `false`;
+
+exports[`ChecklistCard/config.js open should return a particular getter shape using default value 1`] = `true`;
+
+exports[`ChecklistCard/config.js open should return a particular keypath shape 1`] = `
+Array [
+  Array [
+    "userDataStore",
+    "users",
+    1,
+    "preference",
+    "dashBoardUpNextExpanded",
+  ],
+]
+`;

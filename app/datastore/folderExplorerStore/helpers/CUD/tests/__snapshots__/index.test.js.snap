@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CUD /> getUser() should return object containing all data about the current logged in user 1`] = `
+Object {
+  "id": 0,
+}
+`;
+
+exports[`<CUD /> onBatchDelete should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "batchDeleteNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "items": Array [
+          1,
+          2,
+          3,
+        ],
+        "keyPath": "1.children",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "1.calculated.sortedIds",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCopyConfirm should run dispatchTo with particular param 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "copyNode",
+    Object {
+      "onError": "onErrorCopy",
+      "onSuccess": "onCopySuccess",
+      "payload": Object {
+        "body": Object {
+          "ignoreTypes": Array [
+            "checkitem",
+            "checklist",
+          ],
+          "parentNodeId": 1,
+        },
+        "id": 3,
+        "keyPath": "1.children",
+        "sortedKeyPath": "1.calculated.sortedIds",
+        "type": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCopyConfirm should run dispatchTo with particular param if folder id is not equal destination id 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "copyNode",
+    Object {
+      "onError": "onErrorCopy",
+      "onSuccess": "onCopySuccess",
+      "payload": Object {
+        "body": Object {
+          "ignoreTypes": Array [
+            "checkitem",
+            "checklist",
+          ],
+          "parentNodeId": 3,
+        },
+        "id": 2,
+        "keyPath": "3.children",
+        "sortedKeyPath": "3.calculated.sortedIds",
+        "type": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCopySuccess should call setValue with a particular param if it is in current folder 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully copied the item",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCopySuccess should call setValue with a particular param if it is not in the current folder 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully copied the item",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCreate() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onCreateSuccess",
+      "payload": Object {
+        "isAppendedFirst": true,
+        "keyPath": "1.children",
+        "node": Object {
+          "content": "qqq",
+          "parentNodeId": 1,
+          "type": "folder",
+        },
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCreateSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully created",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onCreateSuccess() should call setValue 2`] = `
+Array [
+  Array [
+    [MockFunction],
+  ],
+]
+`;
+
+exports[`<CUD /> onDelete should call dispatchTo depending on the type 1`] = `
+Array [
+  Array [
+    "Folders",
+    "deleteChildrenFromFolder",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "undefined.calculated.sortedIds",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onDelete should call dispatchTo depending on the type 2`] = `
+Array [
+  Array [
+    "Folders",
+    "deleteChildrenFromFolder",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "undefined.calculated.sortedIds",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+  Array [
+    "Templates",
+    "removeTemplate",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "undefined.calculated.sortedIds",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onDelete should call dispatchTo depending on the type 3`] = `
+Array [
+  Array [
+    "Folders",
+    "deleteChildrenFromFolder",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "undefined.calculated.sortedIds",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+  Array [
+    "Templates",
+    "removeTemplate",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "undefined.calculated.sortedIds",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+  Array [
+    "Templates",
+    "removeTemplate",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onDeleteSuccess",
+      "payload": Object {
+        "id": 1,
+        "items": Array [
+          Object {
+            "id": 1,
+          },
+        ],
+        "keyPath": "1.children",
+        "orgTourKeypath": "-1.children",
+        "sortedIdsKeyPath": "undefined.calculated.sortedIds",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onDeleteSuccess()() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully deleted the item",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onDeleteSuccess()() should call setValue 2`] = `
+Array [
+  Array [
+    [MockFunction],
+    null,
+  ],
+]
+`;
+
+exports[`<CUD /> onEditCancel should call setValue with particular params 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": "updateSpecificObjectAttribute",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onEnableEditMode should call setValue with particular params 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": "updateSpecificObjectAttribute",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onErrorCopy should call showSnackbar with particular param 1`] = `Array []`;
+
+exports[`<CUD /> onErrorCreate should execute openErrorSnackbar with a particular params if status is 401 1`] = `
+Array [
+  Array [
+    "You are not authorized in doing the action",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onErrorDelete should execute openErrorSnackbar with a particular params if status is 401 1`] = `
+Array [
+  Array [
+    "You are not authorized in doing the action",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onErrorMove should call showSnackbar with particular param 1`] = `Array []`;
+
+exports[`<CUD /> onErrorUnauthorize should execute openErrorSnackbar with a particular params 1`] = `
+Array [
+  Array [
+    "You are not authorized in doing the action",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onErrorUpdate should execute openErrorSnackbar with a particular params if status is 401 1`] = `
+Array [
+  Array [
+    "You are not authorized in doing the action",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "nodes": "updateSpecificObjectAttribute",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onMoveConfirm should call dispatchTo with a particular param shape 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "move",
+    Object {
+      "onError": "onErrorMove",
+      "onSuccess": "onMoveSuccess",
+      "payload": Object {
+        "body": Object {
+          "parentNodeId": 2,
+        },
+        "id": 1,
+        "initialPath": "1.children",
+        "keyPath": "2.children",
+        "sortedIdsPath": "0.calculated.sortedIds",
+        "type": "",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onMoveSuccess should call setValue with a particular param 1`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully moved the item",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onUpdate() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": "onUpdateSuccess",
+      "payload": Object {
+        "node": Object {
+          "content": "qqq",
+          "id": 1,
+          "type": "folder",
+        },
+        "nodeId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onUpdateSuccess()() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": [Function],
+    },
+  ],
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully updated the item",
+      "type": "success",
+    },
+  ],
+  Array [
+    Object {
+      "nodes": "updateSpecificObjectAttribute",
+    },
+  ],
+]
+`;
+
+exports[`<CUD /> onUpdateSuccess()() should call setValue 2`] = `
+Array [
+  Array [
+    [MockFunction],
+  ],
+]
+`;
+
+exports[`<CUD /> render() should render correctly 1`] = `
+Array [
+  Array [
+    Object {
+      "onBatchDelete": [Function],
+      "onCopyConfirm": [Function],
+      "onCreate": [Function],
+      "onDelete": [Function],
+      "onEditCancel": [Function],
+      "onEnableEditMode": [Function],
+      "onMoveConfirm": [Function],
+      "onUpdate": [Function],
+    },
+  ],
+]
+`;

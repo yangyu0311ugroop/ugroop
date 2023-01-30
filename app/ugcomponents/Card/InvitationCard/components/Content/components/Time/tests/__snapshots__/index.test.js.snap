@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Time /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="right"
+    title="Monday, 1 January 2018 at 12:34:56"
+  >
+    <div
+      className=""
+    >
+      12:34
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

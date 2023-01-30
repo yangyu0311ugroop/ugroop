@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Roles /> componentDidMount should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Users",
+    "getRoles",
+    Object {
+      "payload": Object {
+        "userId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Roles /> goToCreateOrganisationPage() should call history.push 1`] = `
+Array [
+  Array [
+    "/orgs/new",
+  ],
+]
+`;
+
+exports[`<Roles /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Roles",
+            "name": "description",
+          },
+        ]
+      }
+      title="Roles"
+    />
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={4}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                dark={true}
+                xl={true}
+              >
+                My Organisations
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                gray={true}
+                nowrap={false}
+              >
+                List of organisations that you are connected with.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+            highlight={true}
+            spacing={2}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="primary"
+                dense={true}
+                onClick={[Function]}
+                size="extraSmall"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    Create new organisation
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+                ids={
+                  Array [
+                    1,
+                    2,
+                  ]
+                }
+                redirectToUrl={[Function]}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Roles /> render() should render correctly if isUserRolesFetching is true 1`] = `
+<div>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Roles",
+            "name": "description",
+          },
+        ]
+      }
+      title="Roles"
+    />
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={4}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                dark={true}
+                xl={true}
+              >
+                My Organisations
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                gray={true}
+                nowrap={false}
+              >
+                List of organisations that you are connected with.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            card={true}
+            direction="column"
+            highlight={true}
+            justify="center"
+            spacing={2}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                color="gray"
+                icon="lnr-group-work"
+                size="xl"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H5
+                noMargin={true}
+              >
+                You dont have an organisation yet
+              </H5>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="primary"
+                dense={true}
+                onClick={[Function]}
+                size="extraSmall"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    Create organisation
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Roles /> render() should render empty 1`] = `
+<div>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Roles",
+            "name": "description",
+          },
+        ]
+      }
+      title="Roles"
+    />
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={4}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                dark={true}
+                xl={true}
+              >
+                My Organisations
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                gray={true}
+                nowrap={false}
+              >
+                List of organisations that you are connected with.
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            card={true}
+            direction="column"
+            highlight={true}
+            justify="center"
+            spacing={2}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                color="gray"
+                icon="lnr-group-work"
+                size="xl"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <H5
+                noMargin={true}
+              >
+                You dont have an organisation yet
+              </H5>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Button)
+                color="primary"
+                dense={true}
+                onClick={[Function]}
+                size="extraSmall"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    Create organisation
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(Button)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </div>
+</div>
+`;

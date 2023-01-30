@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helpers getMessage should return something 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`helpers makeOptions should return something 1`] = `
+<div>
+  <Component />
+  <Component />
+  <Component />
+  <Component />
+  <Component />
+</div>
+`;
+
+exports[`helpers renderValue should return value if includesValue 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Tour Leader"
+    id="app.Node.parts.PersonType.leader"
+  />
+</div>
+`;

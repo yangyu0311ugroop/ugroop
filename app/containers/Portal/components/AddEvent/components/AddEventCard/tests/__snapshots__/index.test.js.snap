@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEventCard /> handleCreateEventSuccess() should handleCreateEventSuccess() 1`] = `
+Array [
+  Array [
+    Object {
+      "dayId": 22,
+      "id": 1,
+    },
+    Object {
+      "classes": Object {},
+      "eventType": "Activity",
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+    undefined,
+  ],
+]
+`;
+
+exports[`<AddEventCard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <div>
+        <Formsy
+          disabled={false}
+          getErrorMessage={[Function]}
+          getErrorMessages={[Function]}
+          getValue={[Function]}
+          hasValue={[Function]}
+          isFormDisabled={[Function]}
+          isFormSubmitted={[Function]}
+          isPristine={[Function]}
+          isRequired={[Function]}
+          isValid={[Function]}
+          isValidValue={[Function]}
+          mapping={null}
+          onChange={[Function]}
+          onError={[Function]}
+          onInvalid={[Function]}
+          onInvalidSubmit={[Function]}
+          onReset={[Function]}
+          onSubmit={[Function]}
+          onValid={[Function]}
+          onValidSubmit={[Function]}
+          preventExternalInvalidation={false}
+          resetValue={[Function]}
+          setValidations={[Function]}
+          setValue={[Function]}
+          showError={[Function]}
+          showRequired={[Function]}
+          validationErrors={null}
+        >
+          <WithStyles(Component)
+            disabled={true}
+            formValue={
+              Object {
+                "data": Object {
+                  "detail": Object {
+                    "type": undefined,
+                  },
+                  "name": "",
+                  "type": "Activity",
+                },
+                "node": Object {
+                  "customData": Object {
+                    "start": Object {
+                      "tempDay": "",
+                    },
+                  },
+                },
+              }
+            }
+          />
+        </Formsy>
+      </div>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+      xs={true}
+    >
+      <div>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(ViewEvent)
+              action="create"
+              data={
+                Object {
+                  "detail": Object {
+                    "type": undefined,
+                  },
+                  "name": "",
+                  "type": "Activity",
+                }
+              }
+              node={
+                Object {
+                  "customData": Object {
+                    "start": Object {
+                      "tempDay": "",
+                    },
+                  },
+                }
+              }
+              styled={true}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddEventCard /> renderContent() should renderContent 1`] = `<div />`;
+
+exports[`<AddEventCard /> renderContent() should renderContent smDown 1`] = `<div />`;
+
+exports[`<AddEventCard /> renderEvent() should renderEvent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(ViewEvent)
+        action="create"
+        data={
+          Object {
+            "detail": Object {
+              "type": undefined,
+            },
+            "name": "",
+            "type": "Activity",
+          }
+        }
+        node={
+          Object {
+            "customData": Object {
+              "start": Object {
+                "tempDay": "",
+              },
+            },
+          }
+        }
+        styled={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddEventCard /> renderForm() should renderForm 1`] = `
+<div>
+  <Formsy
+    disabled={false}
+    getErrorMessage={[Function]}
+    getErrorMessages={[Function]}
+    getValue={[Function]}
+    hasValue={[Function]}
+    isFormDisabled={[Function]}
+    isFormSubmitted={[Function]}
+    isPristine={[Function]}
+    isRequired={[Function]}
+    isValid={[Function]}
+    isValidValue={[Function]}
+    mapping={null}
+    onChange={[Function]}
+    onError={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    preventExternalInvalidation={false}
+    resetValue={[Function]}
+    setValidations={[Function]}
+    setValue={[Function]}
+    showError={[Function]}
+    showRequired={[Function]}
+    validationErrors={null}
+  >
+    <WithStyles(Component)
+      disabled={true}
+      formValue={
+        Object {
+          "data": Object {
+            "detail": Object {
+              "type": undefined,
+            },
+            "name": "",
+            "type": "Activity",
+          },
+          "node": Object {
+            "customData": Object {
+              "start": Object {
+                "tempDay": "",
+              },
+            },
+          },
+        }
+      }
+    />
+  </Formsy>
+</div>
+`;
+
+exports[`<AddEventCard /> renderLeft() should renderLeft 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      renderForm
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddEventCard /> renderLeft() should renderLeft smDown 1`] = `
+<div>
+  renderForm
+</div>
+`;
+
+exports[`<AddEventCard /> renderSelect() should renderSelect 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      className=""
+      xs={true}
+    >
+      <div>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={2}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+                currentState={
+                  Object {
+                    "addCount": 0,
+                    "checkedEvents": Array [],
+                    "creating": false,
+                    "data": Array [],
+                    "formValue": Object {
+                      "data": Object {
+                        "detail": Object {
+                          "type": undefined,
+                        },
+                        "name": "",
+                        "type": "Activity",
+                      },
+                      "node": Object {
+                        "customData": Object {
+                          "start": Object {
+                            "tempDay": "",
+                          },
+                        },
+                      },
+                    },
+                  }
+                }
+                showEmpty={true}
+                smDown={true}
+              >
+                <Component />
+              </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<AddEventCard /> renderSelectUnscheduledEvents() should renderSelectUnscheduledEvents 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <br />
+    <br />
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              danger={true}
+              lg={true}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                id={1}
+                showDayIndex={true}
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              dark={true}
+              xl={true}
+            >
+              Schedule your unplanned events
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+            >
+              Select any day on the left to change date
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={2}
+        >
+          renderUnscheduledEvent
+          renderUnscheduledEvent
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddEventCard /> renderUnscheduledEvent() should renderUnscheduledEvent 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))
+    badge={true}
+    checked={false}
+    id={123}
+    key="123"
+    middle={true}
+    onClick={[Function]}
+    simplify={true}
+    smDown={true}
+  />
+</div>
+`;

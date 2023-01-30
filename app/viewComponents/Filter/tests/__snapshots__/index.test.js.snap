@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> #render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  justify="space-between"
+>
+  <WithStyles(GridItem)
+    clickable={true}
+  >
+    <H5
+      dense={true}
+      weight="light"
+      whiteSpace="nowrap"
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<Filter /> #render() still matches snapshot if props.selected 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  justify="space-between"
+>
+  <WithStyles(GridItem)
+    clickable={true}
+  >
+    <H5
+      dense={true}
+      weight="bold"
+      whiteSpace="nowrap"
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

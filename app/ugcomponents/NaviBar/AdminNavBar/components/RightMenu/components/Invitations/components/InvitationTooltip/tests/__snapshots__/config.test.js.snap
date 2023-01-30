@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvitationTooltip/config.js value shareFrom should exists 1`] = `
+Array [
+  "invitationStore",
+  "shares",
+  "2233",
+  "shareFrom",
+]
+`;

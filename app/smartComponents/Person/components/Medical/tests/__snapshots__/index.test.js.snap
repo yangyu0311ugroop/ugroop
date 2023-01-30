@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Medical /> handleEditableDeleteClick should call the removeMedical helper api 1`] = `
+Array [
+  Array [
+    Object {
+      "medicalId": 1,
+      "onError": "handleEditableDeleteError",
+      "onSuccess": "handleEditableDeleteSuccess",
+      "personId": 2,
+    },
+    Object {
+      "classes": Object {},
+      "id": 1,
+      "personId": 2,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Medical /> handleEditableSubmit should call patchMedical of person detail api helper 1`] = `
+Array [
+  Array [
+    Object {
+      "medicalId": 1,
+      "mode": Object {},
+      "personId": 2,
+      "rest": Object {},
+    },
+    Object {
+      "classes": Object {},
+      "id": 1,
+      "personId": 2,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Medical /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableForm)
+    isRow={true}
+    onSubmit={[Function]}
+    readOnly={false}
+    renderSecondaryFormActions={[Function]}
+    renderValue={[Function]}
+    value={null}
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(MedicalDescription)))
+          classes={Object {}}
+          id={null}
+          personId={null}
+          readOnly={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant="textField"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          classes={Object {}}
+          id={null}
+          personId={null}
+          readOnly={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant="textField"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          classes={Object {}}
+          id={null}
+          personId={null}
+          readOnly={false}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          variant="textField"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(EditableForm)>
+</div>
+`;
+
+exports[`<Medical /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(MedicalDescription)))
+        classes={Object {}}
+        id={null}
+        personId={null}
+        readOnly={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        classes={Object {}}
+        id={null}
+        personId={null}
+        readOnly={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        classes={Object {}}
+        id={null}
+        personId={null}
+        readOnly={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        variant="textField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Medical /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        classes={Object {}}
+        id={null}
+        personId={null}
+        readOnly={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        variant="icon"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="{description}: {action}"
+        id="app.smartComponents.Person.Medical.textOnly"
+        values={
+          Object {
+            "action": <Memo(Connect(WithSimplifyResaga(MedicalAction)))
+              classes={Object {}}
+              id={null}
+              personId={null}
+              readOnly={false}
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              variant="textOnly"
+            />,
+            "description": <WithStyles(Connect(WithSimplifyResaga(MedicalDescription)))
+              classes={Object {}}
+              id={null}
+              personId={null}
+              readOnly={false}
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              variant="textOnly"
+            />,
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Medical /> renderEditableFormActions should match snapshot 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    confirmButton="Delete Medical Information"
+    dialogTitle="Delete this Medical Information"
+    headlineText="Are you sure you want to delete this Medical Information?"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Delete"
+  />
+</div>
+`;

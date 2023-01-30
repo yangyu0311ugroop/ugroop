@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactionList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="xs"
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading="0 likes"
+        headingUnderline={true}
+        hideOnSm={false}
+      />
+      <WithStyles(CloseButton) />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Hr)
+            noMarginTop={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<ReactionList /> renderContent should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Hr)
+        noMarginTop={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ReactionList /> renderTitle should match snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="0 likes"
+    headingUnderline={true}
+    hideOnSm={false}
+  />
+  <WithStyles(CloseButton) />
+</div>
+`;
+
+exports[`<ReactionList /> renderUser should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(ReactionItem)))))))
+      id={1}
+    />
+    <WithStyles(Hr) />
+  </WithStyles(GridItem)>
+</div>
+`;

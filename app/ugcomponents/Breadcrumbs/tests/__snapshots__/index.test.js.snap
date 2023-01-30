@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGBreadcrumbs component should render dropdown if item length is > MAX_ITEMS 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  <WithStyles(BreadcrumbDropdown)
+    items={
+      Array [
+        Object {
+          "label": "First",
+          "url": "link1",
+        },
+      ]
+    }
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={true}
+    isLast={false}
+    key="Second-link2"
+    name="Second"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link2"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={false}
+    key="Third-link3"
+    name="Third"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link3"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={false}
+    key="Fourth-link4"
+    name="Fourth"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link4"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={true}
+    key="Fifth-link5"
+    name="Fifth"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link5"
+  />
+</WithStyles(Ul)>
+`;
+
+exports[`UGBreadcrumbs component should render home with active state when items contains only one item 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+/>
+`;
+
+exports[`UGBreadcrumbs component should render links depending on the number of items passed 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  <WithStyles(BreadcrumbItem)
+    isFirst={true}
+    isLast={false}
+    key="First-link1"
+    name="First"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={false}
+    url="link1"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={true}
+    key="Second-link2"
+    name="Second"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={false}
+    url="link2"
+  />
+</WithStyles(Ul)>
+`;
+
+exports[`UGBreadcrumbs component should render links depending on the number of items passed 2`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  <WithStyles(BreadcrumbItem)
+    isFirst={true}
+    isLast={false}
+    key="First-link1"
+    name="First"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link1"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={false}
+    key="Second-link2"
+    name="Second"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link2"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={true}
+    key="Third-link3"
+    name="Third"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={true}
+    url="link3"
+  />
+</WithStyles(Ul)>
+`;
+
+exports[`UGBreadcrumbs component should render only the root (first item) if onlyDisplayRoot prop is true 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  <WithStyles(BreadcrumbItem)
+    isFirst={true}
+    isLast={true}
+    key="First-link1"
+    name="First"
+    onlyItem={true}
+    showAllActive={false}
+    showLastItem={false}
+    url="link1"
+  />
+</WithStyles(Ul)>
+`;
+
+exports[`UGBreadcrumbs component should render something if isLoading prop is true 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  Loading...
+</WithStyles(Ul)>
+`;
+
+exports[`UGBreadcrumbs component should render without the last item if showLastItem is false 1`] = `
+<WithStyles(Ul)
+  className="UGBreadcrumbs-root"
+>
+  <WithStyles(BreadcrumbDropdown)
+    items={
+      Array [
+        Object {
+          "label": "First",
+          "url": "link1",
+        },
+      ]
+    }
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={true}
+    isLast={false}
+    key="Second-link2"
+    name="Second"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={false}
+    url="link2"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={false}
+    key="Third-link3"
+    name="Third"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={false}
+    url="link3"
+  />
+  <WithStyles(BreadcrumbItem)
+    isFirst={false}
+    isLast={true}
+    key="Fourth-link4"
+    name="Fourth"
+    onlyItem={false}
+    showAllActive={false}
+    showLastItem={false}
+    url="link4"
+  />
+</WithStyles(Ul)>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvitationTooltip /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        size="imageExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      New tour invitation from
+       
+      <b>
+        <Component
+          variant="stringOnly"
+        />
+      </b>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

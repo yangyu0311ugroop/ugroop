@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userStore/helpers/tests/index.test.js helpers.normalise() should return data 1`] = `
+Object {
+  "files": Object {},
+  "insurancePolicies": undefined,
+  "node": Object {
+    "45": Object {
+      "content": 432,
+      "id": 45,
+    },
+  },
+  "nodeShare": Object {
+    "12": Object {
+      "notificationToken": 12,
+      "shareFrom": 123,
+    },
+  },
+  "nodeShareSubNode": undefined,
+  "nodeTransfer": undefined,
+  "notification": Object {
+    "23": Object {
+      "content": 323,
+      "id": 23,
+    },
+  },
+  "organisation": Object {
+    "89": Object {
+      "content": 421,
+      "id": 89,
+      "orgId": 89,
+    },
+  },
+  "passports": undefined,
+  "person": Object {
+    "56": Object {
+      "content": 785,
+      "userId": 56,
+    },
+  },
+  "personPhones": undefined,
+  "raw": Object {
+    "nodeShareSubNode": Array [
+      Object {
+        "id": 1,
+      },
+    ],
+    "nodeShares": Array [
+      Object {
+        "notificationToken": 12,
+        "shareFrom": 123,
+      },
+    ],
+    "nodeTransfer": Array [
+      Object {
+        "id": 1,
+      },
+    ],
+    "nodes": Array [
+      Object {
+        "content": 432,
+        "id": 45,
+      },
+    ],
+    "notifications": Array [
+      Object {
+        "content": 323,
+        "id": 23,
+      },
+    ],
+    "organisations": Array [
+      Object {
+        "content": 421,
+        "id": 89,
+        "orgId": 89,
+      },
+    ],
+    "persons": Array [
+      Object {
+        "content": 785,
+        "userId": 56,
+      },
+    ],
+    "userNodes": Array [
+      Object {
+        "id": 444,
+      },
+    ],
+    "users": Array [
+      Object {
+        "content": 589,
+        "id": 67,
+      },
+    ],
+  },
+  "user": Object {
+    "67": Object {
+      "content": 589,
+      "id": 67,
+    },
+  },
+  "userNodeIdsPerTour": Array [
+    444,
+  ],
+  "userNodeUserIdsPerTour": Array [
+    undefined,
+  ],
+  "userNodes": Object {
+    "444": Object {
+      "id": 444,
+    },
+  },
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.normalise() should return data 2`] = `
+Object {
+  "files": Object {},
+  "insurancePolicies": undefined,
+  "node": Object {
+    "45": Object {
+      "content": 432,
+      "id": 45,
+    },
+  },
+  "nodeShare": undefined,
+  "nodeShareSubNode": undefined,
+  "nodeTransfer": undefined,
+  "notification": Object {
+    "23": Object {
+      "content": 323,
+      "id": 23,
+    },
+  },
+  "organisation": Object {
+    "89": Object {
+      "content": 421,
+      "id": 89,
+      "orgId": 89,
+    },
+  },
+  "passports": undefined,
+  "person": Object {
+    "56": Object {
+      "content": 785,
+      "userId": 56,
+    },
+  },
+  "personPhones": undefined,
+  "raw": Object {
+    "nodes": Array [
+      Object {
+        "content": 432,
+        "id": 45,
+      },
+    ],
+    "notifications": Array [
+      Object {
+        "content": 323,
+        "id": 23,
+      },
+    ],
+    "organisations": Array [
+      Object {
+        "content": 421,
+        "id": 89,
+        "orgId": 89,
+      },
+    ],
+    "persons": Array [
+      Object {
+        "content": 785,
+        "userId": 56,
+      },
+    ],
+    "userNodes": Array [
+      Object {
+        "id": 444,
+      },
+    ],
+    "users": Array [
+      Object {
+        "content": 589,
+        "id": 67,
+      },
+    ],
+  },
+  "user": Object {
+    "67": Object {
+      "content": 589,
+      "id": 67,
+    },
+  },
+  "userNodeIdsPerTour": Array [
+    444,
+  ],
+  "userNodeUserIdsPerTour": Array [
+    undefined,
+  ],
+  "userNodes": Object {
+    "444": Object {
+      "id": 444,
+    },
+  },
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.normalise() should return data w/o persons and organisations 1`] = `
+Object {
+  "files": Object {},
+  "insurancePolicies": undefined,
+  "node": Object {
+    "45": Object {
+      "content": 432,
+      "id": 45,
+    },
+  },
+  "nodeShare": Object {
+    "12": Object {
+      "notificationToken": 12,
+      "shareFrom": 123,
+    },
+  },
+  "nodeShareSubNode": undefined,
+  "nodeTransfer": undefined,
+  "notification": Object {
+    "23": Object {
+      "content": 323,
+      "id": 23,
+    },
+  },
+  "organisation": undefined,
+  "passports": undefined,
+  "person": undefined,
+  "personPhones": undefined,
+  "raw": Object {
+    "nodeShares": Array [
+      Object {
+        "notificationToken": 12,
+        "shareFrom": 123,
+      },
+    ],
+    "nodes": Array [
+      Object {
+        "content": 432,
+        "id": 45,
+      },
+    ],
+    "notifications": Array [
+      Object {
+        "content": 323,
+        "id": 23,
+      },
+    ],
+    "users": Array [
+      Object {
+        "content": 589,
+        "id": 67,
+      },
+    ],
+  },
+  "user": Object {
+    "67": Object {
+      "content": 589,
+      "id": 67,
+    },
+  },
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.translateRole should return string based on role given to it 1`] = `"Admin"`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.translateRole should return string based on role given to it 2`] = `"Owner"`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.translateRole should return string based on role given to it 3`] = `"Collaborator"`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.translateRole should return string based on role given to it 4`] = `"Organiser"`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.translateRole should return string based on role given to it 5`] = `"customRole"`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.upsertInvitations() should return data 1`] = `
+Object {
+  "files": "upsertObject",
+  "insurancePolicies": "upsertObject",
+  "node": "upsertObject",
+  "nodeTransfer": "upsertObject",
+  "notification": "upsertObject",
+  "organisation": "upsertObject",
+  "passports": "upsertObject",
+  "person": "upsertObject",
+  "personPhones": "upsertObject",
+  "raw": undefined,
+  "share": "upsertObject",
+  "shareIds": "array",
+  "shareSubNode": "upsertObject",
+  "shareSubNodeIds": "array",
+  "templateId": undefined,
+  "user": "upsertObject",
+  "userNodeIds": "array",
+  "userNodeIdsPerTour": undefined,
+  "userNodeUserIdsPerTour": undefined,
+  "userNodes": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.upsertInvitations() should return data 2`] = `
+Array [
+  Array [
+    Object {
+      "12": Object {
+        "notificationToken": 12,
+        "shareFrom": 123,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Object {
+      "23": Object {
+        "content": 323,
+        "id": 23,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "45": Object {
+        "content": 432,
+        "id": 45,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "56": Object {
+        "content": 785,
+        "userId": 56,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Object {
+      "67": Object {
+        "content": 589,
+        "id": 67,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "89": Object {
+        "content": 421,
+        "id": 89,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Object {},
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.upsertInvitations() should return data if transfer 1`] = `
+Object {
+  "files": "upsertObject",
+  "insurancePolicies": "upsertObject",
+  "node": "upsertObject",
+  "nodeTransfer": undefined,
+  "notification": "upsertObject",
+  "organisation": "upsertObject",
+  "passports": "upsertObject",
+  "person": "upsertObject",
+  "personPhones": "upsertObject",
+  "raw": undefined,
+  "share": "upsertObject",
+  "shareIds": "array",
+  "shareSubNode": "upsertObject",
+  "shareSubNodeIds": "array",
+  "templateId": undefined,
+  "user": "upsertObject",
+  "userNodeIds": "array",
+  "userNodeIdsPerTour": undefined,
+  "userNodeUserIdsPerTour": undefined,
+  "userNodes": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js helpers.upsertInvitations() should return data if transfer 2`] = `
+Array [
+  Array [
+    Object {
+      "12": Object {
+        "notificationToken": 12,
+        "shareFrom": 123,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Object {
+      "23": Object {
+        "content": 323,
+        "id": 23,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "45": Object {
+        "content": 432,
+        "id": 45,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "56": Object {
+        "content": 785,
+        "userId": 56,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Object {
+      "67": Object {
+        "content": 589,
+        "id": 67,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "89": Object {
+        "content": 421,
+        "id": 89,
+      },
+    },
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`userStore/helpers/tests/index.test.js normaliseAddRole should match snapshot 1`] = `
+Object {
+  "nodeShare": "normalise",
+  "nodeTransfer": Object {
+    "nodeId": 1,
+  },
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js normalisePersonalPreference should match snapshot 1`] = `
+Object {
+  "userPreferences": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js normaliseUpdatePersonalPreference should match snapshot 1`] = `
+Object {
+  "userPreferences": [Function],
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js normaliseUpdateUserPreference should match snapshot 1`] = `
+Object {
+  "user": [Function],
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js normaliseUserPreference should match snapshot 1`] = `
+Object {
+  "user": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js normaliseUserPreference should match snapshot if userPreferenceResult is null 1`] = `
+Object {
+  "user": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js onUpdate should onUpdate DAY 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "day",
+    },
+    "checklists",
+    [Function],
+  ],
+  Array [
+    "dotProp.set",
+    "children",
+    undefined,
+  ],
+]
+`;
+
+exports[`userStore/helpers/tests/index.test.js onUpdate should onUpdate others 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "template",
+    },
+    "checklists",
+    [Function],
+  ],
+  Array [
+    "dotProp.set",
+    "children",
+    undefined,
+  ],
+]
+`;
+
+exports[`userStore/helpers/tests/index.test.js userStore.normaliseGetChecklists should return accumulate 1`] = `
+Object {
+  "calculatedNodes": "upsertObject",
+  "checklistIds": Array [
+    undefined,
+  ],
+  "dayIds": Array [],
+  "eventIds": Array [],
+  "file": "upsertObject",
+  "node": "upsertObject",
+  "tabtimelineIds": Array [],
+  "templateIds": Array [],
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js userStore.normaliseGetChecklists should return accumulate 2`] = `
+Object {
+  "calculatedNodes": "upsertObject",
+  "checklistIds": Array [
+    undefined,
+  ],
+  "dayIds": Array [],
+  "eventIds": Array [],
+  "file": "upsertObject",
+  "node": "upsertObject",
+  "tabtimelineIds": Array [],
+  "templateIds": Array [],
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js userStore.normaliseGetChecklists should still work even if setValue returns empty object 1`] = `
+Object {
+  "calculatedNodes": "upsertObject",
+  "checklistIds": Array [
+    undefined,
+  ],
+  "dayIds": Array [],
+  "eventIds": Array [],
+  "file": "upsertObject",
+  "node": "upsertObject",
+  "tabtimelineIds": Array [],
+  "templateIds": Array [],
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js userStore.normaliseGetOrgInvitations should normalise 1`] = `
+Object {
+  "files": "upsertObject",
+  "notification": "upsertObject",
+  "notifications": [Function],
+  "orgInvitation": "upsertObject",
+  "orgInvitations": Array [
+    undefined,
+  ],
+  "organisation": "upsertObject",
+  "person": "upsertObject",
+}
+`;
+
+exports[`userStore/helpers/tests/index.test.js userStore.removePeople should match snapshot 1`] = `
+Object {
+  "hadRemovedInvite": false,
+  "nodes": "upsertObject",
+  "share": [Function],
+  "shareIds": [Function],
+  "userNodeIds": [Function],
+  "userNodes": [Function],
+}
+`;

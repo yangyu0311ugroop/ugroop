@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourganizerBlock should render what it should render 1`] = `
+<div
+  className="MarketingTourganizerBlock-root"
+>
+  <WithStyles(Container)>
+    <WithStyles(Header)
+      as="h2"
+      className="MarketingTourganizerBlock-header"
+      color="offwhite"
+    >
+      Tourganizer
+    </WithStyles(Header)>
+    <WithStyles(Description)
+      isBold={true}
+      size={16}
+    >
+      Let uGroop organise it for you
+    </WithStyles(Description)>
+    <WithStyles(UnderlineWrapper)>
+      <WithStyles(Header)
+        as="h2"
+        className="MarketingTourganizerBlock-secondHeader"
+      >
+        We are your very first school 
+        <span>
+          tourganizer
+        </span>
+      </WithStyles(Header)>
+    </WithStyles(UnderlineWrapper)>
+    <WithStyles(GridContainer)
+      className="MarketingTourganizerBlock-tourList"
+    >
+      <WithStyles(GridItem)
+        className="MarketingTourganizerBlock-tourDescItems"
+        sm={4}
+        xs={12}
+      >
+        <[object Object]
+          className="MarketingTourganizerBlock-iconStyle"
+        />
+        <WithStyles(Header)
+          as="h4"
+          className="MarketingTourganizerBlock-noMarginTopBottom"
+        >
+          Create Tours For Schools
+        </WithStyles(Header)>
+        <WithStyles(Description)
+          size={14}
+        >
+          Create that educational or leisure tour that you have been planning for the students, teachers, or for anyone in the school community
+        </WithStyles(Description)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingTourganizerBlock-tourDescItems"
+        sm={4}
+        xs={12}
+      >
+        <[object Object]
+          className="MarketingTourganizerBlock-iconStyle"
+        />
+        <WithStyles(Header)
+          as="h4"
+          className="MarketingTourganizerBlock-noMarginTopBottom"
+        >
+          Create Tours For Schools
+        </WithStyles(Header)>
+        <WithStyles(Description)
+          size={14}
+        >
+          Create that educational or leisure tour that you have been planning for the students, teachers, or for anyone in the school community
+        </WithStyles(Description)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingTourganizerBlock-tourDescItems"
+        sm={4}
+        xs={12}
+      >
+        <[object Object]
+          className="MarketingTourganizerBlock-iconStyle"
+        />
+        <WithStyles(Header)
+          as="h4"
+          className="MarketingTourganizerBlock-noMarginTopBottom"
+        >
+          Create Tours For Schools
+        </WithStyles(Header)>
+        <WithStyles(Description)
+          size={14}
+        >
+          Create that educational or leisure tour that you have been planning for the students, teachers, or for anyone in the school community
+        </WithStyles(Description)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;

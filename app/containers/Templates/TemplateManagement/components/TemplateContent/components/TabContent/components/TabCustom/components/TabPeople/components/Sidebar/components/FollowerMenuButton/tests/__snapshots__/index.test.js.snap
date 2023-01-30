@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FollowerMenuButton /> handleClick should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "peopleFilterSelected": "followersFilter",
+      "peopleTabOptionSelected": "allFollowers",
+    },
+  ],
+]
+`;
+
+exports[`<FollowerMenuButton /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    templateId={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<FollowerMenuButton /> renderContent() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={4}
+  >
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <Hidden
+            smDown={true}
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              halfPaddingLeft={true}
+              md={true}
+            >
+              Followers
+            </WithStyles(JTextClass)>
+          </Hidden>
+          <Hidden
+            mdUp={true}
+          >
+            <WithStyles(Button)
+              dense={true}
+              onClick={[Function]}
+              size="xs"
+              variant="inline"
+            >
+              <P
+                color="gray"
+                dense={true}
+                weight="bold"
+              >
+                Followers
+              </P>
+            </WithStyles(Button)>
+          </Hidden>
+          <Hidden
+            smDown={true}
+          >
+            <WithStyles(Hr)
+              halfMarginTop={true}
+              noMarginBottom={true}
+            />
+          </Hidden>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(MarginWrapper)
+        bottom="sm"
+        left="md"
+        top="sm"
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          hello
+        </WithStyles(GridContainer)>
+      </WithStyles(MarginWrapper)>
+    </Hidden>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FollowerMenuButton /> renderContent() should render correctly and return null 1`] = `<div />`;

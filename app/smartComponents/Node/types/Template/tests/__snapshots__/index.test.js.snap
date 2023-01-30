@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Template /> render() should not return null 1`] = `<div />`;
+
+exports[`<Template /> renderCard() should renderCard 1`] = `
+<div>
+  <WithStyles(GridItem)
+    lg={3}
+    md={4}
+    sm={6}
+    xs={6}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Card)))
+      cardImageUrl={null}
+      memberIds={Array []}
+      parentFolderIds={Array []}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "isSharedTours": null,
+          "setValue": [MockFunction],
+        }
+      }
+      searchTemplateView=""
+      showActions={true}
+      variant="default"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Template /> renderCardView should match snapshot if isSharedTours is not empty 1`] = `
+<div>
+  <ConnectFunction
+    hasNoRootNodeIds={true}
+    isSharedTours="shared"
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Template /> renderCardView should match snapshot is isSharedTours 1`] = `
+<div>
+  <ConnectFunction
+    hasNoRootNodeIds={true}
+    isSharedTours={null}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Template /> renderCardView should show search result 1`] = `
+<div>
+  <ConnectFunction
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Template /> renderCompressed() should renderCompressed 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Compressed)))
+    cardImageUrl={null}
+    memberIds={Array []}
+    parentFolderIds={Array []}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "isSharedTours": null,
+        "setValue": [MockFunction],
+      }
+    }
+    searchTemplateView=""
+    showActions={true}
+    variant="default"
+  />
+</div>
+`;
+
+exports[`<Template /> renderDoubleCard() should renderDoubleCard 1`] = `
+<div>
+  <WithStyles(GridItem)
+    lg={3}
+    md={4}
+    sm={6}
+    xs={12}
+  >
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(DoubleCard))))
+      cardImageUrl={null}
+      memberIds={Array []}
+      parentFolderIds={Array []}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "isSharedTours": null,
+          "setValue": [MockFunction],
+        }
+      }
+      searchTemplateView=""
+      showActions={true}
+      variant="default"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Template /> renderLine() should renderLine 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Line)))
+    cardImageUrl={null}
+    memberIds={Array []}
+    parentFolderIds={Array []}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "isSharedTours": null,
+        "setValue": [MockFunction],
+      }
+    }
+    searchTemplateView=""
+    showActions={true}
+    variant="default"
+  />
+</div>
+`;
+
+exports[`<Template /> renderListItemView should check hasFolders if hasNoRootNodeIds is false 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    isSharedTours="shared"
+    memberIdsLength={1}
+    showActions={false}
+  />
+</div>
+`;
+
+exports[`<Template /> renderListItemView should not return null and should show search results 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Template /> renderListItemView should render shortDescription 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasNoRootNodeIds={true}
+    memberIdsLength={0}
+    parentFolderIdsLength={0}
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`<Template /> renderSimpleView() should renderSimpleView 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(SimpleView)))
+    cardImageUrl={null}
+    memberIds={Array []}
+    parentFolderIds={Array []}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "isSharedTours": null,
+        "setValue": [MockFunction],
+      }
+    }
+    searchTemplateView=""
+    showActions={true}
+    variant="default"
+  />
+</div>
+`;

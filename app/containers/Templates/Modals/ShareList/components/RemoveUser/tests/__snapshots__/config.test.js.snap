@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveUser/config.js value should exists 1`] = `
+Object {
+  "closeDetailDlg": Object {
+    "getter": [Function],
+    "keyPath": Array [
+      Array [
+        "templateManagementView",
+        "participantListViewOpen",
+      ],
+      Array [
+        "templateManagementView",
+        "interestedListViewOpen",
+      ],
+      Array [
+        "templateManagementView",
+        "tourConnection",
+        "open",
+      ],
+    ],
+  },
+  "createdBy": [Function],
+  "interestedDialog": Array [
+    "templateManagementView",
+    "interestedPersonViewOpen",
+  ],
+  "me": Array [
+    "cognitoAcctStore",
+    "account",
+    "id",
+  ],
+  "participantDialog": Array [
+    "templateManagementView",
+    "participantViewOpen",
+  ],
+}
+`;

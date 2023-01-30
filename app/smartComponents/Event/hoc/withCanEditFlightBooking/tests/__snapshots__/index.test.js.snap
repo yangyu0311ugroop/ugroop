@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Event/hoc/withCanEditFlightBooking #render() still matches snapshot 1`] = `
+<Component
+  canEditFlightBooking={false}
+  resaga={Object {}}
+/>
+`;

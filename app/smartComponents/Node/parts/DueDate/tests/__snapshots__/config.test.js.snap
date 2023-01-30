@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DueDate/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "dueDate": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "startTime": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": null,
+    },
+    "type": [Function],
+  },
+}
+`;

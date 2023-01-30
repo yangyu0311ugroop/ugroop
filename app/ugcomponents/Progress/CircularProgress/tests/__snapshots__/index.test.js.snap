@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGCircularProgress Component should render something 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  className="CircularProgress-root"
+/>
+`;

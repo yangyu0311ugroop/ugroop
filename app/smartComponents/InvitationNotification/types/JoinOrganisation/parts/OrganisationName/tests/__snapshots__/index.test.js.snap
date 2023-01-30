@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrganisationName /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<OrganisationName /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<OrganisationName /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    <Component
+      id={12}
+      variant="text"
+    />
+  </span>
+</div>
+`;

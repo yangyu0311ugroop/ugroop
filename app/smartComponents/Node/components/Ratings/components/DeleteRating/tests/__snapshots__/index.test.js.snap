@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteRating /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="alert"
+    dense={true}
+    loading={false}
+    onClick={[Function]}
+  >
+    <FormattedMessage
+      defaultMessage="Delete"
+      id="app/smartComponents/Node/components/Ratings/components/DeleteRating/button"
+    />
+  </WithStyles(Button)>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hr/tests/index.test,js rendering with children should render with children 1`] = `
+<div>
+  <hr
+    className=""
+  />
+  <div>
+    <span>
+      <div>
+        children
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Hr/tests/index.test,js smoke tests should render properly 1`] = `
+<div>
+  <hr
+    className=""
+  />
+</div>
+`;

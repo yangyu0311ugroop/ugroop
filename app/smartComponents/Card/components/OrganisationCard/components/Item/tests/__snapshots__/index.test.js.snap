@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> render() should render correctly 1`] = `
+<div>
+  <withRouter(UGNavLink)
+    activeClassName=""
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <div />
+      </WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridContainer)>
+  </withRouter(UGNavLink)>
+</div>
+`;
+
+exports[`<Item /> renderContent() should renderContent alwaysShow = false 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(GridItem)>
+      <div />
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Item /> renderContent() should renderContent alwaysShow = true 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div />
+  </WithStyles(GridItem)>
+</div>
+`;

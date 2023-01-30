@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> render() should match snapshot 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "fieldsOnly": [Function],
+      "renderProp": [Function],
+      "textOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Link /> renderTextOnly() should renderTextOnly 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    component="a"
+    ellipsis={true}
+    href="padUrlquery"
+    link={true}
+    target="_blank"
+  />
+</div>
+`;

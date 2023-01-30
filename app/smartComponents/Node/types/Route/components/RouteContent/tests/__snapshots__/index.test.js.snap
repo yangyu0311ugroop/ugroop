@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteContent /> render() should render 1`] = `
+<div>
+  <div
+    className=""
+  >
+    #
+    3
+     to #
+    5
+    :
+     
+    3
+     days
+    , 
+    2.2 km
+  </div>
+</div>
+`;

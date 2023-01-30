@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NodeProp/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "attachmentId": [Function],
+    "description": [Function],
+    "editable": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "location": [Function],
+    "type": [Function],
+    "url": [Function],
+    "value": [Function],
+  },
+}
+`;

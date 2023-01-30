@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Phone /> render() should render correctly 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if editable is true 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if isForCreating props is true 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if showActions props is false 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if variant = FIELDS_ONLY 1`] = `
+<div>
+  renderFieldsOnly
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if variant = renderTextOnly 1`] = `
+<div>
+  renderTextOnly
+</div>
+`;
+
+exports[`<Phone /> render() should render correctly if variant = renderTextWithIcon 1`] = `
+<div>
+  renderTextWithIcon
+</div>
+`;
+
+exports[`<Phone /> renderPhoneActions should render something 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(CopyNumberButton)))
+      color="primary"
+      value="1"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(DialNumberButton)))
+      color="primary"
+      value="1"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

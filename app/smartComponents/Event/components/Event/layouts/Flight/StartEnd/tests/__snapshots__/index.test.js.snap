@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightStartEnd /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<FlightStartEnd /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <Component
+        variant={null}
+      />
+      <ConnectFunction
+        className="time"
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <Component
+        variant={null}
+      />
+      <ConnectFunction
+        className="time"
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <ConnectFunction
+    variant="label"
+  />
+</div>
+`;
+
+exports[`<FlightStartEnd /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    title={
+      <FormattedMessage
+        defaultMessage="Airport and Time"
+        id="app.Event.layouts.Accommodation.StartEnd.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      spacing={2}
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(GridContainer)>
+          <Hidden
+            only="xs"
+          >
+            <WithStyles(GridItem)
+              sm={true}
+            >
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)
+                  classes={
+                    Object {
+                      "item": "fieldRowTitleItem",
+                    }
+                  }
+                >
+                  <H4
+                    dense={true}
+                    fontStyle="italic"
+                    weight="bold"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Departing"
+                      id="app.Event.layouts.Flight.StartEnd.startSectionLabel"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <H5
+                    dense={true}
+                  >
+                    startCityName
+                  </H5>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </Hidden>
+          <Hidden
+            smUp={true}
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <H4
+                dense={true}
+                fontStyle="italic"
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Departing"
+                  id="app.Event.layouts.Flight.StartEnd.startSectionLabel"
+                />
+                 
+                startCityName
+              </H4>
+            </WithStyles(GridItem)>
+          </Hidden>
+          <WithStyles(GridItem)
+            sm={10}
+            xs={12}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <Component
+                onChange={[Function]}
+                variant={null}
+              />
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <ConnectFunction
+                  variant={null}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(GridContainer)>
+          <Hidden
+            only="xs"
+          >
+            <WithStyles(GridItem)
+              sm={true}
+            >
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)
+                  classes={
+                    Object {
+                      "item": "fieldRowTitleItem",
+                    }
+                  }
+                >
+                  <H4
+                    dense={true}
+                    fontStyle="italic"
+                    weight="bold"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Arriving"
+                      id="app.Event.layouts.Flight.StartEnd.endSectionLabel"
+                    />
+                  </H4>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <H5
+                    dense={true}
+                  >
+                    endCityName
+                  </H5>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </Hidden>
+          <Hidden
+            smUp={true}
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <H4
+                dense={true}
+                fontStyle="italic"
+                weight="bold"
+              >
+                <FormattedMessage
+                  defaultMessage="Arriving"
+                  id="app.Event.layouts.Flight.StartEnd.endSectionLabel"
+                />
+                 
+                endCityName
+              </H4>
+            </WithStyles(GridItem)>
+          </Hidden>
+          <WithStyles(GridItem)
+            sm={10}
+            xs={12}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <Component
+                onChange={[Function]}
+                variant={null}
+              />
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <ConnectFunction
+                  variant={null}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;
+
+exports[`<FlightStartEnd /> #renderFieldRowItem() still matches snapshot with no subtitle 1`] = `
+<div>
+  <Hidden
+    only="xs"
+  >
+    <WithStyles(GridItem)
+      sm={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          classes={
+            Object {
+              "item": "fieldRowTitleItem",
+            }
+          }
+        >
+          <H4
+            dense={true}
+            fontStyle="italic"
+            weight="bold"
+          >
+            title
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </Hidden>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <H4
+        dense={true}
+        fontStyle="italic"
+        weight="bold"
+      >
+        title
+      </H4>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;

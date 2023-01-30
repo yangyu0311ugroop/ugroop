@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableCell /> should render something 1`] = `
+<WithStyles(ForwardRef(TableCell))
+  classes={
+    Object {
+      "root": "fontSize &:active [object Object]",
+    }
+  }
+/>
+`;

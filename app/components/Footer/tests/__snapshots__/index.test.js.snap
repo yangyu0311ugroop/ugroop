@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Footer/stylesheet still matches snapshot 1`] = `
+Object {
+  "root": Object {
+    "display": "flex",
+    "justifyContent": "space-between",
+    "marginBottom": "40px",
+    "paddingTop": "24px",
+  },
+  "upperBorder": Object {
+    "borderTop": Object {
+      "color": "#36322F",
+      "style": "solid",
+      "width": 1,
+    },
+  },
+}
+`;
+
+exports[`components/Footer/stylesheet upperBorder.borderTop still matches snapshot if not warm theme 1`] = `
+Object {
+  "color": "#DFE8EC",
+  "style": "solid",
+  "width": 1,
+}
+`;

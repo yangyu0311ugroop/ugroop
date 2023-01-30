@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantAccessRole /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    label="Followers of PAX"
+    paxLabel="PAX"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    role="tour_interested"
+    settingKey="show_participants_to_tour_interested"
+  />
+</div>
+`;
+
+exports[`<ParticipantAccessRole /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          classes={Object {}}
+          intl={
+            Object {
+              "formatMessage": [MockFunction],
+            }
+          }
+          label="Followers of PAX"
+          paxLabel="PAX"
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          role="tour_interested"
+          settingKey="show_participants_to_tour_interested"
+          variant="textField"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<ParticipantAccessRole /> render() should render text only variant 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+    classes={Object {}}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    label="Followers of PAX"
+    paxLabel="PAX"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    role="tour_interested"
+    settingKey="show_participants_to_tour_interested"
+    variant="textOnly"
+  />
+</div>
+`;

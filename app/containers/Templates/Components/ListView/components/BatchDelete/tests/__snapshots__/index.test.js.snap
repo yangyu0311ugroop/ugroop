@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BatchDelete /> should render something 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className="BatchDelete-root BatchDelete-text"
+  spacing={0}
+>
+  <WithStyles(GridItem)
+    className="BatchDelete-textContainer"
+    xs={11}
+  >
+    -1
+     
+    <FormattedMessage
+      defaultMessage="selected"
+      id="app.containers.Templates.Components.ListView.components.BatchDelete.sample"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className="BatchDelete-actionContainer"
+    xs={1}
+  >
+    <WithStyles(ForwardRef(IconButton))
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      <WithStyles(Icon)
+        icon="trash2"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<BatchDelete /> should render something if batch delete is loading 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className="BatchDelete-root BatchDelete-text"
+  spacing={0}
+>
+  <WithStyles(GridItem)
+    className="BatchDelete-textContainer"
+    xs={11}
+  >
+    -1
+     
+    <FormattedMessage
+      defaultMessage="selected"
+      id="app.containers.Templates.Components.ListView.components.BatchDelete.sample"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    className="BatchDelete-actionContainer"
+    xs={1}
+  >
+    <WithStyles(ForwardRef(IconButton))
+      disabled={true}
+      onClick={[MockFunction]}
+    >
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={24}
+        type="spin"
+        width={24}
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

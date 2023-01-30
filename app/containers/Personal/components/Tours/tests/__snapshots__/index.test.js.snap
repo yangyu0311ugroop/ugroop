@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tours /> componentDidMount should call dispatchTo if userOrgs length > 0 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "batchGetOrgMembers",
+    Object {
+      "payload": Object {
+        "ids": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> render() should render correctly 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Personal Tours",
+          "name": "description",
+        },
+      ]
+    }
+    title="My Tours"
+  />
+  <withRouter(withReducer(withReducer(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(NodeExplorer)))))))
+    history={Object {}}
+    location={Object {}}
+    rootNodeId={0}
+  />
+</div>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChangeDueDatePopper /> render() should renderDefault 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<ChangeDueDatePopper /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    onClick={[Function]}
+    spacing={0}
+  >
+    renderHeading
+    renderFooter
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ChangeDueDatePopper /> renderFooter() should renderFooter 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        footer
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          inline={true}
+          size="xsmall"
+        >
+          Cancel
+        </WithStyles(Button)>
+        <WithStyles(Button)
+          color="green"
+          first={true}
+          inline={true}
+          size="xsmall"
+          type="submit"
+        >
+          Save
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ChangeDueDatePopper /> renderHeading() should renderHeading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        heading
+      </WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        color="default"
+      >
+        <WithStyles(Icon)
+          icon="lnr-cross2"
+          size="xsmall"
+        />
+      </WithStyles(InlineButton)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

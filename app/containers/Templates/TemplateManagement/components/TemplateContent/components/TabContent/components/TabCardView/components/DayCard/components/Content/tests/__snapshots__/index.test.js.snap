@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardContent /> renderWithoutContent should render correctly 1`] = `undefined`;
+
+exports[`<CardContent /> should render something 1`] = `
+<Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Content)))
+    variant="title"
+    viewComponentProps={
+      Object {
+        "onClick": [Function],
+        "title": "See this day in detail",
+      }
+    }
+  />
+  <WithStyles(Location)
+    location="At the cross of Jesus Christ"
+    placeId=""
+    withWrap={true}
+  />
+</Fragment>
+`;
+
+exports[`<CardContent /> should render something if there is no content 1`] = `
+<Fragment>
+  <WithStyles(Connect(WithSimplifyResaga(Content)))
+    variant="title"
+    viewComponentProps={
+      Object {
+        "onClick": [Function],
+        "title": "See this day in detail",
+      }
+    }
+  />
+  <WithStyles(Location)
+    location="At the cross of Jesus Christ"
+    placeId=""
+    withWrap={true}
+  />
+</Fragment>
+`;
+
+exports[`<CardContent /> should render without content if content and location is empty string 1`] = `""`;

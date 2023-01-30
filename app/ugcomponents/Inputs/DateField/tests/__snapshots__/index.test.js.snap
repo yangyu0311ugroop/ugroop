@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateField /> #render() still matches snapshot 1`] = `
+<ForwardRef
+  clearable={true}
+  disabled={false}
+  format="D MMMM YYYY"
+  fullWidth={true}
+  initialFocusedDate={"2000-01-01T12:34:56.789Z"}
+  label="Date Label"
+  leftArrowIcon={
+    <WithStyles(Icon)
+      icon="arrow-left"
+    />
+  }
+  maxDate={"0002-01-01T12:34:56.789Z"}
+  minDate={"0001-01-01T12:34:56.789Z"}
+  onChange={[Function]}
+  onClose={[Function]}
+  onOpen={[Function]}
+  placeholder={null}
+  rightArrowIcon={
+    <WithStyles(Icon)
+      icon="arrow-right"
+    />
+  }
+  value={"0001-01-01T12:35:56.789Z"}
+/>
+`;

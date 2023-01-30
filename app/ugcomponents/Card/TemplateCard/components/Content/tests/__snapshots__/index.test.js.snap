@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> should render date if startDate exist 1`] = `
+<WithStyles(UGCardContent)>
+  <withRouter(UGLink)
+    to="Golgotha?"
+  >
+    <WithStyles(H4)>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="The Cross"
+        textElement="span"
+        truncateText="…"
+      />
+    </WithStyles(H4)>
+  </withRouter(UGLink)>
+  <div>
+    <P
+      dense={true}
+      weight="light"
+    >
+      Start - 
+      13 November 2018
+    </P>
+  </div>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="It is where mercy and righteousness kissed"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<Content /> should render something 1`] = `
+<WithStyles(UGCardContent)>
+  <withRouter(UGLink)
+    to="Golgotha?"
+  >
+    <WithStyles(H4)>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="The Cross"
+        textElement="span"
+        truncateText="…"
+      />
+    </WithStyles(H4)>
+  </withRouter(UGLink)>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="It is where mercy and righteousness kissed"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+</WithStyles(UGCardContent)>
+`;
+
+exports[`<Content /> should render weekday if weekDay data exist 1`] = `
+<WithStyles(UGCardContent)>
+  <withRouter(UGLink)
+    to="Golgotha?"
+  >
+    <WithStyles(H4)>
+      <TextTruncate
+        element="div"
+        line={1}
+        lines={2}
+        maxCalculateTimes={1}
+        text="The Cross"
+        textElement="span"
+        truncateText="…"
+      />
+    </WithStyles(H4)>
+  </withRouter(UGLink)>
+  <div>
+    <P
+      dense={true}
+      weight="light"
+    >
+      Start - 
+      Tuesday
+    </P>
+  </div>
+  <div>
+    <TextTruncate
+      element="div"
+      line={1}
+      lines={4}
+      maxCalculateTimes={1}
+      text="It is where mercy and righteousness kissed"
+      textElement="span"
+      truncateText="…"
+    />
+  </div>
+</WithStyles(UGCardContent)>
+`;

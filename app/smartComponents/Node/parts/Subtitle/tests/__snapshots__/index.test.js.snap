@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subtitle /> render() should render 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+    classes={
+      Object {
+        "default": "default",
+        "disabled": "disabled",
+      }
+    }
+    id={2233}
+    noContent="Add a short description"
+    placeholder="Add a short description"
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    subtitle="some subtitle"
+    valueKey="subtitle"
+  />
+</div>
+`;

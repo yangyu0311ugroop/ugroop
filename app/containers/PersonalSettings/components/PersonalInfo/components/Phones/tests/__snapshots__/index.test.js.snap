@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Phones /> render() should render 1`] = `
+<div>
+  <ScrollToTopOnMount />
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          nowrap={false}
+        >
+          Your number can be used to deliver important notifications, help you sign in, and more.
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Hr)
+          half={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          card={true}
+          cardPadding={4}
+          direction="column"
+          highlight={true}
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={3}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  sm={true}
+                  uppercase={true}
+                >
+                  Manage phone numbers
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(PhoneList)))
+                  viewStore="personProfileViewStore"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

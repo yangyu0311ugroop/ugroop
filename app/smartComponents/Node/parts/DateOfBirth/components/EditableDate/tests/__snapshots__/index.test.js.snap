@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateOfBirthEditableDate /> render should match snapshot 1`] = `
+<div>
+  <EditableDateForm
+    fullWidth={false}
+    initialFocusedDate={"2020-06-01T00:00:00.000Z"}
+    label={
+      <FormattedMessage
+        defaultMessage="Date of Birth"
+        id="app.Node.parts.DateOfBirth.label"
+      />
+    }
+    maxDate={"2020-12-31T23:59:59.999Z"}
+    name={null}
+    onChange={[Function]}
+    onSubmit={[Function]}
+    placeholder="Click to specify date of birth"
+    readOnly={false}
+    readOnlyPlaceholder="No date"
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;

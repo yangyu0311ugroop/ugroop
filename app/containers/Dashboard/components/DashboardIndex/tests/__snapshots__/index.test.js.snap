@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardIndex /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelButton={
+      <FormattedMessage
+        defaultMessage="Ignore"
+        id="app.containers.Dashboard.components.DashboardIndex.ignore"
+      />
+    }
+    cancelFunc={[Function]}
+    confirmButton={
+      <FormattedMessage
+        defaultMessage="Switch Account"
+        id="app.containers.Dashboard.components.DashboardIndex.switchAccount"
+      />
+    }
+    confirmFunc={[Function]}
+    customClassnames={
+      Object {
+        "headline": undefined,
+      }
+    }
+    dialogTitle={
+      <FormattedMessage
+        defaultMessage="THE INVITATION YOU OPENED IS NOT FOR THIS ACCOUNT"
+        id="app.containers.Dashboard.components.DashboardIndex.invitationNotForYou"
+      />
+    }
+    headlineIcon="user-plus"
+    headlineText={
+      <FormattedMessage
+        defaultMessage="You are logged in as {me} while this invitation is for {shareTo}"
+        id="app.containers.Dashboard.components.DashboardIndex.youAreLoggedInAs"
+        values={
+          Object {
+            "me": <b>
+              ping@pong.com
+            </b>,
+            "shareTo": <b />,
+          }
+        }
+      />
+    }
+    headlineTitle={
+      <FormattedMessage
+        defaultMessage="Switch Account"
+        id="app.containers.Dashboard.components.DashboardIndex.switchAccount"
+      />
+    }
+    logoutOnConfirm={true}
+    muiDialogProps={
+      Object {
+        "onClose": [Function],
+      }
+    }
+    open={false}
+    template="custom"
+  />
+</div>
+`;

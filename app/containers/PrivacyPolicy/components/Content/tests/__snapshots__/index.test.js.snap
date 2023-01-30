@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <WithStyles(Icon)
+          icon="ug-logo"
+          size="extraLarge"
+        />
+      </div>
+      <H1
+        weight="light"
+      >
+        <FormattedMessage
+          defaultMessage="uGroop Privacy Policy"
+          id="app.containters.PrivacyPolicy.title"
+        />
+      </H1>
+      <P
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="This Privacy Policy was last modified on October 15, 2018."
+          id="app.containters.PrivacyPolicy.lastModified"
+        />
+      </P>
+    </div>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop (\\"us\\", \\"we\\", or \\"our\\") operates https://www.ugroop.com (the \\"Site\\"). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site."
+        id="app.containters.PrivacyPolicy.firstParagraph"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at https://www.ugroop.com."
+        id="app.containters.PrivacyPolicy.secondParagraph"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Information Collection and Use"
+        id="app.containters.PrivacyPolicy.informationCollectionTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally, identifiable information may include, but is not limited to, your name, email address, postal address and phone number (\\"Personal Information\\")."
+        id="app.containters.PrivacyPolicy.informationCollection"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Log Data"
+        id="app.containters.PrivacyPolicy.logDataTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="Like many site operators, we collect information that your browser sends whenever you visit our Site (\\"Log Data\\"). This Log Data may include information such as your computer's Internet Protocol (\\"IP\\") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics."
+        id="app.containters.PrivacyPolicy.logData"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Cookies"
+        id="app.containters.PrivacyPolicy.cookiesTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive."
+        id="app.containters.PrivacyPolicy.cookiesFirstPart"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="Like many sites, we use \\"cookies\\" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site."
+        id="app.containters.PrivacyPolicy.cookiesSecondPart"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop uses Remarketing with Google Analytics to advertise on third party sites to you after you visited our Site. We and our third-party vendors, like Google, use first party cookies (such as the Google Analytics cookie) and third-party cookies (such as the DoubleClick cookie) to inform, optimize and serve ads based on your past visits to our Site."
+        id="app.containters.PrivacyPolicy.cookiesThirdPart"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="You can opt-out of Google Analytics for Display Advertising and customize the Google Display Network ads by visiting the Google Ads Settings page. Google also recommends installing the Google Analytics Opt-out Browser Add-on for your browser. Google Analytics Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and used by Google Analytics."
+        id="app.containters.PrivacyPolicy.cookiesFourthPart"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Do Not Track Disclosure"
+        id="app.containters.PrivacyPolicy.doNotTrackTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop does not track its customers over time and across third party websites to provide targeted advertising and therefore does not respond to Do Not Track (DNT) signals. However, some third-party sites do keep track of your browsing activities when they serve you content, which enables them to tailor what they present to you. You can disable or enable this setting by visiting the Preferences or Settings menu of your web browser."
+        id="app.containters.PrivacyPolicy.doNotTrackFirstPart"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Communications"
+        id="app.containters.PrivacyPolicy.communicationsTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe instructions provided in any email we send."
+        id="app.containters.PrivacyPolicy.communications"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Compliance with Laws"
+        id="app.containters.PrivacyPolicy.complianceWithLawsTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop will disclose your Personal Information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement or to protect the security or integrity of our Site."
+        id="app.containters.PrivacyPolicy.complianceWithLaws"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Business Transaction"
+        id="app.containters.PrivacyPolicy.businessTransactionTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="If uGroop is involved in a merger, acquisition or asset sale, your Personal Information may be transferred. We will provide notice before your Personal Information is transferred and becomes subject to a different Privacy Policy."
+        id="app.containters.PrivacyPolicy.businessTransaction"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Security"
+        id="app.containters.PrivacyPolicy.securityTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="The security of your Personal Information is important to us but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security."
+        id="app.containters.PrivacyPolicy.security"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Links To Other Sites"
+        id="app.containters.PrivacyPolicy.linksToOtherSitesTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="Our Site may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit."
+        id="app.containters.PrivacyPolicy.linksToOtherSitesFirstPart"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party sites or services."
+        id="app.containters.PrivacyPolicy.linksToOtherSitesSecondPart"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Changes to this Privacy Policy"
+        id="app.containters.PrivacyPolicy.changesToPolicyTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="uGroop may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Site. You are advised to review this Privacy Policy periodically for any changes."
+        id="app.containters.PrivacyPolicy.changesToPolicy"
+      />
+    </P>
+    <P
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Contact Us"
+        id="app.containters.PrivacyPolicy.contactUsTitle"
+      />
+    </P>
+    <P>
+      <FormattedMessage
+        defaultMessage="If you have any questions about this Agreement, please contact us by email at hello@ugroop.com."
+        id="app.containters.PrivacyPolicy.contactUs"
+      />
+    </P>
+  </div>
+</div>
+`;

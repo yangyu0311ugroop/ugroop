@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Number /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": null,
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Number /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabel={[Function]}
+  renderLabelValue={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Number /> #renderEditable() matches snapshot if can execute event 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Flight Number"
+          id="app.Event.parts.Flight.Number.numberLabel"
+        />
+      }
+      name="data.detail.detail.flightNumber"
+      onSubmit={[Function]}
+      placeholder="Click to specify flight number"
+      readOnly={false}
+      value="value"
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Number /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={4}
+  xs={12}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Flight Number"
+        id="app.Event.parts.Flight.Number.numberLabel"
+      />
+    }
+    name="data.detail.detail.flightNumber"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Number /> #renderLabel() should still match the snapshot given that value is none 1`] = `null`;
+
+exports[`<Number /> #renderLabel() should still match the snapshot given that value is not blank 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Flight Number"
+          id="app.Event.parts.Flight.Number.numberLabel"
+        />
+        :
+      </P>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        value
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Number /> #renderLabelValue() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    value
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    ·
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;

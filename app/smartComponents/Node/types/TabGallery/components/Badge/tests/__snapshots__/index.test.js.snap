@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> dayBadge() should dayBadge 1`] = `
+<div>
+  <ConnectFunction
+    ids={
+      Array [
+        1,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Card /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        ids={Array []}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> render() should render correctly if not filted 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem) />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderBadge() should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-picture"
+        size="xxsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        <span>
+          1
+        </span>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderBadge() should match snapshot if is empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-picture"
+        size="xxsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        <span>
+          0
+        </span>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderBadgeButton() should null when ids are not valid 1`] = `<div />`;
+
+exports[`<Card /> renderBadgeButton() should null when ids is empty  1`] = `<div />`;
+
+exports[`<Card /> renderBadgeButton() should renderBadgeButton 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    offsetLeft={true}
+    offsetRight={true}
+    onClick={[Function]}
+    title="1 photo uploaded on this day"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-picture"
+          size="xxsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <span>
+            1
+          </span>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<Card /> renderBadgeButton() should renderBadgeButton 2`] = `<div />`;
+
+exports[`<Card /> renderEmpty() should renderEmpty 1`] = `<div />`;
+
+exports[`<Card /> renderPhoto() should renderPhoto 1`] = `<div />`;
+
+exports[`<Card /> renderPhotoCount() should renderPhotoCount 1`] = `<div />`;

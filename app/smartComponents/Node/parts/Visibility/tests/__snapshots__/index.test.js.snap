@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Visibility /> renderCheckbox() should renderCheckbox 1`] = `
+<div>
+  <input
+    checked={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;

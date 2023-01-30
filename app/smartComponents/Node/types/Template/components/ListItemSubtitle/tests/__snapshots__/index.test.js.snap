@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemSubtitle /> render should match snapshot if type is createdBy 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+    variant="simpleTooltip"
+  >
+    <H6
+      dense={true}
+      subtitle={true}
+    >
+      Created by
+      <WithStyles(JTextClass)
+        ellipsis={true}
+      >
+        renderFullName
+      </WithStyles(JTextClass)>
+    </H6>
+  </WithStyles(Connect(WithSimplifyResaga(CreatedAt)))>
+</div>
+`;
+
+exports[`<ListItemSubtitle /> render should match snapshot if type is lastModifiedBy 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(UpdatedAt)))
+    variant="simpleTooltip"
+  >
+    <WithStyles(GridContainer)
+      alignItems="baseline"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        Last updated by
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            renderFullName
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            •
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(UpdatedAt))) />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Connect(WithSimplifyResaga(UpdatedAt)))>
+</div>
+`;
+
+exports[`<ListItemSubtitle /> renderDurationText should match snapshot if there is duration 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    duration Days
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    •
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ListItemSubtitle /> renderFullName should match snapshot 1`] = `
+<div>
+  <Component
+    id={1}
+    variant="stringOnly"
+  />
+</div>
+`;

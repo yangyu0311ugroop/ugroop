@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/constants #filterEventsByFlightBookingDataId returns correct key 1`] = `"event.events.flightBookings.1.true.3.undefined.filterEventsByFlightBookingDataId"`;
+
+exports[`datastore/eventStore/constants #filterEventsByFlightBookingDataId returns correct key if no props 1`] = `"event.events.flightBookings.null.null.null.undefined.filterEventsByFlightBookingDataId"`;
+
+exports[`datastore/eventStore/constants #filterFlightBookingsByTemplateId returns correct key 1`] = `"event.events.flightBookings.1,2.3.filterFlightBookingsByTemplateId"`;
+
+exports[`datastore/eventStore/constants #filterFlightBookingsByTemplateId returns correct key if no props 1`] = `"event.events.flightBookings.null.undefined.filterFlightBookingsByTemplateId"`;

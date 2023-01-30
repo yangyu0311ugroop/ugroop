@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentIcon /> should render something 1`] = `
+<span>
+  <WithStyles(Icon)
+    color="lavender"
+    icon="paperclip"
+    size="extraSmall"
+  />
+</span>
+`;

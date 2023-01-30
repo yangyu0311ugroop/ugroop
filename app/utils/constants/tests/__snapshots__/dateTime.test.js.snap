@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/constants/dateTime #FORMATS_DATE_TIME still matches snapshot 1`] = `
+Object {
+  "CURRENT": Object {
+    "DAY_DATE_TIME": "dddd[, ]D MMMM YYYY[ at ]HH:mm",
+  },
+  "DATE": "D MMMM YYYY",
+  "DATE_SHORT": "D MMM YYYY",
+  "DATE_SHORTER": "ddd, D MMM",
+  "DATE_SHORTER_DIFF_YEAR": "ddd, D MMM [']YY",
+  "DATE_TIME": "HH:mm[,]D MMMM YYYY",
+  "DAY": "dddd",
+  "DAY_DATE": "dddd[, ]D MMMM YYYY",
+  "DAY_DATE_SHORT": "ddd[, ]D MMM YYYY",
+  "DAY_DATE_SHORT_TIME": "ddd[, ]D MMM YYYY[ at ]HH:mm",
+  "DAY_DATE_TIME": "dddd[, ]D MMMM YYYY[ at ]HH:mm",
+  "DAY_DATE_TIME_SECONDS": "dddd[, ]D MMMM YYYY[ at ]HH:mm:ss",
+  "DAY_SHORT": "ddd",
+  "DAY_TIME": "dddd[ at ]HH:mm",
+  "FORMAT_STANDARD_DATE": "YYYY-MM-DD",
+  "OFFSET": "Z",
+  "SEPARATORS": Object {
+    "CURRENT_DATE_TIME": " at ",
+    "DATE_TIME": " at ",
+    "DATE_TIME_PERIOD": " from ",
+    "DAY_DATE": ", ",
+    "PERIOD": " to ",
+    "TIME_DATE": ",",
+    "TIME_ZONE": " ",
+    "ZONE_OFFSET": " ",
+  },
+  "TIME": "HH:mm",
+  "TIME_SECONDS": "HH:mm:ss",
+  "ZONE": "z",
+  "ZONE_OFFSET": "z[ ]Z",
+}
+`;

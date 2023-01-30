@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventSubscribe /> makeEvent still matches snapshot without event 1`] = `
+Object {
+  "dataId": undefined,
+  "endTime": undefined,
+  "id": undefined,
+  "position": undefined,
+  "renderSection": undefined,
+  "startTime": undefined,
+  "subtype": undefined,
+  "type": undefined,
+}
+`;
+
+exports[`<EventSubscribe /> render() should render correctly 1`] = `<div />`;

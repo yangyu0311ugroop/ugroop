@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RemainingTasks /> render() should render correctly 1`] = `<div />`;
+
+exports[`<RemainingTasks /> render() should render correctly 2`] = `
+Array [
+  Array [
+    Object {
+      "completed": 0,
+      "percentage": 0,
+      "remaining": 0,
+      "status": undefined,
+      "total": 0,
+    },
+  ],
+  Array [
+    Object {
+      "completed": 0,
+      "percentage": 0,
+      "remaining": 0,
+      "status": undefined,
+      "total": 0,
+    },
+  ],
+]
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Insurance /> renderEditable should render EditableTextForm 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Component
+      id={null}
+      readOnly={false}
+      userConnected={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Insurance /> renderEditable should render InsuranceEditableMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <Component
+      id={null}
+      readOnly={false}
+      userConnected={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Insurance /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="shield-check"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        italic={true}
+      >
+        Insurance not specified
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Insurance /> renderTextField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    renderValueInput
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Insurance /> renderValueInput should match snapshot 1`] = `
+<div>
+  <FormsyInterceptor
+    name="bloop"
+    onInterceptValue={[Function]}
+    placeholder="Enter note"
+    value="mlep"
+  />
+</div>
+`;

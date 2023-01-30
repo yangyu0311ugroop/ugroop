@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineSelect /> Smoke tests should render properly 1`] = `
+<Select
+  classes={
+    Object {
+      "icon": undefined,
+      "select": "",
+    }
+  }
+  disableUnderline={true}
+  disabled={false}
+  fullWidth={false}
+  name="Select"
+  native={true}
+  onChange={[Function]}
+  options={Array []}
+/>
+`;
+
+exports[`<InlineSelect /> instance initial getSelectClasses 1`] = `
+Object {
+  "icon": undefined,
+  "select": "",
+}
+`;

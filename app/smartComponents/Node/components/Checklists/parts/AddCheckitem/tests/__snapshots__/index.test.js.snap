@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddCheckitem /> createNode() should call NODE_API_HELPERS.createNode 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "checklists",
+      "insertLocation": undefined,
+      "lastNodeId": 23,
+      "node": Object {
+        "content": "content",
+        "status": "outstanding",
+        "type": "checkitem",
+      },
+      "onError": [Function],
+      "onSuccess": [Function],
+      "parentNodeId": 12,
+    },
+    Object {
+      "classes": Object {},
+      "creatingChild": false,
+      "creatingNext": false,
+      "lastNodeId": 23,
+      "parentNodeId": 12,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddCheckitem /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ClickAwayListener
+      onClickAway={[Function]}
+    >
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          <ForwardRef(Fade)
+            in={false}
+          >
+            <div>
+              <WithStyles(Icon)
+                color="success"
+                icon="lnr-plus"
+                size="small"
+              />
+            </div>
+          </ForwardRef(Fade)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <GenericForm
+            canSubmitForm={true}
+            cancelButtonContent="Discard"
+            disabled={false}
+            discardDialogProps={Object {}}
+            loading={false}
+            onInvalid={[Function]}
+            onValid={[Function]}
+            onValidSubmit={[Function]}
+            showChangeRoutePrompt={false}
+            submitButtonContent="Submit"
+          >
+            <div
+              className=""
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <WithStyles(InlineText)
+                InputProps={
+                  Object {
+                    "classes": Object {
+                      "disabled": undefined,
+                      "error": undefined,
+                      "focused": undefined,
+                      "underline": undefined,
+                    },
+                  }
+                }
+                fullWidth={true}
+                inputRef={[Function]}
+                name="content"
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Add new task"
+              />
+            </div>
+            renderAddCheckButtons
+          </GenericForm>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </ClickAwayListener>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AddCheckitem /> renderAddCheckButtons() should renderAddCheckButtons 1`] = `
+<div>
+  <ForwardRef(Fade)
+    in={true}
+  >
+    <div>
+      <WithStyles(Button)
+        color="green"
+        disabled={false}
+        inline={true}
+        size="xsmall"
+        type="submit"
+      >
+        Save
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        inline={true}
+        onClick={[Function]}
+        size="xsmall"
+      >
+        Cancel
+      </WithStyles(Button)>
+    </div>
+  </ForwardRef(Fade)>
+</div>
+`;

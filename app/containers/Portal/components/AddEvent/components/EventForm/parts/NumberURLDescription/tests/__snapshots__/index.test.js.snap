@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NumberURLDescription /> render() should render !adding 1`] = `
+<div>
+  <WithStyles(JButton)
+    onClick={[Function]}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          bold={true}
+          color="blue"
+          icon="lnr-plus"
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              blue={true}
+            >
+              Phone, Website or Description
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(JButton)>
+  <Formsy(DataField)
+    currentValue=""
+    innerRef={[Function]}
+    name="data.detail.detail.common.eventBooking.supplierName"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<NumberURLDescription /> render() should render adding 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Supplier phone"
+            name="data.detail.detail.common.eventBooking.supplierNumber"
+            placeholder="Enter supplier phone"
+            value=""
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Formsy(FText))
+            label="Website"
+            name="data.url"
+            placeholder="Enter website"
+            value=""
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Formsy(withRouter(WithStyles(SimpleRTE)))
+        filled={true}
+        innerRef={[Function]}
+        name="data.description"
+        placeholder="Tell some more about this.."
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="123"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

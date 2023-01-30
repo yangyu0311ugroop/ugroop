@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GuestCount /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "id": null,
+      "readOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<GuestCount /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    inline={true}
+    label={
+      <FormattedMessage
+        defaultMessage="Guest Count"
+        id="app.Node.parts.GuestCount.editableLabel"
+      />
+    }
+    name="node.customData.guestCount"
+    onSubmit={[Function]}
+    placeholder="Click to specify a guest count"
+    readOnly={false}
+    renderValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<GuestCount /> #renderEditableValue() still matches snapshot 1`] = `"value pax"`;
+
+exports[`<GuestCount /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Guest count?"
+        id="app.Node.parts.GuestCount.label"
+      />
+    }
+    name="node.customData.guestCount"
+    onInterceptValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;

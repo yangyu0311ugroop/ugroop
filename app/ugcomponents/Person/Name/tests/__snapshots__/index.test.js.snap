@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name/tests/index.test.js render() should render default 1`] = `
+<div>
+  <span
+    className="some class"
+  >
+    <WithStyles(InlineButton)
+      className="some class"
+      offsetLeft={true}
+      offsetRight={true}
+      onClick={[Function]}
+      title="View person card"
+    >
+      renderName
+    </WithStyles(InlineButton)>
+    <Popover
+      anchorEl="some anchor"
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "center",
+        }
+      }
+      disableRestoreFocus={true}
+      onClose={[Function]}
+      open={true}
+      transformOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "center",
+        }
+      }
+    >
+      <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+        close={[Function]}
+        email="that@guy"
+        id={123}
+        knownAs="That Guy"
+        orgId={999}
+      />
+    </Popover>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js render() should render default 2`] = `
+<div>
+  <span
+    className="some class"
+  >
+    renderName
+    <Popover
+      anchorEl="some anchor"
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "center",
+        }
+      }
+      disableRestoreFocus={true}
+      onClose={[Function]}
+      open={true}
+      transformOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "center",
+        }
+      }
+    >
+      <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+        close={[Function]}
+        email="that@guy"
+        id={null}
+        knownAs="That Guy"
+        orgId={0}
+      />
+    </Popover>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderLink should match snapshot 1`] = `
+<div>
+  <span>
+    <WithStyles(A)
+      className="className"
+      href="mailto:zzz@yyy.com"
+      onClick={[Function]}
+    >
+      renderName
+    </WithStyles(A)>
+    renderPopover
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderLink() should match snapshot if shouldRenderNewLink is true 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    ellipsis={true}
+    link={true}
+    onClick={[Function]}
+  >
+    User 123
+  </WithStyles(JTextClass)>
+  <Popover
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "center",
+      }
+    }
+    disableRestoreFocus={true}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "center",
+      }
+    }
+  >
+    <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+      close={[Function]}
+      email=""
+      id={123}
+      knownAs=""
+      orgId={0}
+    />
+  </Popover>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderLink() should render knownAs 1`] = `
+<div>
+  <span>
+    <WithStyles(A)
+      className=""
+      href="mailto:That Guy"
+      onClick={[Function]}
+    >
+      <span
+        className=""
+      >
+        <div
+          className="j-text-ellipsis"
+        >
+          That Guy
+        </div>
+      </span>
+    </WithStyles(A)>
+    <Popover
+      anchorEl={null}
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "center",
+        }
+      }
+      disableRestoreFocus={true}
+      onClose={[Function]}
+      open={false}
+      transformOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "center",
+        }
+      }
+    >
+      <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+        close={[Function]}
+        email="That Guy"
+        id={123}
+        knownAs=""
+        orgId={0}
+      />
+    </Popover>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderName() should render email 1`] = `
+<div>
+  <span
+    className=""
+  >
+    <div
+      className="j-text-ellipsis"
+    >
+      that@guy
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderName() should render knownAs 1`] = `
+<div>
+  <span
+    className=""
+  >
+    <div
+      className="j-text-ellipsis"
+    >
+      That Guy
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderProp should match snapshot 1`] = `<div />`;
+
+exports[`Name/tests/index.test.js renderProp() should render renderProp 1`] = `<div />`;
+
+exports[`Name/tests/index.test.js renderText() should render email 1`] = `
+<div>
+  <span
+    className="j-text-ellipsis"
+    title="that@guy"
+  >
+    <div
+      className=""
+    >
+      that@guy
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Name/tests/index.test.js renderText() should render knownAs 1`] = `
+<div>
+  <span
+    className="j-text-ellipsis"
+    title="That Guy"
+  >
+    <div
+      className=""
+    >
+      That Guy
+    </div>
+  </span>
+</div>
+`;

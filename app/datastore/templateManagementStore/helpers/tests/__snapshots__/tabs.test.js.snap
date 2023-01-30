@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab helpers convertChildrenToArray converts children of default tab 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "id": 4,
+        "nextNodes": Array [],
+        "type": "activity",
+      },
+      Object {
+        "id": 5,
+        "nextNodes": Array [],
+        "type": "activity",
+      },
+    ],
+    "id": 1,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+  Object {
+    "children": Array [
+      undefined,
+    ],
+    "id": 11,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+]
+`;
+
+exports[`Tab helpers convertChildrenToArray converts children of timeline tab 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [],
+        "id": 4,
+        "nextNodes": Array [],
+        "type": "activity",
+      },
+      Object {
+        "children": Array [],
+        "id": 5,
+        "nextNodes": Array [],
+        "type": "activity",
+      },
+    ],
+    "id": 1,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+  Object {
+    "children": Array [],
+    "id": 11,
+    "nextNodes": Array [],
+    "type": "day",
+  },
+]
+`;

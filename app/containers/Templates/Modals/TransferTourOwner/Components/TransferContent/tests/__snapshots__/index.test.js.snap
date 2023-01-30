@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferContent /> render() should isPending 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H5>
+      <FormattedMessage
+        defaultMessage="You can transfer the tour ownership of the tour"
+        id="app.containers.Templates.Modals.TransferTourOwner.readyLabel"
+      />
+    </H5>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferContent /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <H5>
+          <FormattedMessage
+            defaultMessage="You are about to transfer the ownership of this tour. To proceed please press continue."
+            id="app.containers.Templates.Modals.TransferTourOwner.warningText"
+          />
+           
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Component
+          noanimate={true}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TransferContent /> render() should renderOrganisation 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <H5>
+          <FormattedMessage
+            defaultMessage="You are about to transfer the ownership of this tour. To proceed please press continue."
+            id="app.containers.Templates.Modals.TransferTourOwner.warningText"
+          />
+           
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <Component
+          noanimate={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H5>
+          <FormattedMessage
+            defaultMessage="An email has been sent to the recipient."
+            id="app.containers.Templates.Modals.TransferTourOwner.emailSentlabel"
+          />
+           
+        </H5>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

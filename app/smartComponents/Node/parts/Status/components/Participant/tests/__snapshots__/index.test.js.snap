@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participant /> #handleSelectFieldChange() calls NODE_STORE_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "node": Object {
+          "status": "value",
+          "type": "participant",
+        },
+        "nodeId": null,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "node": undefined,
+        "nodeId": null,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Participant /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "0": "m",
+      "1": "o",
+      "2": "d",
+      "3": "e",
+      "4": "l",
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "Typography": [Function],
+      "id": null,
+      "isEmptyParticipantStatus": false,
+      "readOnly": false,
+      "required": false,
+      "resaga": Object {
+        "dispatch": [MockFunction],
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Nodes",
+              "updateNode",
+              Object {
+                "onError": undefined,
+                "onSuccess": undefined,
+                "payload": Object {
+                  "node": Object {
+                    "status": "value",
+                    "type": "participant",
+                  },
+                  "nodeId": null,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "updateNode",
+              Object {
+                "onError": undefined,
+                "onSuccess": undefined,
+                "payload": Object {
+                  "node": undefined,
+                  "nodeId": null,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      "showLabel": true,
+      "status": "",
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Participant /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <H5
+    dense={true}
+    lineHeight1={true}
+    primary={false}
+    weight={null}
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <FormattedMessage
+          defaultMessage="Maybe"
+          id="app.Node.parts.Status.Participant.pending"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </H5>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participant /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableSelectForm)
+    label={
+      <FormattedMessage
+        defaultMessage="Status"
+        id="app.Node.parts.Status.Participant.label"
+      />
+    }
+    name="node.status"
+    onSubmit={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Going"
+            id="app.Node.parts.Status.Participant.confirmed"
+          />,
+          "value": "confirmed",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Maybe"
+            id="app.Node.parts.Status.Participant.pending"
+          />,
+          "value": "",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Not Going"
+            id="app.Node.parts.Status.Participant.declined"
+          />,
+          "value": "declined",
+        },
+      ]
+    }
+    placeholder={null}
+    readOnly={false}
+    renderValue={[Function]}
+    value=""
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Type)))
+      id={null}
+      readOnly={false}
+      variant="data"
+    />
+  </WithStyles(EditableSelectForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participant /> #renderSelectField() still matches snapshot renderSelectField 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(SelectButton)
+      ButtonProps={
+        Object {
+          "color": "gray",
+        }
+      }
+      displayEmpty={true}
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Going"
+              id="app.Node.parts.Status.Participant.confirmed"
+            />,
+            "value": "confirmed",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Maybe"
+              id="app.Node.parts.Status.Participant.pending"
+            />,
+            "value": "",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Not Going"
+              id="app.Node.parts.Status.Participant.declined"
+            />,
+            "value": "declined",
+          },
+        ]
+      }
+      renderValue={[Function]}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Participant /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <Formsy(SelectField)
+    disabled={false}
+    error={false}
+    innerRef={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Status"
+        id="app.Node.parts.Status.Participant.label"
+      />
+    }
+    name="node.status"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Going"
+            id="app.Node.parts.Status.Participant.confirmed"
+          />,
+          "value": "confirmed",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Maybe"
+            id="app.Node.parts.Status.Participant.pending"
+          />,
+          "value": "",
+        },
+        Object {
+          "children": <FormattedMessage
+            defaultMessage="Not Going"
+            id="app.Node.parts.Status.Participant.declined"
+          />,
+          "value": "declined",
+        },
+      ]
+    }
+    required={true}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participant /> #renderValue() still matches snapshot if CONFIRMED 1`] = `
+<H5
+  dense={true}
+  lineHeight1={true}
+  primary={true}
+  weight="bold"
+>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="Going"
+        id="app.Node.parts.Status.Participant.confirmed"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</H5>
+`;
+
+exports[`<Participant /> #renderValue() still matches snapshot if unknown 1`] = `
+<H5
+  dense={true}
+  lineHeight1={true}
+  primary={false}
+  weight={null}
+>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem) />
+  </WithStyles(GridContainer)>
+</H5>
+`;

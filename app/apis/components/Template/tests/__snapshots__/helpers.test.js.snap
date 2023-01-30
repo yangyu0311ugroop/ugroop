@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/Template/helpers addOwnRole 1`] = `
+Array [
+  Array [
+    "Templates",
+    "addMyOwnRole",
+    Object {
+      "attachmentId": 3,
+      "data": Object {},
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": undefined,
+        "payload": Object {
+          "content": undefined,
+          "organisationId": undefined,
+          "role": undefined,
+          "roleName": undefined,
+          "shareFromUserId": undefined,
+          "shareTo": undefined,
+          "shareToUserId": undefined,
+          "subNodes": Array [],
+        },
+        "shareToUserId": undefined,
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers addRole 1`] = `
+Array [
+  Array [
+    "Templates",
+    "addRole",
+    Object {
+      "attachmentId": 3,
+      "data": Object {},
+      "eventId": 1,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": undefined,
+        "organisationId": undefined,
+        "role": undefined,
+        "subNodes": Array [],
+        "userId": undefined,
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers batchRecentActivity 1`] = `
+Array [
+  Array [
+    "Templates",
+    "findPeople",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers createEventAttachment 1`] = `
+Array [
+  Array [
+    "Templates",
+    "createEventAttachment",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {},
+        "eventId": 1,
+        "templateId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers createEvents batch creates 2 events 1`] = `
+Array [
+  Array [
+    "Templates",
+    "createEvent",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "data": undefined,
+          "node": Object {
+            "type": "event",
+          },
+        },
+        "templateId": 1,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": undefined,
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 1,
+        "ids": Array [],
+      },
+    },
+  ],
+  Array [
+    "Templates",
+    "createEvent",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "data": undefined,
+          "node": Object {
+            "type": "event",
+          },
+        },
+        "templateId": 1,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": undefined,
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 1,
+        "ids": Array [],
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers createEvents batch creates 2 events 2`] = `
+Array [
+  Array [
+    Object {
+      "open": true,
+      "text": "Error occurred while creating event 2/2, batch operation cancelled.",
+      "type": "critical",
+    },
+  ],
+  Array [
+    Object {
+      "open": true,
+      "text": "Successfully created 2 events.",
+      "type": "success",
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers createEvents batch creates 2 events 3`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {},
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers createEvents batch creates 2 events 4`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`apis/Template/helpers createFlightBooking 1`] = `
+Array [
+  Array [
+    "Templates",
+    "createFlightBooking",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {},
+        "templateId": 3,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers deleteEvent 1`] = `
+Array [
+  Array [
+    "Templates",
+    "deleteEvent",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "dataId": 2,
+        "id": 1,
+        "templateId": 3,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers deleteEventAttachment 1`] = `
+Array [
+  Array [
+    "Templates",
+    "deleteEventAttachment",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "attachmentId": 3,
+        "eventId": 1,
+        "templateId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers deleteFlightBooking 1`] = `
+Array [
+  Array [
+    "Templates",
+    "deleteFlightBooking",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "dataId": 1,
+        "templateId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers fetchEvents 1`] = `
+Array [
+  Array [
+    "Templates",
+    "fetchEvents",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "templateId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers getParticipants 1`] = `
+Array [
+  Array [
+    "Templates",
+    "getParticipants",
+    Object {
+      "attachmentId": 3,
+      "data": Object {},
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": undefined,
+        "ids": undefined,
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers getPeople 1`] = `
+Array [
+  Array [
+    "Templates",
+    "findPeople",
+    Object {
+      "attachmentId": 3,
+      "data": Object {},
+      "eventId": 1,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": undefined,
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers patchEvent 1`] = `
+Array [
+  Array [
+    "Templates",
+    "patchEvent",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {
+          "batchNode": Object {
+            "dataId": undefined,
+            "operations": Array [
+              Object {
+                "action": "UPDATE_EVENT",
+                "id": undefined,
+                "node": Object {},
+              },
+            ],
+          },
+          "data": Object {
+            "id": undefined,
+          },
+        },
+        "id": undefined,
+        "templateId": undefined,
+      },
+    },
+  ],
+  Array [
+    "Templates",
+    "patchEvent",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {
+          "batchNode": undefined,
+          "data": undefined,
+        },
+        "id": undefined,
+        "templateId": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers patchEventAttachment 1`] = `
+Array [
+  Array [
+    "Templates",
+    "patchEventAttachment",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "attachmentId": 3,
+        "data": Object {},
+        "eventId": 1,
+        "templateId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers patchFlightBooking 1`] = `
+Array [
+  Array [
+    "Templates",
+    "patchFlightBooking",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {},
+        "dataId": 1,
+        "templateId": 2,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/Template/helpers upsertSetting 1`] = `
+Array [
+  Array [
+    "Templates",
+    "upsertTemplateSetting",
+    Object {
+      "attachmentId": 3,
+      "data": Object {},
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "data": Object {
+          "customData": Object {
+            "key": undefined,
+            "value": undefined,
+          },
+        },
+        "id": undefined,
+        "settingId": undefined,
+      },
+      "templateId": 2,
+    },
+  ],
+]
+`;

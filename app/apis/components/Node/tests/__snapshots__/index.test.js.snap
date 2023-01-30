@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Node /> #componentWillReceiveProps() calls resaga.analyse() 1`] = `
+Array [
+  Array [
+    Object {
+      "x": 1,
+    },
+    Object {
+      "batchCreateClone": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "batchDeleteChildren": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "batchDeleteNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "batchMove": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "copyNode": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "createAttachment": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "createChild": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "createClone": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "createLink": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "createNextNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "createNode": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "createPhoto": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "deleteChildren": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "deleteLink": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "deleteTempNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getAttachment": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getChildren": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getFilterNodes": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getLinks": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "getTimes": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "getTransfer": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "insertAfter": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "insertBefore": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "insertTempAfter": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "insertTempBefore": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "move": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "moveNodeAfter": Object {
+        "onError": [Function],
+      },
+      "moveNodeBefore": Object {
+        "onError": [Function],
+      },
+      "patchTransferNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "removeAttachment": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "removeNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "removeNodeAndLinks": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "removePhoto": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "shareNode": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "transfer": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "unlinkNextNode": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "updateAttachment": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "updateChild": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "updateNode": Object {
+        "onError": [Function],
+        "onSuccess": [Function],
+      },
+      "updatePhoto": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+      "updatedLink": Object {
+        "onError": [Function],
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Node /> cloneTemplateSuccess should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "tours": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Node /> copySuccess should call setValue of resaga and addAbility function 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": Array [],
+    },
+  ],
+]
+`;
+
+exports[`<Node /> copySuccess should call setValue of resaga and addAbility function 2`] = `
+Array [
+  Array [
+    1,
+  ],
+]
+`;
+
+exports[`<Node /> createNodeSuccess should call setValue of resaga and addAbility function 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "id": 1,
+        "type": "template",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Node /> createNodeSuccess should call setValue of resaga and addAbility function 2`] = `
+Array [
+  Array [
+    1,
+  ],
+]
+`;
+
+exports[`<Node /> revertMove()   should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "nodes": "tabs.updateChildren",
+    },
+  ],
+]
+`;
+
+exports[`<Node /> revertMove()   should call setValue 2`] = `
+Array [
+  Array [
+    1,
+    Array [
+      1,
+      3,
+      2,
+    ],
+  ],
+]
+`;
+
+exports[`<Node /> shareNodeSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "notifications": "upsertObject",
+      "raw": undefined,
+      "shareIds": "array",
+      "shareSubNodeIds": "array",
+      "shareSubNodes": "upsertObject",
+      "shares": "upsertObject",
+    },
+  ],
+]
+`;
+
+exports[`<Node /> shareNodeSuccess() should call setValue 2`] = `
+Array [
+  Array [
+    Array [
+      Object {
+        "notificationToken": "some token",
+      },
+    ],
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    Array [
+      Object {
+        "id": "some id",
+      },
+    ],
+  ],
+]
+`;
+
+exports[`<Node /> shareNodeSuccess() should call setValue 3`] = `
+Array [
+  Array [
+    Array [
+      "0",
+    ],
+    "append",
+  ],
+  Array [
+    Array [
+      0,
+    ],
+    "append",
+  ],
+]
+`;

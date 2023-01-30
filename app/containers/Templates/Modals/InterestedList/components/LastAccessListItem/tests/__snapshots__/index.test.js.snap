@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LastAccessListItem render should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    variant="renderProp"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`LastAccessListItem renderItem should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(Editable)
+        onClick={[Function]}
+      >
+        <ConnectFunction
+          id={null}
+          userId={1}
+          variant="withLastAccess"
+        />
+      </WithStyles(Editable)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`LastAccessListItem renderItem should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(Editable)
+        onClick={[Function]}
+      >
+        <ConnectFunction
+          id={null}
+          userId={null}
+          variant="withLastAccess"
+        />
+      </WithStyles(Editable)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingDetails /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <Memo(Connect(WithSimplifyResaga(Name)))
+          variant="editableHeadingForm"
+        />
+        <Memo(Connect(WithSimplifyResaga(SupplierName)))
+          variant={null}
+        />
+        <WithStyles(Connect(WithSimplifyResaga(PassengerCount)))
+          variant={null}
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  }
+  renderField={
+    <WithStyles(Section)
+      title={
+        <FormattedMessage
+          defaultMessage="Details"
+          id="app.Event.FlightBooking.layouts.Details.sectionLabel"
+        />
+      }
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <Memo(Connect(WithSimplifyResaga(Name)))
+              variant={null}
+            />
+            <WithStyles(Connect(WithSimplifyResaga(Number)))
+              variant={null}
+            />
+          </WithStyles(GridContainer)>
+          <WithStyles(GridContainer)>
+            <Memo(Connect(WithSimplifyResaga(SupplierName)))
+              variant={null}
+            />
+            <WithStyles(Connect(WithSimplifyResaga(PassengerCount)))
+              variant={null}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Section)>
+  }
+  variant={null}
+/>
+`;
+
+exports[`<FlightBookingDetails /> #renderDefault() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <ConnectFunction
+        variant="editableHeadingForm"
+      />
+      <ConnectFunction
+        variant={null}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(PassengerCount)))
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingDetails /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    title={
+      <FormattedMessage
+        defaultMessage="Details"
+        id="app.Event.FlightBooking.layouts.Details.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            variant={null}
+          />
+          <WithStyles(Connect(WithSimplifyResaga(Number)))
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+        <WithStyles(GridContainer)>
+          <ConnectFunction
+            variant={null}
+          />
+          <WithStyles(Connect(WithSimplifyResaga(PassengerCount)))
+            variant={null}
+          />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;

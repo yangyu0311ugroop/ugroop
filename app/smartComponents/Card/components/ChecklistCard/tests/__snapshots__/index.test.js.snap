@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistCard /> handleGetTimes() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Users",
+    "getChecklists",
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "ids": Array [
+          1,
+          2,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ChecklistCard /> handleGetTimesSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "timeNodes": "timeReducer",
+      "times": Array [
+        "0",
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+      ],
+    },
+  ],
+]
+`;
+
+exports[`<ChecklistCard /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Header)
+        expanded={true}
+        iconColor="warning"
+        isLoading={false}
+        onClickToggle={[Function]}
+        renderIcon="lnr-clock3"
+        renderTitle="Up Next"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(ForwardRef(Collapse))
+      in={true}
+      transitionduration="auto"
+      unmountOnExit={true}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <div>
+          <div>
+            <div>
+              Nothing to see yet
+            </div>
+          </div>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(ForwardRef(Collapse))>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ChecklistCard /> renderLoading() should renderLoading 1`] = `
+<div>
+  <div>
+    <div>
+      <WithStyles(LoadingText) />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ChecklistCard /> renderTimes() should renderTimes 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={true}
+    id={1}
+    key="1"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={false}
+    id={2}
+    key="2"
+    prevId={1}
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Time)))
+    first={false}
+    id={3}
+    key="3"
+    prevId={2}
+  />
+</div>
+`;

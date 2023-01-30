@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BatchCreateDayRange /> #render() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="data.tempDayRange"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value={
+    Array [
+      1,
+    ]
+  }
+/>
+`;

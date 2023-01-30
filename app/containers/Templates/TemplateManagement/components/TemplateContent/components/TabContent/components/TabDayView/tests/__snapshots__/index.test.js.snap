@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabDayView /> handleClick() should handleClick 1`] = `<div />`;
+
+exports[`<TabDayView /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <Swipeable
+        onSwiped={[Function]}
+        onSwiping={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RenderDay)))))
+          dayId={0}
+          index={0}
+          isDayView={true}
+          isPublic={false}
+          showEventDetail={true}
+        />
+      </Swipeable>
+    </WithStyles(GridItem)>
+    <Hidden
+      mdUp={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+          smDown={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          filtered={true}
+          variant="card"
+        />
+      </WithStyles(GridItem)>
+    </Hidden>
+    <WithStyles(GridItem)>
+      <hr />
+      <WithStyles(withRouter(Connect(WithSimplifyResaga(Navigator))))
+        dayIds={
+          Array [
+            1,
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabDayView /> render() should render checklist only 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Day)))
+        dayId={0}
+        index={0}
+      />
+    </WithStyles(GridItem)>
+    <Hidden
+      mdUp={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+          smDown={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          filtered={true}
+          variant="card"
+        />
+      </WithStyles(GridItem)>
+    </Hidden>
+    <WithStyles(GridItem)>
+      <hr />
+      <WithStyles(withRouter(Connect(WithSimplifyResaga(Navigator))))
+        dayIds={
+          Array [
+            1,
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabDayView /> render() should render public only 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Day)))
+        dayId={0}
+        index={0}
+      />
+    </WithStyles(GridItem)>
+    <Hidden
+      mdUp={true}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+          smDown={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          filtered={true}
+          variant="card"
+        />
+      </WithStyles(GridItem)>
+    </Hidden>
+    <WithStyles(GridItem)>
+      <hr />
+      <WithStyles(withRouter(Connect(WithSimplifyResaga(Navigator))))
+        dayIds={
+          Array [
+            1,
+          ]
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<TabDayView /> scrolling() should scrolling() 1`] = `
+Array [
+  Array [
+    "scroller-node-2233",
+    Object {
+      "delay": 10,
+      "duration": 0,
+      "offset": -150,
+      "smooth": true,
+    },
+  ],
+]
+`;
+
+exports[`<TabDayView /> selectToday() should handleClick todayIndex 1 1`] = `
+Array [
+  Array [
+    1,
+  ],
+  Array [
+    1,
+  ],
+]
+`;
+
+exports[`<TabDayView /> selectToday() should handleClick todayIndex 2 1`] = `
+Array [
+  Array [
+    2,
+  ],
+  Array [
+    2,
+  ],
+]
+`;

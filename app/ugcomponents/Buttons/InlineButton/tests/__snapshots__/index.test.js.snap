@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    disabled={false}
+    inline={true}
+    type="button"
+  >
+    Button
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<InlineButton /> render() should render custom props 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    disabled={true}
+    inline={true}
+    type="button"
+  >
+    Button
+  </WithStyles(Button)>
+</div>
+`;

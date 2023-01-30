@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`confirmError.test should render the page properly when the query parameters are supplied, for "User already confirmed" messages (1) 1`] = `
+<P
+  className="para"
+>
+  Your email address has already been verified. Please
+   
+  <WithStyles(A)
+    href="/login?email=test%40example.com"
+  >
+    log in
+  </WithStyles(A)>
+  .
+</P>
+`;
+
+exports[`confirmError.test should render the page properly when the query parameters are supplied, for "User already confirmed" messages (2) 1`] = `
+<P
+  className="para"
+>
+  Your email address has already been verified. Please
+   
+  <WithStyles(A)
+    href="/login?email=test%40example.com"
+  >
+    log in
+  </WithStyles(A)>
+  .
+</P>
+`;

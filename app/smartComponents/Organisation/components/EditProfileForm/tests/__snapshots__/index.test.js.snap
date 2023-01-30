@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditProfileForm /> handleSubmit() should call dispatchTo with particular param shape 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "patchOrg",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "location": Object {
+            "address": "manila",
+            "placeId": "test",
+          },
+          "name": undefined,
+          "preference": Object {
+            "timezone": "",
+          },
+          "typeId": 1,
+          "website": undefined,
+        },
+        "id": 1,
+      },
+    },
+  ],
+  Array [
+    "Organisations",
+    "patchOrg",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "location": Object {
+            "address": "manila",
+            "placeId": "test",
+          },
+          "name": undefined,
+          "preference": Object {
+            "timezone": "",
+          },
+          "typeId": 1,
+          "website": undefined,
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditProfileForm /> handleSubmitSuccess() should call openSuccessSnackbar helper 1`] = `
+Array [
+  Array [
+    "Successfully updated your information",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<EditProfileForm /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={true}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textField"
+      />
+      <Component
+        id={1}
+        variant="default"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        autoFocus={true}
+        handleChange={[Function]}
+        id={0}
+        required={true}
+        textFieldProps={
+          Object {
+            "disabled": undefined,
+          }
+        }
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textWithLabel"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          size="small"
+          type="submit"
+        >
+          <FormattedMessage
+            defaultMessage="Update profile"
+            id="app.smartComponents.Organisation.components.EditProfileForm.submitBtn"
+          />
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CARD_API_HELPERS /> CARD_NORMALISER.normaliseCreateCard dispatchTo still matches snapshot 1`] = `
+Object {
+  "payload": undefined,
+  "raw": Object {
+    "id": 99222,
+  },
+}
+`;
+
+exports[`<CARD_API_HELPERS /> CARD_NORMALISER.normaliseDeleteteCard dispatchTo still matches snapshot 1`] = `
+Object {
+  "payload": Object {
+    "id": 1,
+  },
+  "raw": Object {
+    "id": 99222,
+  },
+}
+`;
+
+exports[`<CARD_API_HELPERS /> CARD_NORMALISER.normaliseUpdateCard dispatchTo still matches snapshot 1`] = `
+Object {
+  "payload": undefined,
+  "raw": Object {
+    "id": 99222,
+  },
+}
+`;
+
+exports[`<CARD_API_HELPERS /> createCustomerCard dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Cards",
+    "createCustomerCard",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "data": Object {},
+        "id": 99222,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CARD_API_HELPERS /> deleteCustomerCard dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Cards",
+    "deleteCustomerCard",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "cardId": 1,
+        "id": 99222,
+        "isDefault": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CARD_API_HELPERS /> getCustomerCards dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Cards",
+    "getCustomerCards",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "id": 99222,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CARD_API_HELPERS /> updateCustomerCard dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Cards",
+    "updateCustomerCard",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "cardId": 1,
+        "data": Object {},
+        "id": 99222,
+      },
+    },
+  ],
+]
+`;

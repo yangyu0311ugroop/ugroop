@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompletedAt/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "completedAt": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+  },
+}
+`;

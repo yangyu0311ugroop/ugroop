@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGRichTextEditor component readOnly props should have another state when readOnly props is true 1`] = `""`;
+
+exports[`UGRichTextEditor component should render something 1`] = `
+<div
+  className="quill-edit"
+>
+  <WithStyles(CustomToolbar)
+    disableImgUpload={false}
+    readOnly={false}
+    toolBarAction={
+      Object {
+        "insertEmoij": [Function],
+        "insertImage": [Function],
+        "redo": undefined,
+        "undo": undefined,
+      }
+    }
+    toolBarId="ToolBar-toolid"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+    accept="image/*"
+    allowPaste={true}
+    disableClick={true}
+    onUpload={[Function]}
+    simple={true}
+    uploadLabel="Uploading..."
+    valueRef={[Function]}
+  >
+    <Quill
+      className=""
+      modules={
+        Object {
+          "history": Object {
+            "delay": 1000,
+            "maxStack": 500,
+            "userOnly": true,
+          },
+          "toolbar": Object {
+            "container": "#ToolBar-toolid",
+            "handlers": Object {
+              "redo": [Function],
+              "undo": [Function],
+            },
+            "syntax": true,
+          },
+        }
+      }
+      onChange={[Function]}
+      readOnly={false}
+      theme="snow"
+      value="abcd"
+    />
+  </WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))>
+</div>
+`;

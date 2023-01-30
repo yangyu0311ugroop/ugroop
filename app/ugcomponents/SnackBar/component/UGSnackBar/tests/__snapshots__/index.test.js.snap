@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGSnackbar component should not render the icon when not present 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  autoHideDuration={10000}
+  className=""
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(Messaging)
+    content=""
+    icon={null}
+    onClose={[MockFunction]}
+    textClassName=""
+    type="info"
+  />
+</WithStyles(ForwardRef(Snackbar))>
+`;
+
+exports[`UGSnackbar component should render material-ui snackbar 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  autoHideDuration={10000}
+  className=""
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(Messaging)
+    content=""
+    onClose={[MockFunction]}
+    textClassName=""
+    type="info"
+  />
+</WithStyles(ForwardRef(Snackbar))>
+`;
+
+exports[`UGSnackbar component should render the icon when present 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  anchorOrigin={
+    Object {
+      "horizontal": "left",
+      "vertical": "bottom",
+    }
+  }
+  autoHideDuration={10000}
+  className=""
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(Messaging)
+    content=""
+    icon={
+      <img
+        alt="Test"
+        src="/someimg.jpg"
+      />
+    }
+    onClose={[MockFunction]}
+    textClassName=""
+    type="info"
+  />
+</WithStyles(ForwardRef(Snackbar))>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleDialogForm /> #render() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  cancelFunc={[Function]}
+  confirmFunc={[Function]}
+  customChildren={
+    Object {
+      "content": <div
+        className="children"
+      >
+        Children
+      </div>,
+    }
+  }
+  disabled={false}
+  muiDialogProps={
+    Object {
+      "onClose": [Function],
+    }
+  }
+  open={true}
+  template="delete"
+/>
+`;

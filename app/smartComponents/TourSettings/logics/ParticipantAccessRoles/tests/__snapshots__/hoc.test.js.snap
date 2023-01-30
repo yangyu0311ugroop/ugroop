@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withParticipantAccessRoles #render() still matches snapshot 1`] = `
+<ConnectFunction>
+  <Component />
+</ConnectFunction>
+`;
+
+exports[`withParticipantAccessRoles #render() still matches snapshot inside render prop 1`] = `
+<div
+  key="1"
+>
+  <Component
+    resaga={Object {}}
+  />
+</div>
+`;

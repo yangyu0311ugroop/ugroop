@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(IconButton)
+        className=""
+        disableRipple={true}
+        disableTriggerFocus={true}
+        title="Show Checklists"
+      >
+        <div>
+          <BadgeProgress
+            id={0}
+            variant="outstandingshort"
+          />
+        </div>
+      </WithStyles(IconButton)>
+      <WithStyles(Icon)
+        className=""
+        icon="ug-pin-3"
+        size="medium"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

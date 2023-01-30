@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hazards /> render() should render 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      renderHazard
+      renderHazard
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;
+
+exports[`<Hazards /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      card={true}
+      dashed={true}
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-warning"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              Add a risk & hazard to describe causes, control measures as long as likelihood and impact, responsibility, etc.
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;
+
+exports[`<Hazards /> renderHazard() should renderHazard 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Hazard)))
+      id={1}
+      index={22}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

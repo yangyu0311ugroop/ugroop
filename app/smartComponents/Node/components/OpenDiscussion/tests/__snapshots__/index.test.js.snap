@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OpenDiscussion /> className() should className 1`] = `<div />`;
+
+exports[`<OpenDiscussion /> handleClick() should DO_NOTHING 1`] = `
+<div>
+  For testing purpose, to indicate a function is doing nothing
+</div>
+`;
+
+exports[`<OpenDiscussion /> handleClick() should handleClick 1`] = `
+<div>
+  openDayComment
+</div>
+`;
+
+exports[`<OpenDiscussion /> render() should render 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmall"
+    title="Discussion Groups & Chat"
+    tooltipProps={
+      Object {
+        "placement": "bottom",
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="bubbles"
+          paddingLeft={false}
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      renderBadge
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderBadge() should renderBadge 1`] = `<div />`;
+
+exports[`<OpenDiscussion /> renderBadgeButton() should renderBadgeButton 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    className=""
+    offsetLeft={true}
+    offsetRight={true}
+    onClick={[Function]}
+    title="Discussion Groups & Chat"
+  >
+    renderReadOnly
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="black"
+    dense={true}
+    noPadding={true}
+    onClick={[Function]}
+    size="extraSmall"
+    title="Discussion Groups & Chat"
+    tooltipProps={
+      Object {
+        "placement": "bottom",
+      }
+    }
+  >
+    renderReadOnly
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderInline() should renderInline 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    onClick={[Function]}
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        Chat
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="bubbles"
+          paddingLeft={true}
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      renderBadge
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderReadOnly() should renderReadOnly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="bubbles"
+        paddingLeft={false}
+        size="small"
+      />
+    </WithStyles(GridItem)>
+    renderBadge
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderUnresolvedTopics() should renderUnresolvedTopics 1`] = `
+<div>
+  2 unread messages
+</div>
+`;
+
+exports[`<OpenDiscussion /> renderUnresolvedTopics() should return default 1`] = `
+<div>
+  Discussion Groups & Chat
+</div>
+`;

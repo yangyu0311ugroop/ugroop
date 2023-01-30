@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeclineInvitation /> should render Decline Invitation Page 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+  justify="space-between"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <withRouter(WithStyles(Logo))
+      tinting={true}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)
+        direction="column"
+        justify="space-between"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(H3)>
+                <FormattedMessage
+                  defaultMessage="Invitation Decline"
+                  id="app.containers.Notification.DeclineInvitation.invitationDecline"
+                />
+              </WithStyles(H3)>
+              <WithStyles(Hr) />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <GenericForm
+                canSubmitForm={true}
+                cancelButtonContent="Discard"
+                disabled={false}
+                discardDialogProps={Object {}}
+                loading={false}
+                onInvalid={[Function]}
+                onValid={[Function]}
+                onValidSubmit={[Function]}
+                showChangeRoutePrompt={false}
+                submitButtonContent="Submit"
+              >
+                <FormsyInterceptor
+                  autoFocus={true}
+                  label={
+                    <FormattedMessage
+                      defaultMessage="Enter reason for declining"
+                      id="app.containers.Notification.DeclineInvitation.enterReason"
+                    />
+                  }
+                  name="content"
+                  onInterceptValue={[Function]}
+                  type="text"
+                  value=""
+                />
+                <div>
+                  <WithStyles(Button)
+                    disabled={false}
+                    type="submit"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Send my reason"
+                      id="app.containers.Notification.DeclineInvitation.sendMyReason"
+                    />
+                  </WithStyles(Button)>
+                  <withRouter(UGLink)
+                    to="/"
+                  >
+                    <WithStyles(Button)>
+                      <FormattedMessage
+                        defaultMessage="Skip"
+                        id="app.containers.Notification.DeclineInvitation.skip"
+                      />
+                    </WithStyles(Button)>
+                  </withRouter(UGLink)>
+                </div>
+              </GenericForm>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(H6)>
+            <FormattedMessage
+              defaultMessage="Please note that this invitation will expire in 7 days."
+              id="app.containers.Notification.DeclineInvitation.pleaseNote"
+            />
+          </WithStyles(H6)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)
+        direction="column"
+        justify="space-between"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(H6)>
+            <FormattedMessage
+              defaultMessage="For general inquiries or to request support with your account, please email us at {infoAd}."
+              id="app.containers.Notification.DeclineInvitation.forInquiries"
+              values={
+                Object {
+                  "infoAd": <a
+                    href="mailto:info@ugroop.com.au"
+                  >
+                    <b>
+                      info@ugroop.com.au
+                    </b>
+                  </a>,
+                }
+              }
+            />
+          </WithStyles(H6)>
+          <WithStyles(Hr) />
+          <div>
+            <div>
+              <withRouter(UGLink)
+                to="/privacy"
+              >
+                <WithStyles(H6)>
+                  <FormattedMessage
+                    defaultMessage="Privacy Policy"
+                    id="app.containers.Notification.DeclineInvitation.privacyPolicy"
+                  />
+                </WithStyles(H6)>
+              </withRouter(UGLink)>
+              <withRouter(UGLink)
+                to="#"
+              >
+                <WithStyles(H6)>
+                  <FormattedMessage
+                    defaultMessage="Contact Us"
+                    id="app.containers.Notification.DeclineInvitation.contactUs"
+                  />
+                </WithStyles(H6)>
+              </withRouter(UGLink)>
+              <withRouter(UGLink)
+                to="/terms-of-service"
+              >
+                <WithStyles(H6)>
+                  <FormattedMessage
+                    defaultMessage="Terms of Service"
+                    id="app.containers.Notification.DeclineInvitation.termsOfService"
+                  />
+                </WithStyles(H6)>
+              </withRouter(UGLink)>
+            </div>
+            <WithStyles(H6)>
+              <FormattedMessage
+                defaultMessage="© 2017 uGroop. All Rights Reserved"
+                id="app.containers.Notification.DeclineInvitation.copyright"
+              />
+            </WithStyles(H6)>
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<DeclineInvitation /> should render error 1`] = `
+<WithStyles(H3)>
+  ERROR MESSAGE
+</WithStyles(H3)>
+`;
+
+exports[`<DeclineInvitation /> should render properly 1`] = `
+<withRouter(WithStyles(Connect(WithSimplifyResaga(TokenResolver))))
+  onSuccess={[Function]}
+/>
+`;

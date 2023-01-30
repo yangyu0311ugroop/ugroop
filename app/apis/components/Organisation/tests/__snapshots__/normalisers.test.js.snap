@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ORGANISATION_NORMALISERS addOrganisation should return particular object shape 1`] = `
+Object {
+  "details": [Function],
+  "files": [Function],
+  "locations": [Function],
+  "organisationNode": [Function],
+  "organisations": [Function],
+  "origin": Object {
+    "metaInfo": Object {},
+    "photo": "photo",
+  },
+  "photos": [Function],
+  "preferenceData": undefined,
+  "preferences": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS addRoles should return particular object shape 1`] = `
+Object {
+  "connectedMembers": [Function],
+  "files": [Function],
+  "members": [Function],
+  "organisationShares": [Function],
+  "organisations": [Function],
+  "pendingInvitationIds": Array [
+    undefined,
+  ],
+  "people": [Function],
+  "raw": Object {
+    "confirmed": Array [
+      Object {
+        "orgId": 1,
+        "userId": 1,
+      },
+    ],
+    "pending": Array [
+      Object {
+        "orgId": 1,
+        "role": "guest",
+        "userId": 1,
+      },
+    ],
+  },
+  "roles": [Function],
+  "shares": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS batchAddRoles should return a particular object 1`] = `
+Object {
+  "connectedMembers": [Function],
+  "files": [Function],
+  "members": [Function],
+  "organisationShares": [Function],
+  "organisations": [Function],
+  "pendingInvitationIds": [Function],
+  "people": [Function],
+  "raw": [Function],
+  "roles": [Function],
+  "shares": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS normaliseCreateOrganisation should return particular object shape 1`] = `
+Object {
+  "id": 2233,
+  "orgUsers": [Function],
+  "organisations": [Function],
+  "users": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS normaliseGetPerson should return particular object shape 1`] = `
+Object {
+  "inviteeId": null,
+  "inviteeOrgId": 0,
+  "inviteeToken": null,
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS normaliseGetPerson should return particular object shape user invitaion is from other organisation 1`] = `
+Object {
+  "inviteeId": null,
+  "inviteeOrgId": null,
+  "inviteeToken": null,
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS normaliseInvitationAction should return particular object shape 1`] = `
+Object {
+  "organisationShares": [Function],
+  "organisations": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS removeMember should return particular object shape 1`] = `
+Object {
+  "members": [Function],
+  "roles": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS replaceArray should return particular object shape 1`] = `
+Object {
+  "223": "223",
+  "orgUser": Object {
+    "some": "thing",
+  },
+  "organisation": Object {
+    "createdBy": 123,
+    "id": 2233,
+  },
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS setupTour should return particular object shape 1`] = `
+Object {
+  "organisationNode": [Function],
+  "organisations": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS updateMembers should return particular object shape 1`] = `
+Object {
+  "members": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS updateOrganisation should return particular object shape 1`] = `
+Object {
+  "details": [Function],
+  "files": [Function],
+  "locations": [Function],
+  "organisations": [Function],
+  "photos": [Function],
+  "preferences": [Function],
+  "result": Object {
+    "metaInfo": Object {},
+    "photo": "photo",
+  },
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS updateRoles should return particular object shape 1`] = `
+Object {
+  "members": [Function],
+}
+`;
+
+exports[`ORGANISATION_NORMALISERS updateShares should return particular object shape 1`] = `Object {}`;
+
+exports[`ORGANISATION_NORMALISERS updateShares should return particular object shape 2`] = `
+Object {
+  "organisationShares": [Function],
+  "organisations": [Function],
+  "shares": [Function],
+}
+`;

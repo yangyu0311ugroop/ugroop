@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participants /> #handleAddButtonClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "participantCreateMode": null,
+    "participantCreateOpen": true,
+    "participantCreateParentNodeId": null,
+    "participantWithRelationship": true,
+  },
+}
+`;
+
+exports[`<Participants /> #handleAddButtonClick() resaga.setValue still matches snapshot if readOnlyStatus 1`] = `
+Object {
+  "setValue": Object {
+    "participantCreateMode": "readOnlyStatus",
+    "participantCreateOpen": true,
+    "participantCreateParentNodeId": null,
+    "participantWithRelationship": true,
+  },
+}
+`;
+
+exports[`<Participants /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="flex-end"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)
+            Typography={[Function]}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H4
+            dense={true}
+          >
+            •
+          </H4>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            onClick={[Function]}
+            size="large"
+            variant="inline"
+          >
+            <H4
+              dense={true}
+              primary={true}
+              weight="bold"
+            >
+              <FormattedMessage
+                defaultMessage="Add new"
+                id="app.Node.parts.Participants.addNewLabel"
+              />
+            </H4>
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <H5
+            dense={true}
+            weight="bold"
+          >
+            With Defined Relationships
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <H5
+                dense={true}
+                fontStyle="italic"
+              >
+                <FormattedMessage
+                  defaultMessage="No {paxLabel} have been added."
+                  id="app.Node.parts.Participants.emptyLabel"
+                  values={
+                    Object {
+                      "paxLabel": undefined,
+                    }
+                  }
+                />
+              </H5>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+          <br />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5
+            dense={true}
+            weight="bold"
+          >
+            Without Defined Relationships
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+              canMove={false}
+              hasNoLink={true}
+              hideInviteButton={false}
+              hideRenderRowTail={true}
+              id={1}
+              key="1"
+              loading={false}
+              mode={null}
+              onRenderRowTail={[Function]}
+              readOnly={false}
+              readOnlyStatus={false}
+              showDetails={false}
+              templateId={null}
+              variant="row"
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participants /> #renderEditableValue() still matches snapshot if no value 1`] = `
+<WithStyles(GridItem)>
+  <H5
+    dense={true}
+    fontStyle="italic"
+  >
+    <FormattedMessage
+      defaultMessage="No {paxLabel} have been added."
+      id="app.Node.parts.Participants.emptyLabel"
+      values={
+        Object {
+          "paxLabel": undefined,
+        }
+      }
+    />
+  </H5>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participants /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(Tooltip)
+    title="1 participant has been added"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-user"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        1
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Tooltip)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Participants /> getBadgeClasses() should getBadgeClasses 1`] = `
+<div>
+  <Component />
+</div>
+`;

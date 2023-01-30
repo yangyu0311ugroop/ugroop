@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigator /> renderBottomNavigation() should render first 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      sm={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+        id={2}
+        index={1}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Navigator /> renderBottomNavigation() should render last 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      sm={12}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+        direction="previous"
+        id={2}
+        index={1}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Navigator /> renderBottomNavigation() should render middle 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+        direction="previous"
+        id={1}
+        index={0}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+        id={3}
+        index={2}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Navigator /> renderRouteNavigation() should renderRouteNavigation 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LegInfo)))))
+    id={1}
+    index={-1}
+    nextId={3}
+    nextIndex={-1}
+    prevId={2}
+    prevIndex={-1}
+  />
+</div>
+`;
+
+exports[`<Navigator /> renderTopNavigation() should render first 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            direction="previous"
+            disabled={true}
+            index={-1}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            disabled={false}
+            id={2}
+            index={1}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Navigator /> renderTopNavigation() should render last 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            direction="previous"
+            disabled={false}
+            id={2}
+            index={1}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            disabled={true}
+            index={3}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Navigator /> renderTopNavigation() should render middle and today 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            direction="previous"
+            disabled={false}
+            id={1}
+            index={0}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            id={2}
+            index={1}
+            label="Today"
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(DayNavigator)))
+            disabled={false}
+            id={3}
+            index={2}
+            minimise={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

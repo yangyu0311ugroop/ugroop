@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateShare/config.test value should match snapshot 1`] = `
+Object {
+  "ownerId": [Function],
+  "shareDialog": Array [
+    "templateManagementView",
+    "shareDialog",
+  ],
+  "transferDialog": Array [
+    "templateManagementView",
+    "transferDialog",
+  ],
+}
+`;

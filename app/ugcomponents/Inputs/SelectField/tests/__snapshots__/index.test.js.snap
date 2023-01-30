@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectField /> #getSelectClasses() still matches snapshot when disabled 1`] = `
+Object {
+  "icon": "iconDisabled",
+  "select": "select selectClassName",
+}
+`;
+
+exports[`<SelectField /> #render() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  disabled={false}
+  error={false}
+  fullWidth={true}
+  required={false}
+>
+  <WithStyles(ForwardRef(Select))
+    classes={
+      Object {
+        "icon": false,
+        "select": "select",
+      }
+    }
+    native={true}
+    onChange={[Function]}
+    value="value"
+  >
+    <option
+      key="x"
+      value="x"
+    >
+      display
+    </option>
+  </WithStyles(ForwardRef(Select))>
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`<SelectField /> #renderHelperText() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(FormHelperText))>
+  Some error message
+</WithStyles(ForwardRef(FormHelperText))>
+`;
+
+exports[`<SelectField /> #renderLabel() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(InputLabel))
+  shrink={true}
+>
+  Some label
+</WithStyles(ForwardRef(InputLabel))>
+`;
+
+exports[`<SelectField /> #renderNone() still matches snapshot 1`] = `
+<option
+  value={0}
+>
+  None
+</option>
+`;

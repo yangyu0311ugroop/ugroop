@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabOther /> handleClick should call ifFunction of logic helpers 1`] = `
+Array [
+  Array [
+    undefined,
+    Array [
+      "tabother",
+      0,
+    ],
+  ],
+]
+`;
+
+exports[`<TabOther /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(TableRow)
+    key="0"
+  >
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Button)
+        color="black"
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+        variant="inline"
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          id={0}
+          truncateLength={40}
+          variant="textOnly"
+        />
+      </WithStyles(Button)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Type)))
+        id={0}
+        variant=""
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <span>
+        <strong>
+          (
+          <WithStyles(Connect(WithSimplifyResaga(Type)))
+            id={0}
+          />
+          )
+        </strong>
+         
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          id={0}
+          truncateLength={40}
+          variant="textOnly"
+        />
+      </span>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(UpdatedAt)))
+        id={0}
+        variant=""
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <Hover>
+        <Component />
+      </Hover>
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<TabOther /> render() should render hover correctly 1`] = `
+<Fragment>
+  <WithStyles(Button)
+    color="black"
+    noPadding={true}
+    size="extraSmall"
+    textAlign="left"
+    variant="inline"
+  >
+    <span>
+      <Component
+        variant="stringOnly"
+      />
+      <Component
+        id={0}
+        variant="stringOnly"
+      />
+    </span>
+  </WithStyles(Button)>
+  <WithStyles(ForwardRef(Popover))>
+    <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+      orgId={0}
+    />
+  </WithStyles(ForwardRef(Popover))>
+</Fragment>
+`;

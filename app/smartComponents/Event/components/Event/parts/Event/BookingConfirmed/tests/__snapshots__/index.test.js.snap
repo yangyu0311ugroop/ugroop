@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingConfirmed /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  dataId={null}
+  key="value"
+  renderEvent={[Function]}
+  renderFlight={[Function]}
+  renderTransportation={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderEvent() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderIcon={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderIcon() still matches snapshot 1`] = `
+<WithStyles(BookingConfirmed)
+  iconOnly={true}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderPart() still matches snapshot 1`] = `
+<Component
+  dataId={null}
+  formSubtype={null}
+  formType={null}
+  id={null}
+  value="value"
+  variant={null}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderTooltip() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(BookingConfirmed)
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<BookingConfirmed /> renderFlightBookingConfirmed should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    dataId={null}
+    formSubtype={null}
+    formType={null}
+    id={null}
+    value="value"
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<BookingConfirmed /> renderFlightBookingConfirmed() should renderFlightBookingConfirmed 1`] = `
+<div>
+  <ConnectFunction
+    dataId={null}
+    formSubtype={null}
+    formType={null}
+    id={null}
+    value="value"
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<BookingConfirmed /> renderTransportationBookingConfirmed should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    dataId={null}
+    formSubtype={null}
+    formType={null}
+    id={null}
+    value="value"
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<BookingConfirmed /> renderTransportationBookingConfirmed() should renderTransportationBookingConfirmed 1`] = `
+<div>
+  <ConnectFunction
+    dataId={null}
+    formSubtype={null}
+    formType={null}
+    id={null}
+    value="value"
+    variant={null}
+  />
+</div>
+`;

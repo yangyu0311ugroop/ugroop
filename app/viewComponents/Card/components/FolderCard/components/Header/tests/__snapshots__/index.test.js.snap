@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render should match snapshot 1`] = `
+<Link
+  to="baseUrl?current=1"
+>
+   
+  <WithStyles(UGCardHeaderFolder)
+    imageList={
+      Array [
+        "image",
+      ]
+    }
+    subfolderCount={3}
+    tourCount={2}
+  >
+    content
+  </WithStyles(UGCardHeaderFolder)>
+</Link>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content/config.js Smoke Test should match snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "seeDetail": Array [
+      "templateManagementView",
+      "seeDetail",
+    ],
+  },
+  "value": Object {
+    "completedFromMe": Array [
+      "invitationStore",
+      "completedFromMe",
+    ],
+    "completedToMe": Array [
+      "invitationStore",
+      "completedToMe",
+    ],
+    "received": Array [
+      "invitationStore",
+      "toMe",
+    ],
+    "seeDetail": Array [
+      "templateManagementView",
+      "seeDetail",
+    ],
+    "sent": Array [
+      "invitationStore",
+      "fromMe",
+    ],
+    "show": [Function],
+    "showCompleted": [Function],
+  },
+}
+`;

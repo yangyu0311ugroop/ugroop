@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BadgeProgress /> color() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    "success",
+    "default",
+  ],
+]
+`;
+
+exports[`<BadgeProgress /> progressBarPrimaryColor() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    false,
+    undefined,
+    undefined,
+  ],
+]
+`;
+
+exports[`<BadgeProgress /> render() renderUpNext() should renderUpNext no task 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    title="renderTitle"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-list3"
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+       
+      0 tasks
+       
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<BadgeProgress /> render() renderUpNext() should renderUpNext w tasks 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    title="renderTitle"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-list3"
+        size="xsmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+       
+      <span>
+        0
+         of 
+        5
+      </span>
+       
+    </WithStyles(GridItem)>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridItem)>
+        <span
+          title="renderTitle"
+        >
+          <WithStyles(ForwardRef(LinearProgress))
+            className=""
+            classes={
+              Object {
+                "barColorPrimary": "",
+                "colorPrimary": undefined,
+              }
+            }
+            value={0}
+            variant="determinate"
+          />
+        </span>
+      </WithStyles(GridItem)>
+    </Hidden>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<BadgeProgress /> render() should renderIconButton 1`] = `
+<div>
+  renderIconButton
+</div>
+`;
+
+exports[`<BadgeProgress /> render() should renderTotal w tasks 1`] = `
+<div>
+  renderTotal
+</div>
+`;
+
+exports[`<BadgeProgress /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    className="456"
+    onClick={[Function]}
+  >
+    123
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderCompletedMessage() should render correctly 1`] = `
+<div>
+  <span
+    className=""
+  >
+    Everything in this list is complete!
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderDefault() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <span
+        className=""
+      >
+        <WithStyles(Icon)
+          icon="square"
+          paddingRight={true}
+          size="small"
+        />
+      </span>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <span
+        className=""
+      >
+        5
+        /
+        9
+      </span>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderIcon() should render correctly 1`] = `
+<div>
+  <span
+    className=""
+  >
+    <WithStyles(Icon)
+      icon="square"
+      paddingRight={true}
+      size="small"
+    />
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderOutstandingShort() should return renderOutstandingShort 1`] = `
+<div>
+  <WithStyles(Icon)
+    bold={true}
+    color="success"
+    icon="lnr-check"
+    size="normal"
+  />
+</div>
+`;
+
+exports[`<BadgeProgress /> renderPercentage() should render correctly 1`] = `
+<div>
+  <span>
+    80
+    %
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderProgressBar() should render correctly 1`] = `
+<div>
+  <span
+    title="0 tasks: 0/80% completed, 0 remaining"
+  >
+    <WithStyles(ForwardRef(LinearProgress))
+      className=""
+      classes={
+        Object {
+          "barColorPrimary": "",
+          "colorPrimary": undefined,
+        }
+      }
+      value={80}
+      variant="determinate"
+    />
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderRemaining() should render if showCompletedMessage 1`] = `
+<div>
+  <span
+    className=""
+  >
+    All tasks completed
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderRemaining() should renderRemaining 1`] = `
+<div>
+  <span
+    className=""
+  >
+    <Hidden
+      xsDown={true}
+    >
+      3
+       
+      remaining
+       
+       
+    </Hidden>
+    <Hidden
+      smUp={true}
+    >
+      3
+       
+       
+    </Hidden>
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderRemaining() should return null if !total 1`] = `
+<div>
+  <span
+    className=""
+  >
+    No tasks
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderSummary() should renderSummary 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+  >
+    <WithStyles(GridItem)>
+      renderButton
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      className=""
+    >
+      renderButton
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<BadgeProgress /> renderText() should render correctly 1`] = `
+<div>
+  <span
+    className=""
+  >
+    5
+    /
+    9
+  </span>
+</div>
+`;
+
+exports[`<BadgeProgress /> text() should call LOGIC_HELPERS.ifElse 1`] = `
+Array [
+  Array [
+    true,
+    "tasks",
+    "task",
+  ],
+]
+`;

@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Organisation /> componentDidMount() should call orgInfoSuccess 1`] = `
+Array [
+  Array [
+    2233,
+  ],
+]
+`;
+
+exports[`<Organisation /> componentWillReceiveProps() should call orgInfoSuccess 1`] = `
+Array [
+  Array [
+    3344,
+  ],
+]
+`;
+
+exports[`<Organisation /> getOrgSuccess() should call resaga.dispatchTo 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "getOrganisation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 2233,
+      },
+    },
+  ],
+  Array [
+    "Organisations",
+    "getOrgMembers",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "activated": "",
+        "id": 2233,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Organisation /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <Sticky
+              activeClass="active"
+              bottomBoundary="#LayoutContent"
+              enableTransforms={true}
+              enabled={true}
+              onStateChange={null}
+              releasedClass="released"
+              shouldFreeze={[Function]}
+              top={60}
+            >
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/org-info"
+                  >
+                    Profile
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/roles"
+                  >
+                    Roles
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/preferences"
+                  >
+                    Preferences
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <NavLink
+                    to="undefined/billings"
+                  >
+                    Billing
+                  </NavLink>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Hr)
+                      half={true}
+                    />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    Other Organisations
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(OrganisationList))))))
+                      canCreate={false}
+                      excludeOrg={
+                        Array [
+                          2233,
+                          -1,
+                        ]
+                      }
+                      overlay={true}
+                      redirectToUrl={[Function]}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </Sticky>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className=""
+          >
+            <Switch>
+              <Route
+                path="undefined/org-info"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/school"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/roles"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/preferences"
+                render={[Function]}
+              />
+              <Route
+                path="undefined/billings"
+                render={[Function]}
+              />
+              <Route
+                path="*"
+                render={[Function]}
+              />
+            </Switch>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Organisation /> render() should render loading if isLoading is true 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(LoadingText) />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Organisation /> render() should render unathorised if errorLoading is true 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <FormattedMessage
+        defaultMessage="OOPS! SOMETHING WENT WRONG, Please refresh the page."
+        id="app.containers.Profile.Organisation.unKnownError"
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

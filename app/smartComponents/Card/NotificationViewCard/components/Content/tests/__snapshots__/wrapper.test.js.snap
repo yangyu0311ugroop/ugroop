@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification View Card - ContentWrapper content 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper content instance2 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper isSameDay instance2 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper render 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        id={1}
+        size="imageExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        id={1}
+        simple={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Notification View Card - ContentWrapper renderDayHeader 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper renderReadButton 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper renderReadButton with unread status 1`] = `undefined`;
+
+exports[`Notification View Card - ContentWrapper renderReadButton with unread status 2`] = `undefined`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayDurationInput /> #render() still matches snapshot 1`] = `
+<Formsy(WithStyles(SelectField))
+  innerRef={[Function]}
+  name="tempDay"
+  options={Array []}
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value="P0D"
+/>
+`;

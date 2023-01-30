@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGCardFooter /> component should accept children component 1`] = `
+<div
+  className="UGCardFooter-cardFooter"
+>
+  <sampleComponent />
+</div>
+`;
+
+exports[`<UGCardFooter /> component should accept children text and display it 1`] = `
+<div
+  className="UGCardFooter-cardFooter"
+>
+  Jesus said to him, “I am the way, and the truth, and the life. No one comes to the Father except through me.
+</div>
+`;
+
+exports[`<UGCardFooter /> component should accept className for easy extending the component 1`] = `
+<div
+  className="UGCardFooter-cardFooter card-footer"
+/>
+`;
+
+exports[`<UGCardFooter /> component should have card-footer class even without className being specified 1`] = `
+<div
+  className="UGCardFooter-cardFooter"
+>
+  <sampleContent />
+</div>
+`;

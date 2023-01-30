@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Activity /> handleClick should call ifFunction and pass the needed params if parent type is not tab 1`] = `
+Array [
+  Array [
+    undefined,
+    Array [
+      "",
+      0,
+    ],
+  ],
+]
+`;
+
+exports[`<Activity /> handleClick should call ifFunction and pass the needed params if parent type is tab 1`] = `
+Array [
+  Array [
+    undefined,
+    Array [
+      "tabtimeline",
+      0,
+    ],
+  ],
+]
+`;
+
+exports[`<Activity /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(TableRow)
+    key="0"
+  >
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Tooltip)
+        isLight={true}
+        placement="left"
+        title={
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+            id={0}
+            variant="readOnly"
+          />
+        }
+      >
+        <WithStyles(Button)
+          color="black"
+          noPadding={true}
+          onClick={[Function]}
+          size="extraSmall"
+          textAlign="left"
+          variant="inline"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            hasTruncate={true}
+            id={0}
+            truncateLength={40}
+            variant="textOnly"
+          />
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Type)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Button)
+        color="black"
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+        variant="inline"
+      >
+        <span>
+           
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            addonText=""
+            id={0}
+            truncateLength={40}
+            variant="textOnly"
+          />
+        </span>
+      </WithStyles(Button)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(UpdatedAt)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <Hover>
+        <Component />
+      </Hover>
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<Activity /> render() should render correctly if parent type is day 1`] = `
+<div>
+  <WithStyles(TableRow)
+    key="0"
+  >
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Tooltip)
+        isLight={true}
+        placement="left"
+        title={
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+            id={0}
+            variant="readOnly"
+          />
+        }
+      >
+        <WithStyles(Button)
+          color="black"
+          noPadding={true}
+          onClick={[Function]}
+          size="extraSmall"
+          textAlign="left"
+          variant="inline"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            hasTruncate={true}
+            id={0}
+            truncateLength={40}
+            variant="textOnly"
+          />
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Type)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <WithStyles(Button)
+        color="black"
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+        variant="inline"
+      >
+        <span>
+          <strong>
+            (Day 
+            <WithStyles(Connect(WithSimplifyResaga(DayIndex)))
+              id={0}
+            />
+            )
+          </strong>
+           
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            addonText={
+              <React.Fragment>
+                <strong>
+                  (Day 
+                  <WithStyles(Connect(WithSimplifyResaga(DayIndex)))
+                    id={0}
+                  />
+                  )
+                </strong>
+              </React.Fragment>
+            }
+            id={0}
+            truncateLength={40}
+            variant="textOnly"
+          />
+        </span>
+      </WithStyles(Button)>
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(UpdatedAt)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)
+      isCapitalized={true}
+    >
+      <Hover>
+        <Component />
+      </Hover>
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;
+
+exports[`<Activity /> render() should render description correctly if description does exist 1`] = `<div />`;
+
+exports[`<Activity /> render() should render description correctly if description does exist 2`] = `<div />`;
+
+exports[`<Activity /> render() should render hover correctly if userId does not exist 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    noPadding={true}
+    size="extraSmall"
+    textAlign="left"
+    variant="inline"
+  >
+    <span>
+      <Component
+        id={1}
+        variant="stringOnly"
+      />
+      <Component
+        id={0}
+        variant="stringOnly"
+      />
+    </span>
+  </WithStyles(Button)>
+  <WithStyles(ForwardRef(Popover))>
+    <WithStyles(Connect(WithSimplifyResaga(UserCard)))
+      id={1}
+      orgId={0}
+    />
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;
+
+exports[`<Activity /> render() should render jpver correctly if userId exist 1`] = `<div />`;
+
+exports[`<Activity /> renderDroppedPhoto() should renderDroppedPhoto 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<Activity /> renderPhotoCard() should renderPhotoCard 1`] = `
+<div>
+  <Component />
+</div>
+`;

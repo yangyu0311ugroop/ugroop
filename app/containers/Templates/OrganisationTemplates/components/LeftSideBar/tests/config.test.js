@@ -1,0 +1,30 @@
+import { CONFIG } from '../config';
+
+describe('LeftSideBar/config.js', () => {
+  afterEach(() => jest.clearAllMocks());
+
+  describe('Smoke Test', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG).toBe('object');
+    });
+  });
+
+  describe('setValue', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG.setValue).toBe('object');
+    });
+  });
+
+  describe('value', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG.value).toBe('object');
+    });
+
+    describe('members', () => {
+      it('should exists', () => {
+        expect(typeof CONFIG.value.members).toBe('function');
+        expect(CONFIG.value.members({ organisationId: 123 })).toMatchSnapshot();
+      });
+    });
+  });
+});

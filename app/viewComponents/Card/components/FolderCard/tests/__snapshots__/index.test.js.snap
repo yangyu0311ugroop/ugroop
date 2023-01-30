@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderCard /> render should render card if isEditable is false 1`] = `
+<div>
+  <WithStyles(ForwardRef(Grid))
+    className="rootClassName"
+    item={true}
+    md={4}
+    xs={12}
+  >
+    renderCard
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`<FolderCard /> renderCard should not renderActions if showActions is false 1`] = `
+<div>
+  <div
+    className="TemplateCard-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        baseUrl="baseUrl"
+        content="Folder Parent"
+        folderCount={1}
+        id={1}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "cardImageUrl",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tourCount={1}
+      />
+      <WithStyles(FolderContent)
+        folderContent={
+          Array [
+            "folder",
+          ]
+        }
+        folderIds={
+          Array [
+            3,
+          ]
+        }
+        itemBaseUrl="baseUrl"
+        templateIds={
+          Array [
+            2,
+          ]
+        }
+        templateQueryParam="templateQueryParam"
+        tourContent={
+          Array [
+            "tour",
+          ]
+        }
+      />
+      <WithStyles(Footer)
+        actions=""
+        subfolderCount={1}
+        tourCount={1}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</div>
+`;
+
+exports[`<FolderCard /> renderCard should renderActions if showActions is true 1`] = `
+<div>
+  <div
+    className="TemplateCard-ugTemplateFolder"
+  >
+    <div />
+    <div />
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        baseUrl="baseUrl"
+        content="Folder Parent"
+        folderCount={1}
+        id={1}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "cardImageUrl",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tourCount={1}
+      />
+      <WithStyles(FolderContent)
+        folderContent={
+          Array [
+            "folder",
+          ]
+        }
+        folderIds={
+          Array [
+            3,
+          ]
+        }
+        itemBaseUrl="baseUrl"
+        templateIds={
+          Array [
+            2,
+          ]
+        }
+        templateQueryParam="templateQueryParam"
+        tourContent={
+          Array [
+            "tour",
+          ]
+        }
+      />
+      <WithStyles(Footer)
+        subfolderCount={1}
+        tourCount={1}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</div>
+`;
+
+exports[`<FolderCard /> renderCard should renderLoading and renderOverflow if isLoading is true 1`] = `
+<div>
+  <div
+    className="TemplateCard-ugTemplateFolder"
+  >
+    renderOverflow
+    renderLoading
+    <WithStyles(UGCard)
+      withBorder={false}
+    >
+      <WithStyles(Header)
+        baseUrl="baseUrl"
+        content="Folder Parent"
+        folderCount={1}
+        id={1}
+        images={
+          Array [
+            Object {
+              "key": 1,
+              "url": "cardImageUrl",
+            },
+            Object {
+              "key": 2,
+            },
+            Object {
+              "key": 3,
+            },
+          ]
+        }
+        tourCount={1}
+      />
+      <WithStyles(FolderContent)
+        folderContent={
+          Array [
+            "folder",
+          ]
+        }
+        folderIds={
+          Array [
+            3,
+          ]
+        }
+        itemBaseUrl="baseUrl"
+        templateIds={
+          Array [
+            2,
+          ]
+        }
+        templateQueryParam="templateQueryParam"
+        tourContent={
+          Array [
+            "tour",
+          ]
+        }
+      />
+      <WithStyles(Footer)
+        subfolderCount={1}
+        tourCount={1}
+      />
+    </WithStyles(UGCard)>
+  </div>
+</div>
+`;
+
+exports[`<FolderCard /> renderLoading should match snapshot 1`] = `
+<div>
+  <WithStyles(ForwardRef(CircularProgress))
+    className="TemplateCard-ugTemplateFolderLoading"
+  />
+</div>
+`;
+
+exports[`<FolderCard /> renderOverflow should match snapshot 1`] = `
+<div>
+  <div
+    className="TemplateCard-ugTemplateFolderOverride"
+  />
+</div>
+`;

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewInterestedPerson /> #handleDeleteConfirm() calls NODE_API_HELPERS.getTimes 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "removeNode",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "keyPath": "1.interestedPeople",
+        "newParentId": 1,
+        "nodeId": null,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ViewInterestedPerson /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(Component)
+    fullWidth={true}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <FormattedMessage
+            defaultMessage="Follower"
+            id="app.Containers.Templates.Modals.InterestedPerson.View.heading"
+          />
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="Detail"
+            id="app.Containers.Templates.Modals.InterestedPerson.View.headingBackground"
+          />
+        }
+        renderHeading={[Function]}
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <ConnectFunction
+        createdBy={null}
+        firstName={null}
+        id={null}
+        invitationPending={false}
+        lastName={null}
+        mode="forms"
+        noName={false}
+        onClose={[MockFunction]}
+        open={false}
+        participants={
+          Array [
+            2,
+          ]
+        }
+        readOnlyStatus={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        shareToken={null}
+        templateId={1}
+        userConnected={false}
+        userId={null}
+        userNodeId={null}
+        variant="editable"
+      />
+    </WithStyles(UGDialogContent)>
+    <WithStyles(Hr)
+      noMarginTop={true}
+    />
+    <WithStyles(UGDialogAction)
+      disableActionSpacing={true}
+      noPaddingTop={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="flex-end"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(EditableLabel)>
+            <FormattedMessage
+              defaultMessage="Organiser Note"
+              id="app.Containers.Templates.Modals.InterestedPerson.View.noteLabel"
+            />
+          </WithStyles(EditableLabel)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditableRTE)))))
+            createdBy={null}
+            dense={true}
+            emptyPlaceholder="Click to add note"
+            firstName={null}
+            id={null}
+            invitationPending={false}
+            lastName={null}
+            nodePath={
+              Array [
+                "customData",
+                "note",
+              ]
+            }
+            onClose={[MockFunction]}
+            open={false}
+            participants={
+              Array [
+                2,
+              ]
+            }
+            patch={true}
+            resaga={
+              Object {
+                "dispatchTo": [MockFunction],
+                "setValue": [MockFunction],
+              }
+            }
+            shareToken={null}
+            showHeader={false}
+            templateId={1}
+            userConnected={false}
+            userId={null}
+            userNodeId={null}
+            variant="editable"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        />
+        <WithStyles(GridItem)
+          key="delete"
+        >
+          <WithStyles(Button)
+            color="alert"
+            dense={true}
+            icon="lnr-trash2"
+            iconButton={true}
+            onClick={[Function]}
+            size="small"
+            title={
+              <FormattedMessage
+                defaultMessage="Remove Follower"
+                id="app.Containers.Templates.Modals.InterestedPerson.View.deleteButtonLabel"
+              />
+            }
+            variant="outline"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Status)))
+          createdBy={null}
+          firstName={null}
+          id={null}
+          invitationPending={false}
+          lastName={null}
+          onClose={[MockFunction]}
+          open={false}
+          participants={
+            Array [
+              2,
+            ]
+          }
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction],
+              "setValue": [MockFunction],
+            }
+          }
+          shareToken={null}
+          templateId={1}
+          userConnected={false}
+          userId={null}
+          userNodeId={null}
+          variant="actions"
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+  <InterestedPersonDeleteConfirmation
+    firstName={null}
+    lastName={null}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<ViewInterestedPerson /> #renderHeading() should call setValue 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+>
+  <WithStyles(GridItem)>
+    
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H5
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Received {date}"
+        id="app.Containers.Templates.Modals.InterestedPerson.View.subheadingPrefix"
+        values={
+          Object {
+            "addedBy": <WithStyles(Connect(WithSimplifyResaga(CreatedBy)))
+              createdBy={null}
+              firstName={null}
+              id={null}
+              invitationPending={false}
+              lastName={null}
+              onClose={[MockFunction]}
+              open={false}
+              participants={
+                Array [
+                  2,
+                ]
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              shareToken={null}
+              templateId={1}
+              userConnected={false}
+              userId={null}
+              userNodeId={null}
+              variant="textOnly"
+            />,
+            "date": <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+              createdBy={null}
+              firstName={null}
+              id={null}
+              invitationPending={false}
+              lastName={null}
+              onClose={[MockFunction]}
+              open={false}
+              participants={
+                Array [
+                  2,
+                ]
+              }
+              resaga={
+                Object {
+                  "dispatchTo": [MockFunction],
+                  "setValue": [MockFunction],
+                }
+              }
+              shareToken={null}
+              showFromNow={true}
+              templateId={1}
+              userConnected={false}
+              userId={null}
+              userNodeId={null}
+              variant="textOnly"
+            />,
+          }
+        }
+      />
+    </H5>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    xs={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(ParticipantViewLinkedUser)))
+      id={null}
+      invitationPending={false}
+      linkeeRole="interested_linkee"
+      role="tour_interested"
+      shareToken={null}
+      templateId={1}
+      userConnected={false}
+      userId={null}
+      userNodeId={null}
+    />
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<ViewInterestedPerson /> #upsertNodes() should call setValue 1`] = `Array []`;

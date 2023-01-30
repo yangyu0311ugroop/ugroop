@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicTabContainer should render what it should render 1`] = `
+<WithStyles(PublicTab)
+  label="What is it for a man to gain the whole world but loses his soul"
+/>
+`;

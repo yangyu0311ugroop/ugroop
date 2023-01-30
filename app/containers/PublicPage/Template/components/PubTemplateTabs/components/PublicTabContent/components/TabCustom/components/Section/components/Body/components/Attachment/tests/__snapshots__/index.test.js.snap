@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachment /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <span />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> render() should render with hasPhoto 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <div />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderContent() should render both 1`] = `
+<div>
+  <div>
+    <hr
+      className=""
+    />
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="lavender"
+          icon="lnr-paperclip"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderFileName
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        123 Bytes
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        hidden={
+          Object {
+            "smDown": true,
+          }
+        }
+      >
+        |
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          abccc
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Attachment /> renderContent() should render description 1`] = `
+<div>
+  <div>
+    <hr
+      className=""
+    />
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="lavender"
+          icon="lnr-paperclip"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderFileName
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        hidden={
+          Object {
+            "smDown": true,
+          }
+        }
+      >
+        |
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          abccc
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Attachment /> renderContent() should render empty span 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<Attachment /> renderContent() should render file size 1`] = `
+<div>
+  <div>
+    <hr
+      className=""
+    />
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="lavender"
+          icon="lnr-paperclip"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderFileName
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        123 Bytes
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Attachment /> renderFileName() should render link 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title="Click to Download"
+  >
+    <div>
+      <a
+        href="https://gateway-latest.ugroop.com/holla"
+        target="_blank"
+      >
+        hello
+      </a>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`<Attachment /> renderFileName() should render pending 1`] = `
+<div>
+  <div>
+    File Pending
+  </div>
+</div>
+`;

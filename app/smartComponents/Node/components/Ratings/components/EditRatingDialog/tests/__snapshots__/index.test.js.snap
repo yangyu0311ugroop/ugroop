@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditRatingDialog /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    loading={false}
+    onCancel={[MockFunction]}
+    onClose={[MockFunction]}
+    onValidSubmit="handleSubmit"
+    open={false}
+    renderFooter="renderDialogFooter"
+    renderHeader="renderDialogHeader"
+    size="xs"
+    submitButtonContent="Post"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(RatingForm)))
+      id={0}
+    />
+  </WithStyles(GenericForm)>
+</div>
+`;
+
+exports[`<EditRatingDialog /> renderDialogContent should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RatingForm)))
+    id={1}
+  />
+</div>
+`;
+
+exports[`<EditRatingDialog /> renderDialogFooter should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(DeleteRating)))
+          id={0}
+          loading={false}
+          onClose={[MockFunction]}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        cancelButton
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        submitButton
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EditRatingDialog /> renderDialogHeader should match snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading="Edit a review"
+  />
+  renderCloseButton
+</div>
+`;

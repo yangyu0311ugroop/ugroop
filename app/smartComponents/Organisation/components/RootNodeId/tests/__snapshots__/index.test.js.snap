@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RootNodeId /> render() should render correctly 1`] = `
+<div>
+  <Formsy(DataField)
+    currentValue={-1}
+    innerRef={[Function]}
+    name="rootNodeId"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={-1}
+  />
+</div>
+`;

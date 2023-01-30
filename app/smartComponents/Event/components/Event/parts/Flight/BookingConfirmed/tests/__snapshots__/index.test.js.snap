@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingConfirmed /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderIcon={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderIcon() still matches snapshot 1`] = `
+<WithStyles(BookingConfirmed)
+  iconOnly={true}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderPart() still matches snapshot 1`] = `
+<Component
+  value="value"
+  variant={null}
+/>
+`;
+
+exports[`<BookingConfirmed /> #renderTooltip() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(BookingConfirmed) />
+</WithStyles(GridItem)>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`viewComponents/People/MedicalIcon/style should match snapshot 1`] = `
+Object {
+  "cross": "-cross",
+  "gridIcon": "-gridIcon",
+  "mildIcon": "-mildIcon",
+  "moderateIcon": "-moderateIcon",
+  "severeIcon": "-severeIcon",
+}
+`;

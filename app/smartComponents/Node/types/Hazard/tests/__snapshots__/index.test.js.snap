@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hazard /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Head)>
+            #
+            NaN
+          </WithStyles(Head)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(RiskRating))) />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  xs={true}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+                    bold={true}
+                    editable={true}
+                    isCustomData={false}
+                    valueKey="content"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(DeleteNode)))
+                    noText={true}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(Likelihood)))
+                    editable={true}
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(Impact)))
+                    editable={true}
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="column"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Head)>
+                    Control Measures
+                  </WithStyles(Head)>
+                </WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+                  editable={true}
+                  noContent={
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(Icon)
+                          bold={true}
+                          color="warning"
+                          icon="lnr-warning"
+                          paddingRight={true}
+                          size="small"
+                        />
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        No control measure specified
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  }
+                  noPadding={true}
+                  placeholder="Elimination or Control Measures"
+                  showEmpty={true}
+                  valueKey="control"
+                />
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              editable={true}
+              showEmpty={true}
+              valueKey="responsibility"
+            >
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(NodeProp)))>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              editable={true}
+              showEmpty={true}
+              valueKey="when"
+            >
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(NodeProp)))>
+            <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+              editable={true}
+              showEmpty={true}
+              valueKey="done"
+            >
+              <Component />
+            </WithStyles(Connect(WithSimplifyResaga(NodeProp)))>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Hazard /> renderDone() should renderDone 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Head)>
+          Done
+        </WithStyles(Head)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderDone
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Hazard /> renderDone() should renderDone empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+      any notes about completion?
+    </WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Hazard /> renderResponsibility() should renderResponsibility 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Head)>
+          Responsibility
+        </WithStyles(Head)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderResponsibility
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Hazard /> renderResponsibility() should renderResponsibility empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+      who is responsible?
+    </WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Hazard /> renderWhen() should renderWhen 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Head)>
+          When
+        </WithStyles(Head)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderWhen
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Hazard /> renderWhen() should renderWhen empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+      when does this apply?
+    </WithStyles(Connect(WithSimplifyResaga(AddButton)))>
+  </WithStyles(GridItem)>
+</div>
+`;

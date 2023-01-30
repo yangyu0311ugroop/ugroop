@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CopyParticipant /> render() should render something different if userConnected is true 1`] = `
+<div>
+  <ConnectFunction
+    noPadding={true}
+    placement="bottom-end"
+    renderButton={[Function]}
+    value={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<CopyParticipant /> renderMoreButton renderMoreButton should return null 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "title": "More options",
+      }
+    }
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="small"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<CopyParticipant /> renderMorePopper renderMoreButton should return null 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <BoundCan
+      do="create"
+      on="participant"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          icon="lnr-copy"
+          onClick={[Function]}
+        >
+          Copy Participant
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </BoundCan>
+  </WithStyles(GridContainer)>
+</div>
+`;

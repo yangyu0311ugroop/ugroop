@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_LINKS value links should return keyPath for participantLinks 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "participantLinks",
+]
+`;
+
+exports[`smartComponents/Node/parts/Participants/config #value prevNodeIds keyPath should match snapshot 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "links",
+    1,
+    "prevNodeId",
+  ],
+  Array [
+    "nodeStore",
+    "links",
+    2,
+    "prevNodeId",
+  ],
+  Array [
+    "nodeStore",
+    "links",
+    3,
+    "prevNodeId",
+  ],
+]
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TokenResolver /> render() should render correctly 1`] = `<div />`;
+
+exports[`<TokenResolver /> resolveToken() should call resolveToken if exist 1`] = `
+Array [
+  Array [
+    "Invitations",
+    "getToken",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "tokenId": "abcd",
+      },
+    },
+  ],
+]
+`;

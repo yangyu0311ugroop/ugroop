@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserNodeActions render()   Should render correctly 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(withRouter(RemoveUser))))))))))))))
+    handleParentSuccess={null}
+    nodeId={1}
+    removeAll={true}
+    shareToUserId={1}
+    variant="default"
+  />
+</WithStyles(GridItem)>
+`;

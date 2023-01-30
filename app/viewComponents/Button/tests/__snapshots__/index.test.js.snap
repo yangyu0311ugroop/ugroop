@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button/tests/index.test.js Smoke tests should render properly 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js block button should be block 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button color should render alert color 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button color should render gray color 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button color should render gray color 2`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button color should render primary color 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button size should render large size 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button size should render small size 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button with tooltip should not render a tooltip 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js button with tooltip should render a tooltip 1`] = `
+<WithStyles(Tooltip)
+  enterDelay={700}
+  isLight={true}
+  placement="top"
+  title="Title"
+  tooltipProps={
+    Object {
+      "rest": Object {
+        "placement": "top",
+      },
+    }
+  }
+>
+  <WithStyles(ForwardRef(Button))
+    className=""
+    disableRipple={false}
+    disabled={false}
+  >
+    <span>
+      Title
+    </span>
+  </WithStyles(ForwardRef(Button))>
+</WithStyles(Tooltip)>
+`;
+
+exports[`Button/tests/index.test.js buttonStyle should render borderless 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js buttonStyle should render inline 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js buttonStyle should render transparent outline 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js dense button should be densed 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js disabled button should be disabled 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={true}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js icon button should render icon button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+  icon="folder"
+>
+  <WithStyles(Icon)
+    className=""
+    icon="folder"
+    size="base"
+  />
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js icon button should render large icon 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+  icon="folder"
+  large={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="folder"
+    size="base"
+  />
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js icon button should render small icon 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+  icon="folder"
+  small={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="folder"
+    size="base"
+  />
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js loading button should render loading button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={true}
+  disabled={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="loading"
+    size="base"
+  />
+  <div
+    className="undefined"
+  >
+    <span>
+      Title
+    </span>
+  </div>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js loading button should render outlineAlert or borderlessAlert loading button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={true}
+  disabled={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="loading"
+    size="base"
+  />
+  <div
+    className="undefined"
+  >
+    <span>
+      Title
+    </span>
+  </div>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js loading button should render outlineBase or borderlessBase loading button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={true}
+  disabled={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="loading"
+    size="base"
+  />
+  <div
+    className="undefined"
+  >
+    <span>
+      Title
+    </span>
+  </div>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js loading button should render outlineGray or borderlessGray loading button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={true}
+  disabled={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="loading"
+    size="base"
+  />
+  <div
+    className="undefined"
+  >
+    <span>
+      Title
+    </span>
+  </div>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js loading button should render outlinePrimary or borderlessPrimary loading button 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={true}
+  disabled={true}
+>
+  <WithStyles(Icon)
+    className=""
+    icon="loading"
+    size="base"
+  />
+  <div
+    className="undefined"
+  >
+    <span>
+      Title
+    </span>
+  </div>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js square button should be square 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  disableRipple={false}
+  disabled={false}
+>
+  <span>
+    Title
+  </span>
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`Button/tests/index.test.js style snapshot should match snapshot 1`] = `
+Object {
+  "@keyframes spin": "Button-@keyframes spin",
+  "base": "Button-base",
+  "baseIcon": "Button-baseIcon",
+  "block": "Button-block",
+  "bold": "Button-bold",
+  "borderless": "Button-borderless",
+  "borderlessAlert": "Button-borderlessAlert",
+  "borderlessBase": "Button-borderlessBase",
+  "borderlessGray": "Button-borderlessGray",
+  "borderlessPending": "Button-borderlessPending",
+  "borderlessPrimary": "Button-borderlessPrimary",
+  "borderlessYellow": "Button-borderlessYellow",
+  "buttonText": "Button-buttonText",
+  "dense": "Button-dense",
+  "dialog": "Button-dialog",
+  "extraSmall": "Button-extraSmall",
+  "extraSmallIcon": "Button-extraSmallIcon",
+  "iconRoot": "Button-iconRoot",
+  "inline": "Button-inline",
+  "large": "Button-large",
+  "largeIcon": "Button-largeIcon",
+  "light": "Button-light",
+  "loading": "Button-loading",
+  "loadingChild": "Button-loadingChild",
+  "loadingSpan": "Button-loadingSpan",
+  "noBorderRadius": "Button-noBorderRadius",
+  "noBoxShadow": "Button-noBoxShadow",
+  "noMargin": "Button-noMargin",
+  "noPadding": "Button-noPadding",
+  "normal": "Button-normal",
+  "outline": "Button-outline",
+  "outlineAlert": "Button-outlineAlert",
+  "outlineBase": "Button-outlineBase",
+  "outlineBlack": "Button-outlineBlack",
+  "outlineDarkgray": "Button-outlineDarkgray",
+  "outlineGray": "Button-outlineGray",
+  "outlinePending": "Button-outlinePending",
+  "outlinePrimary": "Button-outlinePrimary",
+  "outlineYellow": "Button-outlineYellow",
+  "root": "Button-root",
+  "small": "Button-small",
+  "smallIcon": "Button-smallIcon",
+  "square": "Button-square",
+  "standard": "Button-standard",
+  "standardAlert": "Button-standardAlert",
+  "standardBase": "Button-standardBase",
+  "standardBlack": "Button-standardBlack",
+  "standardGray": "Button-standardGray",
+  "standardInline": "Button-standardInline",
+  "standardNormal": "Button-standardNormal",
+  "standardPending": "Button-standardPending",
+  "standardPrimary": "Button-standardPrimary",
+  "standardWhite": "Button-standardWhite",
+  "standardXs": "Button-standardXs",
+  "strong": "Button-strong",
+  "textAlignCenter": "Button-textAlignCenter",
+  "textAlignLeft": "Button-textAlignLeft",
+  "textAlignRight": "Button-textAlignRight",
+  "transparent": "Button-transparent",
+  "verySquare": "Button-verySquare",
+  "xs": "Button-xs",
+  "xxs": "Button-xxs",
+}
+`;

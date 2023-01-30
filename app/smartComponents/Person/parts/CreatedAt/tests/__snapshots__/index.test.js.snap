@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreatedAt /> render() should render correctly 1`] = `<div />`;
+
+exports[`<CreatedAt /> render() should render correctly if createdAt exist 1`] = `
+<div>
+  <WithStyles(DateTimeTooltip)
+    dateTime="03/14/1994"
+  >
+    <span>
+      14 March 1994
+    </span>
+  </WithStyles(DateTimeTooltip)>
+</div>
+`;
+
+exports[`<CreatedAt /> render() should render correctly if variant is text with label inline 1`] = `<div />`;
+
+exports[`<CreatedAt /> render() should render correctly if variant is text with label inline and createdAt exist 1`] = `
+<div>
+  <WithStyles(DateTimeTooltip)
+    dateTime="2018-09-06T00:46:42.404Z"
+  >
+    <span>
+      6 September 2018
+    </span>
+  </WithStyles(DateTimeTooltip)>
+</div>
+`;

@@ -1,0 +1,549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userStore/selectors.js USER_NODE_STORE_SELECTORS should return a specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "userNode",
+  "id",
+]
+`;
+
+exports[`userStore/selectors.js USER_NODES_SELECTORS should return a specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "userNodes",
+  1,
+  "content",
+]
+`;
+
+exports[`userStore/selectors.js USER_NODES_SELECTORS should return a specific shape of keyPath 2`] = `
+Array [
+  "userDataStore",
+  "userNodes",
+  1,
+  "date",
+]
+`;
+
+exports[`userStore/selectors.js USER_NODES_SELECTORS should return a specific shape of keyPath 3`] = `
+Array [
+  "userDataStore",
+  "userNodes",
+  1,
+  "role",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "personId",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 2`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "cardNumber",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 3`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "countryCode",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 4`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "createdAt",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 5`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "updatedAt",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 6`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "expireDate",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 7`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "firstName",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 8`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "middleName",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 9`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "lastName",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 10`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "issuedDate",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 11`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "issuingAuthority",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 12`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "passportNumber",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 13`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "passportType",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 14`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "passportOtherType",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 15`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "isDefault",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 16`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "photo",
+]
+`;
+
+exports[`userStore/selectors.js USER_PASSPORTS_SELECTORS should return a specific shape of keyPath 17`] = `
+Array [
+  "userDataStore",
+  "passports",
+  1,
+  "editable",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "userId",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 2`] = `
+Array [
+  "userDataStore",
+  "userNode",
+  "id",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 3`] = `
+Array [
+  "userDataStore",
+  "users",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 4`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "organisations",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 5`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "orgInvitations",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 6`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "notifications",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 7`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "knownAs",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 8`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "insurancePolicy",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 9`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "metaInfo",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 10`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "secondaryEmail",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 11`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "gender",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 12`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "photo",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 13`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "email",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 14`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "createdAt",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 15`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "organisations",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 16`] = `
+Array [
+  "userDataStore",
+  "users",
+  undefined,
+  "organisations",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 17`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "userNodes",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 18`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "phones",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 19`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "passports",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 20`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "birthPlace",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 21`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "birthDate",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 22`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "firstName",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 23`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "middleName",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 24`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "lastName",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 25`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "medicals",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 26`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "dietaries",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 27`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "studentDetails",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 28`] = `
+Array [
+  "userDataStore",
+  "people",
+  undefined,
+  "id",
+]
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 29`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": null,
+}
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 30`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": null,
+}
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 31`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": null,
+}
+`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 32`] = `[Function]`;
+
+exports[`userStore/selectors.js USER_STORE_SELECTORS should return specific shape of keyPath 33`] = `
+Array [
+  "userDataStore",
+  "people",
+  1,
+  "insurancePolicies",
+]
+`;
+
+exports[`userStore/selectors.js USER_USERS_SELECTOR_CREATOR should return a specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "orgId",
+]
+`;
+
+exports[`userStore/selectors.js USER_USERS_SELECTOR_CREATOR should return a specific shape of keyPath 2`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "id",
+]
+`;
+
+exports[`userStore/selectors.js USER_USERS_SELECTOR_CREATOR should return a specific shape of keyPath 3`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "email",
+]
+`;
+
+exports[`userStore/selectors.js USERS_PREFERENCE_SELECTORS should return a specific shape of keyPath 1`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "preference",
+  undefined,
+]
+`;
+
+exports[`userStore/selectors.js should return particular object for USER_STORE_SELECTORS 1`] = `
+Object {
+  "birthDate": [Function],
+  "birthPlace": [Function],
+  "createdAt": [Function],
+  "dietaries": [Function],
+  "email": [Function],
+  "firstName": [Function],
+  "gender": [Function],
+  "getAllEmails": [Function],
+  "getAllNames": [Function],
+  "getAllPhotos": [Function],
+  "getArrayCacheKey": [Function],
+  "id": [Function],
+  "insurancePolicies": [Function],
+  "insurancePolicy": [Function],
+  "knownAs": [Function],
+  "lastName": [Function],
+  "medicals": [Function],
+  "metaInfo": [Function],
+  "middleName": [Function],
+  "notifications": [Function],
+  "orgInvitations": [Function],
+  "orgUserId": [Function],
+  "orgUsers": [Function],
+  "organisations": [Function],
+  "passports": [Function],
+  "phones": [Function],
+  "photo": [Function],
+  "secondaryEmail": [Function],
+  "studentDetails": [Function],
+  "userId": [Function],
+  "userNodeId": [Function],
+  "userNodes": [Function],
+  "users": [Function],
+}
+`;

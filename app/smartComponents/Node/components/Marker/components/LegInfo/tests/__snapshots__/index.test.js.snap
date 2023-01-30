@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegInfo /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            id={11}
+            interactive={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-minus"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          3.3 km
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-arrow-right"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            interactive={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-minus"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          23.2 km
+           
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-arrow-right"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            id={22}
+            interactive={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(Connect(WithSimplifyResaga(Location)))
+          editable={true}
+          showIcon={false}
+          showTooltip={false}
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<LegInfo /> render() should renderNoLocation 1`] = `<div />`;
+
+exports[`<LegInfo /> renderNoLocation() should renderNoLocation 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            id={11}
+            interactive={true}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-minus"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          ? km
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-arrow-right"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            index={22}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-minus"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          ? km
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-arrow-right"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Marker)))
+            id={33}
+            interactive={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Location)))
+        editable={true}
+        noContent="Set a location to alter the route"
+        showIcon={false}
+        showTooltip={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

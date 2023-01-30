@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicTemplatePageIndex componentWillReceiveProps sets url 1`] = `"Loading"`;
+
+exports[`PublicTemplatePageIndex fetchData should dispatchTo 1`] = `"Loading"`;
+
+exports[`PublicTemplatePageIndex render check snapshot 1`] = `undefined`;
+
+exports[`PublicTemplatePageIndex render check snapshot when fetch is loading 1`] = `undefined`;
+
+exports[`PublicTemplatePageIndex render check snapshot with activeid is not day tab 1`] = `undefined`;

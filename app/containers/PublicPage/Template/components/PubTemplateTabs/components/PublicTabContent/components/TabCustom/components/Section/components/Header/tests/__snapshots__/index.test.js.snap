@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridItem)>
+              <div>
+                There's no description provided by the organisers.
+              </div>
+            </WithStyles(GridItem)>
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderContent() should render TextField if editing is truthy 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      There's no description provided by the organisers.
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderContent() should render content 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      hi ho
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderContent() should render placeholder if content is empty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      There's no description provided by the organisers.
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderLocation() should render TextField if editing is truthy 1`] = `<div />`;
+
+exports[`<Header /> renderLocation() should render location 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Location)
+      icon=""
+      location="hi ho"
+      placeId=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

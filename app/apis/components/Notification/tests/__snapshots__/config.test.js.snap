@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification/config.js Smoke Test should exists 1`] = `
+Object {
+  "manuallySubscribe": true,
+  "name": "Notifications",
+  "processResult": Object {
+    "getUGroopNotifications": [Function],
+  },
+  "requests": Object {
+    "getUGroopNotifications": [Function],
+    "updateUgroopNotifcationStatus": [Function],
+  },
+  "setValue": Object {
+    "nodes": Array [
+      "nodeStore",
+      "nodes",
+    ],
+    "organisations": Array [
+      "organisationDataStore",
+      "organisations",
+    ],
+    "people": Array [
+      "userDataStore",
+      "people",
+    ],
+    "peopleById": Array [
+      "personDataStore",
+      "people",
+    ],
+    "photo": Array [
+      "fileDataStore",
+      "files",
+    ],
+    "ugroopIds": Array [
+      "notificationStore",
+      "ugroopIds",
+    ],
+    "ugroopNotifications": Array [
+      "notificationStore",
+      "ugroop",
+    ],
+  },
+}
+`;

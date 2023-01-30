@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlaceDetail /> fetchPlaceDetail() should call google service getDetails 1`] = `
+Array [
+  Array [
+    Object {
+      "placeId": "abc123",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`<PlaceDetail /> fetchPlaceTimeZone() should call google maps timezone api 1`] = `
+Array [
+  Object {
+    "latitude": 123,
+    "longitude": 456,
+  },
+  [Function],
+]
+`;
+
+exports[`<PlaceDetail /> fetchTimeZoneSuccess() calls props.handleChange() 1`] = `
+Array [
+  Array [
+    "name",
+  ],
+  Array [
+    "url",
+  ],
+  Array [
+    "icon",
+  ],
+  Array [
+    "countryShort",
+  ],
+  Array [
+    "countryLong",
+  ],
+  Array [
+    "timeZoneId",
+  ],
+  Array [
+    "latitude",
+  ],
+  Array [
+    "longtitude",
+  ],
+]
+`;
+
+exports[`<PlaceDetail /> fetchTimeZoneSuccess() not sets place state if status not OK 1`] = `
+Array [
+  Array [
+    Object {
+      "loading": false,
+    },
+  ],
+]
+`;
+
+exports[`<PlaceDetail /> fetchTimeZoneSuccess() sets place state and unsets state.loading 1`] = `
+Array [
+  Array [
+    Object {
+      "address": "formatted_address",
+      "icon": "icon",
+      "name": "name",
+      "phone": "formatted_phone_number",
+      "photos": 123,
+      "timeZoneId": "timeZoneId",
+      "url": "url",
+      "website": "website",
+    },
+  ],
+  Array [
+    Object {
+      "loading": false,
+    },
+  ],
+]
+`;
+
+exports[`<PlaceDetail /> handleViewMap returns falsy when hidden 1`] = `undefined`;
+
+exports[`<PlaceDetail /> initService() should call google service 1`] = `
+PlacesService {
+  "getDetails": [MockFunction],
+}
+`;
+
+exports[`<PlaceDetail /> renderDetail() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  renderCurrentTime
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      justify="space-between"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        Phone Number
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <a
+          href="tel:phone"
+        >
+          phone
+        </a>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      justify="space-between"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        Website
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <a
+          href="website"
+          target="_blank"
+        >
+          renderWebsite
+        </a>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="flex-end"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={6}
+      />
+      <WithStyles(GridItem)
+        xs={6}
+      >
+        <WithStyles(Button)
+          dense={true}
+          href="url"
+          onClick={[Function]}
+          size="small"
+          target="_blank"
+        >
+          VIEW MAP
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<PlaceDetail /> renderImage() should render correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(CardMedia))
+    image="image url"
+  />
+</div>
+`;

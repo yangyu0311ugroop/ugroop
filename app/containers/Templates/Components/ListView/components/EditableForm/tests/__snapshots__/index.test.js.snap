@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableForm /> should render check icon if props value is not blank 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onSubmit={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <WithStyles(memo(ListItem))
+    action={
+      <React.Fragment>
+        
+        <WithStyles(Button)
+          color="black"
+          disabled={false}
+          icon="cross"
+          iconButton={true}
+          onClick={[MockFunction]}
+          size="extraSmall"
+          variant="borderless"
+        />
+      </React.Fragment>
+    }
+    icon="folder-plus"
+    title={
+      <FormsyInterceptor
+        InputProps={
+          Object {
+            "disableUnderline": true,
+          }
+        }
+        autoFocus={true}
+        fullWidth={true}
+        inputProps={
+          Object {
+            "className": undefined,
+          }
+        }
+        name="addFolderListView"
+        onChange={[Function]}
+        onInterceptValue={[Function]}
+        required={true}
+        value="qweqwe"
+      />
+    }
+  />
+</GenericForm>
+`;
+
+exports[`<EditableForm /> should render loading icon if isAddItemLoading is true 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onSubmit={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <WithStyles(memo(ListItem))
+    action={
+      <React.Fragment>
+        
+        <WithStyles(Button)
+          color="black"
+          disabled={false}
+          icon="cross"
+          iconButton={true}
+          onClick={[MockFunction]}
+          size="extraSmall"
+          variant="borderless"
+        />
+      </React.Fragment>
+    }
+    icon="folder-plus"
+    title={
+      <FormsyInterceptor
+        InputProps={
+          Object {
+            "disableUnderline": true,
+          }
+        }
+        autoFocus={true}
+        fullWidth={true}
+        inputProps={
+          Object {
+            "className": undefined,
+          }
+        }
+        name="addFolderListView"
+        onChange={[Function]}
+        onInterceptValue={[Function]}
+        required={true}
+        value=""
+      />
+    }
+  />
+</GenericForm>
+`;
+
+exports[`<EditableForm /> should render something 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onSubmit={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <WithStyles(memo(ListItem))
+    action={
+      <React.Fragment>
+        
+        <WithStyles(Button)
+          color="black"
+          disabled={false}
+          icon="cross"
+          iconButton={true}
+          onClick={[MockFunction]}
+          size="extraSmall"
+          variant="borderless"
+        />
+      </React.Fragment>
+    }
+    icon="folder-plus"
+    title={
+      <FormsyInterceptor
+        InputProps={
+          Object {
+            "disableUnderline": true,
+          }
+        }
+        autoFocus={true}
+        fullWidth={true}
+        inputProps={
+          Object {
+            "className": undefined,
+          }
+        }
+        name="addFolderListView"
+        onChange={[Function]}
+        onInterceptValue={[Function]}
+        required={true}
+        value=""
+      />
+    }
+  />
+</GenericForm>
+`;

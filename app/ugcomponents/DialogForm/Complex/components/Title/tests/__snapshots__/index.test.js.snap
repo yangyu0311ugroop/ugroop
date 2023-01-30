@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogForm/Complex/<Title /> #render() still matches snapshot 1`] = `
+<div
+  className="someClassName"
+  data-testid="dialog-complex-title"
+>
+  <div
+    className="someClassName"
+  >
+    <WithStyles(Logo)
+      block={true}
+    />
+    <WithStyles(H2)
+      className=""
+      noMargin={true}
+    />
+  </div>
+  <WithStyles(H1)
+    noMargin={true}
+  >
+    <span />
+  </WithStyles(H1)>
+</div>
+`;
+
+exports[`DialogForm/Complex/<Title /> #render() still matches snapshot with render functions 1`] = `
+<div
+  className="someClassName"
+  data-testid="dialog-complex-title"
+>
+  <div
+    className="someClassName"
+  >
+    <WithStyles(Logo)
+      block={true}
+    />
+    renderHeading
+    <Hidden
+      smDown={true}
+    >
+      <div>
+        Subheading
+      </div>
+    </Hidden>
+  </div>
+  <WithStyles(H1)
+    noMargin={true}
+  >
+    <span />
+  </WithStyles(H1)>
+</div>
+`;
+
+exports[`DialogForm/Complex/<Title /> #render() still matches snapshot with subheading 1`] = `
+<div
+  className="someClassName"
+  data-testid="dialog-complex-title"
+>
+  <div
+    className="someClassName"
+  >
+    <WithStyles(Logo)
+      block={true}
+    />
+    <WithStyles(H2)
+      className=""
+      noMargin={true}
+    />
+    <Hidden
+      smDown={true}
+    >
+      <div>
+        <span>
+          Subheading
+        </span>
+      </div>
+    </Hidden>
+  </div>
+  <WithStyles(H1)
+    noMargin={true}
+  >
+    <span />
+  </WithStyles(H1)>
+</div>
+`;

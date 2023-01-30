@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsertNode /> changeStartDate() should changeStartDate() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "insertBefore",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "editingAfterCreate": undefined,
+        "id": 22,
+        "insertLocation": "before",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": undefined,
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "insertAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "editingAfterCreate": undefined,
+        "id": 33,
+        "insertLocation": "after",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": undefined,
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "node": Object {
+          "node": 222,
+        },
+        "nodeId": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InsertNode /> handleChangeStartDate() should changeStartDate WEEK_DAY 1`] = `
+Array [
+  Array [
+    Object {
+      "customData": Object {
+        "displayDate": "weekDay",
+        "startDate": null,
+        "weekDay": 0,
+      },
+      "type": "template",
+    },
+  ],
+]
+`;
+
+exports[`<InsertNode /> insertAfter() should insertAfter() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "insertBefore",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "editingAfterCreate": undefined,
+        "id": 22,
+        "insertLocation": "before",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": undefined,
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "insertAfter",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "editingAfterCreate": undefined,
+        "id": 33,
+        "insertLocation": "after",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": undefined,
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InsertNode /> insertBefore() should insertBefore() 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "insertBefore",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "editingAfterCreate": undefined,
+        "id": 22,
+        "insertLocation": "before",
+        "keyPath": "2233.children",
+        "node": Object {
+          "type": undefined,
+        },
+        "parentId": 2233,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<InsertNode /> render() should render 1`] = `
+<div>
+  <BoundCan
+    do="create"
+  >
+    <WithStyles(IconButton)
+      color="inherit"
+      disabled={false}
+      isLoading={false}
+      onClick={[Function]}
+      tooltip="Add"
+      variant="flatButton"
+    >
+      <WithStyles(Icon)
+        icon="lnr-plus-square"
+        paddingRight={true}
+        size="xsmall"
+      />
+       New
+       
+    </WithStyles(IconButton)>
+  </BoundCan>
+</div>
+`;
+
+exports[`<InsertNode /> renderInsertButton() should renderInsertButton 1`] = `
+<div>
+  <WithStyles(IconButton)
+    color="inherit"
+    disabled={false}
+    isLoading={false}
+    onClick={[Function]}
+    tooltip="Add"
+    variant="flatButton"
+  >
+    <WithStyles(Icon)
+      icon="lnr-plus-square"
+      paddingRight={true}
+      size="xsmall"
+    />
+     New
+     
+  </WithStyles(IconButton)>
+</div>
+`;
+
+exports[`<InsertNode /> renderInsertButton() should renderInsertButton children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<InsertNode /> renderInsertButton() should return null 1`] = `
+Array [
+  Array [
+    Object {
+      "insertAfter": 33,
+      "insertBefore": 22,
+      "isInsertAfterLoading": false,
+      "isInsertBeforeLoading": false,
+      "isLoading": false,
+      "onClick": [Function],
+      "parentId": 2233,
+      "resaga": Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Nodes",
+              "insertBefore",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 22,
+                  "insertLocation": "before",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "insertAfter",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 33,
+                  "insertLocation": "after",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "updateNode",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "node": Object {
+                    "node": 222,
+                  },
+                  "nodeId": undefined,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      },
+      "type": undefined,
+      "typeText": undefined,
+    },
+  ],
+  Array [
+    Object {
+      "insertAfter": 33,
+      "insertBefore": 22,
+      "isInsertAfterLoading": false,
+      "isInsertBeforeLoading": false,
+      "isLoading": false,
+      "onClick": [Function],
+      "parentId": 2233,
+      "resaga": Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Nodes",
+              "insertBefore",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 22,
+                  "insertLocation": "before",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "insertAfter",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 33,
+                  "insertLocation": "after",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "updateNode",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "node": Object {
+                    "node": 222,
+                  },
+                  "nodeId": undefined,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      },
+      "type": undefined,
+      "typeText": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<InsertNode /> updateTimes() should updateTimes() 1`] = `
+Array [
+  Array [
+    Object {
+      "id": undefined,
+    },
+    Object {
+      "resaga": Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Nodes",
+              "insertBefore",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 22,
+                  "insertLocation": "before",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+            Array [
+              "Nodes",
+              "insertAfter",
+              Object {
+                "onSuccess": [Function],
+                "payload": Object {
+                  "editingAfterCreate": undefined,
+                  "id": 33,
+                  "insertLocation": "after",
+                  "keyPath": "2233.children",
+                  "node": Object {
+                    "type": undefined,
+                  },
+                  "parentId": 2233,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      },
+    },
+  ],
+]
+`;

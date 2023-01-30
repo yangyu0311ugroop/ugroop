@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Roles /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(TableRow)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(Content)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(Role)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+    <WithStyles(TableCell)>
+      <WithStyles(Connect(WithSimplifyResaga(Date)))
+        id={0}
+      />
+    </WithStyles(TableCell)>
+  </WithStyles(TableRow)>
+</div>
+`;

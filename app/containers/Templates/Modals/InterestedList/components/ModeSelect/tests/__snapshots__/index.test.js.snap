@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedListModeSelect /> render should match snapshot 1`] = `
+<div>
+  <WithStyles(SelectButton)
+    options={
+      Array [
+        Object {
+          "children": "Show All",
+          "value": "createdAt",
+        },
+        Object {
+          "children": "Show Pending",
+          "value": "invite",
+        },
+        Object {
+          "children": "Show Connected",
+          "value": "connected",
+        },
+      ]
+    }
+    renderValue={[Function]}
+  />
+</div>
+`;

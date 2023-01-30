@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  Array [
+    "nodeStore",
+    "nodes",
+    1,
+    "customData",
+    "organisationId",
+  ],
+  Array [
+    "userDataStore",
+    "users",
+    1,
+    "organisations",
+  ],
+]
+`;

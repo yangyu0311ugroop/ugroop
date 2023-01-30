@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map/config.js setValue eventDistance should return a particular array shape 1`] = `
+Array [
+  "eventStore",
+  "events",
+  1,
+  "calculated",
+  "distance",
+]
+`;
+
+exports[`Map/config.js value eventDropoff should return a particular array shape 1`] = `
+Array [
+  "eventStore",
+  "events",
+  1,
+  "calculated",
+  "dropoff",
+]
+`;
+
+exports[`Map/config.js value eventPickup should return particular array shape 1`] = `
+Array [
+  "eventStore",
+  "events",
+  1,
+  "calculated",
+  "pickup",
+]
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/helpers #setEventCreate still matches snapshot 1`] = `
+Object {
+  "createDayId": "dayId",
+  "createOpen": "open",
+  "createOpenHandler": "onOpen",
+  "createTime": "now",
+}
+`;
+
+exports[`datastore/eventStore/helpers #setEventEdit still matches snapshot 1`] = `
+Object {
+  "editId": "id",
+  "editOpen": "open",
+  "editTime": "now",
+}
+`;
+
+exports[`datastore/eventStore/helpers #setEventView still matches snapshot 1`] = `
+Object {
+  "viewId": "id",
+  "viewOpen": "open",
+  "viewTime": "now",
+}
+`;
+
+exports[`datastore/eventStore/helpers #setFlightBookingCreate still matches snapshot 1`] = `
+Object {
+  "flightBookingCreateHandler": "onCreate",
+  "flightBookingCreateOpen": "open",
+  "flightBookingCreateTime": "now",
+}
+`;
+
+exports[`datastore/eventStore/helpers #setFlightBookingEdit still matches snapshot 1`] = `
+Object {
+  "flightBookingEditId": "dataId",
+  "flightBookingEditOpen": "open",
+  "flightBookingEditTime": "now",
+}
+`;
+
+exports[`datastore/eventStore/helpers #setFlightBookingView still matches snapshot 1`] = `
+Object {
+  "flightBookingViewId": "onCreate",
+  "flightBookingViewOpen": "open",
+  "flightBookingViewTime": "now",
+}
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectEventIcon /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="data.detail.iconOverride"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+  />
+</div>
+`;
+
+exports[`<SelectEventIcon /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        padding="lg"
+        title="Change icon"
+      >
+        <WithStyles(EventIcon)
+          size="medium"
+        />
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<SelectEventIcon /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            dark={true}
+          >
+            Change icon
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          key="icon"
+        >
+          <WithStyles(JButton)
+            className=""
+            onClick={[Function]}
+          >
+            <WithStyles(EventIcon)
+              iconOverride="icon"
+              size="medium"
+            />
+          </WithStyles(JButton)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JButton)
+            className=""
+            onClick={[Function]}
+          >
+            <WithStyles(EventIcon)
+              size="medium"
+            />
+          </WithStyles(JButton)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

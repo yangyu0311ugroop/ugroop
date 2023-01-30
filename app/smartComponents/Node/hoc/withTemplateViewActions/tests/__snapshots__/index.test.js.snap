@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smartComponents/Node/hoc/withTemplateViewActions #render() still matches snapshot 1`] = `
+<Component
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  templateViewActions={
+    Object {
+      "onCopy": [Function],
+      "onDelete": [Function],
+      "onEditCancel": [Function],
+      "onEnableEditMode": [Function],
+      "onMove": [Function],
+      "onUpdate": [Function],
+    }
+  }
+/>
+`;

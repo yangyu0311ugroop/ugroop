@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body/config.js value photo should exists 1`] = `
+Array [
+  [Function],
+  Array [
+    "fileDataStore",
+    "files",
+  ],
+]
+`;

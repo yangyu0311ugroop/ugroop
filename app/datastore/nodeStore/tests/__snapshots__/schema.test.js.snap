@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_NORMALISERS NODE_SCHEMA.normalisedDay should return normalised days 1`] = `
+Object {
+  "days": Object {
+    "undefined": Object {
+      "0": Object {
+        "id": 2,
+      },
+      "1": Object {
+        "id": 3,
+      },
+    },
+  },
+  "result": Array [
+    1,
+    undefined,
+  ],
+}
+`;
+
+exports[`NODE_NORMALISERS folderNormalise should return nodes, people, folder and id 1`] = `
+Object {
+  "files": undefined,
+  "folder": Object {
+    "1": Object {
+      "children": Array [
+        2,
+        3,
+      ],
+      "id": 1,
+    },
+  },
+  "id": 1,
+  "nodeUsers": undefined,
+  "nodes": Object {
+    "2": Object {
+      "id": 2,
+      "people": Array [
+        4,
+      ],
+    },
+    "3": Object {
+      "id": 3,
+      "people": Array [
+        4,
+      ],
+    },
+  },
+  "people": Object {
+    "4": Object {
+      "userId": 4,
+    },
+  },
+}
+`;
+
+exports[`NODE_NORMALISERS folderNormalise should return nodes, people, folder, id and nodeUsers if createdBy and/or lastModifiedBy is present 1`] = `
+Object {
+  "files": undefined,
+  "folder": Object {
+    "1": Object {
+      "children": Array [
+        2,
+        3,
+      ],
+      "id": 1,
+    },
+  },
+  "id": 1,
+  "nodeUsers": Object {
+    "7": Object {
+      "fullName": "Person One Jones",
+      "id": 7,
+      "knownAs": "Person One",
+    },
+    "8": Object {
+      "fullName": "Person Two Jones",
+      "id": 8,
+      "knownAs": "Person Two",
+    },
+  },
+  "nodes": Object {
+    "2": Object {
+      "createdBy": 7,
+      "id": 2,
+      "people": Array [
+        4,
+      ],
+    },
+    "3": Object {
+      "createdBy": 7,
+      "id": 3,
+      "lastModifiedBy": 8,
+      "people": Array [
+        4,
+      ],
+    },
+  },
+  "people": Object {
+    "4": Object {
+      "userId": 4,
+    },
+  },
+}
+`;
+
+exports[`NODE_NORMALISERS normalise should return node and result 1`] = `
+Object {
+  "node": Object {
+    "1": Object {
+      "checklists": Array [
+        3,
+      ],
+      "content": "check1",
+      "id": 1,
+      "nextNodes": Array [
+        2,
+      ],
+    },
+    "2": Object {
+      "content": "check2",
+      "id": 2,
+      "nextNodes": Array [
+        21,
+      ],
+    },
+    "21": Object {
+      "content": "check21",
+      "id": 21,
+    },
+    "3": Object {
+      "checklists": Array [
+        31,
+      ],
+      "content": "check3",
+      "id": 3,
+    },
+    "31": Object {
+      "content": "check31",
+      "id": 31,
+    },
+  },
+  "result": 1,
+}
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Role /> render() should render correctly 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "subtitleText": [Function],
+      "textOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Role /> renderSubtitle should render correctly 1`] = `
+<div>
+  <WithStyles(DateTimeTooltip)
+    dateTime=""
+  >
+    <P
+      subtitle={true}
+      weight="bold"
+    />
+  </WithStyles(DateTimeTooltip)>
+</div>
+`;
+
+exports[`<Role /> renderTextOnly should render correctly 1`] = `
+<div>
+  <span />
+</div>
+`;

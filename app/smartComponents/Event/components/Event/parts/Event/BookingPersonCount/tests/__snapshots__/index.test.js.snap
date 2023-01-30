@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingPersonCount /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "component": "span",
+      "dataId": null,
+      "label": <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Event.BookingPersonCount"
+      />,
+      "placeholder": "Click to specify total people booked",
+      "readOnly": false,
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<BookingPersonCount /> #render() still matches snapshot 1`] = `""`;
+
+exports[`<BookingPersonCount /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Event.BookingPersonCount"
+      />
+    }
+    makeEmptyZero={true}
+    name="data.detail.bookingPersonCount"
+    onSubmit={[Function]}
+    placeholder="Click to specify total people booked"
+    readOnly={false}
+    renderValue={[Function]}
+  >
+    <EventPatchData
+      dataId={null}
+      id={0}
+      subtype={true}
+    />
+  </WithStyles(EditableTextForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<BookingPersonCount /> #renderEditableValue() still matches snapshot 1`] = `"1 person"`;
+
+exports[`<BookingPersonCount /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={7}
+  xs={12}
+>
+  <NumberField
+    autoComplete="off"
+    isInt={true}
+    isIntError="Must be integer"
+    label={
+      <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Event.BookingPersonCount"
+      />
+    }
+    makeEmptyZero={true}
+    max={NaN}
+    min={0}
+    name="data.detail.bookingPersonCount"
+    type="number"
+    validationErrors={Object {}}
+    validations={Object {}}
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<BookingPersonCount /> render() should render 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    renderValueOnly={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<BookingPersonCount /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          paddingRight={true}
+        >
+          12
+           
+          guests
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;

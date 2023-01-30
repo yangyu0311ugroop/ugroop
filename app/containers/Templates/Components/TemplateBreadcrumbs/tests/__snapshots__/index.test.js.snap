@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadcrumbContainer /> componentWillReceiveProps should call fetchParents and update state if folderId is not 0 and folderId is not the same as previous one 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    1,
+    2,
+    3,
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> onUpdate should call forceUpdate if it is last item 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    Object {
+      "id": 3,
+      "label": "Me",
+      "status": undefined,
+      "url": "?current=3",
+    },
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> onUpdate should name first item with just blank if folder name is blank 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    Object {
+      "id": 1,
+      "label": "My Tours",
+      "status": undefined,
+      "url": "/orgs/0/tours",
+    },
+    Object {
+      "id": 2,
+      "label": "folder1",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=2",
+    },
+    Object {
+      "id": 3,
+      "label": "folder2",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=3",
+    },
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> onUpdate should name first item with my tours if its name is null 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    Object {
+      "id": 1,
+      "label": "My Tours",
+      "status": undefined,
+      "url": "/orgs/0/tours",
+    },
+    Object {
+      "id": 2,
+      "label": "folder1",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=2",
+    },
+    Object {
+      "id": 3,
+      "label": "folder2",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=3",
+    },
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> onUpdate should update state with new items 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    Object {
+      "id": 1,
+      "label": "Person Root Folder",
+      "status": undefined,
+      "url": "/orgs/0/tours",
+    },
+    Object {
+      "id": 2,
+      "label": "folder1",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=2",
+    },
+    Object {
+      "id": 3,
+      "label": "folder2",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=3",
+    },
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> onUpdate should update state with new items with particular baseUrl if root name is org tours 1`] = `
+Object {
+  "breadcrumbItems": Array [
+    Object {
+      "id": 1,
+      "label": "Organisation",
+      "status": undefined,
+      "url": "/orgs/0/tours",
+    },
+    Object {
+      "id": 2,
+      "label": "folder1",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=2",
+    },
+    Object {
+      "id": 3,
+      "label": "folder2",
+      "status": undefined,
+      "url": "/orgs/0/tours?current=3",
+    },
+  ],
+  "error": false,
+}
+`;
+
+exports[`<BreadcrumbContainer /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(UGBreadcrumbs)
+    items={Array []}
+    onlyDisplayRoot={false}
+    renderText={[Function]}
+    showAllActive={false}
+    showLastItem={false}
+    showOnlyFirstItem={false}
+  />
+</div>
+`;
+
+exports[`<BreadcrumbContainer /> render() should render loading if fetch parents is loading 1`] = `
+<div>
+  <WithStyles(UGBreadcrumbs)
+    items={Array []}
+    onlyDisplayRoot={false}
+    renderText={[Function]}
+    showAllActive={false}
+    showLastItem={false}
+    showOnlyFirstItem={false}
+  />
+</div>
+`;
+
+exports[`<BreadcrumbContainer /> renderItem should pass -1 if id is undefined 1`] = `
+<div>
+  <ConnectFunction
+    key="-1"
+    subscribe={[Function]}
+  />
+</div>
+`;
+
+exports[`<BreadcrumbContainer /> renderText() should org name if id passed to it is equal to orgRootNodeId 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Content)))
+  id={1}
+  mapping={[Function]}
+/>
+`;
+
+exports[`<BreadcrumbContainer /> renderText() should renderText 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Content)))
+    id={2233}
+    mapping={[Function]}
+  />
+</div>
+`;

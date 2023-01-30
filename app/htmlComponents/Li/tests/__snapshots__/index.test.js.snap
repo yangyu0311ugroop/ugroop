@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Li/tests/index.test.js smoke tests should render properly 1`] = `
+<li
+  className=""
+>
+  <span>
+    Child
+  </span>
+</li>
+`;

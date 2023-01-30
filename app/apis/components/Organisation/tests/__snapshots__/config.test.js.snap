@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisation/config.js #processResult BATCH_GET_ORG_MEMBERS should call fetchWithAuthorisation multiple times 1`] = `
+Array [
+  Array [
+    "get",
+    "/Organisations/1/members/true",
+  ],
+  Array [
+    "get",
+    "/Organisations/2/members/true",
+  ],
+  Array [
+    "get",
+    "/Organisations/3/members/true",
+  ],
+]
+`;
+
+exports[`Organisation/config.js #processResult GET_ORG_MEMBERS should call fetchWithAuthorisation multiple times 1`] = `
+Array [
+  Array [
+    "get",
+    "/Organisations/1/members/true",
+  ],
+]
+`;

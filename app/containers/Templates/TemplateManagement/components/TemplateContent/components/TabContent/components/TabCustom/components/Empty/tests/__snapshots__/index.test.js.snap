@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Empty /> handleEditing() should handleEditing() 1`] = `
+Array [
+  Array [
+    Object {
+      "editable": true,
+    },
+  ],
+]
+`;
+
+exports[`<Empty /> render() should render empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    card={true}
+    dashed={true}
+    direction="column"
+    spacing={2}
+  >
+    <div>
+      Empty
+    </div>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Empty /> render() should render loading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    card={true}
+    dashed={true}
+    direction="column"
+    spacing={2}
+  >
+    <div>
+      Loading
+    </div>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Empty /> renderEmpty() should render loading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={2}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-papers"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-map-marker"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-link"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-picture"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="grey"
+              icon="lnr-paperclip"
+              size="mediumXPlus"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          Add a section to enter content, location, url, photo or attachment
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(AddSection)))
+          onSuccess={[Function]}
+          parent={999}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Empty /> renderLoading() should render loading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(LoadingText) />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

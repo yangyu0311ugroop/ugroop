@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartTime /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  renderAccommodation={[Function]}
+  renderActivity={[Function]}
+  renderFlight={[Function]}
+  renderTransportation={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<StartTime /> #renderPart() renders Component 1`] = `
+<Component
+  calculatedTimeModePath={
+    Array [
+      "calculated",
+      "time",
+      "start",
+      "mode",
+    ]
+  }
+  calculatedTimeValuePath={
+    Array [
+      "calculated",
+      "time",
+      "start",
+      "value",
+    ]
+  }
+  formSubtype={null}
+  formType={null}
+  inputs={
+    Object {
+      "mode": Object {
+        "name": "node.customData.start.mode",
+      },
+      "tempDay": Object {
+        "name": "node.customData.start.tempDay",
+      },
+      "tempMode": Object {
+        "name": "node.customData.start.tempMode",
+      },
+      "tempTime": Object {
+        "name": "node.customData.start.tempTime",
+      },
+      "timeZoneId": Object {
+        "name": "node.customData.start.timeZoneId",
+      },
+      "timeZoneName": Object {
+        "name": "node.customData.start.timeZoneName",
+      },
+      "timeZoneOffset": Object {
+        "name": "node.customData.start.timeZoneOffset",
+      },
+      "value": Object {
+        "name": "node.customData.start.value",
+      },
+    }
+  }
+  modePath={
+    Array [
+      "customData",
+      "start",
+      "mode",
+    ]
+  }
+  otherCalculatedTimeModePath={
+    Array [
+      "calculated",
+      "time",
+      "end",
+      "mode",
+    ]
+  }
+  otherCalculatedTimeValuePath={
+    Array [
+      "calculated",
+      "time",
+      "end",
+      "value",
+    ]
+  }
+  otherValuePath={
+    Array [
+      "customData",
+      "end",
+      "value",
+    ]
+  }
+  position="start"
+  timeZoneIdPath={
+    Array [
+      "customData",
+      "start",
+      "timeZoneId",
+    ]
+  }
+  valuePath={
+    Array [
+      "customData",
+      "start",
+      "value",
+    ]
+  }
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeDueDate/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "calculatedStartTimeValue": [Function],
+  },
+  "value": Object {
+    "calculatedDate": Object {
+      "getter": [Function],
+    },
+    "dueDate": [Function],
+    "parentType": [Function],
+    "status": [Function],
+    "translateType": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+  },
+}
+`;

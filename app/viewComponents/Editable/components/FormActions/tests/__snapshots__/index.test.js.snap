@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableFormActions /> renderExtraButtons() should renderExtraButtons 1`] = `<div />`;
+
+exports[`<EditableFormActions /> renderPrimaryActions  1`] = `
+<React.Fragment>
+  <WithStyles(Button)
+    color="primary"
+    dense={true}
+    disabled={false}
+    icon="check"
+    iconButton={true}
+    size="extraSmall"
+    square={true}
+    type="submit"
+  >
+    
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="gray"
+    dense={true}
+    disabled={false}
+    icon="cross"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    square={true}
+  >
+    
+  </WithStyles(Button)>
+</React.Fragment>
+`;
+
+exports[`<EditableFormActions /> renderPrimaryActions should match snapshot no Grid 1`] = `
+<div>
+  <div>
+    Secondary actions
+  </div>
+  Primary actions
+</div>
+`;
+
+exports[`<EditableFormActions /> renderPrimaryActions should render properly 1`] = `
+<WithStyles(GridItem)
+  className=""
+>
+  <div>
+    Secondary actions
+  </div>
+  Primary actions
+</WithStyles(GridItem)>
+`;

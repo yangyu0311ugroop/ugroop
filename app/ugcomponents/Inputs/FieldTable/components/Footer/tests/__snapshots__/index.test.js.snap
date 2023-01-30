@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldTableFooter /> #render() still matches snapshot 1`] = `
+<WithStyles(Button)
+  dense={true}
+  onClick={null}
+  outline="outLineGrey"
+>
+  Add New
+</WithStyles(Button)>
+`;

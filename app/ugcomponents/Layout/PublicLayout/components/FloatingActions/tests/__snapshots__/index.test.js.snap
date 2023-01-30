@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FloatingActions /> Smoke tests should not render print layout 1`] = `
+<Styled(MuiBox)
+  pl={1}
+  pr={1}
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    onBlur={[Function]}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="base"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="star"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bolder={true}
+              md={true}
+            >
+              Register your interest
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Styled(MuiBox)>
+`;
+
+exports[`<FloatingActions /> Smoke tests should render interactive layout 1`] = `
+<Styled(MuiBox)
+  pl={1}
+  pr={1}
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    onBlur={[Function]}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="base"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="star"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bolder={true}
+              md={true}
+            >
+              Register your interest
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="inline"
+        dense={true}
+        icon="printer"
+        iconButton={true}
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        square={true}
+        tooltipProps={
+          Object {
+            "title": "Change to Print Layout",
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Styled(MuiBox)>
+`;
+
+exports[`<FloatingActions /> Smoke tests should render open action 1`] = `
+<Styled(MuiBox)
+  pl={1}
+  pr={1}
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    onBlur={[Function]}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="base"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="star"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bolder={true}
+              md={true}
+            >
+              Register your interest
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="inline"
+        dense={true}
+        icon="printer"
+        iconButton={true}
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        square={true}
+        tooltipProps={
+          Object {
+            "title": "Change to Print Layout",
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Styled(MuiBox)>
+`;
+
+exports[`<FloatingActions /> Smoke tests should render print layout 1`] = `
+<Styled(MuiBox)
+  pl={1}
+  pr={1}
+>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    onBlur={[Function]}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="base"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="star"
+              size="extraSmall"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bolder={true}
+              md={true}
+            >
+              Register your interest
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="inline"
+        dense={true}
+        icon="layers"
+        iconButton={true}
+        noMargin={true}
+        onClick={[Function]}
+        size="small"
+        square={true}
+        tooltipProps={
+          Object {
+            "title": "Change to Interactive Layout",
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Styled(MuiBox)>
+`;
+
+exports[`<FloatingActions /> Smoke tests should render the floating actions if pathname is interested 1`] = `""`;
+
+exports[`<FloatingActions /> Smoke tests should render the floating actions if pathname is print tour 1`] = `""`;

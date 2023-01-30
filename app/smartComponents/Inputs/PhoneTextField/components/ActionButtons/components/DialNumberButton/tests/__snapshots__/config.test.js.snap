@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {},
+}
+`;

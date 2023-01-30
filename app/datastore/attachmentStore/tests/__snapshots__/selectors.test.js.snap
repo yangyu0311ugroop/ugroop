@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ATTACHMENT_STORE_SELECTORS attachmentProp() returns correct keyPath 1`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+  "path",
+]
+`;
+
+exports[`ATTACHMENT_STORE_SELECTORS description should return a particular array shape 1`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+  "description",
+]
+`;
+
+exports[`ATTACHMENT_STORE_SELECTORS fileSize should return a particular array shape 1`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+  "fileSize",
+]
+`;
+
+exports[`ATTACHMENT_STORE_SELECTORS fileSize should return a particular array shape 2`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+]
+`;
+
+exports[`ATTACHMENT_STORE_SELECTORS name should return a particular array shape 1`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+  "name",
+]
+`;
+
+exports[`ATTACHMENT_STORE_SELECTORS url should return a particular array shape 1`] = `
+Array [
+  "attachmentStore",
+  "attachments",
+  1,
+  "url",
+]
+`;

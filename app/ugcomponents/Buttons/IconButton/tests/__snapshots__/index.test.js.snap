@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton/tests/index.test.js render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "flatButton": [Function],
+      "iconButton": [Function],
+    },
+  ],
+]
+`;
+
+exports[`IconButton/tests/index.test.js renderFlatButton() should call renderButton 1`] = `"renderButton"`;

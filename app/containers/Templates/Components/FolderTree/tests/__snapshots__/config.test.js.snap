@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FolderTree/config.js CONFIG_ORG_MEMBERS value memberIds cacheKey should return a particular string if userOrgs is not null 1`] = `"templateManagementPage.moveTour.1,2.roleMemberValue"`;
+
+exports[`FolderTree/config.js CONFIG_ORG_MEMBERS value memberIds cacheKey should return a particular string if userOrgs is null 1`] = `"templateManagementPage.moveTour.null.roleMemberValue"`;

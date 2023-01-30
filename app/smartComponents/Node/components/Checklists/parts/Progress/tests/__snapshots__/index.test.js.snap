@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Progress /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderProgress
+    renderCompletedMessage
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Progress /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <BadgeProgress
+            id={0}
+            showCompleted={false}
+            showOutstanding={true}
+            variant="total"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BadgeProgress
+          id={0}
+          size="xs"
+          variant="progressBar"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Progress /> renderCompletedMessage() should renderCompletedMessage 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <BadgeProgress
+      className=""
+      id={0}
+      variant="completedMessage"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Progress /> renderProgress() should renderProgress 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <BadgeProgress
+            id={0}
+            showCompleted={false}
+            showOutstanding={true}
+            variant="summary"
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BadgeProgress
+          id={0}
+          size="xs"
+          variant="progressBar"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Progress /> renderToggleShowCompleted() should renderToggleShowCompleted 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        onClick={[Function]}
+      >
+        showCompletedLabel
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Progress /> showCompletedLabel() should render correct strings 1`] = `
+Array [
+  Array [
+    false,
+    "items",
+    "item",
+  ],
+  Array [
+    false,
+    "Hide completed undefined",
+    "Show completed undefined",
+  ],
+  Array [
+    true,
+    "items",
+    "item",
+  ],
+  Array [
+    true,
+    "Hide completed undefined",
+    "Show completed undefined",
+  ],
+]
+`;
+
+exports[`<Progress /> toggleShowCompleted() should call LOGIC_HELPERS.ifFunction 1`] = `
+Array [
+  Array [
+    "toggleShowCompleted",
+    Array [
+      "event",
+    ],
+  ],
+]
+`;

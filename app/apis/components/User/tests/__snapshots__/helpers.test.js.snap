@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/User/helpers fetchMe 1`] = `
+Array [
+  Array [
+    "Users",
+    "ME",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+  ],
+]
+`;
+
+exports[`apis/User/helpers fetchUserPreference 1`] = `
+Array [
+  Array [
+    "Users",
+    "getUserPreference",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+      "payload": Object {
+        "id": undefined,
+      },
+    },
+  ],
+]
+`;
+
+exports[`apis/User/helpers signOut 1`] = `
+Array [
+  Array [
+    "Users",
+    "signOut",
+    Object {
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+  ],
+]
+`;
+
+exports[`apis/User/helpers unregisterDevice 1`] = `
+Array [
+  Array [
+    "Users",
+    "unregisterDevice",
+    Object {
+      "payload": Object {
+        "data": Object {
+          "token": "myToken",
+        },
+        "id": 1,
+      },
+    },
+  ],
+]
+`;

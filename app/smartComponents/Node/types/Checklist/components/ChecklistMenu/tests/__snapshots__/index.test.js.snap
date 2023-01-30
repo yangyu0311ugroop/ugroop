@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistMenu /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      anchorEl={null}
+      noPadding={true}
+      onClose={[Function]}
+      placement="bottom"
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ChecklistMenu /> renderButton() should render correctly 1`] = `
+<div>
+  <WithStyles(InlineButton)
+    color="secondary"
+    onClick={[Function]}
+    padding="md"
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="xsmall"
+    />
+  </WithStyles(InlineButton)>
+</div>
+`;
+
+exports[`<ChecklistMenu /> renderMenuItems() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(MenuItem)
+      closeMenu={[MockFunction]}
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <div>
+        Checklist
+      </div>
+    </WithStyles(MenuItem)>
+    <WithStyles(ForwardRef(Divider)) />
+    <BoundCan
+      do="update"
+      on="checklist"
+    >
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-register"
+          paddingRight={true}
+          size="small"
+        />
+        <span>
+          Edit
+        </span>
+      </WithStyles(MenuItem)>
+    </BoundCan>
+    <BoundCan
+      do="delete"
+      on="checklist"
+    >
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+          paddingRight={true}
+          size="small"
+        />
+        <span>
+          Delete
+        </span>
+      </WithStyles(MenuItem)>
+    </BoundCan>
+    <WithStyles(ForwardRef(Divider)) />
+    <BoundCan
+      do="update"
+      on="checklist"
+    >
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Status)))
+          id={2299}
+          paddingRight={true}
+          variant="icon"
+        />
+        <span>
+          <WithStyles(Connect(WithSimplifyResaga(Status)))
+            id={2299}
+            variant="menuText"
+          />
+        </span>
+      </WithStyles(MenuItem)>
+    </BoundCan>
+    <WithStyles(ForwardRef(Divider)) />
+    <BoundCan
+      do="create"
+      on="checklist"
+    >
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="lnr-plus"
+          paddingRight={true}
+          size="small"
+        />
+        <span>
+          New checklist on this 
+          tour
+        </span>
+      </WithStyles(MenuItem)>
+    </BoundCan>
+  </div>
+</div>
+`;
+
+exports[`<ChecklistMenu /> toggleNode() should call NODE_API_HELPERS.toggleNode 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 22,
+      "status": "open",
+      "type": "checklist",
+    },
+    Object {
+      "me": 123,
+    },
+  ],
+]
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadcrumbItem /> render() should not render chevron if isLast props is true or showLastItem and onlyItem is true 1`] = `
+<WithStyles(Li)
+  className="BreadcrumbItem-listItem"
+  key="/mercy-righteousness"
+>
+  <withRouter(UGLink)
+    className="BreadcrumbItem-linkText BreadcrumbItem-homeActive"
+    to="/mercy-righteousness"
+  />
+</WithStyles(Li)>
+`;
+
+exports[`<BreadcrumbItem /> render() should not render chevron if isLast props is true or showLastItem and onlyItem is true 2`] = `
+<WithStyles(Li)
+  className="BreadcrumbItem-listItem"
+  key="/mercy-righteousness"
+>
+  <withRouter(UGLink)
+    className="BreadcrumbItem-linkText"
+    to="/mercy-righteousness"
+  />
+</WithStyles(Li)>
+`;
+
+exports[`<BreadcrumbItem /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Li)
+    className="BreadcrumbItem-listItem"
+    key="/mercy-righteousness"
+  >
+    <withRouter(UGLink)
+      className="BreadcrumbItem-linkText"
+      to="/mercy-righteousness"
+    />
+    <WithStyles(Icon)
+      className="BreadcrumbItem-chev"
+      icon="chevron-right"
+    />
+  </WithStyles(Li)>
+</div>
+`;

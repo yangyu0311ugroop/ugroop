@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ratings /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Ratings /> renderDefault should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ShowRatingList)))
+    component="span"
+    userRatingIds={Array []}
+  />
+</div>
+`;

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checklists /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(LoadingText) />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Checklists /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Container)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Organisation Checklists",
+            "name": "description",
+          },
+        ]
+      }
+      title="Organisation Checklists"
+    />
+    <ConnectFunction
+      orgId={0}
+    />
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            justify="space-between"
+            spacing={0}
+          >
+            <WithStyles(GridItem)
+              wrap="nowrap"
+            >
+              <H5>
+                 Organisation Checklists 
+              </H5>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <BoundCan
+                do="create"
+                on={
+                  Object {
+                    "type": "checklist",
+                  }
+                }
+              >
+                <WithStyles(Connect(WithSimplifyResaga(Component))) />
+              </BoundCan>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)
+              xs={3}
+            >
+              <Sticky
+                activeClass="active"
+                bottomBoundary="#LayoutContent"
+                enableTransforms={true}
+                enabled={true}
+                onStateChange={null}
+                releasedClass="released"
+                shouldFreeze={[Function]}
+                top={60}
+              >
+                <withRouter(WithStyles(Overview))
+                  renderHeader={[Function]}
+                />
+              </Sticky>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={9}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+                iconToggle={[Function]}
+                showOption={true}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+            showOption={true}
+          />
+        </WithStyles(GridItem)>
+      </Hidden>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<Checklists /> renderHeader hould render correctly 1`] = `
+<div>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          wrap="nowrap"
+        >
+          <H5>
+             Organisation Checklists 
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <BoundCan
+            do="create"
+            on={
+              Object {
+                "type": "checklist",
+              }
+            }
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Component))) />
+          </BoundCan>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Checklists /> renderOverViewHeader() should render correctly 1`] = `<div />`;
+
+exports[`<Checklists /> renderOverViewHeader() should render correctly 2`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="space-between"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <H5>
+           Organisation Checklists 
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on={
+            Object {
+              "type": "checklist",
+            }
+          }
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Component)))
+            simple={true}
+          />
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Checklists /> sideBar hould render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={3}
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary="#LayoutContent"
+      enableTransforms={true}
+      enabled={true}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={60}
+    >
+      <withRouter(WithStyles(Overview))
+        renderHeader={[Function]}
+      />
+    </Sticky>
+  </WithStyles(GridItem)>
+</div>
+`;

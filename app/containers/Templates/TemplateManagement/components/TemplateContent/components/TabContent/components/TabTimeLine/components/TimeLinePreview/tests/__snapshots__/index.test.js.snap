@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeLinePreview component should match snapshot 1`] = `
+<Sticky
+  activeClass="active"
+  bottomBoundary="#stickyBottomMark"
+  enableTransforms={true}
+  enabled={true}
+  onStateChange={null}
+  releasedClass="released"
+  shouldFreeze={[Function]}
+  top={90}
+/>
+`;

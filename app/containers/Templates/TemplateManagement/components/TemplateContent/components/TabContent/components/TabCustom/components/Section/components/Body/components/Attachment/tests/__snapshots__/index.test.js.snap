@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachment /> handleChange() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 3,
+    },
+    Object {
+      "node": Object {
+        "attachment": Object {
+          "description": "ffff",
+          "fileSize": 123,
+          "name": "abc",
+        },
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Attachment /> handleChange() should call setValue 2`] = `
+Array [
+  Array [
+    Object {
+      "editSections": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Attachment /> render() should render correctly 1`] = `
+<div>
+  renderEditMode
+</div>
+`;
+
+exports[`<Attachment /> render() should render view mode 1`] = `
+<div>
+  renderReadOnly
+</div>
+`;
+
+exports[`<Attachment /> renderEditMode() should call setValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+      attachmentId={13}
+      onChangeAttachDescription={[Function]}
+      removeAttachment={[Function]}
+      uploadFile={[Function]}
+      uploadStatus="pending"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderFileName() should render link 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title="Click to Download"
+  >
+    <div>
+      <a
+        href="https://gateway-latest.ugroop.com/holla"
+        target="_blank"
+      >
+        hello
+      </a>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`<Attachment /> renderFileName() should render pending 1`] = `
+<div>
+  <div>
+    File Pending
+  </div>
+</div>
+`;
+
+exports[`<Attachment /> renderReadOnly() should render both 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+      id={13}
+      parentNodeId={3}
+      placeholder="Add an attachment"
+      readOnly={true}
+      variant="editable"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderReadOnly() should render description 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+      id={13}
+      parentNodeId={3}
+      placeholder="Add an attachment"
+      readOnly={true}
+      variant="editable"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderReadOnly() should render empty span 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+      id={13}
+      parentNodeId={3}
+      placeholder="Add an attachment"
+      readOnly={true}
+      variant="editable"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderReadOnly() should render file size 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+      id={13}
+      parentNodeId={3}
+      placeholder="Add an attachment"
+      readOnly={true}
+      variant="editable"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachment /> uploadFile() should call resaga.dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "removeAttachment",
+    Object {
+      "payload": Object {
+        "id": 3,
+        "isSection": true,
+      },
+    },
+  ],
+  Array [
+    "FileContainers",
+    "uploadFile",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "container": "com.ugroop.personContainer",
+        "data": FormData {},
+        "description": "",
+        "fileName": undefined,
+        "id": 3,
+        "isSection": true,
+        "setValueToStore": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Attachment /> uploadFile() should call resaga.dispatchTo UPLOAD 1`] = `
+Array [
+  Array [
+    "FileContainers",
+    "uploadFile",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "container": "com.ugroop.personContainer",
+        "data": FormData {},
+        "description": "",
+        "fileName": "myFile",
+        "id": 3,
+        "isSection": true,
+        "setValueToStore": true,
+      },
+    },
+  ],
+]
+`;

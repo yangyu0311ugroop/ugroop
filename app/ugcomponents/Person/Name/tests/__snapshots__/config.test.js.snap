@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name/tests/config.test.js CONFIG should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "email": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "knownAs": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "orgId": [Function],
+  },
+}
+`;

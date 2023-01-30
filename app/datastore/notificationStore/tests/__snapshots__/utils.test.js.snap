@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/notificationStore/utils #makeSetValueConfig() still matches snapshot 1`] = `
+Object {
+  "comments": Array [
+    "notificationStore",
+    "comments",
+  ],
+  "nodes": Array [
+    "notificationStore",
+    "nodes",
+  ],
+  "notificationIds": Array [
+    "notificationStore",
+    "notificationIds",
+  ],
+  "notifications": Array [
+    "notificationStore",
+    "notifications",
+  ],
+  "people": Array [
+    "notificationStore",
+    "people",
+  ],
+  "ugroops": Array [
+    "notificationStore",
+    "ugroops",
+  ],
+}
+`;

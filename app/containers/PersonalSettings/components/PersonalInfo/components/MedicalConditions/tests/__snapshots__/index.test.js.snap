@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MedicalConditions /> render() should render 1`] = `
+<div>
+  <ScrollToTopOnMount />
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Hr)
+          half={true}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          card={true}
+          cardPadding={4}
+          direction="column"
+          highlight={true}
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals)))))
+              dataStore="personDataStore"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

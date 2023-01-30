@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InviteButton /> #renderToolTipTitle() should match snapshot 1`] = `
+<div>
+  <div>
+    Ask them to securely register to update their details,
+  have ongoing access to the itinerary as well as receiving
+  immediate notifications if there are any changes.
+  </div>
+</div>
+`;
+
+exports[`<InviteButton /> closePopper() should closePopper 1`] = `<div />`;
+
+exports[`<InviteButton /> getFirstToken() should getFirstToken 1`] = `<div />`;
+
+exports[`<InviteButton /> handleSetupPersonSuccess should call setValue and openPopper 1`] = `
+Array [
+  Array [
+    Object {
+      "linkedUserEmail": "mail",
+      "linkedUserId": 1,
+      "linkedUserToken": null,
+    },
+  ],
+  Array [
+    Object {
+      "calculatedPeople": Array [],
+    },
+  ],
+]
+`;
+
+exports[`<InviteButton /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Tooltip)
+        isLight={true}
+        title={
+          <div>
+            Ask them to securely register to update their details,
+  have ongoing access to the itinerary as well as receiving
+  immediate notifications if there are any changes.
+          </div>
+        }
+      >
+        <WithStyles(Button)
+          color="primary"
+          onClick={[Function]}
+          size="extraSmall"
+        >
+          <FormattedMessage
+            defaultMessage="Invite"
+            id="app.smartComponents.Node.types.Follower.components.InviteButton.label"
+          />
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(GridItem)>
+    <ForwardRef(Popper)
+      anchorEl={null}
+      disablePortal={true}
+      open={false}
+      placement="left-start"
+    >
+      renderPopperPaperContent
+    </ForwardRef(Popper)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InviteButton /> render() should render something different if invitationPending is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Tooltip)
+        isLight={true}
+        title={
+          <div>
+            Ask them to securely register to update their details,
+  have ongoing access to the itinerary as well as receiving
+  immediate notifications if there are any changes.
+          </div>
+        }
+      >
+        <WithStyles(Button)
+          color="primary"
+          disabled={true}
+          onClick={null}
+          size="extraSmall"
+        >
+          Pending
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(GridItem)>
+    <ForwardRef(Popper)
+      anchorEl={null}
+      disablePortal={true}
+      open={false}
+      placement="left-start"
+    >
+      renderPopperPaperContent
+    </ForwardRef(Popper)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InviteButton /> render() should render something different if personEmail & participantEmail is null or empty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Tooltip)
+        isLight={true}
+        title={
+          <div>
+            Ask them to securely register to update their details,
+  have ongoing access to the itinerary as well as receiving
+  immediate notifications if there are any changes.
+          </div>
+        }
+      >
+        <WithStyles(Button)
+          color="primary"
+          onClick={[Function]}
+          size="extraSmall"
+        >
+          <FormattedMessage
+            defaultMessage="Invite"
+            id="app.smartComponents.Node.types.Follower.components.InviteButton.label"
+          />
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(GridItem)>
+    <ForwardRef(Popper)
+      anchorEl={null}
+      disablePortal={true}
+      open={false}
+      placement="left-start"
+    >
+      renderPopperPaperContent
+    </ForwardRef(Popper)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InviteButton /> render() should render something different if userConnected is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Tooltip)
+        isLight={true}
+        title={
+          <div>
+            Ask them to securely register to update their details,
+  have ongoing access to the itinerary as well as receiving
+  immediate notifications if there are any changes.
+          </div>
+        }
+      >
+        <WithStyles(Button)
+          color="primary"
+          disabled={true}
+          onClick={null}
+          size="extraSmall"
+        >
+          Connected
+        </WithStyles(Button)>
+      </WithStyles(Tooltip)>
+    </WithStyles(GridItem)>
+    <ForwardRef(Popper)
+      anchorEl={null}
+      disablePortal={true}
+      open={false}
+      placement="left-start"
+    >
+      renderPopperPaperContent
+    </ForwardRef(Popper)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InviteButton /> renderPopperPaperContent() should renderPopperPaperContent 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        linkedUserId={true}
+        linkeeRole="interested_linkee"
+        onBack={[Function]}
+        personEmail="qqq@gg.com"
+        role="tour_interested"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<InviteButton /> renderPopperPaperContent() should renderPopperPaperContent if no linkedUserId 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(LinkedUserInviteUser)))))))))))))))))))))))
+        linkedUserId={false}
+        linkeeRole="interested_linkee"
+        onBack={[Function]}
+        personEmail="qqq@gg.com"
+        role="tour_interested"
+      />
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<InviteButton /> renderPopperPaperContent() should return something else if loading 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <div>
+        Searching...
+      </div>
+    </WithStyles(ForwardRef(Paper))>
+  </ClickAwayListener>
+</div>
+`;

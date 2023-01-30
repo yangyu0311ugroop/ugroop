@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FollowerList /> handleAddParticipant should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "interestedPersonCreateOpen": true,
+    },
+  ],
+]
+`;
+
+exports[`<FollowerList /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        card={true}
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <P
+                color="gray"
+                dense={true}
+              >
+                Followers:
+              </P>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <P
+                color="black"
+                dense={true}
+                weight="bold"
+              >
+                All Followers
+              </P>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InterestedList)))))))))))
+                templateId={0}
+                variant="sortersOnly"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem) />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        card={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(InterestedList)))))))))))
+          interestedPersonIds={Array []}
+          templateId={0}
+          variant="contentOnly"
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

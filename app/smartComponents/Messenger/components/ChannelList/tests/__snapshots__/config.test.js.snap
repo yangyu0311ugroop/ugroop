@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG2 1`] = `
+Array [
+  "streamChatStoreImmer",
+  "tours",
+  1,
+  "newChannel",
+]
+`;
+
+exports[`CONFIG2 2`] = `
+Array [
+  "streamChatStoreImmer",
+  "tours",
+  1,
+  "channelDrawActiveChannel",
+]
+`;
+
+exports[`CONFIG2 3`] = `
+Array [
+  "streamChatStoreImmer",
+  "tours",
+  1,
+  "archivedChannel",
+]
+`;
+
+exports[`CONFIG2 4`] = `
+Array [
+  "streamChatStoreImmer",
+  "tours",
+  1,
+  "resetActiveChannel",
+]
+`;

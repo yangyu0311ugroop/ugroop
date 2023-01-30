@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Email /> render() should render correctly 1`] = `
+<div>
+  <span
+    emailBodyLink=""
+    emailSubjectLink=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isEllipsis={false}
+    readOnly={false}
+    updatedEmail=""
+  />
+</div>
+`;
+
+exports[`<Email /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    emailBodyLink=""
+    emailSubjectLink=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Email",
+                "id": "app.smartComponents.Person.parts.Email.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Email",
+                "id": "app.smartComponents.Person.parts.Email.label",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    isEllipsis={false}
+    name="email"
+    onInterceptValue={[Function]}
+    readOnly={false}
+    updatedEmail=""
+    validationErrors={
+      Object {
+        "isEmail": "does not look like an email",
+      }
+    }
+    validations="isEmail"
+    value=""
+  />
+</div>
+`;
+
+exports[`<Email /> render() should render correctly if variant is text field 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    onMouseLeave={[Function]}
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      <span
+        emailBodyLink=""
+        emailSubjectLink=""
+        intl={
+          Object {
+            "formatMessage": [MockFunction] {
+              "calls": Array [
+                Array [
+                  Object {
+                    "defaultMessage": "Email",
+                    "id": "app.smartComponents.Person.parts.Email.label",
+                  },
+                ],
+                Array [
+                  Object {
+                    "defaultMessage": "Email",
+                    "id": "app.smartComponents.Person.parts.Email.label",
+                  },
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            },
+          }
+        }
+        isEllipsis={false}
+        readOnly={false}
+        updatedEmail=""
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Email /> renderCopy() should not renderCopy 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    onMouseLeave={[Function]}
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      <abbr
+        title=""
+      >
+        <a
+          href="mailto:?&subject=&body="
+          target="_blank"
+        >
+          <span
+            dark={true}
+            emailBodyLink=""
+            emailPersonal={false}
+            emailSubjectLink=""
+            intl={
+              Object {
+                "formatMessage": [MockFunction],
+              }
+            }
+            isEllipsis={true}
+            link={true}
+            personEmail={true}
+            readOnly={false}
+            updatedEmail=""
+          />
+        </a>
+      </abbr>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Email /> renderCopy() should renderCopy 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    onMouseLeave={[Function]}
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      className="j-text-ellipsis"
+    >
+      <abbr
+        title={true}
+      >
+        <a
+          href="mailto:true?&subject=&body="
+          target="_blank"
+        >
+          <span
+            dark={true}
+            emailBodyLink=""
+            emailPersonal={true}
+            emailSubjectLink=""
+            intl={
+              Object {
+                "formatMessage": [MockFunction],
+              }
+            }
+            isEllipsis={true}
+            link={true}
+            personEmail={true}
+            readOnly={false}
+            updatedEmail=""
+          >
+            <Component />
+          </span>
+        </a>
+      </abbr>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <CopyToClipboard
+        onCopy={[Function]}
+        text={true}
+      >
+        <WithStyles(Button)
+          className=""
+          dense={true}
+          noMargin={true}
+          size="extraSmall"
+          title="Copy"
+          tooltipProps={
+            Object {
+              "leaveDelay": 500,
+            }
+          }
+          variant="outline"
+        >
+          <WithStyles(Icon)
+            icon="lnr-copy"
+            size="xsmall"
+          />
+        </WithStyles(Button)>
+      </CopyToClipboard>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Email /> renderEditable() should renderEditable 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Email"
+        id="app.smartComponents.Person.parts.Email.label"
+      />
+    }
+    name=""
+    onSubmit={[Function]}
+    placeholder="Click to specify email address"
+    readOnly={false}
+    value=""
+  />
+</div>
+`;
+
+exports[`<Email /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="envelope"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        italic={true}
+      >
+        Email not specified
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

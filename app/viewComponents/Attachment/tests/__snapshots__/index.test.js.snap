@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachment /> render() should render correctly 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "THUMBNAIL": [Function],
+      "default": [Function],
+      "icon": [Function],
+      "link": [Function],
+      "list": [Function],
+      "popper": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Attachment /> renderDefault should render correctly given all props needed are present 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <AttachmentIcon
+        iconSize="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridContainer)
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            sample desc
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className=""
+          />
+          <WithStyles(GridItem)>
+            <a
+              className=""
+              href="https://gateway-latest.ugroop.com/sample"
+              onClick={[Function]}
+              target="_blank"
+            >
+              name
+            </a>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </Hidden>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            sample desc
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)>
+              <WithStyles(GridItem)>
+                <a
+                  className=""
+                  href="https://gateway-latest.ugroop.com/sample"
+                  onClick={[Function]}
+                  target="_blank"
+                >
+                  name
+                </a>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem) />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </Hidden>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachment /> renderDefault should render correctly given not all props needed are present 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <AttachmentIcon
+        iconSize="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridContainer)
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            No file
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </Hidden>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)>
+              <WithStyles(GridItem)>
+                No file
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem) />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </Hidden>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachment /> renderIcon should match snapshot 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title="Open this attachment"
+  >
+    <a
+      href="https://gateway-latest.ugroop.com/link"
+      onClick={[Function]}
+      target="_blank"
+    >
+      <WithStyles(Icon)
+        color="lavender"
+        icon="paperclip"
+        size="small"
+      />
+    </a>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`<Attachment /> renderLink should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <AttachmentIcon
+        iconSize="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <a
+        className=""
+        href="https://gateway-latest.ugroop.com/link"
+        onClick={[Function]}
+        target="_blank"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachment /> renderLink should match snapshot 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <AttachmentIcon
+        iconSize="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      No file
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Attachment /> renderList should match snapshot 1`] = `<div />`;
+
+exports[`<Attachment /> renderMenuItems should match snapshot 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    compact={true}
+  >
+    <a
+      className=""
+      href="https://gateway-latest.ugroop.com/links?filename=name"
+      onClick={[Function]}
+      target="_blank"
+    >
+      name
+    </a>
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<Attachment /> renderPopper should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    anchorEl={null}
+    onClose={[Function]}
+    placement="bottom-start"
+    renderButton={[MockFunction]}
+  >
+    renderMenuItems
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Attachment /> renderPopperButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Button)
+    color="base"
+    icon="paperclip"
+    iconButton={true}
+    onClick={[Function]}
+    size="small"
+    tooltipProps={
+      Object {
+        "placement": "top",
+        "title": "Click to see Attachments",
+      }
+    }
+    variant="borderless"
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderThumbnail should match snapshot 1`] = `
+<div>
+  <WithStyles(Thumbnail)
+    description={null}
+    link="thumbnail"
+    name={null}
+    type=""
+  />
+</div>
+`;
+
+exports[`<Attachment /> renderThumbnail should match snapshot 2`] = `
+<div>
+  <WithStyles(Thumbnail)
+    description={null}
+    link={null}
+    name={null}
+    type=""
+  />
+</div>
+`;

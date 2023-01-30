@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withNodeRole #render() still matches snapshot 1`] = `
+<ConnectFunction
+  roles={
+    Array [
+      "tour_organizer",
+      "tour_collaborator",
+      "tour_viewer",
+      "tour_owner",
+      "tour_participant",
+      "tour_interested",
+    ]
+  }
+>
+  <Component />
+</ConnectFunction>
+`;
+
+exports[`withNodeRole #render() still matches snapshot inside nodeProp 1`] = `
+<div
+  key="1"
+>
+  <Component
+    resaga={Object {}}
+  />
+</div>
+`;

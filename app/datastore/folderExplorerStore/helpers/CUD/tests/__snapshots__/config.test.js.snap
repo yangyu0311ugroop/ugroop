@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CRUD/config.js PHOTO_METAINFO_CONFIG value userMetaInfo keyPath should return a particular keypath shape 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  "/photo",
+  "metaInfo",
+]
+`;

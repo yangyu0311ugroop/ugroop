@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookingFlights /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabelHeading={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<FlightBookingFlights /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(EditableLabel)>
+              <FormattedMessage
+                defaultMessage="Flights"
+                id="app.Event.FlightBooking.layouts.Flights.label"
+              />
+            </WithStyles(EditableLabel)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(CanEditFlightBooking)))
+              dataId={1}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <ConnectFunction
+        flightBookingDataId={1}
+      >
+        <Component />
+      </ConnectFunction>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightBookingFlights /> #renderEditableFlights() still matches snapshot 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    index={0}
+    key="1"
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<FlightBookingFlights /> #renderEditableFlights() still matches snapshot if no flightIds 1`] = `
+<div>
+  <WithStyles(EditablePlaceholder)>
+    <FormattedMessage
+      defaultMessage="No flights have been added"
+      id="app.Event.FlightBooking.layouts.Flights.placeholder"
+    />
+  </WithStyles(EditablePlaceholder)>
+</div>
+`;
+
+exports[`<FlightBookingFlights /> renderLabelHeading() should renderLabelHeading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <ConnectFunction
+      flightBookingDataId={1}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

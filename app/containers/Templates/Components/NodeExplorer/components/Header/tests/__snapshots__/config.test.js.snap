@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header/config.js value folderName should return a particular shape of array 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "content",
+]
+`;
+
+exports[`Header/config.js value folderName should return a particular shape of array 2`] = `
+Array [
+  "organisationDataStore",
+  "organisations",
+  1,
+  "name",
+]
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Passport /> handleSubmit should use store if forCreate props is false 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<Passport /> handleSubmit should use store if forCreate props is true 1`] = `
+Array [
+  Array [
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Passport /> render() should render correctly 1`] = `
+Array [
+  Array [
+    "card",
+    Object {
+      "card": [Function],
+      "cardForm": [Function],
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Passport /> renderCardForm should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(PassportCard)
+      actions="renderAction"
+      content={
+        <WithStyles(Connect(WithSimplifyResaga(EditForm)))
+          forCreate={false}
+          id={0}
+          size="xxl"
+          userId={0}
+          withFormWrap={false}
+        />
+      }
+      primaryCheckbox={
+        <WithStyles(Connect(WithSimplifyResaga(IsDefault)))
+          disabled={true}
+          id={0}
+          variant="checkboxField"
+        />
+      }
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Passport /> renderDialogHeader should render the dialog title for edit mode 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(Title)
+        heading={
+          <WithStyles(MarginWrapper)
+            top="sm"
+          >
+            Edit Passport
+          </WithStyles(MarginWrapper)>
+        }
+        headingBackground="Passport"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={1}
+      xs={1}
+    >
+      <WithStyles(UGDialogAction)>
+        renderCloseButton
+      </WithStyles(UGDialogAction)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Passport /> renderEditAction should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        disabled={false}
+        icon="check"
+        iconButton={true}
+        loading={false}
+        size="small"
+        type="submit"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        dense={true}
+        disabled={false}
+        icon="cross"
+        iconButton={true}
+        onClick={[Function]}
+        size="small"
+        variant="outline"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

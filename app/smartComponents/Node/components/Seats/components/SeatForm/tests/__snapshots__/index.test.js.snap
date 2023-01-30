@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SeatForm /> should render correctly 1`] = `
+<WithStyles(GridContainer)
+  alignItems="flex-end"
+>
+  <WithStyles(GridItem)
+    md={4}
+    xs={12}
+  >
+    <TextField
+      label={
+        <FormattedMessage
+          defaultMessage="Seat Number"
+          id="app/smartComponents/Node/components/AddSeat/seatField"
+        />
+      }
+      maxLength={0}
+      minLength={0}
+      name="node.content"
+      type="text"
+      validationErrors={Object {}}
+      validations={Object {}}
+      value={0}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    md={8}
+    xs={12}
+  >
+    <ConnectFunction
+      selected={0}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<SeatForm /> should render correctly with participant data render prop 1`] = `
+<Formsy(SelectField)
+  innerRef={[Function]}
+  label={
+    <FormattedMessage
+      defaultMessage="Assigned To"
+      id="app/smartComponents/Node/components/AddSeat/selectParticipant"
+    />
+  }
+  name="participantId"
+  options={Array []}
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value={0}
+/>
+`;

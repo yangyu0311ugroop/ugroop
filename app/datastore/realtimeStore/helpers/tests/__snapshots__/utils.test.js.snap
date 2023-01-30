@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/realtimeStore/helpers/utils #makeChangeStreamChannel() creates EventChannel 1`] = `
+Object {
+  "close": [Function],
+  "flush": [Function],
+  "take": [Function],
+}
+`;
+
+exports[`datastore/realtimeStore/helpers/utils #makeChangeStreamEventSource() creates EventSource with correct url 1`] = `
+EventSource {
+  "dataListeners": Array [],
+  "url": "http://server.com/deltas/change-stream?options={\\"where\\":{\\"or\\":[{\\"userId\\":\\"undefined\\"}]}}",
+}
+`;

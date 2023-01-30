@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransportationLocations /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Locations)))
+    EndComponent={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(End))",
+        "type": [Function],
+      }
+    }
+    StartComponent={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(Start))",
+        "type": [Function],
+      }
+    }
+    classes={Object {}}
+    endLocationLabel=""
+    handleSwap={[Function]}
+    readOnly={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    setter={false}
+    startLocationLabel=""
+  />
+</div>
+`;

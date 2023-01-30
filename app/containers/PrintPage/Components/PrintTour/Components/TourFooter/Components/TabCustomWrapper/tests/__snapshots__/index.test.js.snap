@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourFooter render check snapshot 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`TourFooter render check snapshot 2`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`TourFooter render check snapshot 3`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Hr) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Container)>
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              ellipsis={true}
+              nowrap={true}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Container)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Container)>
+        <WithStyles(GridContainer)
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(withRouter(Connect(WithSimplifyResaga(TabCustom))))
+              id={0}
+              isPrint={true}
+              isPublic={true}
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Container)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`TourFooter render check snapshot 4`] = `<div />`;
+
+exports[`TourFooter render check snapshot if tabChildIds is undefined 1`] = `<div />`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableSelect /> Smoke tests should render properly 1`] = `
+<WithStyles(Editable)
+  onClick={[Function]}
+  readOnly={false}
+>
+  <Formsy(WithStyles(InlineSelect))
+    disabled={false}
+    innerRef={[Function]}
+    name="Select"
+    native={false}
+    onChange={[Function]}
+    onClose={[Function]}
+    onOpen={[Function]}
+    open={false}
+    options={Array []}
+    renderValue={[Function]}
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+</WithStyles(Editable)>
+`;
+
+exports[`<EditableSelect /> setStates handleChange 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelect /> setStates handleEditableClick 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": true,
+}
+`;
+
+exports[`<EditableSelect /> setStates handleMenuClose 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelect /> setStates handleMenuOpen 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": true,
+}
+`;

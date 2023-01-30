@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedMenuItem /> render should match snapshot if id is not equal to participantParentId 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    button={true}
+  >
+    renderPart
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<InterestedMenuItem /> renderPart should match snapshot 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<InterestedMenuItem /> renderRowValue should match snapshot if there is no userId 1`] = `
+<div>
+  <H4
+    dense={true}
+    title="This follower is not yet connected to someone registered on uGroop."
+  >
+    value
+  </H4>
+</div>
+`;
+
+exports[`<InterestedMenuItem /> renderRowValue should match snapshot if there is userId 1`] = `
+<div>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</div>
+`;

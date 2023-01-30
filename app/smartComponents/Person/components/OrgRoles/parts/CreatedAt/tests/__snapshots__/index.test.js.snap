@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreatedAt /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(DateTimeTooltip)
+    dateTime=""
+  >
+    <span>
+      Invalid date
+    </span>
+  </WithStyles(DateTimeTooltip)>
+</div>
+`;
+
+exports[`<CreatedAt /> renderTextOnly() should renderTextOnly render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <span>
+        Created At:
+      </span>
+       
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      Invalid date
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

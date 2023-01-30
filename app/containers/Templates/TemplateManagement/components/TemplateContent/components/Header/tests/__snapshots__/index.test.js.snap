@@ -1,0 +1,951 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> canDoSomething() should canDoSomething 1`] = `<div />`;
+
+exports[`<Header /> componentDidMount() should componentDidMount() 1`] = `
+Object {
+  "actionButtonWidth": 0,
+  "activeWidth": 0,
+  "childrenWidths": Array [],
+  "computing": true,
+  "hiddenIndex": -1,
+  "hidden_0": false,
+  "hidden_1": false,
+  "hidden_2": false,
+  "parentWidth": 0,
+  "showHelp": false,
+}
+`;
+
+exports[`<Header /> compute() should compute #2 1`] = `
+Object {
+  "actionButtonWidth": 207.421875,
+  "activeWidth": 0,
+  "childrenWidths": Array [
+    1340.453125,
+    39.1875,
+    86.734375,
+    43.15625,
+    52.78125,
+    52.78125,
+    52.78125,
+  ],
+  "computing": false,
+  "hiddenIndex": 0,
+  "hidden_0": false,
+  "hidden_1": true,
+  "hidden_2": true,
+  "hidden_3": true,
+  "hidden_4": true,
+  "hidden_5": true,
+  "hidden_6": true,
+  "parentWidth": 1140,
+  "showHelp": false,
+}
+`;
+
+exports[`<Header /> compute() should compute 1`] = `
+Object {
+  "actionButtonWidth": 0,
+  "activeWidth": 0,
+  "childrenWidths": Array [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+  ],
+  "computing": false,
+  "hiddenIndex": 3,
+  "hidden_0": false,
+  "hidden_1": false,
+  "hidden_2": false,
+  "hidden_3": true,
+  "hidden_4": true,
+  "hidden_5": true,
+  "hidden_6": true,
+  "parentWidth": 400,
+  "showHelp": false,
+}
+`;
+
+exports[`<Header /> render() should render 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={true}
+    enabled={true}
+    id="tabHeader"
+    innerZ={1089}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top="#stickyAppBar"
+  >
+    <WithStyles(Container)
+      padding={false}
+    >
+      <div
+        className=""
+      >
+        <ResizeDetector
+          handleHeight={false}
+          handleWidth={true}
+          nodeType="div"
+          onResize={[Function]}
+          querySelector={null}
+          refreshRate={1000}
+          skipOnMount={false}
+          targetDomEl={null}
+        />
+        <WithStyles(GridContainer)
+          alignItems="center"
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              className=""
+              wrap="nowrap"
+            >
+              renderItem
+              renderMenu
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ResizeDetector
+              handleHeight={false}
+              handleWidth={true}
+              nodeType="div"
+              onResize={[Function]}
+              querySelector={null}
+              refreshRate={1000}
+              skipOnMount={false}
+              targetDomEl={null}
+            />
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={0}
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem) />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+      renderDialogs
+    </WithStyles(Container)>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> render() should render editable 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={true}
+    enabled={true}
+    id="tabHeader"
+    innerZ={1089}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top="#stickyAppBar"
+  >
+    <WithStyles(Container)
+      padding={false}
+    >
+      <div
+        className=""
+      >
+        <ResizeDetector
+          handleHeight={false}
+          handleWidth={true}
+          nodeType="div"
+          onResize={[Function]}
+          querySelector={null}
+          refreshRate={1000}
+          skipOnMount={false}
+          targetDomEl={null}
+        />
+        <WithStyles(GridContainer)
+          alignItems="center"
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              className=""
+              wrap="nowrap"
+            >
+              renderItem
+              renderMenu
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ResizeDetector
+              handleHeight={false}
+              handleWidth={true}
+              nodeType="div"
+              onResize={[Function]}
+              querySelector={null}
+              refreshRate={1000}
+              skipOnMount={false}
+              targetDomEl={null}
+            />
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={0}
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      onClick={[Function]}
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="center"
+                        spacing={0}
+                        wrap="nowrap"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(Icon)
+                            icon="lnr-plus"
+                            paddingRight={true}
+                            size="small"
+                          />
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            dark={true}
+                          >
+                            New tab
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      onClick={[Function]}
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="center"
+                        spacing={0}
+                        wrap="nowrap"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(Icon)
+                            icon="lnr-cog"
+                            paddingRight={true}
+                            size="small"
+                          />
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            dark={true}
+                          >
+                            Manage tabs
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+      renderDialogs
+    </WithStyles(Container)>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> render() should render hidden 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={true}
+    enabled={true}
+    id="tabHeader"
+    innerZ={1089}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top="#stickyAppBar"
+  >
+    renderStickyTourHeader
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> render() should render if isPublic and !smDown 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={true}
+    enabled={true}
+    id="tabHeader"
+    innerZ={1089}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top="#stickyAppBar"
+  >
+    <WithStyles(Container)
+      padding={false}
+    >
+      <div
+        className=""
+      >
+        <ResizeDetector
+          handleHeight={false}
+          handleWidth={true}
+          nodeType="div"
+          onResize={[Function]}
+          querySelector={null}
+          refreshRate={1000}
+          skipOnMount={false}
+          targetDomEl={null}
+        />
+        <WithStyles(GridContainer)
+          alignItems="center"
+          justify="space-between"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              className=""
+              wrap="nowrap"
+            >
+              renderItem
+              renderMenu
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+      renderDialogs
+    </WithStyles(Container)>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> render() should render if isPublic and smDown 1`] = `
+<div>
+  <Sticky
+    activeClass="active"
+    bottomBoundary={0}
+    enableTransforms={true}
+    enabled={true}
+    id="tabHeader"
+    innerZ={1089}
+    onStateChange={[Function]}
+    releasedClass="released"
+    shouldFreeze={[Function]}
+    top="#stickyAppBar"
+  >
+    <WithStyles(Container)
+      padding={false}
+    >
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          justify="space-between"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(ForwardRef(Tabs))
+              scrollButtons="auto"
+              textColor="primary"
+              value={-1}
+              variant="scrollable"
+            >
+              renderItem
+            </WithStyles(ForwardRef(Tabs))>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </div>
+      renderDialogs
+    </WithStyles(Container)>
+  </Sticky>
+</div>
+`;
+
+exports[`<Header /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))
+    last={true}
+    onClick={[MockFunction]}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <div>
+          1
+           more
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            icon="lnr-chevron-down"
+            paddingLeft={true}
+            size="xsmall"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))>
+</div>
+`;
+
+exports[`<Header /> renderDialogs() should renderDialogs 1`] = `
+<div>
+  <WithStyles(Component)
+    onClose={[Function]}
+    open={false}
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EditTab)))))
+    dialogProps={
+      Object {
+        "dialogTitle": "Add Tab",
+        "headlineIcon": "lnr-new-tab",
+        "headlineText": "Please provide a name for your new tab",
+        "headlineTitle": "Add Tab",
+        "template": "add",
+      }
+    }
+    onClose={[Function]}
+    onSuccess={[Function]}
+    parentId={3}
+  />
+</div>
+`;
+
+exports[`<Header /> renderExecuteMenu should render 1`] = `
+<div>
+  renderPrivateTabs
+  renderHiddenTabs
+</div>
+`;
+
+exports[`<Header /> renderExecuteMenu should render if smDown 1`] = `
+<div>
+  renderPrivateTabs
+  renderHiddenTabs
+</div>
+`;
+
+exports[`<Header /> renderHiddenItem() should renderHiddenItem 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      id={1}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderHiddenTabs() should renderHiddenTabs 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-lock"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          Private
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={false}
+      id={1}
+      isPublic={false}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={false}
+      id={2}
+      isPublic={false}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(Hr)
+    quarter={true}
+  />
+</div>
+`;
+
+exports[`<Header /> renderItem() should render mobile 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Item)))
+    active={false}
+    first={false}
+    id={11}
+    isMobile={true}
+    isPublic={false}
+    last={false}
+    onClick={[Function]}
+    variant="tab"
+  />
+</div>
+`;
+
+exports[`<Header /> renderItem() should renderItem 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    key="11"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={false}
+      first={false}
+      id={11}
+      isPublic={false}
+      last={false}
+      onClick={[Function]}
+      onResize={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      hiddenIds={Array []}
+      noPadding={true}
+      privateIds={
+        Array [
+          1,
+        ]
+      }
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMenu() should renderMenu return mobile button 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      hiddenIds={Array []}
+      noPadding={true}
+      privateIds={
+        Array [
+          1,
+        ]
+      }
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMenuButton() should renderMenuButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(GridItem)>
+          More
+        </WithStyles(GridItem)>
+      </Hidden>
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Icon)
+            icon="lnr-chevron-down"
+            paddingLeft={true}
+            size="xxsmall"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))>
+</div>
+`;
+
+exports[`<Header /> renderMenuMenu should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderPrivateTabs
+    renderHiddenTabs
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        icon="lnr-plus"
+        onClick={[Function]}
+      >
+        <WithStyles(JTextClass)>
+          New tab
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        closeMenu={[MockFunction]}
+        icon="lnr-cog"
+        onClick={[Function]}
+      >
+        <WithStyles(JTextClass)>
+          Manage tabs
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderMenuMenu() should renderMenuMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderHiddenTabs
+    renderHiddenTabs
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderMobile() should renderMobile 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="space-between"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(ForwardRef(Tabs))
+        scrollButtons="auto"
+        textColor="primary"
+        value={-1}
+        variant="scrollable"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderMobileButton() should renderMobileButton 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tab))
+    key="more"
+    label={
+      <WithStyles(Icon)
+        icon="lnr-ellipsis"
+        size="sm"
+      />
+    }
+    onClick={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`<Header /> renderMore() should renderMore 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      count={0}
+      hiddenIds={Array []}
+      noPadding={true}
+      privateIds={Array []}
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMore() should renderMore mobile 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      count={0}
+      hiddenIds={Array []}
+      noPadding={true}
+      privateIds={Array []}
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMoreMenu() should renderMoreMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderHiddenItem
+    renderHiddenItem
+    renderHiddenItem
+    <WithStyles(Hr)
+      quarter={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> renderPrivateTabs() should renderPrivateTabs 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-users"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          Shared with 
+          Organisers
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="1"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={false}
+      id={1}
+      isPublic={false}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="2"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={false}
+      id={2}
+      isPublic={false}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(Hr)
+    quarter={true}
+  />
+</div>
+`;
+
+exports[`<Header /> renderStickyTabs() should renderStickyTabs 1`] = `
+<div>
+  <ConnectFunction
+    halfPadding={true}
+    hiddenIntercom={true}
+    ids={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Header /> renderStickyTourHeader() should renderStickyTourHeader 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Container)
+          padding={false}
+        >
+          <div>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={0}
+              wrap="nowrap"
+            >
+              <Hidden
+                xsDown={true}
+              >
+                <WithStyles(GridItem)>
+                  <div>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(JButton)
+                          onClick={[Function]}
+                        >
+                          <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+                            editable={false}
+                            ellipsis={true}
+                            isCustomData={false}
+                            showEmpty={true}
+                            valueKey="content"
+                          />
+                        </WithStyles(JButton)>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Star))))) />
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </div>
+                </WithStyles(GridItem)>
+              </Hidden>
+              <Hidden
+                smUp={true}
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(JButton)
+                    onClick={[Function]}
+                  >
+                    <WithStyles(Icon)
+                      icon="lnr-arrow-up"
+                      size="small"
+                    />
+                  </WithStyles(JButton)>
+                </WithStyles(GridItem)>
+              </Hidden>
+              <WithStyles(GridItem)>
+                <div
+                  className=""
+                >
+                  renderStickyTabs
+                </div>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(withRouter(TemplateActionButtons))))))))))))))
+                  isPublic={false}
+                  spacing={0}
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(Container)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renderTabMenu() should renderTabMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Item)))
+      active={true}
+      isPublic={false}
+      onClick={[Function]}
+      variant="MENU_ITEM"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderTabsButton() should renderTabsButton 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Item)))
+    first={true}
+    isPublic={false}
+    popper={true}
+  />
+</div>
+`;
+
+exports[`<Header /> renderTabsMenu() should renderTabsMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderTabMenu
+    renderTabMenu
+    <WithStyles(Hr)
+      quarter={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Header /> shouldShowMore() should shouldShowMore 1`] = `<div />`;

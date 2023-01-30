@@ -1,0 +1,23 @@
+.ug-picture {
+  display: flex;
+}
+
+.ug-created-by {
+  color: #ACB2C2;
+  font-weight: 800;
+  margin: 5px 0;
+  font-size: 0.85em;
+}
+
+.ug-name {
+  color: #37415A;
+  font-size: 0.85em;
+  margin: 0;
+}
+
+.ug-details {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

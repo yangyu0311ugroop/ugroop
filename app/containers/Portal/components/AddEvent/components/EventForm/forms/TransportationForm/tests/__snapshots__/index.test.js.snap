@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransportationForm /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    key="false"
+    spacing={2}
+  >
+    <Formsy(DataField)
+      currentValue=""
+      innerRef={[Function]}
+      name="data.detail.detail.flightBookingId"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(FText))
+        autoFocus={true}
+        label="Event name"
+        name="data.name"
+        placeholder="Enter event name"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <WithStyles(GridItem)
+              xs={7}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                label="Departing date"
+                placeholder="Enter departing date"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={5}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(StartTime)))
+                label="Departing time"
+                placeholder="Enter departing time"
+              />
+            </WithStyles(GridItem)>
+            <ConnectFunction />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)>
+                <WithStyles(GridItem)
+                  xs={7}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                    label="Arriving date"
+                    placeholder="Enter arriving date"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)
+                  xs={5}
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(EndTime)))
+                    label="Arriving time"
+                    placeholder="Enter arriving time"
+                  />
+                </WithStyles(GridItem)>
+                <ConnectFunction />
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            bold={true}
+          >
+            Departing
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Location)))
+            label="Place name"
+            placeholder="Enter place name"
+            position="start"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Formsy(FText))
+            label="Location"
+            name="data.detail.detail.common.start.name"
+            placeholder="Enter location"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+            bold={true}
+          >
+            Arriving
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Location)))
+            label="Place name"
+            placeholder="Enter place name"
+            position="end"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Formsy(FText))
+            label="Location"
+            name="data.detail.detail.common.end.name"
+            placeholder="Enter location"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(NumberURLDescription))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <AmountsForm />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Attachments))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Reservation))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

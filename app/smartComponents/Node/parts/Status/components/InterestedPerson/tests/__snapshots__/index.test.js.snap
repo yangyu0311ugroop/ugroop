@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedPerson /> #handleSubmit() calls NODE_API_HELPERS.updateNode 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "status": "value",
+        "type": undefined,
+      },
+      "nodeId": null,
+    },
+    Object {
+      "id": null,
+      "readOnly": false,
+      "status": "",
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<InterestedPerson /> #render() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="node.status"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value=""
+/>
+`;
+
+exports[`<InterestedPerson /> #renderActions() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(Button)
+    dense={true}
+    onClick={[Function]}
+    size="small"
+    variant="outline"
+  >
+    <FormattedMessage
+      defaultMessage="Unfollow"
+      id="app.smartComponents.Node.parts.Status.InterestedPerson.completeButtonLabel"
+    />
+  </WithStyles(Button)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedPerson /> #renderActions() still matches snapshot if props.status 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(Button)
+    dense={true}
+    onClick={[Function]}
+    size="small"
+    variant="outline"
+  >
+    <FormattedMessage
+      defaultMessage="Follow"
+      id="app.smartComponents.Node.parts.Status.InterestedPerson.pendingButtonLabel"
+    />
+  </WithStyles(Button)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<InterestedPerson /> #renderData() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="node.status"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value=""
+/>
+`;

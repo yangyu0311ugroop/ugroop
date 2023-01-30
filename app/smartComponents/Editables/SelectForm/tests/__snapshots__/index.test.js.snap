@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableSelectForm /> Smoke tests should render properly 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onChange={[Function]}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  onValidSubmit={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <WithStyles(EditableLabel) />
+  <WithStyles(Editable)
+    Typography="P"
+    bold={true}
+    displayFlex={false}
+    fullWidth={false}
+    onClick={[Function]}
+    readOnly={false}
+  >
+    <Formsy(WithStyles(InlineSelect))
+      className=""
+      currentValue=""
+      disabled={false}
+      displayEmpty={true}
+      fullWidth={false}
+      innerRef={[Function]}
+      name="SelectForm"
+      native={false}
+      onClose={[Function]}
+      onOpen={[Function]}
+      open={false}
+      options={Array []}
+      renderValue={[Function]}
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+      value=""
+    />
+  </WithStyles(Editable)>
+</GenericForm>
+`;
+
+exports[`<EditableSelectForm /> instance renderPlaceholder 1`] = `
+<WithStyles(EditablePlaceholder)>
+  None
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableSelectForm /> instance renderValue with no value 1`] = `
+<WithStyles(EditablePlaceholder)>
+  Click to specify
+</WithStyles(EditablePlaceholder)>
+`;
+
+exports[`<EditableSelectForm /> setStates handleChange 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleEditableClick 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": true,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleMenuClose 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleMenuOpen 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": true,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleSubmitError 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleSubmitSuccess 1`] = `
+Object {
+  "loading": false,
+  "menuOpen": false,
+}
+`;
+
+exports[`<EditableSelectForm /> setStates handleValidSubmit 1`] = `
+Object {
+  "loading": true,
+  "menuOpen": false,
+}
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconLabelFlag /> #render() still matches snapshot 1`] = `
+<div
+  className="root"
+>
+  <WithStyles(GridItem)
+    className="item"
+  >
+    <P
+      className="p"
+      dense={true}
+    >
+      Some children
+    </P>
+  </WithStyles(GridItem)>
+</div>
+`;

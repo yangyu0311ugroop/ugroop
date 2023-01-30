@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<End /> handleSubmit should create patchEvent request 1`] = `
+Array [
+  Array [
+    Object {
+      "model": Object {
+        "data": Object {
+          "detail": Object {
+            "detail": Object {
+              "common": Object {
+                "end": Object {
+                  "name": "asdasd",
+                },
+              },
+            },
+          },
+        },
+      },
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {},
+      "dataId": null,
+      "icon": "",
+      "id": null,
+      "label": "",
+      "labelDirection": "column",
+      "labelSibling": null,
+      "linkClassName": "",
+      "name": "",
+      "placeId": "",
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "showLabel": true,
+      "templateId": null,
+      "timeZoneId": null,
+      "variant": "",
+    },
+    false,
+  ],
+]
+`;
+
+exports[`<End /> handleSubmitSuccess should call dispatchTo 1`] = `
+Array [
+  Array [
+    "geocodes",
+    "getGeoCountryCode",
+    Object {
+      "payload": Object {
+        "name": "qqq",
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": null,
+        "ids": Array [
+          null,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<End /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EventLocation)
+    EventTime={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(EndTime))",
+        "type": [Function],
+      }
+    }
+    classes={Object {}}
+    dataId={null}
+    handleOnClear={[Function]}
+    handleSelect={[Function]}
+    handleSubmit={[Function]}
+    icon=""
+    id={null}
+    inputLocationProps={
+      Object {
+        "editable": Object {
+          "label": <FormattedMessage
+            defaultMessage="Arriving"
+            id="app.smartComponents.Event.components.Event.parts.Coach.EndLocation.label"
+          />,
+          "name": "data.detail.detail.common.end.name",
+          "placeholder": "Click here to specify the location",
+        },
+        "editableTextProps": Object {
+          "editing": true,
+          "iconInputs": Object {
+            "name": "data.detail.detail.common.end.icon",
+          },
+          "locationKey": "data.detail.detail.common.end.name",
+          "placeIdInputs": Object {
+            "name": "data.detail.detail.common.end.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.end.timeZoneId",
+          },
+        },
+        "end": "data.detail.detail.common.end",
+        "field": Object {
+          "iconInputs": Object {
+            "name": "data.detail.detail.common.end.icon",
+          },
+          "locationKey": "data.detail.detail.common.end.name",
+          "locationLabel": null,
+          "placeIdInputs": Object {
+            "name": "data.detail.detail.common.end.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.end.timeZoneId",
+          },
+        },
+        "icon": "data.detail.detail.common.end.icon",
+        "name": "data.detail.detail.common.end.name",
+        "placeId": "data.detail.detail.common.end.placeId",
+        "timeZoneId": "node.customData.end.timeZoneId",
+        "vehicleHireLabel": <FormattedMessage
+          defaultMessage="Drop-off"
+          id="app.smartComponents.Event.components.Event.parts.Coach.EndLocation.vehicleHireLabel"
+        />,
+      }
+    }
+    label=""
+    labelDirection="column"
+    labelSibling={null}
+    linkClassName=""
+    name=""
+    placeId=""
+    readOnly={false}
+    showLabel={true}
+    templateId={null}
+    timeZoneId={null}
+    variant=""
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> should render something 1`] = `
+<label
+  className=""
+  htmlFor=""
+>
+  <WithStyles(Icon)
+    icon="lnr-camera2"
+    size="mediumXPlus"
+  />
+</label>
+`;

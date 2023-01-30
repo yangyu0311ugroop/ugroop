@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route/config.js value route should return cacheKey 1`] = `"2233.route.3344"`;
+
+exports[`Route/config.js value route should return getter 1`] = `
+Object {
+  "dayIds": Array [
+    1,
+    2,
+    3,
+    4,
+    5,
+  ],
+  "destination": 4,
+  "destinationIndex": 3,
+  "origin": 2,
+  "originIndex": 1,
+  "routeIds": Array [
+    2,
+    3,
+    4,
+  ],
+  "waypoints": Array [
+    3,
+  ],
+}
+`;

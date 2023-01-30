@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthenticatedLayout /> still matches snapshot if CI 1`] = `
+<div
+  className=""
+>
+  <Element
+    name="scrollToTop"
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={true}
+      enabled={true}
+      id="appBar"
+      innerZ={1099}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={0}
+    >
+      <div
+        id="stickyAppBar"
+      >
+        <withRouter(Header) />
+      </div>
+    </Sticky>
+  </Element>
+  <Content>
+    <withReducer(Connect(WithSimplifyResaga(UGSnackbarContainer))) />
+    <div
+      id="LayoutContent"
+    >
+      Hello
+    </div>
+    <WithStyles(Container)>
+      <WithStyles(FooterLinks) />
+    </WithStyles(Container)>
+  </Content>
+</div>
+`;
+
+exports[`<AuthenticatedLayout /> still matches snapshot if CI and BRANCH=stage 1`] = `
+<div
+  className=""
+>
+  <Element
+    name="scrollToTop"
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={true}
+      enabled={true}
+      id="appBar"
+      innerZ={1099}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={0}
+    >
+      <div
+        id="stickyAppBar"
+      >
+        <withRouter(Header) />
+      </div>
+    </Sticky>
+  </Element>
+  <Content>
+    <withReducer(Connect(WithSimplifyResaga(UGSnackbarContainer))) />
+    <div
+      id="LayoutContent"
+    >
+      Hello
+    </div>
+    <WithStyles(Container)>
+      <WithStyles(FooterLinks) />
+    </WithStyles(Container)>
+  </Content>
+</div>
+`;
+
+exports[`<AuthenticatedLayout /> still matches snapshot if not CI 1`] = `
+<div
+  className=""
+>
+  <Element
+    name="scrollToTop"
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={true}
+      enabled={true}
+      id="appBar"
+      innerZ={1099}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={0}
+    >
+      <div
+        id="stickyAppBar"
+      >
+        <withRouter(Header) />
+      </div>
+    </Sticky>
+  </Element>
+  <Content>
+    <withReducer(Connect(WithSimplifyResaga(UGSnackbarContainer))) />
+    <div
+      id="LayoutContent"
+    >
+      Hello
+    </div>
+    <WithStyles(Container)>
+      <WithStyles(FooterLinks) />
+    </WithStyles(Container)>
+  </Content>
+</div>
+`;

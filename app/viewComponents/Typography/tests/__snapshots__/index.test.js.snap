@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should match snapshot 1`] = `
+<div>
+  <WithStyles(Typography)
+    type="H1"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 2`] = `
+<div>
+  <WithStyles(Typography)
+    type="H2"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 3`] = `
+<div>
+  <WithStyles(Typography)
+    type="H3"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 4`] = `
+<div>
+  <WithStyles(Typography)
+    type="H4"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 5`] = `
+<div>
+  <WithStyles(Typography)
+    type="H5"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 6`] = `
+<div>
+  <WithStyles(Typography)
+    type="H6"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 7`] = `
+<div>
+  <WithStyles(Typography)
+    type="P"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 8`] = `
+<div>
+  <WithStyles(Typography)
+    type="TITLE"
+  />
+</div>
+`;
+
+exports[`<Typography /> should match snapshot 9`] = `
+<div>
+  <WithStyles(Typography)
+    type="SPAN"
+  />
+</div>
+`;

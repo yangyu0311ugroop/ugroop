@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGImageItem /> component should accept className 1`] = `
+<div
+  className="UGImageItem-ugImageItem ug-image-item"
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className="UGImageItem-ugImage"
+      src=""
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`<UGImageItem /> component should accept imageUrl props 1`] = `
+<div
+  className="UGImageItem-ugImageItem"
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className="UGImageItem-ugImage"
+      src="sampleUrl"
+    />
+  </LazyLoad>
+</div>
+`;

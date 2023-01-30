@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JoinOrganisation /> acceptOrgInvitation() should acceptOrgInvitation 1`] = `
+Array [
+  Array [
+    "OrgInvitations",
+    "confirmInvitation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "some token",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<JoinOrganisation /> declineOrgInvitation() should declineOrgInvitation 1`] = `
+Array [
+  Array [
+    "OrgInvitations",
+    "confirmInvitation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "some token",
+      },
+    },
+  ],
+  Array [
+    "OrgInvitations",
+    "declineInvitation",
+    Object {
+      "onError": [Function],
+      "payload": Object {
+        "token": "some token",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<JoinOrganisation /> goToOrganisationPage() should goToOrganisationPage 1`] = `
+Array [
+  Array [
+    "/orgs/2233",
+  ],
+]
+`;
+
+exports[`<JoinOrganisation /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <b>
+            <WithStyles(Connect(WithSimplifyResaga(InviteFrom)))
+              id={22321}
+            />
+          </b>
+           
+          invited you to join the
+           
+          <b>
+            <WithStyles(Connect(WithSimplifyResaga(OrganisationName)))
+              id={22321}
+            />
+          </b>
+           
+          organisation as 
+          <WithStyles(Connect(WithSimplifyResaga(Role)))
+            article={true}
+            id={22321}
+          />
+           
+          <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+            id={22321}
+          />
+          .
+        </WithStyles(GridItem)>
+        renderButtons
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<JoinOrganisation /> render() should render show error 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)>
+          <b>
+            <WithStyles(Connect(WithSimplifyResaga(InviteFrom)))
+              id={22321}
+            />
+          </b>
+           
+          invited you to join the
+           
+          <b>
+            <WithStyles(Connect(WithSimplifyResaga(OrganisationName)))
+              id={22321}
+            />
+          </b>
+           
+          organisation as 
+          <WithStyles(Connect(WithSimplifyResaga(Role)))
+            article={true}
+            id={22321}
+          />
+           
+          <WithStyles(Connect(WithSimplifyResaga(CreatedAt)))
+            id={22321}
+          />
+          .
+        </WithStyles(GridItem)>
+        renderButtons
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        danger={true}
+        sm={true}
+      >
+        Request failed, invitation might had been cancelled. Please refresh this page.
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<JoinOrganisation /> renderButtons() should renderButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      disabled={false}
+      noMargin={true}
+      onClick={[Function]}
+      size="extraSmall"
+    >
+      Accept
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    onClick={[Function]}
+  >
+    <WithStyles(Button)
+      color="black"
+      disabled={false}
+      noMargin={true}
+      onClick={[Function]}
+      size="extraSmall"
+      variant="outline"
+    >
+      Decline
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;

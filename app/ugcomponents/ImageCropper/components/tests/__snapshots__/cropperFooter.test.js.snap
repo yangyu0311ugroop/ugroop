@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cropper Footer shall render properly 1`] = `
+<Motion
+  defaultStyle={
+    Object {
+      "height": 0,
+      "opacity": 0,
+    }
+  }
+  style={
+    Object {
+      "opacity": Object {
+        "damping": 26,
+        "precision": 0.01,
+        "stiffness": 170,
+        "val": 1,
+      },
+    }
+  }
+>
+  <Component />
+</Motion>
+`;

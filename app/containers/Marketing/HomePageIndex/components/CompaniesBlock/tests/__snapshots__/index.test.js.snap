@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompaniesBlock should render what it should render 1`] = `
+<div>
+  <WithStyles(UGHr) />
+  <WithStyles(Container)
+    className="MarketingCompaniesBlock-root"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        className="MarketingCompaniesBlock-flexCenter"
+        md={6}
+        xs={12}
+      >
+        <WithStyles(Header)
+          as="h2"
+        >
+          Supported by these wonderful companies
+        </WithStyles(Header)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingCompaniesBlock-flexCenter"
+        md={6}
+        xs={12}
+      >
+        <WithStyles(GridContainer)>
+          <WithStyles(GridItem)
+            className="MarketingCompaniesBlock-flexCenter"
+            md={3}
+            xs={12}
+          >
+            <Img
+              alt="tect"
+              className="MarketingCompaniesBlock-companyLogo"
+              src="IMAGE_MOCK"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className="MarketingCompaniesBlock-flexCenter"
+            md={3}
+            xs={12}
+          >
+            <Img
+              alt="trustid"
+              className="MarketingCompaniesBlock-companyLogo"
+              src="IMAGE_MOCK"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className="MarketingCompaniesBlock-flexCenter"
+            md={3}
+            xs={12}
+          >
+            <Img
+              alt="Idvpacific"
+              className="MarketingCompaniesBlock-companyLogo"
+              src="IMAGE_MOCK"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            className="MarketingCompaniesBlock-flexCenter"
+            md={3}
+            xs={12}
+          >
+            <Img
+              alt="aup"
+              className="MarketingCompaniesBlock-companyLogo"
+              src="IMAGE_MOCK"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;

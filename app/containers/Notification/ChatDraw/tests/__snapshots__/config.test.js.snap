@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Config 1`] = `
+Object {
+  "isChatDrawerOpen": Array [
+    "cognitoAcctStore",
+    "userSettings",
+    "navigationDrawer",
+    "chatDrawerKeepOpen",
+  ],
+}
+`;
+
+exports[`Test SetConfig 1`] = `undefined`;

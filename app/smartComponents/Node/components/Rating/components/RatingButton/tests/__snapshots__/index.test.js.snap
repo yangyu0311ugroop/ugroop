@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingButton /> render() should render 1`] = `
+<div>
+  <WithStyles(Button)
+    className=""
+    color="primary"
+    size="xs"
+  />
+</div>
+`;

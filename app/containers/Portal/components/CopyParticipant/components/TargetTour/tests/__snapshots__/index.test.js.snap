@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TargetTour /> cancelAdd() should cancelAdd 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> copyParticipant() should copyParticipant 1`] = `<div />`;
+
+exports[`<TargetTour /> findPerson() should renderContent 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateError() should handleCreateError 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateSuccess() should handleCreateSuccess 1`] = `<div />`;
+
+exports[`<TargetTour /> handleCreateSuccess() should handleCreateSuccess 2`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> handlePersonSuccess() should handlePersonSuccess 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> personFindError() should personFindError 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              danger={true}
+              italic={true}
+              md={true}
+              nowrap={false}
+            >
+              You do not have enough access role to add participant
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> personFindSuccess() should personFindSuccess - person not yet exists 1`] = `
+<div>
+  copyParticipant
+</div>
+`;
+
+exports[`<TargetTour /> personFindSuccess() should personFindSuccess 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              italic={true}
+              md={true}
+              nowrap={false}
+            >
+              Person already exists on this tour, to you still want to copy?
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              noWrap={true}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  dense={true}
+                  onClick={[Function]}
+                  size="extraSmall"
+                >
+                  Copy Participant
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="gray"
+                  dense={true}
+                  onClick={[Function]}
+                  size="extraSmall"
+                >
+                  Cancel
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(Hr) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          noWrap={true}
+        >
+          <WithStyles(GridItem)
+            className=""
+          >
+            <WithStyles(JTextClass)
+              bold={true}
+              ellipsis={true}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TargetTour /> renderAdding() should renderAdding 1`] = `
+<div>
+  handleCreateSuccess
+</div>
+`;

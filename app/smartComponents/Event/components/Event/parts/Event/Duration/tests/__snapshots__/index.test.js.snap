@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Duration /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  dataId={null}
+  renderAccommodation={[Function]}
+  renderEvent={[Function]}
+  renderFlight={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<Duration /> #renderEvent() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabelValue={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Duration /> #renderLabel() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <EventHeading
+        Typography={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Duration: "
+          id="app.Event.parts.Event.Duration.prefixLabel"
+        />
+      </EventHeading>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        1d
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Duration /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(IconSublabel)>
+  1d
+</WithStyles(IconSublabel)>
+`;
+
+exports[`<Duration /> #renderPart() renders Component 1`] = `
+<Component
+  dataId={null}
+  endMode={null}
+  endTimeMoment={"2018-01-02T12:00:00.000Z"}
+  formSubtype={null}
+  formType={null}
+  id={null}
+  omitPrefix={false}
+  startMode={null}
+  startTimeMoment={"2018-01-01T12:00:00.000Z"}
+  variant={null}
+/>
+`;

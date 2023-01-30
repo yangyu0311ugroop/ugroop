@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadProgressDialog/index  should show something if dialogState is not AWAITING_UPLOAD (1) 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  disableBackdropClick={true}
+  disableEscapeKeyDown={true}
+  open={true}
+>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          spacing={2}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  bold={true}
+                  gray={true}
+                  sm={true}
+                  spacing2={true}
+                  uppercase={true}
+                >
+                  Uploading file
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      bold={true}
+                      ellipsis={true}
+                    >
+                      test-file.txt
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="center"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            success={false}
+                          >
+                            0
+                            %
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          ·
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          34 seconds
+                           left
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <Hidden
+            smDown={true}
+          >
+            <WithStyles(GridItem)>
+              <Img
+                alt="uGroop"
+                src="IMAGE_MOCK"
+              />
+            </WithStyles(GridItem)>
+          </Hidden>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(ForwardRef(LinearProgress))
+          classes={
+            Object {
+              "bar1Determinate": undefined,
+              "barColorPrimary": undefined,
+              "colorPrimary": undefined,
+              "root": undefined,
+            }
+          }
+          id="upload-dialog-progress"
+          value={0}
+          variant="determinate"
+        />
+        <WithStyles(ForwardRef(LinearProgress))
+          classes={
+            Object {
+              "bar1Determinate": undefined,
+              "barColorPrimary": undefined,
+              "colorPrimary": undefined,
+              "root": undefined,
+            }
+          }
+          id="upload-dialog-progress"
+          value={0}
+          variant="determinate"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`UploadProgressDialog/index  still matches snapshot 1`] = `""`;

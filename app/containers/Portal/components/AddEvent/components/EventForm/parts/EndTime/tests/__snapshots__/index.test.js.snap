@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    noPadding={true}
+    placement="bottom-start"
+    renderButton={[Function]}
+    tempStartTime="11"
+    value={null}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<EndTime /> renderButton() should renderButton 1`] = `
+<div>
+  <TimeField
+    autoComplete="off"
+    displayFormat="HH:mm"
+    label="End time"
+    maxTimeField={null}
+    maxTimeFieldError="Time is after maximum time"
+    minTimeField={
+      Array [
+        "node.customData.start.tempTime",
+        "node.customData.end.tempDay",
+      ]
+    }
+    minTimeFieldError="Time is before start time"
+    name="node.customData.end.tempTime"
+    onChange={[Function]}
+    placeholder="Enter end time"
+    textComponent={[Function]}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<EndTime /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderOption
+    renderOption
+    renderOption
+    renderOption
+    renderOption
+    renderOption
+  </WithStyles(GridContainer)>
+</div>
+`;

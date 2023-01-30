@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGFaqPage /> renders the faq page 1`] = `
+<div
+  className="MarketingFAQPage-root"
+>
+  <WithStyles(Container)>
+    <WithStyles(ForwardRef(Tabs))
+      onChange={[Function]}
+      value={0}
+    >
+      <WithStyles(ForwardRef(Tab))
+        label="As an Organizer"
+      />
+      <WithStyles(ForwardRef(Tab))
+        label="As a Student, Guardian or Faculty Member"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <WithStyles(OrganizerTab)
+      className="MarketingFAQPage-tabItems"
+    />
+  </WithStyles(Container)>
+  <WithStyles(BGContentWrapper)
+    bgImageUrl="IMAGE_MOCK"
+    rootClassName="MarketingFAQPage-lowerBg"
+    wrappedItemClassName="MarketingFAQPage-lowerWrapper"
+  >
+    <div>
+      <WithStyles(Header)
+        as="h2"
+      >
+        Ready to organise a tour?
+      </WithStyles(Header)>
+      <WithStyles(Button)
+        className="MarketingFAQPage-homeBtn"
+      >
+        Let's get started
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(BGContentWrapper)>
+</div>
+`;
+
+exports[`<UGFaqPage /> renders the faq page if state.tabVal=1 1`] = `
+<div
+  className="MarketingFAQPage-root"
+>
+  <WithStyles(Container)>
+    <WithStyles(ForwardRef(Tabs))
+      onChange={[Function]}
+      value={1}
+    >
+      <WithStyles(ForwardRef(Tab))
+        label="As an Organizer"
+      />
+      <WithStyles(ForwardRef(Tab))
+        label="As a Student, Guardian or Faculty Member"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <div
+      className="MarketingFAQPage-tabItems"
+    >
+      SOON!
+    </div>
+  </WithStyles(Container)>
+  <WithStyles(BGContentWrapper)
+    bgImageUrl="IMAGE_MOCK"
+    rootClassName="MarketingFAQPage-lowerBg"
+    wrappedItemClassName="MarketingFAQPage-lowerWrapper"
+  >
+    <div>
+      <WithStyles(Header)
+        as="h2"
+      >
+        Ready to organise a tour?
+      </WithStyles(Header)>
+      <WithStyles(Button)
+        className="MarketingFAQPage-homeBtn"
+      >
+        Let's get started
+      </WithStyles(Button)>
+    </div>
+  </WithStyles(BGContentWrapper)>
+</div>
+`;

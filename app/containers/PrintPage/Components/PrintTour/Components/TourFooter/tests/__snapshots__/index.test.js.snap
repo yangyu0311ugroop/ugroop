@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourFooter render check snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div
+          key="1"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(TabCustomWrapper)))
+            tabId={1}
+          />
+        </div>
+        <div
+          key="2"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(TabCustomWrapper)))
+            tabId={2}
+          />
+        </div>
+        <div
+          key="3"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(TabCustomWrapper)))
+            tabId={3}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`TourFooter renderFooter should be called 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div
+          key="1"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(TabCustomWrapper)))
+            tabId={1}
+          />
+        </div>
+        <div
+          key="2"
+        >
+          <WithStyles(Connect(WithSimplifyResaga(TabCustomWrapper)))
+            tabId={2}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`TourFooter renderFooter should return an empty string if there are no ids 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  />
+</div>
+`;

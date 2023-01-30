@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Start /> handleSubmit should create patchEvent request 1`] = `
+Array [
+  Array [
+    Object {
+      "model": Object {
+        "data": Object {
+          "detail": Object {
+            "activityDetail": Object {
+              "start": Object {
+                "name": "qqqq",
+              },
+            },
+          },
+        },
+      },
+      "onSuccess": [Function],
+    },
+    Object {
+      "classes": Object {},
+      "id": null,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "templateId": null,
+      "value": "",
+      "variant": "",
+    },
+    false,
+  ],
+]
+`;
+
+exports[`<Start /> handleSubmitSuccess should dispatch to geocode api 1`] = `
+Array [
+  Array [
+    "geocodes",
+    "getGeoCountryCode",
+    Object {
+      "payload": Object {
+        "location": "qqqq",
+      },
+    },
+  ],
+  Array [
+    "Nodes",
+    "getTimes",
+    Object {
+      "onError": undefined,
+      "onSuccess": undefined,
+      "payload": Object {
+        "id": null,
+        "ids": Array [
+          null,
+        ],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Start /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EventLocation)
+    EventTime={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(StartTime))",
+        "type": [Function],
+      }
+    }
+    PatchData={[Function]}
+    classes={Object {}}
+    handleOnClear={[Function]}
+    handleSelect={[Function]}
+    handleSubmit={[Function]}
+    id={null}
+    inputLocationProps={
+      Object {
+        "editable": Object {
+          "label": <FormattedMessage
+            defaultMessage="Departing"
+            id="app/smartComponents/Event/components/Event/parts/ActivityDetail/Start/label"
+          />,
+          "name": "data.detail.activityDetails.start.name",
+          "placeholder": "Click here to specify the location",
+        },
+        "editableTextProps": Object {
+          "editing": true,
+          "iconInputs": Object {
+            "name": "data.detail.activityDetails.start.icon",
+          },
+          "locationKey": "data.detail.activityDetails.start.name",
+          "placeIdInputs": Object {
+            "name": "data.detail.activityDetails.start.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.start.timeZoneId",
+          },
+        },
+        "field": Object {
+          "iconInputs": Object {
+            "name": "data.detail.activityDetails.start.icon",
+          },
+          "locationKey": "data.detail.activityDetails.start.name",
+          "locationLabel": null,
+          "placeIdInputs": Object {
+            "name": "data.detail.activityDetails.start.placeId",
+          },
+          "timeZoneIdInputs": Object {
+            "name": "node.customData.start.timeZoneId",
+          },
+        },
+        "icon": "data.detail.activityDetails.start.icon",
+        "name": "data.detail.activityDetails.start.name",
+        "placeId": "data.detail.activityDetails.start.placeId",
+        "start": "data.detail.activityDetails.start",
+        "timeZoneId": "node.customData.start.timeZoneId",
+      }
+    }
+    templateId={null}
+    variant=""
+  />
+</div>
+`;

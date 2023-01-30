@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayDateDisplay /> #renderDayAndInfo() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className=""
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <H4
+      className="day"
+    >
+      Day
+    </H4>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <div
+      className="dot"
+    >
+      ·
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem) />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<DayDateDisplay /> #renderDayOnly() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <H4
+      className="day"
+    >
+      Day
+    </H4>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<DayDateDisplay /> #renderDayOnly() still matches snapshot 2`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  className=""
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <H4
+      className="day"
+    >
+      Day
+    </H4>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <div
+      className="dot"
+    >
+      ·
+    </div>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <H4
+      className="date"
+    >
+      Date
+    </H4>
+    
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

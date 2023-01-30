@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dietary /> handleEditableDeleteClick should call the removeDietary helper api 1`] = `
+Array [
+  Array [
+    Object {
+      "dietaryId": 1,
+      "onError": "handleEditableDeleteError",
+      "onSuccess": "handleEditableDeleteSuccess",
+      "personId": 2,
+    },
+    Object {
+      "classes": Object {},
+      "id": 1,
+      "personId": 2,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Dietary /> handleEditableSubmit should call patchDietary of person detail api helper 1`] = `
+Array [
+  Array [
+    Object {
+      "dietaryId": 1,
+      "mode": Object {},
+      "personId": 2,
+      "rest": Object {},
+    },
+    Object {
+      "classes": Object {},
+      "id": 1,
+      "personId": 2,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Dietary /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableForm)
+    isRow={true}
+    onSubmit={[Function]}
+    readOnly={false}
+    renderSecondaryFormActions={[Function]}
+    renderValue={[Function]}
+    value={null}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(DietaryDescription)))
+      classes={Object {}}
+      id={null}
+      personId={null}
+      readOnly={false}
+      resaga={
+        Object {
+          "dispatchTo": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+      variant="textField"
+    />
+  </WithStyles(EditableForm)>
+</div>
+`;
+
+exports[`<Dietary /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(DietaryDescription)))
+    classes={Object {}}
+    id={null}
+    personId={null}
+    readOnly={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="textField"
+  />
+</div>
+`;
+
+exports[`<Dietary /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(DietaryIcon) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(DietaryDescription)))
+        classes={Object {}}
+        id={null}
+        personId={null}
+        readOnly={false}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        variant="textOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Dietary /> renderEditableFormActions should match snapshot 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    confirmButton="Delete Dietary Information"
+    dialogTitle="Delete this Dietary Information"
+    headlineText="Are you sure you want to delete this Dietary Information?"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Delete"
+  />
+</div>
+`;

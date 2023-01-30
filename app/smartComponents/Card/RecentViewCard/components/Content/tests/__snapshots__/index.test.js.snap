@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render 1`] = `undefined`;
+
+exports[`<Content /> renderContent renderContent 1`] = `undefined`;
+
+exports[`<Content /> renderContent renderContent with empty array 1`] = `undefined`;
+
+exports[`<Content /> renderEmpty 1`] = `undefined`;
+
+exports[`<Content /> while fetch 1`] = `undefined`;

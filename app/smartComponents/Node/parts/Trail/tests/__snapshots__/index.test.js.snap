@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Trail /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<Trail /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Trail /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    <ConnectFunction
+      id={1122}
+    >
+      <Component />
+    </ConnectFunction>
+  </span>
+</div>
+`;
+
+exports[`<Trail /> renderTemplate() should return renderTemplate 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Content)))
+  id={2233}
+  variant="link"
+/>
+`;
+
+exports[`<Trail /> renderTrailData() should return renderTemplate + renderDay 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    in 
+    renderTemplate
+    : 
+    <withRouter(UGLink)
+      to="/tours?dayView=day&selectedDay=2233"
+    >
+      Day 
+    </withRouter(UGLink)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<Trail /> renderTrailData() should return renderTemplate only if showDayTrail is false 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    renderTemplate
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

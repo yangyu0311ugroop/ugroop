@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KnownAs /> getEditableName() should render correctly 1`] = `
+<div>
+  person.knownAs
+</div>
+`;
+
+exports[`<KnownAs /> handleEditableSubmit() should render correctly 1`] = `<div />`;
+
+exports[`<KnownAs /> render() should render correctly 1`] = `
+<div>
+  <div
+    className="KnownAs-lineIndicator"
+  />
+  <H1>
+    <div
+      className="j-text-ellipsis"
+      title=" "
+    >
+       
+    </div>
+  </H1>
+</div>
+`;
+
+exports[`<KnownAs /> render() should render text field if variant is string only 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div
+          className="j-text-ellipsis"
+          title=" "
+        >
+           
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<KnownAs /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <FormsyInterceptor
+          breakWord={true}
+          component={[Function]}
+          ellipsis={false}
+          intl={
+            Object {
+              "formatMessage": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    Object {
+                      "defaultMessage": "Known As",
+                      "id": "app.smartComponents.Person.parts.KnownAs.label",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "defaultMessage": "Known As",
+                      "id": "app.smartComponents.Person.parts.KnownAs.label",
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            }
+          }
+          isToolTip={false}
+          maxCharCountToEllipsis={32}
+          name="knownAs"
+          onInterceptValue={[Function]}
+          value=""
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<KnownAs /> render() should render text only variant 1`] = `
+<div>
+  <P
+    breakWord={true}
+    className=""
+    component={[Function]}
+    ellipsis={false}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isToolTip={false}
+    maxCharCountToEllipsis={32}
+  >
+    <div
+      className="j-text-ellipsis"
+      title=" "
+    >
+       
+    </div>
+     
+  </P>
+</div>
+`;
+
+exports[`<KnownAs /> renderEditable() should render correctly 1`] = `
+<div>
+  <WithStyles(EditableTextForm)
+    label={
+      <FormattedMessage
+        defaultMessage="Known As"
+        id="app.smartComponents.Person.parts.KnownAs.label"
+      />
+    }
+    name="person.knownAs"
+    onSubmit={[Function]}
+    placeholder="Click to specify preferred name"
+    readOnly={false}
+    required={true}
+    value=""
+  />
+</div>
+`;
+
+exports[`<KnownAs /> renderEllipsisString() should render correctly 1`] = `
+<div>
+  <span
+    title="ccc ddd"
+  >
+    ccc ddd
+  </span>
+</div>
+`;
+
+exports[`<KnownAs /> renderEllipsisString() should render correctly if name length is greater than maxCharCountToEllipsis 1`] = `
+<div>
+  <span
+    className="j-text-ellipsis"
+  >
+    QQQAAA
+  </span>
+</div>
+`;
+
+exports[`<KnownAs /> renderStringOnly should render default 1`] = `
+<div>
+  <div
+    className="j-text-ellipsis"
+    title=" "
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`<KnownAs /> renderStringOnly should render isPersonal 1`] = `
+<div>
+  <div
+    className="j-text-ellipsis"
+    title=" "
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`<KnownAs /> renderStringOnly should render tooltip 1`] = `
+<div>
+  <div
+    className="j-text-ellipsis"
+    title=" "
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`<KnownAs /> renderTextOnly should render tooltip if isMatchToName is false 1`] = `
+<div>
+  <P
+    breakWord={true}
+    className=""
+    component={[Function]}
+    ellipsis={false}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isMatchToName={false}
+    isToolTip={false}
+    maxCharCountToEllipsis={32}
+  >
+    <div
+      className="j-text-ellipsis"
+      title=" "
+    >
+       
+    </div>
+     
+  </P>
+</div>
+`;
+
+exports[`<KnownAs /> renderTextOnly should render tooltip if isMatchToName is true 1`] = `
+<div>
+  <P
+    breakWord={true}
+    className=""
+    component={[Function]}
+    ellipsis={false}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isMatchToName={true}
+    isToolTip={false}
+    maxCharCountToEllipsis={32}
+  >
+    <WithStyles(JTextClass)
+      bold={true}
+      md={true}
+    >
+      <div
+        className="j-text-ellipsis"
+        title="known As"
+      >
+        ( last name)
+      </div>
+       
+    </WithStyles(JTextClass)>
+  </P>
+</div>
+`;
+
+exports[`<KnownAs /> renderTextOnly should render tooltip if isMatchToName is true should show alias 1`] = `
+<div>
+  <P
+    breakWord={true}
+    className=""
+    component={[Function]}
+    ellipsis={false}
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isMatchToName={true}
+    isToolTip={false}
+    maxCharCountToEllipsis={32}
+  />
+</div>
+`;

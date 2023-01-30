@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Name /> render() should render correctly 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "THUMBNAIL": [Function],
+      "default": [Function],
+      "renderProp": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Name /> renderTextOnly should match snapshot 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<Name /> renderThumbnail() should renderThumbnail 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+           
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              ellipsis={true}
+              gray={true}
+              lg={true}
+              uppercase={true}
+            >
+              jpeg
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<Name /> renderThumbnailDefault() should renderThumbnailDefault 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+           
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="blue"
+              icon="lnr-paperclip"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

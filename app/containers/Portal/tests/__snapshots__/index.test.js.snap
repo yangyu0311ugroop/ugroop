@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Portal /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    key="1"
+    onClose={[Function]}
+    portalId={1}
+  />
+</div>
+`;

@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Activated /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Icon)
+    color="success"
+    icon="lnr-check"
+    paddingLeft={true}
+    size="small"
+  />
+</div>
+`;
+
+exports[`<Activated /> render() should render correctly when role is General 1`] = `
+<div>
+  <FormsyInterceptor
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Activated",
+                "id": "app.smartComponents.Organisation.parts.role.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Activated",
+                "id": "app.smartComponents.Organisation.parts.role.label",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    name="activated"
+    onInterceptValue={[Function]}
+    role="admin"
+    value={true}
+    variant="textField"
+  />
+</div>
+`;
+
+exports[`<Activated /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <FormsyInterceptor
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          intl={
+            Object {
+              "formatMessage": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    Object {
+                      "defaultMessage": "Activated",
+                      "id": "app.smartComponents.Organisation.parts.role.label",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "defaultMessage": "Activated",
+                      "id": "app.smartComponents.Organisation.parts.role.label",
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            }
+          }
+          name="activated"
+          onInterceptValue={[Function]}
+          role="admin"
+          value={true}
+          variant="textField"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Activated /> render() should render text only variant 1`] = `
+<div>
+  <WithStyles(Icon)
+    color="danger"
+    icon="lnr-cross"
+    paddingLeft={true}
+    size="small"
+  />
+</div>
+`;

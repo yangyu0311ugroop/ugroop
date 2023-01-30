@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`processResult 1`] = `
+Object {
+  "files": Object {
+    "FileContainers/com.ugroop.personContainer/download/c87c720e-52a8-4d3d-8dbb-1efe740beaeb.jpeg": Object {
+      "id": 1,
+      "metaInfo": Object {
+        "height": 0.9999999999999998,
+        "rotate": 0,
+        "scale": 1,
+        "width": 1,
+        "x": 0,
+        "y": 1.1102230246251565e-16,
+      },
+      "organisationId": 817,
+      "url": "FileContainers/com.ugroop.personContainer/download/c87c720e-52a8-4d3d-8dbb-1efe740beaeb.jpeg",
+    },
+  },
+  "organisations": Object {
+    "817": Object {
+      "country": "AUS",
+      "createdBy": 56,
+      "id": 817,
+      "lastModifiedBy": 56,
+      "name": "dddddddddddddddddddddddddddddd",
+      "namekey": "org-dddddd-ddddd",
+      "photo": "FileContainers/com.ugroop.personContainer/download/c87c720e-52a8-4d3d-8dbb-1efe740beaeb.jpeg",
+      "rootNodeId": 5949,
+      "type": "Club",
+      "typeId": 817,
+      "userId": 56,
+      "website": "",
+    },
+  },
+  "photos": Object {
+    "FileContainers/com.ugroop.personContainer/download/c87c720e-52a8-4d3d-8dbb-1efe740beaeb.jpeg": Object {
+      "id": 1,
+      "metaInfo": Object {
+        "height": 0.9999999999999998,
+        "rotate": 0,
+        "scale": 1,
+        "width": 1,
+        "x": 0,
+        "y": 1.1102230246251565e-16,
+      },
+      "organisationId": 817,
+      "url": "FileContainers/com.ugroop.personContainer/download/c87c720e-52a8-4d3d-8dbb-1efe740beaeb.jpeg",
+    },
+  },
+}
+`;
+
+exports[`setValue 1`] = `
+Array [
+  "organisationDataStore",
+  "organisations",
+]
+`;
+
+exports[`setValue 2`] = `
+Array [
+  "organisationDataStore",
+  "photos",
+]
+`;
+
+exports[`setValue 3`] = `
+Array [
+  "fileDataStore",
+  "files",
+]
+`;
+
+exports[`value 1`] = `
+Array [
+  "abilityDataStore",
+  "definitions",
+  "tour",
+  "tour_owner",
+]
+`;

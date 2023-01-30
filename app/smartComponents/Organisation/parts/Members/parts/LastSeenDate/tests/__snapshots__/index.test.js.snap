@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastSeenDate /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isTableMobile={false}
+    variant="textOnly"
+  >
+    <span
+      className="j-text-ellipsis"
+    >
+      <abbr
+        className="LastSeenDate-noUnderline"
+        title="Not Active Yet"
+      >
+        Not Active Yet
+      </abbr>
+    </span>
+  </P>
+</div>
+`;
+
+exports[`<LastSeenDate /> render() should render mobile view correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className="LastSeenDate-lastSeenFontMobile"
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <span
+        className="LastSeenDate-lastSeen"
+      >
+        Last Seen:
+      </span>
+       
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      Not Active Yet
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<LastSeenDate /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <FormsyInterceptor
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          intl={
+            Object {
+              "formatMessage": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    Object {
+                      "defaultMessage": "Type",
+                      "id": "app.smartComponents.Organisation.parts.LastSeen.label",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "defaultMessage": "Type",
+                      "id": "app.smartComponents.Organisation.parts.LastSeen.label",
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            }
+          }
+          isTableMobile={false}
+          name="lastSeen"
+          onInterceptValue={[Function]}
+          value=""
+          variant="textField"
+        />
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<LastSeenDate /> render() should render text only variant 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    isTableMobile={false}
+    variant="textOnly"
+  >
+    <span
+      className="j-text-ellipsis"
+    >
+      <abbr
+        className="LastSeenDate-noUnderline"
+        title="Not Active Yet"
+      >
+        Not Active Yet
+      </abbr>
+    </span>
+  </P>
+</div>
+`;

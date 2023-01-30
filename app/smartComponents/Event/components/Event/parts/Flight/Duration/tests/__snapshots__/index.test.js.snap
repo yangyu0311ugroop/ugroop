@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Duration /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabelValue={[Function]}
+  renderLabelValueFlag={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Duration /> #renderLabel() still matches snapshot 1`] = `
+<React.Fragment>
+  24h
+</React.Fragment>
+`;
+
+exports[`<Duration /> #renderLabelValue() still matches snapshot 1`] = `
+<WithStyles(IconSublabel)>
+  24h
+</WithStyles(IconSublabel)>
+`;
+
+exports[`<Duration /> #renderLabelValueFlag() still matches snapshot 1`] = `
+<WithStyles(IconLabelFlag)>
+  24h
+</WithStyles(IconLabelFlag)>
+`;
+
+exports[`<Duration /> #renderPart() renders Component 1`] = `
+<Component
+  dataId={null}
+  endMode="relativeStart"
+  endTimeMoment={"2018-01-02T12:00:00.000Z"}
+  id={null}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  omitPrefix={false}
+  startMode={null}
+  startTimeMoment={"2018-01-01T12:00:00.000Z"}
+  variant={null}
+/>
+`;

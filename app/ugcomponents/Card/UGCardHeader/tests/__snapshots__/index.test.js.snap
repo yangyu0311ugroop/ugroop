@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGCardHeader /> component should accept className for extending the style of component 1`] = `
+<div
+  className="UGCardHeader-root sample-test"
+>
+  Or do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who practice homosexuality,
+</div>
+`;
+
+exports[`<UGCardHeader /> component should display component children 1`] = `
+<div
+  className="UGCardHeader-root"
+>
+  <sampleComponent />
+</div>
+`;
+
+exports[`<UGCardHeader /> component should display text children 1`] = `
+<div
+  className="UGCardHeader-root"
+>
+  Or do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who practice homosexuality,
+</div>
+`;
+
+exports[`<UGCardHeader /> component should have card-header class even without className being specified 1`] = `
+<div
+  className="UGCardHeader-root"
+>
+  Or do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who practice homosexuality,
+</div>
+`;

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Activity /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Activity /> #renderActivityStartEnd() still matches snapshot 1`] = `<div />`;
+
+exports[`<Activity /> #renderDestination() still matches snapshot 1`] = `
+<div>
+  <ConnectFunction
+    icon=""
+    isCustomDateStart={false}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Activity /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <EventDetails
+      defaultExpanded={true}
+      descriptionOnly={false}
+      icon=""
+      isCustomDateStart={false}
+      showEventLocation={true}
+      variant={null}
+    />
+    <ConnectFunction
+      icon=""
+      isCustomDateStart={false}
+      variant={null}
+    />
+    <EventBooking
+      icon=""
+      isCustomDateStart={false}
+      personCountLabel={
+        <FormattedMessage
+          defaultMessage="Total People"
+          id="app.Event.layouts.Activity.bookingPersonCountLabel"
+        />
+      }
+      personCountPlaceholder="Click to specify total people"
+      variant={null}
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Attachments)))
+      icon=""
+      isCustomDateStart={false}
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Activity /> #renderEventDetails() still matches snapshot 1`] = `
+<div>
+  <EventDetails
+    defaultExpanded={true}
+    descriptionOnly={false}
+    icon=""
+    isCustomDateStart={false}
+    showEventLocation={false}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Activity /> #renderEventDetails() still matches snapshot 2`] = `
+<div>
+  <ConnectFunction
+    hideEndDate={true}
+    icon=""
+    isCustomDateStart={true}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Activity /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <EventDetails
+      defaultExpanded={true}
+      descriptionOnly={false}
+      icon=""
+      isCustomDateStart={false}
+      showEventLocation={true}
+      variant={null}
+    />
+    <ConnectFunction
+      icon=""
+      isCustomDateStart={false}
+      variant={null}
+    />
+    <EventBooking
+      icon=""
+      isCustomDateStart={false}
+      personCountLabel={
+        <FormattedMessage
+          defaultMessage="Total People"
+          id="app.Event.layouts.Activity.bookingPersonCountLabel"
+        />
+      }
+      personCountPlaceholder="Click to specify total people"
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

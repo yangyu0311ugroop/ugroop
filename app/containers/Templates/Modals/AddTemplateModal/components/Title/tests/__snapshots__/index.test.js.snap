@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleOfAddTemplateModal should render what it should render 1`] = `
+<WithStyles(Title)
+  className="TitleOfAddTemplateModal-root"
+  heading={
+    <FormattedMessage
+      defaultMessage="A new adventure"
+      id="app.components.UGAddTemplateModal.ugAddTemplateModalHeader"
+    />
+  }
+  headingBackground="TOUR"
+  subheading={
+    <FormattedMessage
+      defaultMessage="The first step in creating an excellent itinerary, enter a few key questions and then start building and sharing with others."
+      id="app.components.UGAddTemplateModal.ugAddTemplateModalSub"
+    />
+  }
+/>
+`;

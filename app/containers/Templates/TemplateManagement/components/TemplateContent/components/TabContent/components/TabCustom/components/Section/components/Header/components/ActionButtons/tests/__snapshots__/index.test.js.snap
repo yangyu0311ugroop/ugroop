@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButtons /> deleteSection() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "deleteChildren",
+    Object {
+      "payload": Object {
+        "keyPath": "undefined.children",
+        "nodeId": 999,
+        "store": "sections",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<ActionButtons /> render() should render edit buttons 1`] = `
+<div>
+  renderEditButtons
+</div>
+`;
+
+exports[`<ActionButtons /> render() should render empty if moveMode 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`<ActionButtons /> render() should render view buttons 1`] = `
+<div>
+  renderViewButtons
+</div>
+`;
+
+exports[`<ActionButtons /> renderDialog should match snapshot if content is empty string 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    dialogTitle="Delete Section"
+    headlineText="This action cannot be undone."
+    headlineTitle="Delete this section?"
+    open={false}
+    template="delete"
+  />
+</div>
+`;
+
+exports[`<ActionButtons /> renderDialog should match snapshot if content is not empty string 1`] = `
+<div>
+  <WithStyles(UGDialog)
+    cancelFunc={[Function]}
+    confirmFunc={[Function]}
+    dialogTitle="Delete Section"
+    headlineText="This action cannot be undone."
+    headlineTitle="Delete Toronto Raptors will win the 2019 NBA Finals?"
+    open={false}
+    template="delete"
+  />
+</div>
+`;
+
+exports[`<ActionButtons /> renderEditButtons() should NOT render Save button if NOT dirty 1`] = `
+<div>
+  <div>
+    <WithStyles(IconButton)
+      color="primary"
+      tooltip="Save Changes"
+      transparent={true}
+      type="submit"
+      variant="flatButton"
+    >
+      <WithStyles(Icon)
+        icon="lnr-check"
+      />
+    </WithStyles(IconButton)>
+    <WithStyles(IconButton)
+      onClick={[Function]}
+      tooltip="Cancel"
+      transparent={true}
+      variant="flatButton"
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross2"
+      />
+    </WithStyles(IconButton)>
+  </div>
+</div>
+`;
+
+exports[`<ActionButtons /> renderEditButtons() should render Save button if dirty 1`] = `
+<div>
+  <div>
+    <WithStyles(IconButton)
+      color="primary"
+      tooltip="Save Changes"
+      transparent={true}
+      type="submit"
+      variant="flatButton"
+    >
+      <WithStyles(Icon)
+        icon="lnr-check"
+      />
+    </WithStyles(IconButton)>
+    <WithStyles(IconButton)
+      onClick={[Function]}
+      tooltip="Cancel"
+      transparent={true}
+      variant="flatButton"
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross2"
+      />
+    </WithStyles(IconButton)>
+  </div>
+</div>
+`;
+
+exports[`<ActionButtons /> renderViewButtons() should render correctly 1`] = `
+<div>
+  renderDialog
+  <div>
+    <BoundCan
+      do="move"
+      on={
+        Object {
+          "createdBy": 0,
+          "type": "activity",
+        }
+      }
+    >
+      <WithStyles(IconButton)
+        disabled={true}
+        tooltip="Drag and Drop to move this Section"
+        transparent={true}
+        variant="flatButton"
+      >
+        <WithStyles(Icon)
+          icon="lnr-move"
+        />
+      </WithStyles(IconButton)>
+    </BoundCan>
+    <BoundCan
+      do="delete"
+      on={
+        Object {
+          "createdBy": 0,
+          "type": "activity",
+        }
+      }
+    >
+      <WithStyles(IconButton)
+        onClick={[Function]}
+        tooltip="Delete"
+        transparent={true}
+        variant="flatButton"
+      >
+        <WithStyles(Icon)
+          icon="lnr-trash2"
+        />
+      </WithStyles(IconButton)>
+      <ConnectFunction
+        action="move"
+        id={999}
+        ids={
+          Array [
+            2,
+            3,
+          ]
+        }
+      />
+    </BoundCan>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GECODE_NORMALISERS getCountryCode should not explode 1`] = `null`;
+
+exports[`GECODE_NORMALISERS getCountryCode should process result of getCountryCode 1`] = `
+Object {
+  "geocodes": [Function],
+}
+`;
+
+exports[`GECODE_NORMALISERS getCurrentLocation should process result of getCurrentLocation 1`] = `
+Object {
+  "currentLocation": undefined,
+}
+`;
+
+exports[`GECODE_NORMALISERS getLatLong should process result of getLatLong 1`] = `
+Object {
+  "geocodes": Object {
+    "0": Object {
+      "lat": 1,
+      "lng": 2,
+    },
+  },
+}
+`;
+
+exports[`GECODE_NORMALISERS getLatLongs should process result of GET_LAT_LONGS 1`] = `
+Object {
+  "geocodes": Object {
+    "undefined": Object {
+      "placeId": undefined,
+    },
+  },
+  "raw": Array [
+    Object {
+      "results": Array [
+        Object {
+          "address_components": Array [
+            Object {
+              "types": "country",
+            },
+          ],
+          "geometry": Object {
+            "location": Object {
+              "lat": 1,
+              "lng": 1,
+            },
+          },
+        },
+      ],
+    },
+  ],
+}
+`;

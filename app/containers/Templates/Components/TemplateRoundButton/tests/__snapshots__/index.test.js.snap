@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateRoundButton /> should render something 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  placement="top"
+  title="Come to me, all who labor and are heavy laden, and I will give you rest."
+>
+  <WithStyles(Button)
+    className="TemplateRoundButton-root"
+  >
+    Jesus is my Lord and Savior
+  </WithStyles(Button)>
+</WithStyles(ForwardRef(Tooltip))>
+`;

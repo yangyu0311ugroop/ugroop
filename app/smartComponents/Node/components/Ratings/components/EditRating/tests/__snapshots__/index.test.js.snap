@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditRating /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    onClick={[Function]}
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+      noWrap={true}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="pencil5"
+          size="extraSmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormattedMessage
+          defaultMessage="Edit your review"
+          id="app/smartComponents/Node/components/Ratings/components/EditRating/button"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Button)>
+  <WithStyles(Connect(WithSimplifyResaga(EditRatingDialog)))
+    id={0}
+    onClose={[Function]}
+    open={false}
+  />
+</div>
+`;

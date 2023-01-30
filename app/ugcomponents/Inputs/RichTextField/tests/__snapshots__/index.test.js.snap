@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RichTextField /> #render() still matches snapshot 1`] = `
+<div>
+  <WithStyles(UGRichEditor)
+    disabled={false}
+    initContent=""
+    onChange={[Function]}
+    readOnly={true}
+    toolBarId="RichTextField-id"
+  />
+</div>
+`;

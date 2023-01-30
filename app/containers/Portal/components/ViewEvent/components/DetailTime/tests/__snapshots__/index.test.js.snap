@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailTime /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            sm={true}
+          >
+            Starting
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        renderTime
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            sm={true}
+          >
+            Ending
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        renderTime
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    renderDayCount
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DetailTime /> render() should render 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            sm={true}
+          >
+            Starting
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        renderTime
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    renderDayCount
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<DetailTime /> renderDayCount() should renderDayCount 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          xxl={true}
+        >
+          3
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          sm={true}
+          uppercase={true}
+        >
+          Day
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<DetailTime /> renderEndTime() should renderEndTime 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      danger={true}
+      xl={true}
+    />
+    <WithStyles(JTextClass)
+      gray={true}
+      sm={true}
+    >
+      MOMENT_HELPERS.appendZone
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

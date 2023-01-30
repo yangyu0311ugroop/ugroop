@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentList /> #handleFileDrop() enqueues all files 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 1,
+    },
+  ],
+  Array [
+    Object {
+      "id": 2,
+    },
+  ],
+]
+`;
+
+exports[`<AttachmentList /> #render() still matches snapshot 1`] = `
+<ForwardRef
+  onRemoveRow={[MockFunction]}
+  onRenderFooter={[Function]}
+  onRenderHeader={[Function]}
+  onRenderRow={[Function]}
+  values={
+    Array [
+      Object {
+        "id": 123,
+      },
+      Object {
+        "id": 456,
+      },
+    ]
+  }
+/>
+`;

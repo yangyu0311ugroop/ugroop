@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChecklistIcon /> checkListButton() should render still render add button 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Checklists)))))))
+      className=""
+      classes={Object {}}
+      iconToggle={[Function]}
+      showAddButton={true}
+      variant="ADD_CHECKLIST"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ChecklistIcon /> checkListButton() should render still render add icon button 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Checklists)))))))
+      className=""
+      classes={Object {}}
+      iconToggle={[Function]}
+      showAddButton={true}
+      variant="ADD_CHECKLIST"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ChecklistIcon /> renderComponent() should render correctly with no data 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<ChecklistIcon /> renderContent() should render correctly with checklist 1`] = `
+<div>
+  <div>
+    checkListButton
+    renderComponent
+  </div>
+</div>
+`;
+
+exports[`<ChecklistIcon /> toggleChecklists() should toggleChecklists() 1`] = `
+Array [
+  Array [
+    Object {
+      "showChecklists": true,
+    },
+  ],
+]
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> render() should render correctly 1`] = `
+<Switch>
+  <Route
+    component={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(WithSimplifyResaga(PersonContainer))",
+        "type": [Function],
+      }
+    }
+    path="undefined/person/:id?"
+  />
+  <Route
+    component={[Function]}
+    path="undefined/organisation"
+  />
+</Switch>
+`;

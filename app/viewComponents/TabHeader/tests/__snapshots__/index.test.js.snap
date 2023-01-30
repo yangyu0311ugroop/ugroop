@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabHeader /> handleTabChange set state of activeTab and call ifFunction 1`] = `
+Array [
+  Array [
+    null,
+    Array [
+      1,
+    ],
+  ],
+]
+`;
+
+exports[`<TabHeader /> handleTabChange should not set state of activeTab and call ifFunction 1`] = `
+Array [
+  Array [
+    null,
+    Array [
+      1,
+    ],
+  ],
+]
+`;
+
+exports[`<TabHeader /> render should pass the props active tab rather than state if controlledActiveTab is true 1`] = `
+<Sticky
+  activeClass="active"
+  bottomBoundary={0}
+  enableTransforms={true}
+  enabled={true}
+  id="tabHeader"
+  innerZ={99}
+  onStateChange={[Function]}
+  releasedClass="released"
+  shouldFreeze={[Function]}
+  top={0}
+>
+  <WithStyles(ForwardRef(AppBar))
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)
+      large={false}
+    >
+      <WithStyles(ForwardRef(Toolbar))
+        className="undefined"
+      >
+        <WithStyles(UGTabs)
+          classes={
+            Object {
+              "flexContainer": undefined,
+            }
+          }
+          onChange={[Function]}
+          scrollButtons="auto"
+          textColor="primary"
+          value={0}
+          variant="scrollable"
+        >
+          <p>
+            Sample
+          </p>
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+</Sticky>
+`;
+
+exports[`<TabHeader /> render should render children passed to it 1`] = `
+<Sticky
+  activeClass="active"
+  bottomBoundary={0}
+  enableTransforms={true}
+  enabled={true}
+  id="tabHeader"
+  innerZ={99}
+  onStateChange={[Function]}
+  releasedClass="released"
+  shouldFreeze={[Function]}
+  top={0}
+>
+  <WithStyles(ForwardRef(AppBar))
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)
+      large={false}
+    >
+      <WithStyles(ForwardRef(Toolbar))
+        className="undefined"
+      >
+        <WithStyles(UGTabs)
+          classes={
+            Object {
+              "flexContainer": undefined,
+            }
+          }
+          onChange={[Function]}
+          scrollButtons="auto"
+          textColor="primary"
+          value={0}
+          variant="scrollable"
+        >
+          <p>
+            Sample
+          </p>
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+</Sticky>
+`;
+
+exports[`<TabHeader /> render should render something 1`] = `
+<Sticky
+  activeClass="active"
+  bottomBoundary={0}
+  enableTransforms={true}
+  enabled={true}
+  id="tabHeader"
+  innerZ={99}
+  onStateChange={[Function]}
+  releasedClass="released"
+  shouldFreeze={[Function]}
+  top={0}
+>
+  <WithStyles(ForwardRef(AppBar))
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)
+      large={false}
+    >
+      <WithStyles(ForwardRef(Toolbar))
+        className="undefined"
+      >
+        <WithStyles(UGTabs)
+          onChange={[Function]}
+          scrollButtons="auto"
+          textColor="primary"
+          value={0}
+          variant="scrollable"
+        >
+          <WithStyles(TabItem)
+            key="1"
+            label="tab 1"
+            noBackgroundColor={false}
+            tabId={1}
+          />
+          <WithStyles(TabItem)
+            key="2"
+            label="tab 2"
+            noBackgroundColor={false}
+            tabId={2}
+          />
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+</Sticky>
+`;

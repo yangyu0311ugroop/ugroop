@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sorter SORT_HELPERS sorterConfig should base its cacheKey to the option passed to it + field key and sort function key 1`] = `"store.1,2.sortField.sortFunction.sort"`;
+
+exports[`Sorter SORT_HELPERS sorterConfig should base its cacheKey to the option passed to it + field key and sort function key 2`] = `"store..sortField.sortFunction.sort"`;
+
+exports[`Sorter SORT_HELPERS sorterConfig should base its cacheKey to the option passed to it + field key and sort function key 3`] = `"store.null.sortField.sortFunction.sort"`;
+
+exports[`Sorter SORT_HELPERS sorterConfig should map ids and return array of selectors 1`] = `
+Array [
+  Array [
+    "sample",
+    1,
+    "field1",
+  ],
+  Array [
+    "sample",
+    2,
+    "field1",
+  ],
+  Array [
+    "sample",
+    3,
+    "field1",
+  ],
+]
+`;
+
+exports[`Sorter SORT_HELPERS sorterConfig should return a particular shape of config 1`] = `
+Object {
+  "cacheKey": [Function],
+  "getter": [Function],
+  "keyPath": [Function],
+  "props": [Function],
+}
+`;

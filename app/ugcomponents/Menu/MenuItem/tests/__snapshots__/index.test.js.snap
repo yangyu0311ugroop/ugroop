@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGMenuItem component should render something 1`] = `
+<WithStyles(ForwardRef(MenuItem))>
+  Sample
+</WithStyles(ForwardRef(MenuItem))>
+`;

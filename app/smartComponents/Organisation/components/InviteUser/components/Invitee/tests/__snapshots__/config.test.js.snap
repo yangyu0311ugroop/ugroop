@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invitee/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "fromOrg": Array [
+      "organisationView",
+      "fromOrg",
+    ],
+    "seeDetail": Array [
+      "templateManagementView",
+      "seeDetail",
+    ],
+  },
+  "value": Object {
+    "content": [Function],
+    "email": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "status": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "spreadObject": true,
+    },
+    "userId": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+  },
+}
+`;
+
+exports[`Invitee/config.js setValue should exists 1`] = `
+Object {
+  "fromOrg": Array [
+    "organisationView",
+    "fromOrg",
+  ],
+  "seeDetail": Array [
+    "templateManagementView",
+    "seeDetail",
+  ],
+}
+`;

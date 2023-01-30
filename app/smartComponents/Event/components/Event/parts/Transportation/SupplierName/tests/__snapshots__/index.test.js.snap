@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SupplierName /> handleEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Supplier Name"
+          id="app/smartComponents/Event/components/Event/parts/Coach/SupplierName/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.supplierName"
+      onSubmit={[Function]}
+      readOnly={false}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<SupplierName /> handleField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    sm={true}
+    xs={12}
+  >
+    <TextField
+      label={
+        <FormattedMessage
+          defaultMessage="Supplier Name"
+          id="app/smartComponents/Event/components/Event/parts/Coach/SupplierName/label"
+        />
+      }
+      maxLength={0}
+      minLength={0}
+      name="data.detail.detail.common.eventBooking.supplierName"
+      type="text"
+      validationErrors={Object {}}
+      validations={Object {}}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<SupplierName /> handleSubmit should create patchEvent request 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "classes": Object {},
+      "dataId": null,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "value": "",
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<SupplierName /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;

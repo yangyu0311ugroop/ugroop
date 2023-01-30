@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/helpers/moment getDateBasedOnIndex should return date 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`utils/helpers/moment getMoment should return something 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`utils/helpers/moment getStartBasedOnDuration should return something 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`utils/helpers/moment isOutsideRange should return something 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`utils/helpers/moment renderCalendar should return lastWeek diff week 1`] = `"Last Friday"`;
+
+exports[`utils/helpers/moment renderCalendar should return lastWeek same week 1`] = `"Sunday"`;
+
+exports[`utils/helpers/moment renderCalendar should return sameElse diff year 1`] = `"2 Feb 2017"`;
+
+exports[`utils/helpers/moment renderCalendar should return sameElse same year 1`] = `"2 Feb 2019"`;
+
+exports[`utils/helpers/moment renderCalendar should return today 1`] = `"Today"`;
+
+exports[`utils/helpers/moment renderCalendar should return yesterday 1`] = `"Yesterday"`;
+
+exports[`utils/helpers/moment renderCalendarDueDate should renderCalendarDueDate 1`] = `"Thu, 13 May"`;
+
+exports[`utils/helpers/moment renderCalendarDueDate should renderCalendarDueDate 2`] = `"Fri, 13 May '22"`;
+
+exports[`utils/helpers/moment renderDateShorter should return date shorter 1`] = `"Mon, 28 May '18"`;
+
+exports[`utils/helpers/moment renderTimeSinceCalendar should return lastWeek 1`] = `"Updated last Friday"`;
+
+exports[`utils/helpers/moment timeSinceAtLeast should renderCalendar 1`] = `"2 May 2019"`;
+
+exports[`utils/helpers/moment trackStartDateUpToAddedDay() should return a particular array if days are in the same month 1`] = `
+Array [
+  Object {
+    "count": 1,
+    "month": "December",
+    "year": "2017",
+  },
+]
+`;
+
+exports[`utils/helpers/moment trackStartDateUpToAddedDay() should return a particular array if the difference is three months 1`] = `
+Array [
+  Object {
+    "count": 17,
+    "month": "August",
+    "year": "2017",
+  },
+  Object {
+    "count": 30,
+    "month": "September",
+    "year": "2017",
+  },
+  Object {
+    "count": 3,
+    "month": "October",
+    "year": "2017",
+  },
+]
+`;
+
+exports[`utils/helpers/moment trackStartDateUpToAddedDay() should return a particular array if the difference is two months 1`] = `
+Array [
+  Object {
+    "count": 17,
+    "month": "August",
+    "year": "2017",
+  },
+  Object {
+    "count": 13,
+    "month": "September",
+    "year": "2017",
+  },
+]
+`;
+
+exports[`utils/helpers/moment trackStartDateUpToAddedDay() should return a particular array if the difference is two months but different year 1`] = `
+Array [
+  Object {
+    "count": 17,
+    "month": "December",
+    "year": "2017",
+  },
+  Object {
+    "count": 13,
+    "month": "January",
+    "year": "2018",
+  },
+]
+`;

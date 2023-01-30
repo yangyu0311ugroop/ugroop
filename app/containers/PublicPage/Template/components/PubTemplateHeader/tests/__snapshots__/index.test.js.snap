@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PubTemplateHeader /> render() should render 1`] = `
+<div>
+  <withRouter(Connect(WithSimplifyResaga(WithStyles(TemplateHeader))))
+    publicView={true}
+  />
+</div>
+`;

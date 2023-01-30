@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabGallery /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <ConnectFunction
+      id={999}
+      isPublic={true}
+      variant="tabgallery"
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<TabGallery /> render() should render list correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <ConnectFunction
+      id={999}
+      isPublic={true}
+      variant="tabgallery"
+    />
+  </WithStyles(Container)>
+</div>
+`;

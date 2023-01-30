@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConnectedListItem render should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+    variant="renderProp"
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`ConnectedListItem renderItem should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(ListRow)>
+      <WithStyles(Editable)
+        onClick={[Function]}
+      >
+        <ConnectFunction
+          id={null}
+          userId={1}
+          variant="row"
+        />
+      </WithStyles(Editable)>
+    </WithStyles(ListRow)>
+  </WithStyles(GridItem)>
+</div>
+`;

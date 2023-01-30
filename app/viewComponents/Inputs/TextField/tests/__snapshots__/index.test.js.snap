@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> #render() still matches snapshot 1`] = `
+<WithStyles(ForwardRef(TextField))
+  className=""
+  options={
+    Array [
+      Object {
+        "children": "One",
+        "value": "1",
+      },
+      Object {
+        "children": "Two",
+        "value": "2",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<TextField /> #render() still matches snapshot when props.error 1`] = `
+<ForwardRef(TextField)
+  className=""
+  classes={
+    Object {
+      "root": "MuiTextField-root",
+    }
+  }
+  error={true}
+  options={
+    Array [
+      Object {
+        "children": "One",
+        "value": "1",
+      },
+      Object {
+        "children": "Two",
+        "value": "2",
+      },
+    ]
+  }
+/>
+`;

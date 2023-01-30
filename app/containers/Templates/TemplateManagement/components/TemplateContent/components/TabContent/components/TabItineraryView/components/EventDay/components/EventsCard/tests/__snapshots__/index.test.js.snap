@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsCard /> render() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  alignItems="stretch"
+  className=""
+  direction="column"
+  spacing={0}
+>
+  <WithStyles(GridItem)>
+    <h3
+      className=""
+    >
+      Events for the day
+    </h3>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EventDetails)))))
+        dense={false}
+        id={1}
+        singleDayEvent={true}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<EventsCard /> renderEventCard() still matches snapshot 1`] = `
+<WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(EventDetails)))))
+  dense={false}
+  id={1}
+  position="pos"
+  singleDayEvent={true}
+/>
+`;
+
+exports[`<EventsCard /> renderLabel() still matches snapshot 1`] = `
+<h3
+  className=""
+>
+  Events for the day
+</h3>
+`;

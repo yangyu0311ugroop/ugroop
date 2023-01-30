@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinkedUserInviteUser /> fetchParticipants should return fetchParticipants 1`] = `<div />`;
+
+exports[`<LinkedUserInviteUser /> handleAddRoleSuccess should setState and call finish 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<LinkedUserInviteUser /> handleMessageChange should match snapshot if !setLinkedUserMessageDebounce 1`] = `<div />`;
+
+exports[`<LinkedUserInviteUser /> handleMessageChange should match snapshot if !setLinkedUserMessageDebounce 2`] = `<div />`;
+
+exports[`<LinkedUserInviteUser /> handleShareNodeSuccess should setState and call finish 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<LinkedUserInviteUser /> handleValidSubmit should do nothing 1`] = `<div />`;
+
+exports[`<LinkedUserInviteUser /> renderAddRoleButton() should renderAddRoleButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      disabled={false}
+      size="extraSmall"
+      type="submit"
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Add New Role"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.addRoleButtonLabel"
+      />
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderAddRoleButton() should renderAddRoleButton while not loading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      dense={true}
+      disabled={false}
+      size="extraSmall"
+      type="submit"
+      weight="bold"
+    >
+      <FormattedMessage
+        defaultMessage="Add New Role"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.addRoleButtonLabel"
+      />
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderConnected() should renderConnected 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="This person is already connected to the tour and can be assigned this new role:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.connected"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderHasRole should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="This person has already been assigned this role on the tour:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.hasRole"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderPending should match snapshot if there is no user 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="{firstName} already has a "
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingNotFoundWithName"
+        values={
+          Object {
+            "firstName": "Elijah",
+          }
+        }
+      />
+      renderPendingInvitationButton
+      <FormattedMessage
+        defaultMessage=" and has not joined uGroop yet:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingNotFoundSuffix"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderPending should match snapshot if there is no user and no firstName 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="This person already has a "
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingNotFound"
+        values={
+          Object {
+            "firstName": null,
+          }
+        }
+      />
+      renderPendingInvitationButton
+      <FormattedMessage
+        defaultMessage=" and has not joined uGroop yet:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingNotFoundSuffix"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderPending should match snapshot if there is user 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="This person already has a "
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingFound"
+      />
+      renderPendingInvitationButton
+      <FormattedMessage
+        defaultMessage=":"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingFoundSuffix"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderPendingInvitationButton should match snapshot 1`] = `
+<div>
+  <WithStyles(A)
+    onClick={[MockFunction]}
+  >
+    <FormattedMessage
+      defaultMessage="pending invitation"
+      id="app.Containers.Templates.Modals.Participant.View.InviteUser.pendingNotFoundWithName"
+    />
+  </WithStyles(A)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderSearchResult should return renderConnected 1`] = `
+<div>
+  renderConnected
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderUninvited should match snapshot if does not exist 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="{firstName} does not have a uGroop account yet and will be asked to register:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.notFoundWithName"
+        values={
+          Object {
+            "firstName": "Elijah",
+          }
+        }
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderUninvited should match snapshot if does not exist and there is no firstName 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="This person does not have a uGroop account yet and will be asked to register:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.notFound"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<LinkedUserInviteUser /> renderUninvited should match snapshot if user exists 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <H6
+      dense={true}
+    >
+      <FormattedMessage
+        defaultMessage="Your invitation will be sent to:"
+        id="app.Containers.Templates.Modals.Participant.View.InviteUser.found"
+      />
+    </H6>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <Hidden
+      mdUp={true}
+    >
+      <Sticky
+        activeClass="active"
+        bottomBoundary={0}
+        enableTransforms={true}
+        enabled={true}
+        id="people-tab-menu"
+        innerZ={999}
+        onStateChange={[Function]}
+        releasedClass="released"
+        shouldFreeze={[Function]}
+        top={90}
+      >
+        <WithStyles(GridContainer)
+          card={true}
+          justify="space-between"
+          paddingBottom0={true}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(ContributorMenuButton)))
+            isMobile={true}
+          />
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+            renderList={[Function]}
+          />
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FollowerMenuButton)))))))))))))))))))))
+            isMobile={true}
+          />
+        </WithStyles(GridContainer)>
+        <WithStyles(GridContainer)
+          card={true}
+          direction="column"
+        >
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </Sticky>
+    </Hidden>
+    <Hidden
+      smDown={true}
+    >
+      <WithStyles(GridContainer)
+        card={true}
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="row"
+            justify="space-between"
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                direction="row"
+                spacing={0}
+              >
+                <WithStyles(GridItem)>
+                  <div>
+                    <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+                      isCustomData={false}
+                      required={true}
+                      showEmpty={true}
+                      valueKey="content"
+                    />
+                  </div>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem) />
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <BuymoreTourSeats />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(ContributorMenuButton)))
+          canInvite={true}
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Participants)))))
+          renderList={[Function]}
+        />
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FollowerMenuButton))))))))))))))))))))) />
+      </WithStyles(GridContainer)>
+    </Hidden>
+  </div>
+</div>
+`;
+
+exports[`<Sidebar /> renderParticipantButton should return participantMenuButton if useList is true 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(ParticipantMenuButton)))))
+    canInvite={false}
+    isMobile={false}
+  />
+</div>
+`;

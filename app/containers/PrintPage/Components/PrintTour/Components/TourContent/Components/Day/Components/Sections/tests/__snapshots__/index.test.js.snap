@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sections /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div
+      key="1"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(RenderActivity)))
+        activityId={1}
+        print={true}
+        readOnly={true}
+      />
+    </div>
+    <div
+      key="2"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(RenderActivity)))
+        activityId={2}
+        print={true}
+        readOnly={true}
+      />
+    </div>
+    <div
+      key="3"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(RenderActivity)))
+        activityId={3}
+        print={true}
+        readOnly={true}
+      />
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sections /> render() should render correctly when no sections 1`] = `
+<div>
+  <WithStyles(GridItem) />
+</div>
+`;

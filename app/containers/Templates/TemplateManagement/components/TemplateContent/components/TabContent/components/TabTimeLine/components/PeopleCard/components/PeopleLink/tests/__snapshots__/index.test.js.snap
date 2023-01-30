@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeopleLink /> getPeopleTabUrl should match snapshot 1`] = `
+<div>
+  undefined?tabId=100
+</div>
+`;
+
+exports[`<PeopleLink /> render() should render correctly 1`] = `<div />`;
+
+exports[`<PeopleLink /> render() should render correctly 2`] = `
+<div>
+  <withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))
+    redirect={false}
+  >
+    <Component />
+  </withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PeopleTabRedirect)))))))>
+</div>
+`;
+
+exports[`<PeopleLink /> render() should render correctly 3`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(NavLink)
+      className=""
+      onClick={[Function]}
+      to="undefined?tab=1"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

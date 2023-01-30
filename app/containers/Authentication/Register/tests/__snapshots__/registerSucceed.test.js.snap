@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegisterSucceed /> renderPersonalRegisterMessage should renderPersonalRegisterMessage correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "opacity": undefined,
+        "transform": "translateY(undefinedpx)",
+      }
+    }
+  >
+    <WithStyles(H4)>
+      <FormattedMessage
+        defaultMessage="Group travel just got a lot easier, good work. "
+        id="app.containers.Form.Register.introductionJoining"
+      />
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <div>
+        <FormattedMessage
+          defaultMessage="Your account is all set to go, and a verification link should now be in your email at "
+          id="app.containers.Form.Register.accountCreatedWithVerification"
+        />
+         
+         
+        <FormattedMessage
+          defaultMessage="Check the Spam folder just in case."
+          id="app.containers.Form.Register.checkSpamFolder"
+        />
+      </div>
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <FormattedMessage
+        defaultMessage="Please activate this link within a day and then complete a short set-up process, super easy, we promise. "
+        id="app.containers.Form.Register.requestForActivation"
+      />
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <FormattedMessage
+        defaultMessage="If you need any assitance while using uGroop click on the orange button at the bottom right of your screen. We would be happy to help. "
+        id="app.containers.Form.Register.needAssistance"
+      />
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <FormattedMessage
+        defaultMessage="Plan together and travel better, the uGroop team "
+        id="app.containers.Form.Register.planAndTravel"
+      />
+      <br />
+      <FormattedMessage
+        defaultMessage="the uGroop team "
+        id="app.containers.Form.Register.uGroopTeam"
+      />
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <withRouter(UGLink)
+        to="/login?email=undefined"
+      >
+        <FormattedMessage
+          defaultMessage="Login now"
+          id="app.containers.Form.Register.loginNow"
+        />
+      </withRouter(UGLink)>
+       
+      <FormattedMessage
+        defaultMessage="and don't forget to bookmark the page and with Chrome create a shortcut on your desktop or mobile device. "
+        id="app.containers.Form.Register.loginAndBookmark"
+      />
+      <br />
+      <br />
+    </WithStyles(H4)>
+  </div>
+</div>
+`;
+
+exports[`<RegisterSucceed /> renderRegisterByInvitationSuccess() should renderRegisterByInvitationSuccess correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(H4)>
+      You have successfully registered by invitation.
+    </WithStyles(H4)>
+    <WithStyles(H4)>
+      <withRouter(UGLink)
+        to="/login?email=that%40guy"
+      >
+        <FormattedMessage
+          defaultMessage="Login now"
+          id="app.containers.Form.Register.loginNow"
+        />
+         
+        <[object Object] />
+      </withRouter(UGLink)>
+    </WithStyles(H4)>
+  </div>
+</div>
+`;

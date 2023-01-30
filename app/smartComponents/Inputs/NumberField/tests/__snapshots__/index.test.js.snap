@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NumberField /> #render() still matches snapshot 1`] = `
+<FormsyInterceptor
+  autoComplete="off"
+  onInterceptValue={[Function]}
+  type="number"
+  validationErrors={
+    Object {
+      "isGreaterThanOrEqual": "Must be 0 or higher",
+      "isInt": "Must be integer",
+    }
+  }
+  validations={
+    Object {
+      "isGreaterThanOrEqual": 0,
+      "isInt": true,
+    }
+  }
+/>
+`;

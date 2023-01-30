@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemDuration /> component should remove s in days if duration is 1 1`] = `
+<div
+  className="ItemDuration-ugDuration"
+>
+  <p
+    className="ItemDuration-text"
+  >
+    1
+     
+    Day
+  </p>
+</div>
+`;
+
+exports[`<ItemDuration /> component should render day if weekDay exist 1`] = `
+<div
+  className="ItemDuration-ugDuration"
+>
+  <p
+    className="ItemDuration-text"
+  >
+    2
+     
+    Days
+  </p>
+</div>
+`;
+
+exports[`<ItemDuration /> component should render only the duration if weekDay and startDate do not exist 1`] = `
+<div
+  className="ItemDuration-ugDuration"
+>
+  <p
+    className="ItemDuration-text"
+  >
+    2
+     
+    Days
+  </p>
+</div>
+`;
+
+exports[`<ItemDuration /> component should render startDate if startDate exist 1`] = `
+<div
+  className="ItemDuration-ugDuration"
+>
+  <p
+    className="ItemDuration-text"
+  >
+    2
+     
+    Days
+  </p>
+</div>
+`;

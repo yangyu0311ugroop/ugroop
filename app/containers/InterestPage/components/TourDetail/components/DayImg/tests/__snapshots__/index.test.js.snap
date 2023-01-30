@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayImg /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(File)))
+      className=""
+      id="/photo.jpg"
+      isTemplatePhoto={true}
+      variant="readOnly"
+    />
+  </div>
+</div>
+`;
+
+exports[`<DayImg /> render() should render w/o photoId 1`] = `
+<div>
+  <div>
+    <div
+      className="undefined"
+    >
+      <Img
+        alt="logo"
+        className="undefined"
+        src="IMAGE_MOCK"
+      />
+    </div>
+  </div>
+</div>
+`;

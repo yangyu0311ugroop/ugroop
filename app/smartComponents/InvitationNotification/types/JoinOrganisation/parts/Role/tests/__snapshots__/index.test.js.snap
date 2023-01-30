@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Role /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<Role /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "default": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Role /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Role)))
+      article={false}
+      role={12}
+    />
+  </span>
+</div>
+`;

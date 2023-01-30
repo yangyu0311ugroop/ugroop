@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachments /> handleError should open snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Something went wrong. Please try again."
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.errorMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<Attachments /> handleSuccess should open snackbar 1`] = `
+Array [
+  Array [
+    <FormattedMessage
+      defaultMessage="Successfully edited the attachment."
+      id="app.smartComponents.Event.components.Event.layouts.Event.Attachments.successMessage"
+    />,
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<Attachments /> render() should match snapshot 1`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "valueOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Attachments /> renderDefault should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <H5
+          dense={true}
+          weight="bold"
+        >
+          Attachments
+        </H5>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        key="1"
+        xs={12}
+      >
+        <WithStyles(EditableForm)
+          onSubmit={[Function]}
+          readOnly={false}
+          renderSecondaryFormActions={[Function]}
+          renderValue={[Function]}
+          value={1}
+        >
+          <WithStyles(AttachmentBorder)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AttachmentLink)))))))
+                dataId={1}
+                variant="fieldsOnly"
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Description)))
+                  dataId={1}
+                  variant="textField"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(AttachmentBorder)>
+        </WithStyles(EditableForm)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="2"
+        xs={12}
+      >
+        <WithStyles(EditableForm)
+          onSubmit={[Function]}
+          readOnly={false}
+          renderSecondaryFormActions={[Function]}
+          renderValue={[Function]}
+          value={2}
+        >
+          <WithStyles(AttachmentBorder)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AttachmentLink)))))))
+                dataId={2}
+                variant="fieldsOnly"
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Description)))
+                  dataId={2}
+                  variant="textField"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(AttachmentBorder)>
+        </WithStyles(EditableForm)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="3"
+        xs={12}
+      >
+        <WithStyles(EditableForm)
+          onSubmit={[Function]}
+          readOnly={false}
+          renderSecondaryFormActions={[Function]}
+          renderValue={[Function]}
+          value={3}
+        >
+          <WithStyles(AttachmentBorder)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AttachmentLink)))))))
+                dataId={3}
+                variant="fieldsOnly"
+              />
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Description)))
+                  dataId={3}
+                  variant="textField"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(AttachmentBorder)>
+        </WithStyles(EditableForm)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+          eventId={0}
+          templateId={0}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attachments /> renderDescription should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Name)))
+    variant="renderProp"
+  >
+    name
+  </WithStyles(Connect(WithSimplifyResaga(Name)))>
+</div>
+`;
+
+exports[`<Attachments /> renderFormActions should match if readOnly returns true 1`] = `<div />`;
+
+exports[`<Attachments /> renderFormActions should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(DeleteButton)))
+    eventId={0}
+    templateId={0}
+  />
+</div>
+`;
+
+exports[`<Attachments /> renderLink should match snapshot 1`] = `
+<div>
+  <WithStyles(Attachment)
+    darkSeparator={true}
+  />
+</div>
+`;
+
+exports[`<Attachments /> renderName should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AttachmentLink)))))))
+    variant="renderProp"
+  >
+    name
+  </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(AttachmentLink)))))))>
+</div>
+`;
+
+exports[`<Attachments /> renderValue should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Description)))
+    variant="renderProp"
+  >
+    desc
+  </WithStyles(Connect(WithSimplifyResaga(Description)))>
+</div>
+`;
+
+exports[`<Attachments /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <string>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="blue"
+          icon="lnr-paperclip"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          blue={true}
+          ellipsis={true}
+          sm={true}
+        >
+          2 attachments
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </string>
+</div>
+`;

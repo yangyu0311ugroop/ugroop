@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card/config.js hideCard() should hideCard() 1`] = `
+Array [
+  "cognitoAcctStore",
+  "userSettings",
+  "dashboard",
+  "dashboard",
+]
+`;

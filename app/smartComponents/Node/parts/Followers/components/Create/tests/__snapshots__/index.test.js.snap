@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Create /> handleValidSubmit should call dispatchTo when creating link 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "guardian",
+          "actionContent": Object {
+            "relationship": "mother",
+          },
+          "nextNodeId": 1,
+        },
+        "id": undefined,
+        "nextNodeChildKey": "participantLinks",
+        "prevNodeChildKey": "followers",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Create /> render() should render correctly 1`] = `
+<div>
+  renderButton
+  <WithStyles(PopoverForm)
+    disabled={false}
+    onClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+    popoverProps={
+      Object {
+        "anchorEl": null,
+        "anchorOrigin": Object {
+          "horizontal": "right",
+          "vertical": "bottom",
+        },
+        "transformOrigin": Object {
+          "horizontal": "right",
+          "vertical": "top",
+        },
+      }
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <H6
+          dense={true}
+          weight="bold"
+        >
+          Add a follower to participant
+        </H6>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))))))
+          classes={Object {}}
+          resaga={
+            Object {
+              "dispatchTo": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "Nodes",
+                    "createLink",
+                    Object {
+                      "onError": [Function],
+                      "onSuccess": [Function],
+                      "payload": Object {
+                        "data": Object {
+                          "action": "guardian",
+                          "actionContent": Object {
+                            "relationship": "mother",
+                          },
+                          "nextNodeId": 1,
+                        },
+                        "id": undefined,
+                        "nextNodeChildKey": "participantLinks",
+                        "prevNodeChildKey": "followers",
+                        "upsertLinkId": true,
+                      },
+                    },
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+              "setValue": [MockFunction],
+            }
+          }
+          selectableFollowers={
+            Array [
+              1,
+              2,
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)>
+          <WithStyles(GridItem)
+            xs={true}
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="black"
+              disabled={false}
+              onClick={[Function]}
+              size="xs"
+              variant="outline"
+            >
+              Cancel
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              disabled={false}
+              size="xs"
+              type="submit"
+            >
+              Add
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(PopoverForm)>
+</div>
+`;
+
+exports[`<Create /> render() should render correctly if selectableFollowers is empty 1`] = `<div />`;
+
+exports[`<Create /> renderButton should match snapshot 1`] = `
+<div>
+  <WithStyles(CreateButton)
+    buttonRef={[Function]}
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<Create /> renderButton should match snapshot if renderButton props exist 1`] = `
+<div>
+  renderButton
+</div>
+`;

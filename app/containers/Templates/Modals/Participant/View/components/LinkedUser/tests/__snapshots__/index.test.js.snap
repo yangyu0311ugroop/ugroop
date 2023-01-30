@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantViewLinkedUser /> closePopper should match snapshot 1`] = `<div />`;
+
+exports[`<ParticipantViewLinkedUser /> getPopperContentComponent should match snapshot 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<ParticipantViewLinkedUser /> getPopperContentComponent should match snapshot if linkedUserPage is not invite 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<ParticipantViewLinkedUser /> renderChipLabelContent should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className="j-text-ellipsis"
+  >
+    <P
+      dense={true}
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="Invite this person?"
+        id="app.Containers.Templates.Modals.Participant.View.LinkedUser.inviteLabel"
+      />
+    </P>
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(Icon)
+      icon="lnr-chevron-down"
+      size="xxs"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentItem /> render() should render correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(Attachment)
+      compact={true}
+      iconSize="xxxs"
+      link=""
+      name=""
+      variant="link"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AttachmentItem /> render() should render correctly 2`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(Attachment)
+      compact={true}
+      iconSize="xxxs"
+      link=""
+      name=""
+      variant="link"
+    />
+  </div>
+</div>
+`;

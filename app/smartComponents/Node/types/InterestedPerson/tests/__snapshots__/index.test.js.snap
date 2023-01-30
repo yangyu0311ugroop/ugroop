@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterestedPerson /> #handleClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "interestedPersonViewId": undefined,
+  "interestedPersonViewMode": null,
+  "interestedPersonViewOpen": true,
+}
+`;
+
+exports[`<InterestedPerson /> #handleClick() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "interestedPersonViewId": undefined,
+  "interestedPersonViewMode": null,
+  "interestedPersonViewOpen": true,
+}
+`;
+
+exports[`<InterestedPerson /> #openSeeDetail() still matches snapshot 1`] = `undefined`;
+
+exports[`<InterestedPerson /> #render() still matches snapshot 1`] = `<div />`;
+
+exports[`<InterestedPerson /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <React.Fragment>
+    
+    
+    
+  </React.Fragment>
+  
+  
+  
+  <React.Fragment>
+    <WithStyles(Hr) />
+    
+  </React.Fragment>
+</WithStyles(GridContainer)>
+`;
+
+exports[`<InterestedPerson /> #renderForm() should still matches snapshot if withRelationshipField is true 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <WithStyles(GridItem)>
+    
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      
+      
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  
+  
+  
+</WithStyles(GridContainer)>
+`;
+
+exports[`<InterestedPerson /> #renderForm() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  direction="column"
+>
+  <WithStyles(GridItem) />
+  <WithStyles(GridItem) />
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      
+      
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  
+  
+  
+</WithStyles(GridContainer)>
+`;
+
+exports[`<InterestedPerson /> #renderRowValue() should match snapshot if isDetailed 1`] = `
+<div>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</div>
+`;
+
+exports[`<InterestedPerson /> #renderRowValue() should match snapshot if userId 1`] = `
+<div>
+  <H4
+    dense={true}
+    weight="bold"
+  >
+    value
+  </H4>
+</div>
+`;
+
+exports[`<InterestedPerson /> #renderRowValue() still matches snapshot 1`] = `
+<H4
+  dense={true}
+  title="This follower is not yet connected to someone registered on uGroop."
+>
+  value
+</H4>
+`;
+
+exports[`<InterestedPerson /> #renderTextOnly() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        accessLevel="full"
+        createdBy={null}
+        extended={false}
+        isEmptyInterestLevel={false}
+        isPublic={false}
+        layout="simpleView"
+        mode={null}
+        noName={false}
+        onRenderRowSubtitle={null}
+        onRenderRowTail={null}
+        personEmail=""
+        readOnlyStatus={false}
+        renderValue={[Function]}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+            "setValue": [MockFunction],
+          }
+        }
+        value="value"
+        variant="textOnly"
+        withRelationshipField={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedPerson /> #renderTextOnlyNameValue() still matches snapshot 1`] = `
+<div>
+  <H5
+    dense={true}
+    weight="bold"
+  />
+</div>
+`;
+
+exports[`<InterestedPerson /> componentDidMount() should call setTimeout when index < ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    750,
+  ],
+]
+`;
+
+exports[`<InterestedPerson /> componentDidMount() should call setTimeout when index >= ANIMATION_MAX_INDEX 1`] = `
+Array [
+  Array [
+    [Function],
+    1000,
+  ],
+]
+`;
+
+exports[`<InterestedPerson /> componentWillUnmount() should call setTimeout when index < 5 1`] = `
+Array [
+  Array [
+    ShallowWrapper {},
+  ],
+]
+`;
+
+exports[`<InterestedPerson /> renderEmail() should renderEmail 1`] = `
+<div>
+  <H6
+    dense={true}
+  />
+</div>
+`;
+
+exports[`<InterestedPerson /> renderInviteButton should match snapshot 1`] = `<div />`;
+
+exports[`<InterestedPerson /> renderInviteButton should match snapshot if user is not connected and not invitation pending 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    createdBy={null}
+    extended={false}
+    isEmptyInterestLevel={false}
+    isPublic={false}
+    layout="simpleView"
+    mode={null}
+    noName={false}
+    onRenderRowSubtitle={null}
+    onRenderRowTail={null}
+    personEmail=""
+    readOnlyStatus={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    value="value"
+    withRelationshipField={false}
+  />
+</div>
+`;
+
+exports[`<InterestedPerson /> renderMenuItem should be bold if there is a userId 1`] = `
+<H4
+  dense={true}
+  weight="bold"
+>
+  value
+</H4>
+`;
+
+exports[`<InterestedPerson /> renderMenuItem should match snapshot if id is not equal to participantParentId 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    button={true}
+  >
+    renderPart
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<InterestedPerson /> renderRow() should match snapshot if invitationPending is true 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      <WithStyles(Editable)
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem) />
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              spacing={0}
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(LastAccessAt)))
+              showNoAccessPlaceHolder={true}
+              variant="textWithLabel"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Editable)>
+    </WithStyles(GridItem)>
+    <Hidden
+      xsDown={true}
+    >
+      <WithStyles(GridItem) />
+    </Hidden>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<InterestedPerson /> renderRow() should match snapshot if invitationPending is true noanimate 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<InterestedPerson /> renderRow() should renderRow 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<InterestedPerson /> renderRowSubtitle should match snapshot if there is onRenderRowSubtitle 1`] = `
+<div>
+  onRenderRowSubtitle
+</div>
+`;
+
+exports[`<InterestedPerson /> renderStatus should match snapshot 1`] = `
+<div>
+  <WithStyles(Badge)
+    color="translucent"
+  >
+    Not Yet Connected
+  </WithStyles(Badge)>
+</div>
+`;
+
+exports[`<InterestedPerson /> renderStatus should match snapshot if invitationPending is true 1`] = `
+<div>
+  <WithStyles(Button)
+    color="base"
+    onClick={[Function]}
+    size="extraSmall"
+    variant="outline"
+  >
+    Pending
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<InterestedPerson /> renderStatus should match snapshot if userConnected is true 1`] = `<div />`;

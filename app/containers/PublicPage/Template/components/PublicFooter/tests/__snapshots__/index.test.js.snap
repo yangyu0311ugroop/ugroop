@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PublicFooter /> render builds should render latest build 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <UGFooter
+          items={
+            Array [
+              <span>
+                Version 
+                 -
+                 
+                <a
+                  target="_blank"
+                >
+                  Build 
+                   (
+                  Latest
+                  )
+                </a>
+              </span>,
+              <a
+                target="_blank"
+              >
+                GitHub Commits
+              </a>,
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FooterTop) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PublicFooter /> render builds should render stage build 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <UGFooter
+          items={
+            Array [
+              <span>
+                Version 
+                 -
+                 
+                <a
+                  target="_blank"
+                >
+                  Build 
+                   (
+                  Stable
+                  )
+                </a>
+              </span>,
+              <a
+                target="_blank"
+              >
+                GitHub Commits
+              </a>,
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FooterTop) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PublicFooter /> should render SharedBy Avatar 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <UGFooter
+          items={
+            Array [
+              "uGroop@undefined.undefined",
+              "",
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FooterTop) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PublicFooter /> should render no Org 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <UGFooter
+          items={
+            Array [
+              "uGroop@undefined.undefined",
+              "",
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FooterTop) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<PublicFooter /> should render something 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <UGFooter
+          items={
+            Array [
+              "uGroop@undefined.undefined",
+              "",
+            ]
+          }
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(FooterTop) />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

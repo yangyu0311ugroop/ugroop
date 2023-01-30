@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeLineContent/tests/index.test.js <TimeLineContent /> props no day data 1`] = `
+<WithStyles(GridContainer)
+  card={true}
+  direction="column"
+>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="stretch"
+      justify="space-between"
+      spacing={0}
+    >
+      <div>
+        <WithStyles(Icon)
+          icon="lnr-calendar-empty"
+          size="xl"
+        />
+        <WithStyles(H3)>
+          <FormattedMessage
+            defaultMessage="There are no Days in this Tour"
+            id="app.containers.Template.TimeLineContent.NoDayTitlePlaceHolder"
+          />
+        </WithStyles(H3)>
+      </div>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;
+
+exports[`TimeLineContent/tests/index.test.js render() should render DEFAULT_SELECTDAY_INDEX 1`] = `
+<div>
+  <ConnectFunction>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RenderDay)))))
+        dayId={1}
+        index={0}
+        key="1"
+        tabId={2}
+        willBeEdited={false}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              gray={true}
+              sm={true}
+              spacing2={true}
+              uppercase={true}
+            >
+              End Of Itinerary
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </ConnectFunction>
+</div>
+`;
+
+exports[`TimeLineContent/tests/index.test.js render() should render LoadingText 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(LoadingText) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`TimeLineContent/tests/index.test.js render() should render editable 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="stretch"
+        justify="space-between"
+        spacing={0}
+      >
+        <div>
+          <WithStyles(Icon)
+            icon="lnr-calendar-empty"
+            size="xl"
+          />
+          <WithStyles(H3)>
+            <FormattedMessage
+              defaultMessage="There are no Days in this Tour"
+              id="app.containers.Template.TimeLineContent.NoDayTitlePlaceHolder"
+            />
+          </WithStyles(H3)>
+          <WithStyles(H5)>
+            <FormattedMessage
+              defaultMessage="Use \\"Add Day\\" to begin building the tour."
+              id="app.containers.Template.TimeLineContent.NoDayDescriptionPlaceHolder"
+            />
+          </WithStyles(H5)>
+          <WithStyles(Button)
+            color="green"
+            disabled={true}
+            onClick={[Function]}
+            size="small"
+          >
+            Add Day
+          </WithStyles(Button)>
+        </div>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

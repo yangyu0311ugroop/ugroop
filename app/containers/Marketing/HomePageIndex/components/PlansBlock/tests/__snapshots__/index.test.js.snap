@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlansBlock should render what it should render 1`] = `
+<div
+  className="MarketingPlansBlock-root"
+>
+  <WithStyles(Container)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Jumbotron)>
+          Plans
+        </WithStyles(Jumbotron)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingPlansBlock-rightItem MarketingPlansBlock-normalFlex"
+      >
+        <WithStyles(Description)
+          isBold={true}
+          size={18}
+        >
+          Choose what's best for you
+        </WithStyles(Description)>
+        <WithStyles(UnderlineWrapper)>
+          <WithStyles(Header)
+            as="h2"
+          >
+            Subscribe to our plan and be an awesome 
+            <span>
+              organiser
+            </span>
+          </WithStyles(Header)>
+        </WithStyles(UnderlineWrapper)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        className="MarketingPlansBlock-normalFlex undefined"
+      >
+        <WithStyles(UGCard)
+          className="MarketingPlansBlock-planItemCard"
+          withShadow={true}
+        >
+          <WithStyles(Header)
+            as="h3"
+          >
+            Basic
+          </WithStyles(Header)>
+          <WithStyles(Description)
+            size={16}
+          >
+            A simple yet powerful way to get things done
+          </WithStyles(Description)>
+          <WithStyles(Description)
+            className="MarketingPlansBlock-pricingText"
+            isBold={true}
+            size={24}
+          >
+            $9 
+            <span>
+              Monthly
+            </span>
+          </WithStyles(Description)>
+          <WithStyles(Button)
+            color="blue"
+            size="medium"
+          >
+            SIGN UP
+          </WithStyles(Button)>
+        </WithStyles(UGCard)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingPlansBlock-normalFlex undefined"
+      >
+        <WithStyles(UGCard)
+          className="MarketingPlansBlock-planItemCard"
+          withShadow={true}
+        >
+          <WithStyles(Header)
+            as="h3"
+          >
+            Premium
+          </WithStyles(Header)>
+          <WithStyles(Description)
+            size={16}
+          >
+            A simple yet powerful way to get things done
+          </WithStyles(Description)>
+          <WithStyles(Description)
+            className="MarketingPlansBlock-pricingText"
+            isBold={true}
+            size={24}
+          >
+            $20 
+            <span>
+              Monthly
+            </span>
+          </WithStyles(Description)>
+          <WithStyles(Button)
+            className="MarketingPlansBlock-homeBtn"
+          >
+            SIGN UP
+          </WithStyles(Button)>
+        </WithStyles(UGCard)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="MarketingPlansBlock-normalFlex undefined"
+      >
+        <WithStyles(UGCard)
+          className="MarketingPlansBlock-planItemCard"
+          withShadow={true}
+        >
+          <WithStyles(Header)
+            as="h3"
+          >
+            Standard
+          </WithStyles(Header)>
+          <WithStyles(Description)
+            size={16}
+          >
+            A simple yet powerful way to get things done
+          </WithStyles(Description)>
+          <WithStyles(Description)
+            className="MarketingPlansBlock-pricingText"
+            isBold={true}
+            size={24}
+          >
+            $15 
+            <span>
+              Monthly
+            </span>
+          </WithStyles(Description)>
+          <WithStyles(Button)
+            color="blue"
+            size="medium"
+          >
+            SIGN UP
+          </WithStyles(Button)>
+        </WithStyles(UGCard)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;

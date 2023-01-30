@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fileStore/selectors.js noSpreadMetaInfo should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "metaInfo",
+]
+`;
+
+exports[`fileStore/selectors.js selectFileDescription should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "description",
+]
+`;
+
+exports[`fileStore/selectors.js selectFileId should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "id",
+]
+`;
+
+exports[`fileStore/selectors.js selectFileName should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "name",
+]
+`;
+
+exports[`fileStore/selectors.js selectFileSize should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "fileSize",
+]
+`;
+
+exports[`fileStore/selectors.js selectFileUrl should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "url",
+]
+`;
+
+exports[`fileStore/selectors.js selectMetaInfo should return a particular shape of object 1`] = `
+Object {
+  "keyPath": [Function],
+  "spreadObject": true,
+}
+`;
+
+exports[`fileStore/selectors.js selectMetaInfo should return a particular shape of object 2`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "metaInfo",
+]
+`;
+
+exports[`fileStore/selectors.js selectPhoto should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "url",
+]
+`;
+
+exports[`fileStore/selectors.js templateMetaInfo should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "metaInfo",
+]
+`;
+
+exports[`fileStore/selectors.js templatePhoto should return a particular shape of array 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "content",
+]
+`;
+
+exports[`fileStore/selectors.js type should return selector for type 1`] = `
+Array [
+  "fileDataStore",
+  "files",
+  1,
+  "type",
+]
+`;

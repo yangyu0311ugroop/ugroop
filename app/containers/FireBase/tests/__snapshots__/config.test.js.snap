@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Firebase Config setValue 1`] = `
+Array [
+  "notificationStore",
+  "ugroop",
+]
+`;
+
+exports[`Firebase Config setValue 2`] = `
+Array [
+  "notificationStore",
+  "ugroopIds",
+]
+`;
+
+exports[`Firebase Config should exists 1`] = `
+Array [
+  "userDataStore",
+  "userId",
+]
+`;

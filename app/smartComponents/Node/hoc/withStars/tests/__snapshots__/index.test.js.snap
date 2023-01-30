@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withStars #render() still matches snapshot 1`] = `
+<Component
+  resaga={Object {}}
+  stars={Array []}
+/>
+`;

@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renderAttachmentPart should match snapshot 1`] = `
+<div>
+  <Component
+    attachmentId={1}
+    consentId={null}
+    iconPadding={false}
+    id={1}
+    myId={null}
+    readOnly={false}
+    requiresConsent={null}
+    separator={false}
+  />
+</div>
+`;
+
+exports[`<Form /> renderConsentConfirmation should match snapshot if requires consent is false 1`] = `<div />`;
+
+exports[`<Form /> renderConsentConfirmation should match snapshot if requires consent is true 1`] = `
+<div>
+  <WithStyles(GridItem)
+    style={
+      Object {
+        "maxWidth": 320,
+      }
+    }
+  >
+    <ConnectFunction
+      attachmentId={null}
+      consentId={null}
+      iconPadding={false}
+      id={null}
+      myId={null}
+      readOnly={false}
+      requiresConsent={null}
+      separator={false}
+      variant={null}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Form /> renderConsentPart should match snapshot 1`] = `
+<div>
+  <Component
+    attachmentId={null}
+    consentId={1}
+    iconPadding={false}
+    id={1}
+    myId={null}
+    readOnly={false}
+    requiresConsent={null}
+    separator={false}
+  />
+</div>
+`;
+
+exports[`<Form /> renderPart should match snapshot 1`] = `
+<div>
+  <Component
+    attachmentId={null}
+    consentId={null}
+    iconPadding={false}
+    id={null}
+    myId={null}
+    readOnly={false}
+    requiresConsent={null}
+    separator={false}
+  />
+</div>
+`;
+
+exports[`<Form /> renderRow should match snapshot if there is attachmentId 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Hr)
+      halfMarginBottom={true}
+      noMarginTop={true}
+    />
+    <WithStyles(EditableForm)
+      isRow={true}
+      onOpen={[Function]}
+      onSubmit={[Function]}
+      readOnly={false}
+      renderSecondaryFormActions={[Function]}
+      renderValue={[Function]}
+      value={1}
+    >
+      renderValue
+    </WithStyles(EditableForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Form /> renderRowFormActions should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    id={1}
+  />
+</div>
+`;
+
+exports[`<Form /> renderRowValue should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      style={
+        Object {
+          "width": 2,
+        }
+      }
+    />
+    <WithStyles(GridItem)>
+      renderConsentPart
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem) />
+    <WithStyles(GridItem)>
+      renderAttachmentPart
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

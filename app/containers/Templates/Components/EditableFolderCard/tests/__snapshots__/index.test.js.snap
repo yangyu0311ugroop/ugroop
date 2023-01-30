@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableFolderCard /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    folderId={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<EditableFolderCard /> render() should render correctly 2`] = `
+<div>
+  <Component
+    currFolderId={0}
+    onCancel={[Function]}
+    onSubmit={[Function]}
+  />
+</div>
+`;

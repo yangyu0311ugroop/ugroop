@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventDetails /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EventDetails /> #renderDefault() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      wrap="nowrap"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Name)))
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant="editableHeadingForm"
+      />
+      <Component
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Url)))
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+      <ConnectFunction
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant="editableForm"
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventDetails /> #renderDefault() still matches snapshot if props.descriptionOnly 1`] = `
+<div>
+  <ConnectFunction
+    defaultExpanded={true}
+    descriptionOnly={true}
+    showEventLocation={true}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<EventDetails /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Section)
+    ExpansionPanelProps={
+      Object {
+        "defaultExpanded": true,
+      }
+    }
+    title={
+      <FormattedMessage
+        defaultMessage="General"
+        id="app.Event.layouts.Event.Details.sectionLabel"
+      />
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Name)))
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+      <Component
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Url)))
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+      <ConnectFunction
+        defaultExpanded={true}
+        descriptionOnly={false}
+        showEventLocation={true}
+        variant={null}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(Section)>
+</div>
+`;
+
+exports[`<EventDetails /> #renderTitle() still matches snapshot if props.descriptionOnly 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Description"
+    id="app.Event.layouts.Event.Details.descriptionOnlySectionLabel"
+  />
+</div>
+`;

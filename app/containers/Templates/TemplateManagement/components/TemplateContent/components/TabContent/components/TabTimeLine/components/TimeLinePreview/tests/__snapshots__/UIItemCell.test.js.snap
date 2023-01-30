@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGItemCell /> should not have blank tooltip title if showTooltip is false and has Badge 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title=""
+  >
+    <WithStyles(ForwardRef(ListItem))
+      button={true}
+      className=""
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <div>
+        <div>
+          1
+          <div
+            className=""
+          />
+        </div>
+        <div>
+          <WithStyles(H6) />
+          <WithStyles(H5) />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`<UGItemCell /> should render item of ListItem 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+  >
+    <WithStyles(ForwardRef(ListItem))
+      button={true}
+      className=""
+      disableRipple={true}
+      onClick={[Function]}
+    >
+      <div>
+        <div>
+          1
+          <div
+            className=""
+          />
+        </div>
+        <div>
+          <WithStyles(H6) />
+          <WithStyles(H5) />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

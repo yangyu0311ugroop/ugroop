@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> render() should render 1`] = `
+<div>
+  <VIEW
+    fixed={true}
+    style={
+      Object {
+        "backgroundColor": "#2b344d",
+        "bottom": 0,
+        "color": "grey",
+        "fontSize": 12,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <VIEW
+      fixed={true}
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 4,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <TEXT
+        fixed={true}
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 14,
+            "textAlign": "left",
+          }
+        }
+      >
+        Powered by
+      </TEXT>
+      <IMAGE
+        fixed={true}
+        source="IMAGE_MOCK"
+        style={
+          Object {
+            "height": "auto",
+            "justifyContent": "right",
+            "paddingLeft": 2,
+            "width": 20,
+          }
+        }
+      />
+      <TEXT
+        fixed={true}
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 16,
+            "textAlign": "left",
+          }
+        }
+      >
+        uGroop
+      </TEXT>
+    </VIEW>
+    <VIEW
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TEXT
+        style={
+          Object {
+            "color": "#c6cee5",
+            "fontSize": 8,
+            "textAlign": "justify",
+            "width": "33%",
+          }
+        }
+      >
+        Printed By 
+      </TEXT>
+      <TEXT
+        fixed={true}
+        render={[Function]}
+        style={
+          Object {
+            "color": "#c6cee5",
+            "fontSize": 8,
+            "textAlign": "center",
+            "width": "33%",
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "color": "#c6cee5",
+            "fontSize": 8,
+            "textAlign": "right",
+            "width": "33%",
+          }
+        }
+      >
+        Printed Date undefined
+      </TEXT>
+    </VIEW>
+  </VIEW>
+</div>
+`;
+
+exports[`<Footer /> renderFooterPage() should render 1`] = `
+<div>
+  Page 1 of 1
+</div>
+`;

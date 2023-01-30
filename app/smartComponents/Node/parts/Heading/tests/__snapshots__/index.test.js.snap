@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> canAddHeading() should canAddHeading 1`] = `<div />`;
+
+exports[`<Heading /> render() should renderEmpty 1`] = `
+<div>
+  renderEmpty
+</div>
+`;
+
+exports[`<Heading /> render() should renderForm 1`] = `
+<div>
+  renderForm
+</div>
+`;
+
+exports[`<Heading /> render() should renderHeading editable 1`] = `
+<div>
+  <span>
+    <div
+      className=""
+    >
+      <WithStyles(Button)
+        block={true}
+        className=""
+        color="black"
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+        variant="borderless"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(GridContainer)
+              className=""
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <div
+                  className=""
+                >
+                  heading
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <WithStyles(Icon)
+                icon="lnr-pencil"
+                size="xsmall"
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`<Heading /> render() should renderHeading readonly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    renderHeading
+  </div>
+</div>
+`;
+
+exports[`<Heading /> renderEmpty() should renderEmpty 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        block={true}
+        className=""
+        color="black"
+        dense={true}
+        noPadding={true}
+        onClick={[Function]}
+        size="extraSmall"
+        textAlign="left"
+        variant="borderless"
+      >
+        <i>
+          Add a 
+           Heading
+        </i>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Heading /> renderForm() should renderForm 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          autoFocus={true}
+          id="heading"
+          label="Heading"
+          name="heading"
+          onInterceptValue={[Function]}
+          required={true}
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <FormsyInterceptor
+          id="subheading"
+          label="Short description (optional)"
+          name="subheading"
+          onInterceptValue={[Function]}
+          type="text"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        renderSaveCancelButton
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<Heading /> renderHeading() should renderHeading 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    className=""
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        subheading
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Heading /> renderSaveCancelButton() should renderSaveCancelButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="alert"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+        square={true}
+      >
+        Clear 
+         Heading
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    />
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        icon="check"
+        iconButton={true}
+        size="extraSmall"
+        square={true}
+        type="submit"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="gray"
+        dense={true}
+        icon="cross"
+        iconButton={true}
+        onClick={[Function]}
+        size="extraSmall"
+        square={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

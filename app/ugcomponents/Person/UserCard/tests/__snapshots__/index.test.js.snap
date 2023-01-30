@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCard /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <Hidden
+      smDown={true}
+    >
+      <div
+        className=""
+      />
+    </Hidden>
+    <Hidden
+      mdUp={true}
+    >
+      <div
+        className=""
+      />
+    </Hidden>
+    renderPhoto
+    <Hidden
+      smDown={true}
+    >
+      <div>
+        <WithStyles(CloseButton)
+          hoverGrayMode={true}
+        />
+      </div>
+    </Hidden>
+    <Hidden
+      smUp={true}
+    >
+      <div>
+        <WithStyles(CloseButton)
+          hoverGrayMode={true}
+        />
+      </div>
+    </Hidden>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <div>
+          <div>
+            renderName
+            renderEmail
+          </div>
+        </div>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<UserCard /> renderEmail() should renderEmail 1`] = `
+<div>
+  <div>
+    <Component
+      dark={true}
+      id={0}
+      link={true}
+      updatedEmail=""
+      variant="VIEW_MODE_COPY"
+    />
+  </div>
+</div>
+`;
+
+exports[`<UserCard /> renderName() should renderName 1`] = `
+<div>
+  <div
+    className="j-text-ellipsis"
+  >
+    That Guy
+  </div>
+</div>
+`;
+
+exports[`<UserCard /> renderName() should renderName with ellipsis 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="top"
+    title="That Guy That Guy That Guy That Guy That Guy That Guy That GuyThat Guy"
+  >
+    <div
+      className="j-text-ellipsis"
+    >
+      That Guy That Guy That Guy That Guy That Guy That Guy That GuyThat Guy
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`<UserCard /> renderPhoto() should renderPhoto 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(WithUploadFile)))
+      editable={false}
+      id="somephoto.com"
+      shape="imageSquare"
+      size="imageExtraLarge"
+      variant="readOnly"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<UserCard /> renderPhoto() should return null if !photo 1`] = `
+<div>
+  <div />
+</div>
+`;

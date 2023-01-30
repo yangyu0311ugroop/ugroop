@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGHorizontalTab should render the first children of the Tab 1`] = `
+<div
+  className=""
+>
+  <WithStyles(ForwardRef(AppBar))
+    className="UGHorizontalTab-appBar"
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)>
+      <WithStyles(ForwardRef(Toolbar))
+        className="UGHorizontalTab-toolbar UGHorizontalTab-toolbarFlexEnd"
+      >
+        <WithStyles(UGTabs)
+          className="UGHorizontalTab-tabs"
+          onChange={[Function]}
+          textColor="primary"
+          value={0}
+        >
+          <ConnectFunction
+            className="UGHorizontalTab-tabItem"
+            key="UGHRTabItem-first item"
+            label="first item"
+          />
+          <ConnectFunction
+            className="UGHorizontalTab-tabItem"
+            key="UGHRTabItem-second item"
+            label="second item"
+          />
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+  <div>
+    First
+  </div>
+</div>
+`;
+
+exports[`UGHorizontalTab should render the selected item in the Tab 1`] = `
+<div
+  className=""
+>
+  <WithStyles(ForwardRef(AppBar))
+    className="UGHorizontalTab-appBar"
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Container)>
+      <WithStyles(ForwardRef(Toolbar))
+        className="UGHorizontalTab-toolbar UGHorizontalTab-toolbarFlexEnd"
+      >
+        <WithStyles(UGTabs)
+          className="UGHorizontalTab-tabs"
+          onChange={[Function]}
+          textColor="primary"
+          value={1}
+        >
+          <ConnectFunction
+            className="UGHorizontalTab-tabItem"
+            key="UGHRTabItem-first item"
+            label="first item"
+          />
+          <ConnectFunction
+            className="UGHorizontalTab-tabItem"
+            key="UGHRTabItem-second item"
+            label="second item"
+          />
+        </WithStyles(UGTabs)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(Container)>
+  </WithStyles(ForwardRef(AppBar))>
+  <div>
+    Second
+  </div>
+</div>
+`;

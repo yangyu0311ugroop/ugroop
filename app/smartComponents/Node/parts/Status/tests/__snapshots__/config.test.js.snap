@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "portalData": Array [
+      "userDataStore",
+      "portal",
+      "portalData",
+    ],
+    "portalIds": Array [
+      "userDataStore",
+      "portal",
+      "portalIds",
+    ],
+  },
+  "value": Object {
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "status": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+    "type": Object {
+      "getter": [Function],
+      "keyPath": [Function],
+      "props": [Function],
+    },
+  },
+}
+`;

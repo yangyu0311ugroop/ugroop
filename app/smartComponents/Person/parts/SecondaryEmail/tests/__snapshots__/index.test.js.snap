@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SecondaryEmail /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<SecondaryEmail /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Secondary Email",
+                "id": "app.smartComponents.Person.parts.SecondaryEmail.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Secondary Email",
+                "id": "app.smartComponents.Person.parts.SecondaryEmail.label",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    name="secondaryEmail"
+    onInterceptValue={[Function]}
+    validationErrors={
+      Object {
+        "isEmail": "does not look like an email",
+      }
+    }
+    validations="isEmail"
+    value=""
+  />
+</div>
+`;

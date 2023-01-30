@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerticalLine /> render different sizes should render base sized vertical line 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`<VerticalLine /> render different sizes should render base sized vertical line 2`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`<VerticalLine /> smoke tests should render properly 1`] = `
+<div
+  className=""
+/>
+`;

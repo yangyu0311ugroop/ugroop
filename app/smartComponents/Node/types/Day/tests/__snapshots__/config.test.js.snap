@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day/USER_USERS_CONFIG value parentType should return a particular keypath shape 1`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "orgId",
+]
+`;
+
+exports[`Day/config.js value parentType should return a particular keypath shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "type",
+]
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Routes /> render() should render 1`] = `
+<div>
+  <WithStyles(withRouter(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RouteCard))))))
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

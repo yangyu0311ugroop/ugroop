@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaxLabel /> render() should render correctly 1`] = `
+<div>
+  <P
+    component="span"
+    defaultValue=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<PaxLabel /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div>
+          <FormsyInterceptor
+            InputLabelProps={
+              Object {
+                "shrink": true,
+              }
+            }
+            component="span"
+            defaultValue=""
+            intl={
+              Object {
+                "formatMessage": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      Object {
+                        "defaultMessage": "PAX Label",
+                        "id": "app.smartComponents.Organisation.parts.PaxLabel.label",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "defaultMessage": "<PAX>",
+                        "id": "app.smartComponents.Organisation.parts.PaxLabel.txtPlaceholder",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "defaultMessage": "PAX Label",
+                        "id": "app.smartComponents.Organisation.parts.PaxLabel.label",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "defaultMessage": "<PAX>",
+                        "id": "app.smartComponents.Organisation.parts.PaxLabel.txtPlaceholder",
+                      },
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                },
+              }
+            }
+            name="paxLabel"
+            onInterceptValue={[Function]}
+            validations="minLength:2,maxLength:15"
+            value=""
+          />
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+            sm={true}
+          >
+            (Maximum 15 chars)
+          </WithStyles(JTextClass)>
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<PaxLabel /> render() should render text only variant 1`] = `
+<div>
+  <P
+    component="span"
+    defaultValue=""
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

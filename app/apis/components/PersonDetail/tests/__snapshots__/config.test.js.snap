@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonDetail/config.js onSuccess PATCH_PERSON_FACADE should have array of functions that returns a particular shape 1`] = `
+Object {
+  "data": Object {
+    "metaInfo": Object {
+      "height": 1,
+      "rotate": 1,
+      "scale": 1,
+      "width": 1,
+      "x": 1,
+      "y": 1,
+    },
+    "url": "url",
+  },
+  "type": "ugroop/cognitoDataStore/UPDATE_ACCOUNT_AVATAR",
+}
+`;
+
+exports[`PersonDetail/config.js onSuccess PATCH_PERSON_FACADE should return a particular shape of object if photo is not existing in result 1`] = `
+Object {
+  "data": Object {},
+  "type": "ugroop/cognitoDataStore/UPDATE_ACCOUNT_AVATAR",
+}
+`;
+
+exports[`PersonDetail/config.js requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "post",
+    "/PersonDetails/facade",
+    Object {
+      "nodeId": 123,
+    },
+  ],
+  Array [
+    "get",
+    "/PersonDetails/123/facade",
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/123/facade",
+    Object {
+      "firstName": "firstName",
+    },
+  ],
+  Array [
+    "patch",
+    "/PersonDetails",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/phones/1",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/phones",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/phones/1",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/passports/2",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/passports",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/passports/2",
+    Object {},
+  ],
+  Array [
+    "get",
+    "/PersonDetails/1/Passports/facade",
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/Passports/2/facade",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/Passports/facade",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/Passports/1/facade",
+    Object {},
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/medicals",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/medicals/2",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/medicals/2",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/dietaries",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/dietaries/2",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/dietaries/2",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/studentDetails",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/studentDetails/2",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/studentDetails/2",
+  ],
+  Array [
+    "post",
+    "/PersonDetails/1/insurancePolicies",
+    Object {},
+  ],
+  Array [
+    "patch",
+    "/PersonDetails/1/insurancePolicies/2",
+    Object {},
+  ],
+  Array [
+    "delete",
+    "/PersonDetails/1/insurancePolicies/2",
+  ],
+]
+`;

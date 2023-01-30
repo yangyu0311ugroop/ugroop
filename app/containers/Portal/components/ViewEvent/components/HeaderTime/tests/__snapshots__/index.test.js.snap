@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderTime /> render() should render HEADING 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      danger={true}
+      uppercase={true}
+    >
+      formatTime
+      renderDateTime
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<HeaderTime /> renderDateTime() should renderDateTime 1`] = `
+<div>
+   at 
+   
+  –
+   
+</div>
+`;
+
+exports[`<HeaderTime /> renderDateTime() should renderDateTime no end 1`] = `
+<div>
+   at 
+</div>
+`;
+
+exports[`<HeaderTime /> renderEndTime() should renderEndTime 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      danger={true}
+      xl={true}
+    />
+    <WithStyles(JTextClass)
+      gray={true}
+      sm={true}
+    >
+      MOMENT_HELPERS.appendZone
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<HeaderTime /> renderHeading() should renderHeading 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      danger={true}
+      uppercase={true}
+    >
+      formatTime
+      renderDateTime
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DiscardConfirmationDialog /> #render() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  cancelButton="Cancel"
+  cancelFunc={[Function]}
+  confirmButton="Go ahead and discard"
+  confirmFunc={[Function]}
+  dialogTitle="Discard Changes"
+  headlineIcon="lnr-bubble-alert"
+  headlineText="You have unsaved changes. Are you sure you want to discard?"
+  headlineTitle="You are leaving without saving"
+  open={false}
+  template="delete"
+/>
+`;

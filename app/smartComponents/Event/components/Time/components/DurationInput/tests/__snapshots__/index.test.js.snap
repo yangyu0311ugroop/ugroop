@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DurationInput /> #render() still matches snapshot 1`] = `
+<DurationField
+  autoComplete="off"
+  isDurationError="Please use valid format (eg. 4d 12h 30m)"
+  isDurationPositive={true}
+  isDurationPositiveError="Must be positive (eg. 1h)"
+  name="tempDay"
+  onInterceptValue={[Function]}
+  placeholder="eg. 4d 12h 30m"
+  type="text"
+  validationErrors={Object {}}
+  validations={Object {}}
+  value=""
+/>
+`;

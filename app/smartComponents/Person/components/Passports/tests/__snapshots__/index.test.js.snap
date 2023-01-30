@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Passports /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    userId={0}
+  >
+    <Component />
+  </ConnectFunction>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    direction="row"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)>
+      <H3
+        noMargin={true}
+      >
+        Passports
+      </H3>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        size="small"
+      >
+        Add Passport
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <ConnectFunction
+    ids={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Passports /> render() should render correctly if openAddForm props is true 1`] = `
+<div>
+  <ConnectFunction
+    userId={0}
+  >
+    <Component />
+  </ConnectFunction>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    direction="row"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)>
+      <H3
+        noMargin={true}
+      >
+        Passports
+      </H3>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        size="small"
+      >
+        Add Passport
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <ConnectFunction
+    ids={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Passports /> render() should render correctly if withAddButton props is false 1`] = `
+<div>
+  <ConnectFunction
+    userId={0}
+  >
+    <Component />
+  </ConnectFunction>
+  <ConnectFunction
+    ids={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Passports /> renderDialog should render dialog and the edit form 1`] = `
+<div>
+  <WithStyles(GenericForm)
+    onCancel={[Function]}
+    onClose={[Function]}
+    renderHeader={[Function]}
+    size="xxl"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(EditForm)))
+      hideIsDefault={false}
+      userId={0}
+      withFormWrap={false}
+    />
+  </WithStyles(GenericForm)>
+</div>
+`;
+
+exports[`<Passports /> renderDialogHeader should render the dialog header accepting a renderCloseButton 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      md={11}
+      xs={11}
+    >
+      <WithStyles(Title)
+        heading={
+          <WithStyles(MarginWrapper)
+            top="sm"
+          >
+            Add Passport
+          </WithStyles(MarginWrapper)>
+        }
+        headingBackground="Passport"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={1}
+      xs={1}
+    >
+      <WithStyles(UGDialogAction)>
+        <div />
+      </WithStyles(UGDialogAction)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Passports /> renderPassportEmpty should use the sortedIds passed to it to render phones 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="flex-start"
+      >
+        <WithStyles(GridItem)>
+          <H3
+            noMargin={true}
+          >
+            Passports
+          </H3>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        justify="center"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="lnr-document"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <H5
+            noMargin={true}
+          >
+            There are no Passport in this tab
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            color="primary"
+            dense={true}
+            onClick={[Function]}
+            size="small"
+          >
+            Add Passport
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Passports /> renderSortedPassport should use the sortedIds passed to it to render phones 1`] = `
+<div>
+  <hoc
+    id={1}
+    key="1"
+    userId={0}
+    variant="card"
+  />
+  <hoc
+    id={2}
+    key="2"
+    userId={0}
+    variant="card"
+  />
+  <hoc
+    id={3}
+    key="3"
+    userId={0}
+    variant="card"
+  />
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingDialog /> Smoke tests should render properly 1`] = `
+<WithStyles(Component)>
+  <WithStyles(UGDialogContent)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        Children
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(UGCircularProgress)
+          size={25}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(UGDialogContent)>
+</WithStyles(Component)>
+`;

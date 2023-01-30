@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup /> should render a <RadioGroup> tag 1`] = `
+<ForwardRef(RadioGroup)>
+  <h1>
+    Test
+  </h1>
+</ForwardRef(RadioGroup)>
+`;

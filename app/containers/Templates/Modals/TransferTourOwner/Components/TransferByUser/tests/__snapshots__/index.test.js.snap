@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferByUser /> handleEditableClick() should render correctly 1`] = `<div />`;
+
+exports[`<TransferByUser /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      direction="column"
+      spacing={0}
+    >
+      <InviteeByUserNodeWrapper
+        handleEditableClick={[Function]}
+        id={999}
+      />
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <H5>
+          Please select a tour member to transfer this tour
+        </H5>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<TransferByUser /> render() should render correctly 2`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        key="2"
+      >
+        <WithStyles(Editable)
+          onClick={[Function]}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Invitee)))
+            accepted={true}
+            userId={2}
+          />
+        </WithStyles(Editable)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <H5>
+          Please select a tour member to transfer this tour
+        </H5>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;
+
+exports[`<TransferByUser /> render() should render correctly for placeholder 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <H3
+        noMargin={true}
+      >
+        No Members yet
+      </H3>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <H5
+        noMargin={true}
+      >
+        Please choose another option
+      </H5>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateTab /> componentWillReceiveProps should call resaga analyse 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "batchGetTemplateTabDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTemplateTabDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<TemplateTab /> render() should render correctly 1`] = `<div />`;

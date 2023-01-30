@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChangeDueDate /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ChangeDueDatePopper)))
+    body={[MockFunction]}
+    heading="renderHeader"
+  />
+</div>
+`;
+
+exports[`<ChangeDueDate /> renderBody() should renderBody 1`] = `
+<div>
+  <WithStyles(GridItem)
+    onClick={[Function]}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(ModeInput)))
+      anchorDate=""
+      id={0}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ChangeDueDate /> renderHeader() should renderHeader 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    Change due date
+    <WithStyles(InlineButton)
+      onClick={[Function]}
+    >
+      <WithStyles(Icon)
+        icon="lnr-question-circle"
+        size="xsmall"
+      />
+    </WithStyles(InlineButton)>
+  </WithStyles(GridItem)>
+</div>
+`;

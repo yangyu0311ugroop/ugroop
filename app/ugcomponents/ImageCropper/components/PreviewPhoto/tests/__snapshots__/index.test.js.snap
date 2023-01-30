@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreviewPhoto /> onImageClicked() should be called 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+    height={1}
+    rotate={0}
+    width={1}
+    x={1}
+    y={1}
+  />
+</div>
+`;
+
+exports[`<PreviewPhoto /> renderPhoto should be called 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(TemplateManagementImage)))
+    rotate={0}
+  />
+</div>
+`;

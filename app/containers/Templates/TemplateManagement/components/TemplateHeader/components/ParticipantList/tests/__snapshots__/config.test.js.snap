@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Templates/TemplateHeader/ParticipantList/config CONFIG_2 #value peopleTabIndex cacheKey should match snapshot for cacheKey 1`] = `"node.1.peopleTabIdIndex"`;
+
+exports[`containers/Templates/TemplateHeader/ParticipantList/config CONFIG_2 #value peopleTabIndex keyPath should match snapshot for keypath 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "visibleChildren",
+]
+`;

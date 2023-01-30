@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationViewCard /> shall match with snapshot 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Header)))
+      onClose={[Function]}
+    />
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div>
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          onClose={[Function]}
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NotificationViewCard /> with fix height shall match with snapshot 1`] = `
+<div
+  className=""
+>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Header)))
+      onClose={[Function]}
+    />
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div>
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          onClose={[Function]}
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

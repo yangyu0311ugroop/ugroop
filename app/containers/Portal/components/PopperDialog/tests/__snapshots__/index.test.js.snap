@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopperDialog /> render should match snapshot 1`] = `
+<div>
+  <WithStyles(Component)
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "direction": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    TransitionProps={
+      Object {
+        "direction": "up",
+      }
+    }
+    fullScreen={false}
+    fullWidth={true}
+    hideSubmitButton={true}
+    onClose={[Function]}
+    open={true}
+    overrideClasses={
+      Object {
+        "scrollPaper": undefined,
+      }
+    }
+    popper={true}
+  >
+    <span />
+  </WithStyles(Component)>
+</div>
+`;

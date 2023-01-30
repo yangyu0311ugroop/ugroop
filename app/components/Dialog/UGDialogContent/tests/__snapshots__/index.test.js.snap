@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGDialogContent component should render something 1`] = `
+<WithStyles(ForwardRef(DialogContent))
+  classes={
+    Object {
+      "root": "UGDialogContent-root",
+    }
+  }
+/>
+`;
+
+exports[`UGDialogContent component should render something if noPaddingTop/Bottom 1`] = `
+<WithStyles(ForwardRef(DialogContent))
+  classes={
+    Object {
+      "root": "UGDialogContent-root UGDialogContent-noPaddingTop UGDialogContent-noPaddingBottom",
+    }
+  }
+/>
+`;

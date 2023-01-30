@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render an avatar with avatarUrl 1`] = `
+<div
+  className=""
+>
+  <Img
+    alt="profile-avatar"
+    className="Avatar-avatarImg"
+    src="/sample"
+  />
+</div>
+`;
+
+exports[`Avatar should render element with name 1`] = `
+<div
+  className="Avatar-root"
+>
+  <Img
+    alt="profile-avatar"
+    className="Avatar-avatarImg"
+    src="/sample"
+  />
+</div>
+`;

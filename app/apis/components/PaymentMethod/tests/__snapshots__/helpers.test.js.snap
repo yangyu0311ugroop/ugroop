@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CARD_API_HELPERS /> createCustomerCard dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "PaymentMethods",
+    "updatePaymentMethod",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "data": Object {},
+        "id": 99222,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<CARD_API_HELPERS /> normaliseUpdate dispatchTo still matches snapshot 1`] = `Array []`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventDuplicateConfirmation /> #render() still matches snapshot 1`] = `
+<DuplicateConfirmationDialog
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Copy Event"
+      id="app.Event.components.EventDuplicateConfirmation.title"
+    />
+  }
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Are you sure you want to copy {typeName} Event to selected date/s?"
+      id="app.Event.components.EventDuplicateConfirmation.text"
+      values={
+        Object {
+          "typeName": "Coming Soon",
+        }
+      }
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="You are about to copy an event"
+      id="app.Event.components.EventDuplicateConfirmation.headlineWithoutEventName"
+    />
+  }
+  onCancel={[MockFunction]}
+  onConfirm={[MockFunction]}
+  open={false}
+/>
+`;
+
+exports[`<EventDuplicateConfirmation /> #render() still matches snapshot with name 1`] = `
+<DuplicateConfirmationDialog
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Copy Event"
+      id="app.Event.components.EventDuplicateConfirmation.title"
+    />
+  }
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Are you sure you want to copy {typeName} Event to selected date/s?"
+      id="app.Event.components.EventDuplicateConfirmation.text"
+      values={
+        Object {
+          "typeName": "Coming Soon",
+        }
+      }
+    />
+  }
+  headlineTitle={
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <FormattedMessage
+          defaultMessage="You are about to copy:"
+          id="app.Event.components.EventDuplicateConfirmation.headlineWithEventName"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        Some name
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  }
+  onCancel={[MockFunction]}
+  onConfirm={[MockFunction]}
+  open={false}
+/>
+`;

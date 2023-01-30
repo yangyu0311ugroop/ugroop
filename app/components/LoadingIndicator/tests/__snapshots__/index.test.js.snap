@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingIndicator /> should match the snapshot 1`] = `
+<div
+  className="Wrapper-zgg2ra-0 ifpYtn"
+  size={40}
+>
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 jJwWdz"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 bgqecR"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 gAtLAa"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 ktUtAR"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 jxMlFp"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 kwywoQ"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 kZKJmO"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 jPtRDH"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 dipjAs"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 gbLaeS"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 kqCtxx"
+  />
+  <div
+    className="Circle__CirclePrimitive-sc-1e8tz3e-0 djLMAm"
+  />
+</div>
+`;

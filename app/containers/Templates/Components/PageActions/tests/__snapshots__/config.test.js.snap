@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageActions/config.js value folderChildren should return a particular propType shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "calculated",
+  "sortedIds",
+]
+`;
+
+exports[`PageActions/config.js value parentNodeId should return a particular propType shape 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  undefined,
+  "parentNodeId",
+]
+`;

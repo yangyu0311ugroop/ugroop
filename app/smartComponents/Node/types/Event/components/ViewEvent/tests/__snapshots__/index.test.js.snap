@@ -1,0 +1,2007 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewEvent /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={0}
+  >
+    renderFlightBookings
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> render() should return smDown 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderFlightBookings
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> render() should return tooltip 1`] = `
+<div>
+  renderEvent
+</div>
+`;
+
+exports[`<ViewEvent /> renderActions() should renderActions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={1}
+  >
+    renderLocationAction
+    renderPhoneAction
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderActions() should return null 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={1}
+  >
+    renderLocationAction
+    renderPhoneAction
+    renderEditAction
+    renderMoreAction
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderAmounts() should renderAmounts 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderAmounts() should renderAmounts good 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderBatchCreateSelect() should renderBatchCreateSelect 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          nowrap={false}
+        >
+          3
+           events will be created on the days below.
+          <br />
+          Select a day to preview how it will appear.
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+          id={
+            Array [
+              11,
+              12,
+              13,
+            ]
+          }
+        >
+          <Component />
+        </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <WithStyles(Hr)
+    half={true}
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderCancelBadge() should renderCancelBadge 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <span>
+      CANCELLED
+    </span>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderCancelEvent() should renderCancelEvent !isCancelled 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+          >
+            Cancel event
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderCancelEvent() should renderCancelEvent isCancelled 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-undo2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+          >
+            Re-activate event
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderCloseButton() should renderCloseButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="gray"
+      onClick={true}
+    >
+      <WithStyles(Icon)
+        icon="lnr-cross"
+        size="small"
+      />
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDayDate() should renderDayDate 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="Day 12"
+  >
+    <WithStyles(JButton)
+      disabled={false}
+      onClick={[Function]}
+    >
+      <WithStyles(JTextClass)
+        blue={true}
+        bold={true}
+        dark={false}
+      >
+        Day 12
+      </WithStyles(JTextClass)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDayDates() should renderDayDates 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    renderDayDate
+    renderDayDate
+    renderDayDate
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDeleteEvent() should renderDeleteEvent 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="danger"
+            icon="lnr-trash2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            danger={true}
+          >
+            Delete event
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDescription() should renderDescription 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      dark={true}
+    >
+      <div>
+        <withRouter(WithStyles(SimpleRTE))
+          isMinHeightCollapse={true}
+          readOnly={true}
+          value="123"
+        />
+      </div>
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDetails() should renderDetails 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          bold={true}
+        >
+          Details
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      renderNumberAndURL
+      renderDescription
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDurationRow() should renderDurationRow 1`] = `
+<div>
+  <WithStyles(Hr)
+    half={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      dark={true}
+    >
+      Duration:
+      1 day
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEditAction() should renderEditAction 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="gray"
+      onClick={[Function]}
+      title="Make some changes or add more content to this event"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-pencil2"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+          >
+            Edit
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        black={true}
+        bold={true}
+      >
+        Event Preview
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        renderEventHeader
+        <WithStyles(GridItem)>
+          <div
+            className=""
+          >
+            renderEventContent
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent tooltip 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderMap
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  direction="column"
+                  spacing={1}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      direction="column"
+                      spacing={0}
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(JTextClass)
+                          gray={true}
+                          nowrap={false}
+                        >
+                          3
+                           events will be created on the days below.
+                          <br />
+                          Select a day to preview how it will appear.
+                        </WithStyles(JTextClass)>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                          id={
+                            Array [
+                              11,
+                              12,
+                              13,
+                            ]
+                          }
+                        >
+                          <Component />
+                        </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(Hr)
+                    half={true}
+                  />
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)
+                        xs={true}
+                      >
+                        <WithStyles(GridContainer)
+                          alignItems="center"
+                          spacing={2}
+                          wrap="nowrap"
+                        >
+                          <WithStyles(GridItem)
+                            xs={true}
+                          >
+                            <WithStyles(GridContainer)
+                              direction="column"
+                              spacing={0}
+                            >
+                              <WithStyles(GridItem)>
+                                <WithStyles(JTextClass)
+                                  danger={true}
+                                  nowrap={false}
+                                  sm={true}
+                                  uppercase={true}
+                                >
+                                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                                    id={NaN}
+                                  />
+                                  , startTime
+                                   – 
+                                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                                    id={NaN}
+                                    offset="P3D"
+                                  />
+                                  ,
+                                   endTime
+                                </WithStyles(JTextClass)>
+                              </WithStyles(GridItem)>
+                              <WithStyles(GridItem)>
+                                <Element
+                                  name="eventTop"
+                                >
+                                  <WithStyles(GridContainer)
+                                    alignItems="center"
+                                  >
+                                    <WithStyles(GridItem)>
+                                      <span>
+                                        CANCELLED
+                                      </span>
+                                    </WithStyles(GridItem)>
+                                    <WithStyles(GridItem)>
+                                      <WithStyles(JTextClass)
+                                        bold="Departure to Arrival"
+                                        dark="Departure to Arrival"
+                                        gray={false}
+                                        lg={true}
+                                        nowrap={false}
+                                      >
+                                        Departure to Arrival
+                                      </WithStyles(JTextClass)>
+                                    </WithStyles(GridItem)>
+                                  </WithStyles(GridContainer)>
+                                </Element>
+                              </WithStyles(GridItem)>
+                              <WithStyles(GridItem)>
+                                <WithStyles(JTextClass)
+                                  gray={true}
+                                  nowrap={false}
+                                >
+                                  ??? to ???
+                                </WithStyles(JTextClass)>
+                              </WithStyles(GridItem)>
+                            </WithStyles(GridContainer)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(Hr) />
+              <WithStyles(GridItem)>
+                <div
+                  className=""
+                >
+                  <WithStyles(GridContainer)
+                    alignItems="baseline"
+                    spacing={2}
+                    wrap="nowrap"
+                  >
+                    <WithStyles(GridItem)
+                      xs={true}
+                    >
+                      <WithStyles(GridContainer)
+                        direction="column"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            bold={true}
+                            dark={true}
+                            lg={true}
+                            nowrap={false}
+                          >
+                            This event has been cancelled.
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            gray={true}
+                          >
+                            Cancellation Date:
+                          </WithStyles(JTextClass)>
+                           
+                          <WithStyles(JTextClass)
+                            dark={true}
+                          >
+                            23/06/2021
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            gray={true}
+                          >
+                            Cancellation Notes:
+                          </WithStyles(JTextClass)>
+                           
+                          <WithStyles(JTextClass)
+                            dark={true}
+                            nowrap={false}
+                          >
+                            cancellationCancellationNotes
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventContent() should renderEventContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={2}
+  >
+    <WithStyles(GridItem)
+      sm={7}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        renderEventSchedule
+        renderDetails
+        <WithStyles(Connect(WithSimplifyResaga(Component)))
+          preview={false}
+        />
+        <WithStyles(Connect(WithSimplifyResaga(FlightDetailsCard))) />
+        <WithStyles(Connect(WithSimplifyResaga(AttachmentsCard)))
+          canCreate={true}
+          eventNodeId={123}
+          preview={false}
+          viewing={true}
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      sm={5}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        renderMap
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Ratings)))))))
+            component={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Naked": [Function],
+                "displayName": "WithStyles(GridItem)",
+                "options": Object {
+                  "defaultTheme": Object {
+                    "breakpoints": Object {
+                      "between": [Function],
+                      "down": [Function],
+                      "keys": Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ],
+                      "only": [Function],
+                      "up": [Function],
+                      "values": Object {
+                        "lg": 1280,
+                        "md": 960,
+                        "sm": 600,
+                        "xl": 1920,
+                        "xs": 0,
+                      },
+                      "width": [Function],
+                    },
+                    "direction": "ltr",
+                    "mixins": Object {
+                      "gutters": [Function],
+                      "toolbar": Object {
+                        "@media (min-width:0px) and (orientation: landscape)": Object {
+                          "minHeight": 48,
+                        },
+                        "@media (min-width:600px)": Object {
+                          "minHeight": 64,
+                        },
+                        "minHeight": 56,
+                      },
+                    },
+                    "overrides": Object {},
+                    "palette": Object {
+                      "action": Object {
+                        "activatedOpacity": 0.12,
+                        "active": "rgba(0, 0, 0, 0.54)",
+                        "disabled": "rgba(0, 0, 0, 0.26)",
+                        "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                        "disabledOpacity": 0.38,
+                        "focus": "rgba(0, 0, 0, 0.12)",
+                        "focusOpacity": 0.12,
+                        "hover": "rgba(0, 0, 0, 0.04)",
+                        "hoverOpacity": 0.04,
+                        "selected": "rgba(0, 0, 0, 0.08)",
+                        "selectedOpacity": 0.08,
+                      },
+                      "augmentColor": [Function],
+                      "background": Object {
+                        "default": "#fafafa",
+                        "paper": "#fff",
+                      },
+                      "common": Object {
+                        "black": "#000",
+                        "white": "#fff",
+                      },
+                      "contrastThreshold": 3,
+                      "divider": "rgba(0, 0, 0, 0.12)",
+                      "error": Object {
+                        "contrastText": "#fff",
+                        "dark": "#d32f2f",
+                        "light": "#e57373",
+                        "main": "#f44336",
+                      },
+                      "getContrastText": [Function],
+                      "grey": Object {
+                        "100": "#f5f5f5",
+                        "200": "#eeeeee",
+                        "300": "#e0e0e0",
+                        "400": "#bdbdbd",
+                        "50": "#fafafa",
+                        "500": "#9e9e9e",
+                        "600": "#757575",
+                        "700": "#616161",
+                        "800": "#424242",
+                        "900": "#212121",
+                        "A100": "#d5d5d5",
+                        "A200": "#aaaaaa",
+                        "A400": "#303030",
+                        "A700": "#616161",
+                      },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
+                      "primary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#303f9f",
+                        "light": "#7986cb",
+                        "main": "#3f51b5",
+                      },
+                      "secondary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#c51162",
+                        "light": "#ff4081",
+                        "main": "#f50057",
+                      },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
+                      "text": Object {
+                        "disabled": "rgba(0, 0, 0, 0.38)",
+                        "hint": "rgba(0, 0, 0, 0.38)",
+                        "primary": "rgba(0, 0, 0, 0.87)",
+                        "secondary": "rgba(0, 0, 0, 0.54)",
+                      },
+                      "tonalOffset": 0.2,
+                      "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#f57c00",
+                        "light": "#ffb74d",
+                        "main": "#ff9800",
+                      },
+                    },
+                    "props": Object {},
+                    "shadows": Array [
+                      "none",
+                      "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                      "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                      "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                      "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                      "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                      "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                      "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                      "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                      "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                      "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                      "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                      "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                      "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                      "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                      "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                      "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                      "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                      "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                      "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                      "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                    ],
+                    "shape": Object {
+                      "borderRadius": 4,
+                    },
+                    "spacing": [Function],
+                    "transitions": Object {
+                      "create": [Function],
+                      "duration": Object {
+                        "complex": 375,
+                        "enteringScreen": 225,
+                        "leavingScreen": 195,
+                        "short": 250,
+                        "shorter": 200,
+                        "shortest": 150,
+                        "standard": 300,
+                      },
+                      "easing": Object {
+                        "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                        "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                        "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                        "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                      },
+                      "getAutoHeightDuration": [Function],
+                    },
+                    "typography": Object {
+                      "body1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.5,
+                      },
+                      "body2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.01071em",
+                        "lineHeight": 1.43,
+                      },
+                      "button": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.02857em",
+                        "lineHeight": 1.75,
+                        "textTransform": "uppercase",
+                      },
+                      "caption": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.03333em",
+                        "lineHeight": 1.66,
+                      },
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": 14,
+                      "fontWeightBold": 700,
+                      "fontWeightLight": 300,
+                      "fontWeightMedium": 500,
+                      "fontWeightRegular": 400,
+                      "h1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "6rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.01562em",
+                        "lineHeight": 1.167,
+                      },
+                      "h2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3.75rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.00833em",
+                        "lineHeight": 1.2,
+                      },
+                      "h3": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.167,
+                      },
+                      "h4": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "2.125rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00735em",
+                        "lineHeight": 1.235,
+                      },
+                      "h5": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.5rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.334,
+                      },
+                      "h6": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.25rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.0075em",
+                        "lineHeight": 1.6,
+                      },
+                      "htmlFontSize": 16,
+                      "overline": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.08333em",
+                        "lineHeight": 2.66,
+                        "textTransform": "uppercase",
+                      },
+                      "pxToRem": [Function],
+                      "round": [Function],
+                      "subtitle1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.75,
+                      },
+                      "subtitle2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.00714em",
+                        "lineHeight": 1.57,
+                      },
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "drawer": 1200,
+                      "mobileStepper": 1000,
+                      "modal": 1300,
+                      "snackbar": 1400,
+                      "speedDial": 1050,
+                      "tooltip": 1500,
+                    },
+                  },
+                  "name": "GridItem",
+                },
+                "propTypes": Object {
+                  "classes": [Function],
+                  "innerRef": [Function],
+                },
+                "render": [Function],
+                "useStyles": [Function],
+              }
+            }
+            id={123}
+            simplify={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventContent() should return preview 1`] = `
+<div>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          bold={true}
+          gray={true}
+          xl={true}
+        >
+          Your Event Preview
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+          lg={true}
+        >
+          As you create your event, you can preview how it will appear.
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventHeader() should renderEventHeader 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={1}
+        >
+          renderBatchCreateSelect
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={2}
+                  wrap="nowrap"
+                >
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                    eventHeader={true}
+                    id={NaN}
+                  />
+                  <WithStyles(GridItem)
+                    xs={true}
+                  >
+                    <WithStyles(GridContainer)
+                      direction="column"
+                      spacing={0}
+                    >
+                      <WithStyles(GridItem)>
+                        renderTimeHeader
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <Element
+                          name="eventTop"
+                        >
+                          <WithStyles(GridContainer)
+                            alignItems="center"
+                          >
+                            <WithStyles(GridItem)>
+                              <span>
+                                CANCELLED
+                              </span>
+                            </WithStyles(GridItem)>
+                            <WithStyles(GridItem)>
+                              <WithStyles(JTextClass)
+                                bold="Departure to Arrival"
+                                dark="Departure to Arrival"
+                                gray={false}
+                                lg={true}
+                                nowrap={false}
+                              >
+                                Departure to Arrival
+                              </WithStyles(JTextClass)>
+                            </WithStyles(GridItem)>
+                          </WithStyles(GridContainer)>
+                        </Element>
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(JTextClass)
+                          gray={true}
+                          nowrap={false}
+                        >
+                          ??? to ???
+                        </WithStyles(JTextClass)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              renderCloseButton
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      renderTypeSubtype
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventSchedule() should renderEventSchedule 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(JTextClass)
+              black={true}
+              bold={true}
+            >
+              Schedule
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <div />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                      eventSchedule={true}
+                      id={NaN}
+                      showSetDate={true}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  className=""
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      Departing
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={0}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="column"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              dark={true}
+                              ellipsis={true}
+                              lg={true}
+                            >
+                              locationStart
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      danger={true}
+                    >
+                      11:00
+                    </WithStyles(JTextClass)>
+                     
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      renderZoneFromId
+                    </WithStyles(JTextClass)>
+                     
+                    renderHomeTime
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <div />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                      eventSchedule={true}
+                      id={NaN}
+                      offset="P3D"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  className=""
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      Arriving
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={0}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="column"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              dark={true}
+                              ellipsis={true}
+                              lg={true}
+                            >
+                              locationEnd
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      danger={true}
+                    >
+                      12:00
+                    </WithStyles(JTextClass)>
+                     
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      renderZoneFromId
+                    </WithStyles(JTextClass)>
+                     
+                    renderHomeTime
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      duration
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventSchedule() should renderEventSchedule noEndTime 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(JTextClass)
+              black={true}
+              bold={true}
+            >
+              Schedule
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <div />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                      eventSchedule={true}
+                      id={NaN}
+                      showSetDate={true}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  className=""
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      Departing
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={0}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="column"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              dark={true}
+                              ellipsis={true}
+                              lg={true}
+                            >
+                              locationStart
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      danger={true}
+                    >
+                      11:00
+                    </WithStyles(JTextClass)>
+                     
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      renderZoneFromId
+                    </WithStyles(JTextClass)>
+                     
+                    renderHomeTime
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      duration
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventSchedule() should return null 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <WithStyles(JTextClass)
+              black={true}
+              bold={true}
+            >
+              Schedule
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <div />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                      eventSchedule={true}
+                      id={NaN}
+                      showSetDate={true}
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  className=""
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      Departing
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={0}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="column"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              dark={true}
+                              ellipsis={true}
+                              lg={true}
+                            >
+                              locationStart
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={0}
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)>
+                    <div />
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                      eventSchedule={true}
+                      id={NaN}
+                      offset="P3D"
+                    />
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  className=""
+                  direction="column"
+                  spacing={0}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      sm={true}
+                    >
+                      Arriving
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={0}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(GridContainer)
+                          direction="column"
+                          spacing={0}
+                        >
+                          <WithStyles(GridItem)>
+                            <WithStyles(JTextClass)
+                              dark={true}
+                              ellipsis={true}
+                              lg={true}
+                            >
+                              locationEnd
+                            </WithStyles(JTextClass)>
+                          </WithStyles(GridItem)>
+                        </WithStyles(GridContainer)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderFlightBookings() should renderFlightBookings 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(CanEditFlightBooking)))
+      action="view"
+      formData={
+        Object {
+          "bookingAmounts": undefined,
+          "bookingNumber": undefined,
+          "name": undefined,
+          "passengerCount": undefined,
+          "supplier": undefined,
+        }
+      }
+      id={123}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderMap() should renderMap 1`] = `
+<div>
+  <MapCard
+    renderEmpty={[Function]}
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderMapEmpty() should renderMapEmpty 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Location
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderMapEmpty() should return null 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Empty)))
+    title="Location"
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderMoreAction() should renderMoreAction 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      placement="bottom-end"
+      quarterPadding={true}
+      renderButton={[Function]}
+    >
+      <Component />
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderMoreButton() should renderMoreButton 1`] = `
+<div>
+  <WithStyles(JButton)
+    bg="gray"
+    title="More options, less often used"
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="small"
+    />
+  </WithStyles(JButton)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderMoreMenu() should renderMoreMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    renderDeleteEvent
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderNumber() should renderNumber 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="gray"
+          icon="lnr-telephone"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          black={true}
+          ellipsis={true}
+        >
+          123
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderNumberAndURL() should renderNumberAndURL 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      renderNumber
+      renderURL
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderPhoneAction() should renderPhoneAction 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="gray"
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-telephone"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            black={true}
+          >
+            Call
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderPhoneAction() should renderPhoneAction tooltip 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(JTextClass)
+      component="a"
+      href="tel:value"
+      noUnderlined={true}
+      nowrap={false}
+      target="_blank"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-telephone"
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            nowrap={false}
+          >
+            value
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderScheduleButton() should renderScheduleButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    dense={true}
+    noPadding={true}
+    size="extraSmall"
+  >
+    <WithStyles(Icon)
+      icon="lnr-ellipsis"
+      size="small"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderScheduleMenu() should renderScheduleMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Move to unplanned events
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderSchedulePopper() should renderSchedulePopper 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-end"
+    quarterPadding={true}
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ViewEvent /> renderSubDetailType() should renderSubDetailType isBus 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Type
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          nowrap={false}
+        >
+          Charter
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderSubDetailType() should renderSubDetailType isCoach 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Type
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          nowrap={false}
+        >
+          Escorted
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTimeHeader() should renderTimeHeader !isAnchored !tempStartTime days 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    danger={true}
+    nowrap={false}
+    sm={true}
+    uppercase={true}
+  >
+    4
+     
+    day
+    s
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTimeHeader() should renderTimeHeader !isAnchored tempStartTime 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    danger={true}
+    nowrap={false}
+    sm={true}
+    uppercase={true}
+  >
+    11:00
+     – 
+    13:00
+     +3 days
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTimeHeader() should renderTimeHeader 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    danger={true}
+    nowrap={false}
+    sm={true}
+    uppercase={true}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+      id={NaN}
+    />
+    , startTime
+     – 
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+      id={NaN}
+      offset="P3D"
+    />
+    ,
+     endTime
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTimeHeader() should renderTimeHeader 2`] = `
+<div>
+  <WithStyles(JTextClass)
+    danger={true}
+    nowrap={false}
+    sm={true}
+    uppercase={true}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+      id={NaN}
+    />
+    , startTime
+     – 
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+      id={NaN}
+      offset="P3D"
+    />
+    ,
+     endTime
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTimeHeader() should renderTimeHeader isAnchored 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    danger={true}
+    nowrap={false}
+    sm={true}
+    uppercase={true}
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+      id={NaN}
+    />
+    , 11:00
+     – 
+     13:00
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTypeSubtype() should renderTypeSubtype 1`] = `
+<div>
+  <WithStyles(Hr)
+    half={true}
+  />
+  <WithStyles(GridItem)>
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          renderTypeSubTypeIcon
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          renderActions
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderTypeSubtype() should return isCancelled no data 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderTypeSubtype() should return isCancelled with data 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderURL() should renderURL 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={2}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="gray"
+          icon="lnr-link2"
+          size="small"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          component="a"
+          ellipsis={true}
+          href="123"
+          link={true}
+          target="_black"
+        >
+          123
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderUnit() should renderUnit 1`] = `
+<div>
+   5 days
+</div>
+`;
+
+exports[`<ViewEvent /> renderValue() should renderValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      black={true}
+      ellipsis={true}
+      gray={false}
+      italic={false}
+    >
+      1
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

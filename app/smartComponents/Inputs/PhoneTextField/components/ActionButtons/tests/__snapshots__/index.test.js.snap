@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButtons /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(CopyNumberButton)))
+      color="gray"
+      size="extraSmall"
+      value=""
+      variant="outline"
+    />
+    <WithStyles(Connect(WithSimplifyResaga(DialNumberButton)))
+      color="gray"
+      size="extraSmall"
+      value=""
+      variant="outline"
+    />
+  </div>
+</div>
+`;

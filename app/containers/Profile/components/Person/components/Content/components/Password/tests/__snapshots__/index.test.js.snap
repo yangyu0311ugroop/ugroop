@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Password /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Change Password",
+            "name": "description",
+          },
+        ]
+      }
+      title="Change Password"
+    />
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <H3
+        noMargin={true}
+      >
+        Change Password
+      </H3>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(ChangePasswordForm))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

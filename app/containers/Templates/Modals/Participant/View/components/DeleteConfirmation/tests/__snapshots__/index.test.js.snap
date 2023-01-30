@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantDeleteConfirmation /> #render() still matches snapshot 1`] = `
+<DeleteConfirmationDialog
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Go ahead and remove"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.confirmButton"
+    />
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Remove {personType}"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.title"
+      values={
+        Object {
+          "personType": null,
+        }
+      }
+    />
+  }
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Are you sure you want to remove this participant?"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.text"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="You are about to remove {name}"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.headlineWithName"
+      values={
+        Object {
+          "name": <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            personType={null}
+            variant="textOnly"
+          />,
+        }
+      }
+    />
+  }
+/>
+`;
+
+exports[`<ParticipantDeleteConfirmation /> #render() still matches snapshot if props.lastName 1`] = `
+<DeleteConfirmationDialog
+  confirmButton={
+    <FormattedMessage
+      defaultMessage="Go ahead and remove"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.confirmButton"
+    />
+  }
+  dialogTitle={
+    <FormattedMessage
+      defaultMessage="Remove {personType}"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.title"
+      values={
+        Object {
+          "personType": null,
+        }
+      }
+    />
+  }
+  headlineText={
+    <FormattedMessage
+      defaultMessage="Are you sure you want to remove this participant?"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.text"
+    />
+  }
+  headlineTitle={
+    <FormattedMessage
+      defaultMessage="You are about to remove {name}"
+      id="app.containers.Tempaltes.Modals.Participant.View.DeleteConfirmation.headlineWithName"
+      values={
+        Object {
+          "name": <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+            lastName="lastName"
+            personType={null}
+            variant="textOnly"
+          />,
+        }
+      }
+    />
+  }
+  lastName="lastName"
+/>
+`;

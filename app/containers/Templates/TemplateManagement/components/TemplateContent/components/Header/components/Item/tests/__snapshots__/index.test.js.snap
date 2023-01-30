@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> render() should renderContent 1`] = `
+<div>
+  <div>
+    <ResizeDetector
+      handleHeight={false}
+      handleWidth={true}
+      nodeType="div"
+      onResize={[Function]}
+      querySelector={null}
+      refreshRate={1000}
+      skipOnMount={false}
+      targetDomEl={null}
+    />
+    renderContent
+  </div>
+</div>
+`;
+
+exports[`<Item /> render() should renderTab 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))
+    variant="tab"
+  />
+</div>
+`;
+
+exports[`<Item /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem))))) />
+</div>
+`;
+
+exports[`<Item /> renderMenuItem() should renderMenuItem 1`] = `
+<div>
+  <WithStyles(MenuItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(TabItem)))))
+      dense={true}
+      first={true}
+      hover={false}
+    />
+  </WithStyles(MenuItem)>
+</div>
+`;

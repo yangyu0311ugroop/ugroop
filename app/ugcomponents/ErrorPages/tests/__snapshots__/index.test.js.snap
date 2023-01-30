@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorPages /> should render error 404 1`] = `
+<div>
+  <div>
+    <WithStyles(H5)>
+      <FormattedMessage />
+    </WithStyles(H5)>
+    <WithStyles(H1)>
+      404
+    </WithStyles(H1)>
+    <WithStyles(H4)>
+      <FormattedMessage />
+    </WithStyles(H4)>
+    <withRouter(UGLink)
+      to="/"
+    >
+      <WithStyles(Button)
+        color="green"
+      >
+        <FormattedMessage />
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+  </div>
+</div>
+`;
+
+exports[`<ErrorPages /> should render something 1`] = `
+<div>
+  <div>
+    <WithStyles(H5)>
+      <FormattedMessage
+        defaultMessage="OOPS! ACCESS DENIED"
+        id="app.ugcomponents.ErrorPages.403Title"
+      />
+    </WithStyles(H5)>
+    <WithStyles(H1)>
+      403
+    </WithStyles(H1)>
+    <WithStyles(H4)>
+      <FormattedMessage
+        defaultMessage="The page or resource you were trying to reach is absolutely forbidden for some reason."
+        id="app.ugcomponents.ErrorPages.403Message"
+      />
+    </WithStyles(H4)>
+    <withRouter(UGLink)
+      onClick={[Function]}
+      to="#"
+    >
+      <WithStyles(Button)
+        color="green"
+      >
+        <FormattedMessage
+          defaultMessage="Go Back"
+          id="app.ugcomponents.ErrorPages.403Button"
+        />
+      </WithStyles(Button)>
+    </withRouter(UGLink)>
+  </div>
+</div>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteByEmail/utils.js makeInvitee() should return invitation info if invitation exists 1`] = `
+Object {
+  "accepted": false,
+  "email": "some people",
+  "pending": true,
+  "role": "some role",
+}
+`;
+
+exports[`InviteByEmail/utils.js makeInvitee() should return invitation info if invitation exists 2`] = `
+Object {
+  "accepted": true,
+  "email": "some people",
+  "pending": false,
+  "role": "some role",
+}
+`;
+
+exports[`InviteByEmail/utils.js makeInvitee() should return only basic info with empty payload 1`] = `
+Object {
+  "email": "some people",
+}
+`;
+
+exports[`InviteByEmail/utils.js makeInvitee() should return organisation info if organisation exists 1`] = `
+Object {
+  "email": "some people",
+  "theirOrganisationName": "some org name",
+}
+`;
+
+exports[`InviteByEmail/utils.js makePayload() should NOT include pm if empty 1`] = `
+Object {
+  "id": 123,
+  "payload": Object {
+    "content": "",
+    "inviteToOrganisation": true,
+    "role": "tour_organizer",
+    "roleName": "Organiser",
+    "shareTo": "someone",
+  },
+  "shareToUserId": 5,
+}
+`;
+
+exports[`InviteByEmail/utils.js makePayload() should NOT include pm if empty 2`] = `
+Object {
+  "id": 123,
+  "payload": Object {
+    "content": "",
+    "inviteToOrganisation": true,
+    "role": "tour_organizer",
+    "roleName": "Organiser",
+    "shareTo": "someone",
+  },
+  "shareToUserId": 5,
+}
+`;
+
+exports[`InviteByEmail/utils.js makePayload() should include pm if not empty 1`] = `
+Object {
+  "id": 123,
+  "payload": Object {
+    "content": "some valid personal message",
+    "inviteToOrganisation": true,
+    "role": "tour_organizer",
+    "roleName": "Organiser",
+    "shareTo": "someone",
+  },
+  "shareToUserId": 5,
+}
+`;

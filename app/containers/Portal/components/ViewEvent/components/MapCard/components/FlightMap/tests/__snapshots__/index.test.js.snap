@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightMap /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      dense={true}
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(DirectionsMap)))
+          end={Object {}}
+          start={Object {}}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          padding={true}
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  A
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(JTextClass)
+                  black={true}
+                  lg={true}
+                  nowrap={false}
+                >
+                  1
+                    
+                  <WithStyles(JTextClass)
+                    component="a"
+                    href="https://www.google.com/maps/search/?api=1&query=1"
+                    noUnderlined={true}
+                    target="_blank"
+                    title="View on Google Maps"
+                  >
+                    <WithStyles(Icon)
+                      icon="lnr-map2"
+                      paddingLeft={true}
+                      size="small"
+                    />
+                  </WithStyles(JTextClass)>
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+              sm={true}
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="nowrap"
+              >
+                <WithStyles(GridItem) />
+                <WithStyles(GridItem)>
+                  Approx 
+                  123
+                   km
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="baseline"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(JTextClass)
+                  gray={true}
+                >
+                  B
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <WithStyles(JTextClass)
+                  black={true}
+                  lg={true}
+                  nowrap={false}
+                >
+                  2
+                    
+                  <WithStyles(JTextClass)
+                    component="a"
+                    href="https://www.google.com/maps/search/?api=1&query=2"
+                    noUnderlined={true}
+                    target="_blank"
+                    title="View on Google Maps"
+                  >
+                    <WithStyles(Icon)
+                      icon="lnr-map2"
+                      paddingLeft={true}
+                      size="small"
+                    />
+                  </WithStyles(JTextClass)>
+                </WithStyles(JTextClass)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightMap /> render() should render mapOnly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(DirectionsMap)))
+      end={Object {}}
+      mapOnly={true}
+      start={Object {}}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<FlightMap /> render() should return null 1`] = `<div />`;

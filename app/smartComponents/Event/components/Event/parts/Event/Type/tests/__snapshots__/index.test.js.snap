@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Type /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderData={[Function]}
+  renderEditableHeading={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Type /> #renderData() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="data.type"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value="Activity"
+/>
+`;
+
+exports[`<Type /> #renderLabelValue() renders Component 1`] = `
+<WithStyles(GridItem)>
+  <H6
+    dense={true}
+    weight="bold"
+  >
+    Activity
+  </H6>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Type /> #renderType() renders Component 1`] = `
+<Component
+  component="span"
+  name="data.type"
+  value="Activity"
+  variant={null}
+/>
+`;
+
+exports[`<Type /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <span>
+    EVENT_HELPERS.getEventTypeConstants
+  </span>
+</div>
+`;

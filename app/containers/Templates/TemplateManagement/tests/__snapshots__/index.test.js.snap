@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Templates/TemplateManagement/tests/index.test.js fetchData()   should call resaga.dispatch 1`] = `Array []`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js fetchData()   should call resaga.dispatch with event Data 1`] = `Array []`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js fetchOrgInfo should dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updateNode",
+    Object {
+      "payload": Object {
+        "node": Object {
+          "customData": Object {
+            "organisationId": 999,
+          },
+          "type": "template",
+        },
+        "nodeId": 1,
+      },
+    },
+  ],
+  Array [
+    "Organisations",
+    "getOrgMembers",
+    Object {
+      "payload": Object {
+        "id": 999,
+      },
+    },
+  ],
+  Array [
+    "Organisations",
+    "getOrganisation",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 999,
+      },
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleFetchData() should handleFetchData 1`] = `<div />`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleFetchData() should handleFetchData if !this.debouncedFetchData 1`] = `<div />`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate shall setValue if link type is reaction 1`] = `
+Array [
+  Array [
+    Object {
+      "linkRefresh": "now",
+      "links": "upsertObject",
+      "nodes": [Function],
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate should call InternalWebhook.createEvent 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Templates",
+      "getTemplateDetail",
+      Object {
+        "onSuccess": [Function],
+        "payload": Object {
+          "id": 1,
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate should call Template.createEvent 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Templates",
+      "getTemplateDetail",
+      Object {
+        "onSuccess": [Function],
+        "payload": Object {
+          "id": 1,
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate should call getParticipants and template detail if method is Pub.pubCreateInterest 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 1,
+      "ids": Array [
+        1,
+        2,
+      ],
+    },
+    Object {
+      "classes": Object {},
+      "error": "",
+      "firebase": Object {
+        "subscribeTourLiveUpdate": [MockFunction],
+        "unsubscribeTourLiveUpdate": [MockFunction],
+      },
+      "history": Object {
+        "push": [MockFunction],
+      },
+      "id": 1,
+      "location": Object {
+        "pathname": "pathname",
+        "query": "query",
+      },
+      "match": Object {
+        "params": Object {
+          "id": 2,
+        },
+      },
+      "orgId": null,
+      "params": Object {
+        "id": 1,
+        "userId": 1,
+      },
+      "resaga": Object {
+        "analyse": [MockFunction],
+        "dispatch": [MockFunction],
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Templates",
+              "getTemplateDetail",
+              Object {
+                "payload": Object {
+                  "id": 1,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "getValue": [MockFunction],
+        "isLoading": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "transferDialog": false,
+      "userId": 0,
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate should call getParticipants if there is participant_linkee in userNodes 1`] = `
+Array [
+  Array [
+    Object {
+      "id": 1,
+      "ids": Array [
+        1,
+      ],
+    },
+    Object {
+      "classes": Object {},
+      "error": "",
+      "firebase": Object {
+        "subscribeTourLiveUpdate": [MockFunction],
+        "unsubscribeTourLiveUpdate": [MockFunction],
+      },
+      "history": Object {
+        "push": [MockFunction],
+      },
+      "id": 1,
+      "location": Object {
+        "pathname": "pathname",
+        "query": "query",
+      },
+      "match": Object {
+        "params": Object {
+          "id": 2,
+        },
+      },
+      "orgId": null,
+      "params": Object {
+        "id": 1,
+        "userId": 1,
+      },
+      "resaga": Object {
+        "analyse": [MockFunction],
+        "dispatch": [MockFunction],
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Templates",
+              "findPeople",
+              Object {
+                "onSuccess": [MockFunction],
+                "payload": Object {
+                  "id": 1,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "getValue": [MockFunction],
+        "isLoading": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "transferDialog": false,
+      "userId": 0,
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js handleLiveUpdate should not call setValue if linkType is not reaction 1`] = `
+Array [
+  Array [
+    Object {
+      "links": [Function],
+      "nodes": [Function],
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js onCloseTransferModal should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "transferDialog": false,
+    },
+  ],
+]
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js renderChatComponent should match snapshot 1`] = `
+<div>
+  <WithStyles(Container)
+    isPublic={false}
+    padding={false}
+  >
+    <ConnectFunction
+      height={-1}
+      members={
+        Array [
+          "undefined_undefined",
+        ]
+      }
+      sort={
+        Object {
+          "id": 1,
+        }
+      }
+      templateId={999}
+    />
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js renderSnackBarIcon shall match snapshot 1`] = `undefined`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js renderSnackContent shall match snapshot 1`] = `undefined`;
+
+exports[`Templates/TemplateManagement/tests/index.test.js updateRecentTours() should updateRecentTours() 1`] = `
+Array [
+  Array [
+    Object {
+      "recentActivities": "upsertObject",
+      "recentActivityIds": [Function],
+    },
+  ],
+]
+`;

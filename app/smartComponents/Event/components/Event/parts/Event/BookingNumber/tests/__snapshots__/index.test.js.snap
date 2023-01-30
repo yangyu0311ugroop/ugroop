@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingNumber /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "classes": Object {},
+      "component": "span",
+      "dataId": null,
+      "readOnly": false,
+      "value": "",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<BookingNumber /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabelValue={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<BookingNumber /> #renderEditable() still matches snapshot 1`] = `undefined`;
+
+exports[`<BookingNumber /> #renderField() still matches snapshot 1`] = `undefined`;
+
+exports[`<BookingNumber /> renderLabelValue() should renderLabelValue 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="Booking No. "
+        id="smartComponents.Event.BookingConfirmed.bookingLabel"
+      />
+      val
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="checkmark-circle"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<BookingNumber /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <span>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="blue"
+          icon="lnr-checkmark-circle"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          blue={true}
+          ellipsis={true}
+          paddingRight={true}
+          sm={true}
+          uppercase={true}
+        >
+          value
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </span>
+</div>
+`;

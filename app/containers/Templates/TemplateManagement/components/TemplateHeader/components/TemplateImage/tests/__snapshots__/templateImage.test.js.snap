@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateImage renderer should display what it should display if imgSrc is absent 1`] = `
+<div
+  className="TemplateImage-container TemplateImage-noImg"
+>
+  <div
+    className="TemplateImage-overlay"
+  />
+</div>
+`;
+
+exports[`TemplateImage renderer should display what it should display if imgSrc is present 1`] = `
+<div
+  className="TemplateImage-container TemplateImage-hasImg TemplateImage-marginBottomNegative"
+>
+  <div
+    className="TemplateImage-overlay"
+  />
+</div>
+`;

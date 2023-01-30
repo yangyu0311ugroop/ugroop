@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Adminstration /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          lg={true}
+        >
+          Administration
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Itinerary reference"
+          placeholder="Enter itinerary reference"
+          settingKey="tour_code"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Minimum undefined"
+          placeholder="Enter minimum undefined"
+          settingKey="min_pax_count"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Maximum undefined"
+          placeholder="Enter maximum undefined"
+          settingKey="max_pax_count"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Adminstration /> render() should render text field if variant is text field 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            card={true}
+            direction="column"
+            highlight={true}
+            spacing={1}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                dark={true}
+                lg={true}
+              >
+                Administration
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+                label="Itinerary reference"
+                placeholder="Enter itinerary reference"
+                settingKey="tour_code"
+                textComponent={[Function]}
+                variant="editable"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(Hr)
+              half={true}
+            />
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+                label="Minimum undefined"
+                placeholder="Enter minimum undefined"
+                settingKey="min_pax_count"
+                textComponent={[Function]}
+                variant="editable"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(Hr)
+              half={true}
+            />
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+                label="Maximum undefined"
+                placeholder="Enter maximum undefined"
+                settingKey="max_pax_count"
+                textComponent={[Function]}
+                variant="editable"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(Hr)
+              half={true}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<Adminstration /> render() should render text only variant 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      card={true}
+      direction="column"
+      highlight={true}
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(JTextClass)
+          dark={true}
+          lg={true}
+        >
+          Administration
+        </WithStyles(JTextClass)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Itinerary reference"
+          placeholder="Enter itinerary reference"
+          settingKey="tour_code"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Minimum undefined"
+          placeholder="Enter minimum undefined"
+          settingKey="min_pax_count"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(TourSetting)))
+          label="Maximum undefined"
+          placeholder="Enter maximum undefined"
+          settingKey="max_pax_count"
+          textComponent={[Function]}
+          variant="editable"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(Hr)
+        half={true}
+      />
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;

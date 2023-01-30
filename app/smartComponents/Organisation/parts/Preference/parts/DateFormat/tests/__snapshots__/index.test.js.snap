@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateFormat /> render() should render correctly 1`] = `
+<div>
+  <div>
+    <P
+      disabled={false}
+      intl={
+        Object {
+          "formatMessage": [MockFunction],
+        }
+      }
+      optionDropDown={false}
+    />
+    <WithStyles(Formsy(InlineRadioGroup))
+      alwaysShowOption={true}
+      autoClose={false}
+      className="DateFormat-newTourRole"
+      color="primary"
+      highlightSelected={true}
+      label="Options:"
+      loading={false}
+      name="option"
+      onChange={[Function]}
+      optionDropDown={false}
+      options={
+        Object {
+          "D MMM YYYY": "D MMM YYYY (26 Apr 1977)",
+          "D MMMM YYYY": "D MMMM YYYY (26 April 1977)",
+          "ddd, D MMM": "ddd, D MMM (Tue, 26 Apr)",
+          "ddd[, ]D MMM YYYY": "ddd[, ]D MMM YYYY (Tue, 26 Apr 1977)",
+          "dddd[, ]D MMMM YYYY": "dddd[, ]D MMMM YYYY (Tuesday, 26 April 1977)",
+        }
+      }
+      required={false}
+      showSaved={false}
+      tooltip="options"
+      value=""
+      valueLabel=""
+      valueSelected="D MMMM YYYY"
+    />
+  </div>
+</div>
+`;
+
+exports[`<DateFormat /> render() should render text field if variant is text field and selectedValue has a value 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <Wrapped
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      >
+        <div>
+          <FormsyInterceptor
+            InputLabelProps={
+              Object {
+                "shrink": true,
+              }
+            }
+            disabled={false}
+            intl={
+              Object {
+                "formatMessage": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      Object {
+                        "defaultMessage": "Date Format",
+                        "id": "app.smartComponents.Organisation.parts.DateFormat.label",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "defaultMessage": "Date Format",
+                        "id": "app.smartComponents.Organisation.parts.DateFormat.label",
+                      },
+                    ],
+                    Array [
+                      Object {
+                        "defaultMessage": "Date Format",
+                        "id": "app.smartComponents.Organisation.parts.DateFormat.label",
+                      },
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                },
+              }
+            }
+            name="format"
+            onInterceptValue={[Function]}
+            optionDropDown={false}
+            value="any value"
+          />
+          <WithStyles(Formsy(InlineRadioGroup))
+            alwaysShowOption={true}
+            autoClose={false}
+            className="DateFormat-newTourRole"
+            color="primary"
+            highlightSelected={true}
+            label="Options:"
+            loading={false}
+            name="option"
+            onChange={[Function]}
+            optionDropDown={false}
+            options={
+              Object {
+                "D MMM YYYY": "D MMM YYYY (26 Apr 1977)",
+                "D MMMM YYYY": "D MMMM YYYY (26 April 1977)",
+                "ddd, D MMM": "ddd, D MMM (Tue, 26 Apr)",
+                "ddd[, ]D MMM YYYY": "ddd[, ]D MMM YYYY (Tue, 26 Apr 1977)",
+                "dddd[, ]D MMMM YYYY": "dddd[, ]D MMMM YYYY (Tuesday, 26 April 1977)",
+              }
+            }
+            required={false}
+            showSaved={false}
+            tooltip="options"
+            value=""
+            valueLabel=""
+            valueSelected="any value"
+          />
+        </div>
+      </Wrapped>
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`<DateFormat /> render() should render text only variant 1`] = `
+<div>
+  <div>
+    <P
+      disabled={false}
+      intl={
+        Object {
+          "formatMessage": [MockFunction],
+        }
+      }
+      optionDropDown={false}
+    />
+    <WithStyles(Formsy(InlineRadioGroup))
+      alwaysShowOption={true}
+      autoClose={false}
+      className="DateFormat-newTourRole"
+      color="primary"
+      highlightSelected={true}
+      label="Options:"
+      loading={false}
+      name="option"
+      onChange={[Function]}
+      optionDropDown={false}
+      options={
+        Object {
+          "D MMM YYYY": "D MMM YYYY (26 Apr 1977)",
+          "D MMMM YYYY": "D MMMM YYYY (26 April 1977)",
+          "ddd, D MMM": "ddd, D MMM (Tue, 26 Apr)",
+          "ddd[, ]D MMM YYYY": "ddd[, ]D MMM YYYY (Tue, 26 Apr 1977)",
+          "dddd[, ]D MMMM YYYY": "dddd[, ]D MMMM YYYY (Tuesday, 26 April 1977)",
+        }
+      }
+      required={false}
+      showSaved={false}
+      tooltip="options"
+      value=""
+      valueLabel=""
+      valueSelected="D MMMM YYYY"
+    />
+  </div>
+</div>
+`;
+
+exports[`<DateFormat /> render() should render text only variant 2`] = `
+<div>
+  D MMMM YYYY
+</div>
+`;

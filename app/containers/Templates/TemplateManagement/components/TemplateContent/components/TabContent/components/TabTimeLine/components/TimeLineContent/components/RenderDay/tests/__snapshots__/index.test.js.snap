@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RenderDay component <RenderDay /> render() should render 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Day)))
+    dayId={99}
+    hasSections={true}
+    index={2}
+    selected={true}
+    willBeEdited={false}
+  >
+    renderChildren
+  </WithStyles(Connect(WithSimplifyResaga(Day)))>
+  <ConnectFunction
+    id={99}
+    key="99"
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`RenderDay component <RenderDay /> renderChildren() should renderChildren 1`] = `
+<div>
+  <div>
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(TabCustom))))
+      elevation={1}
+      id={99}
+      offset={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`RenderDay component <RenderDay /> renderChildren() should return null 1`] = `<div />`;

@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightBookings /> #handleCreateFlightBookingClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingCreate": Object {
+      "flightBookingCreateHandler": [Function],
+      "flightBookingCreateOpen": true,
+      "flightBookingCreateTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FlightBookings /> #handleEditableClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "portalData": [Function],
+    "portalIds": [Function],
+  },
+}
+`;
+
+exports[`<FlightBookings /> #handleFlightBookingCreate() resaga.setValue still matches snapshot if dataId 1`] = `
+Object {
+  "setValue": Object {
+    "flightBookingView": Object {
+      "flightBookingViewId": NaN,
+      "flightBookingViewOpen": true,
+      "flightBookingViewTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<FlightBookings /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="noWrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <div>
+              <FormattedMessage
+                defaultMessage="Flight Itinerary"
+                id="app.containers.Template.TimeLineContent.FlightBookings.title"
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+        >
+          <WithStyles(GridItem)
+            key="2"
+          >
+            <ConnectFunction
+              active={false}
+              buttonClassName=""
+              dataId={2}
+              onClick={[Function]}
+              variant="option"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookings /> #render() still matches snapshot if card 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    card={true}
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                  size="xs"
+                >
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                    wrap="noWrap"
+                  >
+                    <WithStyles(GridItem)>
+                      <WithStyles(Icon)
+                        bold={true}
+                        icon="lnr-plus"
+                        size="xsmall"
+                      />
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </WithStyles(Button)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                xs={true}
+              >
+                <div>
+                  <FormattedMessage
+                    defaultMessage="Flight Itinerary"
+                    id="app.containers.Template.TimeLineContent.FlightBookings.title"
+                  />
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)
+                key="2"
+              >
+                <ConnectFunction
+                  active={false}
+                  buttonClassName=""
+                  dataId={2}
+                  onClick={[Function]}
+                  variant="option"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookings /> #render() still matches snapshot if no props.flightBookingIds 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="noWrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <div>
+              <FormattedMessage
+                defaultMessage="Flight Itinerary"
+                id="app.containers.Template.TimeLineContent.FlightBookings.title"
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <FormattedMessage
+            defaultMessage="No itineraries have been added to this tour."
+            id="app.containers.Template.TimeLineContent.FlightBookings.blankSlate"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;
+
+exports[`<FlightBookings /> #render() still matches snapshot if no props.flightIds or props.flightBookingIds 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              size="xs"
+            >
+              <WithStyles(GridContainer)
+                alignItems="center"
+                wrap="noWrap"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Icon)
+                    bold={true}
+                    icon="lnr-plus"
+                    size="xsmall"
+                  />
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(Button)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            <div>
+              <FormattedMessage
+                defaultMessage="Flight Itinerary"
+                id="app.containers.Template.TimeLineContent.FlightBookings.title"
+              />
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <div>
+          <FormattedMessage
+            defaultMessage="No itineraries have been added to this tour."
+            id="app.containers.Template.TimeLineContent.FlightBookings.blankSlate"
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;

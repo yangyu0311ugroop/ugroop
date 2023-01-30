@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PassportCard /> should render something 1`] = `
+<Fragment>
+  <WithStyles(UGCard)>
+    <WithStyles(Padding)
+      bottom="md"
+      left="xl"
+      right="xl"
+      top="md"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem) />
+            <WithStyles(GridItem)>
+              <H3
+                dense={true}
+                weight="bold"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={3}
+                >
+                  <WithStyles(GridItem) />
+                </WithStyles(GridContainer)>
+              </H3>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(Padding)>
+    <div>
+      <WithStyles(GridContainer)
+        spacing={3}
+      >
+        <WithStyles(GridItem)
+          md={6}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            justify="flex-end"
+          >
+            <WithStyles(GridItem)
+              xs={12}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={6}
+          xs={12}
+        />
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(UGCard)>
+</Fragment>
+`;
+
+exports[`<PassportCard /> should render something different when isDefault is true 1`] = `
+<Fragment>
+  <WithStyles(UGCard)>
+    <WithStyles(Padding)
+      bottom="md"
+      left="xl"
+      right="xl"
+      top="md"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem) />
+            <WithStyles(GridItem)>
+              <H3
+                dense={true}
+                weight="bold"
+              >
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  spacing={3}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                    >
+                      <WithStyles(Badge)>
+                        Primary
+                      </WithStyles(Badge)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem) />
+                </WithStyles(GridContainer)>
+              </H3>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+      </WithStyles(GridContainer)>
+    </WithStyles(Padding)>
+    <div>
+      <WithStyles(GridContainer)
+        spacing={3}
+      >
+        <WithStyles(GridItem)
+          md={6}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            justify="flex-end"
+          >
+            <WithStyles(GridItem)
+              xs={12}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={6}
+          xs={12}
+        />
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(UGCard)>
+</Fragment>
+`;

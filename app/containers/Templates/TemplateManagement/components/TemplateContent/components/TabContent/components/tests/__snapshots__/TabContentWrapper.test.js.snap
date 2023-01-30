@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tab /> #render() still matches snapshot 1`] = `
+<div
+  className="tab"
+/>
+`;

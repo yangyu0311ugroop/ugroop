@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Medicals /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals)))))
+      readOnly={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Medicals /> renderLogic should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals)))))
+    keyPath="path"
+    variant="logic"
+  />
+</div>
+`;
+
+exports[`<Medicals /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        onClick={[Function]}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            bold={true}
+            gray={true}
+            sm={true}
+            spacing2={true}
+            uppercase={true}
+          >
+            Medical Requirements (
+            <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals)))))
+              calculatedSeverity={null}
+              id={null}
+              readOnly={false}
+              value={Array []}
+              variant="count"
+            />
+            )
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="chevron-down"
+            size="extraSmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals)))))
+        calculatedSeverity={null}
+        id={null}
+        readOnly={false}
+        value={Array []}
+        variant="row"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

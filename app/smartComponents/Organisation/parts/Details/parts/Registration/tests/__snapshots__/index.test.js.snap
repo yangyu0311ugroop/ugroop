@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Registration /> render() should render correctly 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    registration=""
+  />
+</div>
+`;
+
+exports[`<Registration /> render() should render text field if variant is text field 1`] = `
+<div>
+  <FormsyInterceptor
+    intl={
+      Object {
+        "formatMessage": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "defaultMessage": "Registration Number",
+                "id": "app.smartComponents.Organisation.parts.registration.label",
+              },
+            ],
+            Array [
+              Object {
+                "defaultMessage": "Registration Number",
+                "id": "app.smartComponents.Organisation.parts.registration.label",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    name="registration"
+    onInterceptValue={[Function]}
+    registration=""
+    value=""
+  />
+</div>
+`;
+
+exports[`<Registration /> render() should render text only variant 1`] = `
+<div>
+  <P
+    intl={
+      Object {
+        "formatMessage": [MockFunction],
+      }
+    }
+    registration=""
+  />
+</div>
+`;

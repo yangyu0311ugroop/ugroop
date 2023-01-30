@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Organisation /> addAbility() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "organisationAbilities": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Organisation /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "batchGetOrgMembers": Object {
+        "onSuccess": [MockFunction],
+      },
+      "cancelInvitation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "createOrganisation": Object {
+        "onSuccess": [Function],
+      },
+      "deleteOrgMember": Object {
+        "onSuccess": [MockFunction],
+      },
+      "firstTimeSetup": Object {
+        "onSuccess": [Function],
+      },
+      "getOrgMembers": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrgSubtypes": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrgTypes": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrganisation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOwnOrgInfo": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPerson": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchOrg": Object {
+        "onSuccess": [MockFunction],
+      },
+      "setupPersonalTour": Object {
+        "onSuccess": [Function],
+      },
+      "setupTour": Object {
+        "onSuccess": [MockFunction],
+      },
+      "shareOrganisation": Object {
+        "onSuccess": [MockFunction],
+      },
+      "updateOrgMember": Object {
+        "onSuccess": [MockFunction],
+      },
+      "updateOrgRole": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Organisation /> handleSetupPersonalTourSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "members": [Function],
+    },
+  ],
+]
+`;

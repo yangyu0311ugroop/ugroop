@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render() should render correctly 1`] = `
+<div>
+  <FormsyInterceptor
+    label={
+      <span>
+        Enter email address
+      </span>
+    }
+    name="email"
+    onInterceptValue={[Function]}
+    placeholder="Enter the email address of the person you want to invite"
+    required={true}
+    type="text"
+    validText=""
+    validationErrors={
+      Object {
+        "isEmail": "does not look like an email",
+      }
+    }
+    validations={
+      Object {
+        "inviteOwner": [Function],
+        "invitePending": [Function],
+        "inviteYourself": [Function],
+        "isEmail": true,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Content /> render() should render readonly if Personal Message 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(Invitee)))
+      creating={true}
+      email=""
+      fromOtherOrg={false}
+      invited={false}
+      isSending={false}
+      noanimate={true}
+      registered={false}
+      token=""
+      userId={2}
+    />
+    <div>
+      <Formsy(withRouter(WithStyles(SimpleRTE)))
+        innerRef={[Function]}
+        name="pm"
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Content /> render() should render readonly if exist 1`] = `
+<div>
+  <div>
+    <WithStyles(Connect(WithSimplifyResaga(Invitee)))
+      creating={false}
+      email=""
+      fromOtherOrg={true}
+      invited={false}
+      isSending={false}
+      noanimate={true}
+      registered={false}
+      token=""
+      userId={0}
+    />
+    renderAddPersonalMessage
+  </div>
+</div>
+`;
+
+exports[`<Content /> renderAddPersonalMessage() should render RTE if is new invitee 1`] = `
+<div>
+  <div>
+    <Formsy(withRouter(WithStyles(SimpleRTE)))
+      innerRef={[Function]}
+      name="pm"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+  </div>
+</div>
+`;

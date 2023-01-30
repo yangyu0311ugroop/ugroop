@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attendance /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent if changed 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": null,
+      "inputs": Object {
+        "name": "name",
+      },
+      "readOnly": false,
+      "value": false,
+      "valuePath": null,
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Attendance /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Attendance /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <EditableToggleForm
+      fullWidth={false}
+      name="name"
+      onSubmit={[Function]}
+      readOnly={false}
+      renderValue={[Function]}
+      value={false}
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </EditableToggleForm>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Attendance /> #renderEditableValue() still matches snapshot if value=false 1`] = `
+<div>
+  <P
+    dense={true}
+    weight="light"
+  />
+</div>
+`;
+
+exports[`<Attendance /> #renderEditableValue() still matches snapshot if value=true 1`] = `
+<div>
+  <P
+    dense={true}
+    success={true}
+  />
+</div>
+`;
+
+exports[`<Attendance /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Formsy(CheckboxField))
+      name="name"
+      value={false}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;

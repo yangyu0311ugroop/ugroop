@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Relationship /> getRelationshipOptions should return set of options to be used by select 1`] = `
+Array [
+  Object {
+    "children": "Father",
+    "value": "father",
+  },
+  Object {
+    "children": "Mother",
+    "value": "mother",
+  },
+  Object {
+    "children": "Sibling",
+    "value": "sibling",
+  },
+  Object {
+    "children": "Guardian",
+    "value": "guardian",
+  },
+  Object {
+    "children": "Other",
+    "value": "other",
+  },
+]
+`;
+
+exports[`<Relationship /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        fullWidth={true}
+        innerRef={[Function]}
+        label="Relationship"
+        name="relationship"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "children": "Father",
+              "value": "father",
+            },
+            Object {
+              "children": "Mother",
+              "value": "mother",
+            },
+            Object {
+              "children": "Sibling",
+              "value": "sibling",
+            },
+            Object {
+              "children": "Guardian",
+              "value": "guardian",
+            },
+            Object {
+              "children": "Other",
+              "value": "other",
+            },
+          ]
+        }
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="father"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Relationship /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        fullWidth={true}
+        innerRef={[Function]}
+        label="Relationship"
+        name="relationship"
+        onChange={[Function]}
+        options={Array []}
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="father"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Relationship /> renderField should match snapshot if relationship has value 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        fullWidth={true}
+        innerRef={[Function]}
+        label="Relationship"
+        name="relationship"
+        onChange={[Function]}
+        options={Array []}
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value="other"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <TextField
+        fullWidth={true}
+        label="Specific Relationship"
+        maxLength={0}
+        minLength={0}
+        name="otherRelationship"
+        type="text"
+        validationErrors={Object {}}
+        validations={Object {}}
+        value="qqqq"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Relationship /> renderTextOnly should match snapshot 1`] = `<div />`;
+
+exports[`<Relationship /> renderTextOnly should match snapshot when include a relationship 1`] = `
+<div>
+  null 
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableAction /> Smoke tests should render properly 1`] = `
+<WithStyles(Button)
+  classes={
+    Object {
+      "root": "root",
+    }
+  }
+  color="gray"
+  dense={true}
+  icon="lnr-eye"
+  iconButton={true}
+  onClick={[Function]}
+  size="extraSmall"
+  title="View Details"
+  variant="outline"
+>
+  Children
+</WithStyles(Button)>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterTop should render what it should render 1`] = `
+<WithStyles(GridItem)
+  className="MarketingFooterTop-root"
+>
+  <Img
+    alt="uGroop logo"
+    className="MarketingFooterTop-logo"
+    src="IMAGE_MOCK"
+  />
+  <div
+    className="MarketingFooterTop-rowItems"
+  >
+    <withRouter(UGLink)
+      to="/features"
+    >
+      About
+    </withRouter(UGLink)>
+    <withRouter(UGLink)
+      to="/features"
+    >
+      Features
+    </withRouter(UGLink)>
+    <withRouter(UGLink)
+      to="/features"
+    >
+      Plans
+    </withRouter(UGLink)>
+  </div>
+  <div
+    className="MarketingFooterTop-rowItems"
+  >
+    <withRouter(UGLink)
+      to="/support"
+    >
+      Support
+    </withRouter(UGLink)>
+    <withRouter(UGLink)
+      to="/support"
+    >
+      Frequently Asked Questions
+    </withRouter(UGLink)>
+    <withRouter(UGLink)
+      to="/support"
+    >
+      Contact Us
+    </withRouter(UGLink)>
+  </div>
+</WithStyles(GridItem)>
+`;

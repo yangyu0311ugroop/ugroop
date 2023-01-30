@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/datastore/orgStore/hoc/selectMemberPropByUserId still matches snapshot 1`] = `[Function]`;
+
+exports[`app/datastore/orgStore/hoc/selectMemberPropByUserId still matches snapshot with resaga 1`] = `[Function]`;

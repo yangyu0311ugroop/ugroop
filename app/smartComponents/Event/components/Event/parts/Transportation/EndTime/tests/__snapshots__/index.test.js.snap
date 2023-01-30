@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderLabel={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<EndTime /> renderDefault should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    editablePlaceholder="Click here to specify arrival time"
+    hasLabelPrefix={true}
+    readOnlyEditablePlaceholder="No time set"
+    renderPrefix={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<EndTime /> renderLabel should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    hasLabelPrefix={true}
+    readOnlyEditablePlaceholder="No time set"
+    renderPrefix={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant=""
+  />
+</div>
+`;
+
+exports[`<EndTime /> renderLabelPrefix should match snapshot 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Arrival:"
+    id="app.smartComponents.Event.components.Event.parts.Coach.EndTime.dropoffLabel"
+  />
+</div>
+`;
+
+exports[`<EndTime /> renderLabelPrefix should match snapshot if hasLabelPrefix is false 1`] = `
+<div>
+  <FormattedMessage
+    defaultMessage="Arrival:"
+    id="app.smartComponents.Event.components.Event.parts.Coach.EndTime.dropoffLabel"
+  />
+</div>
+`;

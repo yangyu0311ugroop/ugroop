@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CopyParticipant /> render() should render 1`] = `
+<div>
+  <WithStyles(Component)
+    fullWidth={true}
+    maxWidth="sm"
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        heading={
+          <WithStyles(GridContainer)
+            noWrap={true}
+          >
+            <WithStyles(GridItem)>
+              Copy Pax
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+                showAvatar={false}
+                showSubDetail={false}
+                textComponent={[Function]}
+                variant="textOnly"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)
+      halfPaddingTop={true}
+    >
+      renderContent
+    </WithStyles(UGDialogContent)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<CopyParticipant /> renderContent() should renderContent 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={2}
+  >
+    <WithStyles(GridItem)
+      md={4}
+      xs={12}
+    >
+      <WithStyles(Head)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="blue"
+              icon="lnr-group-work"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Organisations
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Head)>
+      <WithStyles(MarginWrapper)
+        bottom="md"
+      />
+      <Hidden
+        smDown={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+          ids={Array []}
+          onClickMenu={[Function]}
+          showPersonal={true}
+          variant="list"
+        />
+      </Hidden>
+      <Hidden
+        mdUp={true}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+          ids={Array []}
+          onClickMenu={[Function]}
+          showPersonal={true}
+          variant="MENU_ITEM"
+        />
+      </Hidden>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={8}
+      xs={12}
+    >
+      <WithStyles(Head)>
+        Travel List
+      </WithStyles(Head)>
+      <WithStyles(MarginWrapper)
+        bottom="md"
+      />
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+            italic={true}
+            lg={true}
+          >
+            Choose organisation
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(MarginWrapper)
+      bottom="md"
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<CopyParticipant /> renderTours() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(TargetTour)))
+      id={1}
+      personModel={Object {}}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

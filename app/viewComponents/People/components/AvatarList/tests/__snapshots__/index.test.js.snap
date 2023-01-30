@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AvatarList /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="111"
+    >
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          displayFirstAndLastInitials={true}
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+          sm={true}
+          userId={111}
+        />
+      </button>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Fragment>
+`;
+
+exports[`<AvatarList /> #render() still matches snapshot if exceed max number of avatars 1`] = `
+<Fragment>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      key="111"
+    >
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          displayFirstAndLastInitials={true}
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+          sm={true}
+          userId={111}
+        />
+      </button>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="pcartigo@gg.com"
+    >
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          disableGrow={true}
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+          sm={true}
+          token="pcartigo@gg.com"
+          width={120}
+        />
+      </button>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="pcartigo@gg.com"
+    >
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          disableGrow={true}
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+          sm={true}
+          token="pcartigo@gg.com"
+          width={120}
+        />
+      </button>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="pcartigo@gg.com"
+    >
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          disableGrow={true}
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+          sm={true}
+          token="pcartigo@gg.com"
+          width={120}
+        />
+      </button>
+    </WithStyles(GridItem)>
+    <span
+      key="pcartigo@gg.com"
+    />
+    <span
+      key="pcartigo@gg.com"
+    />
+    <WithStyles(GridItem)>
+      <button
+        className="viewComponents/People/AvatarList-item"
+        onClick={[Function]}
+        type="button"
+      >
+        <ConnectFunction
+          imageSize="imageExtraSmall"
+          imgClass="viewComponents/People/AvatarList-avatarImg"
+          more={2}
+          rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder viewComponents/People/AvatarList-excess"
+          sm={true}
+        />
+      </button>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</Fragment>
+`;
+
+exports[`<AvatarList /> #renderPeopleAvatars() still matches snapshot if avatarById 1`] = `
+<WithStyles(GridItem)>
+  <button
+    className="viewComponents/People/AvatarList-item"
+    onClick={[Function]}
+    type="button"
+  >
+    <Memo(Connect(WithSimplifyResaga(AvatarById)))
+      disableGrow={true}
+      imageSize="imageExtraSmall"
+      imgClass="viewComponents/People/AvatarList-avatarImg"
+      rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder"
+      sm={true}
+      userId="person"
+      width={120}
+    />
+  </button>
+</WithStyles(GridItem)>
+`;
+
+exports[`<AvatarList /> #renderPeopleAvatars() still matches snapshot if renderAvatar 1`] = `
+<WithStyles(GridItem)>
+  <button
+    className="viewComponents/People/AvatarList-item"
+    onClick={[Function]}
+    type="button"
+  >
+    person
+    Object {
+      "disableGrow": true,
+      "imageSize": "imageExtraSmall",
+      "imgClass": "viewComponents/People/AvatarList-avatarImg",
+      "rootClass": "viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder",
+      "sm": true,
+      "width": 120,
+    }
+  </button>
+</WithStyles(GridItem)>
+`;
+
+exports[`<AvatarList /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  />
+</div>
+`;
+
+exports[`<AvatarList /> renderAddAvatar() should renderAddAvatar 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <button
+      className="viewComponents/People/AvatarList-item"
+      onClick={[Function]}
+      type="button"
+    >
+      <ConnectFunction
+        imgClass="viewComponents/People/AvatarList-avatarImg"
+        rootClass="viewComponents/People/AvatarList-avatar viewComponents/People/AvatarList-avatarBorder viewComponents/People/AvatarList-excess viewComponents/People/AvatarList-addBtn"
+        sm={true}
+        tooltipText="Add new"
+      >
+        <WithStyles(Icon)
+          icon="users-plus"
+        />
+      </ConnectFunction>
+    </button>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<AvatarList /> renderSeeMore should match snapshot if seeMore is true 1`] = `
+<div>
+  <WithStyles(MarginWrapper)
+    top="xs"
+  >
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          onClick={[Function]}
+          size="extraSmall"
+          variant="inline"
+        >
+          See More
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MarginWrapper)>
+</div>
+`;
+
+exports[`<AvatarList /> renderSeeMore should return null if seeMore is not true 1`] = `<div />`;

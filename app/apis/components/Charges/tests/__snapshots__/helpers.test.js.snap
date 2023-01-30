@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CARD_API_HELPERS /> CHARGES_NORMALISER.normaliseListCharges dispatchTo still matches snapshot 1`] = `
+Object {
+  "normalised": Object {
+    "charges": undefined,
+    "customers": Object {
+      "undefined": Object {
+        "charges": undefined,
+        "id": undefined,
+        "lastFetchId": undefined,
+        "listChargesHasMore": false,
+      },
+    },
+  },
+  "payload": Object {
+    "id": 1,
+  },
+  "raw": Object {
+    "id": 99222,
+  },
+}
+`;
+
+exports[`<CARD_API_HELPERS /> getCustomerCharges dispatchTo still matches snapshot 1`] = `
+Array [
+  Array [
+    "Charges",
+    "getCustomerCharges",
+    Object {
+      "onError": 2,
+      "onSuccess": 1,
+      "payload": Object {
+        "data": Object {
+          "limit": 100,
+        },
+      },
+    },
+  ],
+]
+`;

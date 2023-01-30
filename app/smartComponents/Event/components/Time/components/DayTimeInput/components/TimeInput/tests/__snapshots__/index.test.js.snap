@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimeInput /> #render() still matches snapshot 1`] = `
+<TimeField
+  autoComplete="off"
+  displayFormat="HH:mm"
+  maxTimeField={null}
+  maxTimeFieldError="Time is after maximum time"
+  minTimeField={null}
+  minTimeFieldError="Time is before minimum time"
+  name="tempTime"
+  placeholder="Time"
+  type="text"
+  validationErrors={Object {}}
+  validations={Object {}}
+  value={"0001-01-01T00:00:00.000Z"}
+/>
+`;

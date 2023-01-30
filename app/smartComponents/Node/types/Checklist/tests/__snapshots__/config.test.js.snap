@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checklist/SETTER_CONFIG Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "addChecklistParentId": Array [
+      "templateManagementView",
+      "addChecklistParentId",
+    ],
+    "checklists": [Function],
+    "editChecklistId": Array [
+      "templateManagementView",
+      "editChecklistId",
+    ],
+    "expandedChecklistId": Array [
+      "templateManagementView",
+      "expandedChecklistId",
+    ],
+    "seeChecklistDetail": Array [
+      "templateManagementView",
+      "seeChecklistDetail",
+    ],
+  },
+}
+`;
+
+exports[`Checklist/USER_USERS_CONFIG Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "orgId": [Function],
+  },
+}
+`;
+
+exports[`Checklist/USER_USERS_CONFIG value orgId should return a particular shape of array 1`] = `
+Array [
+  "userDataStore",
+  "users",
+  1,
+  "orgId",
+]
+`;
+
+exports[`Checklist/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "checklists": [Function],
+    "completedAt": [Function],
+    "content": [Function],
+    "createdBy": [Function],
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "parentType": [Function],
+    "status": [Function],
+    "userId": [Function],
+  },
+}
+`;
+
+exports[`Checklist/config.js value parentType should return a particular shape of array 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "type",
+]
+`;

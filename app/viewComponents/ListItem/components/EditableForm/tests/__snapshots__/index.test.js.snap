@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableForm /> renderButtons should return saveBtn if isValid and state value !== props value 1`] = `
+<div>
+  <WithStyles(Button)
+    color="black"
+    disabled={false}
+    icon="check"
+    iconButton={true}
+    loading={false}
+    onClick={[Function]}
+    size="extraSmall"
+    variant="borderless"
+  />
+  <WithStyles(Button)
+    color="black"
+    disabled={false}
+    icon="cross"
+    iconButton={true}
+    size="extraSmall"
+    variant="borderless"
+  />
+</div>
+`;

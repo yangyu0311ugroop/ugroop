@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialNumberButton /> render matches snapshot 1`] = `
+<WithStyles(MarginWrapper)
+  left="xs"
+>
+  <WithStyles(Button)
+    color="gray"
+    dense={true}
+    icon="telephone"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    title="Call"
+    variant="outline"
+  />
+</WithStyles(MarginWrapper)>
+`;

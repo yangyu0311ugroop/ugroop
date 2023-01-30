@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourIcon/tests/index.test.js Smoke tests should render caret icon 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div>
+      <div
+        className=""
+      />
+      <WithStyles(Icon)
+        className=""
+        icon="bed"
+        size="base"
+      />
+      <div
+        className=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TourIcon/tests/index.test.js Smoke tests should render properly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div>
+      <WithStyles(Icon)
+        className=""
+        icon="bed"
+        size="base"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TourIcon/tests/index.test.js Smoke tests should render tour icon 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <H6
+      className=""
+    >
+      2D
+    </H6>
+    <div>
+      <div
+        className=""
+      />
+      <WithStyles(Icon)
+        className=""
+        icon="ug-thin-arrival"
+        size="base"
+      />
+      <div
+        className=""
+      />
+    </div>
+  </div>
+</div>
+`;

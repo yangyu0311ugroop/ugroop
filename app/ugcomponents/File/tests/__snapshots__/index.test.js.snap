@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FILE_HELPERS FILE_HELPERS.reduceDrop() should reduce 1`] = `
+Object {
+  "droppedFiles": Object {
+    "1123": Object {
+      "id": 1123,
+      "requestFile": "file",
+      "status": "awaiting",
+    },
+  },
+  "droppedIds": Array [
+    1123,
+  ],
+}
+`;

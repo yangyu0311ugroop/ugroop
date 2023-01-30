@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonType /> #handleSubmit() calls NODE_API_HELPERS.updateNode and not setState 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "customData": Object {
+          "personType": "leader",
+        },
+      },
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "classes": Object {},
+      "defaultValue": "",
+      "id": null,
+      "readOnly": false,
+      "renderDot": false,
+      "renderValue": [Function],
+      "typeOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<PersonType /> #handleSubmit() calls NODE_API_HELPERS.updateNode and setState 1`] = `
+Array [
+  Array [
+    Object {
+      "node": Object {
+        "customData": Object {
+          "personType": "value",
+        },
+      },
+      "nodeId": null,
+      "onError": "onError",
+      "onSuccess": "onSuccess",
+    },
+    Object {
+      "classes": Object {},
+      "defaultValue": "",
+      "id": null,
+      "readOnly": false,
+      "renderDot": false,
+      "renderValue": [Function],
+      "typeOnly": false,
+      "value": "value",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<PersonType /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(GridItem)>
+    <div>
+      value
+    </div>
+  </WithStyles(GridItem)>
+</Fragment>
+`;
+
+exports[`<PersonType /> #renderEditable() should still match snapshot if other conditions are not met 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Participating As"
+          id="app.Node.parts.PersonType.label"
+        />
+      }
+      name="node.customData.personType"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Student"
+              id="app.Node.parts.PersonType.student"
+            />,
+            "value": "student",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Parent"
+              id="app.Node.parts.PersonType.parent"
+            />,
+            "value": "parent",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Teacher"
+              id="app.Node.parts.PersonType.teacher"
+            />,
+            "value": "teacher",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Tour Leader"
+              id="app.Node.parts.PersonType.leader"
+            />,
+            "value": "leader",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Other"
+              id="app.Node.parts.PersonType.none"
+            />,
+            "value": "",
+          },
+        ]
+      }
+      placeholder="Click to specify undefined type"
+      readOnly={false}
+      renderValue={[Function]}
+      value="value"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> #renderEditable() should still match snapshot if other conditions are not met 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Participating As"
+          id="app.Node.parts.PersonType.label"
+        />
+      }
+      name="node.customData.personType"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Student"
+              id="app.Node.parts.PersonType.student"
+            />,
+            "value": "student",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Parent"
+              id="app.Node.parts.PersonType.parent"
+            />,
+            "value": "parent",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Teacher"
+              id="app.Node.parts.PersonType.teacher"
+            />,
+            "value": "teacher",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Tour Leader"
+              id="app.Node.parts.PersonType.leader"
+            />,
+            "value": "leader",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Other"
+              id="app.Node.parts.PersonType.none"
+            />,
+            "value": "",
+          },
+        ]
+      }
+      placeholder="Click to specify undefined type"
+      readOnly={false}
+      renderValue={[Function]}
+      value="value"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> #renderEditable() still matches snapshot if orgType is not SCHOOL_ORG_TYPE 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Participating As"
+          id="app.Node.parts.PersonType.label"
+        />
+      }
+      name="node.customData.personType"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Student"
+              id="app.Node.parts.PersonType.student"
+            />,
+            "value": "student",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Parent"
+              id="app.Node.parts.PersonType.parent"
+            />,
+            "value": "parent",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Teacher"
+              id="app.Node.parts.PersonType.teacher"
+            />,
+            "value": "teacher",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Tour Leader"
+              id="app.Node.parts.PersonType.leader"
+            />,
+            "value": "leader",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Other"
+              id="app.Node.parts.PersonType.none"
+            />,
+            "value": "",
+          },
+        ]
+      }
+      placeholder="Click to specify undefined type"
+      readOnly={false}
+      renderValue={[Function]}
+      value="value"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> #renderEditable() still matches snapshot if school is org type and other conditions are true 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Participating As"
+          id="app.Node.parts.PersonType.label"
+        />
+      }
+      name="node.customData.personType"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Student"
+              id="app.Node.parts.PersonType.student"
+            />,
+            "value": "student",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Parent"
+              id="app.Node.parts.PersonType.parent"
+            />,
+            "value": "parent",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Teacher"
+              id="app.Node.parts.PersonType.teacher"
+            />,
+            "value": "teacher",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Tour Leader"
+              id="app.Node.parts.PersonType.leader"
+            />,
+            "value": "leader",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Other"
+              id="app.Node.parts.PersonType.none"
+            />,
+            "value": "",
+          },
+        ]
+      }
+      placeholder="Click to specify undefined type"
+      readOnly={false}
+      renderValue={[Function]}
+      value="val"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> #renderTextField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <Formsy(SelectField)
+      innerRef={[Function]}
+      label={
+        <FormattedMessage
+          defaultMessage="Participating As"
+          id="app.Node.parts.PersonType.label"
+        />
+      }
+      name="node.customData.personType"
+      options={
+        Array [
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Student"
+              id="app.Node.parts.PersonType.student"
+            />,
+            "value": "student",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Parent"
+              id="app.Node.parts.PersonType.parent"
+            />,
+            "value": "parent",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Teacher"
+              id="app.Node.parts.PersonType.teacher"
+            />,
+            "value": "teacher",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Tour Leader"
+              id="app.Node.parts.PersonType.leader"
+            />,
+            "value": "leader",
+          },
+          Object {
+            "children": <FormattedMessage
+              defaultMessage="Other"
+              id="app.Node.parts.PersonType.none"
+            />,
+            "value": "",
+          },
+        ]
+      }
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+      value="value"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> renderEditableWithType() should renderEditableWithType 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={true}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonType /> renderEditableWithType() should renderEditableWithType if there is type 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={false}
+    />
+    <WithStyles(GridItem)>
+      •
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      title="Details"
+      xs={true}
+    >
+      <Component />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<PersonType /> renderTextOnly() should renderTextOnly if includesValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <FormattedMessage
+      defaultMessage="Tour Leader"
+      id="app.Node.parts.PersonType.leader"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    •
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> renderTextOnly() should renderTextOnly if includesValue and typeOnly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <FormattedMessage
+      defaultMessage="as {type}"
+      id="app.Node.parts.PersonType.text"
+      values={
+        Object {
+          "type": <FormattedMessage
+            defaultMessage="Tour Leader"
+            id="app.Node.parts.PersonType.leader"
+          />,
+        }
+      }
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    •
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> renderTextOnly() should renderTextOnly if not includesValue 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    boy
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)>
+    •
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<PersonType /> renderTypeEditable() should renderTypeEditable 1`] = `
+<div>
+  <ConnectFunction
+    classes={Object {}}
+    defaultValue=""
+    id={null}
+    readOnly={false}
+    renderDot={false}
+    renderValue={[Function]}
+    typeOnly={false}
+    value="value"
+    variant={null}
+  />
+</div>
+`;

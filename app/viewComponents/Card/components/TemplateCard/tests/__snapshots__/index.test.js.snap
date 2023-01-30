@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateCard /> renderActions should show actions if showActions is true 1`] = `
+<div>
+  <div
+    className="TemplateCard-templateItemFooterActions"
+  >
+    renderActions
+  </div>
+</div>
+`;
+
+exports[`<TemplateCard /> renderDescription should render shortDescription and preserve new line 1`] = `
+<div>
+  <span
+    key="qweqwe-0"
+  >
+    <span
+      key="qweqwe-0"
+    >
+      qweqwe
+    </span>
+     
+    <br />
+  </span>
+  <span
+    key="qweqwe-1"
+  >
+    <span
+      key="qweqwe-1"
+    >
+      qweqwe
+    </span>
+     
+    <br />
+  </span>
+  <span
+    key="qweqwe-2"
+  >
+    qweqwe
+  </span>
+</div>
+`;
+
+exports[`<TemplateCard /> smoke tests should render what it should render when component is loading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="rootClassName"
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <div
+      className="TemplateCard-templateOverride"
+    />
+    <WithStyles(ForwardRef(CircularProgress))
+      className="TemplateCard-templateItemLoading"
+    />
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(DoubleCard))))
+      baseUrl="baseUrl"
+      cardImageUrl="cardImageUrl"
+      content="Sample Tour"
+      description="description"
+      duration={1}
+      isLoading={true}
+      renderActions={[MockFunction]}
+      renderAdditionalContent="renderAdditionalContent"
+      rootClassName="rootClassName"
+      showActions={true}
+      startDate="April 1, 2019"
+      templateQueryParam="templateQueryParam"
+      variant="card"
+      weekDay="Monday"
+    />
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<TemplateCard /> smoke tests should render what it should render when component is not loading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="rootClassName"
+  item={true}
+  md={4}
+  s={6}
+  xs={12}
+>
+  <div
+    className="TemplateCard-templateItem"
+  >
+    <WithStyles(withRouter(Connect(WithSimplifyResaga(DoubleCard))))
+      baseUrl="baseUrl"
+      cardImageUrl="cardImageUrl"
+      content="Sample Tour"
+      description="description"
+      duration={1}
+      isLoading={false}
+      renderActions={[MockFunction]}
+      renderAdditionalContent="renderAdditionalContent"
+      rootClassName="rootClassName"
+      showActions={true}
+      startDate="April 1, 2019"
+      templateQueryParam="templateQueryParam"
+      variant="card"
+      weekDay="Monday"
+    />
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonContainer /> render() should render correctly 1`] = `
+Array [
+  Array [
+    1,
+    1,
+    1,
+  ],
+]
+`;
+
+exports[`<PersonContainer /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(Component)
+    classes={Object {}}
+    match={
+      Object {
+        "params": Object {
+          "id": 1,
+        },
+      }
+    }
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    userId={1}
+  />
+</div>
+`;

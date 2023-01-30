@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/subscribe ResagaSubscriber render should return null if props children is not function 1`] = `""`;
+
+exports[`utils/subscribe createResagaSubscriber should return resaga component 1`] = `
+<ContextProvider
+  value={null}
+>
+  <WithSimplifyResaga(ResagaSubscriber)
+    beforeDispatch={[Function]}
+    resaga={Object {}}
+    setValue={[Function]}
+    setValueWithFunc={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

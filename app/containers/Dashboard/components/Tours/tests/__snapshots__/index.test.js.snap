@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tours /> clearSelectedOrg() should clear selectedFeatured 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedFeatured": false,
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> clearSelectedOrg() should clear selectedFeaturedMinimise 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedFeaturedMinimise": false,
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> clearSelectedOrg() should clearSelectedOrg 1`] = `
+Array [
+  Array [
+    "/my-tours",
+  ],
+]
+`;
+
+exports[`<Tours /> clearSelectedOrg() should clearSelectedOrg and selectedFeatured 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedFeatured": false,
+    },
+  ],
+  Array [
+    Object {
+      "selectedOrgId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> clearSelectedOrg() should return null 1`] = `
+Array [
+  Array [
+    Object {
+      "selectedOrgId": undefined,
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> fetchRecentActivity() should call resaga.dispatchTo 1`] = `
+Array [
+  Array [
+    "Users",
+    "recentActivity",
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+  Array [
+    "Abilities",
+    "findMyTours",
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> fetchToursHandler() should call resaga.dispatchTo 1`] = `
+Array [
+  Array [
+    "Users",
+    "recentActivity",
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+  Array [
+    "Users",
+    "recentActivity",
+    Object {
+      "onSuccess": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Tours /> fetchToursHandler() should fetchToursHandler 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<Tours /> handleSearch() should call handleSearch 1`] = `
+Array [
+  Array [
+    1111,
+  ],
+]
+`;
+
+exports[`<Tours /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of undefined Tours",
+            "name": "description",
+          },
+        ]
+      }
+      title="undefined Tours"
+    />
+    renderBack
+    renderSearch
+    renderContent
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Tours /> renderBack() should renderBack 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      className=""
+      dense={true}
+      noPadding={true}
+      onClick={[Function]}
+      size="extraSmall"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-chevron-left"
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            dark={true}
+          >
+            Itineraries
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Tours /> renderNewTourButton() should renderNewTourButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    size="xs"
+  >
+    New
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Tours /> renderOrganisation() should renderOrganisation 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Card))))))
+    active={true}
+    collapsed={false}
+    isClickable={true}
+    isDrawer={false}
+    key="user-1"
+    maxRender={11}
+    personal={true}
+    renderStars={[Function]}
+    toggleId={-1}
+  />
+</div>
+`;
+
+exports[`<Tours /> renderOrganisations() should renderOrganisations 1`] = `
+<div>
+  renderOrganisation
+  renderOrganisation
+</div>
+`;
+
+exports[`<Tours /> renderPesonaTitle() should renderPesonaTitle 1`] = `
+<div>
+  Itineraries
+</div>
+`;
+
+exports[`<Tours /> renderRecentCard() should renderRecentCard 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Card))))))
+    active={
+      Object {
+        "active": true,
+        "recent": Array [
+          1,
+          2,
+        ],
+      }
+    }
+    collapsed={false}
+    isClickable={true}
+    items={Array []}
+    maxRender={4}
+    showOrganisation={true}
+    toggleId="recent"
+  />
+</div>
+`;
+
+exports[`<Tours /> renderSearch() should renderSearch 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(NewTour)))>
+          <Component />
+        </WithStyles(Connect(WithSimplifyResaga(NewTour)))>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridContainer)
+              alignItems="center"
+            >
+              <WithStyles(GridItem)>
+                <GenericForm
+                  canSubmitForm={true}
+                  cancelButtonContent="Discard"
+                  disabled={false}
+                  discardDialogProps={Object {}}
+                  loading={false}
+                  onInvalid={[Function]}
+                  onValid={[Function]}
+                  showChangeRoutePrompt={false}
+                  submitButtonContent="Submit"
+                >
+                  <FormsyInterceptor
+                    endAdornment={
+                      <WithStyles(ForwardRef(InputAdornment))
+                        position="end"
+                      >
+                        <WithStyles(Button)
+                          className=""
+                          dense={true}
+                          noPadding={true}
+                          onClick={[Function]}
+                          size="extraSmall"
+                        >
+                          <WithStyles(Icon)
+                            icon="lnr-cross"
+                            size="small"
+                          />
+                        </WithStyles(Button)>
+                      </WithStyles(ForwardRef(InputAdornment))>
+                    }
+                    name="search"
+                    onChange={[Function]}
+                    onInterceptValue={[Function]}
+                    placeholder="Search by name..."
+                    startAdornment={
+                      <WithStyles(ForwardRef(InputAdornment))
+                        position="start"
+                      >
+                        <WithStyles(Icon)
+                          icon="magnifier"
+                          size="small"
+                        />
+                      </WithStyles(ForwardRef(InputAdornment))>
+                    }
+                    value="2233"
+                  />
+                </GenericForm>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Tours /> renderStarredCard() should render with featuredTours 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Card))))))
+    active={true}
+    collapsed={false}
+    hasStarredFeatured={true}
+    isClickable={true}
+    items={Array []}
+    showOrganisation={true}
+    starredFeatured={Array []}
+    toggleId="starred"
+  />
+</div>
+`;
+
+exports[`<Tours /> renderStarredCard() should renderStarredCard 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Card))))))
+    collapsed={false}
+    hasStarredFeatured={false}
+    isClickable={true}
+    items={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+    showOrganisation={true}
+    starredFeatured={Array []}
+    toggleId="starred"
+  />
+</div>
+`;
+
+exports[`<Tours /> renderWhole() should renderWhole 1`] = `<div />`;

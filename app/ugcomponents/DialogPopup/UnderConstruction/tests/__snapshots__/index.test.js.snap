@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnderConstructionDialog /> #render() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  button={1}
+  cancelFunc={[Function]}
+  confirmButton="Go back"
+  confirmFunc={[Function]}
+  dialogTitle="COMING SOON"
+  headlineIcon="lnr-construction"
+  headlineText="We're currently working on this but feel free to contact us if you can't wait."
+  headlineTitle="This feature is under construction"
+  open={false}
+  template="custom"
+/>
+`;

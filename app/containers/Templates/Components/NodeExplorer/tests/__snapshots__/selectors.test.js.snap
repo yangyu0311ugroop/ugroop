@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MY_TEMPLATE_VIEWSTORE_SELECTORS should contain all the selectors needed for the view store 1`] = `
+Object {
+  "getters": Object {
+    "currResultCount": Array [
+      "myTemplatePageViewStore",
+      "currResultCount",
+    ],
+    "deleteType": Array [
+      "myTemplatePageViewStore",
+      "deleteType",
+    ],
+    "folderFormOpen": Array [
+      "myTemplatePageViewStore",
+      "folderFormOpen",
+    ],
+    "folderId": Array [
+      "myTemplatePageViewStore",
+      "id",
+    ],
+    "folderTreeIds": Array [
+      "myTemplatePageViewStore",
+      "folderTreeIds",
+    ],
+    "folderTreeMode": Array [
+      "myTemplatePageViewStore",
+      "folderTreeMode",
+    ],
+    "isAddTemplateModalOpen": Array [
+      "myTemplatePageViewStore",
+      "isAddTemplateModalOpen",
+    ],
+    "isFetchingInitialContent": Array [
+      "myTemplatePageViewStore",
+      "isFetchingInitialContent",
+    ],
+    "isOpenDeleteDialog": Array [
+      "myTemplatePageViewStore",
+      "isOpenDeleteDialog",
+    ],
+    "isOpenFolderTree": Array [
+      "myTemplatePageViewStore",
+      "isOpenFolderTree",
+    ],
+    "layout": Array [
+      "myTemplatePageViewStore",
+      "layout",
+    ],
+    "selectedId": Array [
+      "myTemplatePageViewStore",
+      "selectedId",
+    ],
+    "selectedItem": Array [
+      "myTemplatePageViewStore",
+      "selectedItem",
+    ],
+    "selectedName": Array [
+      "myTemplatePageViewStore",
+      "selectedName",
+    ],
+    "selectedType": Array [
+      "myTemplatePageViewStore",
+      "selectedType",
+    ],
+    "shouldRedirect": Array [
+      "myTemplatePageViewStore",
+      "shouldRedirect",
+    ],
+    "sortField": Array [
+      "myTemplatePageViewStore",
+      "sortField",
+    ],
+    "sortOrder": Array [
+      "myTemplatePageViewStore",
+      "sortOrder",
+    ],
+    "view": Array [
+      "myTemplateListDataStore",
+      "view",
+    ],
+  },
+  "setters": Object {
+    "currResultCount": Array [
+      "myTemplatePageViewStore",
+      "currResultCount",
+    ],
+    "deleteType": Array [
+      "myTemplatePageViewStore",
+      "deleteType",
+    ],
+    "folderFormOpen": Array [
+      "myTemplatePageViewStore",
+      "folderFormOpen",
+    ],
+    "folderId": Array [
+      "myTemplatePageViewStore",
+      "id",
+    ],
+    "folderTreeIds": Array [
+      "myTemplatePageViewStore",
+      "folderTreeIds",
+    ],
+    "folderTreeMode": Array [
+      "myTemplatePageViewStore",
+      "folderTreeMode",
+    ],
+    "isAddTemplateModalOpen": Array [
+      "myTemplatePageViewStore",
+      "isAddTemplateModalOpen",
+    ],
+    "isFetchingInitialContent": Array [
+      "myTemplatePageViewStore",
+      "isFetchingInitialContent",
+    ],
+    "isOpenDeleteDialog": Array [
+      "myTemplatePageViewStore",
+      "isOpenDeleteDialog",
+    ],
+    "isOpenFolderTree": Array [
+      "myTemplatePageViewStore",
+      "isOpenFolderTree",
+    ],
+    "layout": Array [
+      "myTemplatePageViewStore",
+      "layout",
+    ],
+    "selectedId": Array [
+      "myTemplatePageViewStore",
+      "selectedId",
+    ],
+    "selectedItem": Array [
+      "myTemplatePageViewStore",
+      "selectedItem",
+    ],
+    "selectedName": Array [
+      "myTemplatePageViewStore",
+      "selectedName",
+    ],
+    "selectedType": Array [
+      "myTemplatePageViewStore",
+      "selectedType",
+    ],
+    "shouldRedirect": Array [
+      "myTemplatePageViewStore",
+      "shouldRedirect",
+    ],
+    "sortField": Array [
+      "myTemplatePageViewStore",
+      "sortField",
+    ],
+    "sortOrder": Array [
+      "myTemplatePageViewStore",
+      "sortOrder",
+    ],
+    "view": Array [
+      "myTemplateListDataStore",
+      "view",
+    ],
+  },
+}
+`;

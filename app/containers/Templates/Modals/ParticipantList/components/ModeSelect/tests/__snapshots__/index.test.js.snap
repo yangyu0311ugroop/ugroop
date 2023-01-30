@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantListModeSelect /> #render() still matches snapshot 1`] = `
+<WithStyles(SelectButton)
+  includeFormsMode={false}
+  onClose={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "children": "Show People",
+        "value": "personType",
+      },
+    ]
+  }
+  renderValue={[Function]}
+  resaga={
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    }
+  }
+  templateId={1}
+/>
+`;

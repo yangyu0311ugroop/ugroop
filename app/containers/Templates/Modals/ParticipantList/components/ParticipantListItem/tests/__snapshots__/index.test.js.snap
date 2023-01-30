@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantListItem /> render should render what it should render 1`] = `
+<ConnectFunction
+  defaultAccessLevel="full"
+  id={null}
+  interestedPersonNodeId={null}
+  participantNodeId={null}
+>
+  <Component />
+</ConnectFunction>
+`;
+
+exports[`<ParticipantListItem /> renderWithAccessLevel should render what it should render 1`] = `
+<div>
+  <ConnectFunction
+    accessLevel={true}
+    classes={Object {}}
+    id={null}
+    loading={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    variant="row"
+  />
+</div>
+`;

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/hoc/formsy/withForm #makeInitialState() still matches snapshot 1`] = `
+Object {
+  "discarding": false,
+  "isFormChanged": false,
+}
+`;
+
+exports[`utils/hoc/formsy/withForm #render() still matches snapshot 1`] = `
+<Fragment>
+  <ContextProvider
+    value={
+      Object {
+        "isFormDisabled": [Function],
+      }
+    }
+  >
+    <Formsy
+      disabled={false}
+      getErrorMessage={[Function]}
+      getErrorMessages={[Function]}
+      getValue={[Function]}
+      hasValue={[Function]}
+      isFormDisabled={[Function]}
+      isFormSubmitted={[Function]}
+      isPristine={[Function]}
+      isRequired={[Function]}
+      isValid={[Function]}
+      isValidValue={[Function]}
+      mapping={null}
+      onChange={[Function]}
+      onError={[Function]}
+      onInvalid={[Function]}
+      onInvalidSubmit={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      preventExternalInvalidation={false}
+      resetValue={[Function]}
+      setValidations={[Function]}
+      setValue={[Function]}
+      showError={[Function]}
+      showRequired={[Function]}
+      validationErrors={null}
+    >
+      <MockComponent
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      />
+    </Formsy>
+  </ContextProvider>
+  <DiscardConfirmationDialog
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`utils/hoc/formsy/withForm #renderDiscardConfirmationDialog() still matches snapshot 1`] = `
+<WithStyles(UGDialog)
+  cancelButton="Cancel"
+  cancelFunc={[Function]}
+  confirmButton="Go ahead and discard"
+  confirmFunc={[Function]}
+  dialogTitle="Discard Changes"
+  headlineIcon="lnr-bubble-alert"
+  headlineText="You have unsaved changes. Are you sure you want to discard?"
+  headlineTitle="You are leaving without saving"
+  open={false}
+  template="delete"
+/>
+`;
+
+exports[`utils/hoc/formsy/withForm #renderWrapped() props still matches snapshot 1`] = `
+Object {
+  "children": <Formsy
+    disabled={false}
+    getErrorMessage={[Function]}
+    getErrorMessages={[Function]}
+    getValue={[Function]}
+    hasValue={[Function]}
+    isFormDisabled={[Function]}
+    isFormSubmitted={[Function]}
+    isPristine={[Function]}
+    isRequired={[Function]}
+    isValid={[Function]}
+    isValidValue={[Function]}
+    mapping={null}
+    onChange={[Function]}
+    onError={[Function]}
+    onInvalid={[Function]}
+    onInvalidSubmit={[Function]}
+    onReset={[Function]}
+    onSubmit={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    preventExternalInvalidation={false}
+    resetValue={[Function]}
+    setValidations={[Function]}
+    setValue={[Function]}
+    showError={[Function]}
+    showRequired={[Function]}
+    validationErrors={null}
+  >
+    <React.Fragment>
+      <MockComponent
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        cancelForm={[Function]}
+        isFormChanged={false}
+        isFormDisabled={false}
+        loading={false}
+        renderCancelButton={[Function]}
+        renderSubmitButton={[Function]}
+        resetForm={[Function]}
+        submitButtonContent="Submit"
+        submitForm={[Function]}
+      />
+    </React.Fragment>
+  </Formsy>,
+  "value": Object {
+    "isFormDisabled": [Function],
+  },
+}
+`;
+
+exports[`utils/hoc/formsy/withForm #renderWrapped() should add prompt is showChangeRoutePrompt to true 1`] = `
+<div>
+  <MockComponent
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    cancelForm={[Function]}
+    isFormChanged={false}
+    isFormDisabled={false}
+    loading={false}
+    renderCancelButton={[Function]}
+    renderSubmitButton={[Function]}
+    resetForm={[Function]}
+    submitButtonContent="Submit"
+    submitForm={[Function]}
+  />
+  <Prompt
+    message="Leaving the page? Changes you made may not be saved"
+    when={false}
+  />
+</div>
+`;

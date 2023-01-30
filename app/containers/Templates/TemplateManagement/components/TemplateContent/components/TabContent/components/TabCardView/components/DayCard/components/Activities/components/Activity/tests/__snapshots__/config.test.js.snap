@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity/config.js value attachmentId should return a particular array shape given the props 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "attachment",
+]
+`;
+
+exports[`Activity/config.js value content should return a particular array shape given the props 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "content",
+]
+`;
+
+exports[`Activity/config.js value location should return a particular array shape given the props 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "location",
+]
+`;
+
+exports[`Activity/config.js value photoId should return a particular array shape given the props 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "photos",
+  0,
+]
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParentNodeId /> #render() still matches snapshot 1`] = `
+<Formsy(DataField)
+  innerRef={[Function]}
+  name="node.parentNodeId"
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+  value={1}
+/>
+`;

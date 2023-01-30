@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Map /> handleEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <withScriptjs(withGoogleMap(WithStyles(Connect(WithSimplifyResaga(Directions)))))
+      containerElement={
+        <div
+          style={
+            Object {
+              "height": 240,
+            }
+          }
+        />
+      }
+      from={
+        Object {
+          "placeId": 111,
+        }
+      }
+      googleMapURL="aaaa"
+      loadingElement={
+        <div
+          style={
+            Object {
+              "height": 240,
+            }
+          }
+        />
+      }
+      mapElement={
+        <div
+          style={
+            Object {
+              "height": 240,
+            }
+          }
+        />
+      }
+      onFetchDrectionSuccess={[Function]}
+      setter={false}
+      to={
+        Object {
+          "placeId": 222,
+        }
+      }
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Map /> handleField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <withScriptjs(withGoogleMap(WithStyles(Connect(WithSimplifyResaga(Directions)))))
+        containerElement={
+          <div
+            style={
+              Object {
+                "height": 240,
+              }
+            }
+          />
+        }
+        from={
+          Object {
+            "placeId": "1111",
+          }
+        }
+        googleMapURL="aaaa"
+        loadingElement={
+          <div
+            style={
+              Object {
+                "height": 240,
+              }
+            }
+          />
+        }
+        mapElement={
+          <div
+            style={
+              Object {
+                "height": 240,
+              }
+            }
+          />
+        }
+        onFetchDrectionSuccess={[Function]}
+        to={
+          Object {
+            "placeId": "1112",
+          }
+        }
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Map /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;

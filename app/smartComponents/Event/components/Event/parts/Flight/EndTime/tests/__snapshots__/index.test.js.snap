@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EndTime /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderLabel={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderDefault() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  editablePlaceholder={
+    <FormattedMessage
+      defaultMessage="Click to specify arrival time"
+      id="app.Event.parts.Flight.EndTime.editablePlaceholder"
+    />
+  }
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  multiInputLabel={
+    <FormattedMessage
+      defaultMessage="Specify journey time instead of arrival time?"
+      id="app.Event.parts.Flight.EndTime.multiInputLabel"
+    />
+  }
+  multiMode={true}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabel() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(Time)))
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  multiMode={true}
+  renderPrefix={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<EndTime /> #renderLabelPrefix() still matches snapshot 1`] = `
+<FormattedMessage
+  defaultMessage="Arriving:"
+  id="app.Event.parts.Flight.EndTime.labelPrefix"
+/>
+`;

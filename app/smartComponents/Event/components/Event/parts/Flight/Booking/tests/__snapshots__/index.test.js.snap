@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Booking /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderCard={[Function]}
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabel={[Function]}
+  renderLabelHeading={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Booking /> #renderLabel() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    alignItems="baseline"
+  >
+    <WithStyles(GridItem)>
+      <EventHeading
+        Typography={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Itinerary:"
+          id="app.Event.parts.Flight.Booking.bookinglabelPrefix"
+        />
+      </EventHeading>
+    </WithStyles(GridItem)>
+    <Memo(Connect(WithSimplifyResaga(FlightBooking)))
+      dataId="value"
+      variant="label"
+    />
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<Booking /> #renderPart() renders Component 1`] = `
+<Component
+  component="span"
+  value="0"
+  variant={null}
+/>
+`;
+
+exports[`<Booking /> renderCard() should renderCard 1`] = `
+<div>
+  <ConnectFunction
+    dataId={123}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Booking /> renderLabelHeading() should renderLabelHeading 1`] = `
+<div>
+  <ConnectFunction
+    dataId={123}
+    variant={null}
+  />
+</div>
+`;

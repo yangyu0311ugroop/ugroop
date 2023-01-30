@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChangePasswordForm /> render() should render correctly 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`<ChangePasswordForm /> render() should render correctly 2`] = `
+Array [
+  Array [
+    "",
+    Object {
+      "default": [Function],
+      "fieldsOnly": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<ChangePasswordForm /> renderFields should render correctly 1`] = `
+<div>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+    top="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "password",
+        }
+      }
+      fullWidth={true}
+      id="currentPassword"
+      label="Current Password"
+      name="currentPassword"
+      onInterceptValue={[Function]}
+    />
+  </WithStyles(MarginWrapper)>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "password",
+        }
+      }
+      fullWidth={true}
+      id="password"
+      label={
+        <FormattedMessage
+          defaultMessage="New password"
+          id="app.smartComponents.Person.ChangePasswordForm"
+        />
+      }
+      name="password"
+      onInterceptValue={[Function]}
+      passwordHelpBlock={true}
+      required={true}
+      validText=""
+      validationErrors={
+        Object {
+          "matchRegexp": "",
+        }
+      }
+      validations={
+        Object {
+          "matchRegexp": /\\^\\(\\?=\\.\\*\\\\d\\)\\(\\?=\\.\\*\\[a-z\\]\\)\\(\\?=\\.\\*\\[A-Z\\]\\)\\.\\{8,\\}\\$/,
+        }
+      }
+    />
+  </WithStyles(MarginWrapper)>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "password",
+        }
+      }
+      debounceMs={10}
+      fullWidth={true}
+      id="confirmedPassword"
+      label={
+        <FormattedMessage
+          defaultMessage="Confirm new password"
+          id="app.smartComponents.Person.ConfirmedPassword"
+        />
+      }
+      name="confirmedPassword"
+      onInterceptValue={[Function]}
+      passwordHelpBlock={true}
+      required={true}
+      rules={
+        Array [
+          "matchedPassword",
+        ]
+      }
+      validationError="Passwords don't match."
+      validations={
+        Object {
+          "matchPassword": [Function],
+        }
+      }
+    />
+  </WithStyles(MarginWrapper)>
+</div>
+`;
+
+exports[`<ChangePasswordForm /> renderFields should render correctly if all show password is true 1`] = `
+<div>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+    top="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye-crossed"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "text",
+        }
+      }
+      fullWidth={true}
+      id="currentPassword"
+      label="Current Password"
+      name="currentPassword"
+      onInterceptValue={[Function]}
+    />
+  </WithStyles(MarginWrapper)>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye-crossed"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "text",
+        }
+      }
+      fullWidth={true}
+      id="password"
+      label={
+        <FormattedMessage
+          defaultMessage="New password"
+          id="app.smartComponents.Person.ChangePasswordForm"
+        />
+      }
+      name="password"
+      onInterceptValue={[Function]}
+      passwordHelpBlock={true}
+      required={true}
+      validText=""
+      validationErrors={
+        Object {
+          "matchRegexp": "",
+        }
+      }
+      validations={
+        Object {
+          "matchRegexp": /\\^\\(\\?=\\.\\*\\\\d\\)\\(\\?=\\.\\*\\[a-z\\]\\)\\(\\?=\\.\\*\\[A-Z\\]\\)\\.\\{8,\\}\\$/,
+        }
+      }
+    />
+  </WithStyles(MarginWrapper)>
+  <WithStyles(MarginWrapper)
+    bottom="lg"
+  >
+    <FormsyInterceptor
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            <WithStyles(Button)
+              color="gray"
+              icon="eye-crossed"
+              iconButton={true}
+              onClick={[Function]}
+              size="small"
+              tabIndex={-1}
+              variant="borderless"
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "type": "text",
+        }
+      }
+      debounceMs={10}
+      fullWidth={true}
+      id="confirmedPassword"
+      label={
+        <FormattedMessage
+          defaultMessage="Confirm new password"
+          id="app.smartComponents.Person.ConfirmedPassword"
+        />
+      }
+      name="confirmedPassword"
+      onInterceptValue={[Function]}
+      passwordHelpBlock={true}
+      required={true}
+      rules={
+        Array [
+          "matchedPassword",
+        ]
+      }
+      validationError="Passwords don't match."
+      validations={
+        Object {
+          "matchPassword": [Function],
+        }
+      }
+    />
+  </WithStyles(MarginWrapper)>
+</div>
+`;
+
+exports[`<ChangePasswordForm /> renderWithForm() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onChange={[Function]}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={2}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MarginWrapper)
+          bottom="lg"
+          top="lg"
+        >
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="end"
+                >
+                  <WithStyles(Button)
+                    color="gray"
+                    icon="eye"
+                    iconButton={true}
+                    onClick={[Function]}
+                    size="small"
+                    tabIndex={-1}
+                    variant="borderless"
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+                "type": "password",
+              }
+            }
+            fullWidth={true}
+            id="currentPassword"
+            label="Current Password"
+            name="currentPassword"
+            onInterceptValue={[Function]}
+          />
+        </WithStyles(MarginWrapper)>
+        <WithStyles(MarginWrapper)
+          bottom="lg"
+        >
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="end"
+                >
+                  <WithStyles(Button)
+                    color="gray"
+                    icon="eye"
+                    iconButton={true}
+                    onClick={[Function]}
+                    size="small"
+                    tabIndex={-1}
+                    variant="borderless"
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+                "type": "password",
+              }
+            }
+            fullWidth={true}
+            id="password"
+            label={
+              <FormattedMessage
+                defaultMessage="New password"
+                id="app.smartComponents.Person.ChangePasswordForm"
+              />
+            }
+            name="password"
+            onInterceptValue={[Function]}
+            passwordHelpBlock={true}
+            required={true}
+            validText=""
+            validationErrors={
+              Object {
+                "matchRegexp": "",
+              }
+            }
+            validations={
+              Object {
+                "matchRegexp": /\\^\\(\\?=\\.\\*\\\\d\\)\\(\\?=\\.\\*\\[a-z\\]\\)\\(\\?=\\.\\*\\[A-Z\\]\\)\\.\\{8,\\}\\$/,
+              }
+            }
+          />
+        </WithStyles(MarginWrapper)>
+        <WithStyles(MarginWrapper)
+          bottom="lg"
+        >
+          <FormsyInterceptor
+            InputProps={
+              Object {
+                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="end"
+                >
+                  <WithStyles(Button)
+                    color="gray"
+                    icon="eye"
+                    iconButton={true}
+                    onClick={[Function]}
+                    size="small"
+                    tabIndex={-1}
+                    variant="borderless"
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+                "type": "password",
+              }
+            }
+            debounceMs={10}
+            fullWidth={true}
+            id="confirmedPassword"
+            label={
+              <FormattedMessage
+                defaultMessage="Confirm new password"
+                id="app.smartComponents.Person.ConfirmedPassword"
+              />
+            }
+            name="confirmedPassword"
+            onInterceptValue={[Function]}
+            passwordHelpBlock={true}
+            required={true}
+            rules={
+              Array [
+                "matchedPassword",
+              ]
+            }
+            validationError="Passwords don't match."
+            validations={
+              Object {
+                "matchPassword": [Function],
+              }
+            }
+          />
+        </WithStyles(MarginWrapper)>
+      </WithStyles(GridItem)>
+      <WithStyles(ForwardRef(Collapse))
+        in={false}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(ForwardRef(Alert))
+            severity="error"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(ForwardRef(Collapse))>
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(JButton)
+              bold={true}
+              onClick={[Function]}
+              padding="lg"
+            >
+              Go back
+            </WithStyles(JButton)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;

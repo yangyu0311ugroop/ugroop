@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeftSideBar/config.js value members should exists 1`] = `
+Array [
+  "organisationDataStore",
+  "roles",
+  123,
+  "confirmed",
+]
+`;

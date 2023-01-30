@@ -1,0 +1,784 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventDetails /> #handleButtonEnter() still matches snapshot 1`] = `
+Array [
+  Array [
+    Object {
+      "eventView": Object {
+        "viewId": 1,
+        "viewOpen": true,
+        "viewTime": 1,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "eventView": Object {
+        "viewId": 1,
+        "viewOpen": true,
+        "viewTime": 1,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "active": true,
+    },
+  ],
+]
+`;
+
+exports[`<EventDetails /> #handleButtonLeave() still matches snapshot 1`] = `
+Array [
+  Array [
+    Object {
+      "eventView": Object {
+        "viewId": 1,
+        "viewOpen": true,
+        "viewTime": 1,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "eventView": Object {
+        "viewId": 1,
+        "viewOpen": true,
+        "viewTime": 1,
+      },
+    },
+  ],
+  Array [
+    Object {
+      "active": true,
+    },
+  ],
+  Array [
+    Object {
+      "active": false,
+    },
+  ],
+]
+`;
+
+exports[`<EventDetails /> openViewDialog() setValue to be called 1`] = `undefined`;
+
+exports[`<EventDetails /> openViewDialog() setValue to be called 2`] = `undefined`;
+
+exports[`<EventDetails /> render() should render list if variant is LIST 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <div>
+      <ConnectFunction
+        dataId={0}
+        setter={true}
+      />
+      <ConnectFunction
+        dataId={0}
+        setter={true}
+      />
+    </div>
+    <WithStyles(Button)
+      disableRipple={true}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <WithStyles(GridContainer)
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(RateSummary)))
+            id={1}
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                alignItems="center"
+                direction="row"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    direction="row"
+                  >
+                    <WithStyles(GridItem)>
+                      <P
+                        dense={true}
+                      >
+                        sometime
+                      </P>
+                    </WithStyles(GridItem)>
+                    <ConnectFunction
+                      dataId={0}
+                      id={1}
+                      omitDate={true}
+                      renderPrefix={[Function]}
+                      showEmpty={false}
+                      templateId={0}
+                      variant="label"
+                    />
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(EventIcon)
+                    position="middle"
+                    size="small"
+                  />
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)>
+                    <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+                      dataId={0}
+                      id={1}
+                      templateId={0}
+                      variant="label"
+                    />
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+                <Hidden
+                  xsDown={true}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Name)))
+                      dataId={0}
+                      id={1}
+                      templateId={0}
+                      variant="labelValue"
+                    />
+                  </WithStyles(GridItem)>
+                </Hidden>
+                <Hidden
+                  smUp={true}
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(Connect(WithSimplifyResaga(Name)))
+                      dataId={0}
+                      id={1}
+                      templateId={0}
+                      variant="labelValue"
+                    />
+                  </WithStyles(GridItem)>
+                </Hidden>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <ConnectFunction
+                  dataId={0}
+                  id={1}
+                  omitPrefix={true}
+                  templateId={0}
+                  variant="label"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <Component
+            dataId={0}
+            id={1}
+            noViewLinkIcon={false}
+            templateId={0}
+            variant="labelValue"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          xs={12}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Url)))
+            dataId={0}
+            readOnly={true}
+            variant="labelValueStacked"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Button)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventDetails /> render() still default matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+    lg={3}
+    md={4}
+    sm={6}
+  >
+    <div>
+      <ConnectFunction
+        dataId={0}
+        setter={true}
+      />
+      <ConnectFunction
+        dataId={0}
+        setter={true}
+      />
+    </div>
+    <WithStyles(UGCard)
+      className=""
+    >
+      <div>
+        <div>
+          <div
+            className=""
+          >
+            <WithStyles(EventIcon)
+              position="middle"
+              showSubIcon={false}
+              size="small"
+            />
+          </div>
+          <div
+            className=""
+          >
+            <WithStyles(EventIcon)
+              position="end"
+              showSubIcon={false}
+              size="small"
+            />
+          </div>
+        </div>
+        <WithStyles(GridContainer)
+          direction="column"
+          spacing={0}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)>
+              <ConnectFunction
+                dataId={0}
+                id={1}
+                templateId={0}
+                variant="labelValue"
+              />
+              <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+                dataId={0}
+                id={1}
+                templateId={0}
+                variant="labelValue"
+              />
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Connect(WithSimplifyResaga(Name)))
+              dataId={0}
+              id={1}
+              templateId={0}
+              variant="labelValue"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem) />
+          <ConnectFunction
+            dataId={0}
+            id={1}
+            omitDate={true}
+            showEmpty={true}
+            templateId={0}
+            variant="label"
+          />
+          <MiddleTime
+            dataId={0}
+            id={1}
+            templateId={0}
+            variant="label"
+          />
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              spacing={0}
+            >
+              <ConnectFunction
+                dataId={0}
+                id={1}
+                omitDate={true}
+                showEmpty={true}
+                templateId={0}
+                variant="label"
+              />
+              <WithStyles(GridItem)
+                xs={true}
+              />
+              <WithStyles(GridItem)>
+                <ConnectFunction
+                  dataId={0}
+                  id={1}
+                  omitPrefix={true}
+                  templateId={0}
+                  variant="label"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <Component
+              dataId={0}
+              id={1}
+              noViewLinkIcon={true}
+              templateId={0}
+              variant="labelValue"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(UGCard)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventDetails /> render() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  className=""
+  lg={3}
+  md={4}
+  sm={6}
+>
+  <div>
+    <ConnectFunction
+      dataId={0}
+      setter={true}
+    />
+    <ConnectFunction
+      dataId={0}
+      setter={true}
+    />
+  </div>
+  <WithStyles(UGCard)
+    className=""
+  >
+    <div>
+      <div>
+        <div
+          className=""
+        >
+          <WithStyles(EventIcon)
+            position="middle"
+            showSubIcon={false}
+            size="small"
+          />
+        </div>
+      </div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)>
+            <ConnectFunction
+              dataId={0}
+              id={1}
+              templateId={0}
+              variant="labelValue"
+            />
+            <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+              dataId={0}
+              id={1}
+              templateId={0}
+              variant="labelValue"
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            dataId={0}
+            id={1}
+            templateId={0}
+            variant="labelValue"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem) />
+        <ConnectFunction
+          dataId={0}
+          id={1}
+          omitDate={true}
+          showEmpty={true}
+          templateId={0}
+          variant="label"
+        />
+        <MiddleTime
+          dataId={0}
+          id={1}
+          templateId={0}
+          variant="label"
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            spacing={0}
+          >
+            <ConnectFunction
+              dataId={0}
+              id={1}
+              omitDate={true}
+              showEmpty={true}
+              templateId={0}
+              variant="label"
+            />
+            <WithStyles(GridItem)
+              xs={true}
+            />
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                dataId={0}
+                id={1}
+                omitPrefix={true}
+                templateId={0}
+                variant="label"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <Component
+            dataId={0}
+            id={1}
+            noViewLinkIcon={true}
+            templateId={0}
+            variant="labelValue"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(UGCard)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventDetails /> renderAirport() still match snapshot if position=end 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderAirport() still match snapshot if position=start 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderAirportLocationEnd() still match snapshot if position=end 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderAirportLocationEnd() still match snapshot if position=start 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderAirportLocationStart() still match snapshot if position=end 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderAirportLocationStart() still match snapshot if position=start 1`] = `
+<React.Fragment>
+  <Unknown
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="card"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderLocation() still match snapshot if no location 1`] = `
+<Unknown
+  dataId={0}
+  id={1}
+  noViewLinkIcon={true}
+  templateId={0}
+  variant="labelValue"
+/>
+`;
+
+exports[`<EventDetails /> renderLocationList() still matches snapshot if no times 1`] = `
+<React.Fragment>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <Memo(Connect(WithSimplifyResaga(Start)))
+        dataId={0}
+        id={1}
+        label="Departing:"
+        labelDirection="row"
+        noViewLinkIcon={true}
+        showLabel={true}
+        templateId={0}
+        variant="icon"
+      />
+      <Memo(Connect(WithSimplifyResaga(End)))
+        dataId={0}
+        id={1}
+        label="Arriving:"
+        labelDirection="row"
+        noViewLinkIcon={true}
+        showLabel={true}
+        templateId={0}
+        variant="icon"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Distance)))))
+        dataId={0}
+        variant="labelValue"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderLocationList() still matches snapshot if start time and no end time 1`] = `
+<Unknown
+  dataId={0}
+  id={1}
+  noViewLinkIcon={true}
+  templateId={0}
+  variant="labelValue"
+/>
+`;
+
+exports[`<EventDetails /> renderPrefix() Must return param 1`] = `"test"`;
+
+exports[`<EventDetails /> renderTime() still matches snapshot if end time and no start time 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <Unknown
+      dataId={0}
+      id={1}
+      templateId={0}
+      variant="card"
+    />
+  </React.Fragment>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <Memo(Connect(WithSimplifyResaga(EndTime)))
+        dataId={0}
+        id={1}
+        omitDate={true}
+        showEmpty={true}
+        templateId={0}
+        variant="label"
+      />
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(Duration)))
+          dataId={0}
+          id={1}
+          omitPrefix={true}
+          templateId={0}
+          variant="label"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderTime() still matches snapshot if its transportation 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(StartTime)))
+    dataId={0}
+    id={1}
+    omitDate={true}
+    showEmpty={true}
+    templateId={0}
+    variant="label"
+  />
+  <MiddleTime
+    dataId={0}
+    id={1}
+    templateId={0}
+    variant="label"
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <Memo(Connect(WithSimplifyResaga(EndTime)))
+        dataId={0}
+        id={1}
+        omitDate={true}
+        showEmpty={true}
+        templateId={0}
+        variant="label"
+      />
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(Duration)))
+          dataId={0}
+          id={1}
+          omitPrefix={true}
+          templateId={0}
+          variant="label"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderTime() still matches snapshot if no times 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(StartTime)))
+    dataId={0}
+    id={1}
+    omitDate={true}
+    showEmpty={true}
+    templateId={0}
+    variant="label"
+  />
+  <Memo(Connect(WithSimplifyResaga(Start)))
+    dataId={0}
+    id={1}
+    noViewLinkIcon={true}
+    showLabel={false}
+    templateId={0}
+    variant="icon"
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <Memo(Connect(WithSimplifyResaga(EndTime)))
+        dataId={0}
+        id={1}
+        omitDate={true}
+        showEmpty={true}
+        templateId={0}
+        variant="label"
+      />
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(Duration)))
+          dataId={0}
+          id={1}
+          omitPrefix={true}
+          templateId={0}
+          variant="label"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+  <Memo(Connect(WithSimplifyResaga(End)))
+    dataId={0}
+    id={1}
+    noViewLinkIcon={true}
+    showLabel={false}
+    templateId={0}
+    variant="icon"
+  />
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderTime() still matches snapshot if start time and no end time 1`] = `
+<React.Fragment>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <Memo(Connect(WithSimplifyResaga(StartTime)))
+        dataId={0}
+        id={1}
+        omitDate={true}
+        showEmpty={true}
+        templateId={0}
+        variant="label"
+      />
+      <WithStyles(GridItem)
+        xs={true}
+      />
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(Duration)))
+          dataId={0}
+          id={1}
+          omitPrefix={true}
+          templateId={0}
+          variant="label"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventDetails /> renderTimeAsRange() still matches snapshot if no times 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="row"
+  >
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        sometime
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventDetails /> renderTimeAsRange() still matches snapshot if start time and no end time 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)
+    direction="row"
+  >
+    <Memo(Connect(WithSimplifyResaga(StartTime)))
+      dataId={0}
+      id={1}
+      omitDate={true}
+      renderPrefix={[Function]}
+      showEmpty={true}
+      templateId={0}
+      variant="label"
+    />
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;

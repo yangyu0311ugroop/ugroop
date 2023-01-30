@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableMenuItemValue /> #getMenuItemContentProps() still matches snapshot if selected 1`] = `
+Object {
+  "weight": "bold",
+}
+`;
+
+exports[`<EditableMenuItemValue /> #getMenuItemProps() still matches snapshot if selected 1`] = `
+Object {
+  "IconProps": Object {
+    "bold": true,
+    "color": "success",
+  },
+  "weight": "bold",
+}
+`;
+
+exports[`<EditableMenuItemValue /> Smoke tests should render properly 1`] = `
+<WithStyles(GridContainer)
+  alignItems="center"
+>
+  <WithStyles(GridItem)>
+    <WithStyles(Checkbox)
+      checked={false}
+      disableRipple={false}
+      disabled={false}
+      onClick={[Function]}
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <WithStyles(MenuItem)
+      IconProps={
+        Object {
+          "color": "clear",
+        }
+      }
+      disabled={false}
+      hideIcon={false}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          <P
+            dense={true}
+          >
+            Children
+          </P>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            imageSize="imageExtraExtraSmall"
+            userId={1}
+            xs={true}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(MenuItem)>
+  </WithStyles(GridItem)>
+</WithStyles(GridContainer)>
+`;

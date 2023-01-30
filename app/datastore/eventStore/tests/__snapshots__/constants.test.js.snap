@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/eventStore/constants #EVENT_PATHS still matches snapshot 1`] = `
+Object {
+  "activityDetailEnd": Array [
+    "detail",
+    "activityDetails",
+    "end",
+  ],
+  "activityDetailEndIcon": Array [
+    "detail",
+    "activityDetails",
+    "end",
+    "icon",
+  ],
+  "activityDetailEndName": Array [
+    "detail",
+    "activityDetails",
+    "end",
+    "name",
+  ],
+  "activityDetailEndPlaceId": Array [
+    "detail",
+    "activityDetails",
+    "end",
+    "placeId",
+  ],
+  "activityDetailKey": Array [
+    "key",
+  ],
+  "activityDetailStart": Array [
+    "detail",
+    "activityDetails",
+    "start",
+  ],
+  "activityDetailStartIcon": Array [
+    "detail",
+    "activityDetails",
+    "start",
+    "icon",
+  ],
+  "activityDetailStartName": Array [
+    "detail",
+    "activityDetails",
+    "start",
+    "name",
+  ],
+  "activityDetailStartPlaceId": Array [
+    "detail",
+    "activityDetails",
+    "start",
+    "placeId",
+  ],
+  "activityDetailValue": Array [
+    "value",
+  ],
+  "activityDetails": Array [
+    "detail",
+    "activityDetails",
+  ],
+  "actualAmount": Array [
+    "eventAmounts",
+    "actualAmount",
+  ],
+  "airline": Array [
+    "detail",
+    "detail",
+    "airline",
+  ],
+  "attendance": Array [
+    "attendance",
+  ],
+  "batchCreate": Array [
+    "batchCreate",
+  ],
+  "bookedBy": Array [
+    "detail",
+    "bookedBy",
+  ],
+  "bookerName": Array [
+    "detail",
+    "bookedBy",
+  ],
+  "bookingDate": Array [
+    "detail",
+    "bookingDate",
+  ],
+  "bookingNumber": Array [
+    "detail",
+    "bookingNumber",
+  ],
+  "bookingPersonCount": Array [
+    "detail",
+    "bookingPersonCount",
+  ],
+  "budgetAmount": Array [
+    "eventAmounts",
+    "budgetAmount",
+  ],
+  "cancellation": Array [
+    "cancellation",
+  ],
+  "currency": Array [
+    "eventAmounts",
+    "currency",
+  ],
+  "dailyAttendance": Array [
+    "attendance",
+    "recordEachDay",
+  ],
+  "description": Array [
+    "description",
+  ],
+  "endAirportName": Array [
+    "detail",
+    "detail",
+    "end",
+    "airport",
+    "name",
+  ],
+  "endAttendance": Array [
+    "attendance",
+    "recordEventEnd",
+  ],
+  "endCityName": Array [
+    "detail",
+    "detail",
+    "end",
+    "airport",
+    "cityName",
+  ],
+  "endIataCode": Array [
+    "detail",
+    "detail",
+    "end",
+    "airport",
+    "iataCode",
+  ],
+  "eventAmountId": Array [
+    "eventAmounts",
+    "id",
+  ],
+  "eventAttachments": Array [
+    "eventAttachments",
+  ],
+  "flightBooking": Array [
+    "detail",
+    "detail",
+    "flightBookingId",
+  ],
+  "flightNumber": Array [
+    "detail",
+    "detail",
+    "flightNumber",
+  ],
+  "flightTravelClass": Array [
+    "detail",
+    "detail",
+    "travelClass",
+  ],
+  "gate": Array [
+    "detail",
+    "detail",
+    "gate",
+  ],
+  "iconOverride": Array [
+    "detail",
+    "iconOverride",
+  ],
+  "locationIcon": Array [
+    "location",
+    "icon",
+  ],
+  "locationName": Array [
+    "location",
+    "name",
+  ],
+  "locationPlaceName": Array [
+    "location",
+    "placeName",
+  ],
+  "name": Array [
+    "name",
+  ],
+  "numberOfRooms": Array [
+    "detail",
+    "numberOfRooms",
+  ],
+  "paidBy": Array [
+    "detail",
+    "paidBy",
+  ],
+  "placeId": Array [
+    "location",
+    "placeId",
+  ],
+  "roomType": Array [
+    "detail",
+    "roomType",
+  ],
+  "sameAsOrigin": Array [
+    "detail",
+    "detail",
+    "common",
+    "sameAsOrigin",
+  ],
+  "startAirportName": Array [
+    "detail",
+    "detail",
+    "start",
+    "airport",
+    "name",
+  ],
+  "startAttendance": Array [
+    "attendance",
+    "recordEventStart",
+  ],
+  "startCityName": Array [
+    "detail",
+    "detail",
+    "start",
+    "airport",
+    "cityName",
+  ],
+  "startIataCode": Array [
+    "detail",
+    "detail",
+    "start",
+    "airport",
+    "iataCode",
+  ],
+  "subDetailBookerName": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "bookedBy",
+  ],
+  "subDetailBookingNumber": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "bookingNumber",
+  ],
+  "subDetailBookingPersonCount": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "personCount",
+  ],
+  "subDetailDropoff": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+  ],
+  "subDetailDropoffIcon": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "icon",
+  ],
+  "subDetailDropoffName": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "name",
+  ],
+  "subDetailDropoffPlaceId": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "placeId",
+  ],
+  "subDetailPickup": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+  ],
+  "subDetailPickupIcon": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "icon",
+  ],
+  "subDetailPickupName": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "name",
+  ],
+  "subDetailPickupPlaceId": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "placeId",
+  ],
+  "subDetailSupplierName": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "supplierName",
+  ],
+  "subDetailSupplierPhone": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "supplierNumber",
+  ],
+  "subSubType": Array [
+    "detail",
+    "detail",
+    "type",
+  ],
+  "subtype": Array [
+    "detail",
+    "type",
+  ],
+  "supplierName": Array [
+    "detail",
+    "supplier",
+  ],
+  "supplierPhone": Array [
+    "detail",
+    "supplierPhoneNumber",
+  ],
+  "tempDayRange": Array [
+    "tempDayRange",
+  ],
+  "terminal": Array [
+    "detail",
+    "detail",
+    "terminal",
+  ],
+  "transportationDetailBookerName": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "bookedBy",
+  ],
+  "transportationDetailBookingDate": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "bookingDate",
+  ],
+  "transportationDetailBookingNumber": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "bookingNumber",
+  ],
+  "transportationDetailBookingPersonCount": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "personCount",
+  ],
+  "transportationDetailEnd": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+  ],
+  "transportationDetailEndIcon": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "icon",
+  ],
+  "transportationDetailEndName": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "name",
+  ],
+  "transportationDetailEndPlaceId": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "placeId",
+  ],
+  "transportationDetailEndPlaceName": Array [
+    "detail",
+    "detail",
+    "common",
+    "end",
+    "placeName",
+  ],
+  "transportationDetailPaidBy": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "paidBy",
+  ],
+  "transportationDetailStart": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+  ],
+  "transportationDetailStartIcon": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "icon",
+  ],
+  "transportationDetailStartName": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "name",
+  ],
+  "transportationDetailStartPlaceId": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "placeId",
+  ],
+  "transportationDetailStartPlaceName": Array [
+    "detail",
+    "detail",
+    "common",
+    "start",
+    "placeName",
+  ],
+  "transportationDetailSupplierName": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "supplierName",
+  ],
+  "transportationDetailSupplierPhone": Array [
+    "detail",
+    "detail",
+    "common",
+    "eventBooking",
+    "supplierNumber",
+  ],
+  "transportationType": Array [
+    "detail",
+    "detail",
+    "type",
+  ],
+  "type": Array [
+    "type",
+  ],
+  "url": Array [
+    "url",
+  ],
+}
+`;
+
+exports[`datastore/eventStore/constants #FLIGHT_BOOKING_PATHS still matches snapshot 1`] = `
+Object {
+  "bookingAmounts": Array [
+    "bookingAmounts",
+  ],
+  "createdBy": Array [
+    "createdBy",
+  ],
+  "name": Array [
+    "name",
+  ],
+  "number": Array [
+    "bookingNumber",
+  ],
+  "passengerCount": Array [
+    "passengerCount",
+  ],
+  "supplierName": Array [
+    "supplier",
+  ],
+}
+`;

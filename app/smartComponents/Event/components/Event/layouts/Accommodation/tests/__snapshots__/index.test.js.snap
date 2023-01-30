@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accommodation /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Accommodation /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <EventDetails
+      defaultExpanded={true}
+      descriptionOnly={false}
+      showEventLocation={true}
+      variant={null}
+    />
+    <AccommodationStartEnd
+      variant={null}
+    />
+    <EventBooking
+      personCountLabel={
+        <FormattedMessage
+          defaultMessage="Guest Count"
+          id="app.Event.layouts.Accommodation.bookingPersonCountLabel"
+        />
+      }
+      personCountPlaceholder="Click to specify guest count"
+      variant={null}
+    />
+    <ConnectFunction
+      dailyAttendance={true}
+      variant={null}
+    />
+    <WithStyles(Connect(WithSimplifyResaga(Attachments)))
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Accommodation /> #renderField() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <EventDetails
+      defaultExpanded={true}
+      descriptionOnly={false}
+      showEventLocation={true}
+      variant={null}
+    />
+    <AccommodationStartEnd
+      variant={null}
+    />
+    <EventBooking
+      personCountLabel={
+        <FormattedMessage
+          defaultMessage="Guest Count"
+          id="app.Event.layouts.Accommodation.bookingPersonCountLabel"
+        />
+      }
+      personCountPlaceholder="Click to specify guest count"
+      variant={null}
+    />
+    <ConnectFunction
+      dailyAttendance={true}
+      variant={null}
+    />
+  </WithStyles(GridContainer)>
+</div>
+`;

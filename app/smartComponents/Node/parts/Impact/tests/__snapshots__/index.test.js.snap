@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Impact /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Head)>
+        Impact
+      </WithStyles(Head)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      renderContent
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Impact /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(MenuButton)
+    dense={false}
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(RatingButton)))
+          active={true}
+          text="Insignificant"
+          title="Minimal impact"
+          value={0}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuButton)>
+</div>
+`;
+
+exports[`<Impact /> renderContent() should renderContent 1`] = `
+<div>
+  <ConnectFunction
+    menuHeader="Impact"
+    noPadding={true}
+    renderButton={[Function]}
+    stopPropagation={true}
+    value={0}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<Impact /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Insignificant
+        </b>
+        : Minimal impact
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Minor
+        </b>
+        : Short-term impact
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Moderate
+        </b>
+        : Significant impact
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Major
+        </b>
+        : Major short-term impact
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        <b>
+          Catastrophic
+        </b>
+        : Major long-term impact
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

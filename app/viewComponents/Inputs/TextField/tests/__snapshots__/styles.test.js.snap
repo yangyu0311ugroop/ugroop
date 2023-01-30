@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`viewComponents/Inputs/TextField/styles should match snapshot 1`] = `
+Object {
+  "error": "-error",
+  "root": "-root",
+}
+`;

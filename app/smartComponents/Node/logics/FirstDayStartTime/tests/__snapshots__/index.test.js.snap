@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstDayStartTime /> updateFirstDayStartTime() should setValue firstEventTime 1`] = `
+Array [
+  Array [
+    Object {
+      "firstEventId": null,
+      "startTime": null,
+    },
+  ],
+  Array [
+    Object {
+      "firstEventId": undefined,
+      "startTime": "2899-12-30T11:59:59.999Z",
+    },
+  ],
+]
+`;
+
+exports[`<FirstDayStartTime /> updateFirstDayStartTime() should setValue null 1`] = `
+Array [
+  Array [
+    Object {
+      "firstEventId": null,
+      "startTime": null,
+    },
+  ],
+  Array [
+    Object {
+      "firstEventId": null,
+      "startTime": null,
+    },
+  ],
+]
+`;
+
+exports[`<FirstDayStartTime /> updateFirstDayStartTime() should setValue startTime 1`] = `
+Array [
+  Array [
+    Object {
+      "firstEventId": null,
+      "startTime": null,
+    },
+  ],
+  Array [
+    Object {
+      "firstEventId": null,
+      "startTime": "1899-12-30T11:59:59.999Z",
+    },
+  ],
+]
+`;

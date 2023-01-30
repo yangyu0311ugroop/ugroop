@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrencyField /> #render() still matches snapshot 1`] = `
+<Formsy(WithStyles(SelectField))
+  innerRef={[Function]}
+  name="currency"
+  options={
+    Array [
+      Object {
+        "children": "None",
+        "value": "",
+      },
+      Object {
+        "children": "United States Dollar",
+        "value": "USD",
+      },
+      Object {
+        "children": "European Euro",
+        "value": "EUR",
+      },
+      Object {
+        "children": "Japanese Yen",
+        "value": "JPY",
+      },
+      Object {
+        "children": "British Pound",
+        "value": "GBP",
+      },
+      Object {
+        "children": "Swiss Franc",
+        "value": "CHF",
+      },
+      Object {
+        "children": "Canadian Dollar",
+        "value": "CAD",
+      },
+      Object {
+        "children": "Australian Dollar",
+        "value": "AUD",
+      },
+      Object {
+        "children": "New Zealand Dollar",
+        "value": "NZD",
+      },
+      Object {
+        "children": "South African Rand",
+        "value": "ZAR",
+      },
+    ]
+  }
+  required={false}
+  validationError=""
+  validationErrors={Object {}}
+  validations={null}
+/>
+`;

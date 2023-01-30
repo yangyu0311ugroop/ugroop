@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGSelect /> should render what should be rendered 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGDialogText component should render something 1`] = `
+<WithStyles(ForwardRef(DialogContentText))
+  classes={
+    Object {
+      "root": "UGDialogText-root",
+    }
+  }
+>
+  Jesus!
+</WithStyles(ForwardRef(DialogContentText))>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGHomePageIndex /> renders the Homepage 1`] = `
+<UGLandingLayout>
+  <WithStyles(GridItem)>
+    <WithStyles(TourganizerBlock) />
+    <WithStyles(DoNotWorryBlock) />
+    <WithStyles(PlansBlock) />
+    <WithStyles(CompaniesBlock) />
+  </WithStyles(GridItem)>
+</UGLandingLayout>
+`;

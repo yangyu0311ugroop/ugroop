@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JLocation /> renderIcons() should renderIcons airport 1`] = `<div />`;
+
+exports[`<JLocation /> renderIcons() should renderIcons cafe 1`] = `<div />`;
+
+exports[`<JLocation /> renderIcons() should renderIcons food 1`] = `<div />`;
+
+exports[`<JLocation /> renderIcons() should renderIcons lodging 1`] = `<div />`;
+
+exports[`<JLocation /> renderSuggestion() should renderSuggestion !types 1`] = `<div />`;
+
+exports[`<JLocation /> renderSuggestion() should renderSuggestion 1`] = `<div />`;
+
+exports[`<JLocation /> renderSuggestions() should renderSuggestions 1`] = `<div />`;

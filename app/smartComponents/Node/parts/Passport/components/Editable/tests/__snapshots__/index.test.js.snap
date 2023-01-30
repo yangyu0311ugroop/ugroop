@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PassportEditable /> render should match snapshot 1`] = `
+<div>
+  <Editable
+    label={
+      <FormattedMessage
+        defaultMessage="Passport"
+        id="app.Node.parts.Passport.label"
+      />
+    }
+    onClick={[Function]}
+    placeholder="Click to specify passport details"
+    readOnly={false}
+    readOnlyPlaceholder="None"
+    renderActions={[Function]}
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;

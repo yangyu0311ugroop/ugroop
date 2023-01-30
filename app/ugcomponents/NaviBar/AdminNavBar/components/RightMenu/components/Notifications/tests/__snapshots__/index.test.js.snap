@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notifications /> render() should render 1`] = `
+<div>
+  <WithStyles(NavItem)
+    count={0}
+    popper={true}
+    renderButton={[Function]}
+    renderMenu={[Function]}
+    renderTooltip={[Function]}
+    title="Notifications"
+  />
+</div>
+`;
+
+exports[`<Notifications /> renderButton() should renderButton 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="lnr-alarm"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Notifications /> renderMenu() should renderMenu 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Component)))
+    fixWidth={true}
+  />
+</div>
+`;
+
+exports[`<Notifications /> renderTooltip() should renderTooltip 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ContentWrapper)))
+    id={1}
+    simple={true}
+  />
+</div>
+`;

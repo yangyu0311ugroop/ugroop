@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourRoles /> formatRoles() should return 1 1`] = `"tour_owner"`;
+
+exports[`<TourRoles /> formatRoles() should return 2 1`] = `"tour_owner and tour_interested"`;
+
+exports[`<TourRoles /> formatRoles() should return 3 1`] = `"tour_owner, tour_interested and tour_participant"`;
+
+exports[`<TourRoles /> render() should render 1`] = `
+<div>
+  renderRoles
+</div>
+`;
+
+exports[`<TourRoles /> renderRoles() should renderRoles 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-users"
+          paddingRight={true}
+          size="xsmall"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className="j-text-ellipsis"
+        title="You are undefined"
+      >
+        You are undefined
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TourRoles /> translateRoles() should translateRoles() 1`] = `
+Array [
+  "Owner",
+  "Viewer",
+]
+`;

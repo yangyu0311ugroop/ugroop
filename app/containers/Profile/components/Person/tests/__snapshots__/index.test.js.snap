@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Person /> onClickRenderPage should call history push function 1`] = `
+Array [
+  Array [
+    "http://sample?",
+  ],
+]
+`;
+
+exports[`<Person /> render() should render correctly 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)
+          md={3}
+          xs={12}
+        >
+          <WithStyles(GridContainer)>
+            <withRouter(WithStyles(ProfileTabHeader))
+              id={1}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={9}
+          xs={12}
+        >
+          <WithStyles(GridContainer)>
+            <withRouter(Content)
+              userId={1}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </Hidden>
+  <Hidden
+    mdUp={true}
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={true}
+      enabled={true}
+      innerZ={1000}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={38}
+    >
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          placement="bottom-end"
+          quarterPadding={true}
+          renderButton={[Function]}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </Sticky>
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)>
+        <withRouter(Content)
+          userId={1}
+        />
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Person /> render() should render loading if getPersonDetailsLoading is true 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)
+          md={3}
+          xs={12}
+        >
+          <WithStyles(GridContainer)>
+            <withRouter(WithStyles(ProfileTabHeader))
+              id={1}
+            />
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          md={9}
+          xs={12}
+        >
+          <WithStyles(GridContainer)>
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(LoadingText) />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </Hidden>
+  <Hidden
+    mdUp={true}
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary={0}
+      enableTransforms={true}
+      enabled={true}
+      innerZ={1000}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={38}
+    >
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          placement="bottom-end"
+          quarterPadding={true}
+          renderButton={[Function]}
+        >
+          <Component />
+        </ConnectFunction>
+      </WithStyles(GridItem)>
+    </Sticky>
+    <WithStyles(Container)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(LoadingText) />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridContainer)>
+    </WithStyles(Container)>
+  </Hidden>
+</div>
+`;
+
+exports[`<Person /> renderSettingTabDropDownButton should call history push function and render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    card={true}
+    dense={true}
+    direction="column"
+    justify="flex-start"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(Button)
+        color="normal"
+        noMargin={true}
+        size="base"
+      >
+        Change Password
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderSettingTabDropDownButton should call history push function, undefined, and render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="flex-start"
+    card={true}
+    dense={true}
+    direction="column"
+    justify="flex-start"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(Button)
+        color="normal"
+        noMargin={true}
+        size="base"
+      >
+        Profile
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderSettingTabDropDownMenu should call history push function and render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      Personal Settings
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="0"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Profile
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Change Password
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="2"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Organisations
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="3"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Preferences
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="4"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Passports
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="6"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Billing
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      Organisation Settings
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+        variant="listItem"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Person /> renderSettingTabDropDownMenu should call history push function, undefined, and render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      Personal Settings
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="0"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={true}
+      >
+        Profile
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="1"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Change Password
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="2"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Organisations
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="3"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Preferences
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="4"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Passports
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="6"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+        selected={false}
+      >
+        Billing
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+  <WithStyles(GridContainer)
+    direction="column"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      Organisation Settings
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(OrgRoleTable)))
+        variant="listItem"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

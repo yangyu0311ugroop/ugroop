@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeeDetail/config.js value should exists 1`] = `
+Object {
+  "ownerUserId": [Function],
+  "userId": Object {
+    "getter": [Function],
+    "keyPath": Array [
+      [Function],
+      Array [
+        "templateManagementView",
+        "tourConnection",
+        "userId",
+      ],
+    ],
+  },
+}
+`;

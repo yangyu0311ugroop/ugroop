@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGMenu component should Menu of material-ui with custom style 1`] = `
+<WithStyles(ForwardRef(Menu))
+  className="UGMenu-ugMenu"
+/>
+`;

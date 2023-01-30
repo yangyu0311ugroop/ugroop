@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UGImage /> component should accept size params 1`] = `
+<WithStyles(UGImageUI)
+  alt=""
+  className=""
+  cropMetaInfo={Object {}}
+  imageUrl="https://www.placecage.com/100/100"
+  imgClassName=""
+  isLazyLoad={true}
+  onError={null}
+  onLoad={null}
+  padFacadeURL={false}
+  resizeHeight={null}
+  resizeWidth={null}
+  rotate={0}
+  round={false}
+  size="small"
+/>
+`;
+
+exports[`<UGImage /> component should accept size params 2`] = `
+<WithStyles(UGImageUI)
+  alt=""
+  className=""
+  cropMetaInfo={Object {}}
+  imageUrl="https://www.placecage.com/100/100"
+  imgClassName=""
+  isLazyLoad={true}
+  onError={null}
+  onLoad={null}
+  padFacadeURL={false}
+  resizeHeight={null}
+  resizeWidth={null}
+  rotate={0}
+  round={false}
+  size="medium"
+/>
+`;
+
+exports[`<UGImage /> component should accept size params 3`] = `
+<WithStyles(UGImageUI)
+  alt=""
+  className=""
+  cropMetaInfo={Object {}}
+  imageUrl="https://www.placecage.com/100/100"
+  imgClassName=""
+  isLazyLoad={true}
+  onError={null}
+  onLoad={null}
+  padFacadeURL={false}
+  resizeHeight={null}
+  resizeWidth={null}
+  rotate={0}
+  round={false}
+  size="large"
+/>
+`;
+
+exports[`<UGImage /> component should accept size params 4`] = `
+<WithStyles(UGImageUI)
+  alt=""
+  className=""
+  cropMetaInfo={Object {}}
+  imageUrl="https://www.placecage.com/100/100"
+  imgClassName=""
+  isLazyLoad={true}
+  onError={null}
+  onLoad={null}
+  padFacadeURL={false}
+  resizeHeight={null}
+  resizeWidth={null}
+  rotate={0}
+  round={false}
+  size="extrasmall"
+/>
+`;
+
+exports[`<UGImage /> component should accept size params 5`] = `
+<WithStyles(UGImageUI)
+  alt=""
+  className=""
+  cropMetaInfo={Object {}}
+  imageUrl="https://www.placecage.com/100/100"
+  imgClassName=""
+  isLazyLoad={true}
+  onError={null}
+  onLoad={null}
+  padFacadeURL={false}
+  resizeHeight={null}
+  resizeWidth={null}
+  rotate={0}
+  round={false}
+  size="custom"
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Risks /> render() should render 1`] = `
+<div>
+  LOGIC_HELPERS.switchCase
+</div>
+`;
+
+exports[`<Risks /> renderCard() should renderCard 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RiskCard)))
+    classes={Object {}}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

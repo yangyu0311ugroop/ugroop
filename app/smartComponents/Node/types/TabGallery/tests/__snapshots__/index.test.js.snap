@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabGallery /> render() should render correctly 1`] = `<div />`;
+
+exports[`<TabGallery /> render() should render correctly if variant is badge 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Badge)))
+    classes={Object {}}
+    isPublic={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Pub",
+              "getTemplateTab",
+              Object {
+                "payload": Object {
+                  "hashkey": "123",
+                  "id": 1,
+                  "tab": Object {
+                    "id": 1,
+                    "type": "tabgallery",
+                  },
+                  "templateId": 2,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<TabGallery /> render() should render correctly if variant is table 1`] = `<div />`;
+
+exports[`<TabGallery /> renderCard() should renderCard 1`] = `
+<div>
+  <withRouter(WithStyles(Connect(WithSimplifyResaga(Card))))
+    classes={Object {}}
+    isPublic={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Pub",
+              "getTemplateTab",
+              Object {
+                "payload": Object {
+                  "hashkey": "123",
+                  "id": 1,
+                  "tab": Object {
+                    "id": 1,
+                    "type": "tabgallery",
+                  },
+                  "templateId": 2,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<TabGallery /> renderTab() should renderTab 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Component)))
+    classes={Object {}}
+    isPublic={false}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Pub",
+              "getTemplateTab",
+              Object {
+                "payload": Object {
+                  "hashkey": "123",
+                  "id": 1,
+                  "tab": Object {
+                    "id": 1,
+                    "type": "tabgallery",
+                  },
+                  "templateId": 2,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      }
+    }
+  />
+</div>
+`;

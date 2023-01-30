@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> handle close click 1`] = `undefined`;
+
+exports[`<Header /> render should match snapshot if smDown 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="blue"
+            icon="lnr-alarm"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          className=""
+        >
+          Notifications
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Button)
+            className=""
+            onClick={[Function]}
+            size="extraSmall"
+            variant="outline"
+          >
+            Mark All as Read
+          </WithStyles(Button)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(CloseButton)
+            onClick={[Function]}
+          >
+            <WithStyles(Icon)
+              icon="lnr-cross2"
+              size="xxs"
+            />
+          </WithStyles(CloseButton)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Header /> renderMarkAllButton 1`] = `undefined`;
+
+exports[`<Header /> renderMarkAllButton without ugroopid  1`] = `undefined`;
+
+exports[`<Header /> to match with Snapshot 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="row"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          color="blue"
+          icon="lnr-alarm"
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        className=""
+      >
+        Notifications
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          className=""
+          onClick={[Function]}
+          size="extraSmall"
+          variant="outline"
+        >
+          Mark All as Read
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(CloseButton)
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+            size="xxs"
+          />
+        </WithStyles(CloseButton)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;

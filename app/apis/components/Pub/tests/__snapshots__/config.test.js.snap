@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/Pub/config #requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "get",
+    "/Pub/template/abcd/events",
+  ],
+  Array [
+    "get",
+    "/Pub/template/abcd/people",
+  ],
+  Array [
+    "get",
+    "/Pub/template/abcd/times?ids=[1]",
+  ],
+  Array [
+    "get",
+    "/Pub/template/abcd/tree",
+  ],
+  Array [
+    "get",
+    "/Pub/template/abcd",
+  ],
+  Array [
+    "get",
+    "/Pub/template/abcd/tab/undefined",
+  ],
+  Array [
+    "post",
+    "/Pub/template/abcd/interest",
+    "data",
+  ],
+  Array [
+    "get",
+    "/Pub/details?userIds=[10,11]&organisationIds=[22,33]",
+  ],
+]
+`;
+
+exports[`apis/Pub/config processResult should process the result of BATCH_GET_PUB_TEMPLATE_TAB 1`] = `
+Object {
+  "files": [Function],
+  "nodes": [Function],
+  "result": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`apis/Pub/config processResult should process the result of GET_DETAILS 1`] = `
+Object {
+  "location": [Function],
+  "organisation": [Function],
+  "person": [Function],
+  "photo": [Function],
+}
+`;
+
+exports[`apis/Pub/config processResult should process the result of GET_DETAILS 2`] = `Object {}`;

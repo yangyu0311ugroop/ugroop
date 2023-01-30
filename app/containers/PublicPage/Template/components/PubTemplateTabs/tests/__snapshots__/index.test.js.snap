@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pub Template Tab render shall match with snapshot 1`] = `
+<Fragment>
+  <WithStyles(withRouter())
+    hashkey=""
+    isPublic={true}
+    pathname="/tours/undefined"
+    tabId={1}
+  />
+</Fragment>
+`;

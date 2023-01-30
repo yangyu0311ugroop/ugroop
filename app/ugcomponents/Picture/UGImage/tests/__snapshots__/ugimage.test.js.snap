@@ -1,0 +1,695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UGImageUI  UGImageUI component  should accept a className prop 1`] = `
+<div
+  className="my-root"
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept a false padFacadeURL 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept a true padFacadeURL 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept alt prop 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt="Test Image"
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept an imgClassName prop 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className="my-img"
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept crop meta info 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?h=0.4&w=0.3&x=0.1&y=0.2"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept resizeHeight 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?height=200"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept resizeWidth 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?width=1000"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept roundness (1) 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className="undefined"
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept roundness (2) 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various rotation values 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various rotation values 2`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?rotate=90"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various rotation values 3`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?rotate=180"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various rotation values 4`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg?rotate=270"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various sizes 1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various sizes 2`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various sizes 3`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various sizes 4`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should accept various sizes 5`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should exist  1`] = `
+<div
+  className=""
+>
+  <LazyLoad
+    height={40}
+    offset={0}
+    once={true}
+    overflow={false}
+    placeholder={
+      <Loading
+        className=""
+        color="#fff"
+        delay={1000}
+        height={40}
+        type="bubbles"
+        width={64}
+      />
+    }
+    resize={false}
+    scroll={true}
+    unmountIfInvisible={false}
+  >
+    <Img
+      alt=""
+      className=""
+      onError={null}
+      onLoad={null}
+      src="https://some.domain.com/images/beach.jpg"
+    />
+  </LazyLoad>
+</div>
+`;
+
+exports[`UGImageUI  UGImageUI component  should render when isLazyLoad is false) 1`] = `
+<div
+  className=""
+>
+  <Img
+    alt=""
+    className=""
+    onError={null}
+    onLoad={null}
+    src="https://some.domain.com/images/beach.jpg"
+  />
+</div>
+`;

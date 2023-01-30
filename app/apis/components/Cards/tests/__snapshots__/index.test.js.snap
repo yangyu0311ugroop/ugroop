@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardsAPI /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "createCustomerCard": Object {
+        "onSuccess": [MockFunction],
+      },
+      "deleteCustomerCard": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getCustomerCards": Object {
+        "onSuccess": [MockFunction],
+      },
+      "updateCustomerCard": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;

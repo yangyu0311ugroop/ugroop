@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilledTextField /> render() should render 1`] = `
+<div>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-disabled-3",
+          "focused": "makeStyles-focused-2",
+          "root": "makeStyles-root-1",
+        },
+        "disableUnderline": true,
+      }
+    }
+    fullWidth={true}
+    variant="filled"
+  />
+</div>
+`;
+
+exports[`<FilledVTextField /> render() should render 1`] = `
+<div>
+  <FormsyInterceptor
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-disabled-3",
+          "focused": "makeStyles-focused-2",
+          "root": "makeStyles-root-1",
+        },
+        "disableUnderline": true,
+      }
+    }
+    name="name"
+    onInterceptValue={[Function]}
+    variant="filled"
+  />
+</div>
+`;

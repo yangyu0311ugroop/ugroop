@@ -1,0 +1,36 @@
+import { NODE_STORE } from 'appConstants';
+import { CONFIG } from '../config';
+
+describe('DeleteTab/config.js', () => {
+  afterEach(() => jest.clearAllMocks());
+
+  describe('Smoke Test', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG).toBe('object');
+    });
+  });
+
+  describe('setValue', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG.setValue).toBe('object');
+    });
+  });
+
+  describe('value', () => {
+    it('should exists', () => {
+      expect(typeof CONFIG.value).toBe('object');
+    });
+
+    describe('content', () => {
+      it('should exists', () => {
+        expect(typeof CONFIG.value.content).toBe('function');
+        expect(CONFIG.value.content({ tabId: 123 })).toEqual([
+          NODE_STORE,
+          'nodes',
+          123,
+          'content',
+        ]);
+      });
+    });
+  });
+});

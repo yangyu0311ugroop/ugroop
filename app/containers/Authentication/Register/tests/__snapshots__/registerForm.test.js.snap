@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterForm/tests/index.test.js renderJoinTour() should renderJoinTour correctly 1`] = `
+<div>
+  <div>
+    <H5>
+      <FormattedMessage
+        defaultMessage="{sender} from {org}"
+        id="app.containers.Form.Register.tourInvitationSender"
+        values={
+          Object {
+            "org": <b>
+              
+            </b>,
+            "sender": <a
+              href="mailto:"
+            >
+              <b>
+                
+              </b>
+            </a>,
+          }
+        }
+      />
+      <FormattedMessage
+        defaultMessage=" invited you to work on their tour {tour} as a {role}."
+        id="app.containers.Form.Register.inviteYouToJoinTour"
+        values={
+          Object {
+            "role": "",
+            "tour": <b>
+              
+            </b>,
+          }
+        }
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="By completing this form and registering you will have access to the tour information as described in your invitation email."
+        id="app.containers.Form.Register.invitationInfoOrg"
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="You have been invited to register using the following email address and this will be the username for your account:"
+        id="app.containers.Form.Register.loginAs"
+      />
+    </H5>
+    <H5
+      dense={true}
+      textAlign="center"
+    >
+      <b />
+    </H5>
+    <H5
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="Should you not wish to use this email address, please ask {sender} to re-invite you with your preferred email address."
+        id="app.containers.Form.Register.loginAsWarning"
+        values={
+          Object {
+            "sender": <a
+              href="mailto:"
+            >
+              
+            </a>,
+          }
+        }
+      />
+    </H5>
+  </div>
+</div>
+`;
+
+exports[`RegisterForm/tests/index.test.js renderJoinTour() should renderJoinTour correctly if invitation is from tour transfer 1`] = `
+<div>
+  <div>
+    <H5>
+      <FormattedMessage
+        defaultMessage="{sender} from {org}"
+        id="app.containers.Form.Register.tourInvitationSender"
+        values={
+          Object {
+            "org": <b>
+              
+            </b>,
+            "sender": <a
+              href="mailto:"
+            >
+              <b>
+                
+              </b>
+            </a>,
+          }
+        }
+      />
+      <FormattedMessage
+        defaultMessage=" wants to transfer the ownership of tour {tour} to you"
+        id="app.containers.Form.Register.inviteYouToOwnTour"
+        values={
+          Object {
+            "role": "",
+            "tour": <b>
+              
+            </b>,
+          }
+        }
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="By completing this form and registering you will have access to the tour information as described in your invitation email."
+        id="app.containers.Form.Register.invitationInfoOrg"
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="You have been invited to register using the following email address and this will be the username for your account:"
+        id="app.containers.Form.Register.loginAs"
+      />
+    </H5>
+    <H5
+      dense={true}
+      textAlign="center"
+    >
+      <b />
+    </H5>
+    <H5
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="Should you not wish to use this email address, please ask {sender} to re-invite you with your preferred email address."
+        id="app.containers.Form.Register.loginAsWarning"
+        values={
+          Object {
+            "sender": <a
+              href="mailto:"
+            >
+              
+            </a>,
+          }
+        }
+      />
+    </H5>
+  </div>
+</div>
+`;
+
+exports[`RegisterForm/tests/index.test.js renderJoinTour() should renderJoinTour correctly when roleName = tour_interested 1`] = `
+<div>
+  <div>
+    <H5>
+      <FormattedMessage
+        defaultMessage="{sender}"
+        id="app.containers.Form.Register.inviteFollowerSender"
+        values={
+          Object {
+            "sender": <a
+              href="mailto:"
+            >
+              <b>
+                
+              </b>
+            </a>,
+          }
+        }
+      />
+      <FormattedMessage
+        defaultMessage=" from {org} has invited you to follow the tour {tour}"
+        id="app.containers.Form.Register.inviteFollower"
+        values={
+          Object {
+            "org": <b>
+              
+            </b>,
+            "tour": <b>
+              
+            </b>,
+          }
+        }
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="By completing this form and registering you will have access to the tour information as described in your invitation email."
+        id="app.containers.Form.Register.invitationInfoOrg"
+      />
+    </H5>
+    <H5>
+      <FormattedMessage
+        defaultMessage="You have been invited to register using the following email address and this will be the username for your account:"
+        id="app.containers.Form.Register.loginAs"
+      />
+    </H5>
+    <H5
+      dense={true}
+      textAlign="center"
+    >
+      <b />
+    </H5>
+    <H5
+      fontStyle="italic"
+    >
+      <FormattedMessage
+        defaultMessage="Should you not wish to use this email address, please ask {sender} to re-invite you with your preferred email address."
+        id="app.containers.Form.Register.loginAsWarning"
+        values={
+          Object {
+            "sender": <a
+              href="mailto:"
+            >
+              
+            </a>,
+          }
+        }
+      />
+    </H5>
+  </div>
+</div>
+`;
+
+exports[`RegisterForm/tests/index.test.js renderShowPassword should not show component eye icon if value exist 1`] = `<div />`;
+
+exports[`RegisterForm/tests/index.test.js renderShowPassword should show component eye icon if value exist 1`] = `
+<div>
+  <WithStyles(IconButton)
+    className=""
+    onClick={[Function]}
+    tooltip="Hide Password"
+  >
+    <WithStyles(Icon)
+      icon="eye-crossed"
+      size="normal"
+    />
+  </WithStyles(IconButton)>
+</div>
+`;
+
+exports[`RegisterForm/tests/index.test.js renderShowPassword should show different icon if showPassword is false 1`] = `
+<div>
+  <WithStyles(IconButton)
+    className=""
+    onClick={[Function]}
+    tooltip="Show Password"
+  >
+    <WithStyles(Icon)
+      icon="eye"
+      size="normal"
+    />
+  </WithStyles(IconButton)>
+</div>
+`;

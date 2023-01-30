@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniCalendar /> render should match snapshot 1`] = `
+<div>
+  <WithStyles(MiniCalendar)
+    renderDayContent={[MockFunction]}
+    selectedDay={"1998-03-20T00:00:00.000Z"}
+    startDate="1998-03-20"
+  />
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkitem/config.js Smoke Test should exists 1`] = `
+Object {
+  "value": Object {
+    "completedBy": [Function],
+    "createdBy": [Function],
+    "description": [Function],
+    "dueDate": [Function],
+    "editingCheckItem": Array [
+      "templateManagementView",
+      "editingCheckItem",
+    ],
+    "insertLocation": [Function],
+    "lastNodeId": [Function],
+    "me": Array [
+      "cognitoAcctStore",
+      "account",
+      "id",
+    ],
+    "notes": [Function],
+    "parentId": [Function],
+    "status": [Function],
+  },
+}
+`;

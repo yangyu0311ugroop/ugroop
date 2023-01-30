@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonDetail /> componentWillReceiveProps() should call resaga analyse 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "addDietary": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addInsurancePolicy": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addMedical": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addPassport": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addPhone": Object {
+        "onSuccess": [MockFunction],
+      },
+      "addStudentDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "createPassportFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "createPersonFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPassportsFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPersonDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchDietary": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchInsurancePolicy": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchMedical": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchPassport": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchPassportFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchPersonFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchPhone": Object {
+        "onSuccess": [MockFunction],
+      },
+      "patchStudentDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removeDietary": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removeInsurancePolicy": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removeMedical": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removePassport": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removePassportFacade": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removePhone": Object {
+        "onSuccess": [MockFunction],
+      },
+      "removeStudentDetail": Object {
+        "onSuccess": [MockFunction],
+      },
+      "updatePerson": Object {
+        "onSuccess": [MockFunction],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<PersonDetail /> render() should render correctly 1`] = `<div />`;

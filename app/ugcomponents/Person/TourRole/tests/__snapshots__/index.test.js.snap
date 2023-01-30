@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourRole/tests/index.test.js changeRole() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Templates",
+    "changeRole",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 0,
+        "role": "tour_viewer",
+        "userId": 123,
+      },
+    },
+  ],
+]
+`;
+
+exports[`TourRole/tests/index.test.js render() should renderEditable 1`] = `
+<div>
+  <span
+    className="defaultRoot"
+  >
+    renderEditable
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js render() should renderEditing 1`] = `
+<div>
+  <span
+    className="defaultRoot"
+  >
+    renderEditing
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js render() should renderReadonly 1`] = `
+<div>
+  <span
+    className="defaultRoot"
+  >
+    renderReadonly
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderCanceled() should render button 1`] = `
+<div>
+  <span>
+    <WithStyles(Button)
+      color="alert"
+      dense={true}
+      size="extraSmall"
+      variant="outline"
+    >
+      Invitation cancelled
+    </WithStyles(Button)>
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderEditable() should render shouldRenderStatus = false 1`] = `
+<div>
+  <RoleSelection
+    changeRole={[Function]}
+    changeRoleFailed={false}
+    changingRole={true}
+    editable={true}
+    editableLabel="Change role"
+    role="tour_viewer"
+    templateId={0}
+  />
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderEditing() should render radio group 1`] = `
+<div>
+  <RoleSelection
+    editable={false}
+    editingLabel="Select contributor role"
+    role=""
+    templateId={0}
+  />
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderInvitationStatus() should render invitation send failed 1`] = `
+<div>
+  <span>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <WithStyles(Button)
+        color="gray"
+        dense={true}
+        size="extraSmall"
+        variant="outline"
+      >
+        Resend invitation failed!
+      </WithStyles(Button)>
+    </BoundCan>
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderInvitationStatus() should render invitation sent 1`] = `
+<div>
+  <span>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <WithStyles(Button)
+        color="gray"
+        dense={true}
+        size="extraSmall"
+        variant="outline"
+      >
+        Invitation sent!
+      </WithStyles(Button)>
+    </BoundCan>
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderInvitationStatus() should render resend invitation 1`] = `
+<div>
+  <span>
+    <BoundCan
+      do="create"
+      on="nodeshares"
+    >
+      <WithStyles(Button)
+        color="primary"
+        dense={true}
+        onClick={[Function]}
+        size="extraSmall"
+        variant="outline"
+      >
+        Resend invitation
+      </WithStyles(Button)>
+    </BoundCan>
+  </span>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderReadonly() should render shouldRenderStatus = false 1`] = `
+<div>
+  <div
+    className=""
+  />
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js renderReadonly() should render shouldRenderStatus = true 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <div
+      className=""
+    >
+      As
+      <span>
+         
+        Owner
+      </span>
+    </div>
+  </Hidden>
+</div>
+`;
+
+exports[`TourRole/tests/index.test.js resendInvitation() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Invitations",
+    "resendInvitation",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "that token",
+      },
+    },
+  ],
+]
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #renderSeverity() still matches snapshot 1`] = `"Mild"`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #renderSeverity() still matches snapshot 2`] = `"Moderate"`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #renderSeverity() still matches snapshot 3`] = `"Severe"`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #renderSeverity() still matches snapshot 4`] = `null`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #sortSeverity() still matches snapshot 1`] = `0`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #sortSeverity() still matches snapshot 2`] = `1`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #sortSeverity() still matches snapshot 3`] = `2`;
+
+exports[`utils/helpers/people MEDICAL_SEVERITY_HELPERS #sortSeverity() still matches snapshot 4`] = `-1`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> should render something 1`] = `
+<p
+  className=""
+  data-testid="badgeTestId"
+/>
+`;
+
+exports[`<Badge /> should render something 2`] = `
+<p
+  className=""
+  data-testid="badgeTestId"
+/>
+`;

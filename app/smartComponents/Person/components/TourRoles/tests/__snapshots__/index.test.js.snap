@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TourRoles /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Table)>
+    <WithStyles(TableHeader)>
+      <WithStyles(TableRow)>
+        <WithStyles(TableHeadCell)
+          minWidth="md"
+        >
+          <FormattedMessage
+            defaultMessage="Tour"
+            id="app.smartComponents.Person.components.TourRoles.contentRoleHeader"
+          />
+        </WithStyles(TableHeadCell)>
+        <WithStyles(TableHeadCell)
+          minWidth="md"
+        >
+          <FormattedMessage
+            defaultMessage="Role"
+            id="app.smartComponents.Person.components.TourRoles.roleDateHeader"
+          />
+        </WithStyles(TableHeadCell)>
+        <WithStyles(TableHeadCell)
+          minWidth="md"
+        >
+          <FormattedMessage
+            defaultMessage="Accepted On"
+            id="app.smartComponents.Person.components.TourRoles.dateRoleHeader"
+          />
+        </WithStyles(TableHeadCell)>
+      </WithStyles(TableRow)>
+    </WithStyles(TableHeader)>
+    <WithStyles(TableBody)>
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={1}
+        key="1"
+        variant="table"
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={2}
+        key="2"
+        variant="table"
+      />
+      <WithStyles(Connect(WithSimplifyResaga(Roles)))
+        id={3}
+        key="3"
+        variant="table"
+      />
+    </WithStyles(TableBody)>
+  </WithStyles(Table)>
+</div>
+`;

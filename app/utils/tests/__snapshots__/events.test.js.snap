@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils/events makeDefaultRoomConfiguration still matches snapshot 1`] = `
+Array [
+  Object {
+    "bedCount": "1",
+    "guestCount": "1",
+    "id": "now1",
+    "name": "Single",
+    "quantity": "",
+  },
+  Object {
+    "bedCount": "1",
+    "guestCount": "2",
+    "id": "now2",
+    "name": "Double",
+    "quantity": "",
+  },
+  Object {
+    "bedCount": "2",
+    "guestCount": "2",
+    "id": "now3",
+    "name": "Twin",
+    "quantity": "",
+  },
+  Object {
+    "bedCount": "3",
+    "guestCount": "3",
+    "id": "now4",
+    "name": "Triple",
+    "quantity": "",
+  },
+  Object {
+    "bedCount": "4",
+    "guestCount": "4",
+    "id": "now5",
+    "name": "Quad",
+    "quantity": "",
+  },
+]
+`;
+
+exports[`utils/events processAirportModel still matches snapshot if mode=relative 1`] = `
+Object {
+  "data": Object {
+    "detail": Object {
+      "detail": Object {
+        "start": Object {
+          "airport": Object {
+            "cityName": "",
+            "iataCode": "",
+            "name": "",
+          },
+        },
+      },
+    },
+  },
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "timeZoneId": "",
+      },
+    },
+  },
+}
+`;
+
+exports[`utils/events processBicycleActivity should return modified model if activityDetails does exist in the model 1`] = `
+Object {
+  "data": Object {
+    "detail": Object {
+      "activityDetails": Array [
+        Object {
+          "Key": "start",
+          "Value": "{\\"placeId\\":1,\\"name\\":\\"qqq\\"}",
+        },
+        Object {
+          "Key": "qq",
+          "Value": "2",
+        },
+      ],
+    },
+  },
+}
+`;
+
+exports[`utils/events processParentNodeId still matches snapshot if mode=relative 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "relative",
+        "tempDay": "1",
+      },
+    },
+    "parentNodeId": 1,
+  },
+}
+`;
+
+exports[`utils/events processTimeModel still matches snapshot if mode=fixedDateTime 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "fixedDateTime",
+        "value": "2018-01-01T12:00:00.000Z",
+      },
+    },
+  },
+}
+`;
+
+exports[`utils/events processTimeModel still matches snapshot if mode=relative 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "relativeAtTime",
+        "value": "PT3H",
+      },
+    },
+  },
+}
+`;
+
+exports[`utils/events processTimeModel still matches snapshot if mode=relative and day=-duration 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "relativeAtTime",
+        "value": "PT3H",
+      },
+    },
+  },
+}
+`;
+
+exports[`utils/events processTimeModel still matches snapshot if mode=relative and day=duration 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "relative",
+        "value": "P1D",
+      },
+    },
+  },
+}
+`;
+
+exports[`utils/events processTimeModel still matches snapshot if mode=relativeStart 1`] = `
+Object {
+  "node": Object {
+    "customData": Object {
+      "start": Object {
+        "mode": "relativeStart",
+        "value": "PT27H",
+      },
+    },
+  },
+}
+`;

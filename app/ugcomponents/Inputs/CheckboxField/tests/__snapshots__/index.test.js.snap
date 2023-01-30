@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxField /> #render() renders properly if label is function 1`] = `
+<div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    className=""
+    classes={
+      Object {
+        "label": null,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="mediumPlus"
+          />
+        }
+        className=""
+        color="primary"
+        disabled={false}
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="mediumPlus"
+          />
+        }
+        onChange={[Function]}
+      />
+    }
+    disabled={true}
+    label=""
+  />
+</div>
+`;
+
+exports[`<CheckboxField /> #render() still matches snapshot 1`] = `
+<div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    className=""
+    classes={
+      Object {
+        "label": null,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="mediumPlus"
+          />
+        }
+        className=""
+        color="primary"
+        disabled={false}
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="mediumPlus"
+          />
+        }
+        onChange={[Function]}
+      />
+    }
+    disabled={true}
+    label=""
+  />
+</div>
+`;
+
+exports[`<CheckboxField /> #render() still matches snapshot when disabled 1`] = `
+<div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    className=""
+    classes={
+      Object {
+        "label": null,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="mediumPlus"
+          />
+        }
+        className=""
+        color="primary"
+        disabled={true}
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="mediumPlus"
+          />
+        }
+        onChange={[Function]}
+      />
+    }
+    disabled={true}
+    label=""
+  />
+</div>
+`;
+
+exports[`<CheckboxField /> #render() still matches snapshot when value is not true 1`] = `
+<div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    className=""
+    classes={
+      Object {
+        "label": null,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        checkedIcon={
+          <WithStyles(Icon)
+            icon="lnr-check-square"
+            size="mediumPlus"
+          />
+        }
+        className=""
+        color="primary"
+        disabled={false}
+        icon={
+          <WithStyles(Icon)
+            icon="lnr-square"
+            size="mediumPlus"
+          />
+        }
+        onChange={[Function]}
+      />
+    }
+    disabled={true}
+    label=""
+  />
+</div>
+`;

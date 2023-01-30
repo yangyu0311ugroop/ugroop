@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withGoogleMaps GenericGoogleMaps component render should render GoogleMaps component 1`] = `
+<o
+  placeId={1}
+>
+  <Component />
+</o>
+`;
+
+exports[`withGoogleMaps GenericGoogleMaps component renderContent should render the wrapped component 1`] = `
+<div>
+  <component
+    googleMaps={
+      Object {
+        "a": 1,
+      }
+    }
+  />
+</div>
+`;

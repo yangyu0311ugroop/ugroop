@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_BREADCRUMB_TRAIL value should have a particular value shape 1`] = `
+Object {
+  "templateParentId": [Function],
+  "trails": [Function],
+}
+`;
+
+exports[`GET_NEEDED_TRAILS value should have a particular value shape 1`] = `
+Array [
+  "nodeTrailsDataStore",
+  "trail",
+  1,
+  "content",
+]
+`;
+
+exports[`GET_NEEDED_TRAILS value should have a particular value shape 2`] = `
+Array [
+  "nodeTrailsDataStore",
+  "trail",
+  undefined,
+  "content",
+]
+`;
+
+exports[`GET_ORG_ID value rootNodeOrgId keyPath should not break 1`] = `Array []`;
+
+exports[`GET_ORG_ID value rootNodeOrgId keyPath should return a particular array of key paths 1`] = `
+Array [
+  Array [
+    "organisationDataStore",
+    "organisationNode",
+    1,
+    "rootNodeId",
+  ],
+  Array [
+    "organisationDataStore",
+    "organisationNode",
+    2,
+    "rootNodeId",
+  ],
+]
+`;
+
+exports[`GET_ORG_ID value should have a particular value shape 1`] = `
+Object {
+  "rootNodeOrgId": Object {
+    "cacheKey": [Function],
+    "getter": [Function],
+    "keyPath": [Function],
+    "props": Array [
+      [Function],
+      [Function],
+    ],
+  },
+}
+`;
+
+exports[`GET_USER_ID value should have a particular value shape 1`] = `
+Object {
+  "userId": [Function],
+}
+`;
+
+exports[`GET_USER_ORGS value should have a particular value shape 1`] = `
+Object {
+  "userOrgs": [Function],
+}
+`;

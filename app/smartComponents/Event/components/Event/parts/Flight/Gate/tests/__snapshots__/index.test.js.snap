@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gate /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": null,
+      "readOnly": false,
+      "value": "",
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Gate /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabel={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Gate /> #renderEditable() should match snapshot if can execute event 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      inline={true}
+      label={
+        <FormattedMessage
+          defaultMessage="Departure Gate"
+          id="app.Event.parts.Flight.Gate.gateLabel"
+        />
+      }
+      name="data.detail.detail.gate"
+      onSubmit={[Function]}
+      placeholder="Click to specify gate"
+      readOnly={false}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Gate /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={4}
+  xs={12}
+>
+  <FormsyInterceptor
+    label={
+      <FormattedMessage
+        defaultMessage="Departure Gate"
+        id="app.Event.parts.Flight.Gate.gateLabel"
+      />
+    }
+    name="data.detail.detail.gate"
+    onInterceptValue={[Function]}
+    value=""
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Gate /> #renderLabel() should still match the snapshot given that value is none 1`] = `null`;
+
+exports[`<Gate /> #renderLabel() should still match the snapshot given that value is not blank 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(GridContainer)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+        weight="bold"
+      >
+        <FormattedMessage
+          defaultMessage="Departure Gate"
+          id="app.Event.parts.Flight.Gate.gateLabel"
+        />
+        :
+      </P>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <P
+        dense={true}
+      >
+        777
+      </P>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</WithStyles(GridItem)>
+`;

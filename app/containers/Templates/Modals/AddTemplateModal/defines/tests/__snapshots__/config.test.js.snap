@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CONFIG FILE setValue should exist 1`] = `
+Object {
+  "editable": [Function],
+  "nodes": Array [
+    "nodeStore",
+    "nodes",
+  ],
+  "open": Array [
+    "snackbarViewStore",
+    "open",
+  ],
+  "text": Array [
+    "snackbarViewStore",
+    "text",
+  ],
+  "tours": Array [
+    "abilityDataStore",
+    "tours",
+  ],
+  "type": Array [
+    "snackbarViewStore",
+    "type",
+  ],
+}
+`;
+
+exports[`CONFIG FILE should exists 1`] = `
+Object {
+  "setValue": Object {
+    "editable": [Function],
+    "nodes": Array [
+      "nodeStore",
+      "nodes",
+    ],
+    "open": Array [
+      "snackbarViewStore",
+      "open",
+    ],
+    "text": Array [
+      "snackbarViewStore",
+      "text",
+    ],
+    "tours": Array [
+      "abilityDataStore",
+      "tours",
+    ],
+    "type": Array [
+      "snackbarViewStore",
+      "type",
+    ],
+  },
+  "value": Object {
+    "organisationId": Array [
+      "organisationView",
+      "organisationId",
+    ],
+    "tourOwnerAbilities": Array [
+      "abilityDataStore",
+      "definitions",
+      "tour",
+      "tour_owner",
+    ],
+  },
+}
+`;
+
+exports[`CONFIG FILE value should exist 1`] = `
+Object {
+  "organisationId": Array [
+    "organisationView",
+    "organisationId",
+  ],
+  "tourOwnerAbilities": Array [
+    "abilityDataStore",
+    "definitions",
+    "tour",
+    "tour_owner",
+  ],
+}
+`;

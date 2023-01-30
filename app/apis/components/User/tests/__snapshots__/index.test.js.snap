@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<User /> componentWillReceiveProps() should call resaga.analyse 1`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "ME": Object {
+        "onSuccess": [Function],
+      },
+      "getInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrganisationInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getRoles": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTransferAll": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserNode": Object {
+        "onSuccess": [Function],
+      },
+      "getUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserRelatedTemplates": Object {
+        "onSuccess": [MockFunction],
+      },
+      "hideRecentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "recentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "registerDevice": Object {
+        "onSuccess": [Function],
+      },
+      "updateUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "userFirstTimeSetup": Object {
+        "onSuccess": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<User /> componentWillReceiveProps() should call resaga.analyse 2`] = `
+Array [
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "ME": Object {
+        "onSuccess": [Function],
+      },
+      "getInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrganisationInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getRoles": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTransferAll": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserNode": Object {
+        "onSuccess": [Function],
+      },
+      "getUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserRelatedTemplates": Object {
+        "onSuccess": [MockFunction],
+      },
+      "hideRecentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "recentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "registerDevice": Object {
+        "onSuccess": [Function],
+      },
+      "updateUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "userFirstTimeSetup": Object {
+        "onSuccess": [Function],
+      },
+    },
+  ],
+  Array [
+    Object {
+      "id": 1,
+      "renderSeatsLeft": [MockFunction],
+      "resaga": Object {
+        "analyse": [MockFunction] {
+          "calls": [Circular],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "dispatch": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {},
+              "getUserNode",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "setValue": [MockFunction],
+      },
+    },
+    Object {
+      "ME": Object {
+        "onSuccess": [Function],
+      },
+      "getInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrganisationInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getRoles": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTransferAll": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserNode": Object {
+        "onSuccess": [Function],
+      },
+      "getUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserRelatedTemplates": Object {
+        "onSuccess": [MockFunction],
+      },
+      "hideRecentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "recentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "registerDevice": Object {
+        "onSuccess": [Function],
+      },
+      "updateUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "userFirstTimeSetup": Object {
+        "onSuccess": [Function],
+      },
+    },
+  ],
+  Array [
+    Object {
+      "hi": "hooo",
+    },
+    Object {
+      "ME": Object {
+        "onSuccess": [Function],
+      },
+      "getInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getOrganisationInvitations": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getRoles": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getTransferAll": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserNode": Object {
+        "onSuccess": [Function],
+      },
+      "getUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "getUserRelatedTemplates": Object {
+        "onSuccess": [MockFunction],
+      },
+      "hideRecentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "recentActivity": Object {
+        "onSuccess": [MockFunction],
+      },
+      "registerDevice": Object {
+        "onSuccess": [Function],
+      },
+      "updateUserPreference": Object {
+        "onSuccess": [MockFunction],
+      },
+      "upsertPersonalPreferences": Object {
+        "onSuccess": [MockFunction],
+      },
+      "userFirstTimeSetup": Object {
+        "onSuccess": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`<User /> getMeSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "customerOrgs": undefined,
+      "customerUsers": undefined,
+      "loginAcctOrg": Object {
+        "x": 2,
+      },
+      "loginAcctPerson": Object {
+        "id": 3,
+      },
+      "loginAcctRelatedOrgs": Object {
+        "y": 4,
+      },
+      "loginAcctUser": Object {
+        "id": 1,
+      },
+      "paymentSources": Object {
+        "ps": 1,
+      },
+      "subscriptionItems": Object {
+        "si": 2,
+      },
+      "subscriptions": Object {
+        "s": 1,
+      },
+    },
+  ],
+]
+`;

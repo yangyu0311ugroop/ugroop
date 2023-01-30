@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it 1`] = `
+Array [
+  "templateManagementStore",
+  "tabs",
+  1,
+  "customData",
+  "isPrivate",
+]
+`;
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it 2`] = `
+Array [
+  "templateManagementStore",
+  "tabs",
+  1,
+  "customData",
+  "isPrivate",
+]
+`;
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it 3`] = `
+Array [
+  "templateManagementStore",
+  "tabs",
+  1,
+  "type",
+]
+`;
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it is array 1`] = `
+Array [
+  "templateManagementStore",
+  "tabs",
+  Array [
+    1,
+  ],
+  "customData",
+  "isPrivate",
+]
+`;
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it is array 2`] = `
+Array [
+  "templateManagementStore",
+  "tabs",
+  Array [
+    1,
+  ],
+  "customData",
+  "isPrivate",
+]
+`;
+
+exports[`TAB_SELECTOR should render a particular keyPath shape given the id passed to it is array 3`] = `
+Array [
+  Array [
+    "templateManagementStore",
+    "tabs",
+    1,
+    "type",
+  ],
+]
+`;
+
+exports[`TEMPLATE_MANAGEMENT_VIEWSTORE_SELECTORS still matches snapshot 1`] = `
+Object {
+  "CONTRIBUTORS_LIST": Object {
+    "open": Array [
+      "templateManagementView",
+      "showCopyLinkDialog",
+    ],
+  },
+  "FOLLOWER_SELECTORS": Object {
+    "selectedFollowerId": Array [
+      "templateManagementView",
+      "selectedFollowerId",
+    ],
+    "selectedParentId": Array [
+      "templateManagementView",
+      "selectedParentId",
+    ],
+  },
+  "INTERESTED_LIST": Object {
+    "FILTER": Object {
+      "complete": Array [
+        "templateManagementView",
+        "interestedListViewFilterComplete",
+      ],
+      "modal": Array [
+        "templateManagementView",
+        "interestedListViewModalFilter",
+      ],
+      "pending": Array [
+        "templateManagementView",
+        "interestedListViewFilterPending",
+      ],
+      "value": Array [
+        "templateManagementView",
+        "interestedListViewValue",
+      ],
+      "view": Array [
+        "templateManagementView",
+        "interestedListViewFilter",
+      ],
+    },
+    "LAYOUT": Object {
+      "list": Array [
+        "templateManagementView",
+        "interestedListViewLayout",
+      ],
+    },
+    "MODE": Object {
+      "list": Array [
+        "templateManagementView",
+        "interestedListViewModeList",
+      ],
+    },
+    "open": Array [
+      "templateManagementView",
+      "interestedListViewOpen",
+    ],
+  },
+  "INTERESTED_PERSON": Object {
+    "CREATE": Object {
+      "open": Array [
+        "templateManagementView",
+        "interestedPersonCreateOpen",
+      ],
+      "participantId": Array [
+        "templateManagementView",
+        "interestedPersonCreateParticipantId",
+      ],
+    },
+    "VIEW": Object {
+      "id": Array [
+        "templateManagementView",
+        "interestedPersonViewId",
+      ],
+      "mode": Array [
+        "templateManagementView",
+        "interestedPersonViewMode",
+      ],
+      "open": Array [
+        "templateManagementView",
+        "interestedPersonViewOpen",
+      ],
+    },
+  },
+  "INVITATION_DETAIL": Object {
+    "open": Array [
+      "templateManagementView",
+      "seeDetail",
+    ],
+  },
+  "LINKED_USER": Object {
+    "all": Array [
+      "templateManagementView",
+      "linkedUser",
+    ],
+    "email": Array [
+      "templateManagementView",
+      "linkedUser",
+      "email",
+    ],
+    "id": Array [
+      "templateManagementView",
+      "linkedUser",
+      "id",
+    ],
+    "message": Array [
+      "templateManagementView",
+      "linkedUser",
+      "message",
+    ],
+    "page": Array [
+      "templateManagementView",
+      "linkedUser",
+      "page",
+    ],
+    "token": Array [
+      "templateManagementView",
+      "linkedUser",
+      "token",
+    ],
+  },
+  "PARTICIPANT": Object {
+    "CREATE": Object {
+      "groupId": Array [
+        "templateManagementView",
+        "participantCreateGroupId",
+      ],
+      "mode": Array [
+        "templateManagementView",
+        "participantCreateMode",
+      ],
+      "open": Array [
+        "templateManagementView",
+        "participantCreateOpen",
+      ],
+      "parentNodeId": Array [
+        "templateManagementView",
+        "participantCreateParentNodeId",
+      ],
+      "participantInGroup": Array [
+        "templateManagementView",
+        "participantCreateInGroup",
+      ],
+      "withRelationship": Array [
+        "templateManagementView",
+        "participantWithRelationship",
+      ],
+    },
+    "VIEW": Object {
+      "filter": Array [
+        "templateManagementView",
+        "participantViewModeFilter",
+      ],
+      "id": Array [
+        "templateManagementView",
+        "participantViewId",
+      ],
+      "modal": Array [
+        "templateManagementView",
+        "participantViewModeModalFilter",
+      ],
+      "mode": Array [
+        "templateManagementView",
+        "participantViewMode",
+      ],
+      "open": Array [
+        "templateManagementView",
+        "participantViewOpen",
+      ],
+      "sort": Array [
+        "templateManagementView",
+        "participantViewModeModalSortBy",
+      ],
+    },
+  },
+  "PARTICIPANT_LIST": Object {
+    "FILTER": Object {
+      "confirmed": Array [
+        "templateManagementView",
+        "participantListViewFilterConfirmed",
+      ],
+      "declined": Array [
+        "templateManagementView",
+        "participantListViewFilterDeclined",
+      ],
+      "pending": Array [
+        "templateManagementView",
+        "participantListViewFilterPending",
+      ],
+    },
+    "LAYOUT": Object {
+      "list": Array [
+        "templateManagementView",
+        "participantListViewLayout",
+      ],
+    },
+    "MODE": Object {
+      "list": Array [
+        "templateManagementView",
+        "participantListViewModeList",
+      ],
+    },
+    "SORT": Object {
+      "list": Array [
+        "templateManagementView",
+        "participantListViewSortList",
+      ],
+    },
+    "open": Array [
+      "templateManagementView",
+      "participantListViewOpen",
+    ],
+  },
+  "TOUR_CONNECTION": Object {
+    "id": Array [
+      "templateManagementView",
+      "tourConnection",
+      "id",
+    ],
+    "mode": Array [
+      "templateManagementView",
+      "tourConnection",
+      "mode",
+    ],
+    "onClose": Array [
+      "templateManagementView",
+      "tourConnection",
+      "onClose",
+    ],
+    "open": Array [
+      "templateManagementView",
+      "tourConnection",
+      "open",
+    ],
+    "userId": Array [
+      "templateManagementView",
+      "tourConnection",
+      "userId",
+    ],
+  },
+  "TRANSFER_NODE": Object {
+    "transferByType": Array [
+      "templateManagementView",
+      "transferByType",
+    ],
+    "transferToEmail": Array [
+      "templateManagementView",
+      "transferToEmail",
+    ],
+    "transferToUserId": Array [
+      "templateManagementView",
+      "transferToUserId",
+    ],
+  },
+  "createLinkFollowerDialogOpen": Array [
+    "templateManagementView",
+    "linkFollowerDialogOpen",
+  ],
+  "filterRoleBy": Array [
+    "templateManagementView",
+    "filterRoleBy",
+  ],
+  "followersCount": Array [
+    "templateManagementView",
+    "followersCount",
+  ],
+  "invitationMode": Array [
+    "templateManagementView",
+    "invitationMode",
+  ],
+  "participantsCount": Array [
+    "templateManagementView",
+    "participantsCount",
+  ],
+  "paxLabel": Object {
+    "getter": [Function],
+    "keyPath": Array [
+      "templateManagementView",
+      "paxLabel",
+    ],
+  },
+  "peopleFilterSelected": Array [
+    "templateManagementView",
+    "peopleFilterSelected",
+  ],
+  "peopleTabOptionSelected": Array [
+    "templateManagementView",
+    "peopleTabOptionSelected",
+  ],
+  "peopleView": Array [
+    "templateManagementView",
+    "peopleView",
+  ],
+  "selectedOrgId": Array [
+    "templateManagementView",
+    "selectedOrgId",
+  ],
+  "shareListFilter": Array [
+    "templateManagementView",
+    "shareList",
+    "filter",
+  ],
+  "shareListTab": Array [
+    "templateManagementView",
+    "shareList",
+    "tab",
+  ],
+  "showOrganisationInvitation": Array [
+    "templateManagementView",
+    "showOrgInvite",
+  ],
+  "statsDateRangeFilter": Array [
+    "templateManagementView",
+    "statsDateRangeFilter",
+  ],
+  "updatingTourInfo": Array [
+    "templateManagementView",
+    "updatingTourInfo",
+  ],
+}
+`;
+
+exports[`TEMPLATE_SELECTOR should render a particular keyPath shape given the id passed to it 1`] = `
+Array [
+  "templateManagementStore",
+  "templates",
+  1,
+  "children",
+]
+`;
+
+exports[`TEMPLATE_SELECTOR should render a particular keyPath shape given the id passed to it is array 1`] = `
+Array [
+  "templateManagementStore",
+  "templates",
+  Array [
+    1,
+  ],
+  "children",
+]
+`;

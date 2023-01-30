@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of Profile",
+            "name": "description",
+          },
+        ]
+      }
+      title="My Profile"
+    />
+    <WithStyles(GridItem)
+      md={5}
+      xs={12}
+    >
+      <WithStyles(MarginWrapper)
+        bottom="md"
+      >
+        <H3
+          noMargin={true}
+        >
+          Basic Information
+        </H3>
+      </WithStyles(MarginWrapper)>
+      <WithStyles(Connect(WithSimplifyResaga(EditProfileForm)))
+        id={1}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      md={7}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={1}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <ConnectFunction
+                editable={true}
+                id={1}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(PhoneList)))
+            id={1}
+            viewStore="personProfileViewStore"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Medicals))))) />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Dietaries))) />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ability/config.js Smoke Test should exists 1`] = `
+Object {
+  "manuallySubscribe": true,
+  "name": "Abilities",
+  "processResult": Object {
+    "findMyAbilities": [Function],
+    "findMyTours": [Function],
+  },
+  "requests": Object {
+    "findMyAbilities": [Function],
+    "findMyTours": [Function],
+  },
+  "setValue": Object {
+    "definitions": Array [
+      "abilityDataStore",
+      "definitions",
+    ],
+    "fetched": Array [
+      "abilityDataStore",
+      "fetched",
+    ],
+    "files": Array [
+      "fileDataStore",
+      "files",
+    ],
+    "node": Array [
+      "nodeStore",
+      "nodes",
+    ],
+    "orgUsers": Array [
+      "organisationDataStore",
+      "orgUsers",
+    ],
+    "organisation": Array [
+      "abilityDataStore",
+      "organisation",
+    ],
+    "organisationId": Array [
+      "organisationDataStore",
+      "organisationId",
+    ],
+    "organisationIds": Array [
+      "organisationDataStore",
+      "organisationIds",
+    ],
+    "organisationNode": Array [
+      "organisationDataStore",
+      "organisationNode",
+    ],
+    "organisationRoles": Array [
+      "organisationDataStore",
+      "organisations",
+    ],
+    "organisationTours": Array [
+      "organisationDataStore",
+      "organisationTours",
+    ],
+    "organisations": Array [
+      "organisationDataStore",
+      "organisations",
+    ],
+    "preferences": Array [
+      "organisationDataStore",
+      "preferences",
+    ],
+    "sortedOrganisationIds": [Function],
+    "tours": Array [
+      "abilityDataStore",
+      "tours",
+    ],
+    "userId": Array [
+      "userDataStore",
+      "userId",
+    ],
+    "userNode": Array [
+      "userDataStore",
+      "userNode",
+    ],
+    "users": [Function],
+  },
+  "value": Object {
+    "id": [Function],
+  },
+}
+`;
+
+exports[`Ability/config.js processResult FIND_MY_ABILITIES should return tours and organisation 1`] = `
+Object {
+  "definitions": "some definitions",
+  "fetched": "Date.now",
+  "files": [Function],
+  "orgUsers": [Function],
+  "organisation": Object {
+    "orgId": "organisation",
+  },
+  "organisationId": 1,
+  "organisationIds": Array [
+    1,
+  ],
+  "organisationNode": Object {
+    "1": Object {
+      "id": 1,
+      "rootNodeId": 2233,
+    },
+  },
+  "organisationRoles": [Function],
+  "organisations": [Function],
+  "preferences": [Function],
+  "tours": Object {
+    "id": "tour",
+    "nodeId": "tour",
+  },
+  "userId": undefined,
+  "users": [Function],
+}
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog/components/UserNodeList/components/AddRole/config #config3.value.pendingNodeId getter 1`] = `null`;
+
+exports[`Dialog/components/UserNodeList/components/AddRole/config #config3.value.pendingNodeId getter 2`] = `
+Object {
+  "customData": Object {
+    "email": "test",
+  },
+  "ids": Array [
+    1,
+    2,
+  ],
+}
+`;

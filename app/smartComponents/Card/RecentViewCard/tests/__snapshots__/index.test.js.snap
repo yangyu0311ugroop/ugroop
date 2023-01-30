@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecentViewCard /> shall match with snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(Header)
+      expanded={true}
+      ids={Array []}
+      isLoading={false}
+      onClickToggle={[Function]}
+    />
+    <WithStyles(ForwardRef(Collapse))
+      in={true}
+      transitionduration="auto"
+      unmountOnExit={true}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            ids={Array []}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(ForwardRef(Collapse))>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<RecentViewCard /> with fix height shall match with snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(Header)
+      expanded={true}
+      ids={Array []}
+      isLoading={false}
+      onClickToggle={[Function]}
+    />
+    <WithStyles(ForwardRef(Collapse))
+      in={true}
+      transitionduration="auto"
+      unmountOnExit={true}
+    >
+      <WithStyles(GridItem)
+        className=""
+      >
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            ids={Array []}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(ForwardRef(Collapse))>
+  </WithStyles(GridContainer)>
+</div>
+`;

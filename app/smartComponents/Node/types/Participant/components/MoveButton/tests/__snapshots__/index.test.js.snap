@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MoveButton /> render should match snapshot 1`] = `
+<div>
+  <ConnectFunction
+    anchorEl={null}
+    onClose={[MockFunction]}
+    placement="bottom-start"
+    renderButton={[Function]}
+  >
+    <ConnectFunction
+      move={true}
+      templateId={1}
+    >
+      <Component />
+    </ConnectFunction>
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<MoveButton /> renderButton should match snapshot 1`] = `
+<div>
+  <WithStyles(Button)
+    color="primary"
+    onClick={[Function]}
+    size="extraSmall"
+    tooltipProps={
+      Object {
+        "title": "Move to Other Follower",
+      }
+    }
+    variant="inline"
+  >
+    Move
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<MoveButton /> renderMenuItem() should render no other followers 1`] = `
+<div>
+  <WithStyles(MenuItem)>
+    No Other Followers
+  </WithStyles(MenuItem)>
+</div>
+`;
+
+exports[`<MoveButton /> renderMenuItem() should renderMenuItem 1`] = `
+<div>
+  <WithStyles(InterestedMenuItem)
+    id={1}
+    key="1"
+    openDialog={[Function]}
+    variant="menuItem"
+  />
+  <WithStyles(InterestedMenuItem)
+    id={2}
+    key="2"
+    openDialog={[Function]}
+    variant="menuItem"
+  />
+</div>
+`;

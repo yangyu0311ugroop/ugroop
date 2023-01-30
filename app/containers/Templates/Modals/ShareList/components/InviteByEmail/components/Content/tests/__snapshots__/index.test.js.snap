@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> render() should render correctly 1`] = `
+<div>
+  <FormsyInterceptor
+    autoFocus={true}
+    label={
+      <span>
+        Enter email address
+      </span>
+    }
+    name="email"
+    onInterceptValue={[Function]}
+    placeholder="Enter the email address of the person you want to invite and press Find"
+    required={true}
+    type="text"
+    validText=""
+    validationErrors={
+      Object {
+        "isEmail": "does not look like an email",
+      }
+    }
+    validations={
+      Object {
+        "inviteOwner": [Function],
+        "inviteYourself": [Function],
+        "isEmail": true,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Content /> render() should render readonly if exist 1`] = `
+<div>
+  <div>
+    <Component
+      creating={true}
+      email=""
+      noanimate={true}
+      token={null}
+      userId={0}
+    />
+    renderAddPersonalMessage
+  </div>
+</div>
+`;
+
+exports[`<Content /> renderAddPersonalMessage() should render RTE if is new invitee 1`] = `
+<div>
+  <div>
+    <Formsy(withRouter(WithStyles(SimpleRTE)))
+      innerRef={[Function]}
+      name="pm"
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+  </div>
+</div>
+`;

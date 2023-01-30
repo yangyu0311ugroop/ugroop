@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apis/Template/config #processResult FIND_ORGANISATION_ID 1`] = `
+Object {
+  "id": 2233,
+  "node": Object {
+    "calculated": Object {
+      "organisationId": 3311,
+    },
+    "id": 2233,
+  },
+  "nodes": [Function],
+}
+`;
+
+exports[`apis/Template/config #processResult FIND_ORGANISATION_ID 2`] = `
+Object {
+  "content": "some content",
+  "customData": Object {
+    "organisationId": 3311,
+  },
+}
+`;
+
+exports[`apis/Template/config #processResult GET_TEMPLATE_FEATURED_LIST 1`] = `
+Object {
+  "featuredTours": Object {
+    "1": Object {
+      "content": "Tour 1",
+      "type": "template",
+    },
+    "2": Object {
+      "content": "Tour 2",
+      "type": "template",
+    },
+  },
+  "nodes": "upsertObject",
+  "raw": Array [
+    Object {
+      "content": "Tour 1",
+      "id": 1,
+    },
+    Object {
+      "content": "Tour 2",
+      "id": 2,
+    },
+  ],
+}
+`;
+
+exports[`apis/Template/config #requests still matches snapshot 1`] = `
+Array [
+  Array [
+    "get",
+    "/Templates/undefined/events",
+  ],
+  Array [
+    "get",
+    "/Templates/123",
+  ],
+  Array [
+    "get",
+    "/Templates/123/hashkey",
+  ],
+  Array [
+    "get",
+    "/Templates/featured",
+  ],
+  Array [
+    "post",
+    "/Templates/undefined/event",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "patch",
+    "/Templates/undefined/event/123",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "delete",
+    "/Templates/undefined/event/123/undefined",
+  ],
+  Array [
+    "post",
+    "/Templates/123/flightBooking",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "patch",
+    "/Templates/123/flightBooking/456",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "delete",
+    "/Templates/123/flightBooking/456",
+  ],
+  Array [
+    "get",
+    "/Templates/123/batchRecentActivity",
+  ],
+  Array [
+    "get",
+    "/Templates/123/people",
+  ],
+  Array [
+    "get",
+    "/Templates/123/people/that@guy",
+  ],
+  Array [
+    "patch",
+    "/Templates/123/changeRole/456",
+    Object {
+      "role": "tour_viewer",
+    },
+  ],
+  Array [
+    "delete",
+    "/Templates/123",
+  ],
+  Array [
+    "get",
+    "/Templates/123/organisationId",
+  ],
+  Array [
+    "post",
+    "/Templates/123/event/123/attachment",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/event/123/attachment",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/event/123/attachment",
+    Object {
+      "x": 2,
+    },
+  ],
+  Array [
+    "delete",
+    "/Templates/123/event/123/attachment/123",
+  ],
+  Array [
+    "patch",
+    "/Templates/123/event/123/attachment/123",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "patch",
+    "/Templates/123/removeUserFromTour/1236",
+    Object {
+      "token": "112",
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/initTemplateSetting",
+  ],
+  Array [
+    "put",
+    "/Templates/123/templateSettings/3344",
+    Object {
+      "some": "data",
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/undefined/role/undefined",
+    Object {
+      "organisationId": undefined,
+      "role": 123,
+      "subNodes": undefined,
+    },
+  ],
+  Array [
+    "get",
+    "/Templates/123/participants?ids=[1,2]",
+  ],
+  Array [
+    "get",
+    "/Templates/123/addImagesSuccess?ids=[1,2]",
+  ],
+  Array [
+    "patch",
+    "/Templates/123/hashkey",
+    Object {
+      "payload": Object {
+        "description": "description",
+      },
+    },
+  ],
+  Array [
+    "patch",
+    "/Templates/123/acceptOwnership",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/hashkey",
+  ],
+  Array [
+    "delete",
+    "/Templates/123/hashkey",
+  ],
+  Array [
+    "get",
+    "/Templates/listCustomData?listOptions=undefined",
+  ],
+  Array [
+    "patch",
+    "/Templates/1/patchCustomData",
+    Object {
+      "email": "a",
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/shareToMe",
+    Object {
+      "x": 1,
+    },
+  ],
+  Array [
+    "post",
+    "/Templates/123/emailMeEventEmailSettings",
+    undefined,
+  ],
+  Array [
+    "patch",
+    "/Templates/123/changeCustomUserRole/1",
+    undefined,
+  ],
+  Array [
+    "get",
+    "/Templates/123/getOrgMembers",
+  ],
+]
+`;
+
+exports[`apis/Template/config convertChildren should convert children 1`] = `
+Array [
+  Array [
+    Array [
+      1,
+      2,
+    ],
+    undefined,
+    [Function],
+  ],
+]
+`;
+
+exports[`apis/Template/config onUpdate should onUpdate DAY 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "day",
+    },
+    "checklists",
+    [MockFunction],
+  ],
+  Array [
+    "dotProp.set",
+    "children",
+    undefined,
+  ],
+]
+`;
+
+exports[`apis/Template/config onUpdate should onUpdate TAB_GALLERY 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "tabgallery",
+    },
+    "children",
+    [Function],
+  ],
+]
+`;
+
+exports[`apis/Template/config onUpdate should onUpdate others 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "template",
+    },
+    "children",
+    undefined,
+  ],
+]
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Type/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {},
+  "value": Object {
+    "type": Object {
+      "cacheKey": [Function],
+      "getter": [Function],
+      "keyPath": [Function],
+    },
+  },
+}
+`;
+
+exports[`Type/config.js value type cacheKey should return a particular cacheKey 1`] = `"nodeStore.1.type"`;

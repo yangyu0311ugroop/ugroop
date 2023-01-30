@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar/stylesheet item still matches snapshot if not warm theme 1`] = `
+Object {
+  "color": "#5E6986",
+  "display": "inline-block",
+  "fontWeight": "500",
+  "padding": "0 6px",
+}
+`;
+
+exports[`components/Navbar/stylesheet still matches snapshot 1`] = `
+Object {
+  "active": Object {
+    "color": "#36322F",
+  },
+  "item": Object {
+    "color": "#9C9C9C",
+    "display": "inline-block",
+    "fontWeight": "500",
+    "padding": "0 6px",
+  },
+}
+`;

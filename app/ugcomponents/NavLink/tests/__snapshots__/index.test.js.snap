@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavLink /> render() should render children function 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        activeClassName=""
+        className=""
+      >
+        children
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NavLink /> render() should render children node 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        activeClassName=""
+        className=""
+      >
+        children
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NavLink /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <withRouter(UGNavLink)
+        activeClassName=""
+        className=""
+      >
+        renderLink
+      </withRouter(UGNavLink)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NavLink /> renderContent() should renderContent alwaysShow = false 1`] = `
+<div>
+  <Hidden
+    smDown={true}
+  >
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div>
+        <div />
+      </div>
+      <div />
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<NavLink /> renderContent() should renderContent alwaysShow = true 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <div />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<NavLink /> renderLink() should renderLink 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      className=""
+    >
+      <div />
+    </WithStyles(GridItem)>
+    renderContent
+  </WithStyles(GridContainer)>
+</div>
+`;

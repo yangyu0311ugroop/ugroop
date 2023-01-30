@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingNumber /> handleEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Booking Number"
+          id="app/smartComponents/Event/components/Event/parts/Coach/BookingNumber/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.bookingNumber"
+      onSubmit={[Function]}
+      readOnly={false}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<BookingNumber /> handleField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    sm={5}
+  >
+    <TextField
+      label={
+        <FormattedMessage
+          defaultMessage="Booking Number"
+          id="app/smartComponents/Event/components/Event/parts/Coach/BookingNumber/label"
+        />
+      }
+      maxLength={0}
+      minLength={0}
+      name="data.detail.detail.common.eventBooking.bookingNumber"
+      type="text"
+      validationErrors={Object {}}
+      validations={Object {}}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<BookingNumber /> handleSubmit should make patchEvent request 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "classes": Object {},
+      "component": "span",
+      "dataId": null,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "value": "",
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<BookingNumber /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    renderLabelValue={[Function]}
+    renderValueOnly={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<BookingNumber /> renderLabelValue() should renderLabelValue 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+  >
+    <WithStyles(GridItem)>
+      <FormattedMessage
+        defaultMessage="Booking No. "
+        id="smartComponents.Event.BookingConfirmed.bookingLabel"
+      />
+      val
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        icon="checkmark-circle"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

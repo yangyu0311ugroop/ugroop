@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayCard/config.js value content should return a particular shape of array given the props provided 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "content",
+]
+`;
+
+exports[`DayCard/config.js value id should return a particular shape of array given the props provided 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "id",
+]
+`;
+
+exports[`DayCard/config.js value location should return a particular shape of array given the props provided 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "customData",
+  "location",
+]
+`;
+
+exports[`DayCard/config.js value photoId should return a particular shape of array given the props provided 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "photos",
+  0,
+]
+`;

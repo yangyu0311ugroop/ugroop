@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/invitationStore/hoc/selectShareSubNodeIds still matches snapshot 1`] = `[Function]`;
+
+exports[`datastore/invitationStore/hoc/selectShareSubNodeIds still matches snapshot with default properties 1`] = `
+Object {
+  "value": Object {
+    "shareSubNodeIds": Array [
+      "invitationStore",
+      "shareSubNodeIds",
+    ],
+  },
+}
+`;
+
+exports[`datastore/invitationStore/hoc/selectShareSubNodeIds still matches snapshot with resaga 1`] = `[Function]`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <div>
+      <WithStyles(Formsy(CheckboxField))
+        currentValue={false}
+        label="View completed invitations"
+        name="showCompleted"
+        onChange={[Function]}
+      />
+    </div>
+  </GenericForm>
+</div>
+`;

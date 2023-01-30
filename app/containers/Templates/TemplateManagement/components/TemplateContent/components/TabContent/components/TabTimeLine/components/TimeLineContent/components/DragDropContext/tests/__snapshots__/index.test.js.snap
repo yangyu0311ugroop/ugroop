@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DragDropContext /> #handleDragEnd() still matches snapshot if drop had effect 1`] = `
+Object {
+  "setValue": Object {
+    "onDragEnd": [Function],
+    "onDragStart": [Function],
+  },
+}
+`;
+
+exports[`<DragDropContext /> #handleDragEnd() still matches snapshot if drop had no effect 1`] = `
+Object {
+  "setValue": Object {
+    "onDragStart": [Function],
+  },
+}
+`;
+
+exports[`<DragDropContext /> #handleDragStart() still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "onDragStart": [Function],
+  },
+}
+`;
+
+exports[`<DragDropContext /> #render() still matches snapshot 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+  onDragStart={[Function]}
+>
+  <div />
+</DragDropContext>
+`;

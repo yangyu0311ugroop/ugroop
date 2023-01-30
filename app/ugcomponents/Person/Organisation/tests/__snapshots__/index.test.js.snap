@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisation/tests/index.test.js render() should render Editing 1`] = `
+<div>
+  <span
+    className="defaultRoot"
+  >
+    renderEditing
+  </span>
+</div>
+`;
+
+exports[`Organisation/tests/index.test.js render() should render nothing 1`] = `<div />`;
+
+exports[`Organisation/tests/index.test.js render() should render theirOrganisationName 1`] = `
+<div>
+  <span
+    className="defaultRoot"
+  >
+    renderReadonly
+  </span>
+</div>
+`;
+
+exports[`Organisation/tests/index.test.js renderReadonly() should renderReadonly myOrganisationName 1`] = `
+<div>
+  some other name 
+</div>
+`;
+
+exports[`Organisation/tests/index.test.js renderReadonly() should renderReadonly name 1`] = `
+<div>
+  some name
+</div>
+`;

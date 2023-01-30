@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Public Layout Test Shall render correct 1`] = `
+<div
+  className="undefined"
+>
+  &lt;div&gt;children&lt;/div&gt;
+</div>
+`;

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionsCell /> render when member is active should render correctly when member is active 1`] = `
+<div>
+  <WithStyles(TableCell)
+    centeredText={true}
+    padding="halfLeftRight"
+  >
+    <div>
+      <WithStyles(InlineButton)
+        color="primary"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="ellipsis"
+          size="small"
+        />
+      </WithStyles(InlineButton)>
+    </div>
+    <WithStyles(ForwardRef(Menu))
+      anchorEl={null}
+      onClose={[Function]}
+      open={false}
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Deactivate"
+          id="app.containers.Profile.Components.Organisation.components.ActionsCell.deactivate"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+    </WithStyles(ForwardRef(Menu))>
+  </WithStyles(TableCell)>
+</div>
+`;
+
+exports[`<ActionsCell /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(TableCell)
+    centeredText={true}
+    padding="halfLeftRight"
+  >
+    <div>
+      <WithStyles(InlineButton)
+        color="primary"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="ellipsis"
+          size="small"
+        />
+      </WithStyles(InlineButton)>
+    </div>
+    <WithStyles(ForwardRef(Menu))
+      anchorEl={null}
+      onClose={[Function]}
+      open={false}
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Activate"
+          id="app.containers.Profile.Components.Organisation.components.ActionsCell.activate"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+    </WithStyles(ForwardRef(Menu))>
+  </WithStyles(TableCell)>
+</div>
+`;
+
+exports[`<ActionsCell /> render() should render correctly 2`] = `
+<div>
+  <WithStyles(TableCell)
+    centeredText={true}
+    padding="halfLeftRight"
+  >
+    <div>
+      <WithStyles(InlineButton)
+        color="primary"
+        onClick={[Function]}
+      >
+        <WithStyles(Icon)
+          icon="ellipsis"
+          size="small"
+        />
+      </WithStyles(InlineButton)>
+    </div>
+    <WithStyles(ForwardRef(Menu))
+      anchorEl={null}
+      onClose={[Function]}
+      open={false}
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <FormattedMessage
+          defaultMessage="Activate"
+          id="app.containers.Profile.Components.Organisation.components.ActionsCell.activate"
+        />
+      </WithStyles(ForwardRef(MenuItem))>
+    </WithStyles(ForwardRef(Menu))>
+  </WithStyles(TableCell)>
+</div>
+`;

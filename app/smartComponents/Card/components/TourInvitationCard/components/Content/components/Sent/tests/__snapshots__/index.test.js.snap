@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sent /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(GridContainer)>
+      renderAvatar
+      <WithStyles(GridItem)
+        className=""
+      >
+        <P>
+          You invited 
+          <WithStyles(Connect(WithSimplifyResaga(Name)))
+            email=""
+            id={0}
+          />
+           to connect with a tour named 
+          <WithStyles(Connect(WithSimplifyResaga(NodeContent)))
+            nodeId={0}
+          />
+           in the role of
+           
+          <WithStyles(TourRole)
+            role=""
+          />
+          .
+        </P>
+        <WithStyles(ResponseMessage)
+          content=""
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+    <WithStyles(PersonalMessage)
+      content=""
+    />
+  </GenericForm>
+</div>
+`;
+
+exports[`<Sent /> renderAvatar() should renderAvatar 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <ConnectFunction
+      sm={true}
+      userId={123}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sent /> renderCanceledButtons() should renderCanceledButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Button)
+            dense={true}
+            disabled={true}
+            outline="outLineRed"
+            size="small"
+          >
+            Invitation cancelled
+          </WithStyles(Button)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sent /> renderConfirmedButtons() should renderConfirmedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Button)
+            dense={true}
+            disabled={true}
+            outline="outLineGreen"
+            size="small"
+          >
+            Invitation accepted
+          </WithStyles(Button)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sent /> renderDeclinedButtons() should renderDeclinedButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(Button)
+            dense={true}
+            disabled={true}
+            outline="outLineRed"
+            size="small"
+          >
+            Invitation declined
+          </WithStyles(Button)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sent /> renderPendingButtons() should renderPendingButtons 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)
+        xs={12}
+      >
+        <div>
+          <WithStyles(Button)
+            disabled={true}
+            noMargin={true}
+            onClick={[Function]}
+            size="small"
+          >
+            Invitation sent!
+          </WithStyles(Button)>
+          <WithStyles(Button)
+            color="black"
+            noMargin={true}
+            onClick={[Function]}
+            size="small"
+            variant="outline"
+          >
+            Cancel the invitation
+          </WithStyles(Button)>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Sent /> renderPersonalMessage() should render when has message 1`] = `
+<div>
+   with a personal message:
+</div>
+`;
+
+exports[`<Sent /> renderPersonalMessage() should render when no message 1`] = `
+<div>
+  .
+</div>
+`;
+
+exports[`<Sent /> renderTourOrg() should renderTourOrg 1`] = `
+<div>
+   
+  from 
+  <strong>
+    My Org
+  </strong>
+</div>
+`;
+
+exports[`<Sent /> resendInvitation() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Invitations",
+    "cancelInvitation",
+    Object {
+      "payload": Object {
+        "token": "that token",
+      },
+    },
+  ],
+  Array [
+    "Invitations",
+    "resendInvitation",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "token": "that token",
+      },
+    },
+  ],
+]
+`;

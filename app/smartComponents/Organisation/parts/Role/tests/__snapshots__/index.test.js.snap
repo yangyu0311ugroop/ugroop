@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Role /> contentClassName() should return contentClassName 1`] = `"default customClassName"`;
+
+exports[`<Role /> render() should return LOGIC_HELPERS.switchCase 1`] = `
+Array [
+  Array [
+    "default",
+    Object {
+      "default": [Function],
+      "text": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<Role /> renderDefault() should renderDefault 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    Admin
+  </span>
+</div>
+`;
+
+exports[`<Role /> renderText() should render article 1`] = `
+<div>
+  an Admin
+</div>
+`;
+
+exports[`<Role /> renderText() should renderText 1`] = `
+<div>
+  Admin
+</div>
+`;

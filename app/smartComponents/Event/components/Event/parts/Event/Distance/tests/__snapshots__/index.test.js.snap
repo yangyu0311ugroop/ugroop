@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Distance /> handleSubmit should call user api helpers update user preference 1`] = `
+Array [
+  Array [
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+    "preferredDistanceMeasurement",
+    undefined,
+    1,
+    [MockFunction],
+    [MockFunction],
+  ],
+]
+`;
+
+exports[`<Distance /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderLabelValue={[Function]}
+    renderLabelValueStacked={[Function]}
+    renderValueOnly={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<Distance /> renderEditable should match snapshot if event distance is not greater than 1 1`] = `<div />`;
+
+exports[`<Distance /> renderEditable should match snapshot if eventDistance is greater than 1 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableSelectForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Distance"
+          id="app/smartComponents/Event/components/Event/parts/Event/Distance/label"
+        />
+      }
+      name="preferredDistanceMeasurement"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": "Kilometers/km",
+            "value": "km",
+          },
+          Object {
+            "children": "Miles/mi",
+            "value": "mi",
+          },
+        ]
+      }
+      renderValue={[Function]}
+      value="km"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Distance /> renderLabelValue should match snapshot 1`] = `
+<div>
+  <div>
+    <H5
+      weight="bold"
+    >
+      Distance: 
+    </H5>
+    <H5>
+       
+      1
+    </H5>
+  </div>
+</div>
+`;
+
+exports[`<Distance /> renderLabelValueStacked should match snapshot 1`] = `
+<div>
+  <H6
+    weight="bold"
+  >
+    Distance: 
+  </H6>
+  <H6
+    weight="bold"
+  >
+    1
+  </H6>
+</div>
+`;
+
+exports[`<Distance /> renderValue should render the converted distance in m to target measurement of choice 1`] = `
+<div>
+  1 km
+</div>
+`;

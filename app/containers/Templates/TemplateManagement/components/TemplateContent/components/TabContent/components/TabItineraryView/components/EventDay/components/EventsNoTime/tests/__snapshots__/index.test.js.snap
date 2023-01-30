@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsNoTime /> render() should match snapshot if events have 3 values 1`] = `
+<WithStyles(GridItem)>
+  <div>
+    <p>
+      <FormattedMessage
+        defaultMessage="Events with no time"
+        id="app.containers.Templates.TemplateManagement.components.TemplateContent.components.TabContent.components.TabItineraryView.noTimeDayEvent"
+      />
+    </p>
+    <WithStyles(GridContainer)>
+      <WithStyles(GridItem)
+        key="1.start"
+        md={2}
+        sm={3}
+        xs={6}
+      >
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+            PopperProps={
+              Object {
+                "style": Object {
+                  "top": 36,
+                },
+              }
+            }
+            id={1}
+            position="start"
+            showLabel={true}
+            showSubIcon={true}
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="2.start"
+        md={2}
+        sm={3}
+        xs={6}
+      >
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+            PopperProps={
+              Object {
+                "style": Object {
+                  "top": 36,
+                },
+              }
+            }
+            id={2}
+            position="start"
+            showLabel={true}
+            showSubIcon={true}
+          />
+        </div>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)
+        key="3.start"
+        md={2}
+        sm={3}
+        xs={6}
+      >
+        <div>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(UGEventTooltipIconButton)))))
+            PopperProps={
+              Object {
+                "style": Object {
+                  "top": 36,
+                },
+              }
+            }
+            id={3}
+            position="start"
+            showLabel={true}
+            showSubIcon={true}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</WithStyles(GridItem)>
+`;
+
+exports[`<EventsNoTime /> render() should render correctly 1`] = `""`;

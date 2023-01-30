@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmergencyContact /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(CheckboxField))
+        autoFocus={true}
+        compact={true}
+        label="Emergency Contact?"
+        name="emergencyContact"
+        size="sm"
+        value={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EmergencyContact /> renderBadge should match snapshot 1`] = `<div />`;
+
+exports[`<EmergencyContact /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(CheckboxField))
+        autoFocus={true}
+        compact={true}
+        label="Emergency Contact?"
+        name="emergencyContact"
+        size="sm"
+        value={false}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EmergencyContact /> renderField should match snapshot if relationship has value 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Formsy(CheckboxField))
+        autoFocus={true}
+        compact={true}
+        label="Emergency Contact?"
+        name="emergencyContact"
+        size="sm"
+        value={true}
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<EmergencyContact /> renderTextOnly should match snapshot 1`] = `<div />`;

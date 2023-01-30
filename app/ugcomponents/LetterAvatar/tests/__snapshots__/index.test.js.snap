@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LetterAvatar /> should render LetterAvatar with displayed name 1`] = `
+<LetterAvatar
+  className=""
+  classes={
+    Object {
+      "avatar": "LetterAvatar-avatar",
+      "circular": "LetterAvatar-circular",
+      "grayBorderColor": "LetterAvatar-grayBorderColor",
+      "initials": "LetterAvatar-initials",
+      "md": "LetterAvatar-md",
+      "nameStyle": "LetterAvatar-nameStyle",
+      "root": "LetterAvatar-root",
+      "sm": "LetterAvatar-sm",
+      "squareSm": "LetterAvatar-squareSm",
+      "standardBGColor": "LetterAvatar-standardBGColor",
+      "whiteBGColor": "LetterAvatar-whiteBGColor",
+      "xs": "LetterAvatar-xs",
+    }
+  }
+  displayName={true}
+  name="?"
+>
+  <div
+    className="LetterAvatar-root"
+  >
+    <p
+      className="LetterAvatar-avatar LetterAvatar-circular LetterAvatar-standardBGColor LetterAvatar-initials"
+      style={
+        Object {
+          "backgroundColor": "#4fc3f7",
+        }
+      }
+    >
+      ?
+    </p>
+    <p
+      className="LetterAvatar-nameStyle"
+    >
+      ?
+    </p>
+  </div>
+</LetterAvatar>
+`;

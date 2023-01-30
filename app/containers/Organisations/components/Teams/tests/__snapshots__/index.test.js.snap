@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Teams /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <WithStyles(ComingSoon) />
+  </WithStyles(Container)>
+</div>
+`;

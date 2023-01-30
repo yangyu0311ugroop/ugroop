@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overview /> onSelectItem() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    dense={true}
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+        showIconAsContent={true}
+        variant="listOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    dense={true}
+    direction="column"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)>
+        <WithStyles(GridItem)>
+          header
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <ConnectFunction
+              halfPadding={true}
+              menuHeader="Overview Options"
+              placement="bottom-end"
+              renderButton={[Function]}
+              showAsContent={false}
+            >
+              <Component />
+            </ConnectFunction>
+          </WithStyles(GridItem)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+        showIconAsContent={false}
+        variant="listOnly"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Overview /> renderButton() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    buttonTitle="Overview Options"
+    color="primary"
+    dense={true}
+    onClick={[MockFunction]}
+    size="xs"
+    variant="outline"
+  >
+    <WithStyles(Icon)
+      icon="lnr-icons"
+    />
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Overview /> renderMenuItems() should render correctly 1`] = `
+<div>
+  <WithStyles(MenuItem)
+    closeMenu={[MockFunction]}
+    onClick={[Function]}
+    selected={true}
+  >
+    <WithStyles(Icon)
+      icon="lnr-list2"
+      size="xs"
+    />
+    Show as Icon
+  </WithStyles(MenuItem)>
+  <WithStyles(MenuItem)
+    closeMenu={[MockFunction]}
+    onClick={[Function]}
+    selected={false}
+  >
+    <WithStyles(Icon)
+      icon="lnr-icons"
+      size="xs"
+    />
+    Show as Label
+  </WithStyles(MenuItem)>
+</div>
+`;

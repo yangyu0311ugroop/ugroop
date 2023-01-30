@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatesSelect /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    placement="bottom-start"
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<DatesSelect /> renderDates() should renderDates() !range !startDate 1`] = `"Select date"`;
+
+exports[`<DatesSelect /> renderDates() should renderDates() !range startDate 1`] = `"format"`;
+
+exports[`<DatesSelect /> renderDates() should renderDates() multiple and startDate is null 1`] = `"Select dates"`;

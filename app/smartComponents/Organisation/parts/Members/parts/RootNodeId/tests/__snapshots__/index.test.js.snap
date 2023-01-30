@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RootNodeId /> getStrippedOwnProps() should toMatchSnapshot 1`] = `
+Object {
+  "children": "Node",
+  "history": Object {
+    "push": [Function],
+  },
+  "intl": Object {
+    "formatMessage": [MockFunction],
+  },
+  "url": "",
+}
+`;
+
+exports[`<RootNodeId /> redirectToAccessDenied() should call history.push, passing in an invalid root node ID 1`] = `
+Array [
+  Array [
+    "/some/url/-1",
+  ],
+]
+`;
+
+exports[`<RootNodeId /> redirectToRootNodeId() should call history.push 1`] = `
+Array [
+  Array [
+    "/some/url/2233",
+  ],
+]
+`;
+
+exports[`<RootNodeId /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Button)
+    className="DateFormat-link"
+    noPadding={true}
+    onClick={[Function]}
+    variant="inline"
+  >
+    Node
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<RootNodeId /> render() should renderDefault 1`] = `
+<div>
+  <withRouter(UGLink)
+    to="232"
+  >
+    Node
+  </withRouter(UGLink)>
+</div>
+`;
+
+exports[`<RootNodeId /> renderButtonForNoRootNodeId should render button under normal circumstances 1`] = `
+<div>
+  <WithStyles(Button)
+    noPadding={true}
+    onClick={[Function]}
+    variant="inline"
+  >
+    Node
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<RootNodeId /> renderButtonForNoRootNodeId should still render button if the current root node ID is INVALID_ROOT_NODE_ID 1`] = `
+<div>
+  <WithStyles(Button)
+    className="link"
+    noPadding={true}
+    onClick={[Function]}
+    variant="inline"
+  >
+    Node
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<RootNodeId /> renderDefault() should render active 1`] = `
+<div>
+  <div
+    className="DateFormat-active"
+  >
+    Node
+  </div>
+</div>
+`;
+
+exports[`<RootNodeId /> renderDefault() should render link 1`] = `
+<div>
+  <withRouter(UGLink)
+    to="232"
+  >
+    Node
+  </withRouter(UGLink)>
+</div>
+`;
+
+exports[`<RootNodeId /> setupPersonalTours() should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Organisations",
+    "setupPersonalTour",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": undefined,
+        "userId": undefined,
+      },
+    },
+  ],
+]
+`;

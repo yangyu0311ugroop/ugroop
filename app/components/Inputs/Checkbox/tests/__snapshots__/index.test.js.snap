@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> should render something 1`] = `
+<WithStyles(ForwardRef(Checkbox))
+  checkedIcon={
+    <WithStyles(Icon)
+      className="Checkbox-iconChecked"
+      icon="check"
+    />
+  }
+  classes={
+    Object {
+      "root": "Checkbox-default",
+    }
+  }
+  color="primary"
+  disableRipple={true}
+  icon={<i />}
+  indeterminateIcon={
+    <WithStyles(Icon)
+      className="Checkbox-iconChecked"
+      icon="minus"
+    />
+  }
+/>
+`;
+
+exports[`<Checkbox /> should render with FormControl when it receives label props 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <WithStyles(ForwardRef(Checkbox))
+      classes={
+        Object {
+          "root": "Checkbox-default",
+        }
+      }
+    />
+  }
+  label="Bad company corrupts good character"
+/>
+`;

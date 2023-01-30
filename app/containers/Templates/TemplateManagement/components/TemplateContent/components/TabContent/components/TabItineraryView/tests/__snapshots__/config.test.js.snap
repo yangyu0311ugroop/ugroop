@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabItineraryView/config.js value tabChildren should return a particular shape of array given the props provided 1`] = `
+Array [
+  "nodeStore",
+  "nodes",
+  1,
+  "children",
+]
+`;

@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventCreate /> #handleFormValidSubmit() calls TEMPLATE_API_HELPERS.createEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+      "onError": [Function],
+      "onSuccess": [Function],
+      "templateId": 0,
+    },
+    Object {
+      "classes": Object {
+        "paperRoot": "paperRoot",
+        "root": "root",
+      },
+      "dayId": 0,
+      "dialogProps": Object {},
+      "formBatchCreate": false,
+      "formIconOverride": "",
+      "formSubtype": "",
+      "formType": "",
+      "onClose": [MockFunction],
+      "onOpen": [Function],
+      "open": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "subtype": "",
+      "tabId": 0,
+      "templateId": 0,
+      "type": "",
+    },
+  ],
+]
+`;
+
+exports[`<EventCreate /> #handleOpen() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "form": undefined,
+  },
+}
+`;
+
+exports[`<EventCreate /> #render() still matches snapshot 1`] = `
+<WithStyles(GenericForm)
+  PaperProps={
+    Object {
+      "classes": Object {
+        "root": "paperRoot",
+      },
+    }
+  }
+  canSubmitForm={true}
+  dialogProps={
+    Object {
+      "className": "root",
+    }
+  }
+  onCancel={[Function]}
+  onClose={[Function]}
+  onFormValidSubmit={[Function]}
+  open={false}
+  renderFooter={[Function]}
+  renderHeader={[Function]}
+  submitButtonContent={
+    <FormattedMessage
+      defaultMessage="Create Event"
+      id="app.EventContainer.Event.Create.submitButtonLabel"
+    />
+  }
+>
+  <ConnectFunction
+    renderAccommodation={[Function]}
+    renderActivity={[Function]}
+    renderEvent={[Function]}
+    renderFlight={[Function]}
+    renderTransportation={[Function]}
+    subtype=""
+    type=""
+  />
+  <ConnectFunction />
+</WithStyles(GenericForm)>
+`;
+
+exports[`<EventCreate /> #renderFooter() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="space"
+    xs={true}
+  />
+  <WithStyles(GridItem)
+    key="cancel"
+  >
+    cancelButton
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="submit"
+  >
+    submitButton
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventCreate /> #renderHeader() still matches snapshot 1`] = `
+<div>
+  <WithStyles(Title)
+    heading={
+      <WithStyles(GridContainer)
+        alignItems="baseline"
+      >
+        <React.Fragment>
+          <WithStyles(GridItem)>
+            <EventHeading
+              Typography={[Function]}
+            >
+              <FormattedMessage
+                defaultMessage="Add"
+                id="app.EventContainer.Event.Create.headingTypePrefix"
+              />
+            </EventHeading>
+          </WithStyles(GridItem)>
+          <Memo(Connect(WithSimplifyResaga(Type)))
+            dayId={0}
+            onChange={[Function]}
+            onClose={[Function]}
+            open={false}
+            templateId={0}
+            variant="editableHeading"
+          />
+        </React.Fragment>
+        <React.Fragment>
+          <EventHeading
+            Typography={[Function]}
+          >
+            <FormattedMessage
+              defaultMessage="»"
+              id="app.EventContainer.Event.Create.headingTypeSubtypeSeparator"
+            />
+          </EventHeading>
+          <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+            dayId={0}
+            onChange={[Function]}
+            onClose={[Function]}
+            open={false}
+            templateId={0}
+            variant="editableHeading"
+          />
+        </React.Fragment>
+        <Memo(Connect(WithSimplifyResaga(Icon)))
+          dayId={0}
+          templateId={0}
+          variant="editableHeading"
+        />
+      </WithStyles(GridContainer)>
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="CREATE"
+        id="app.EventContainer.Event.Create.headingBackground"
+      />
+    }
+  />
+  closeButton
+</div>
+`;
+
+exports[`<EventCreate /> #renderNoPart() still matches snapshot 1`] = `<div />`;
+
+exports[`<EventCreate /> #renderSubmitButtonContent() still matches snapshot if formBatchCreate 1`] = `
+<FormattedMessage
+  defaultMessage="Create Multiple Events"
+  id="app.EventContainer.Event.Create.batchSubmitButtonLabel"
+/>
+`;

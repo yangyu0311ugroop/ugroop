@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InviteUser /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    fullWidth={true}
+    onClose={[Function]}
+  >
+    <WithStyles(UGDialogTitle)>
+      <WithStyles(Title)
+        heading={
+          <div>
+            <FormattedMessage
+              defaultMessage="Organisation Invitation"
+              id="app.smartComponents.Organisation.components.InviteUser.header"
+            />
+          </div>
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogAction)>
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            id={999}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+</div>
+`;

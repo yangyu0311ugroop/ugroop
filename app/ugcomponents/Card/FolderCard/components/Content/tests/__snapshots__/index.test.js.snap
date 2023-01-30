@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FolderCardContent component should render something 1`] = `
+<WithStyles(UGCardContent)
+  className="FolderCardContent-ugTemplateFolderContentEmpty"
+>
+  <div
+    className="FolderCardContent-ugTemplateFolderContentContainer FolderCardContent-ugEmptyFolder"
+  >
+    <p>
+      No items included
+    </p>
+  </div>
+</WithStyles(UGCardContent)>
+`;
+
+exports[`FolderCardContent component should render something if tours and subfolders have items 1`] = `
+<WithStyles(UGCardContent)
+  className=""
+>
+  <div
+    className="FolderCardContent-ugTemplateFolderContentContainer"
+  >
+    <ul
+      className="FolderCardContent-ugTemplateItemListContainer"
+    >
+      <WithStyles(TemplateEntryListView)
+        key="folders"
+        noULWrap={true}
+        viewDelegate={
+          Object {
+            "itemCellView": [Function],
+            "numberOfRow": [Function],
+          }
+        }
+      />
+      <WithStyles(TemplateEntryListView)
+        key="tours"
+        noULWrap={true}
+        viewDelegate={
+          Object {
+            "itemCellView": [Function],
+            "numberOfRow": [Function],
+          }
+        }
+      />
+    </ul>
+  </div>
+</WithStyles(UGCardContent)>
+`;
+
+exports[`subFolderViewDef should return a component given the passed parameter 1`] = `
+<TemplateEntryListItem
+  classes={
+    Object {
+      "listItemIcon": "TemplateEntryListItem-listItemIcon-2",
+      "listItemLink": "TemplateEntryListItem-listItemLink-3",
+      "listItemRoot": "TemplateEntryListItem-listItemRoot-1",
+    }
+  }
+  content="God is holy, holy, holy"
+  index={3}
+  type="folder"
+  url="/sample?current=undefined"
+/>
+`;
+
+exports[`tourViewDef should return a component given the passed parameter 1`] = `
+<TemplateEntryListItem
+  classes={
+    Object {
+      "listItemIcon": "TemplateEntryListItem-listItemIcon-2",
+      "listItemLink": "TemplateEntryListItem-listItemLink-3",
+      "listItemRoot": "TemplateEntryListItem-listItemRoot-1",
+    }
+  }
+  content="Jesus is the King of kings!"
+  index={2}
+  type="tour"
+  url="/tours?undefined"
+/>
+`;

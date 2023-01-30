@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invitation/config.js requests should call fetchWithAuthorisation 1`] = `
+Array [
+  Array [
+    "post",
+    "/Invitations/some token/cancel",
+    Object {
+      "content": "some content",
+    },
+  ],
+  Array [
+    "post",
+    "/Invitations/some token/resend",
+    Object {
+      "content": "some content",
+    },
+  ],
+]
+`;
+
+exports[`Invitation/config.js requests should call fetchWithAuthorisation 2`] = `
+Array [
+  Array [
+    "get",
+    "/Invitations/some token",
+  ],
+  Array [
+    "post",
+    "/Invitations/some token/decline",
+    Object {
+      "content": "content",
+    },
+  ],
+]
+`;

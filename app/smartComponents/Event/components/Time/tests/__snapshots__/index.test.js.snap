@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Time /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent if changed 1`] = `
+Array [
+  Array [
+    Object {
+      "model": Object {
+        "x": 1,
+      },
+      "onSuccess": [Function],
+    },
+    Object {
+      "calculatedTemplateStartTimeValue": null,
+      "calculatedTime": null,
+      "calculatedTimeMode": null,
+      "calculatedTimeValue": null,
+      "className": null,
+      "component": "span",
+      "defaultMode": "relative",
+      "displayDate": null,
+      "editablePlaceholder": null,
+      "formBatchCreate": false,
+      "id": 2,
+      "inputs": Object {
+        "mode": Object {
+          "name": "mode",
+        },
+        "timeZoneId": Object {
+          "name": "timeZoneId",
+        },
+        "value": Object {
+          "name": "value",
+        },
+      },
+      "mode": null,
+      "modePath": null,
+      "multiMode": false,
+      "otherCalculatedTimeValue": "",
+      "otherFormCalculatedTimeValue": "",
+      "otherValue": "",
+      "otherValuePath": null,
+      "position": null,
+      "readOnly": false,
+      "readOnlyEditablePlaceholder": "No time set",
+      "renderDate": [Function],
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+      },
+      "templateId": 1,
+      "timeZoneId": null,
+      "timeZoneIdPath": null,
+      "value": "",
+      "valuePath": null,
+      "variant": null,
+    },
+  ],
+]
+`;
+
+exports[`<Time /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderData={[Function]}
+  renderDefault={[Function]}
+  renderField={[Function]}
+  renderLabel={[Function]}
+  renderLabelValue={[Function]}
+  renderLabelValueWithInfo={[Function]}
+  renderProp={[Function]}
+  renderValueOnly={[Function]}
+  variant={null}
+/>
+`;
+
+exports[`<Time /> #renderData() still matches snapshot 1`] = `
+<div>
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="value"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value=""
+  />
+  <Formsy(DataField)
+    innerRef={[Function]}
+    name="mode"
+    required={false}
+    validationError=""
+    validationErrors={Object {}}
+    validations={null}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<Time /> #renderEditable() still matches snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className={null}
+  >
+    <WithStyles(EditableForm)
+      hasValue={[Function]}
+      onSubmit={[Function]}
+      placeholder={null}
+      readOnly={false}
+      readOnlyPlaceholder="No time set"
+      renderValue={[Function]}
+      value={null}
+    >
+      <ConnectFunction
+        calculatedTemplateStartTimeValue={null}
+        calculatedTime={null}
+        calculatedTimeMode={null}
+        calculatedTimeValue={null}
+        className={null}
+        component="span"
+        defaultMode="relative"
+        displayDate={null}
+        editablePlaceholder={null}
+        formBatchCreate={false}
+        id={1}
+        inputs={
+          Object {
+            "mode": Object {
+              "name": "mode",
+            },
+            "timeZoneId": Object {
+              "name": "timeZoneId",
+            },
+            "value": Object {
+              "name": "value",
+            },
+          }
+        }
+        mode="relative"
+        modePath={null}
+        multiMode={false}
+        otherCalculatedTimeValue=""
+        otherFormCalculatedTimeValue=""
+        otherValue=""
+        otherValuePath={null}
+        position={null}
+        readOnly={false}
+        readOnlyEditablePlaceholder="No time set"
+        renderDate={[Function]}
+        resaga={
+          Object {
+            "dispatchTo": [MockFunction],
+          }
+        }
+        singleColumn={true}
+        templateId={2}
+        timeZoneId={null}
+        timeZoneIdPath={null}
+        value=""
+        valuePath={null}
+        variant={null}
+      />
+      <Formsy(DataField)
+        innerRef={[Function]}
+        name="timeZoneId"
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+        value={null}
+      />
+      <EventPatchData
+        dataId={0}
+        id={1}
+        subtype={false}
+      />
+    </WithStyles(EditableForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Time /> #renderEditableValue() still matches snapshot 1`] = `
+<WithStyles(GridContainer)
+  alignItems="baseline"
+>
+  <WithStyles(GridItem)>
+    00:00 UTC
+  </WithStyles(GridItem)>
+  <WithStyles(EventHomeTimeLabel)
+    calculatedMode={null}
+    calculatedTime={"2018-01-01T00:00:00.000Z"}
+  />
+</WithStyles(GridContainer)>
+`;
+
+exports[`<Time /> #renderInput() still matches snapshot 1`] = `
+<React.Fragment>
+  <Memo(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayTimeInput)))))))
+    calculatedTemplateStartTimeValue={null}
+    calculatedTime={null}
+    calculatedTimeMode={null}
+    calculatedTimeValue={null}
+    className={null}
+    component="span"
+    defaultMode="relative"
+    displayDate={null}
+    editablePlaceholder={null}
+    formBatchCreate={false}
+    id={1}
+    inputs={
+      Object {
+        "mode": Object {
+          "name": "mode",
+        },
+        "timeZoneId": Object {
+          "name": "timeZoneId",
+        },
+        "value": Object {
+          "name": "value",
+        },
+      }
+    }
+    mode="relative"
+    modePath={null}
+    multiMode={false}
+    otherCalculatedTimeValue=""
+    otherFormCalculatedTimeValue=""
+    otherValue=""
+    otherValuePath={null}
+    position={null}
+    readOnly={false}
+    readOnlyEditablePlaceholder="No time set"
+    renderDate={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+      }
+    }
+    templateId={2}
+    timeZoneId={null}
+    timeZoneIdPath={null}
+    value=""
+    valuePath={null}
+    variant={null}
+  />
+</React.Fragment>
+`;
+
+exports[`<Time /> #renderLabel() still matches snapshot 1`] = `
+<div>
+  <EventTimeLabel
+    calculatedTemplateStartTimeValue={null}
+    calculatedTime={null}
+    calculatedTimeMode={null}
+    calculatedTimeValue={null}
+    className={null}
+    component="span"
+    defaultMode="relative"
+    displayDate={null}
+    editablePlaceholder={null}
+    formBatchCreate={false}
+    id={1}
+    index={NaN}
+    inputs={
+      Object {
+        "mode": Object {
+          "name": "mode",
+        },
+        "timeZoneId": Object {
+          "name": "timeZoneId",
+        },
+        "value": Object {
+          "name": "value",
+        },
+      }
+    }
+    mode={null}
+    modePath={null}
+    multiMode={false}
+    omitDate={false}
+    otherCalculatedTimeValue=""
+    otherFormCalculatedTimeValue=""
+    otherValue=""
+    otherValuePath={null}
+    position={null}
+    readOnly={false}
+    readOnlyEditablePlaceholder="No time set"
+    renderDate={[Function]}
+    renderPrefix={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+      }
+    }
+    showEmpty={false}
+    templateId={2}
+    timeZoneId={null}
+    timeZoneIdPath={null}
+    value=""
+    valuePath={null}
+    variant={null}
+  />
+</div>
+`;
+
+exports[`<Time /> #renderLabelValue() still matches snapshot 1`] = `
+<div>
+  <WithStyles(IconSublabel)>
+    Invalid date
+  </WithStyles(IconSublabel)>
+</div>
+`;
+
+exports[`<Time /> #renderLabelValue() still matches snapshot if hasTimeComponent returns false 1`] = `
+<div>
+  <WithStyles(IconSublabel)>
+    ––:––
+  </WithStyles(IconSublabel)>
+</div>
+`;
+
+exports[`<Time /> #renderParentNodeId() still matches snapshot 1`] = `
+<Memo(Connect(WithSimplifyResaga(ParentNodeId)))
+  id={1}
+/>
+`;
+
+exports[`<Time /> renderValueOnly() should renderValueOnly 1`] = `
+<div>
+  <span
+    className={null}
+  >
+    Invalid date
+  </span>
+</div>
+`;

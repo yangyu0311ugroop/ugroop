@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartTime /> render() should render 1`] = `
+<div>
+  <TimeField
+    autoComplete="off"
+    displayFormat="HH:mm"
+    label="Start time"
+    maxTimeField={null}
+    maxTimeFieldError="Time is after maximum time"
+    minTimeField={null}
+    minTimeFieldError="Time is before minimum time"
+    name="node.customData.start.tempTime"
+    onChange={[Function]}
+    placeholder="Enter start time"
+    textComponent={[Function]}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+</div>
+`;

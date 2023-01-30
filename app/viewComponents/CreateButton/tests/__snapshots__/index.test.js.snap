@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateButton /> Smoke tests should render properly 1`] = `
+<WithStyles(Button)
+  className="root"
+  color="black"
+  dense={true}
+  icon="lnr-plus"
+  iconButton={true}
+  size="extraSmall"
+  title="Add"
+  variant="outline"
+/>
+`;

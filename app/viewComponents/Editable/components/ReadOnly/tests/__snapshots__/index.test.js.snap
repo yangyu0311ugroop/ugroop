@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReadOnlyWrapper /> ReadOnlyWrapper style should match snapshot 1`] = `
+Object {
+  "bold": "-bold",
+  "h1FontSize": "-h1FontSize",
+  "h2FontSize": "-h2FontSize",
+  "h3FontSize": "-h3FontSize",
+  "h4FontSize": "-h4FontSize",
+  "h5FontSize": "-h5FontSize",
+  "h6FontSize": "-h6FontSize",
+  "root": "-root",
+  "spanFontSize": "-spanFontSize",
+  "titleFontSize": "-titleFontSize",
+}
+`;
+
+exports[`<ReadOnlyWrapper /> Smoke tests should render properly 1`] = `
+<div
+  className=""
+  classes={Object {}}
+>
+  <span />
+</div>
+`;

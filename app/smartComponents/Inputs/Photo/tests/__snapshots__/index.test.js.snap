@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Photo /> render() should render correctly 1`] = `
+<div>
+  <ConnectFunction
+    cancelUploadImage={[Function]}
+    canvasBorder={0}
+    canvasHeight={480}
+    canvasSize="canvasMedium"
+    canvasWidth={480}
+    dispatchUpload={[Function]}
+    fileId="imageUploder-formsy-photo"
+    fullWidth={true}
+    getValue={[MockFunction]}
+    imageCropperContainerClassname=""
+    label=""
+    onDelete={[MockFunction]}
+    onUpload={[MockFunction]}
+    originalImageUrl="photo"
+    placeholderProps={
+      Object {
+        "centerIcons": true,
+        "className": "",
+        "cropMetaInfo": Object {
+          "height": 0,
+          "rotate": 0,
+          "scale": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+        },
+        "deleteIcon": true,
+        "facadeURLPrefix": true,
+        "fileId": "imageUploder-formsy-photo",
+        "imgSrc": "photo",
+        "onDeleteClick": undefined,
+        "placeholder": <WithStyles(Photo)
+          fileId="imageUploder-formsy-photo"
+          label=""
+          size=""
+        />,
+        "resizeSize": 120,
+        "rotate": 0,
+        "smallIcons": true,
+      }
+    }
+    placeholderSize=""
+    saveImagePosition={[Function]}
+    scale={0}
+    setValue={[MockFunction]}
+    show={true}
+    size="imageMedium"
+    uploadFile={
+      Object {
+        "enqueueData": [MockFunction],
+        "handleDelete": [Function],
+        "subscribeSuccess": [Function],
+      }
+    }
+    variant="imageRound"
+  />
+</div>
+`;
+
+exports[`<Photo /> render() should render correctly if editable is true 1`] = `
+<div>
+  <ConnectFunction
+    cancelUploadImage={[Function]}
+    canvasBorder={0}
+    canvasHeight={480}
+    canvasSize="canvasMedium"
+    canvasWidth={480}
+    dispatchUpload={[Function]}
+    editable={true}
+    fileId="imageUploder-formsy-photo"
+    fullWidth={true}
+    getValue={[MockFunction]}
+    imageCropperContainerClassname=""
+    label=""
+    onDelete={[MockFunction]}
+    onUpload={[MockFunction]}
+    originalImageUrl="photo"
+    placeholderProps={
+      Object {
+        "centerIcons": true,
+        "className": "",
+        "cropMetaInfo": Object {
+          "height": 0,
+          "rotate": 0,
+          "scale": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+        },
+        "deleteIcon": true,
+        "facadeURLPrefix": true,
+        "fileId": "imageUploder-formsy-photo",
+        "imgSrc": "photo",
+        "onDeleteClick": undefined,
+        "placeholder": <WithStyles(Photo)
+          fileId="imageUploder-formsy-photo"
+          label=""
+          size=""
+        />,
+        "resizeSize": 120,
+        "rotate": 0,
+        "smallIcons": true,
+      }
+    }
+    placeholderSize=""
+    saveImagePosition={[Function]}
+    scale={0}
+    setValue={[MockFunction]}
+    show={true}
+    size="imageMedium"
+    uploadFile={
+      Object {
+        "enqueueData": [MockFunction],
+        "handleDelete": [Function],
+        "subscribeSuccess": [Function],
+      }
+    }
+    variant="imageRound"
+  />
+</div>
+`;

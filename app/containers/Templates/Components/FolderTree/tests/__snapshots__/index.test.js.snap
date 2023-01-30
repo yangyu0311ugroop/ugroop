@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderTree /> cloneOption should render clone option 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": undefined,
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Checkbox))
+            checked={false}
+            checkedIcon={
+              <WithStyles(Icon)
+                icon="lnr-check-square"
+              />
+            }
+            classes={
+              Object {
+                "root": undefined,
+              }
+            }
+            icon={
+              <WithStyles(Icon)
+                icon="lnr-square"
+              />
+            }
+            onChange={[Function]}
+          />
+        }
+        label="Copy checklist to the new tour"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FolderTree /> fetchFolders should call dispatchTo with a particular param shape if isOpen prop is true and id is array 1`] = `
+Object {
+  "errStatusCode": null,
+  "includeCheckList": false,
+  "isFetchLoading": true,
+  "items": Array [],
+  "selected": undefined,
+  "selectedTitle": null,
+}
+`;
+
+exports[`<FolderTree /> fetchFolders should call dispatchTo with a particular param shape if isOpen prop is true and id is not array 1`] = `
+Object {
+  "errStatusCode": null,
+  "includeCheckList": false,
+  "isFetchLoading": true,
+  "items": Array [],
+  "selected": undefined,
+  "selectedTitle": null,
+}
+`;
+
+exports[`<FolderTree /> fetchFoldersSuccess should rename the content object attribute then transform it to array 1`] = `
+Array [
+  Object {
+    "children": Array [],
+    "content": "formatMessage",
+  },
+]
+`;
+
+exports[`<FolderTree /> getErrorDisplay should render a particular text if status code is unauthorized 1`] = `
+<div>
+  <H4
+    error={true}
+  >
+    You are unauthorized for doing the action
+  </H4>
+</div>
+`;
+
+exports[`<FolderTree /> getErrorDisplay should render a particular text if status code is unauthorized 2`] = `
+<div>
+  <H4
+    error={true}
+  >
+    Something went wrong... Please try again
+  </H4>
+</div>
+`;
+
+exports[`<FolderTree /> handleFetchFolderError should call openErrorSnackbar with particular params if statusCode is not unauthorized and isOpen prop is true 1`] = `
+Object {
+  "errStatusCode": 500,
+  "includeCheckList": false,
+  "isFetchLoading": false,
+  "items": Array [],
+  "selected": undefined,
+  "selectedTitle": null,
+}
+`;
+
+exports[`<FolderTree /> handleFetchFolderError should call openErrorSnackbar with particular params if statusCode is not unauthorized and isOpen prop is true 2`] = `
+Array [
+  Array [
+    "Something went wrong... Please try again",
+    Object {
+      "dispatchTo": [MockFunction] {
+        "calls": Array [
+          Array [
+            "Folders",
+            "batchGetFolderTree",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "ids": Array [
+                  1,
+                  1,
+                ],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<FolderTree /> handleFetchFolderError should call openErrorSnackbar with particular params if statusCode is unauthorized and isOpen prop is true 1`] = `
+Object {
+  "errStatusCode": 401,
+  "includeCheckList": false,
+  "isFetchLoading": false,
+  "items": Array [],
+  "selected": undefined,
+  "selectedTitle": null,
+}
+`;
+
+exports[`<FolderTree /> handleFetchFolderError should call openErrorSnackbar with particular params if statusCode is unauthorized and isOpen prop is true 2`] = `
+Array [
+  Array [
+    "You are not authorized to do the action",
+    Object {
+      "dispatchTo": [MockFunction] {
+        "calls": Array [
+          Array [
+            "Folders",
+            "batchGetFolderTree",
+            Object {
+              "onError": [Function],
+              "onSuccess": [Function],
+              "payload": Object {
+                "ids": Array [
+                  1,
+                  1,
+                ],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<FolderTree /> onChangeCheck should rename the content object attribute then transform it to array 1`] = `true`;
+
+exports[`<FolderTree /> render() should pass different title for the dialog 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    dividers={true}
+    fullScreen={false}
+    fullWidth={true}
+    fullWidthNotes={true}
+    header={
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        xl={true}
+      >
+        
+      </WithStyles(JTextClass)>
+    }
+    headerNoWrap={true}
+    loading={false}
+    maxWidth="xs"
+    notes={false}
+    notesTextWrap={false}
+    onButtonClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+    submitButton={
+      <WithStyles(GridContainer)
+        justify="center"
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            nowrap={true}
+          >
+            Move to 
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          folder
+           
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            id={-1}
+            mapping={[Function]}
+            orgId={0}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(LoadingText)
+            hideLogo={true}
+            splash={true}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<FolderTree /> render() should pass error text if errStatusCode exist 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    dividers={true}
+    fullScreen={false}
+    fullWidth={true}
+    fullWidthNotes={true}
+    header={
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        xl={true}
+      >
+        
+      </WithStyles(JTextClass)>
+    }
+    headerNoWrap={true}
+    loading={false}
+    maxWidth="xs"
+    notes={false}
+    notesTextWrap={false}
+    onButtonClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+    submitButton={
+      <WithStyles(GridContainer)
+        justify="center"
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            nowrap={true}
+          >
+            Move 
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          folder
+           
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            id={-1}
+            mapping={[Function]}
+            orgId={0}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <H4
+            error={true}
+          >
+            You are unauthorized for doing the action
+          </H4>
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<FolderTree /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Component)
+    disabled={false}
+    dividers={true}
+    fullScreen={false}
+    fullWidth={true}
+    fullWidthNotes={true}
+    header={
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        xl={true}
+      >
+        
+      </WithStyles(JTextClass)>
+    }
+    headerNoWrap={true}
+    loading={false}
+    maxWidth="xs"
+    notes={false}
+    notesTextWrap={false}
+    onButtonClose={[Function]}
+    onValidSubmit={[Function]}
+    open={false}
+    submitButton={
+      <WithStyles(GridContainer)
+        justify="center"
+        noWrap={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            nowrap={true}
+          >
+            Move 
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          folder
+           
+          <WithStyles(Connect(WithSimplifyResaga(Content)))
+            id={-1}
+            mapping={[Function]}
+            orgId={0}
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    }
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <div>
+          <WithStyles(LoadingText)
+            hideLogo={true}
+            splash={true}
+          />
+        </div>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(Component)>
+</div>
+`;
+
+exports[`<FolderTree /> renderItem should render content smartComponent given the id passed to it 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <ConnectFunction
+        shape="imageSquare"
+        size="imageExtraExtraSmall"
+        variant="readOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Component
+        className="j-text-ellipsis"
+        variant="stringOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      (Personal)
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FolderTree /> renderItem should render folder name if id is not included to the orgNodeIds of the user 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        bold={true}
+        icon="lnr-folder"
+        size="normal"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        gray={false}
+        italic={false}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Content)))
+          id={5}
+          mapping={[Function]}
+          orgId={0}
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FolderTree /> renderItem should render organisation name if id is included to the orgNodeIds of the user 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    noWrap={true}
+  >
+    <WithStyles(GridItem)>
+      <Component
+        id={1}
+        letterAvatar={true}
+        variant="avatarOnly"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JTextClass)
+        bold={true}
+        dark={true}
+        ellipsis={true}
+        md={true}
+      >
+        <Component
+          id={1}
+          variant="stringOnly"
+        />
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<FolderTree /> renderItem should render organisation text only 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      bold={true}
+      dark={true}
+      ellipsis={true}
+      md={true}
+    >
+      <Component
+        id={1}
+        variant="stringOnly"
+      />
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;

@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyChecklists /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(Container)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Description of My Checklists",
+            "name": "description",
+          },
+        ]
+      }
+      title="My Checklists"
+    />
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      renderHeader
+      <Hidden
+        xsDown={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)
+              xs={3}
+            >
+              <Sticky
+                activeClass="active"
+                bottomBoundary="#LayoutContent"
+                enableTransforms={true}
+                enabled={true}
+                onStateChange={null}
+                releasedClass="released"
+                shouldFreeze={[Function]}
+                top={60}
+              >
+                <withRouter(WithStyles(Overview))
+                  parentNodeId={0}
+                  renderHeader={[Function]}
+                />
+              </Sticky>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={9}
+            >
+              <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+                iconToggle={[Function]}
+                parentNodeId={0}
+                showOption={true}
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </Hidden>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Checkgroups)))
+            parentNodeId={0}
+            showOption={true}
+          />
+        </WithStyles(GridItem)>
+      </Hidden>
+    </WithStyles(GridContainer)>
+  </WithStyles(Container)>
+</div>
+`;
+
+exports[`<MyChecklists /> renderHeader() should renderHeader 1`] = `
+<div>
+  <Hidden
+    smUp={true}
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        justify="space-between"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <H5>
+             My Checklists 
+          </H5>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <BoundCan
+            do="create"
+            on={
+              Object {
+                "type": "checklist",
+              }
+            }
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Component)))
+              parentNodeId={0}
+            />
+          </BoundCan>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </Hidden>
+</div>
+`;
+
+exports[`<MyChecklists /> renderHeader() should renderHeader 2`] = `<div />`;
+
+exports[`<MyChecklists /> renderOverViewHeader() should render correctly 1`] = `<div />`;
+
+exports[`<MyChecklists /> renderOverViewHeader() should render correctly 2`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      justify="space-between"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <H5>
+           My Checklists 
+        </H5>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on={
+            Object {
+              "type": "checklist",
+            }
+          }
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Component)))
+            parentNodeId={0}
+            simple={true}
+          />
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<MyChecklists /> sideBar hould render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={3}
+  >
+    <Sticky
+      activeClass="active"
+      bottomBoundary="#LayoutContent"
+      enableTransforms={true}
+      enabled={true}
+      onStateChange={null}
+      releasedClass="released"
+      shouldFreeze={[Function]}
+      top={60}
+    >
+      <withRouter(WithStyles(Overview))
+        parentNodeId={0}
+        renderHeader={[Function]}
+      />
+    </Sticky>
+  </WithStyles(GridItem)>
+</div>
+`;

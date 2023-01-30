@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateEntryListItem should render different icon if type is not folder 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  classes={
+    Object {
+      "default": "TemplateEntryListItem-listItemRoot",
+    }
+  }
+  disableGutters={true}
+  divider={true}
+  key="0"
+>
+  <WithStyles(Icon)
+    className="TemplateEntryListItem-listItemIcon itemIcon"
+    icon="lnr-document"
+  />
+  <withRouter(UGLink)
+    className="TemplateEntryListItem-listItemLink"
+    title="Jesus Christ is Lord"
+    to="/sample"
+  >
+    Jesus Christ is Lord
+  </withRouter(UGLink)>
+</WithStyles(ForwardRef(ListItem))>
+`;
+
+exports[`TemplateEntryListItem should render something based on default props 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  classes={
+    Object {
+      "default": "TemplateEntryListItem-listItemRoot",
+    }
+  }
+  disableGutters={true}
+  divider={true}
+  key="0"
+>
+  <WithStyles(Icon)
+    className="TemplateEntryListItem-listItemIcon itemIcon"
+    icon="lnr-folder"
+  />
+  <withRouter(UGLink)
+    className="TemplateEntryListItem-listItemLink"
+    title="Jesus Christ is Lord"
+    to="/sample"
+  >
+    Jesus Christ is Lord
+  </withRouter(UGLink)>
+</WithStyles(ForwardRef(ListItem))>
+`;

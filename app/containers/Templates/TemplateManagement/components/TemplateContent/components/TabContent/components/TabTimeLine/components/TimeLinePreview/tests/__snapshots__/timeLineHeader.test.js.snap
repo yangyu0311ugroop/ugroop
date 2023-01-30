@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeLineToolBar component render() should render div 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`TimeLineToolBar component render() should render no title 1`] = `
+<div>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <div />
+  </WithStyles(ForwardRef(AppBar))>
+</div>
+`;
+
+exports[`TimeLineToolBar component render() should render w/ badge 1`] = `
+<div>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <WithStyles(H5)
+      dense={true}
+    >
+      Start Date
+    </WithStyles(H5)>
+    <div>
+      <WithStyles(H5)
+        dense={true}
+      >
+        month
+      </WithStyles(H5)>
+      renderBadge
+    </div>
+  </WithStyles(ForwardRef(AppBar))>
+</div>
+`;
+
+exports[`TimeLineToolBar component renderBadge should render badge 1`] = `
+<div>
+  <WithStyles(Tooltip)
+    placement="top"
+    title="You have 1 unresolved Tour Discussion"
+  >
+    <div />
+  </WithStyles(Tooltip)>
+</div>
+`;

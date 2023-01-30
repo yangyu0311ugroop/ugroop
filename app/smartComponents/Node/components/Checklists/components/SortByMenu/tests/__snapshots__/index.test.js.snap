@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortByMenu /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(InlineButton)
+      color="secondary"
+      onClick={[Function]}
+      padding="md"
+    >
+      Sort 
+      :
+       
+      <b />
+       
+      <WithStyles(Icon)
+        icon="lnr-chevron-down"
+        size="xsmall"
+      />
+    </WithStyles(InlineButton)>
+    <ConnectFunction
+      anchorEl={null}
+      noPadding={true}
+      onClose={[Function]}
+      placement="bottom-end"
+    >
+      <div>
+        <WithStyles(ForwardRef(MenuItem))
+          disableRipple={true}
+          onClick={[Function]}
+        >
+          <div>
+            Sort by
+          </div>
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(Divider)) />
+        renderMenuItem
+        renderMenuItem
+        renderMenuItem
+        renderMenuItem
+        renderMenuItem
+        renderMenuItem
+      </div>
+    </ConnectFunction>
+  </WithStyles(GridItem)>
+</div>
+`;

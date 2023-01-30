@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTemplateModalContainer component onCreateError should call snackbar helper and call with specific parameters 1`] = `
+Array [
+  Array [
+    "You are not authorized in doing the action",
+    Object {
+      "analyse": [MockFunction],
+      "dispatch": [MockFunction],
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "editable": true,
+              "nodes": [Function],
+              "tours": [Function],
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    },
+  ],
+]
+`;

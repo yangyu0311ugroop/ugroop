@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NODE_TRAIL_NORMALISERS breadcrumbNormaliser should return breadcrumb, trail and id 1`] = `
+Object {
+  "breadcrumb": Object {
+    "1": Object {
+      "id": 1,
+      "trail": Array [
+        2,
+        3,
+      ],
+    },
+  },
+  "id": 1,
+  "nodes": Object {
+    "2": Object {
+      "content": "222",
+      "id": 2,
+      "name": "222",
+      "status": undefined,
+    },
+    "3": Object {
+      "content": "333",
+      "id": 3,
+      "name": "333",
+      "status": undefined,
+    },
+  },
+  "trail": Object {
+    "2": Object {
+      "content": "222",
+      "id": 2,
+      "name": "222",
+      "status": undefined,
+    },
+    "3": Object {
+      "content": "333",
+      "id": 3,
+      "name": "333",
+      "status": undefined,
+    },
+  },
+}
+`;

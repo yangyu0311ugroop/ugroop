@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hr /> render() should render correctly w/ children 1`] = `
+<div>
+  <div>
+    <hr
+      className=""
+    />
+    <div>
+      <span>
+        some children
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Hr /> render() should render correctly w/o children 1`] = `
+<div>
+  <div>
+    <hr
+      className=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<Hr /> render() should render correctly w/o children 2`] = `
+Array [
+  Array [
+    Array [
+      false,
+      false,
+    ],
+    undefined,
+    null,
+    true,
+  ],
+  Array [
+    Array [
+      false,
+      false,
+    ],
+    undefined,
+    null,
+    true,
+  ],
+  Array [
+    undefined,
+    undefined,
+  ],
+  Array [
+    false,
+    "noMarginTop",
+  ],
+  Array [
+    false,
+    undefined,
+  ],
+]
+`;

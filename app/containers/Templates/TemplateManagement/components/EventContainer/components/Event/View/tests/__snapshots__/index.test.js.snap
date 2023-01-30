@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventView /> #handleDeleteConfirm() calls TEMPLATE_API_HELPERS.deleteEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "dataId": 3,
+      "id": 1,
+      "onError": [Function],
+      "onSuccess": [Function],
+      "templateId": 2,
+    },
+    Object {
+      "calculatedEndTimeValue": null,
+      "calculatedStartTimeValue": null,
+      "canEditEvent": false,
+      "classes": Object {
+        "headerActions": "headerActions",
+        "paperRoot": "paperRoot",
+      },
+      "dataId": 3,
+      "dayIds": Array [
+        21923,
+        21924,
+        21925,
+        21926,
+      ],
+      "dialogProps": Object {},
+      "eventIds": Array [],
+      "iconOverride": "",
+      "id": 1,
+      "name": null,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {
+        "setValue": [MockFunction],
+      },
+      "startDate": Object {
+        "add": [Function],
+        "date": [Function],
+        "diff": [Function],
+        "format": [Function],
+        "isBefore": [Function],
+        "isSame": [Function],
+        "unix": [Function],
+      },
+      "subtype": null,
+      "supplierPhone": "",
+      "templateId": 2,
+      "timeZoneId": null,
+      "transportationSupplierPhone": "",
+      "type": null,
+      "url": "",
+    },
+  ],
+]
+`;
+
+exports[`<EventView /> #handleEditClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "setValue": Object {
+    "eventEdit": Object {
+      "editId": 1,
+      "editOpen": true,
+      "editTime": "now",
+    },
+  },
+}
+`;
+
+exports[`<EventView /> #render() still matches snapshot 1`] = `
+<Fragment>
+  <WithStyles(Component)
+    PaperProps={
+      Object {
+        "classes": Object {
+          "root": "paperRoot",
+        },
+      }
+    }
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <WithStyles(UGDialogTitle)
+      noPaddingBottom={true}
+    >
+      <WithStyles(Title)
+        fullWidth={true}
+        heading={
+          <WithStyles(GridContainer)
+            alignItems="baseline"
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Subtype)))
+              dataId={3}
+              filterOptions={[Function]}
+              id={1}
+              readOnly={true}
+              templateId={2}
+              variant="editableHeadingForm"
+            />
+            <Memo(Connect(WithSimplifyResaga(Icon)))
+              dataId={3}
+              displayFlex={true}
+              id={1}
+              readOnly={true}
+              templateId={2}
+              variant="editableHeadingForm"
+            />
+            <Unknown
+              dataId={3}
+              id={1}
+              isCycling={false}
+              readOnly={true}
+              templateId={2}
+              variant="singleLocation"
+            />
+          </WithStyles(GridContainer)>
+        }
+        headingBackground={
+          <FormattedMessage
+            defaultMessage="VIEW"
+            id="app.EventContainer.Event.View.headingBackground"
+          />
+        }
+      />
+      <WithStyles(CloseButton)
+        onClick={[Function]}
+      />
+      <WithStyles(GridContainer)
+        justify="space-between"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Ratings)))))))
+            dataId={3}
+            id={1}
+            readOnly={true}
+            templateId={2}
+            variant="editableForm"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <ConnectFunction
+            dataId={3}
+            id={1}
+            readOnly={true}
+            templateId={2}
+            variant="labelValue"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogTitle)>
+    <WithStyles(UGDialogContent)>
+      <ConnectFunction
+        renderAccommodation={[Function]}
+        renderActivity={[Function]}
+        renderFlight={[Function]}
+        renderTransportation={[Function]}
+        subtype={null}
+        type={null}
+      />
+      <ForwardRef(Popper)
+        anchorEl={null}
+        open={false}
+        placement="bottom-start"
+      >
+        <ClickAwayListener
+          mouseEvent="onMouseDown"
+          onClickAway={[Function]}
+        >
+          <WithStyles(ForwardRef(Paper))>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(JTextClass)
+                      gray={true}
+                      uppercase={true}
+                    >
+                      EVENT COPY
+                    </WithStyles(JTextClass)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Component)))
+                  dates={Array []}
+                  helperText=""
+                  multiple={true}
+                  onDatesChange={[Function]}
+                  templateId={2}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <GenericForm
+                  canSubmitForm={true}
+                  cancelButtonContent="Discard"
+                  disabled={false}
+                  discardDialogProps={Object {}}
+                  loading={false}
+                  onInvalid={[Function]}
+                  onValid={[Function]}
+                  onValidSubmit={[Function]}
+                  showChangeRoutePrompt={false}
+                  submitButtonContent="Submit"
+                >
+                  <WithStyles(GridContainer)>
+                    <WithStyles(GridItem)
+                      className=""
+                    >
+                      <WithStyles(EditableFormActions)
+                        noGrid={true}
+                        onCancel={[Function]}
+                      />
+                    </WithStyles(GridItem)>
+                  </WithStyles(GridContainer)>
+                </GenericForm>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(ForwardRef(Paper))>
+        </ClickAwayListener>
+      </ForwardRef(Popper)>
+    </WithStyles(UGDialogContent)>
+    <WithStyles(UGDialogAction)>
+      <WithStyles(GridContainer)
+        alignItems="center"
+        direction="row"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          md={12}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+            direction="row"
+            justify="flex-end"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(UGDialogAction)>
+  </WithStyles(Component)>
+  <EventDuplicateConfirmation
+    name={null}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    subtype={null}
+    type={null}
+  />
+  <EventDeleteConfirmation
+    name={null}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    open={false}
+    subtype={null}
+    type={null}
+  />
+</Fragment>
+`;
+
+exports[`<EventView /> #renderActions() still matches snapshot if props.canEditEvent 1`] = `
+<React.Fragment>
+  renderOtherActionButtons
+  renderVerticalLine
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      renderDeleteButton
+      renderEditButton
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</React.Fragment>
+`;
+
+exports[`<EventView /> renderDuplicateButton should render duplicate button if displayDate is startDate 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Button)
+      color="primary"
+      dense={true}
+      icon="lnr-copy"
+      iconButton={true}
+      onClick={[Function]}
+      size="small"
+      title={
+        <FormattedMessage
+          defaultMessage="Copy Event"
+          id="app.EventContainer.Event.View.duplicateButtonLabel"
+        />
+      }
+      variant="outline"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<EventView /> renderHeading should pass readOnly when subType is a transportation type 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<EventView /> renderHeading should render Dial button if type is activity and there is a supplierPhone 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<EventView /> renderHeading should render popper if type is tranportation 1`] = `
+<div>
+  <Component />
+</div>
+`;
+
+exports[`<EventView /> renderHeading should render popper if type is tranportation 2`] = `
+<div>
+  <Component />
+</div>
+`;

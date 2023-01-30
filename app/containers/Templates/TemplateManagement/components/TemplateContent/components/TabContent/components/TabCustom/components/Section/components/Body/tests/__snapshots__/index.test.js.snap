@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> handleChange() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "editSections": "sections.upsert()",
+    },
+  ],
+]
+`;
+
+exports[`<Body /> handleChange() should call setValue 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "id": 123,
+      },
+      Object {
+        "node": Object {
+          "content": "abcd",
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": "sections.upsert()",
+    },
+  ],
+}
+`;
+
+exports[`<Body /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)>
+      renderBody
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> render() should render empty if !body 1`] = `<div />`;
+
+exports[`<Body /> renderAttachment() should render edit mode 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+    id={123}
+    placeholder="Add a helpful attachment"
+    readonly={false}
+    sectionId={13}
+    showHr={false}
+  />
+</div>
+`;
+
+exports[`<Body /> renderAttachment() should render view mode 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Attachment)))
+    id={123}
+    placeholder="Add a helpful attachment"
+    readonly={true}
+    sectionId={13}
+    showHr={false}
+  />
+</div>
+`;
+
+exports[`<Body /> renderBody() should render view mode 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      direction="column"
+      spacing={8}
+      wrap="nowrap"
+    >
+      renderLocation
+      renderUrl
+      renderDescription
+      renderAttachment
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderDescription() should render edit mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(UGRichEditor)
+      initContent="hello world"
+      onChange={[Function]}
+      toolBarId="rte999"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderDescription() should render view mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Description)))))
+      id={999}
+      isCollapeSeeMore={true}
+      noContent={
+        <WithStyles(JTextClass)
+          ellipsis={true}
+        >
+          Start typing or paste the section body here
+        </WithStyles(JTextClass)>
+      }
+      placeholder="Start typing or paste the section body here"
+      renderSeeMore={true}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderDescription() should render view mode for print mode 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(UGRichEditor)
+      initContent="hello world"
+      readOnly={true}
+      toolBarId="readonly999"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderLocation() should renderLocation batchEditing 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Location)
+      editing={true}
+      handleChange={[Function]}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderLocation() should renderLocation batchEditing false 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(Connect(WithSimplifyResaga(Location)))
+      id={999}
+      noContent={
+        <WithStyles(JTextClass)
+          ellipsis={true}
+        >
+          Add a location if needed for this section
+        </WithStyles(JTextClass)>
+      }
+      placeholder="Add a location if needed for this section"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderUrl() should render validation text field 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <FormsyInterceptor
+      label="URL"
+      name="url"
+      onChange={[MockFunction]}
+      onInterceptValue={[Function]}
+      type="text"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Body /> renderUrl() should renderUrl 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Url)))
+    id={999}
+    noContent="Add a URL if relevant"
+    placeholder="Add a URL if relevant"
+    variant="link"
+  />
+</div>
+`;

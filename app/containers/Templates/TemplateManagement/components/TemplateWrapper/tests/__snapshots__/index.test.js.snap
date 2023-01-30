@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateWrapper should render what it should render 1`] = `
+<div
+  className="TemplateWrapper-root"
+/>
+`;

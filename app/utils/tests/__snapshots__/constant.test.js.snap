@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Constant scrollOptions 1`] = `
+Object {
+  "delay": 10,
+  "duration": 0,
+  "offset": -74,
+  "smooth": true,
+}
+`;
+
+exports[`Constant templateDayIdAnchor 1`] = `"scroller-node-2"`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Control /> control() should control 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(Icon)
+      bold={true}
+      color="success"
+      icon="lnr-check"
+      size="xsmall"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Control /> control() should render empty 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(Icon)
+      bold={true}
+      color="danger"
+      icon="lnr-cross2"
+      size="xsmall"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Control /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      Control
+    </WithStyles(GridItem)>
+    control
+  </WithStyles(GridContainer)>
+</div>
+`;

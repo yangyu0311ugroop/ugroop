@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content/utils.js inviteOwner() should return error message if IS in people 1`] = `"This person is already a member."`;
+
+exports[`Content/utils.js inviteOwner() should return error message if IS owner 1`] = `"This person is already a member."`;
+
+exports[`Content/utils.js invitePending() should return error message if IS in people 1`] = `"This person has a pending invitation."`;
+
+exports[`Content/utils.js invitePending() should return error message if IS owner 1`] = `true`;
+
+exports[`Content/utils.js inviteYourself() should return error message 1`] = `"Hey that's you."`;

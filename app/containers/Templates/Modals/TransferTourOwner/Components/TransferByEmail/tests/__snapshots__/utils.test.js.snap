@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content/utils.js inviteOwner() should return error message if IS in people 1`] = `"The person is already the owner."`;
+
+exports[`Content/utils.js inviteOwner() should return error message if IS owner 1`] = `"The person is already the owner."`;
+
+exports[`Content/utils.js inviteYourself() should return error message 1`] = `"Hey that's you."`;
+
+exports[`Content/utils.js transToOwner() should return error message 1`] = `"The person is already the owner."`;

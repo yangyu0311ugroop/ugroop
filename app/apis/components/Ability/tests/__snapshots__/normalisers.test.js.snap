@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ability/config.js ABILITY_NORMALISERS() cleanupTemplates() should cleanupTemplates() 1`] = `
+Object {
+  "1": Object {
+    "type": "template",
+  },
+  "3": Object {
+    "children": Array [
+      1,
+      2,
+    ],
+    "type": "template",
+  },
+}
+`;
+
+exports[`Ability/config.js ABILITY_NORMALISERS() normaliseOrganisation() should normaliseOrganisation() 1`] = `
+Object {
+  "orgNodes": Object {
+    "22": Object {
+      "children": Array [
+        223,
+      ],
+      "content": "folder",
+      "id": 22,
+      "type": "folder",
+    },
+    "221": Object {
+      "children": Array [],
+      "content": "tour 3",
+      "id": 221,
+      "type": "template",
+      "updatedAt": "221",
+    },
+    "223": Object {
+      "children": Array [],
+      "content": "tour 4",
+      "id": 223,
+      "type": "template",
+      "updatedAt": "223",
+    },
+  },
+  "orgTour": Object {
+    "2233": Object {
+      "children": Array [
+        223,
+        221,
+      ],
+      "updatedAt": "223",
+    },
+  },
+  "updatedAt": "223",
+}
+`;
+
+exports[`Ability/config.js ABILITY_NORMALISERS() normalisePersonalTours() should normalisePersonalTours() 1`] = `
+Object {
+  "personalNodes": Object {
+    "11": Object {
+      "children": Array [
+        113,
+      ],
+      "content": "folder",
+      "id": 11,
+      "type": "folder",
+    },
+    "112": Object {
+      "children": Array [],
+      "content": "tour",
+      "id": 112,
+      "type": "template",
+      "updatedAt": "112",
+    },
+    "113": Object {
+      "children": Array [],
+      "content": "tour 2",
+      "id": 113,
+      "photos": Array [
+        "some photo",
+      ],
+      "type": "template",
+      "updatedAt": "113",
+    },
+    "334": Object {
+      "children": Array [],
+      "content": "tour 5",
+      "id": 334,
+      "type": "template",
+      "updatedAt": "334",
+    },
+    "335": Object {
+      "children": Array [],
+      "content": "tour 6",
+      "id": 335,
+      "type": "template",
+      "updatedAt": "335",
+    },
+  },
+  "personalPhotos": Object {
+    "some photo": Object {
+      "content": "some photo",
+      "id": 999,
+    },
+  },
+  "personalTours": Object {
+    "-1": Object {
+      "children": Array [
+        335,
+        334,
+        113,
+        112,
+      ],
+      "updatedAt": "335",
+    },
+  },
+  "updatedAt": "335",
+}
+`;

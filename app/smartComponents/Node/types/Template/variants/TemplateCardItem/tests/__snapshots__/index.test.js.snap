@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateCardItem render should match snapshot 1`] = `
+<div>
+  <WithStyles(TemplateCard)
+    baseUrl="/tours"
+    checkFolders={true}
+    classes={Object {}}
+    renderActions={[Function]}
+    renderAdditionalContent={
+      <WithStyles(Connect(WithSimplifyResaga(ContributorList)))
+        dataStore="nodeStore"
+      />
+    }
+    rootClassName="template-entry"
+    showActions={true}
+  />
+</div>
+`;
+
+exports[`TemplateCardItem renderActions should match snapshot 1`] = `
+<div>
+  <BoundCan
+    do="create"
+    on="folder"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(HasTemplateViewActions)))))
+      canMove={false}
+    />
+  </BoundCan>
+</div>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateInterestedPerson /> #handleFormValidSubmit() calls NODE_API_HELPERS.getTimes 1`] = `
+Array [
+  Array [
+    Object {
+      "childKey": "interestedPeople",
+      "fetchCalculated": true,
+      "onError": [Function],
+      "onSuccess": [Function],
+      "parentNodeId": 1,
+      "x": 1,
+    },
+    Object {
+      "interestedPersonCreateParticipantId": 0,
+      "onClose": [MockFunction],
+      "open": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "templateId": 1,
+    },
+  ],
+]
+`;
+
+exports[`<CreateInterestedPerson /> #render() still matches snapshot 1`] = `
+<WithStyles(GenericForm)
+  canSubmitForm={true}
+  onCancel={[Function]}
+  onClose={[Function]}
+  onFormValidSubmit={[Function]}
+  open={false}
+  renderHeader={[Function]}
+  size="sm"
+  submitButtonContent={
+    <FormattedMessage
+      defaultMessage="Add Follower"
+      id="app.Containers.Templates.Modals.InterestedPerson.Create.submitButtonLabel"
+    />
+  }
+>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))))))))))))))
+    templateId={1}
+    variant="form"
+    withRelationshipField={false}
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Type)))
+    defaultType="interestedperson"
+    templateId={1}
+    variant="data"
+  />
+  <WithStyles(Connect(WithSimplifyResaga(Status)))
+    templateId={1}
+    type="interestedperson"
+    variant="data"
+  />
+</WithStyles(GenericForm)>
+`;
+
+exports[`<CreateInterestedPerson /> #renderHeader() still matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(Title)
+    heading={
+      <FormattedMessage
+        defaultMessage="Follower"
+        id="app.Containers.Templates.Modals.InterestedPerson.Create.heading"
+      />
+    }
+    headingBackground={
+      <FormattedMessage
+        defaultMessage="Add"
+        id="app.Containers.Templates.Modals.InterestedPerson.Create.headingBackground"
+      />
+    }
+    headingUnderline={false}
+  />
+  closeButton
+</React.Fragment>
+`;
+
+exports[`<CreateInterestedPerson /> handleCreateLink should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createLink",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {
+          "action": "guardian",
+          "actionContent": Object {
+            "emergencyContact": undefined,
+            "relationship": "asdasd",
+          },
+          "nextNodeId": 1,
+        },
+        "id": 1,
+        "nextNodeChildKey": "participantLinks",
+        "prevNodeChildKey": "followers",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;

@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary/Content render Should render correctly when 1 day tour 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className="undefined"
+      xs={3}
+    >
+      <H4>
+        Day 0 - 1
+      </H4>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="undefined"
+      />
+      <div
+        className="undefined"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={8}
+    >
+      <p>
+        abc  |  
+        <strong>
+          abv
+        </strong>
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Itinerary/Content render Should render correctly when more than 1 day tour 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+      xs={3}
+    >
+      <H4>
+        Day 0 - 1
+      </H4>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="undefined"
+      />
+      <div
+        className="undefined"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={8}
+    >
+      <p>
+        abc  |  
+        <strong>
+          abv
+        </strong>
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Itinerary/Content render check snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+      xs={3}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayDateDisplay)))))
+        customClass={Object {}}
+        dayDateFormat="ddd[, ]D MMM YYYY"
+        id={1}
+        index={-1}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="undefined"
+      />
+      <div
+        className="undefined"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={8}
+    >
+      <p>
+        abc  |  
+        <strong>
+          abv
+        </strong>
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Itinerary/Content render check snapshot 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+      xs={3}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayDateDisplay)))))
+        customClass={Object {}}
+        dayDateFormat="ddd[, ]D MMM YYYY"
+        id={1}
+        index={-1}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="undefined"
+      />
+      <div
+        className="undefined"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={8}
+    >
+      <p>
+        <FormattedMessage
+          defaultMessage="Title not set"
+          id="app.containers.PrintPage.Components./home/danilo/ugrooprepo/Frontend/ak/UGroopReact/app/containers/PrintPage/Components/PrintTour.dayNoTitle"
+        />
+        <strong />
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`Itinerary/Content render check snapshot if no location 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="row"
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      className=""
+      xs={3}
+    >
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayDateDisplay)))))
+        customClass={Object {}}
+        dayDateFormat="ddd[, ]D MMM YYYY"
+        id={1}
+        index={-1}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div
+        className="undefined"
+      />
+      <div
+        className="undefined"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={8}
+    >
+      <p>
+        abc
+        <strong />
+      </p>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

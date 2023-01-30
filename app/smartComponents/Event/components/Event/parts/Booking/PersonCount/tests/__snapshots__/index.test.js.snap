@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookingPersonCount /> #handleSubmit() calls TEMPLATE_API_HELPERS.patchEvent 1`] = `
+Array [
+  Array [
+    Object {
+      "model": "model",
+    },
+    Object {
+      "dataId": null,
+      "label": <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Booking.PersonCount.label"
+      />,
+      "placeholder": "Click to specify total people booked",
+      "readOnly": false,
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<BookingPersonCount /> #render() still matches snapshot 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderField={[Function]}
+  variant=""
+/>
+`;
+
+exports[`<BookingPersonCount /> #renderEditable() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <WithStyles(EditableTextForm)
+    TextComponent={[Function]}
+    label={
+      <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Booking.PersonCount.label"
+      />
+    }
+    makeEmptyZero={true}
+    name="data.detail.detail.common.eventBooking.personCount"
+    onSubmit={[Function]}
+    placeholder="Click to specify total people booked"
+    readOnly={false}
+    renderValue={[Function]}
+  >
+    <EventPatchData
+      dataId={null}
+      id={0}
+      subtype={true}
+    />
+  </WithStyles(EditableTextForm)>
+</WithStyles(GridItem)>
+`;
+
+exports[`<BookingPersonCount /> #renderEditableValue() still matches snapshot 1`] = `"1 person"`;
+
+exports[`<BookingPersonCount /> #renderField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  sm={7}
+  xs={12}
+>
+  <NumberField
+    autoComplete="off"
+    isInt={true}
+    isIntError="Must be integer"
+    label={
+      <FormattedMessage
+        defaultMessage="Total People Booked"
+        id="app.Event.parts.Booking.PersonCount.label"
+      />
+    }
+    makeEmptyZero={true}
+    max={NaN}
+    min={0}
+    name="data.detail.detail.common.eventBooking.personCount"
+    type="number"
+    validationErrors={Object {}}
+    validations={Object {}}
+  />
+</WithStyles(GridItem)>
+`;

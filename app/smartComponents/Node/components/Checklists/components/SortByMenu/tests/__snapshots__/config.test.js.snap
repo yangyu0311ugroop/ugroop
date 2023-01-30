@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortByMenu/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "order": [Function],
+    "sortBy": [Function],
+  },
+  "value": Object {
+    "currentOrder": Object {
+      "keyPath": [Function],
+      "notSetValue": "asc",
+    },
+    "currentSortBy": Object {
+      "keyPath": [Function],
+      "notSetValue": "createdAt",
+    },
+  },
+}
+`;

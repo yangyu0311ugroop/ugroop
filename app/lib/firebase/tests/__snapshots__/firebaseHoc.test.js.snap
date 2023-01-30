@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FireBaseHOC shall match snapshot 1`] = `undefined`;
+
+exports[`FireBaseHOC shall match snapshot with props 1`] = `undefined`;

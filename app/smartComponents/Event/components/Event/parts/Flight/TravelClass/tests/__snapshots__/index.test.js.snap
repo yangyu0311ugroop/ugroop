@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TravelClass /> renderEditable should match snapshot if can execute event 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableSelectForm)
+      label={
+        <FormattedMessage
+          defaultMessage="Travel Class"
+          id="app.Event.parts.Flight.TravelClass.travelClassLabel"
+        />
+      }
+      name="data.detail.detail.travelClass"
+      onSubmit={[Function]}
+      options={
+        Array [
+          Object {
+            "children": "Economy",
+            "value": "Economy",
+          },
+          Object {
+            "children": "Premium Economy",
+            "value": "PremiumEconomy",
+          },
+          Object {
+            "children": "Business",
+            "value": "Business",
+          },
+          Object {
+            "children": "First",
+            "value": "First",
+          },
+          Object {
+            "children": "Other",
+            "value": "Other",
+          },
+        ]
+      }
+      placeholder="Click to specify"
+      renderValue={[Function]}
+    >
+      <EventPatchData
+        dataId={0}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableSelectForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TravelClass /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={true}
+  >
+    <Formsy(SelectField)
+      innerRef={[Function]}
+      label={
+        <FormattedMessage
+          defaultMessage="Travel Class"
+          id="app.Event.parts.Flight.TravelClass.travelClassLabel"
+        />
+      }
+      name="data.detail.detail.travelClass"
+      options={
+        Array [
+          Object {
+            "children": "Economy",
+            "value": "Economy",
+          },
+          Object {
+            "children": "Premium Economy",
+            "value": "PremiumEconomy",
+          },
+          Object {
+            "children": "Business",
+            "value": "Business",
+          },
+          Object {
+            "children": "First",
+            "value": "First",
+          },
+          Object {
+            "children": "Other",
+            "value": "Other",
+          },
+        ]
+      }
+      required={false}
+      validationError=""
+      validationErrors={Object {}}
+      validations={null}
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TravelClass /> renderLabel should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    Render Label 
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<TravelClass /> should render correctly 1`] = `
+<ForEachEventVariant
+  renderDefault={[Function]}
+  renderEditableForm={[Function]}
+  renderField={[Function]}
+  renderLabel={[Function]}
+  variant=""
+/>
+`;

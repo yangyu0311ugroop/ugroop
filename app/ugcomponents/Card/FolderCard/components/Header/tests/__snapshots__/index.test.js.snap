@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render something 1`] = `
+<withRouter(UGLink)
+  to="/somewhere?current=1"
+>
+  <WithStyles(UGCardHeaderFolder)
+    imageList={Array []}
+    subfolderCount={0}
+    tourCount={0}
+  />
+</withRouter(UGLink)>
+`;

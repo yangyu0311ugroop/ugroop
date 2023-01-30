@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utility Request Check Status shall throw internal error with error with correct response 1`] = `[Error: internal error]`;
+
+exports[`Utility Request Check Status shall throw internal error with error with correct response 2`] = `undefined`;
+
+exports[`Utility Request sessionErrorHandler should throw error 400 with error refresh token error if error returned is "Cannot retrieve a new session. Please authenticate." 1`] = `""`;
+
+exports[`Utility Request sessionErrorHandler should throw error 400 with error refresh token error if error returned is "No current user" 1`] = `""`;
+
+exports[`Utility Request sessionErrorHandler should throw error 400 with error refresh token error if error returned is "Refresh Token has expired" 1`] = `""`;

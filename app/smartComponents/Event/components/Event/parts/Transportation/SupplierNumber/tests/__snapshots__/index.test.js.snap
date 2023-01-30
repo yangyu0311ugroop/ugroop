@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SupplierNumber /> handleSubmit should create patchEvent request 1`] = `
+Array [
+  Array [
+    undefined,
+    Object {
+      "classes": Object {},
+      "dataId": null,
+      "readOnly": false,
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "value": "",
+      "variant": "",
+    },
+  ],
+]
+`;
+
+exports[`<SupplierNumber /> render() should render correctly 1`] = `
+<div>
+  <ForEachEventVariant
+    renderDefault={[Function]}
+    renderField={[Function]}
+    variant=""
+  />
+</div>
+`;
+
+exports[`<SupplierNumber /> renderActions should match snapshot 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(ActionButtons)))
+    showDialButton={false}
+    value=""
+  />
+</div>
+`;
+
+exports[`<SupplierNumber /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(EditableTextForm)
+      TextComponent={[Function]}
+      TextProps={
+        Object {
+          "country": undefined,
+          "inline": true,
+          "inputProps": undefined,
+        }
+      }
+      label={
+        <FormattedMessage
+          defaultMessage="Supplier Phone Number"
+          id="app/smartComponents/Event/components/Event/parts/Coach/SupplierNumber/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.supplierNumber"
+      onSubmit={[Function]}
+      readOnly={false}
+      renderActions={[Function]}
+      renderValue={[Function]}
+      value=""
+    >
+      <EventPatchData
+        dataId={null}
+        id={0}
+        subtype={true}
+      />
+    </WithStyles(EditableTextForm)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<SupplierNumber /> renderField should match snapshot 1`] = `
+<div>
+  <WithStyles(GridItem)
+    sm={5}
+    xs={12}
+  >
+    <PhoneField
+      inputProps={Object {}}
+      label={
+        <FormattedMessage
+          defaultMessage="Supplier Phone Number"
+          id="app/smartComponents/Event/components/Event/parts/Coach/SupplierNumber/label"
+        />
+      }
+      name="data.detail.detail.common.eventBooking.supplierNumber"
+      validationErrors={Object {}}
+      validations={Object {}}
+      value=""
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<SupplierNumber /> renderValue should match snapshot 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <PhoneField
+      inputProps={Object {}}
+      label={null}
+      name="data.detail.detail.common.eventBooking.supplierNumber"
+      readOnly={true}
+      validationErrors={Object {}}
+      validations={Object {}}
+    />
+  </GenericForm>
+</div>
+`;

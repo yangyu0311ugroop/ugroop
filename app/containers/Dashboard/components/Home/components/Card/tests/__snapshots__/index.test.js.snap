@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    card={true}
+    cardClassName=""
+    dense={true}
+    direction="column"
+    highlight={true}
+  >
+    <WithStyles(GridItem)>
+      <div
+        className=""
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(InlineButton)
+              onClick={[Function]}
+            >
+              <WithStyles(Icon)
+                bold={true}
+                icon="lnr-chevron-down"
+                size="small"
+              />
+            </WithStyles(InlineButton)>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              bold={true}
+              color="success"
+              icon="lnr-users-plus"
+              size="normal"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <div>
+              <WithStyles(GridContainer)
+                alignItems="center"
+              >
+                <WithStyles(GridItem)>
+                  Organisation Invitations
+                </WithStyles(GridItem)>
+                <WithStyles(GridItem)>
+                   
+                </WithStyles(GridItem)>
+                renderCount
+              </WithStyles(GridContainer)>
+            </div>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </div>
+    </WithStyles(GridItem)>
+    renderContent
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Card /> renderContent() should renderContent 1`] = `<div />`;
+
+exports[`<Card /> renderCount() should renderCount 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <span>
+      5
+       
+    </span>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Card /> toggleOpen() should toggleOpen() 1`] = `
+Array [
+  Array [
+    Object {
+      "hide": [Function],
+    },
+  ],
+]
+`;

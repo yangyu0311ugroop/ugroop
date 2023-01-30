@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Marker /> render() should render 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderCircle
+      renderDetail
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Marker /> renderCircle() should renderCircle 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(CircleMarker)))
+    hovered={false}
+  />
+</div>
+`;
+
+exports[`<Marker /> renderDetail() should renderDetail 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={0}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(NodeProp)))
+                  editable={false}
+                  isCustomData={false}
+                  valueKey="content"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Location)))
+                  editable={false}
+                  showIcon={false}
+                  showTooltip={false}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Location)))
+                  variant="link"
+                />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <div>
+        <WithStyles(InlineButton)
+          color="default"
+          onClick={[Function]}
+        >
+          <WithStyles(Icon)
+            icon="lnr-cross2"
+            size="xsmall"
+          />
+        </WithStyles(InlineButton)>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Marker /> renderRow() should renderRow 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      wrap="nowrap"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(CircleMarker)))
+          hovered={false}
+        />
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Connect(WithSimplifyResaga(Location)))
+          ellipsis={true}
+          link={false}
+          showIcon={false}
+          showTooltip={false}
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </div>
+</div>
+`;

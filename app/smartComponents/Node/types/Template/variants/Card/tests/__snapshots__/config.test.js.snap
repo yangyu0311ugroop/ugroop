@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card/config.js IS_FEATURE_TOUR() should IS_FEATURE_TOUR 1`] = `"featuredTour2233"`;

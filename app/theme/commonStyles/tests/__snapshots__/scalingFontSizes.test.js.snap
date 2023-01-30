@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scalingFontSizes should have style with margin 1`] = `
+Object {
+  "h1FontSize": "-h1FontSize",
+  "h2FontSize": "-h2FontSize",
+  "h3FontSize": "-h3FontSize",
+  "h4FontSize": "-h4FontSize",
+  "h5FontSize": "-h5FontSize",
+  "h6FontSize": "-h6FontSize",
+  "spanFontSize": "-spanFontSize",
+  "titleFontSize": "-titleFontSize",
+}
+`;
+
+exports[`scalingFontSizes should have style without margin 1`] = `
+Object {
+  "h1FontSize": "-h1FontSize",
+  "h2FontSize": "-h2FontSize",
+  "h3FontSize": "-h3FontSize",
+  "h4FontSize": "-h4FontSize",
+  "h5FontSize": "-h5FontSize",
+  "h6FontSize": "-h6FontSize",
+  "spanFontSize": "-spanFontSize",
+  "titleFontSize": "-titleFontSize",
+}
+`;

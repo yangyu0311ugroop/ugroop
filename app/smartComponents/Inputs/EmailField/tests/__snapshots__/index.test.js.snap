@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmailField /> #render() still matches snapshot 1`] = `
+<FormsyInterceptor
+  autoComplete="off"
+  onInterceptValue={[Function]}
+  type="text"
+  validationErrors={
+    Object {
+      "isEmail": "Email address is not valid",
+    }
+  }
+  validations={
+    Object {
+      "isEmail": true,
+    }
+  }
+/>
+`;

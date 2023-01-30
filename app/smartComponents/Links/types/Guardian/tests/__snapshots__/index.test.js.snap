@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Guardian /> #handleClick() resaga.setValue still matches snapshot 1`] = `
+Object {
+  "interestedPersonViewId": undefined,
+  "interestedPersonViewMode": null,
+  "interestedPersonViewOpen": true,
+}
+`;
+
+exports[`<Guardian /> #handleClick() resaga.setValue still matches snapshot 2`] = `
+Object {
+  "interestedPersonViewId": undefined,
+  "interestedPersonViewMode": null,
+  "interestedPersonViewOpen": true,
+}
+`;
+
+exports[`<Guardian /> #openSeeDetail() still matches snapshot 1`] = `undefined`;
+
+exports[`<Guardian /> editFollower should setState 1`] = `<div />`;
+
+exports[`<Guardian /> getFollowerOptions should match snapshot 1`] = `
+Array [
+  Object {
+    "children": <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(FirstName)))
+          id={1}
+          renderValue={[Function]}
+          variant="textOnly"
+        />
+         
+        <Memo(Connect(WithSimplifyResaga(LastName)))
+          id={1}
+          renderValue={[Function]}
+          variant="textOnly"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>,
+    "value": 1,
+  },
+  Object {
+    "children": <WithStyles(GridContainer)>
+      <WithStyles(GridItem)>
+        <Memo(Connect(WithSimplifyResaga(FirstName)))
+          id={2}
+          renderValue={[Function]}
+          variant="textOnly"
+        />
+         
+        <Memo(Connect(WithSimplifyResaga(LastName)))
+          id={2}
+          renderValue={[Function]}
+          variant="textOnly"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>,
+    "value": 2,
+  },
+]
+`;
+
+exports[`<Guardian /> handleDelete should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "deleteLink",
+    Object {
+      "onError": [Function],
+      "onSuccess": [Function],
+      "payload": Object {
+        "fk": 2,
+        "id": 1,
+        "linkKey": undefined,
+        "nextNodeChildKey": "followers",
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Guardian /> handleListItemSubmit should call dispatchTo 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "updatedLink",
+    Object {
+      "onError": [MockFunction],
+      "onSuccess": [MockFunction],
+      "payload": Object {
+        "data": Object {
+          "action": "guardian",
+          "actionContent": Object {
+            "emergencyContact": "No",
+            "relationship": null,
+          },
+          "nextNodeId": 1,
+        },
+        "fk": undefined,
+        "id": undefined,
+        "nextNodeChildKey": "participantLinks",
+        "prevNodeChildKey": "followers",
+        "upsertLinkId": true,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<Guardian /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <Formsy(SelectField)
+        disabled={false}
+        fullWidth={true}
+        innerRef={[Function]}
+        label="Follower"
+        name="followerId"
+        options={Array []}
+        required={false}
+        validationError=""
+        validationErrors={Object {}}
+        validations={null}
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Relationship))) />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(EmergencyContact))) />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Guardian /> renderEditable should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    justify="space-between"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(EditableForm)
+        isRow={true}
+        onSubmit={[Function]}
+        popoverProps={
+          Object {
+            "transformOrigin": Object {
+              "horizontal": "left",
+              "vertical": "bottom",
+            },
+          }
+        }
+        readOnly={false}
+        renderSecondaryFormActions={[Function]}
+        renderValue={[Function]}
+      >
+        <WithStyles(GridContainer)
+          direction="column"
+        >
+          <WithStyles(GridItem)>
+            <H6
+              dense={true}
+              weight="bold"
+            >
+              Relationship Details
+            </H6>
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(GridContainer)
+              direction="column"
+            >
+              <WithStyles(GridItem)>
+                <Formsy(SelectField)
+                  disabled={true}
+                  fullWidth={true}
+                  innerRef={[Function]}
+                  label="Follower"
+                  name="followerId"
+                  options={Array []}
+                  required={false}
+                  validationError=""
+                  validationErrors={Object {}}
+                  validations={null}
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(Relationship))) />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                <WithStyles(Connect(WithSimplifyResaga(EmergencyContact))) />
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(EditableForm)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <Styled(MuiBox)
+        pr={3}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter))))))))))))))))))) />
+      </Styled(MuiBox)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(InlineButton)
+        onClick={[Function]}
+        title="Edit Follower"
+      >
+        <WithStyles(Icon)
+          icon="lnr-pencil"
+          size="xsmall"
+        />
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Guardian /> renderEditable should match snapshot if showUnlink 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    spacing={0}
+  >
+    <WithStyles(GridItem)
+      md={12}
+      xs={12}
+    >
+      <WithStyles(GridContainer)
+        direction="row"
+        justify="space-between"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          md={12}
+          sm={12}
+          xs={12}
+        >
+          <WithStyles(GridContainer)
+            alignItems="center"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="user"
+                size="small"
+              />
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              <WithStyles(Editable)
+                onClick={[Function]}
+              >
+                <WithStyles(JTextClass)
+                  bold={true}
+                  md={true}
+                >
+                  <div
+                    className="j-text-ellipsis"
+                  >
+                    <ConnectFunction
+                      variant="textOnly"
+                    />
+                     
+                    <ConnectFunction
+                      variant="textOnly"
+                    />
+                     
+                  </div>
+                </WithStyles(JTextClass)>
+              </WithStyles(Editable)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                justify="flex-end"
+              >
+                renderUnlinkFollower
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(EditableForm)
+          isRow={true}
+          onSubmit={[Function]}
+          popoverProps={
+            Object {
+              "transformOrigin": Object {
+                "horizontal": "left",
+                "vertical": "bottom",
+              },
+            }
+          }
+          renderSecondaryFormActions="renderEditableFormActions"
+          renderValue={[Function]}
+        >
+          <WithStyles(GridContainer)
+            direction="column"
+          >
+            <WithStyles(GridItem)>
+              <H6
+                dense={true}
+                weight="bold"
+              >
+                Relationship Details
+              </H6>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              renderForm
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(EditableForm)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Guardian /> renderEditableFormActions should match snapshot 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    dialogTitle="Delete this relationship"
+    headlineText={
+      <React.Fragment>
+        <WithStyles(JTextClass)>
+          Are you sure you want to delete this relationship?
+        </WithStyles(JTextClass)>
+        <WithStyles(Formsy(CheckboxField))
+          label={
+            <WithStyles(JTextClass)
+              sm={true}
+            >
+              Delete the follower as well
+            </WithStyles(JTextClass)>
+          }
+          name="shouldDeleteFollower"
+          onChange={[Function]}
+        />
+      </React.Fragment>
+    }
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Delete"
+  />
+</div>
+`;
+
+exports[`<Guardian /> renderInviteButton should match snapshot 1`] = `<div />`;
+
+exports[`<Guardian /> renderInviteButton should match snapshot if user is not connected and not invitation pending 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter))))))))))))))))))) />
+</div>
+`;
+
+exports[`<Guardian /> renderListItemValue should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={2}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <ConnectFunction
+          AvatarProps={
+            Object {
+              "noTooltip": true,
+              "userId": undefined,
+            }
+          }
+          id={1}
+          variant="avatar"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              bold={true}
+              md={true}
+            >
+              <ConnectFunction
+                id={1}
+                variant="textOnly"
+              />
+               
+              <ConnectFunction
+                id={1}
+                variant="textOnly"
+              />
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            capitalize={true}
+            ellipsis={true}
+            italic={true}
+            md={true}
+            nowrap={false}
+          >
+            <WithStyles(Connect(WithSimplifyResaga(Relationship)))
+              id={1}
+              variant="textOnly"
+              withECStatus={true}
+            />
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Guardian /> renderRelationship should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="row"
+    justify="space-between"
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="darkgray"
+        noMargin={true}
+        noPadding={true}
+        size="xs"
+        variant="icon"
+        weight="light"
+      >
+        <WithStyles(JTextClass)
+          capitalize={true}
+          ellipsis={true}
+          italic={true}
+          md={true}
+          nowrap={false}
+        >
+          <WithStyles(Connect(WithSimplifyResaga(Relationship)))
+            variant="textOnly"
+          />
+           
+          <WithStyles(Connect(WithSimplifyResaga(EmergencyContact)))
+            variant="badge"
+          />
+        </WithStyles(JTextClass)>
+         
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          size="xxsmall"
+        />
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Guardian /> renderStatus should match snapshot 1`] = `
+<div>
+  <WithStyles(Badge)
+    color="translucent"
+  >
+    Not Yet Connected
+  </WithStyles(Badge)>
+</div>
+`;
+
+exports[`<Guardian /> renderStatus should match snapshot if invitationPending is true 1`] = `
+<div>
+  <WithStyles(Button)
+    color="base"
+    onClick={[Function]}
+    size="extraSmall"
+    variant="outline"
+  >
+    Pending
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<Guardian /> renderStatus should match snapshot if userConnected is true 1`] = `<div />`;
+
+exports[`<Guardian /> renderUnlinkFollower should match snapshot 1`] = `
+<div>
+  <DeleteButton
+    ButtonProps={Object {}}
+    cancelTimeoutMs={7000}
+    dialogTitle="Delete this relationship"
+    headlineText={
+      <GenericForm
+        canSubmitForm={true}
+        cancelButtonContent="Discard"
+        disabled={false}
+        discardDialogProps={Object {}}
+        loading={false}
+        onInvalid={[Function]}
+        onValid={[Function]}
+        showChangeRoutePrompt={false}
+        submitButtonContent="Submit"
+      >
+        <WithStyles(JTextClass)>
+          Are you sure you want to delete this follower?
+        </WithStyles(JTextClass)>
+        <WithStyles(Formsy(CheckboxField))
+          label={
+            <WithStyles(JTextClass)
+              sm={true}
+            >
+              Delete the follower as well
+            </WithStyles(JTextClass)>
+          }
+          name="shouldUnlinkFollower"
+          onChange={[Function]}
+        />
+      </GenericForm>
+    }
+    iconButton={false}
+    onClick={[Function]}
+    size="extraSmall"
+    text="Unlink Follower"
+  />
+</div>
+`;
+
+exports[`<Guardian /> renderValue should match snapshot 1`] = `<div />`;

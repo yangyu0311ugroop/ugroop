@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LayoutSelect /> render() should render 1`] = `
+<div>
+  <ConnectFunction
+    layout="list"
+    menuHeader="Layout"
+    noPadding={true}
+    renderButton={[Function]}
+    stopPropagation={true}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<LayoutSelect /> render() should render 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-list4"
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          List view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-31"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Day view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-grid"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Card view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-full"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Timeline view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-map-marker"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Map view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)>
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          |
+        </WithStyles(JTextClass)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(JButton)
+        onClick={[Function]}
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              color="gray"
+              icon="lnr-calendar-check"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+            >
+              Events
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(JButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<LayoutSelect /> renderLayoutButton() should renderLayoutButton 1`] = `
+<div>
+  <WithStyles(MenuButton)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-list4"
+              size="small"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(JTextClass)
+              gray={true}
+            >
+              List view
+            </WithStyles(JTextClass)>
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-chevron-down"
+          paddingLeft={true}
+          size="xxsmall"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(MenuButton)>
+</div>
+`;
+
+exports[`<LayoutSelect /> renderLayoutButton() should renderLayoutButton simple 1`] = `
+<div>
+  <WithStyles(MenuButton)>
+    <WithStyles(Icon)
+      icon="lnr-list4"
+      size="xsmall"
+    />
+  </WithStyles(MenuButton)>
+</div>
+`;
+
+exports[`<LayoutSelect /> renderLayoutMenu() should renderLayoutMenu 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-list4"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          List view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-31"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Day view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-grid"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Card view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-calendar-full"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Timeline view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-map-marker"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Map view
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-warning"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Risk Assessment
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <WithStyles(MenuItem)
+        icon="lnr-bed"
+        onClick={[Function]}
+        selected={false}
+      >
+        <WithStyles(JTextClass)
+          gray={true}
+        >
+          Rooms
+        </WithStyles(JTextClass)>
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

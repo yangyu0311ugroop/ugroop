@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoogleMap/helpers.js normaliseData should normaliseData 1`] = `
+Object {
+  "bounds": "bounds",
+  "legs": "legs",
+  "polyline": "overview_polyline",
+  "route": Array [
+    "origin",
+    "normaliseWaypoint",
+    "destination",
+  ],
+  "summary": "summary",
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseDirection should return if idx > legs.length 1`] = `
+Object {
+  "bounds": "bounds",
+  "marker": "marker",
+  "polyline": "polyline",
+  "summary": "summary",
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseLeg should normaliseLeg 1`] = `
+Object {
+  "distance": 2233,
+  "duration": 3344,
+  "marker": Object {
+    "lat": "lat",
+    "lng": "lng",
+    "prop": "marker",
+  },
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseLegs should normaliseLegs 1`] = `
+Object {
+  "distance": undefined,
+  "duration": undefined,
+  "endMarker": Object {
+    "lat": "lat end",
+    "lng": "lng end",
+  },
+  "startMarker": Object {
+    "lat": "lat",
+    "lng": "lng",
+  },
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseMarker should return if idx > legs.length 1`] = `
+Object {
+  "distance": "distance",
+  "duration": "duration",
+  "markers": Array [
+    "markers",
+  ],
+  "nodes": Array [
+    "nodes",
+  ],
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseMarker should return normaliseMarker last 1`] = `
+Object {
+  "distance": 555,
+  "duration": 666,
+  "markers": Array [
+    Object {
+      "destination": false,
+      "distance": 555,
+      "duration": 666,
+      "id": 33,
+      "index": 0,
+      "lat": "lat",
+      "lng": "lng",
+      "origin": true,
+      "placeId": 22,
+    },
+    Object {
+      "destination": true,
+      "id": 44,
+      "index": 1,
+      "lat": "latEnd",
+      "lng": "lngEnd",
+      "origin": true,
+      "placeId": 44,
+    },
+  ],
+  "nodes": Object {
+    "33": Object {
+      "calculated": Object {
+        "destination": false,
+        "distance": 555,
+        "index": -1,
+        "origin": true,
+      },
+    },
+    "44": Object {
+      "calculated": Object {
+        "destination": true,
+        "index": -1,
+        "origin": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseMarker should return normaliseMarker middle 1`] = `
+Object {
+  "distance": NaN,
+  "duration": NaN,
+  "markers": Array [
+    Object {
+      "destination": false,
+      "distance": undefined,
+      "duration": undefined,
+      "id": 33,
+      "index": 0,
+      "lat": "lat",
+      "lng": "lng",
+      "origin": true,
+      "placeId": 22,
+    },
+  ],
+  "nodes": Object {
+    "33": Object {
+      "calculated": Object {
+        "destination": false,
+        "distance": undefined,
+        "index": -1,
+        "origin": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`GoogleMap/helpers.js normaliseWaypoint should normaliseWaypoint 1`] = `
+Array [
+  123,
+]
+`;

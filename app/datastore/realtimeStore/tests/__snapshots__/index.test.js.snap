@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datastore/realtimeStore streamCancel action still matches snapshot 1`] = `
+Object {
+  "type": "REALTIME/STREAM_CANCEL",
+}
+`;
+
+exports[`datastore/realtimeStore streamError action still matches snapshot 1`] = `
+Object {
+  "error": "someError",
+  "type": "REALTIME/STREAM_ERROR",
+}
+`;
+
+exports[`datastore/realtimeStore streamEvent action still matches snapshot 1`] = `
+Object {
+  "change": Immutable.Map {
+    "category": "someCategory",
+  },
+  "type": "REALTIME/STREAM_EVENT",
+}
+`;

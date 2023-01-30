@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DoNotWorryBlock should render what it should render 1`] = `
+<div
+  className="MarketingDoNotWorryBlock-firstContainer"
+>
+  <WithStyles(Container)>
+    <WithStyles(Header)
+      as="h2"
+      className="MarketingDoNotWorryBlock-header"
+      color="offwhite"
+    >
+      DON'T YOU WORRY
+    </WithStyles(Header)>
+  </WithStyles(Container)>
+  <WithStyles(BGContentWrapper)
+    bgImageUrl="IMAGE_MOCK"
+  >
+    <WithStyles(Container)>
+      <div
+        className="MarketingDoNotWorryBlock-headingPart"
+      >
+        <Img
+          alt="Do not worry"
+          src="IMAGE_MOCK"
+        />
+        <WithStyles(Header)
+          as="h3"
+        >
+          Be Worry Free
+        </WithStyles(Header)>
+        <WithStyles(Description)
+          className="MarketingDoNotWorryBlock-marginBottomZero"
+          size={18}
+        >
+          For parents, have that peace in mind. Stop worrying about your kids being away for a school tour
+        </WithStyles(Description)>
+        <WithStyles(Description)
+          className="MarketingDoNotWorryBlock-marginBottomZero"
+          size={18}
+        >
+          With uGroop, you can view their itinerary and receive updates on the flow of the tour and any other changes made
+        </WithStyles(Description)>
+      </div>
+      <WithStyles(UGHr)
+        className="MarketingDoNotWorryBlock-marginAuto"
+        size={
+          Object {
+            "unit": "%",
+            "value": 80,
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "paddingBottom": "24px",
+            "textAlign": "left",
+          }
+        }
+      >
+        <WithStyles(UGCard)
+          className="MarketingDoNotWorryBlock-cardOverride"
+          withShadow={true}
+        >
+          <WithStyles(UGCardContent)
+            className="MarketingDoNotWorryBlock-cardContent"
+          >
+            <WithStyles(GridContainer)>
+              <WithStyles(GridItem)
+                className="MarketingDoNotWorryBlock-item"
+                md={6}
+                xs={12}
+              >
+                <div
+                  className="MarketingDoNotWorryBlock-itemHeaderContainer"
+                >
+                  <WithStyles(Header)
+                    as="h4"
+                    isUpperCase={true}
+                  >
+                    Organise Tours
+                  </WithStyles(Header)>
+                  <[object Object] />
+                </div>
+                <WithStyles(UGHr)
+                  size={
+                    Object {
+                      "unit": "%",
+                      "value": 10,
+                    }
+                  }
+                />
+                <WithStyles(Description)
+                  className="MarketingDoNotWorryBlock-itemDescription"
+                  size={16}
+                >
+                  Keep all your details in one place in your very own "school tourganizer" and be able to view and edit your itinerary
+                </WithStyles(Description)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                className="MarketingDoNotWorryBlock-item"
+                md={6}
+                xs={12}
+              >
+                <div
+                  className="MarketingDoNotWorryBlock-itemHeaderContainer"
+                >
+                  <WithStyles(Header)
+                    as="h4"
+                    isUpperCase={true}
+                  >
+                    Get Updates
+                  </WithStyles(Header)>
+                  <[object Object] />
+                </div>
+                <WithStyles(UGHr)
+                  size={
+                    Object {
+                      "unit": "%",
+                      "value": 10,
+                    }
+                  }
+                />
+                <WithStyles(Description)
+                  className="MarketingDoNotWorryBlock-itemDescription"
+                  size={16}
+                >
+                  Get instant notification for any changes such as new participants, flight delays, cancellations, change of meetup venue, and etc. Be the first to know
+                </WithStyles(Description)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                className="MarketingDoNotWorryBlock-item"
+                md={6}
+                xs={12}
+              >
+                <div
+                  className="MarketingDoNotWorryBlock-itemHeaderContainer"
+                >
+                  <WithStyles(Header)
+                    as="h4"
+                    isUpperCase={true}
+                  >
+                    Access Anytime & Anywhere
+                  </WithStyles(Header)>
+                  <[object Object] />
+                </div>
+                <WithStyles(UGHr)
+                  size={
+                    Object {
+                      "unit": "%",
+                      "value": 10,
+                    }
+                  }
+                />
+                <WithStyles(Description)
+                  className="MarketingDoNotWorryBlock-itemDescription"
+                  size={16}
+                >
+                  Don't worry about being on-the-go. Access uGroop anytime on any device. We have desktop version, mobile version, and downloadable app for your devices
+                </WithStyles(Description)>
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)
+                className="MarketingDoNotWorryBlock-item"
+                md={6}
+                xs={12}
+              >
+                <div
+                  className="MarketingDoNotWorryBlock-itemHeaderContainer"
+                >
+                  <WithStyles(Header)
+                    as="h4"
+                    isUpperCase={true}
+                  >
+                    Flexible Plans
+                  </WithStyles(Header)>
+                  <[object Object] />
+                </div>
+                <WithStyles(UGHr)
+                  size={
+                    Object {
+                      "unit": "%",
+                      "value": 10,
+                    }
+                  }
+                />
+                <WithStyles(Description)
+                  className="MarketingDoNotWorryBlock-itemDescription"
+                  size={16}
+                >
+                  Choose from three kinds of plans that best suits your needs and budget
+                </WithStyles(Description)>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(UGCardContent)>
+        </WithStyles(UGCard)>
+      </div>
+    </WithStyles(Container)>
+  </WithStyles(BGContentWrapper)>
+</div>
+`;

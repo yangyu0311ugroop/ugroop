@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should display what it should display if ListItem state open is true 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    className="FAQListItem-listItem FAQListItem-listItemSelected"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(ListItemIcon))>
+      <[object Object]
+        className="FAQListItem-icon"
+      />
+    </WithStyles(ForwardRef(ListItemIcon))>
+    <WithStyles(ForwardRef(ListItemText))
+      className="FAQListItem-listItemText"
+      inset={true}
+    />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+    transitionDuration="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(ListItem))
+      className="FAQListItem-listItem"
+    >
+      <WithStyles(Description)
+        className="FAQListItem-listItemContent"
+        size={14}
+      />
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(Collapse))>
+</div>
+`;
+
+exports[`ListItem should render what it should render 1`] = `
+<div>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    className="FAQListItem-listItem"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(ListItemIcon))>
+      <[object Object]
+        className="FAQListItem-icon"
+      />
+    </WithStyles(ForwardRef(ListItemIcon))>
+    <WithStyles(ForwardRef(ListItemText))
+      className="FAQListItem-listItemText"
+      inset={true}
+    />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+    transitionDuration="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(ListItem))
+      className="FAQListItem-listItem"
+    >
+      <WithStyles(Description)
+        className="FAQListItem-listItemContent"
+        size={14}
+      />
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(Collapse))>
+</div>
+`;

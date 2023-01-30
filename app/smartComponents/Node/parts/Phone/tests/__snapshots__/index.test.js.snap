@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Phone /> #render() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  <ConnectFunction
+    id={null}
+    readOnly={false}
+    renderValue={[Function]}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Phone /> #renderEditable() still matches snapshot is props.userConnected and props.userValues 1`] = `
+<WithStyles(GridItem)>
+  <Memo(Connect(WithSimplifyResaga(PhoneEditableMenu)))
+    id={null}
+    readOnly={false}
+    renderValue={[Function]}
+    userId={null}
+    userValues={
+      Array [
+        "value",
+      ]
+    }
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Phone /> #renderEditableMenuValue() still matches snapshot if props.value 1`] = `
+<PhoneField
+  inputProps={Object {}}
+  name="node.customData.phone"
+  readOnly={true}
+  validationErrors={Object {}}
+  validations={Object {}}
+  value="value"
+/>
+`;
+
+exports[`<Phone /> #renderEditableValue() still matches snapshot 1`] = `
+<GenericForm
+  canSubmitForm={true}
+  cancelButtonContent="Discard"
+  disabled={false}
+  discardDialogProps={Object {}}
+  loading={false}
+  onInvalid={[Function]}
+  onValid={[Function]}
+  showChangeRoutePrompt={false}
+  submitButtonContent="Submit"
+>
+  <PhoneField
+    inputProps={Object {}}
+    name="node.customData.phone"
+    readOnly={true}
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="value"
+  />
+</GenericForm>
+`;
+
+exports[`<Phone /> #renderTextField() still matches snapshot 1`] = `
+<WithStyles(GridItem)
+  xs={true}
+>
+  <PhoneField
+    disabled={false}
+    inputProps={Object {}}
+    label={
+      <FormattedMessage
+        defaultMessage="Phone"
+        id="app.Node.parts.Phone.label"
+      />
+    }
+    name="node.customData.phone"
+    required={false}
+    validationErrors={Object {}}
+    validations={Object {}}
+    value="value"
+  />
+</WithStyles(GridItem)>
+`;
+
+exports[`<Phone /> #renderTextOnly() still matches snapshot 1`] = `
+<WithStyles(GridItem)>
+  value
+</WithStyles(GridItem)>
+`;
+
+exports[`<Phone /> renderRow should match snapshot 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="telephone"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        ellipsis={true}
+        nowrap={true}
+      >
+        value
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Phone /> renderRow should match snapshot 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Icon)
+        color="darkGray"
+        icon="telephone"
+        size="extraSmall"
+      />
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      xs={true}
+    >
+      <WithStyles(JTextClass)
+        italic={true}
+      >
+        Phone not specified
+      </WithStyles(JTextClass)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

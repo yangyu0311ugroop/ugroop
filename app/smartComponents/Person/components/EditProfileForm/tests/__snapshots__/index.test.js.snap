@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditProfileForm /> handleSubmit() should call dispatchTo with particular param shape 1`] = `
+Array [
+  Array [
+    "PersonDetails",
+    "patchPersonFacade",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "data": Object {},
+        "userId": 1,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<EditProfileForm /> handleSubmitSuccess() should call openSuccessSnackbar helper 1`] = `
+Array [
+  Array [
+    "Successfully updated your information",
+    Object {
+      "dispatchTo": [MockFunction],
+      "setValue": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`<EditProfileForm /> render() should render correctly 1`] = `
+<div>
+  <GenericForm
+    canSubmitForm={true}
+    cancelButtonContent="Discard"
+    disabled={false}
+    discardDialogProps={Object {}}
+    loading={false}
+    onInvalid={[Function]}
+    onValid={[Function]}
+    onValidSubmit={[Function]}
+    showChangeRoutePrompt={false}
+    submitButtonContent="Submit"
+  >
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(FirstName)))
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(LastName)))
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        disabled={true}
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="radioField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <WithStyles(Connect(WithSimplifyResaga(BirthDate)))
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(MarginWrapper)
+      bottom="lg"
+    >
+      <Component
+        id={1}
+        variant="textField"
+      />
+    </WithStyles(MarginWrapper)>
+    <WithStyles(GridContainer)
+      spacing={0}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(Button)
+          color="primary"
+          size="small"
+          type="submit"
+        >
+          <FormattedMessage
+            defaultMessage="Save"
+            id="app.smartComponents.Person.components.EditProfileForm.submitBtn"
+          />
+        </WithStyles(Button)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </GenericForm>
+</div>
+`;

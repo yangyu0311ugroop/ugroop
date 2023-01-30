@@ -1,0 +1,763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewEvent /> render() should render 1`] = `
+<div>
+  renderLeft
+</div>
+`;
+
+exports[`<ViewEvent /> render() should render smDown 1`] = `
+<div>
+  renderLeft
+</div>
+`;
+
+exports[`<ViewEvent /> renderAmountsViewingButton() should renderAmountsViewingButton 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="white"
+      borderGray={true}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(JTextClass)
+            gray={true}
+          >
+            Category
+          </WithStyles(JTextClass)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-chevron-down"
+            paddingLeft={true}
+            size="xsmall"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderAmountsViewingMenu() should renderAmountsViewingMenu 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      direction="column"
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          Transportation
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          Accommodation
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          Activities
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(MenuItem)
+          onClick={[Function]}
+          selected={false}
+        >
+          Food
+        </WithStyles(MenuItem)>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderAmountsViewingPopper() should renderAmountsViewingPopper 1`] = `
+<div>
+  <ConnectFunction
+    renderButton={[Function]}
+  >
+    <Component />
+  </ConnectFunction>
+</div>
+`;
+
+exports[`<ViewEvent /> renderCreateEvent() should renderCreateEvent 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <WithStyles(JButton)
+      bg="green"
+      onClick={[Function]}
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        spacing={0}
+        wrap="nowrap"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            icon="lnr-plus"
+            paddingRight={true}
+            size="small"
+          />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          Event
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(JButton)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderDay() should renderDay 1`] = `
+<div>
+  <WithStyles(GridItem)
+    key="11"
+  >
+    <ConnectFunction
+      id={11}
+      key="11"
+      variant="logic"
+    />
+    <div
+      className=""
+    >
+      <WithStyles(GridContainer)
+        direction="column"
+      >
+        <WithStyles(GridItem)>
+          <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+            eventSchedule={true}
+            id={11}
+            showDayIndex={true}
+          />
+        </WithStyles(GridItem)>
+        <ConnectFunction
+          editing={true}
+          id={11}
+          isPublic={false}
+          key="11__undefined"
+          onEdit={[Function]}
+          renderEmpty={[Function]}
+          simplify={true}
+          smDown={true}
+        />
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent create 1`] = `
+<div>
+  <WithStyles(Component)
+    dayIds={Array []}
+    event={
+      Object {
+        "id": 99,
+      }
+    }
+    onClose={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    startDate={
+      Object {
+        "add": [Function],
+        "date": [Function],
+        "diff": [Function],
+        "format": [Function],
+        "isBefore": [Function],
+        "isSame": [Function],
+        "unix": [Function],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent edit 1`] = `
+<div>
+  <WithStyles(Component)
+    action="edit"
+    dayIds={Array []}
+    event={
+      Object {
+        "id": 99,
+      }
+    }
+    onClose={[Function]}
+    onCloseDialog={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    startDate={
+      Object {
+        "add": [Function],
+        "date": [Function],
+        "diff": [Function],
+        "format": [Function],
+        "isBefore": [Function],
+        "isSame": [Function],
+        "unix": [Function],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent edit 2`] = `
+<div>
+  <ConnectFunction
+    action="view"
+    dayIds={Array []}
+    event={
+      Object {
+        "id": 99,
+      }
+    }
+    isPublic={false}
+    onClose={[Function]}
+    onCloseEdit={[Function]}
+    onEdit={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    startDate={
+      Object {
+        "add": [Function],
+        "date": [Function],
+        "diff": [Function],
+        "format": [Function],
+        "isBefore": [Function],
+        "isSame": [Function],
+        "unix": [Function],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderEvent() should renderEvent plan 1`] = `
+<div>
+  <WithStyles(Component)
+    dayIds={Array []}
+    event={
+      Object {
+        "id": 99,
+      }
+    }
+    onClose={[Function]}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    selectUnscheduled={true}
+    startDate={
+      Object {
+        "add": [Function],
+        "date": [Function],
+        "diff": [Function],
+        "format": [Function],
+        "isBefore": [Function],
+        "isSame": [Function],
+        "unix": [Function],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventListEmpty() should renderEventListEmpty 1`] = `
+<div>
+  <WithStyles(Hr)
+    half={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+    >
+      There are no
+       
+      events on this day
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventListEmpty() should renderEventListEmpty 2`] = `
+<div>
+  <WithStyles(Hr)
+    half={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+    >
+      There are no
+       
+      events on this day
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderEventsWithoutDay() should renderEventsWithoutDay 1`] = `
+<div>
+  <WithStyles(Hr)
+    half={true}
+  />
+  <WithStyles(GridItem)>
+    <WithStyles(GridContainer)
+      alignItems="center"
+      className=""
+      onClick={[Function]}
+    >
+      <WithStyles(GridItem)
+        xs={true}
+      >
+        2
+         to be planned
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <WithStyles(Icon)
+          icon="lnr-arrow-right"
+        />
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderHeader() should renderHeader 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderHeaderTime() should renderHeaderTime 1`] = `<div />`;
+
+exports[`<ViewEvent /> renderLeft() should renderLeft !showAllDays 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={1}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)
+                    xs={true}
+                  />
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      noBorderRadius={true}
+                      onClick={[Function]}
+                    >
+                      <WithStyles(Icon)
+                        icon="lnr-cross"
+                        size="small"
+                      />
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              renderSelectDate
+              <WithStyles(GridItem)>
+                <div>
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                    spacing={0}
+                  >
+                    <WithStyles(GridItem)
+                      xs={true}
+                    />
+                    renderCreateEvent
+                  </WithStyles(GridContainer)>
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={1}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(Icon)
+                          bold={true}
+                          icon="lnr-equalizer"
+                          size="small"
+                        />
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(JTextClass)
+                          gray={true}
+                          sm={true}
+                          uppercase={true}
+                        >
+                          Show
+                        </WithStyles(JTextClass)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      bg="white"
+                      borderGray={true}
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="center"
+                        spacing={0}
+                        wrap="nowrap"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            gray={true}
+                          >
+                            All Days
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(ForwardRef(Switch))
+                            color="primary"
+                            onChange={[Function]}
+                            size="small"
+                          />
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <ConnectFunction
+                      renderButton={[Function]}
+                    >
+                      <Component />
+                    </ConnectFunction>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                card={true}
+                direction="column"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(DayIds)))))))
+                    eventSchedule={true}
+                    id={1}
+                    showDayIndex={true}
+                  />
+                </WithStyles(GridItem)>
+                <ConnectFunction
+                  autoSelect={true}
+                  editing={true}
+                  id={1}
+                  isPublic={false}
+                  key="1__undefined"
+                  onEdit={[Function]}
+                  renderEmpty={[Function]}
+                  simplify={true}
+                  smDown={true}
+                />
+                <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+                  showEmpty={false}
+                  smDown={true}
+                >
+                  <Component />
+                </WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderLeft() should renderLeft showAllDays 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          <div>
+            <WithStyles(GridContainer)
+              direction="column"
+              spacing={1}
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                  wrap="nowrap"
+                >
+                  <WithStyles(GridItem)
+                    xs={true}
+                  />
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      noBorderRadius={true}
+                      onClick={[Function]}
+                    >
+                      <WithStyles(Icon)
+                        icon="lnr-cross"
+                        size="small"
+                      />
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </WithStyles(GridItem)>
+              renderSelectDate
+              <WithStyles(GridItem)>
+                <div>
+                  <WithStyles(GridContainer)
+                    alignItems="center"
+                    spacing={0}
+                  >
+                    <WithStyles(GridItem)
+                      xs={true}
+                    />
+                    renderCreateEvent
+                  </WithStyles(GridContainer)>
+                </div>
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </div>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            direction="column"
+            spacing={0}
+          >
+            <WithStyles(GridItem)>
+              <div>
+                <WithStyles(GridContainer)
+                  alignItems="center"
+                >
+                  <WithStyles(GridItem)>
+                    <WithStyles(GridContainer)
+                      alignItems="center"
+                      spacing={1}
+                      wrap="nowrap"
+                    >
+                      <WithStyles(GridItem)>
+                        <WithStyles(Icon)
+                          bold={true}
+                          icon="lnr-equalizer"
+                          size="small"
+                        />
+                      </WithStyles(GridItem)>
+                      <WithStyles(GridItem)>
+                        <WithStyles(JTextClass)
+                          gray={true}
+                          sm={true}
+                          uppercase={true}
+                        >
+                          Show
+                        </WithStyles(JTextClass)>
+                      </WithStyles(GridItem)>
+                    </WithStyles(GridContainer)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <WithStyles(JButton)
+                      bg="white"
+                      borderGray={true}
+                    >
+                      <WithStyles(GridContainer)
+                        alignItems="center"
+                        spacing={0}
+                        wrap="nowrap"
+                      >
+                        <WithStyles(GridItem)>
+                          <WithStyles(JTextClass)
+                            blue={true}
+                            bold={true}
+                            gray={false}
+                          >
+                            All Days
+                          </WithStyles(JTextClass)>
+                        </WithStyles(GridItem)>
+                        <WithStyles(GridItem)>
+                          <WithStyles(ForwardRef(Switch))
+                            checked={true}
+                            color="primary"
+                            onChange={[Function]}
+                            size="small"
+                          />
+                        </WithStyles(GridItem)>
+                      </WithStyles(GridContainer)>
+                    </WithStyles(JButton)>
+                  </WithStyles(GridItem)>
+                  <WithStyles(GridItem)>
+                    <ConnectFunction
+                      renderButton={[Function]}
+                    >
+                      <Component />
+                    </ConnectFunction>
+                  </WithStyles(GridItem)>
+                </WithStyles(GridContainer)>
+              </div>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(GridContainer)
+                card={true}
+                direction="column"
+              >
+                <WithStyles(GridItem)>
+                  <WithStyles(GridContainer)
+                    direction="column"
+                    spacing={2}
+                  >
+                    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(FlightBookings)))))
+                      className=""
+                      editing={true}
+                    />
+                    renderDay
+                    renderDay
+                  </WithStyles(GridContainer)>
+                </WithStyles(GridItem)>
+              </WithStyles(GridContainer)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderLeft() should return EventsWithoutDay 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+          onClose={[Function]}
+          renderCreateEvent={[Function]}
+          showEmpty={true}
+          smDown={true}
+        />
+        <WithStyles(Hr)
+          half={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            className=""
+            onClick={[Function]}
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              Schedule events
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="lnr-arrow-right"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderLeft() should return FlightBookings 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={2}
+      >
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(PropFilter)))))))
+          onClose={[Function]}
+          renderCreateEvent={[Function]}
+          showEmpty={true}
+          smDown={true}
+        />
+        <WithStyles(Hr)
+          half={true}
+        />
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            className=""
+            onClick={[Function]}
+          >
+            <WithStyles(GridItem)
+              xs={true}
+            >
+              Schedule events
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(Icon)
+                icon="lnr-arrow-right"
+              />
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<ViewEvent /> renderPart() should renderPart 1`] = `<div />`;

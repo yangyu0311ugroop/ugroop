@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DailyAttendance /> #render() still matches snapshot 1`] = `
+<ConnectFunction
+  dataId={null}
+  renderAccommodation={[Function]}
+  subtype={null}
+  type={null}
+/>
+`;
+
+exports[`<DailyAttendance /> #renderPart() still matches snapshot 1`] = `
+<Component
+  dataId={null}
+  formSubtype={null}
+  formType={null}
+  valuePath={
+    Array [
+      "attendance",
+      "recordEachDay",
+    ]
+  }
+/>
+`;

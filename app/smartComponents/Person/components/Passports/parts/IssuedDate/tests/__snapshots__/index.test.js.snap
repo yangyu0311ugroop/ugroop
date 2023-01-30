@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IssuedDate /> render() should render correctly 1`] = `
+<div>
+  <EditableDateForm
+    fullWidth={false}
+    label="Date of Issue"
+    maxDate="now"
+    name="issuedDate"
+    onChange={[Function]}
+    onSubmit={[Function]}
+    placeholder="Click to specify date of issue"
+    readOnly={false}
+    readOnlyPlaceholder="No date of issue"
+    renderValue={[Function]}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<IssuedDate /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <DateField
+    autoComplete="off"
+    displayFormat="D MMMM YYYY"
+    label="Date of Issue"
+    maxDate="now"
+    name="issuedDate"
+    onChange={[Function]}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value={null}
+  />
+</div>
+`;
+
+exports[`<IssuedDate /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <span />
+</div>
+`;

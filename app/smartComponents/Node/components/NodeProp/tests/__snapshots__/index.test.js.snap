@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NodeProp /> clearContent() should call handleValidSubmit 1`] = `
+Array [
+  Array [
+    Object {
+      "undefined": null,
+    },
+  ],
+]
+`;
+
+exports[`<NodeProp /> contentClassName() should return contentClassName 1`] = `"default"`;
+
+exports[`<NodeProp /> gridClassName() should return gridClassName 1`] = `"customgridClassName"`;
+
+exports[`<NodeProp /> handleValidSubmit() should finish if this.isEqual 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`<NodeProp /> isEmpty() should call isEmpty 1`] = `
+Array [
+  Array [
+    undefined,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    123,
+  ],
+]
+`;
+
+exports[`<NodeProp /> isEqual() should call isEqual 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "alignItems": "center",
+      "autoSaveOnBlur": true,
+      "bold": false,
+      "className": "",
+      "classes": Object {
+        "default": "default",
+        "disabled": "disabled",
+      },
+      "component": "span",
+      "componentProps": Object {},
+      "content": "some content",
+      "darkMode": true,
+      "direction": "row",
+      "disabled": false,
+      "editable": false,
+      "id": 2233,
+      "inlineButtons": false,
+      "isCustomData": true,
+      "isEqual": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "isEqual",
+          },
+        ],
+      },
+      "isTextAttrb": false,
+      "isTitleAttrb": false,
+      "loading": false,
+      "mouseEvent": "onMouseDown",
+      "multiline": false,
+      "noContent": "Untitled",
+      "nowrap": false,
+      "onSave": [MockFunction],
+      "photoView": false,
+      "placeholder": "Set title",
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "showEmpty": false,
+      "textAlign": "left",
+      "type": "",
+      "url": false,
+      "variant": "default",
+      "viewComponentProps": Object {},
+    },
+  ],
+]
+`;
+
+exports[`<NodeProp /> makeNode() should call makeNode 1`] = `
+Array [
+  Array [
+    Object {},
+    Object {
+      "alignItems": "center",
+      "autoSaveOnBlur": true,
+      "bold": false,
+      "className": "",
+      "classes": Object {
+        "default": "default",
+        "disabled": "disabled",
+      },
+      "component": "span",
+      "componentProps": Object {},
+      "content": "some content",
+      "darkMode": true,
+      "direction": "row",
+      "disabled": false,
+      "editable": false,
+      "id": 2233,
+      "inlineButtons": false,
+      "isCustomData": true,
+      "isTextAttrb": false,
+      "isTitleAttrb": false,
+      "loading": false,
+      "makeNode": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "makeNode",
+          },
+        ],
+      },
+      "mouseEvent": "onMouseDown",
+      "multiline": false,
+      "noContent": "Untitled",
+      "nowrap": false,
+      "onSave": [MockFunction],
+      "photoView": false,
+      "placeholder": "Set title",
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "showEmpty": false,
+      "textAlign": "left",
+      "type": "",
+      "url": false,
+      "variant": "default",
+      "viewComponentProps": Object {},
+    },
+  ],
+]
+`;
+
+exports[`<NodeProp /> makeNode() should return isCustomData false 1`] = `
+Object {
+  "content": "",
+  "type": "",
+}
+`;
+
+exports[`<NodeProp /> makeNode() should return isCustomData true 1`] = `
+Object {
+  "customData": Object {
+    "description": "value",
+  },
+  "type": "",
+}
+`;
+
+exports[`<NodeProp /> render() should render 1`] = `<div />`;
+
+exports[`<NodeProp /> renderAdvancedButton() should renderAdvancedButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="blue"
+    first={true}
+    inline={true}
+    onClick={[Function]}
+    size="small"
+  >
+    Advanced
+  </WithStyles(Button)>
+</div>
+`;
+
+exports[`<NodeProp /> renderAdvancedButtons() should renderAdvancedButtons 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      renderAdvancedButton
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)>
+      <div>
+        <WithStyles(EditableFormActions)
+          loading={false}
+          noGrid={true}
+          onCancel={[Function]}
+          renderSecondaryActions={[MockFunction]}
+        />
+      </div>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NodeProp /> renderButtons() should renderAdvancedButtons 1`] = `
+<div>
+  renderAdvancedButtons
+</div>
+`;
+
+exports[`<NodeProp /> renderButtons() should renderButtons 1`] = `
+<div>
+  <div>
+    <WithStyles(EditableFormActions)
+      loading={false}
+      noGrid={true}
+      onCancel={[Function]}
+      renderSecondaryActions={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<NodeProp /> renderButtons() should updatingNode 1`] = `
+<div>
+  <WithStyles(LoadingText)
+    icon={true}
+  />
+</div>
+`;
+
+exports[`<NodeProp /> renderClearButton() should renderClearButton 1`] = `
+<div>
+  <WithStyles(Button)
+    color="gray"
+    dense={true}
+    icon="broom"
+    iconButton={true}
+    onClick={[Function]}
+    size="extraSmall"
+    square={true}
+  />
+</div>
+`;
+
+exports[`<NodeProp /> renderComponent() should renderComponent 1`] = `
+<div>
+  <span
+    className="default"
+  >
+    renderView
+  </span>
+</div>
+`;
+
+exports[`<NodeProp /> renderComponent() should renderComponent ellipsis 1`] = `
+<div>
+  <div>
+    <span
+      className="default"
+    >
+      renderView
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<NodeProp /> renderEdit() should renderEdit 1`] = `
+<div>
+  <WithStyles(InlineText)
+    autoFocus={true}
+    className="default"
+    fullWidth={true}
+    multiline={false}
+    placeholder="Set title"
+    useTypography={false}
+  />
+</div>
+`;
+
+exports[`<NodeProp /> renderEdit() should return null 1`] = `
+Array [
+  Array [
+    Object {
+      "alignItems": "center",
+      "autoSaveOnBlur": true,
+      "bold": false,
+      "className": "default",
+      "classes": Object {
+        "default": "default",
+        "disabled": "disabled",
+      },
+      "component": "span",
+      "componentProps": Object {},
+      "content": "some content",
+      "darkMode": true,
+      "direction": "row",
+      "disabled": false,
+      "editable": false,
+      "gridClassName": "",
+      "id": 2233,
+      "inlineButtons": false,
+      "isCustomData": true,
+      "isTextAttrb": false,
+      "isTitleAttrb": false,
+      "loading": false,
+      "mouseEvent": "onMouseDown",
+      "multiline": false,
+      "noContent": "Untitled",
+      "nowrap": false,
+      "onSave": [MockFunction],
+      "photoView": false,
+      "placeholder": "Set title",
+      "renderEdit": [MockFunction] {
+        "calls": [Circular],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "renderEdit",
+          },
+        ],
+      },
+      "resaga": Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      },
+      "showEmpty": false,
+      "textAlign": "left",
+      "type": "",
+      "url": false,
+      "variant": "default",
+      "viewComponentProps": Object {},
+    },
+    Object {
+      "mode": "viewMode",
+    },
+  ],
+]
+`;
+
+exports[`<NodeProp /> renderEditing() should renderEditing 1`] = `
+<div>
+  <ClickAwayListener
+    mouseEvent="onMouseDown"
+    onClickAway={[Function]}
+  >
+    <GenericForm
+      canSubmitForm={true}
+      cancelButtonContent="Discard"
+      disabled={false}
+      discardDialogProps={Object {}}
+      loading={false}
+      onInvalid={[Function]}
+      onValid={[Function]}
+      onValidSubmit={[Function]}
+      showChangeRoutePrompt={false}
+      submitButtonContent="Submit"
+    >
+      <WithStyles(GridContainer)
+        alignItems="center"
+        className=""
+        direction="row"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          renderEdit
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          className=""
+        >
+          renderButtons
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </GenericForm>
+  </ClickAwayListener>
+</div>
+`;
+
+exports[`<NodeProp /> renderView() should return noContent 1`] = `
+<div>
+  <i>
+    Untitled
+  </i>
+</div>
+`;
+
+exports[`<NodeProp /> renderViewing() should renderViewing 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    className=""
+    spacing={0}
+    wrap="nowrap"
+  >
+    <WithStyles(GridItem)
+      xs={12}
+    >
+      <WithStyles(InlineButton)
+        color="inherit"
+        darkMode={true}
+        fullWidth={true}
+        hover={true}
+        onClick={[Function]}
+        padding="none"
+        textAlign="left"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)
+            xs={true}
+          >
+            renderComponent
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              icon="lnr-pencil"
+              size="small"
+            />
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(InlineButton)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<NodeProp /> submitForm() should submitForm 1`] = `
+Array [
+  Array [],
+]
+`;

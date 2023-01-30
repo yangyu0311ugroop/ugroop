@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AbilityResolver/config.js Smoke Test should exists 1`] = `
+Object {
+  "setValue": Object {
+    "abilityUpdated": Array [
+      "abilityDataStore",
+      "abilityUpdated",
+    ],
+    "executeAbilityUpdate": Array [
+      "abilityDataStore",
+      "executeAbilityUpdate",
+    ],
+  },
+  "value": Object {
+    "executeAbilityUpdate": Array [
+      "abilityDataStore",
+      "executeAbilityUpdate",
+    ],
+    "organisation": [Function],
+    "tour": [Function],
+  },
+}
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stop /> render() should render 1`] = `
+<div>
+  <WithStyles(GridItem)>
+    <div>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)
+          xs={true}
+        >
+          Arrive 
+          <b />
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(GridContainer)
+            alignItems="center"
+            spacing={1}
+            wrap="nowrap"
+          >
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                link={true}
+                noUnderlined={true}
+                onClick={[Function]}
+              >
+                Change airport
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+            <WithStyles(GridItem)>
+              <WithStyles(JTextClass)
+                danger={true}
+              >
+                Remove
+              </WithStyles(JTextClass)>
+            </WithStyles(GridItem)>
+          </WithStyles(GridContainer)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </div>
+  </WithStyles(GridItem)>
+</div>
+`;

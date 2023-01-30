@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniCalendar /> render should match snapshot none 1`] = `
+<div>
+  <table>
+    <tr>
+      <td
+        colSpan="7"
+      >
+        Days
+      </td>
+    </tr>
+    <tbody>
+      renderWeek
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<MiniCalendar /> render should match snapshot startDate 1`] = `
+<div>
+  <table>
+    <tr>
+      <td
+        colSpan="7"
+      >
+        renderMonthHeader
+      </td>
+    </tr>
+    <tr>
+      renderWeekHeaders
+    </tr>
+    <tbody>
+      renderWeek
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<MiniCalendar /> render should match snapshot weekDay 1`] = `
+<div>
+  <table>
+    <tr>
+      <td
+        colSpan="7"
+      >
+        Weekdays
+      </td>
+    </tr>
+    <tr>
+      renderWeekHeaders
+    </tr>
+    <tbody>
+      renderWeek
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<MiniCalendar /> render() should render 1`] = `
+<div>
+  <table>
+    <tr>
+      <td
+        className=""
+        key="Su"
+      >
+        Su
+      </td>
+      <td
+        className=""
+        key="Mo"
+      >
+        Mo
+      </td>
+      <td
+        className=""
+        key="Tu"
+      >
+        Tu
+      </td>
+      <td
+        className=""
+        key="We"
+      >
+        We
+      </td>
+      <td
+        className=""
+        key="Th"
+      >
+        Th
+      </td>
+      <td
+        className=""
+        key="Fr"
+      >
+        Fr
+      </td>
+      <td
+        className=""
+        key="Sa"
+      >
+        Sa
+      </td>
+    </tr>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`<MiniCalendar /> renderDate() should renderDate 1 1`] = `
+<div>
+  1 Sep
+</div>
+`;
+
+exports[`<MiniCalendar /> renderDate() should renderDate 2 1`] = `
+<div>
+  2
+</div>
+`;
+
+exports[`<MiniCalendar /> renderDay() should renderDay 1`] = `
+<div>
+  <td
+    className=""
+  >
+    renderDayContent
+  </td>
+</div>
+`;
+
+exports[`<MiniCalendar /> renderMonthHeader should return different month, render year once 1`] = `
+<div>
+  1 - 2
+</div>
+`;
+
+exports[`<MiniCalendar /> renderMonthHeader should return different year render both month and year 1`] = `
+<div>
+  1 - 2
+</div>
+`;
+
+exports[`<MiniCalendar /> renderMonthHeader should return same month, render month and year once 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`<MiniCalendar /> renderWeek should show isStartDateInThisWeek is false 1`] = `
+<div>
+  <tr
+    key="1"
+  >
+    renderDayProp
+    renderDayProp
+  </tr>
+</div>
+`;
+
+exports[`<MiniCalendar /> renderWeek should show isStartDateInThisWeek true 1`] = `
+<div>
+  <tr
+    key="1"
+  >
+    renderDayProp
+  </tr>
+</div>
+`;
+
+exports[`<MiniCalendar /> renderWeekHeaders should match snapshot 1`] = `
+<div>
+  <td
+    className=""
+    key="1"
+  >
+    1
+  </td>
+</div>
+`;

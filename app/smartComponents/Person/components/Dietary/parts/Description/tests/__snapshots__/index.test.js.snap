@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DietaryDescription /> render() should render correctly 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+  />
+</div>
+`;
+
+exports[`<DietaryDescription /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <TextField
+    autoFocus={true}
+    maxLength={0}
+    minLength={0}
+    name="dietary.description"
+    placeholder="Enter description"
+    required={true}
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<DietaryDescription /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <Span
+    dense={true}
+    transform="capitalize"
+  />
+</div>
+`;

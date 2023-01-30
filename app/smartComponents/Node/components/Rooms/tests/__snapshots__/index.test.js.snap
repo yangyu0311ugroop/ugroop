@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rooms /> handleCreateLinkError() should handleCreateLinkError 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="lnr-bed"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H3>
+          There are no rooms created yet
+        </H3>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(Button)
+            className=""
+            color="primary"
+            dense={true}
+            onClick={[Function]}
+            size="small"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="row"
+              justify="center"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  icon="lnr-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Add Room
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> handleCreateLinkSuccess() should handleCreateLinkSuccess 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="lnr-bed"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H3>
+          There are no rooms created yet
+        </H3>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(Button)
+            className=""
+            color="primary"
+            dense={true}
+            onClick={[Function]}
+            size="small"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="row"
+              justify="center"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  icon="lnr-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Add Room
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> handleSelectOption() should handleSelectOption 1`] = `<div />`;
+
+exports[`<Rooms /> handleSelectOption() should handleSelectOption 2`] = `<div />`;
+
+exports[`<Rooms /> openAddRoom() should openAddRoom 1`] = `<div />`;
+
+exports[`<Rooms /> openAddRoom() should openAddRoom 2`] = `<div />`;
+
+exports[`<Rooms /> render() should render 1`] = `
+<div>
+  LOGIC_HELPERS.switchCase
+</div>
+`;
+
+exports[`<Rooms /> render() should render on mobile 1`] = `
+<div>
+  LOGIC_HELPERS.switchCase
+</div>
+`;
+
+exports[`<Rooms /> renderBlankSlate() should renderBlankSlate 1`] = `
+<div>
+  <WithStyles(JTextClass)
+    gray={true}
+    italic={true}
+    md={true}
+    textCenter={true}
+  >
+    There are no rooms created yet
+  </WithStyles(JTextClass)>
+</div>
+`;
+
+exports[`<Rooms /> renderBody() should renderBody 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`<Rooms /> renderCard() should renderCard 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(RoomCard)))
+    filteredRooms={Array []}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    rooms={Array []}
+    sortMode="name"
+  />
+</div>
+`;
+
+exports[`<Rooms /> renderDefault() should renderDefault 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="lnr-bed"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H3>
+          There are no rooms created yet
+        </H3>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(Button)
+            className=""
+            color="primary"
+            dense={true}
+            onClick={[Function]}
+            size="small"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="row"
+              justify="center"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  icon="lnr-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Add Room
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderDefault() should renderDefault 2`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+    id={1}
+    index={0}
+    key="1"
+  />
+</div>
+`;
+
+exports[`<Rooms /> renderList() should renderDefault 1`] = `
+<div>
+  <WithStyles(GridItem)
+    xs={12}
+  >
+    <WithStyles(Table)>
+      <WithStyles(TableHeader)>
+        <WithStyles(TableRow)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Room Type"
+              id="app.smartComponents.Node.components.Rooms.colLabelRoomType"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Title"
+              id="app.smartComponents.Node.components.Rooms.colLabelRoomTitle"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Name"
+              id="app.smartComponents.Node.components.Rooms.colLabelName"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          >
+            <FormattedMessage
+              defaultMessage="Age Type"
+              id="app.smartComponents.Node.components.Rooms.colLabelRoomAgeType"
+            />
+          </WithStyles(TableHeadCell)>
+          <WithStyles(TableHeadCell)
+            padding="halfLeftRight"
+          />
+        </WithStyles(TableRow)>
+      </WithStyles(TableHeader)>
+      <WithStyles(TableBody)>
+        <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+          id={1}
+          index={0}
+          key="1"
+          sortMode="name"
+          variant="list"
+        />
+      </WithStyles(TableBody)>
+    </WithStyles(Table)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderList() should renderList 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(GridContainer)
+      alignItems="center"
+      direction="column"
+      spacing={1}
+    >
+      <WithStyles(GridItem)>
+        <WithStyles(GridItem)>
+          <WithStyles(Icon)
+            color="gray"
+            icon="lnr-bed"
+            size="xl"
+          />
+        </WithStyles(GridItem)>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <H3>
+          There are no rooms created yet
+        </H3>
+      </WithStyles(GridItem)>
+      <WithStyles(GridItem)>
+        <BoundCan
+          do="create"
+          on="room"
+        >
+          <WithStyles(Button)
+            className=""
+            color="primary"
+            dense={true}
+            onClick={[Function]}
+            size="small"
+          >
+            <WithStyles(GridContainer)
+              alignItems="center"
+              direction="row"
+              justify="center"
+              wrap="nowrap"
+            >
+              <WithStyles(GridItem)>
+                <WithStyles(Icon)
+                  bold={true}
+                  icon="lnr-plus"
+                  size="xsmall"
+                />
+              </WithStyles(GridItem)>
+              <WithStyles(GridItem)>
+                Add Room
+              </WithStyles(GridItem)>
+            </WithStyles(GridContainer)>
+          </WithStyles(Button)>
+        </BoundCan>
+      </WithStyles(GridItem)>
+    </WithStyles(GridContainer)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderListHeader() should render on mobile 1`] = `
+<div>
+  <WithStyles(TableHeader)>
+    <WithStyles(TableRow)>
+      <WithStyles(TableHeadCell)
+        padding="halfLeftRight"
+      >
+        <FormattedMessage
+          defaultMessage="Room Type"
+          id="app.smartComponents.Node.components.Rooms.colLabelRoomType"
+        />
+      </WithStyles(TableHeadCell)>
+      <WithStyles(TableHeadCell)
+        padding="halfLeftRight"
+      >
+        <FormattedMessage
+          defaultMessage="{paxLabel}"
+          id="app.smartComponents.Node.components.Rooms.colLabelRoomGeneral"
+          values={
+            Object {
+              "paxLabel": undefined,
+            }
+          }
+        />
+      </WithStyles(TableHeadCell)>
+      <WithStyles(TableHeadCell)
+        padding="halfLeftRight"
+      />
+    </WithStyles(TableRow)>
+  </WithStyles(TableHeader)>
+</div>
+`;
+
+exports[`<Rooms /> renderRoomOptions() should renderRoomOptions 1`] = `
+<div>
+  <WithStyles(GridItem)
+    className=""
+  >
+    <WithStyles(JTextClass)
+      gray={true}
+      italic={true}
+      md={true}
+      textCenter={true}
+    >
+      There are no rooms created yet
+    </WithStyles(JTextClass)>
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderRoomOptions() should renderRoomOptions 2`] = `
+<div>
+  <WithStyles(GridItem)
+    key="true"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+      id={2}
+      index={1}
+      key="2"
+      menuItemClick={[Function]}
+      variant="menuItem"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderRoomOptions() should renderRoomOptions 3`] = `
+<div>
+  <WithStyles(GridItem)
+    key="true"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+      id={1}
+      index={0}
+      key="1"
+      menuItemClick={[Function]}
+      variant="menuItem"
+    />
+  </WithStyles(GridItem)>
+  <WithStyles(GridItem)
+    key="true"
+  >
+    <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+      id={2}
+      index={1}
+      key="2"
+      menuItemClick={[Function]}
+      variant="menuItem"
+    />
+  </WithStyles(GridItem)>
+</div>
+`;
+
+exports[`<Rooms /> renderRoomTypeOptions() should renderRoomTypeOptions 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+    spacing={0}
+  >
+    <WithStyles(GridItem)>
+      Create new room
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        Single
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        Double
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        Twin
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        Triple
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+    <WithStyles(GridItem)
+      key="true"
+    >
+      <WithStyles(MenuItem)
+        onClick={[Function]}
+      >
+        Others
+      </WithStyles(MenuItem)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Rooms /> renderSelect() should renderSelect 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(GridContainer)
+        direction="column"
+        spacing={0}
+      >
+        <WithStyles(GridItem)>
+          Create new room
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="true"
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            Single
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="true"
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            Double
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="true"
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            Twin
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="true"
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            Triple
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+        <WithStyles(GridItem)
+          key="true"
+        >
+          <WithStyles(MenuItem)
+            onClick={[Function]}
+          >
+            Others
+          </WithStyles(MenuItem)>
+        </WithStyles(GridItem)>
+      </WithStyles(GridContainer)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Rooms /> renderSelect() should renderSelect 2`] = `
+<div>
+  <WithStyles(GridContainer)
+    direction="column"
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(Component)))))))
+        id={1}
+        occupantLabel={
+          <WithStyles(JTextClass)
+            blue={true}
+            ellipsis={true}
+            paddingRight={true}
+            sm={true}
+            uppercase={true}
+          >
+            Rooming with
+          </WithStyles(JTextClass)>
+        }
+        variant="selectField"
+      />
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;
+
+exports[`<Rooms /> renderSummary() should renderSummary 1`] = `
+<div>
+  <WithStyles(Connect(WithSimplifyResaga(Connect(WithSimplifyResaga(RoomSummary)))))
+    filteredRooms={Array []}
+    resaga={
+      Object {
+        "dispatchTo": [MockFunction],
+        "setValue": [MockFunction],
+      }
+    }
+    rooms={Array []}
+    sortMode="name"
+  />
+</div>
+`;

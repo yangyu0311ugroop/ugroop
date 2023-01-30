@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastUpdateAt /> render() should render children 1`] = `
+<div>
+  children
+</div>
+`;
+
+exports[`<LastUpdateAt /> renderProp() should renderDefault 1`] = `
+<div>
+  renderDefault
+</div>
+`;
+
+exports[`<LastUpdateAt /> to match with Snapshot 1`] = `undefined`;
+
+exports[`<LastUpdateAt /> to match with Snapshot with time 1`] = `undefined`;

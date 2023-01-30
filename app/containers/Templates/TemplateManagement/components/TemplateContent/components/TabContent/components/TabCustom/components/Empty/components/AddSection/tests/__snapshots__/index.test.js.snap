@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddSection /> addSection() should dispatch CREATE_CHILD_NODE 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createChild",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 0,
+        "keyPath": "0.children",
+        "node": Object {
+          "type": "activity",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddSection /> addSection() should dispatch CREATE_NEXT_NODE 1`] = `
+Array [
+  Array [
+    "Nodes",
+    "createNextNode",
+    Object {
+      "onSuccess": [Function],
+      "payload": Object {
+        "id": 123,
+        "keyPath": "0.children",
+        "node": Object {
+          "type": "activity",
+        },
+        "nodeId": 0,
+      },
+    },
+  ],
+]
+`;
+
+exports[`<AddSection /> createSuccess() should call setValue 1`] = `
+Array [
+  Array [
+    Object {
+      "editSections": [Function],
+      "sections": [Function],
+      "tabs": [Function],
+    },
+  ],
+]
+`;
+
+exports[`<AddSection /> render() should render correctly 1`] = `
+<div>
+  <WithStyles(GridContainer)
+    alignItems="center"
+    direction="column"
+    spacing={1}
+  >
+    <WithStyles(GridItem)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+        size="xs"
+        weight="bold"
+      >
+        <WithStyles(GridContainer)
+          alignItems="center"
+          direction="row"
+          spacing={1}
+          wrap="nowrap"
+        >
+          <WithStyles(GridItem)>
+            <WithStyles(Icon)
+              bold={true}
+              icon="lnr-plus"
+              size="small"
+            />
+          </WithStyles(GridItem)>
+          <WithStyles(GridItem)>
+            Add a section
+          </WithStyles(GridItem)>
+        </WithStyles(GridContainer)>
+      </WithStyles(Button)>
+    </WithStyles(GridItem)>
+  </WithStyles(GridContainer)>
+</div>
+`;

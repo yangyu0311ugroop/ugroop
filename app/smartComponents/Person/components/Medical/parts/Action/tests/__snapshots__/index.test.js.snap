@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MedicalAction /> render() should render correctly 1`] = `
+<div>
+  <Span
+    dense={true}
+    subtitle={true}
+  >
+    <FormattedMessage
+      defaultMessage="No plan specified"
+      id="app.smartComponents.Person.Medical.Action.textOnlyPlaceholder"
+    />
+  </Span>
+</div>
+`;
+
+exports[`<MedicalAction /> render() should render correctly if variant is text field 1`] = `
+<div>
+  <TextField
+    label={
+      <FormattedMessage
+        defaultMessage="Action/treatment plan"
+        id="app.smartComponents.Person.Medical.Action.label"
+      />
+    }
+    maxLength={0}
+    minLength={0}
+    name="medical.action"
+    type="text"
+    validationErrors={Object {}}
+    validations={Object {}}
+    value=""
+  />
+</div>
+`;
+
+exports[`<MedicalAction /> render() should render correctly if variant is text only 1`] = `
+<div>
+  <Span
+    dense={true}
+    subtitle={true}
+  >
+    <FormattedMessage
+      defaultMessage="No plan specified"
+      id="app.smartComponents.Person.Medical.Action.textOnlyPlaceholder"
+    />
+  </Span>
+</div>
+`;
